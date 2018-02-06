@@ -11,26 +11,43 @@
     }
   ],
   "devDependencies": {
-    "babel-eslint": "8.1.2",
+    "babel-eslint": "8.2.1",
     "babel-plugin-react-native-web": "0.3.0-rc.4",
-    "eslint": "4.14.0",
+    "eslint": "4.16.0",
     "eslint-config-airbnb": "16.1.0",
     "eslint-plugin-import": "2.8.0",
     "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.5.1"
+    "eslint-plugin-react": "7.6.1",
+
+    "jest-expo": "25.0.0",
+    "react-native-scripts": "1.11.1",
+    "react-native-test-utils": "1.1.1",
+    "react-test-renderer": "16.2.0"
   },
   "dependencies": {
     "color": "2.0.1",
+    "expo": "^25.0.0",
     "prop-types": "15.6.0",
     "react": "16.2.0",
     "react-dom": "16.2.0",
+    "react-native": "0.52.0",
     "react-native-web": "0.3.0-rc.4",
     "react-scripts": "1.0.17"
   },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+
+    "rnstart": "react-native-scripts start",
+    "rneject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+
+    "test": "react-scripts test --env=jsdom"
   }
 }
