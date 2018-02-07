@@ -820,9 +820,9 @@ babel-plugin-module-resolver@^2.7.1:
     glob "^7.1.1"
     resolve "^1.2.0"
 
-babel-plugin-react-native-web@0.3.0-rc.4:
-  version "0.3.0-rc.4"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.3.0-rc.4.tgz#b5789ad50981c832219d5d2b81cd92796347af79"
+babel-plugin-react-native-web@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.4.0.tgz#6223b70997c1bedb294859980f727a9194f43351"
 
 babel-plugin-react-transform@^3.0.0:
   version "3.0.0"
@@ -4540,9 +4540,9 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-inline-style-prefixer@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-3.0.8.tgz#8551b8e5b4d573244e66a34b04f7d32076a2b534"
+inline-style-prefixer@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/inline-style-prefixer/-/inline-style-prefixer-4.0.0.tgz#30a03df1b346ba6b1fb8a812bc3c9dabef48022d"
   dependencies:
     bowser "^1.7.3"
     css-in-js-utils "^2.0.0"
@@ -5097,9 +5097,9 @@ jest-environment-node@^22.1.4:
     jest-mock "^22.1.0"
     jest-util "^22.1.4"
 
-jest-expo@^25.0.0:
-  version "25.1.0"
-  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-25.1.0.tgz#7f91d0c93f3dadaa8f45dab065d06bccd0519a8c"
+jest-expo@25.0.0:
+  version "25.0.0"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-25.0.0.tgz#c17b77b66091aca174445405a19ce2ae88e27dd9"
   dependencies:
     babel-jest "^22.1.0"
     jest "^22.1.1"
@@ -7711,9 +7711,9 @@ react-native-vector-icons@4.4.2:
     prop-types "^15.5.10"
     yargs "^8.0.2"
 
-react-native-web@0.3.0-rc.4:
-  version "0.3.0-rc.4"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.3.0-rc.4.tgz#44e6e0dda3c53e94b15cd8f636bba23f9176896e"
+react-native-web@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.4.0.tgz#5c334fb6eba1623886e162d73174b3cc37826e63"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -7721,7 +7721,7 @@ react-native-web@0.3.0-rc.4:
     deep-assign "^2.0.0"
     fbjs "^0.8.16"
     hyphenate-style-name "^1.0.2"
-    inline-style-prefixer "^3.0.8"
+    inline-style-prefixer "^4.0.0"
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
     react-art "^16.2.0"
