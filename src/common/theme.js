@@ -1,7 +1,10 @@
 import Color from 'color';
+import { Platform } from 'react-native';
 
-const PRIMARY = '#10c0bc';
 const ACCENT = '#F69A37';
+const BLACK = '#000000';
+const PRIMARY = '#10c0bc';
+const WHITE = '#ffffff';
 const UNIT = 10;
 
 export default {
@@ -28,8 +31,8 @@ export default {
     WARNING: '#FDCD48',
     // -- Base
     BASE: '#cccccc',
-    BLACK: '#000000',
-    WHITE: '#ffffff',
+    BLACK,
+    WHITE,
     // -- Social
     BOOKING: '#498cdf',
     FACEBOOK: '#4c66a4',
@@ -72,6 +75,16 @@ export default {
       alignItems: 'center',
       alignContent: 'center',
       justifyContent: 'center',
+    },
+
+    SHADOW: {
+      shadowColor: BLACK,
+      shadowOffset: { height: 2, width: 0 },
+      shadowOpacity: 0.26,
+      shadowRadius: 5,
+      ...Platform.select({
+        android: { elevation: 4 },
+      }),
     },
   },
 };

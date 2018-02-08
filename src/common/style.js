@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 import THEME from './theme';
 
 const {
@@ -39,10 +39,12 @@ export default StyleSheet.create({
   },
 
   SHADOW: {
-    elevation: 5,
     shadowColor: COLOR.BLACK,
     shadowOffset: { height: 2, width: 0 },
     shadowOpacity: 0.26,
     shadowRadius: 5,
+    ...Platform.select({
+      android: { elevation: 4 },
+    }),
   },
 });

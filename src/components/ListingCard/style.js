@@ -3,32 +3,27 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, OFFSET, UNIT,
+  COLOR, FONT, LAYOUT, OFFSET, UNIT, STYLE,
 } = THEME;
 
 export default StyleSheet.create({
   container: {
     margin: OFFSET / 2,
     width: LAYOUT.CARD_MAX_WIDTH,
+    overflow: 'hidden',
   },
 
-  image: {
-    backgroundColor: COLOR.BACKGROUND,
-    width: LAYOUT.CARD_MAX_WIDTH,
-    height: LAYOUT.CARD_IMAGE_HEIGHT,
+  empty: {
+    borderColor: COLOR.BORDER,
+    borderWidth: 1,
   },
 
-  placeholder: {
-    width: LAYOUT.CARD_MAX_WIDTH / 3,
-    height: LAYOUT.CARD_MAX_WIDTH / 2,
+  elevation: {
+    ...STYLE.SHADOW,
   },
 
   content: {
     padding: UNIT,
-  },
-
-  highlight: {
-    color: COLOR.WHITE,
   },
 
   rating: {
