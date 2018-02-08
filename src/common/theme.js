@@ -13,6 +13,9 @@ export default {
     ACCENT_DARKEN: Color(ACCENT).darken(0.35),
     PRIMARY,
     PRIMARY_DARKEN: Color(PRIMARY).darken(0.35),
+    // -- Text
+    TEXT: '#4a4a4a',
+    TEXT_LIGHTEN: '#9b9b9b',
     // -- Backgrounds
     BACKGROUND: '#f4f4f4',
     BORDER: '#dbdbdb',
@@ -35,6 +38,7 @@ export default {
   },
 
   FONT: {
+    FAMILY: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
     SIZE: {
       TINY: UNIT * 1.1,
       SMALL: UNIT * 1.2,
@@ -61,5 +65,13 @@ export default {
     HEADER_HEIGHT: UNIT * 6.4,
     INPUT_HEIGHT: UNIT * 4.4,
     PICKER_MAX_HEIGHT: UNIT * 51.2,
+  },
+
+  STYLE: {
+    CENTERED: {
+      alignItems: 'center',
+      alignContent: 'center',
+      justifyContent: 'center',
+    },
   },
 };
