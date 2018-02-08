@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../common';
+import { THEME } from '../../common';
 
 const {
   COLOR, FONT, LAYOUT, OFFSET, UNIT,
@@ -9,8 +9,7 @@ const {
 export default StyleSheet.create({
   container: {
     margin: OFFSET / 2,
-    width: '100%',
-    maxWidth: LAYOUT.CARD_MAX_WIDTH,
+    width: LAYOUT.CARD_MAX_WIDTH,
   },
 
   image: {

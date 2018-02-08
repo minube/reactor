@@ -1,7 +1,8 @@
 import { array, node, number, oneOfType } from 'prop-types';
 import React from 'react';
 import { ScrollView, View } from 'react-native';
-import styles from './Content.style';
+
+import styles from './style';
 
 const Content = ({
   children, style,

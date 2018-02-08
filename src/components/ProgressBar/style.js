@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../common';
+import { THEME } from '../../common';
 
 const { COLOR, UNIT } = THEME;
 

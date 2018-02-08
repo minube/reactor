@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
-import { THEME } from '../common';
+
+import { THEME } from '../../common';
 
 const {
   BORDER_RADIUS, COLOR, FONT, LAYOUT, OFFSET, UNIT,
@@ -8,7 +9,7 @@ const {
 export default StyleSheet.create({
   container: {
     borderRadius: BORDER_RADIUS,
-    display: 'flex',
+    // display: 'flex',
     paddingVertical: UNIT,
     paddingHorizontal: OFFSET,
     margin: UNIT / 2,

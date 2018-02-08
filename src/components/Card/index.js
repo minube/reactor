@@ -2,9 +2,9 @@ import { array, bool, func, node, number, oneOfType, shape, string } from 'prop-
 import React from 'react';
 import { Image, Text, TouchableWithoutFeedback, View } from 'react-native';
 
-import { STYLE } from '../common';
-import Icon from './Icon';
-import styles from './Card.style';
+import { STYLE } from '../../common';
+import Icon from './../Icon';
+import styles from './style';
 
 const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg';
 

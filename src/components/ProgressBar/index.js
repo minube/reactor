@@ -1,8 +1,8 @@
 import React from 'react';
 import { Platform, ProgressBar, View } from 'react-native';
 
-import { THEME } from '../common';
-import styles from './ProgressBar.style';
+import { THEME } from '../../common';
+import styles from './style';
 
 const { COLOR } = THEME;
 

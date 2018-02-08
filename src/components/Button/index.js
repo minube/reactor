@@ -1,18 +1,19 @@
 import { array, bool, func, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Text, TouchableOpacity, View } from 'react-native';
+import { Text, View } from 'react-native';
 
-import { THEME, STYLE } from '../common';
-import Activity from './Activity';
-import Icon from './Icon';
-import styles from './Button.style';
+import { THEME, STYLE } from '../../common';
+import Activity from './../Activity';
+import Icon from './../Icon';
+import Touchable from './../Touchable';
+import styles from './style';
 
 const { COLOR: { PRIMARY, WHITE } } = THEME;
 
 const Button = ({
   activity, color, disabled, icon, onPress, style, title,
 }) => (
-  <TouchableOpacity disabled={disabled} onPress={!disabled ? onPress : undefined}>
+  <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined} raised={color === undefined}>
     <View
       style={[
         STYLE.ROW,
@@ -22,7 +23,8 @@ const Button = ({
         !title && icon && styles.floating,
         color && !disabled && STYLE.SHADOW,
         color && disabled && styles.disabled,
-        style]}
+        style,
+      ]}
     >
       { activity && <Activity color={color ? WHITE : PRIMARY} style={title && styles.activity} type="small" /> }
       { !activity && icon &&
@@ -36,7 +38,7 @@ const Button = ({
           {title}
         </Text> }
     </View>
-  </TouchableOpacity>
+  </Touchable>
 );
 
 Button.propTypes = {

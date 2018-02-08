@@ -2,9 +2,9 @@ import { array, bool, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { Text, View } from 'react-native';
 
-import { STYLE } from '../common';
-import ProgressBar from './ProgressBar';
-import styles from './Header.style';
+import { STYLE } from '../../common';
+import ProgressBar from './../ProgressBar';
+import styles from './style';
 
 const Header = ({
   children, description, loading, style, title,
