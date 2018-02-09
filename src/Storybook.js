@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 
 import { STYLE, THEME } from './common';
 import {
-  Button, Content, Header, Input, ListingCard, PictureCard, ProgressBar, Switch,
+  Button, Content, Dialog, Header, Input, ListingCard, PictureCard, ProgressBar, Switch,
 } from './components';
 import styles from './Storybook.style';
 
@@ -31,12 +31,17 @@ class Storybook extends Component {
   }
 
   render() {
-    const { dialog, formSwitch } = this.state;
+    const { _onDialog, state: { dialog, formSwitch } } = this;
 
     return (
       <View style={styles.app}>
         <Header title="minube" description="reactor" />
         <Content style={styles.container}>
+
+          <Text style={styles.title}>Dialog</Text>
+          <View style={[STYLE.SHADOW, styles.content]}>
+            <Button title="Show Dialog" primary onPress={_onDialog} />
+          </View>
 
           <Text style={styles.title}>PictureCard</Text>
           <View style={[STYLE.SHADOW, STYLE.ROW, styles.content]}>
@@ -77,6 +82,7 @@ class Storybook extends Component {
             </ListingCard>
           </View>
 
+
           <Text style={styles.title}>Forms</Text>
           <View style={[STYLE.SHADOW, styles.content]}>
             <Input label="Name" defaultValue="Javi" />
@@ -108,8 +114,6 @@ class Storybook extends Component {
             <Button icon="search" color={COLOR.PRIMARY} activity />
           </View>
 
-
-
           <Text style={styles.title}>ProgressBar</Text>
           <View style={[STYLE.SHADOW, styles.content]}>
             <Text>indeterminate</Text>
@@ -118,6 +122,14 @@ class Storybook extends Component {
             <ProgressBar progress={0.33} />
           </View>
         </Content>
+
+        <Dialog visible={dialog} onClose={_onDialog} onSubmit={_onDialog} title="Example of dialog">
+          <Text>{LIPSUM}</Text>
+          <View>
+            <Input label="Username" />
+            <Input label="Password" secureTextEntry />
+          </View>
+        </Dialog>
       </View>
     );
   }

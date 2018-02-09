@@ -37,7 +37,7 @@ export default StyleSheet.create({
 
     ...Platform.select({
       web: {
-        fontFamily: 'inherit',
+        fontFamily: FONT.FAMILY,
         outline: 'none',
       },
     }),

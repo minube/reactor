@@ -77,6 +77,12 @@ export default {
       justifyContent: 'center',
     },
 
+    ROW: {
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+
     SHADOW: {
       shadowColor: BLACK,
       shadowOffset: { height: 2, width: 0 },
