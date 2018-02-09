@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 
 import { STYLE, THEME } from './common';
 import {
-  Button, Content, Dialog, Header, Input, ListingCard, PictureCard, ProgressBar, Switch,
+  Button, Content, Dialog, Header, HotelCard, Input, Link, ListingCard, PictureCard, ProgressBar, Switch,
 } from './components';
 import styles from './Storybook.style';
 
@@ -38,9 +38,22 @@ class Storybook extends Component {
         <Header title="minube" description="reactor" />
         <Content style={styles.container}>
 
-          <Text style={styles.title}>Dialog</Text>
-          <View style={[STYLE.SHADOW, styles.content]}>
-            <Button title="Show Dialog" primary onPress={_onDialog} />
+          <Text style={styles.title}>Link</Text>
+          <View style={[STYLE.SHADOW, STYLE.ROW, styles.content]}>
+            <Link href="http://soyjavi.com" target="_blank">Hello WOrld</Link>
+          </View>
+
+          <Text style={styles.title}>HotelCard</Text>
+          <View style={[STYLE.SHADOW, STYLE.ROW, styles.content]}>
+            <HotelCard empty />
+            <HotelCard
+              image={LIPSUM_IMAGE}
+              title="Hotel Kurutziaga Jauregia"
+              location="Mundaka, España"
+              comment="Habitaciones limpias Personal maravilloso"
+              value={7}
+              proposals={[]}
+            />
           </View>
 
           <Text style={styles.title}>PictureCard</Text>
@@ -82,6 +95,10 @@ class Storybook extends Component {
             </ListingCard>
           </View>
 
+          <Text style={styles.title}>Dialog</Text>
+          <View style={[STYLE.SHADOW, styles.content]}>
+            <Button title="Show Dialog" primary onPress={_onDialog} />
+          </View>
 
           <Text style={styles.title}>Forms</Text>
           <View style={[STYLE.SHADOW, styles.content]}>

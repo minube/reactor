@@ -7,6 +7,11 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
+
+  app: {
+    color: COLOR.TEXT,
+  },
+
   container: {
     marginTop: LAYOUT.HEADER_HEIGHT,
     paddingHorizontal: OFFSET,

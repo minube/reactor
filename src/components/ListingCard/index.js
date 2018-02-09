@@ -7,7 +7,7 @@ import Icon from '../Icon';
 import PictureCard from '../PictureCard';
 import styles from './style';
 
-const Card = ({
+const ListingCard = ({
   children, comment, description, empty, onPress, rating, style, title, ...inherit
 }) => (
   <View style={[styles.container, empty ? styles.empty : styles.elevation, style]}>
@@ -33,7 +33,7 @@ const Card = ({
   </View>
 );
 
-Card.propTypes = {
+ListingCard.propTypes = {
   children: node,
   comment: shape({
     image: string,
@@ -48,7 +48,7 @@ Card.propTypes = {
   title: string,
 };
 
-Card.defaultProps = {
+ListingCard.defaultProps = {
   children: undefined,
   comment: undefined,
   description: undefined,
@@ -60,4 +60,4 @@ Card.defaultProps = {
   title: undefined,
 };
 
-export default Card;
+export default ListingCard;
