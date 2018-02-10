@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from './common';
 
@@ -8,14 +8,20 @@ const {
 
 export default StyleSheet.create({
 
-  app: {
-    color: COLOR.TEXT,
+  container: {
+    backgroundColor: COLOR.BACKGROUND,
+    padding: OFFSET,
   },
 
-  container: {
-    marginTop: LAYOUT.HEADER_HEIGHT,
-    paddingHorizontal: OFFSET,
-    paddingBottom: LAYOUT.HEADER_HEIGHT,
+  wrapper: {
+    // padding: OFFSET,
+    width: '100%',
+    alignSelf: 'center',
+    ...Platform.select({
+      web: {
+        maxWidth: LAYOUT.CONTENT_MAX_WIDTH,
+      },
+    }),
   },
 
   content: {
