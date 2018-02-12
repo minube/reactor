@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { Animated, Dimensions, ScrollView, Text, View } from 'react-native';
 
 import { THEME } from '../../common';
-import { Button } from '../';
+import Button from '../Button';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;
