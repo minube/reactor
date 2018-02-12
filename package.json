@@ -13,11 +13,13 @@
   "devDependencies": {
     "@sambego/storybook-styles": "^1.0.0",
     "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-console": "^1.0.0",
     "@storybook/addon-knobs": "^3.3.12",
     "@storybook/addon-notes": "^3.3.12",
     "@storybook/addon-options": "^3.3.12",
     "@storybook/addons": "^3.3.12",
     "@storybook/react": "^3.3.12",
+    "@storybook/react-native": "^3.3.12",
     "babel-core": "6.26.0",
     "babel-eslint": "8.2.1",
     "babel-plugin-react-native-web": "0.4.0",
@@ -29,6 +31,7 @@
     "jest-expo": "25.0.0",
     "react-native-scripts": "1.11.1",
     "react-native-test-utils": "1.1.1",
+    "react-scripts": "1.0.17",
     "react-test-renderer": "16.2.0",
     "storybook-addon-jsx": "^5.3.0"
   },
@@ -39,8 +42,7 @@
     "react": "16.2.0",
     "react-dom": "16.2.0",
     "react-native": "0.52.0",
-    "react-native-web": "0.4.0",
-    "react-scripts": "1.0.17"
+    "react-native-web": "0.4.0"
   },
   "jest": {
     "preset": "jest-expo"
@@ -50,8 +52,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "rnstart": "react-native-scripts start",
-    "rneject": "react-native-scripts eject",
+    "native": "react-native-scripts start",
+    "native-eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "react-scripts test --env=jsdom",

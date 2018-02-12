@@ -3,6 +3,7 @@ import { setOptions } from '@storybook/addon-options';
 import { withKnobs } from '@storybook/addon-knobs/react';
 import JSXAddon from 'storybook-addon-jsx';
 import styles from '@sambego/storybook-styles';
+import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
 import { THEME } from '../src/common';
 
@@ -17,11 +18,13 @@ addDecorator(styles({
   padding: THEME.OFFSET,
   height: '100%',
 }));
+addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 setAddon(JSXAddon);
 setOptions({
   name: 'minube/reactor',
   url: 'github.com/minube/reactor',
   addonPanelInRight: true,
 });
+setConsoleOptions({ panelExclude: [] });
 
 configure(() => stories.keys().forEach(stories), module);
