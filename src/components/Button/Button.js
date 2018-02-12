@@ -30,7 +30,7 @@ const Button = ({
       { title &&
         <Text style={[
           styles.text,
-          !disabled && color && color !== WHITE && styles.textHighlight,
+          !disabled && (style.backgroundColor || (color && color !== WHITE)) && styles.textHighlight,
           disabled && styles.textDisabled]}
         >
           {title}
