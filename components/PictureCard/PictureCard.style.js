@@ -32,6 +32,10 @@ export default StyleSheet.create({
     bottom: UNIT,
   },
 
+  small: {
+    height: UNIT * 10,
+  },
+
   location: {
     position: 'absolute',
     top: UNIT,

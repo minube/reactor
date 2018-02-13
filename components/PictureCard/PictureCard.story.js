@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text } from '@storybook/addon-knobs/react';
+import { boolean, text } from '@storybook/addon-knobs/react';
 
 import PictureCard from './index';
 
@@ -29,6 +29,9 @@ storiesOf('PictureCard', module)
   .addWithJSX('Caption & Title', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} title="{title}" />
   ))
+  .addWithJSX('Small', () => (
+    <PictureCard caption="{caption}" small image={LIPSUM_IMAGE} title="{title}" />
+  ))
   .addWithJSX('💄 Custom Style', () => (
     <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', margin: 10 }} />
   ))
@@ -36,6 +39,7 @@ storiesOf('PictureCard', module)
     <PictureCard
       location={text('location', '{location}')}
       caption={text('caption', '{caption}')}
+      small={boolean('small', false)}
       image={text('image', LIPSUM_IMAGE)}
       onPress={action('PictureCard.onPress()')}
       title={text('title', '{title}')}
