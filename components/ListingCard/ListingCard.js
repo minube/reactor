@@ -1,60 +1,51 @@
-import { array, bool, func, node, number, oneOfType, shape, string } from 'prop-types';
+import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Image, Text, TouchableWithoutFeedback, View } from 'react-native';
+import { Text, TouchableWithoutFeedback, View } from 'react-native';
 
-import { STYLE } from '../../common';
-import { Icon, PictureCard } from '../';
+import { PictureCard, Rating } from '../';
 import styles from './ListingCard.style';
 
 const ListingCard = ({
-  children, comment, description, empty, onPress, rating, style, title, ...inherit
+  category, children, description, empty, onPress, rating, ratingCount, style, title, ...inherit
 }) => (
-  <View style={[styles.container, empty ? styles.empty : styles.elevation, style]}>
+  <View style={[styles.container, style]}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
       <View>
-        <PictureCard {...inherit} elevation={false} />
+        <PictureCard {...inherit} />
         <View style={styles.content}>
-          { title && <Text style={styles.title}>{title}</Text> }
-          { rating &&
-            <View style={STYLE.ROW}>
-              { Array.from(Array(rating).keys()).map(rate => <Icon key={rate} value="star" style={styles.rating} />) }
-            </View> }
-          { description && <Text style={styles.description}>{description}</Text> }
-          { comment &&
-            <View style={[STYLE.ROW, styles.commentContent]}>
-              { comment.avatar && <Image style={styles.avatar} source={{ uri: comment.avatar }} /> }
-              <Text style={styles.comment}>{comment.text}</Text>
-            </View> }
+          { category && <Text style={styles.caption}>{category}</Text> }
+          { title && <Text numberOfLines={1} ellipsizeMode="tail" style={styles.title}>{title}</Text> }
+          { rating > 0 && <Rating count={ratingCount} value={rating} style={styles.rating} /> }
+          { description && <Text numberOfLines={3} ellipsizeMode="tail" style={styles.caption}>{description}</Text> }
+          { children }
         </View>
       </View>
     </TouchableWithoutFeedback>
-    { children && <View style={[styles.content, styles.children]}>{children}</View> }
   </View>
 );
 
 ListingCard.propTypes = {
+  category: string,
   children: node,
-  comment: shape({
-    image: string,
-    text: string,
-  }),
   description: string,
   empty: bool,
   image: string,
   onPress: func,
   rating: number,
+  ratingCount: number,
   style: oneOfType([array, number]),
   title: string,
 };
 
 ListingCard.defaultProps = {
+  category: undefined,
   children: undefined,
-  comment: undefined,
   description: undefined,
   empty: false,
   image: undefined,
   onPress: undefined,
   rating: undefined,
+  ratingCount: undefined,
   style: [],
   title: undefined,
 };
