@@ -1,8 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean, color } from '@storybook/addon-knobs/react';
+import { text, boolean } from '@storybook/addon-knobs/react';
 
 import PictureCard from './index';
 
@@ -36,7 +35,7 @@ storiesOf('PictureCard', module)
       caption={text('caption', '{caption}')}
       elevation={boolean('elevation', true)}
       image={text('image', LIPSUM_IMAGE)}
-      onPress={text('onPress', 'bilbao')}
+      onPress={action('PictureCard.onPress()')}
       title={text('title', '{title}')}
     />
   ));
