@@ -7,7 +7,9 @@ import ListingCard from './ListingCard';
 import Icon from './Icon';
 import Input from './Input';
 import PictureCard from './PictureCard';
+import Price from './Price';
 import ProgressBar from './ProgressBar';
+import Rating from './Rating';
 import Switch from './Switch';
 import Touchable from './Touchable';
 
@@ -21,7 +23,9 @@ export {
   Link,
   ListingCard,
   PictureCard,
+  Price,
   ProgressBar,
+  Rating,
   Switch,
   Touchable,
 };
