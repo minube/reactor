@@ -12,10 +12,10 @@ storiesOf('PictureCard', module)
     <PictureCard empty />
   ))
   .addWithJSX('Just a picture', () => (
-    <PictureCard image="image"  />
+    <PictureCard image={LIPSUM_IMAGE}  />
   ))
   .addWithJSX('with action', () => (
-    <PictureCard image="image" onPress={action('PictureCard.onPress()')} />
+    <PictureCard image={LIPSUM_IMAGE} onPress={action('PictureCard.onPress()')} />
   ))
   .addWithJSX('Located', () => (
     <PictureCard location="{location}" image={LIPSUM_IMAGE} />
@@ -31,6 +31,9 @@ storiesOf('PictureCard', module)
   ))
   .addWithJSX('Small', () => (
     <PictureCard caption="{caption}" small image={LIPSUM_IMAGE} title="{title}" />
+  ))
+  .addWithJSX('square', () => (
+    <PictureCard caption="{caption}" square image={LIPSUM_IMAGE} title="{title}" />
   ))
   .addWithJSX('💄 Custom Style', () => (
     <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', margin: 10 }} />

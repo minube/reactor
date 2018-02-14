@@ -36,6 +36,10 @@ export default StyleSheet.create({
     height: UNIT * 10,
   },
 
+  square: {
+    height: LAYOUT.CARD_WIDTH,
+  },
+
   location: {
     position: 'absolute',
     top: UNIT,
