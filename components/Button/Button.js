@@ -1,9 +1,9 @@
 import { array, bool, func, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { THEME, STYLE } from '../../common';
-import { Activity, Icon, Touchable } from '../';
+import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
 const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;

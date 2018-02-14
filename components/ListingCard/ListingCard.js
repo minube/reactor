@@ -1,8 +1,8 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Text, TouchableWithoutFeedback, View } from 'react-native';
+import { TouchableWithoutFeedback, View } from 'react-native';
 
-import { PictureCard, Rating } from '../';
+import { PictureCard, Rating, Text } from '../';
 import styles from './ListingCard.style';
 
 const ListingCard = ({

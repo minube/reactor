@@ -19,7 +19,7 @@ storiesOf('Rating', module)
     <Rating value={4} color={THEME.COLOR.ACCENT} />
   ))
   .addWithJSX('💄 Custom Style', () => (
-    <Rating />
+    <Rating style={{ fontSize: 20, lineHeight: 20, color: 'orange' }}/>
   ))
   .addWithJSX('🏀 Playground', () => (
     <Rating

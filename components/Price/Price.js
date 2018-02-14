@@ -1,7 +1,8 @@
 import { array, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
+import Text from '../Text';
 import styles from './Price.style';
 
 const LEFT_SYMBOLS = ['$'];

@@ -1,9 +1,10 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
-import { Animated, Dimensions, ScrollView, Text, View } from 'react-native';
+import { Animated, Dimensions, ScrollView, View } from 'react-native';
 
 import { THEME } from '../../common';
 import Button from '../Button';
+import Text from '../Text';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;

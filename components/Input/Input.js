@@ -1,7 +1,8 @@
 import { array, bool, func, number, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
-import { Text, TextInput, View } from 'react-native';
+import { TextInput, View } from 'react-native';
 
+import Text from '../Text';
 import styles from './Input.style';
 
 class Input extends Component {

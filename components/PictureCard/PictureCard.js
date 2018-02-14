@@ -1,8 +1,8 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { ImageBackground, Text, View } from 'react-native';
+import { ImageBackground, View } from 'react-native';
 
-import { Touchable } from '../';
+import { Text, Touchable } from '../';
 import styles from './PictureCard.style';
 
 const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg';

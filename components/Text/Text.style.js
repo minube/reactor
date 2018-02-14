@@ -8,11 +8,7 @@ const {
 
 export default StyleSheet.create({
   container: {
-    fontSize: FONT.SIZE.REGULAR,
-    fontWeight: FONT.WEIGHT.BOLD,
-  },
-
-  hover: {
-    color: COLOR.ACCENT,
+    color: COLOR.TEXT,
+    fontFamily: FONT.FAMILY,
   },
 });

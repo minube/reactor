@@ -1,7 +1,7 @@
 import { array, number, oneOfType } from 'prop-types';
 import React, { Component } from 'react';
-import { Text } from 'react-native';
 
+import Text from '../Text';
 import styles from './Link.style';
 
 class Link extends Component {

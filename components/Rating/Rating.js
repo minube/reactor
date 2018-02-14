@@ -1,8 +1,8 @@
 import { array, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
-import { STYLE } from '../../common';
+import Text from '../Text';
 import styles from './Rating.style';
 
 const Rating = ({
@@ -10,10 +10,10 @@ const Rating = ({
 }) => (
   <View style={styles.container}>
     { [...Array(5).keys()].map(rate => (
-      <Text key={rate} style={[styles.rate, rate < value && styles.rateFill, color && { color }, style]}>
+      <Text key={rate} style={[styles.rate, color && { color }, style]}>
         {rate < value ? '★' : '☆'}
       </Text>)) }
-    { count && <Text style={styles.count}>{`(${count})`}</Text> }
+    { count > 0 && <Text style={[styles.count, style]}>{`(${count})`}</Text> }
   </View>
 );
 

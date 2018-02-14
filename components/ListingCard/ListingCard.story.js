@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, number } from '@storybook/addon-knobs/react';
@@ -7,6 +7,8 @@ import { text, number } from '@storybook/addon-knobs/react';
 import { THEME, STYLE } from '../../common';
 import Button from '../Button';
 import ListingCard from './ListingCard';
+import Price from '../Price';
+import Text from '../Text';
 
 const { COLOR: { TEXT, WARNING }, FONT, UNIT } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
@@ -41,7 +43,7 @@ storiesOf('ListingCard', module)
       ratingCount={2}
       title="Torre Eiffel Lorem ipsum dolor sit amet adipiscing "
     >
-      <Button flat rounded title="15 Actividades" style={{ alignSelf: 'flex-start', marginHorizontal: 0 }} />
+      <Button flat rounded small title="15 Actividades" style={{ alignSelf: 'flex-start', marginHorizontal: 0 }} />
     </ListingCard>
   ))
   .addWithJSX('with a container as a child', () => (
@@ -55,7 +57,7 @@ storiesOf('ListingCard', module)
       <View style={STYLE.ROW}>
         <View style={{ marginRight: UNIT }}>
           <Text style={{ color: TEXT, fontSize: FONT.SIZE.TINY }}>desde</Text>
-          <Text style={{ color: TEXT, fontSize: FONT.SIZE.LARGE, fontWeight: FONT.WEIGHT.BOLD }}>90$</Text>
+          <Price value={90} symbol="$" style={{ fontSize: FONT.SIZE.LARGE }} />
         </View>
         <Text style={{
           fontSize: FONT.SIZE.TINY, fontWeight: FONT.WEIGHT.BOLD, color: WARNING, width: '50%',

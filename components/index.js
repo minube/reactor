@@ -11,6 +11,7 @@ import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
 import Switch from './Switch';
+import Text from './Text';
 import Touchable from './Touchable';
 
 export {
@@ -27,5 +28,6 @@ export {
   ProgressBar,
   Rating,
   Switch,
+  Text,
   Touchable,
 };

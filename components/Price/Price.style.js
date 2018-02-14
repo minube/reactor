@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const {
-  COLOR, FONT, STYLE,
+  FONT, STYLE,
 } = THEME;
 
 export default StyleSheet.create({
@@ -16,8 +16,6 @@ export default StyleSheet.create({
   },
 
   text: {
-    ...STYLE.TEXT,
-    color: COLOR.TEXT,
     fontSize: FONT.SIZE.LARGE,
   },
 

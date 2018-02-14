@@ -22,8 +22,4 @@ export default StyleSheet.create({
     lineHeight: FONT.SIZE.REGULAR,
     marginRight: UNIT * 0.25,
   },
-
-  rateFill: {
-    fontSize: FONT.SIZE.REGULAR,
-  },
 });

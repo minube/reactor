@@ -1,11 +1,12 @@
 import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import Button from '../Button';
 import Link from '../Link';
 import PictureCard from '../PictureCard';
+import Text from '../Text';
 import styles from './HotelCard.style';
 
 const { COLOR } = THEME;
