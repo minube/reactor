@@ -5,7 +5,7 @@ import { text, boolean } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import Text from './Text';
 
-storiesOf('Text', module)
+storiesOf('✅ Text', module)
   .addWithJSX('default', () => (
     <Text>Hello World</Text>
   ))

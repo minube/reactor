@@ -1,5 +1,5 @@
 import React from 'react';
-import { Platform, ProgressBar, View } from 'react-native';
+import { Platform, ProgressBar, StyleSheet, View } from 'react-native';
 
 import { THEME } from '../../common';
 import styles from './ProgressBar.style';
@@ -11,6 +11,6 @@ export default ({ ...inherit }) => (
     ? <ProgressBar color={COLOR.PRIMARY} trackColor={COLOR.BACKGROUND} {...inherit} />
     :
     <View style={styles.container}>
-      <View style={[styles.value, { width: `${(inherit.progress || 0) * 100}%` }]} />
+      <View style={StyleSheet.create([styles.value, { width: `${(inherit.progress || 0) * 100}%` }])} />
     </View>
 );

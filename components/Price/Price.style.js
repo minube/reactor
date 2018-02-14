@@ -1,15 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
-const {
-  FONT, STYLE,
-} = THEME;
+const { FONT } = THEME;
 
 export default StyleSheet.create({
-  container: {
-    ...STYLE.ROW,
-  },
+  container: STYLE.ROW,
 
   containerSmall: {
     transform: [{ scale: 0.80 }],

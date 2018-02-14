@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
-import { Animated, Dimensions, ScrollView, View } from 'react-native';
+import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native';
 
 import { THEME } from '../../common';
 import Button from '../Button';
@@ -51,11 +51,11 @@ class Dialog extends Component {
     return (
       <Animated.View
         pointerEvents={visible ? 'auto' : 'none'}
-        style={[styles.container, { opacity }]}
+        style={StyleSheet.flatten([styles.container, { opacity }])}
       >
-        <Animated.View style={[styles.frame, style, { bottom }]}>
+        <Animated.View style={StyleSheet.flatten([styles.frame, style, { bottom }])}>
           { title && <Text style={styles.title}>{title}</Text> }
-          <ScrollView onScroll={_onScroll} style={[styles.content, scroll && styles.scroll]}>
+          <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.content, scroll && styles.scroll])}>
             {children}
           </ScrollView>
           <View style={styles.footer}>

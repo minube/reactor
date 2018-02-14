@@ -1,6 +1,6 @@
 import { array, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import Text from '../Text';
 import styles from './Rating.style';
@@ -10,10 +10,10 @@ const Rating = ({
 }) => (
   <View style={styles.container}>
     { [...Array(5).keys()].map(rate => (
-      <Text key={rate} style={[styles.rate, color && { color }, style]}>
+      <Text key={rate} style={StyleSheet.flatten([styles.rate, color && { color }, style])}>
         {rate < value ? '★' : '☆'}
       </Text>)) }
-    { count > 0 && <Text style={[styles.count, style]}>{`(${count})`}</Text> }
+    { count > 0 && <Text style={StyleSheet.flatten([styles.count, style])}>{`(${count})`}</Text> }
   </View>
 );
 

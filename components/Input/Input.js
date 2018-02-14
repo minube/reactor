@@ -1,6 +1,6 @@
 import { array, bool, func, number, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
-import { TextInput, View } from 'react-native';
+import { StyleSheet, TextInput, View } from 'react-native';
 
 import Text from '../Text';
 import styles from './Input.style';
@@ -21,7 +21,8 @@ class Input extends Component {
 
     return (
       <View style={styles.container}>
-        { label && <Text style={[styles.label, focus && styles.labelFocus]}>{label} </Text> }
+        { label &&
+          <Text style={StyleSheet.flatten([styles.label, focus && styles.labelFocus])}>{label} </Text> }
         <TextInput
           {...inherit}
           autoCorrect={false}
@@ -33,15 +34,16 @@ class Input extends Component {
           onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
           placeholderTextColor={undefined}
           underlineColorAndroid="transparent"
-          style={[
+          style={StyleSheet.flatten([
             styles.input,
             focus && styles.inputFocus,
             error && styles.inputError,
             disabled && styles.inputDisabled,
             style,
-          ]}
+          ])}
         />
-        { (error || hint) && <Text style={[styles.label, error && styles.labelError]}>{error || hint} </Text> }
+        { (error || hint) &&
+          <Text style={StyleSheet.flatten([styles.label, error && styles.labelError])}>{error || hint} </Text> }
       </View>
     );
   }

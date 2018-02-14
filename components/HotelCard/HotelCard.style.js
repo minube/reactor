@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, OFFSET, UNIT, STYLE,
+  COLOR, FONT, LAYOUT, OFFSET, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -12,7 +12,6 @@ export default StyleSheet.create({
     width: '100%',
     maxWidth: LAYOUT.CARD_MAX_WIDTH * 4,
     overflow: 'hidden',
-    // ...STYLE.ROW,
     display: 'flex',
     flexDirection: 'row',
   },
@@ -20,10 +19,6 @@ export default StyleSheet.create({
   empty: {
     borderColor: COLOR.BORDER,
     borderWidth: 1,
-  },
-
-  elevation: {
-    ...STYLE.SHADOW,
   },
 
   content: {
@@ -38,7 +33,6 @@ export default StyleSheet.create({
     borderLeftWidth: 1,
     padding: UNIT,
     width: LAYOUT.CARD_MAX_WIDTH / 1.35,
-    ...STYLE.CENTERED,
   },
 
 
@@ -61,7 +55,6 @@ export default StyleSheet.create({
   proposals: {
     flexWrap: 'wrap',
     alignItems: 'flex-start',
-    ...STYLE.ROW,
   },
 
   proposal: {
@@ -71,7 +64,6 @@ export default StyleSheet.create({
     marginRight: OFFSET,
     paddingBottom: UNIT / 4,
     maxWidth: LAYOUT.CARD_MAX_WIDTH,
-    ...STYLE.ROW,
   },
 
   proposalName: {

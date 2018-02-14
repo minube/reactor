@@ -1,6 +1,6 @@
 import { bool } from 'prop-types';
 import React from 'react';
-import { Text as NativeText } from 'react-native';
+import { StyleSheet, Text as NativeText } from 'react-native';
 
 import styles from './Text.style';
 
@@ -11,12 +11,12 @@ const Text = ({
 }) => (
   <NativeText
     {...inherit}
-    style={[
+    style={StyleSheet.flatten([
       styles.container,
       subtitle && styles.subtitle,
       title && styles.title,
       inherit.style,
-    ]}
+    ])}
   />
 );
 

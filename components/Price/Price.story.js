@@ -6,7 +6,7 @@ import { WithNotes } from '@storybook/addon-notes';
 import { THEME } from '../../common';
 import Price from './Price';
 
-storiesOf('Price', module)
+storiesOf('✅ Price', module)
   .addWithJSX('default', () => (
     <Price />
   ))

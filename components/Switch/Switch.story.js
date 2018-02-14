@@ -5,7 +5,7 @@ import { text, boolean } from '@storybook/addon-knobs/react';
 
 import Switch from './Switch';
 
-storiesOf('Switch', module)
+storiesOf('✅ Switch', module)
   .addWithJSX('default', () => (
     <Switch />
   ))

@@ -1,10 +1,10 @@
 import Color from 'color';
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, UNIT, STYLE,
+  COLOR, FONT, LAYOUT, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -19,12 +19,14 @@ export default StyleSheet.create({
     height: LAYOUT.CARD_PICTURE_HEIGHT,
   },
 
-  content: {
-    width: '100%',
-    height: '100%',
-    padding: UNIT,
-    ...STYLE.CENTERED,
-  },
+  content: StyleSheet.flatten([
+    STYLE.CENTERED,
+    {
+      width: '100%',
+      height: '100%',
+      padding: UNIT,
+    },
+  ]),
 
   contentBottom: {
     position: 'absolute',

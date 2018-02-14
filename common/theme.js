@@ -1,25 +1,19 @@
 import { Dimensions, Platform } from 'react-native';
 
-const BREAKPOINTS = {
-  SMALL: 600,
-  REGULAR: 1024,
-  LARGE: 1780,
-};
-const WINDOW_WIDTH = Dimensions.get('window').width;
-
-const SCREEN = {
-  TINY: WINDOW_WIDTH <= BREAKPOINTS.SMALL,
-  SMALL: WINDOW_WIDTH > BREAKPOINTS.SMALL && WINDOW_WIDTH < BREAKPOINTS.REGULAR,
-  REGULAR: WINDOW_WIDTH >= BREAKPOINTS.REGULAR && WINDOW_WIDTH <= BREAKPOINTS.LARGE,
-  LARGE: WINDOW_WIDTH > BREAKPOINTS.LARGE,
-};
-
 const UNIT = 10;
+const WIDTH = Dimensions.get('window').width;
+const SCREEN = {
+  TINY: WIDTH < 360,
+  PHONE: WIDTH >= 360 && WIDTH < 376,
+  TABLET: WIDTH >= 376 && WIDTH < 510,
+  SMALL: WIDTH >= 510 && WIDTH < 720,
+  REGULAR: WIDTH >= 720 && WIDTH <= 1024,
+  LARGE: WIDTH >= 1024,
+  WIDTH,
+};
 
 export default {
   BORDER_RADIUS: UNIT / 5,
-
-  BREAKPOINTS,
 
   COLOR: {
     // -- Theme
@@ -82,39 +76,18 @@ export default {
     BORDER_RADIUS: UNIT * 0.3,
     BUTTON_HEIGHT: SCREEN.REGULAR || SCREEN.LARGE ? UNIT * 4.5 : UNIT * 3,
 
-    CARD_WIDTH: SCREEN.REGULAR || SCREEN.LARGE ? UNIT * 23.6 : UNIT * 16.8,
     CARD_PICTURE_HEIGHT: SCREEN.REGULAR || SCREEN.LARGE ? UNIT * 19 : UNIT * 13.9,
+    CARD_WIDTH: (() => {
+      if (SCREEN.TINY) return UNIT * 13;
+      if (SCREEN.PHONE || SCREEN.SMALL) return UNIT * 15;
+      if (SCREEN.TABLET || SCREEN.REGULAR) return UNIT * 16.8;
+      return UNIT * 23.6;
+    })(),
 
-    // CARD_IMAGE_HEIGHT: UNIT * 19,
-    // CARD_MAX_WIDTH: UNIT * 23.6,
     DIALOG_MIN_WIDTH: '45%',
     INPUT_HEIGHT: UNIT * 4.4,
     PICKER_MAX_HEIGHT: UNIT * 51.2,
   },
 
   SCREEN,
-
-  STYLE: {
-    CENTERED: {
-      alignItems: 'center',
-      alignContent: 'center',
-      justifyContent: 'center',
-    },
-
-    ROW: {
-      display: 'flex',
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-
-    SHADOW: {
-      shadowColor: '#000000',
-      shadowOffset: { height: 2, width: 0 },
-      shadowOpacity: 0.26,
-      shadowRadius: 5,
-      ...Platform.select({
-        android: { elevation: 4 },
-      }),
-    },
-  },
 };

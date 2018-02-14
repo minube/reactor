@@ -1,15 +1,15 @@
 import { array, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Switch, Text, View } from 'react-native';
+import { StyleSheet, Switch, Text, View } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { THEME } from '../../common';
 import styles from './Switch.style';
 
 const { COLOR } = THEME;
 
 const SwitchInput = ({ label, style, ...inherit }) => (
-  <View style={[STYLE.ROW, styles.container, style]}>
-    { label && <Text style={[styles.label, (inherit.disabled && styles.disabled)]}>{label}</Text>}
+  <View style={StyleSheet.flatten([styles.container, style])}>
+    { label && <Text style={StyleSheet.flatten([styles.label, (inherit.disabled && styles.disabled)])}>{label}</Text>}
     <Switch
       {...inherit}
       activeThumbColor={COLOR.PRIMARY}

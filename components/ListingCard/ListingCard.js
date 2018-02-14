@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { TouchableWithoutFeedback, View } from 'react-native';
+import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 
 import { PictureCard, Rating, Text } from '../';
 import styles from './ListingCard.style';
@@ -8,7 +8,7 @@ import styles from './ListingCard.style';
 const ListingCard = ({
   category, children, description, empty, onPress, rating, ratingCount, style, title, ...inherit
 }) => (
-  <View style={[styles.container, style]}>
+  <View style={StyleSheet.flatten([styles.container, style])}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
       <View>
         <PictureCard {...inherit} />

@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { ImageBackground, View } from 'react-native';
+import { ImageBackground, StyleSheet, View } from 'react-native';
 
 import { Text, Touchable } from '../';
 import styles from './PictureCard.style';
@@ -14,18 +14,18 @@ const PictureCard = ({
     <ImageBackground
       resizeMode={image ? 'cover' : 'center'}
       source={{ uri: image || IMAGE_PLACEHOLDER }}
-      style={[
+      style={StyleSheet.flatten([
         styles.container,
         small && styles.small,
         square && styles.square,
         style,
-      ]}
+      ])}
     >
       { image !== IMAGE_PLACEHOLDER && <View pointerEvents="none" style={image && styles.opacity} /> }
-      { location && <Text style={[styles.text, styles.location]}>{location.toUpperCase()}</Text> }
+      { location && <Text style={StyleSheet.flatten([styles.text, styles.location])}>{location.toUpperCase()}</Text> }
       <View pointerEvents="none" style={location ? styles.contentBottom : styles.content}>
-        { title && <Text style={[styles.text, styles.title]}>{title}</Text> }
-        { caption && <Text style={[styles.text, styles.caption]}>{caption}</Text> }
+        { title && <Text style={StyleSheet.flatten([styles.text, styles.title])}>{title}</Text> }
+        { caption && <Text style={StyleSheet.flatten([styles.text, styles.caption])}>{caption}</Text> }
       </View>
       { children }
     </ImageBackground>

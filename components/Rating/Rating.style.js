@@ -1,15 +1,13 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, UNIT, STYLE,
+  COLOR, FONT, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
-  container: {
-    ...STYLE.ROW,
-  },
+  container: STYLE.ROW,
 
   count: {
     color: COLOR.TEXT_LIGHTEN,

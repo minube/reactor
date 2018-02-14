@@ -1,30 +1,33 @@
-import Color from 'color';
 import { Platform, StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, OFFSET, STYLE,
+  COLOR, FONT, LAYOUT, OFFSET,
 } = THEME;
 
 export default StyleSheet.create({
-  container: {
-    backgroundColor: 'rgba(0,0,0, 0.5)',
-    height: '100%',
-    left: 0,
-    position: Platform.OS === 'web' ? 'fixed' : 'absolute',
-    top: 0,
-    width: '100%',
-    zIndex: 2,
-    ...STYLE.CENTERED,
-  },
+  container: StyleSheet.flatten([
+    STYLE.CENTERED,
+    {
+      backgroundColor: 'rgba(0,0,0, 0.5)',
+      height: '100%',
+      left: 0,
+      position: Platform.OS === 'web' ? 'fixed' : 'absolute',
+      top: 0,
+      width: '100%',
+      zIndex: 2,
+    },
+  ]),
 
-  frame: {
-    backgroundColor: COLOR.WHITE,
-    minWidth: LAYOUT.DIALOG_MIN_WIDTH,
-    maxHeight: '65%',
-    ...STYLE.SHADOW,
-  },
+  frame: StyleSheet.flatten([
+    STYLE.SHADOW,
+    {
+      backgroundColor: COLOR.WHITE,
+      minWidth: LAYOUT.DIALOG_MIN_WIDTH,
+      maxHeight: '65%',
+    },
+  ]),
 
   title: {
     fontSize: FONT.SIZE.LARGE,
@@ -44,11 +47,13 @@ export default StyleSheet.create({
     borderTopWidth: 1,
   },
 
-  footer: {
-    alignItems: 'flex-end',
-    alignContent: 'flex-end',
-    justifyContent: 'flex-end',
-    padding: OFFSET,
-    ...STYLE.ROW,
-  },
+  footer: StyleSheet.flatten([
+    STYLE.ROW,
+    {
+      alignItems: 'flex-end',
+      alignContent: 'flex-end',
+      justifyContent: 'flex-end',
+      padding: OFFSET,
+    },
+  ]),
 });

@@ -7,7 +7,7 @@ import PictureCard from './index';
 
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 
-storiesOf('PictureCard', module)
+storiesOf('✅ PictureCard', module)
   .addWithJSX('Empty', () => (
     <PictureCard empty />
   ))

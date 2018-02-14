@@ -5,7 +5,7 @@ import { color, number } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import Rating from './Rating';
 
-storiesOf('Rating', module)
+storiesOf('✅ Rating', module)
   .addWithJSX('default', () => (
     <Rating />
   ))

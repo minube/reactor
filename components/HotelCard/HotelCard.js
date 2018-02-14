@@ -1,6 +1,6 @@
 import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
 import { THEME } from '../../common';
 import Button from '../Button';
@@ -26,7 +26,7 @@ const ProposalItem = ({
 const HotelCard = ({
   comment, empty, image, location, onPress, proposals, style, title,
 }) => (
-  <View style={[styles.container, empty ? styles.empty : styles.elevation, style]}>
+  <View style={StyleSheet([styles.container, empty ? styles.empty : styles.elevation, style])}>
 
     <PictureCard image={image} elevation={false} />
     <View style={styles.content}>

@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
   COLOR, FONT, LAYOUT, UNIT,
@@ -8,9 +8,12 @@ const {
 
 export default StyleSheet.create({
 
-  container: {
-    height: LAYOUT.INPUT_HEIGHT,
-  },
+  container: StyleSheet.flatten([
+    STYLE.ROW,
+    {
+      height: LAYOUT.INPUT_HEIGHT,
+    },
+  ]),
 
   label: {
     color: COLOR.BASE,

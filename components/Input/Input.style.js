@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, OFFSET, UNIT, STYLE,
+  COLOR, FONT, LAYOUT, OFFSET, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -34,7 +34,6 @@ export default StyleSheet.create({
     paddingVertical: UNIT * 0.75,
     paddingHorizontal: UNIT * 0.5,
     width: '100%',
-
     ...Platform.select({
       web: {
         fontFamily: FONT.FAMILY,

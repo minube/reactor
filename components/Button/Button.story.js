@@ -6,7 +6,7 @@ import { text, boolean, color } from '@storybook/addon-knobs/react';
 
 import Button from './Button';
 
-storiesOf('Button', module)
+storiesOf('✅ Button', module)
   .addWithJSX('with titles', () => (
     <WithNotes notes="Example of complementary notes">
       <Button onPress={action('Button.onPress()')} title="Default" />

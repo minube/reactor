@@ -1,8 +1,8 @@
 import { array, bool, func, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
-import { THEME, STYLE } from '../../common';
+import { THEME } from '../../common';
 import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
@@ -13,9 +13,7 @@ const Button = ({
 }) => (
   <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined} raised={color === undefined}>
     <View
-      style={[
-        STYLE.ROW,
-        STYLE.CENTERED,
+      style={StyleSheet.flatten([
         styles.container,
         color && { backgroundColor: color },
         primary && styles.primary,
@@ -26,17 +24,17 @@ const Button = ({
         small && styles.small,
         disabled && styles.disabled,
         style,
-      ]}
+      ])}
     >
       { activity && <Activity color={flat ? TEXT_LIGHTEN : WHITE} style={title && styles.activity} type="small" /> }
       { !activity && icon &&
-        <Icon value={icon} style={[title ? styles.icon : styles.iconFloating]} />}
+        <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
-        <Text style={[
+        <Text style={StyleSheet.flatten([
           styles.text,
           flat && styles.textFlat,
           small && styles.textSmall,
-          disabled && styles.textDisabled]}
+          disabled && styles.textDisabled])}
         >
           {title}
         </Text> }

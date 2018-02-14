@@ -1,5 +1,6 @@
 import { array, number, oneOfType } from 'prop-types';
 import React, { Component } from 'react';
+import { StyleSheet } from 'react-native';
 
 import Text from '../Text';
 import styles from './Link.style';
@@ -22,12 +23,12 @@ class Link extends Component {
         accessibilityRole="link"
         onMouseEnter={() => this.setState({ hover: true })}
         onMouseLeave={() => this.setState({ hover: false })}
-        style={[
+        style={StyleSheet.flatten([
           styles.title,
           hover && styles.hover,
           style,
           hover && styleHover,
-        ]}
+        ])}
       />
     );
   }

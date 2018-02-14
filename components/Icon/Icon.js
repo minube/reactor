@@ -1,6 +1,6 @@
 import { array, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { Platform, Image } from 'react-native';
+import { Platform, StyleSheet, Image } from 'react-native';
 
 import ASSETS from './assets';
 import styles from './Icon.style';
@@ -15,7 +15,7 @@ const Icon = ({ style, value }) => (
         },
       })
     }
-    style={[styles.icon, style]}
+    style={StyleSheet.flatten([styles.icon, style])}
   />
 );
 

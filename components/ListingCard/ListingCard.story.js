@@ -13,7 +13,7 @@ import Text from '../Text';
 const { COLOR: { TEXT, WARNING }, FONT, UNIT } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 
-storiesOf('ListingCard', module)
+storiesOf('✅ ListingCard', module)
   .addWithJSX('Empty', () => (
     <ListingCard empty />
   ))
@@ -60,8 +60,9 @@ storiesOf('ListingCard', module)
           <Price value={90} symbol="$" style={{ fontSize: FONT.SIZE.LARGE }} />
         </View>
         <Text style={{
-          fontSize: FONT.SIZE.TINY, fontWeight: FONT.WEIGHT.BOLD, color: WARNING, width: '50%',
-        }}>
+            fontSize: FONT.SIZE.TINY, fontWeight: FONT.WEIGHT.BOLD, color: WARNING, width: '50%',
+          }}
+        >
           Mascotas bienvenidas
         </Text>
       </View>

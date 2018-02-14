@@ -1,22 +1,11 @@
-import { Platform, StyleSheet } from 'react-native';
+import { Platform } from 'react-native';
 import THEME from './theme';
 
 const {
-  COLOR, OFFSET,
+  COLOR,
 } = THEME;
 
-const ROW = {
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center',
-};
-
-const WRAP = {
-  flexWrap: 'wrap',
-  alignItems: 'flex-start',
-};
-
-export default StyleSheet.create({
+export default {
   CENTERED: {
     alignItems: 'center',
     alignContent: 'center',
@@ -28,14 +17,10 @@ export default StyleSheet.create({
     flexDirection: 'column',
   },
 
-  ROW,
-
-  WRAP,
-
-  CARDS: {
-    ...ROW,
-    ...WRAP,
-    padding: OFFSET / 2,
+  ROW: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'center',
   },
 
   SHADOW: {
@@ -47,4 +32,4 @@ export default StyleSheet.create({
       android: { elevation: 4 },
     }),
   },
-});
+};

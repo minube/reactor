@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
   COLOR, FONT, LAYOUT, UNIT,
@@ -8,7 +8,20 @@ const {
 const BUTTON_FLOATING_HEIGHT = LAYOUT.BUTTON_HEIGHT * 1.5;
 
 export default StyleSheet.create({
-  container: {
+
+  container: StyleSheet.flatten([
+    STYLE.ROW,
+    STYLE.CENTERED,
+    {
+      backgroundColor: COLOR.TEXT,
+      borderRadius: LAYOUT.BORDER_RADIUS,
+      height: LAYOUT.BUTTON_HEIGHT,
+      paddingHorizontal: UNIT * 3,
+      margin: UNIT / 2,
+    },
+  ]),
+
+  _container: {
     backgroundColor: COLOR.TEXT,
     borderRadius: LAYOUT.BORDER_RADIUS,
     height: LAYOUT.BUTTON_HEIGHT,
