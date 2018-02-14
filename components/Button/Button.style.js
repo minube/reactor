@@ -10,8 +10,7 @@ const BUTTON_FLOATING_HEIGHT = LAYOUT.BUTTON_HEIGHT * 1.5;
 export default StyleSheet.create({
   container: {
     backgroundColor: COLOR.TEXT,
-    borderRadius: UNIT * 0.3,
-    // display: 'flex',
+    borderRadius: LAYOUT.BORDER_RADIUS,
     height: LAYOUT.BUTTON_HEIGHT,
     paddingHorizontal: UNIT * 3,
     margin: UNIT / 2,
@@ -51,6 +50,10 @@ export default StyleSheet.create({
     borderRadius: LAYOUT.BUTTON_HEIGHT / 2,
   },
 
+  small: {
+    height: LAYOUT.BUTTON_HEIGHT / 2,
+  },
+
   text: {
     color: COLOR.WHITE,
     fontSize: FONT.SIZE.SMALL,
@@ -63,6 +66,10 @@ export default StyleSheet.create({
 
   textFlat: {
     color: COLOR.TEXT_LIGHTEN,
+  },
+
+  textSmall: {
+    fontSize: FONT.SIZE.TINY,
   },
 
   icon: {

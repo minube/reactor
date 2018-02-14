@@ -1,14 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { WithNotes } from '@storybook/addon-notes';
 import { text, boolean, color } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import Button from './Button';
-
-const { COLOR: { PRIMARY, ACCENT } } = THEME;
 
 storiesOf('Button', module)
   .addWithJSX('with titles', () => (
@@ -37,6 +33,13 @@ storiesOf('Button', module)
       <Button rounded accent title="Accent" />
     </WithNotes>
   ))
+  .addWithJSX('small', () => (
+    <WithNotes>
+      <Button small title="Default" />
+      <Button small primary title="Primary" />
+      <Button small accent title="Accent" />
+    </WithNotes>
+  ))
   .addWithJSX('disabled', () => (
     <WithNotes>
       <Button disabled title="disabled" />
@@ -55,11 +58,10 @@ storiesOf('Button', module)
       <Button icon="search" />
     </WithNotes>
   ))
-
-  .addWithJSX('custom style', () => (
+  .addWithJSX('💄 Custom Style', () => (
     <WithNotes>
-      <Button title="custom style" style={{ backgroundColor: 'red' }} />
-      <Button icon="search" style={{ backgroundColor: 'red' }} />
+      <Button title="custom style" style={{ backgroundColor: 'orange' }} />
+      <Button icon="search" style={{ backgroundColor: 'orange' }} />
     </WithNotes>
   ))
   .addWithJSX('🏀 Playground', () => (
@@ -73,6 +75,7 @@ storiesOf('Button', module)
       onPress={action('Button.onPress()')}
       primary={boolean('primary', false)}
       rounded={boolean('rounded', false)}
+      small={boolean('small', false)}
       title={text('title', 'Touch me')}
     />
   ));
