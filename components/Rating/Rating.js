@@ -6,11 +6,11 @@ import Text from '../Text';
 import styles from './Rating.style';
 
 const Rating = ({
-  color, count, value, style,
+  color, count, value, style, ...inherit
 }) => (
   <View style={styles.container}>
     { [...Array(5).keys()].map(rate => (
-      <Text key={rate} style={StyleSheet.flatten([styles.rate, color && { color }, style])}>
+      <Text {...inherit} key={rate} style={StyleSheet.flatten([styles.rate, color && { color }, style])}>
         {rate < value ? '★' : '☆'}
       </Text>)) }
     { count > 0 && <Text style={StyleSheet.flatten([styles.count, style])}>{`(${count})`}</Text> }

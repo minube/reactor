@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { text, boolean } from '@storybook/addon-knobs/react';
+import { text, color, boolean } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import Text from './Text';
@@ -21,15 +21,19 @@ storiesOf('✅ Text', module)
   .addWithJSX('with bold', () => (
     <Text bold>Hello World</Text>
   ))
+  .addWithJSX('with color', () => (
+    <Text color={THEME.COLOR.PRIMARY}>Hello World</Text>
+  ))
   .addWithJSX('💄 Custom Style', () => (
     <Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Customized Text</Text>
   ))
   .addWithJSX('🏀 Playground', () => (
     <Text
-      tiny={boolean('tiny', false)}
-      small={boolean('small', false)}
-      large={boolean('large', false)}
       bold={boolean('bold', false)}
+      color={color('color', THEME.COLOR.TEXT)}
+      small={boolean('small', false)}
+      tiny={boolean('tiny', false)}
+      large={boolean('large', false)}
     >
       {text('content', 'Hello World')}
     </Text>

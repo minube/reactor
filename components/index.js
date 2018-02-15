@@ -1,11 +1,12 @@
 import Activity from './Activity';
 import Button from './Button';
 import Dialog from './Dialog';
+import Heading from './Heading';
 import HotelCard from './HotelCard';
-import Link from './Link';
-import ListingCard from './ListingCard';
 import Icon from './Icon';
 import Input from './Input';
+import Link from './Link';
+import ListingCard from './ListingCard';
 import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
@@ -18,6 +19,7 @@ export {
   Activity,
   Button,
   Dialog,
+  Heading,
   HotelCard,
   Icon,
   Input,

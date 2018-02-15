@@ -7,11 +7,6 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
-  container: {
-    fontSize: FONT.SIZE.REGULAR,
-    fontWeight: FONT.WEIGHT.BOLD,
-  },
-
   hover: {
     color: COLOR.ACCENT,
   },

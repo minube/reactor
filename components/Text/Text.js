@@ -1,16 +1,17 @@
-import { bool } from 'prop-types';
+import { bool, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
 import styles from './Text.style';
 
 const Text = ({
-  bold, tiny, small, large, ...inherit
+  bold, color, tiny, small, large, ...inherit
 }) => (
   <NativeText
     {...inherit}
     style={StyleSheet.flatten([
       styles.container,
+      color && { color },
       bold && styles.bold,
       tiny && styles.tiny,
       small && styles.small,
@@ -22,16 +23,18 @@ const Text = ({
 
 Text.propTypes = {
   bold: bool,
-  tiny: bool,
-  small: bool,
+  color: string,
   large: bool,
+  small: bool,
+  tiny: bool,
 };
 
 Text.defaultProps = {
   bold: false,
-  tiny: false,
-  small: false,
+  color: undefined,
   large: false,
+  small: false,
+  tiny: false,
 };
 
 export default Text;

@@ -24,9 +24,8 @@ class Link extends Component {
         onMouseEnter={() => inherit.href && this.setState({ hover: true })}
         onMouseLeave={() => inherit.href && this.setState({ hover: false })}
         style={StyleSheet.flatten([
-          styles.title,
-          hover && styles.hover,
           style,
+          hover && styles.hover,
           hover && styleHover,
         ])}
       />
