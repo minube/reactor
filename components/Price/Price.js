@@ -10,7 +10,7 @@ const LEFT_SYMBOLS = ['$'];
 const Price = ({
   fixed, style, symbol, value,
 }) => (
-  <View style={StyleSheet.flatten([styles.container, value > 1000 && styles.containerSmall])}>
+  <View style={StyleSheet.flatten([styles.container, value >= 1000 && styles.containerSmall])}>
     { LEFT_SYMBOLS.includes(symbol) &&
       <Text style={StyleSheet.flatten([styles.text, styles.symbol, style])}>{symbol}</Text> }
     <Text style={StyleSheet.flatten([styles.text, styles.value, style])}>
