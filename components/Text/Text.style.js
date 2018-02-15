@@ -7,19 +7,25 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
+  bold: {
+    fontWeight: FONT.WEIGHT.BOLD,
+  },
+
   container: {
     color: COLOR.TEXT,
     fontFamily: FONT.FAMILY,
     fontSize: FONT.SIZE.REGULAR,
   },
 
-  title: {
-    fontSize: FONT.SIZE.TITLE,
-    fontWeight: FONT.WEIGHT.BOLD,
+  tiny: {
+    fontSize: FONT.SIZE.TINY,
   },
 
-  subtitle: {
-    fontSize: FONT.SIZE.SUBTITLE,
-    fontWeight: FONT.WEIGHT.BOLD,
+  small: {
+    fontSize: FONT.SIZE.SMALL,
+  },
+
+  large: {
+    fontSize: FONT.SIZE.LARGE,
   },
 });

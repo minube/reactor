@@ -2,15 +2,18 @@ import { Dimensions, Platform } from 'react-native';
 
 const UNIT = 10;
 const WIDTH = Dimensions.get('window').width;
-const SCREEN = {
+
+const SCREEN = () => ({
   TINY: WIDTH < 360,
   PHONE: WIDTH >= 360 && WIDTH < 376,
   TABLET: WIDTH >= 376 && WIDTH < 510,
   SMALL: WIDTH >= 510 && WIDTH < 720,
   REGULAR: WIDTH >= 720 && WIDTH <= 1024,
   LARGE: WIDTH >= 1024,
+
+  HEIGHT: Dimensions.get('window').height,
   WIDTH,
-};
+});
 
 export default {
   BORDER_RADIUS: UNIT / 5,
@@ -57,9 +60,6 @@ export default {
       SMALL: UNIT * 1.4,
       REGULAR: UNIT * 1.6,
       LARGE: UNIT * 2,
-
-      TITLE: UNIT * 4.8,
-      SUBTITLE: UNIT * 3.2,
     },
     WEIGHT: {
       LIGHT: '300',
@@ -74,13 +74,17 @@ export default {
   LAYOUT: {
     AVATAR_SMALL: UNIT * 2,
     BORDER_RADIUS: UNIT * 0.3,
-    BUTTON_HEIGHT: SCREEN.REGULAR || SCREEN.LARGE ? UNIT * 4.5 : UNIT * 3,
+    BUTTON_HEIGHT: SCREEN().REGULAR || SCREEN().LARGE ? UNIT * 4.5 : UNIT * 3,
 
-    CARD_PICTURE_HEIGHT: SCREEN.REGULAR || SCREEN.LARGE ? UNIT * 19 : UNIT * 13.9,
+    CARD_PICTURE_HEIGHT: SCREEN().REGULAR || SCREEN().LARGE ? UNIT * 19 : UNIT * 13.9,
     CARD_WIDTH: (() => {
-      if (SCREEN.TINY) return UNIT * 13;
-      if (SCREEN.PHONE || SCREEN.SMALL) return UNIT * 15;
-      if (SCREEN.TABLET || SCREEN.REGULAR) return UNIT * 16.8;
+      const {
+        TINY, PHONE, SMALL, TABLET, REGULAR,
+      } = SCREEN();
+
+      if (TINY) return UNIT * 13;
+      if (PHONE || SMALL) return UNIT * 15;
+      if (TABLET || REGULAR) return UNIT * 16.8;
       return UNIT * 23.6;
     })(),
 

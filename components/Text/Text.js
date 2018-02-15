@@ -5,29 +5,33 @@ import { StyleSheet, Text as NativeText } from 'react-native';
 import styles from './Text.style';
 
 const Text = ({
-  title,
-  subtitle,
-  ...inherit
+  bold, tiny, small, large, ...inherit
 }) => (
   <NativeText
     {...inherit}
     style={StyleSheet.flatten([
       styles.container,
-      subtitle && styles.subtitle,
-      title && styles.title,
+      bold && styles.bold,
+      tiny && styles.tiny,
+      small && styles.small,
+      large && styles.large,
       inherit.style,
     ])}
   />
 );
 
 Text.propTypes = {
-  subtitle: bool,
-  title: bool,
+  bold: bool,
+  tiny: bool,
+  small: bool,
+  large: bool,
 };
 
 Text.defaultProps = {
-  subtitle: false,
-  title: false,
+  bold: false,
+  tiny: false,
+  small: false,
+  large: false,
 };
 
 export default Text;
