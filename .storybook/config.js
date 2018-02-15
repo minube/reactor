@@ -5,15 +5,12 @@ import JSXAddon from 'storybook-addon-jsx';
 import styles from '@sambego/storybook-styles';
 import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
-import { THEME } from '../src/common';
-
-const stories = require.context('../src', true, /\.story\.js$/);
+import { THEME } from '../common';
 
 addDecorator(withKnobs);
 addDecorator(styles({
   alignItems: 'center',
   display: 'flex',
-  fontFamily: THEME.FONT.FAMILY,
   justifyContent: 'center',
   padding: THEME.OFFSET,
   height: '100%',
@@ -27,4 +24,5 @@ setOptions({
 });
 setConsoleOptions({ panelExclude: [] });
 
+const stories = require.context('../components', true, /\.story\.js$/);
 configure(() => stories.keys().forEach(stories), module);
