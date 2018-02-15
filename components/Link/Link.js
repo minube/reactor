@@ -13,16 +13,16 @@ class Link extends Component {
 
   render() {
     const {
-      props: { style, styleHover },
+      props: { style, styleHover, ...inherit },
       state: { hover },
     } = this;
 
     return (
       <Text
-        {...this.props}
+        {...inherit}
         accessibilityRole="link"
-        onMouseEnter={() => this.setState({ hover: true })}
-        onMouseLeave={() => this.setState({ hover: false })}
+        onMouseEnter={() => inherit.href && this.setState({ hover: true })}
+        onMouseLeave={() => inherit.href && this.setState({ hover: false })}
         style={StyleSheet.flatten([
           styles.title,
           hover && styles.hover,
