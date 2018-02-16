@@ -54,7 +54,7 @@ export default {
   FONT: {
     FAMILY: Platform.OS === 'web'
       ? '"Montserrat", sans-serif'
-      : '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
+      : undefined, // '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
     SIZE: {
       TINY: UNIT * 1.2,
       SMALL: UNIT * 1.4,
