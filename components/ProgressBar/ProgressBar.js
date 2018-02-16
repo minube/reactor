@@ -8,9 +8,29 @@ const { COLOR } = THEME;
 
 export default ({ ...inherit }) => (
   Platform.OS === 'web'
-    ? <ProgressBar color={COLOR.PRIMARY} trackColor={COLOR.BACKGROUND} {...inherit} />
+    ?
+      <ProgressBar
+        color={COLOR.PRIMARY}
+        trackColor={COLOR.BACKGROUND}
+        {...inherit}
+        style={StyleSheet.flatten([styles.container, inherit.style])}
+      />
     :
-    <View style={styles.container}>
-      <View style={StyleSheet.create([styles.value, { width: `${(inherit.progress || 0) * 100}%` }])} />
-    </View>
+      <View
+        style={StyleSheet.flatten([
+          styles.container,
+          { backgroundColor: inherit.trackColor || COLOR.BACKGROUND },
+          inherit.style,
+        ])}
+      >
+        <View
+          style={StyleSheet.flatten([
+            styles.progress,
+            {
+              backgroundColor: inherit.color || COLOR.PRIMARY,
+              width: `${(inherit.progress || 0) * 100}%`,
+            },
+          ])}
+        />
+      </View>
 );
