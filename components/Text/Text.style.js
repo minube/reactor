@@ -7,6 +7,10 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
+  accent: {
+    color: COLOR.ACCENT,
+  },
+
   bold: {
     fontWeight: FONT.WEIGHT.BOLD,
   },
@@ -15,6 +19,10 @@ export default StyleSheet.create({
     color: COLOR.TEXT,
     fontFamily: FONT.FAMILY,
     fontSize: FONT.SIZE.REGULAR,
+  },
+
+  primary: {
+    color: COLOR.PRIMARY,
   },
 
   tiny: {

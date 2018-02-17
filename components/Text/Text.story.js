@@ -21,8 +21,14 @@ storiesOf('✅ Text', module)
   .addWithJSX('with bold', () => (
     <Text bold>Hello World</Text>
   ))
+  .addWithJSX('with primary', () => (
+    <Text primary>Hello World</Text>
+  ))
+  .addWithJSX('with accent', () => (
+    <Text accent>Hello World</Text>
+  ))
   .addWithJSX('with color', () => (
-    <Text color={THEME.COLOR.PRIMARY}>Hello World</Text>
+    <Text color={THEME.COLOR.ERROR}>Hello World</Text>
   ))
   .addWithJSX('💄 Custom Style', () => (
     <Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Customized Text</Text>
@@ -34,6 +40,8 @@ storiesOf('✅ Text', module)
       small={boolean('small', false)}
       tiny={boolean('tiny', false)}
       large={boolean('large', false)}
+      accent={boolean('accent', false)}
+      primary={boolean('primary', false)}
     >
       {text('content', 'Hello World')}
     </Text>
