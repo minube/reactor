@@ -58,6 +58,11 @@ storiesOf('✅ Button', module)
       <Button icon="search" />
     </WithNotes>
   ))
+  .addWithJSX('with responsive', () => (
+    <WithNotes>
+      <Button responsive title="with activity" />
+    </WithNotes>
+  ))
   .addWithJSX('💄 Custom Style', () => (
     <WithNotes>
       <Button title="custom style" style={{ backgroundColor: 'orange' }} />
@@ -74,6 +79,7 @@ storiesOf('✅ Button', module)
       icon={text('icon', null)}
       onPress={action('Button.onPress()')}
       primary={boolean('primary', false)}
+      responsive={boolean('responsive', false)}
       rounded={boolean('rounded', false)}
       small={boolean('small', false)}
       title={text('title', 'Touch me')}

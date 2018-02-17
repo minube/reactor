@@ -9,7 +9,7 @@ import styles from './Button.style';
 const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
-  accent, activity, color, disabled, flat, icon, onPress, primary, rounded, small, style, title,
+  accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
 }) => (
   <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined} raised={color === undefined}>
     <View
@@ -20,8 +20,9 @@ const Button = ({
         accent && styles.accent,
         flat && styles.flat,
         !title && icon && styles.floating,
-        rounded && styles.rounded,
+        responsive && styles.responsive,
         small && styles.small,
+        rounded && styles.rounded,
         disabled && styles.disabled,
         style,
       ])}
@@ -33,6 +34,7 @@ const Button = ({
         <Text style={StyleSheet.flatten([
           styles.text,
           flat && styles.textFlat,
+          responsive && styles.textResponsive,
           small && styles.textSmall,
           disabled && styles.textDisabled])}
         >
@@ -51,6 +53,7 @@ Button.propTypes = {
   icon: string,
   onPress: func,
   primary: bool,
+  responsive: bool,
   rounded: bool,
   small: bool,
   style: oneOfType([array, number]),
@@ -66,6 +69,7 @@ Button.defaultProps = {
   icon: undefined,
   onPress: undefined,
   primary: false,
+  responsive: false,
   rounded: false,
   small: false,
   style: [],

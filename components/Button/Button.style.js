@@ -3,9 +3,10 @@ import { StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, UNIT,
+  COLOR, FONT, LAYOUT, SCREEN, UNIT,
 } = THEME;
-const BUTTON_FLOATING_HEIGHT = LAYOUT.BUTTON_HEIGHT * 1.5;
+const BUTTON_HEIGHT = UNIT * 4.5;
+const BUTTON_FLOATING_HEIGHT = UNIT * 6;
 
 export default StyleSheet.create({
 
@@ -15,19 +16,11 @@ export default StyleSheet.create({
     {
       backgroundColor: COLOR.TEXT,
       borderRadius: LAYOUT.BORDER_RADIUS,
-      height: LAYOUT.BUTTON_HEIGHT,
+      height: BUTTON_HEIGHT,
       paddingHorizontal: UNIT * 3,
       margin: UNIT / 2,
     },
   ]),
-
-  _container: {
-    backgroundColor: COLOR.TEXT,
-    borderRadius: LAYOUT.BORDER_RADIUS,
-    height: LAYOUT.BUTTON_HEIGHT,
-    paddingHorizontal: UNIT * 3,
-    margin: UNIT / 2,
-  },
 
   accent: {
     backgroundColor: COLOR.ACCENT,
@@ -59,12 +52,16 @@ export default StyleSheet.create({
     backgroundColor: COLOR.PRIMARY,
   },
 
+  responsive: {
+    height: SCREEN().REGULAR || SCREEN().LARGE ? BUTTON_HEIGHT : UNIT * 3,
+  },
+
   rounded: {
-    borderRadius: LAYOUT.BUTTON_HEIGHT / 2,
+    borderRadius: BUTTON_HEIGHT / 2,
   },
 
   small: {
-    height: LAYOUT.BUTTON_HEIGHT / 2,
+    height: BUTTON_HEIGHT / 2,
   },
 
   text: {
@@ -79,6 +76,10 @@ export default StyleSheet.create({
 
   textFlat: {
     color: COLOR.TEXT_LIGHTEN,
+  },
+
+  textResponsive: {
+    fontSize: SCREEN().REGULAR || SCREEN().LARGE ? FONT.SIZE.SMALL : FONT.SIZE.TINY,
   },
 
   textSmall: {
