@@ -5,7 +5,7 @@ import { boolean, color, number } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import ProgressBar from './ProgressBar';
 
-storiesOf('ProgressBar', module)
+storiesOf('✅ ProgressBar', module)
   .addWithJSX('default', () => (
     <ProgressBar />
   ))

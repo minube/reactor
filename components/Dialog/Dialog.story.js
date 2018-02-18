@@ -6,7 +6,7 @@ import { text, boolean } from '@storybook/addon-knobs/react';
 import Dialog from './Dialog';
 import Text from '../Text';
 
-storiesOf('Dialog', module)
+storiesOf('🛠 Dialog', module)
   .addWithJSX('default', () => (
     <Dialog onClose={action('Button.onClose()')} title="Title" visible />
   ))
