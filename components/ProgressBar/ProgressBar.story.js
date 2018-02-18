@@ -10,7 +10,7 @@ storiesOf('ProgressBar', module)
     <ProgressBar />
   ))
   .addWithJSX('with progress', () => (
-    <ProgressBar progress={0.5} />
+    <ProgressBar progress={0.33} />
   ))
   .addWithJSX('with indeterminate', () => (
     <ProgressBar indeterminate />
