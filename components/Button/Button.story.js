@@ -16,9 +16,9 @@ storiesOf('✅ Button', module)
   ))
   .addWithJSX('floating', () => (
     <WithNotes notes="Example of complementary notes">
-      <Button icon="search" />
-      <Button primary icon="search" />
-      <Button accent icon="search" />
+      <Button icon="base" />
+      <Button primary icon="base" />
+      <Button accent icon="base" />
     </WithNotes>
   ))
   .addWithJSX('flat', () => (
@@ -43,19 +43,19 @@ storiesOf('✅ Button', module)
   .addWithJSX('disabled', () => (
     <WithNotes>
       <Button disabled title="disabled" />
-      <Button disabled icon="search" />
+      <Button disabled icon="base" />
     </WithNotes>
   ))
   .addWithJSX('with activity', () => (
     <WithNotes>
       <Button activity title="with activity" />
-      <Button activity icon="search" />
+      <Button activity icon="base" />
     </WithNotes>
   ))
   .addWithJSX('with icon', () => (
     <WithNotes>
-      <Button icon="search" title="with activity" />
-      <Button icon="search" />
+      <Button icon="base" title="with activity" />
+      <Button icon="base" />
     </WithNotes>
   ))
   .addWithJSX('with responsive', () => (
@@ -66,7 +66,7 @@ storiesOf('✅ Button', module)
   .addWithJSX('💄 Custom Style', () => (
     <WithNotes>
       <Button title="custom style" style={{ backgroundColor: 'orange' }} />
-      <Button icon="search" style={{ backgroundColor: 'orange' }} />
+      <Button icon="base" style={{ backgroundColor: 'orange' }} />
     </WithNotes>
   ))
   .addWithJSX('🏀 Playground', () => (

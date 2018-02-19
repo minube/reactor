@@ -6,6 +6,7 @@ import styles from '@sambego/storybook-styles';
 import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
 import { THEME } from '../common';
+import PKG from '../package.json';
 
 addDecorator(withKnobs);
 addDecorator(styles({
@@ -18,7 +19,7 @@ addDecorator(styles({
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 setAddon(JSXAddon);
 setOptions({
-  name: 'minube/reactor',
+  name: `minube/reactor ${PKG.version}`,
   url: 'github.com/minube/reactor',
   addonPanelInRight: true,
 });
