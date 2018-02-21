@@ -11,6 +11,7 @@ import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
+import Slider from './Slider';
 import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
@@ -29,6 +30,7 @@ export {
   Price,
   ProgressBar,
   Rating,
+  Slider,
   Switch,
   Text,
   Touchable,

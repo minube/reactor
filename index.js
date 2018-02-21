@@ -11,6 +11,7 @@ import PictureCard from './components/PictureCard';
 import Price from './components/Price';
 import ProgressBar from './components/ProgressBar';
 import Rating from './components/Rating';
+import Slider from './components/Slider';
 import Switch from './components/Switch';
 import Text from './components/Text';
 import Touchable from './components/Touchable';
@@ -29,6 +30,7 @@ export {
   Price,
   ProgressBar,
   Rating,
+  Slider,
   Switch,
   Text,
   Touchable,
