@@ -5,8 +5,6 @@ import { STYLE, THEME } from '../../common';
 const {
   COLOR, FONT, LAYOUT, SCREEN, UNIT,
 } = THEME;
-const BUTTON_HEIGHT = UNIT * 4.5;
-const BUTTON_FLOATING_HEIGHT = UNIT * 6;
 
 export default StyleSheet.create({
 
@@ -16,7 +14,7 @@ export default StyleSheet.create({
     {
       backgroundColor: COLOR.TEXT,
       borderRadius: LAYOUT.BORDER_RADIUS,
-      height: BUTTON_HEIGHT,
+      height: LAYOUT.BUTTON_HEIGHT,
       paddingHorizontal: UNIT * 3,
       margin: UNIT / 2,
     },
@@ -31,10 +29,10 @@ export default StyleSheet.create({
   },
 
   floating: {
-    borderRadius: BUTTON_FLOATING_HEIGHT / 2,
-    height: BUTTON_FLOATING_HEIGHT,
+    borderRadius: LAYOUT.BUTTON_FLOATING_HEIGHT / 2,
+    height: LAYOUT.BUTTON_FLOATING_HEIGHT,
     paddingHorizontal: 0,
-    width: BUTTON_FLOATING_HEIGHT,
+    width: LAYOUT.BUTTON_FLOATING_HEIGHT,
   },
 
   disabled: {
@@ -53,15 +51,16 @@ export default StyleSheet.create({
   },
 
   responsive: {
-    height: SCREEN().REGULAR || SCREEN().LARGE ? BUTTON_HEIGHT : UNIT * 3,
+    height: SCREEN().REGULAR || SCREEN().LARGE ? LAYOUT.BUTTON_HEIGHT : LAYOUT.BUTTON_SMALL_HEIGHT,
   },
 
   rounded: {
-    borderRadius: BUTTON_HEIGHT / 2,
+    borderRadius: LAYOUT.BUTTON_HEIGHT / 2,
   },
 
   small: {
-    height: BUTTON_HEIGHT / 2,
+    height: LAYOUT.BUTTON_SMALL_HEIGHT,
+    paddingHorizontal: UNIT * 1.5,
   },
 
   text: {
