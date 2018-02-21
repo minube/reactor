@@ -12,11 +12,13 @@ export default StyleSheet.create({
     fontSize: FONT.SIZE.TINY,
   },
 
-  container: {
-    backgroundColor: COLOR.BACKGROUND,
+  image: {
+    // position: 'absolute',
+    // backgroundColor: COLOR.BACKGROUND,
     borderRadius: LAYOUT.BORDER_RADIUS,
     width: LAYOUT.CARD_WIDTH,
     height: LAYOUT.CARD_PICTURE_HEIGHT,
+    // opacity: 0.5,
   },
 
   content: StyleSheet.flatten([
