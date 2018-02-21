@@ -16,24 +16,28 @@ class ProgressBar extends Component {
       width: new Animated.Value((props.progress || 0) * 100),
     };
     this._onLayout = this._onLayout.bind(this);
+    this._updateProgress = this._updateProgress.bind(this);
   }
 
-  componentWillReceiveProps({ indeterminate, progress = 0 }) {
-    const { state: { layoutWidth, width } } = this;
+  componentWillReceiveProps(nextProps) {
+    this._updateProgress(nextProps);
+  }
+
+  _onLayout({ nativeEvent: { layout = {} } }) {
+    this.setState({ layoutWidth: layout.width });
+    this._updateProgress(this.props, layout.width);
+  }
+
+  _updateProgress({ indeterminate, progress = 0 }, layoutWidth = this.state.layoutWidth) {
+    const { state: { width } } = this;
 
     if (indeterminate) {
       Animated.loop(Animated.timing(width, { fromValue: 0, toValue: layoutWidth })).start();
     } else {
       Animated.spring(width, {
         toValue: progress * layoutWidth,
-        useNativeDriver: Platform.OS !== 'web',
       }).start();
     }
-  }
-
-  _onLayout({ nativeEvent: { layout = {} } }) {
-    this.setState({ layoutWidth: layout.width });
-    this.componentWillReceiveProps(this.props);
   }
 
   render() {
