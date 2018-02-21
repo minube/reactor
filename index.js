@@ -4,6 +4,7 @@ import Dialog from './components/Dialog';
 import Heading from './components/Heading';
 import HotelCard from './components/HotelCard';
 import Icon from './components/Icon';
+import Image from './components/Image';
 import Input from './components/Input';
 import Link from './components/Link';
 import ListingCard from './components/ListingCard';
@@ -23,6 +24,7 @@ export {
   Heading,
   HotelCard,
   Icon,
+  Image,
   Input,
   Link,
   ListingCard,

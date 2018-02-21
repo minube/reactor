@@ -4,6 +4,7 @@ import Dialog from './Dialog';
 import Heading from './Heading';
 import HotelCard from './HotelCard';
 import Icon from './Icon';
+import Image from './Image';
 import Input from './Input';
 import Link from './Link';
 import ListingCard from './ListingCard';
@@ -23,6 +24,7 @@ export {
   Heading,
   HotelCard,
   Icon,
+  Image,
   Input,
   Link,
   ListingCard,
