@@ -11,7 +11,7 @@ const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 const Button = ({
   accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
 }) => (
-  <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined} raised={color === undefined}>
+  <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined}>
     <View
       style={StyleSheet.flatten([
         styles.container,
