@@ -12,6 +12,9 @@ storiesOf('✅ Image', module)
   .addWithJSX('without source', () => (
     <Image style={{ width: 320, height: 240 }} />
   ))
+  .addWithJSX('with small activity', () => (
+    <Image size="small" style={{ width: 320, height: 240 }} />
+  ))
   .addWithJSX('💄 Custom Style', () => (
     <Image
       source={{ uri: IMAGE_PLACEHOLDER }}

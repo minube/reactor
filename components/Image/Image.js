@@ -28,7 +28,7 @@ class Image extends Component {
     return (
       <View style={StyleSheet.flatten([styles.container, inherit.style])}>
         <ImageNative {...inherit} onLoad={_onLoad} />
-        { !ready && <Activity color="white" size="large" style={styles.activity} /> }
+        { !ready && <Activity color="white" size={inherit.size || 'large'} style={styles.activity} /> }
       </View>
     );
   }
