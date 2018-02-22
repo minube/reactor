@@ -4,6 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { WithNotes } from '@storybook/addon-notes';
 import { text, boolean, color } from '@storybook/addon-knobs/react';
 
+import WebView from '../WebView';
 import Button from './Button';
 
 storiesOf('✅ Button', module)
@@ -70,19 +71,21 @@ storiesOf('✅ Button', module)
     </WithNotes>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <Button
-      accent={boolean('accent', false)}
-      activity={boolean('activity', false)}
-      color={color('color', undefined)}
-      disabled={boolean('disabled', false)}
-      flat={boolean('flat', false)}
-      icon={text('icon', null)}
-      onPress={action('Button.onPress()')}
-      primary={boolean('primary', false)}
-      responsive={boolean('responsive', false)}
-      rounded={boolean('rounded', false)}
-      small={boolean('small', false)}
-      title={text('title', 'Touch me')}
-    />
+    <WebView>
+      <Button
+        accent={boolean('accent', false)}
+        activity={boolean('activity', false)}
+        color={color('color', undefined)}
+        disabled={boolean('disabled', false)}
+        flat={boolean('flat', false)}
+        icon={text('icon', null)}
+        onPress={action('Button.onPress()')}
+        primary={boolean('primary', false)}
+        responsive={boolean('responsive', false)}
+        rounded={boolean('rounded', false)}
+        small={boolean('small', false)}
+        title={text('title', 'Touch me')}
+      />
+    </WebView>
   ));
 

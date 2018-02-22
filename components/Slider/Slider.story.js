@@ -2,9 +2,10 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text, boolean, number } from '@storybook/addon-knobs/react';
 
-import Slider from './Slider';
+import WebView from '../WebView';
 import ListingCard from '../ListingCard';
 import PictureCard from '../PictureCard';
+import Slider from './Slider';
 
 const dataSource = [...Array(16).keys()]
   .map(index => ({
@@ -52,15 +53,17 @@ storiesOf('🛠 Slider', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <Slider
-      caption={text('caption', 'Muy del estilo de Chiang Mai')}
-      dataSource={dataSource}
-      itemMargin={number('itemMargin', 10)}
-      navigation={boolean('navigation', true)}
-      momentum={boolean('momentum', false)}
-      steps={number('steps', 1)}
-      title={text('title', 'Explora nuevos destinos')}
-      item={ItemPictureCard}
-    />
+    <WebView>
+      <Slider
+        caption={text('caption', 'Muy del estilo de Chiang Mai')}
+        dataSource={dataSource}
+        itemMargin={number('itemMargin', 10)}
+        navigation={boolean('navigation', true)}
+        momentum={boolean('momentum', false)}
+        steps={number('steps', 1)}
+        title={text('title', 'Explora nuevos destinos')}
+        item={ItemPictureCard}
+      />
+    </WebView>
   ));
 
