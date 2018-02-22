@@ -2,13 +2,17 @@ import { array, arrayOf, func, number, oneOfType, shape, string } from 'prop-typ
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
+import { THEME } from '../../common';
+import Image from '../Image';
+import Link from '../Link';
 import Rating from '../Rating';
 import Text from '../Text';
-import Link from '../Link';
 import styles from './Heading.style';
 
+const { LAYOUT: { AVATAR_SMALL }, UNIT } = THEME;
+
 const Heading = ({
-  breadcrumbs, onBreadcrumb, rating, style, color, title,
+  breadcrumbs, color, contributors: { total, label, preview } = {}, onBreadcrumb, rating, style, title,
 }) => (
   <View style={StyleSheet.flatten([styles.container, style])}>
     <View style={styles.content}>
@@ -28,17 +32,27 @@ const Heading = ({
           {`${caption}${index < breadcrumbs.length - 1 ? ' ·' : ''}`}
         </Link>
       ))}
-      <View style={styles.contributors}>
-        <Text bold color={color} tiny>234</Text>
-        <Text color={color} tiny> colaboratores</Text>
-      </View>
+      { total &&
+        <View style={styles.contributors}>
+          <Text bold color={color} tiny>{total}</Text>
+          <Text color={color} tiny>{` ${label}`}</Text>
+          <View style={StyleSheet.flatten([
+              styles.avatars,
+              { width: (AVATAR_SMALL + (UNIT / 2)) * preview.length },
+            ])}
+          >
+            { preview.map(({ id, image }) =>
+              <Image key={id} size="small" style={styles.avatar} source={{ uri: image }} />) }
+          </View>
+        </View> }
     </View>
   </View>
 );
 
 Heading.propTypes = {
-  color: string,
   breadcrumbs: arrayOf(shape({})),
+  color: string,
+  contributors: shape({}),
   onBreadcrumb: func,
   rating: number,
   style: oneOfType([array, number]),
@@ -48,6 +62,7 @@ Heading.propTypes = {
 Heading.defaultProps = {
   breadcrumbs: [],
   color: undefined,
+  contributors: undefined,
   onBreadcrumb() {},
   rating: undefined,
   style: [],

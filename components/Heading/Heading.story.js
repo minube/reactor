@@ -12,6 +12,16 @@ const breadcrumbs = [
   { caption: 'Londres', href: '/' },
 ];
 
+const contributors = {
+  total: 128,
+  label: 'colaborators',
+  preview: [
+    { id: 8, image: 'https://api.adorable.io/avatars/48/8' },
+    { id: 16, image: 'https://api.adorable.io/avatars/48/16' },
+    { id: 32, image: 'https://api.adorable.io/avatars/48/32' },
+  ],
+};
+
 storiesOf('🛠 Heading', module)
   .addWithJSX('default', () => (
     <Heading title="Actividades en España" />
@@ -22,8 +32,8 @@ storiesOf('🛠 Heading', module)
   .addWithJSX('with breadcrumbs', () => (
     <Heading title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />
   ))
-  .addWithJSX('with colaborators', () => (
-    <Heading title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />
+  .addWithJSX('with contributors', () => (
+    <Heading contributors={contributors} title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />
   ))
   .addWithJSX('with color', () => (
     <Heading color={THEME.COLOR.ACCENT} title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />

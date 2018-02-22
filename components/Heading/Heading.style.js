@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, UNIT, SCREEN,
+  COLOR, FONT, LAYOUT, UNIT, SCREEN,
 } = THEME;
 
 export default StyleSheet.create({
@@ -14,16 +14,29 @@ export default StyleSheet.create({
   content: StyleSheet.flatten([
     STYLE.ROW,
     {
+      minHeight: LAYOUT.AVATAR_SMALL,
     },
   ]),
 
   contributors: StyleSheet.flatten([
     STYLE.ROW,
     {
-      // alignItems: 'flex-end',
-      // alignContent: 'flex-end',
       justifyContent: 'flex-end',
       flex: 1,
+    },
+  ]),
+
+  avatar: {
+    borderRadius: LAYOUT.AVATAR_SMALL / 2,
+    height: LAYOUT.AVATAR_SMALL,
+    width: LAYOUT.AVATAR_SMALL,
+  },
+
+  avatars: StyleSheet.flatten([
+    STYLE.ROW,
+    {
+      justifyContent: 'space-between',
+      paddingLeft: UNIT / 2,
     },
   ]),
 
