@@ -16,7 +16,7 @@ export default StyleSheet.create({
 
   rate: {
     color: COLOR.PRIMARY,
-    fontSize: FONT.SIZE.SMALL,
+    fontSize: FONT.SIZE.REGULAR,
     lineHeight: FONT.SIZE.REGULAR,
     marginRight: UNIT * 0.25,
   },
