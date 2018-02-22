@@ -1,4 +1,5 @@
 import Activity from './components/Activity';
+import Breadcrumbs from './components/Breadcrumbs';
 import Button from './components/Button';
 import Dialog from './components/Dialog';
 import Heading from './components/Heading';
@@ -19,6 +20,7 @@ import Touchable from './components/Touchable';
 
 export {
   Activity,
+  Breadcrumbs,
   Button,
   Dialog,
   Heading,
