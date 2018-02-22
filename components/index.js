@@ -17,6 +17,7 @@ import Slider from './Slider';
 import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
+import WebView from './WebView';
 
 export {
   Activity,
@@ -38,4 +39,5 @@ export {
   Switch,
   Text,
   Touchable,
+  WebView,
 };
