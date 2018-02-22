@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, UNIT, SCREEN,
+  FONT, LAYOUT, UNIT, SCREEN,
 } = THEME;
 
 export default StyleSheet.create({
@@ -11,12 +11,15 @@ export default StyleSheet.create({
     width: '100%',
   },
 
-  content: StyleSheet.flatten([
+  row: StyleSheet.flatten([
     STYLE.ROW,
     {
       minHeight: LAYOUT.AVATAR_SMALL,
     },
   ]),
+
+  column: {
+  },
 
   contributors: StyleSheet.flatten([
     STYLE.ROW,
@@ -40,10 +43,6 @@ export default StyleSheet.create({
     },
   ]),
 
-  rating: {
-    fontSize: FONT.SIZE.REGULAR,
-  },
-
   title: {
     fontSize: (() => {
       const {
@@ -55,10 +54,5 @@ export default StyleSheet.create({
       return UNIT * 4.8;
     })(),
     marginRight: UNIT,
-  },
-
-  breadcrumb: {
-    color: COLOR.TEXT_LIGHTEN,
-    marginRight: UNIT / 2.25,
   },
 });

@@ -1,39 +1,30 @@
-import { array, arrayOf, func, number, oneOfType, shape, string } from 'prop-types';
+import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { THEME } from '../../common';
+import Breadcrumbs from '../Breadcrumbs';
 import Image from '../Image';
-import Link from '../Link';
 import Rating from '../Rating';
 import Text from '../Text';
 import styles from './Heading.style';
 
-const { LAYOUT: { AVATAR_SMALL }, UNIT } = THEME;
+const { COLOR, LAYOUT: { AVATAR_SMALL }, UNIT } = THEME;
 
 const Heading = ({
-  breadcrumbs, color, contributors: { total, label, preview } = {}, onBreadcrumb, rating, style, title,
+  breadcrumbs, color, column, onBreadcrumb, rating, style, title,
+  contributors: { total, label, preview } = {},
 }) => (
   <View style={StyleSheet.flatten([styles.container, style])}>
-    <View style={styles.content}>
+    <View style={column ? styles.column : styles.row}>
       { title && <Text bold color={color} style={styles.title}>{title}</Text> }
-      { rating && <Rating color={color} value={rating} style={styles.rating} /> }
+      { rating && <Rating {...rating} textColor={color} /> }
     </View>
-    <View style={styles.content}>
-      { breadcrumbs.map(({ caption, href }, index) => (
-        <Link
-          color={color}
-          href={href}
-          key={caption}
-          onPress={() => onBreadcrumb(index)}
-          style={styles.breadcrumb}
-          tiny
-        >
-          {`${caption}${index < breadcrumbs.length - 1 ? ' ·' : ''}`}
-        </Link>
-      ))}
+    <View style={column ? styles.column : styles.row}>
+      { breadcrumbs.length > 0 &&
+        <Breadcrumbs color={color || COLOR.TEXT_LIGHTEN} dataSource={breadcrumbs} onPress={onBreadcrumb} /> }
       { total &&
-        <View style={styles.contributors}>
+        <View style={column ? styles.row : styles.contributors}>
           <Text bold color={color} tiny>{total}</Text>
           <Text color={color} tiny>{` ${label}`}</Text>
           <View style={StyleSheet.flatten([
@@ -52,6 +43,7 @@ const Heading = ({
 Heading.propTypes = {
   breadcrumbs: arrayOf(shape({})),
   color: string,
+  column: bool,
   contributors: shape({}),
   onBreadcrumb: func,
   rating: number,
@@ -62,6 +54,7 @@ Heading.propTypes = {
 Heading.defaultProps = {
   breadcrumbs: [],
   color: undefined,
+  column: false,
   contributors: undefined,
   onBreadcrumb() {},
   rating: undefined,

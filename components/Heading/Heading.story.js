@@ -1,18 +1,18 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { color, text, number } from '@storybook/addon-knobs/react';
+import { boolean, color, object, text, number } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import Heading from './Heading';
 
-const breadcrumbs = [
+const BREADCRUMBS = [
   { caption: 'Turismo', href: '/' },
   { caption: 'Gran Bretaña', href: '/' },
   { caption: 'Inglaterra', href: '/' },
   { caption: 'Londres', href: '/' },
 ];
 
-const contributors = {
+const CONTRIBUTORS = {
   total: 128,
   label: 'colaborators',
   preview: [
@@ -22,30 +22,59 @@ const contributors = {
   ],
 };
 
+const RATING = { caption: 'valoraciones', count: 12, value: 4.5 };
+
 storiesOf('🛠 Heading', module)
   .addWithJSX('default', () => (
     <Heading title="Actividades en España" />
   ))
   .addWithJSX('with rating', () => (
-    <Heading title="Actividades en España" rating={3} />
+    <Heading title="Actividades en España" rating={RATING} />
   ))
   .addWithJSX('with breadcrumbs', () => (
-    <Heading title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />
+    <Heading title="Actividades en España" breadcrumbs={BREADCRUMBS} rating={3} />
   ))
   .addWithJSX('with contributors', () => (
-    <Heading contributors={contributors} title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />
+    <Heading contributors={CONTRIBUTORS} title="Actividades en España" breadcrumbs={BREADCRUMBS} rating={3} />
   ))
   .addWithJSX('with color', () => (
-    <Heading color={THEME.COLOR.ACCENT} title="Actividades en España" breadcrumbs={breadcrumbs} rating={3} />
+    <Heading
+      breadcrumbs={BREADCRUMBS}
+      color={THEME.COLOR.ACCENT}
+      contributors={CONTRIBUTORS}
+      title="Actividades en España"
+      rating={RATING}
+    />
+  ))
+  .addWithJSX('with column', () => (
+    <Heading
+      breadcrumbs={BREADCRUMBS}
+      contributors={CONTRIBUTORS}
+      title="Actividades en España"
+      rating={RATING}
+      column
+    />
   ))
   .addWithJSX('💄 Custom Style', () => (
-    <Heading style={{ fontSize: 20, lineHeight: 20, color: 'orange' }} />
+    <Heading
+      color={THEME.COLOR.WHITE}
+      column
+      rating={RATING}
+      style={{
+        padding: THEME.OFFSET,
+        backgroundColor: 'rgba(0,0,0,0.25)',
+      }}
+      title="British Museum"
+    />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Heading
+      breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
       color={color('color', THEME.COLOR.TEXT)}
+      column={boolean('column', false)}
+      contributors={object('contributors', CONTRIBUTORS, 'heading-contributors')}
+      rating={object('rating', RATING, 'heading-rating')}
       title={text('title', 'Actividades en España')}
-      rating={number('rating', 3)}
     />
   ));
 
