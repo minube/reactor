@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, UNIT,
+  COLOR, FONT, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -14,7 +14,6 @@ export default StyleSheet.create({
 
   container: {
     overflow: 'hidden',
-    width: LAYOUT.CARD_WIDTH,
   },
 
   content: {

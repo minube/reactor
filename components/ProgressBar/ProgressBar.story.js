@@ -10,19 +10,19 @@ storiesOf('✅ ProgressBar', module)
   .addWithJSX('default', () => (
     <ProgressBar />
   ))
-  .addWithJSX('with progress', () => (
+  .addWithJSX('progress', () => (
     <ProgressBar progress={0.33} />
   ))
-  .addWithJSX('with indeterminate', () => (
+  .addWithJSX('indeterminate', () => (
     <ProgressBar indeterminate />
   ))
-  .addWithJSX('with color', () => (
+  .addWithJSX('color', () => (
     <ProgressBar progress={0.5} color={THEME.COLOR.ACCENT} />
   ))
-  .addWithJSX('with trackColor', () => (
-    <ProgressBar progress={0.5} trackColor={THEME.COLOR.BORDER} />
+  .addWithJSX('trackColor', () => (
+    <ProgressBar progress={0.5} trackColor={THEME.COLOR.ERROR} />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <ProgressBar progress={0.5} style={{ borderRadius: THEME.OFFSET / 2, height: THEME.OFFSET }} />
   ))
   .addWithJSX('🏀 Playground', () => (

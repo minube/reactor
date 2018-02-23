@@ -3,48 +3,51 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { boolean, text } from '@storybook/addon-knobs/react';
 
+import WebView from '../WebView';
 import PictureCard from './index';
 
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 
 storiesOf('✅ PictureCard', module)
-  .addWithJSX('Empty', () => (
-    <PictureCard empty />
+  .addWithJSX('default', () => (
+    <PictureCard />
   ))
-  .addWithJSX('Just a picture', () => (
-    <PictureCard image={LIPSUM_IMAGE}  />
+  .addWithJSX('image', () => (
+    <PictureCard image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('with action', () => (
-    <PictureCard image={LIPSUM_IMAGE} onPress={action('PictureCard.onPress()')} />
-  ))
-  .addWithJSX('Located', () => (
+  .addWithJSX('location', () => (
     <PictureCard location="{location}" image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('Caption', () => (
+  .addWithJSX('caption', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('Title', () => (
+  .addWithJSX('title', () => (
     <PictureCard image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('Caption & Title', () => (
+  .addWithJSX('caption & title', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('Small', () => (
+  .addWithJSX('small', () => (
     <PictureCard caption="{caption}" small image={LIPSUM_IMAGE} title="{title}" />
   ))
   .addWithJSX('square', () => (
     <PictureCard caption="{caption}" square image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('💄 Custom Style', () => (
-    <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', margin: 10 }} />
+  .addWithJSX('⚡ onPress', () => (
+    <PictureCard image={LIPSUM_IMAGE} onPress={action('PictureCard.onPress()')} />
+  ))
+  .addWithJSX('style', () => (
+    <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', opacity: 0.75 }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <PictureCard
-      location={text('location', '{location}')}
-      caption={text('caption', '{caption}')}
-      small={boolean('small', false)}
-      image={text('image', LIPSUM_IMAGE)}
-      onPress={action('PictureCard.onPress()')}
-      title={text('title', '{title}')}
-    />
+    <WebView>
+      <PictureCard
+        location={text('location', '{location}')}
+        caption={text('caption', '{caption}')}
+        small={boolean('small', false)}
+        image={text('image', LIPSUM_IMAGE)}
+        onPress={action('PictureCard.onPress()')}
+        title={text('title', '{title}')}
+      />
+    </WebView>
   ));

@@ -1,8 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { boolean, color, object, text, number } from '@storybook/addon-knobs/react';
+import { boolean, color, object, text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
+import WebView from '../WebView';
 import Heading from './Heading';
 
 const BREADCRUMBS = [
@@ -28,16 +29,16 @@ storiesOf('🛠 Heading', module)
   .addWithJSX('default', () => (
     <Heading title="Actividades en España" />
   ))
-  .addWithJSX('with rating', () => (
+  .addWithJSX('rating', () => (
     <Heading title="Actividades en España" rating={RATING} />
   ))
-  .addWithJSX('with breadcrumbs', () => (
-    <Heading title="Actividades en España" breadcrumbs={BREADCRUMBS} rating={3} />
+  .addWithJSX('breadcrumbs', () => (
+    <Heading title="Actividades en España" breadcrumbs={BREADCRUMBS} />
   ))
-  .addWithJSX('with contributors', () => (
-    <Heading contributors={CONTRIBUTORS} title="Actividades en España" breadcrumbs={BREADCRUMBS} rating={3} />
+  .addWithJSX('contributors', () => (
+    <Heading contributors={CONTRIBUTORS} title="Actividades en España" />
   ))
-  .addWithJSX('with color', () => (
+  .addWithJSX('color', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
       color={THEME.COLOR.ACCENT}
@@ -46,7 +47,7 @@ storiesOf('🛠 Heading', module)
       rating={RATING}
     />
   ))
-  .addWithJSX('with column', () => (
+  .addWithJSX('column', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
       contributors={CONTRIBUTORS}
@@ -55,7 +56,7 @@ storiesOf('🛠 Heading', module)
       column
     />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Heading
       color={THEME.COLOR.WHITE}
       column
@@ -68,13 +69,15 @@ storiesOf('🛠 Heading', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <Heading
-      breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
-      color={color('color', THEME.COLOR.TEXT)}
-      column={boolean('column', false)}
-      contributors={object('contributors', CONTRIBUTORS, 'heading-contributors')}
-      rating={object('rating', RATING, 'heading-rating')}
-      title={text('title', 'Actividades en España')}
-    />
+    <WebView>
+      <Heading
+        breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
+        color={color('color', THEME.COLOR.TEXT)}
+        column={boolean('column', false)}
+        contributors={object('contributors', CONTRIBUTORS, 'heading-contributors')}
+        rating={object('rating', RATING, 'heading-rating')}
+        title={text('title', 'Actividades en España')}
+      />
+    </WebView>
   ));
 

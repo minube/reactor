@@ -13,7 +13,7 @@ storiesOf('✅ Link', module)
   .addWithJSX('without href', () => (
     <Link>minube.com</Link>
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Link
       href="http://minube.com"
       style={{ fontSize: THEME.FONT.SIZE.LARGE, fontWeight: THEME.FONT.WEIGHT.BOLD }}

@@ -14,17 +14,17 @@ const dataSource = [
   { caption: 'Londres', href: '/' },
 ];
 
-storiesOf('🛠 Breadcrumbs', module)
+storiesOf('✅ Breadcrumbs', module)
   .addWithJSX('default', () => (
     <Breadcrumbs dataSource={dataSource} />
   ))
-  .addWithJSX('with color', () => (
-    <Breadcrumbs dataSource={dataSource} color={THEME.COLOR.ACCENT} />
+  .addWithJSX('color', () => (
+    <Breadcrumbs dataSource={dataSource} color={THEME.COLOR.PRIMARY} />
   ))
-  .addWithJSX('with onPress', () => (
+  .addWithJSX('⚡ onPress', () => (
     <Breadcrumbs dataSource={dataSource} onPress={action('Breadcrumbs.onPress()')} />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Breadcrumbs
       dataSource={dataSource}
       style={{

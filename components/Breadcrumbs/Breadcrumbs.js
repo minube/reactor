@@ -2,8 +2,11 @@ import { array, arrayOf, func, number, oneOfType, shape, string } from 'prop-typ
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
+import { THEME } from '../../common';
 import Link from '../Link';
 import styles from './Breadcrumbs.style';
+
+const { COLOR } = THEME;
 
 const Breadcrumbs = ({
   color, dataSource, onPress, style,
@@ -11,14 +14,13 @@ const Breadcrumbs = ({
   <View style={styles.container}>
     { dataSource.map(({ caption, href }, index) => (
       <Link
-        color={color}
         href={href}
         key={caption}
         onPress={() => {
           onPress(index);
           return false;
         }}
-        style={StyleSheet.flatten([styles.link, style])}
+        style={StyleSheet.flatten([styles.link, { color }, style])}
         tiny
       >
         {`${caption}${index < dataSource.length - 1 ? ' ·' : ''}`}
@@ -35,7 +37,7 @@ Breadcrumbs.propTypes = {
 };
 
 Breadcrumbs.defaultProps = {
-  color: undefined,
+  color: COLOR.TEXT,
   dataSource: [],
   onPress() {},
   style: [],

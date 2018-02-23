@@ -6,9 +6,15 @@ import { THEME } from '../../common';
 import WebView from '../WebView';
 import Activity from './Activity';
 
-storiesOf('Activity', module)
+storiesOf('✅ Activity', module)
   .addWithJSX('default', () => (
     <Activity />
+  ))
+  .addWithJSX('color', () => (
+    <Activity color={THEME.COLOR.ACCENT} />
+  ))
+  .addWithJSX('size', () => (
+    <Activity size="large" />
   ))
   .addWithJSX('🏀 Playground', () => (
     <WebView>

@@ -1,6 +1,6 @@
 import { bool, number } from 'prop-types';
 import React, { Component } from 'react';
-import { Animated, Platform, StyleSheet, View } from 'react-native';
+import { Animated, StyleSheet, View } from 'react-native';
 
 import { THEME } from '../../common';
 import styles from './ProgressBar.style';

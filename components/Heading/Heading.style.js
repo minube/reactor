@@ -1,10 +1,8 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
-const {
-  FONT, LAYOUT, UNIT, SCREEN,
-} = THEME;
+const { AVATAR_SMALL, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -14,7 +12,7 @@ export default StyleSheet.create({
   row: StyleSheet.flatten([
     STYLE.ROW,
     {
-      minHeight: LAYOUT.AVATAR_SMALL,
+      minHeight: AVATAR_SMALL,
     },
   ]),
 
@@ -30,9 +28,9 @@ export default StyleSheet.create({
   ]),
 
   avatar: {
-    borderRadius: LAYOUT.AVATAR_SMALL / 2,
-    height: LAYOUT.AVATAR_SMALL,
-    width: LAYOUT.AVATAR_SMALL,
+    borderRadius: AVATAR_SMALL / 2,
+    height: AVATAR_SMALL,
+    width: AVATAR_SMALL,
   },
 
   avatars: StyleSheet.flatten([
@@ -44,15 +42,6 @@ export default StyleSheet.create({
   ]),
 
   title: {
-    fontSize: (() => {
-      const {
-        TINY, PHONE, SMALL, TABLET, REGULAR,
-      } = SCREEN();
-
-      if (TINY || PHONE || TABLET) return UNIT * 2.4;
-      if (SMALL || REGULAR) return UNIT * 3;
-      return UNIT * 4.8;
-    })(),
     marginRight: UNIT,
   },
 });

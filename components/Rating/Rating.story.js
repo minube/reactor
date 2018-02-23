@@ -10,25 +10,25 @@ storiesOf('✅ Rating', module)
   .addWithJSX('default', () => (
     <Rating />
   ))
-  .addWithJSX('with value', () => (
+  .addWithJSX('value', () => (
     <Rating value={3.5} />
   ))
-  .addWithJSX('with showValue', () => (
+  .addWithJSX('showValue', () => (
     <Rating value={3.5} showValue />
   ))
-  .addWithJSX('with count', () => (
+  .addWithJSX('count', () => (
     <Rating value={4} count={32} />
   ))
-  .addWithJSX('with caption', () => (
+  .addWithJSX('caption', () => (
     <Rating value={4} count={32} caption="valoraciones" />
   ))
-  .addWithJSX('with color', () => (
+  .addWithJSX('color', () => (
     <Rating value={4} color={THEME.COLOR.ACCENT} />
   ))
-  .addWithJSX('with textColor', () => (
+  .addWithJSX('textColor', () => (
     <Rating count={32} value={4} color={THEME.COLOR.ACCENT} textColor={THEME.COLOR.PRIMARY}  />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }}/>
   ))
   .addWithJSX('🏀 Playground', () => (

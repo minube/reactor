@@ -2,12 +2,13 @@ import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'pr
 import React, { Component } from 'react';
 import { Platform, ScrollView, StyleSheet, View } from 'react-native';
 
-import { THEME } from '../../common';
+import { layout, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
 
-const { LAYOUT: { CARD_WIDTH }, UNIT } = THEME;
+const { UNIT } = THEME;
+
 const NEXT = 'next';
 let timeout;
 const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 0 : 16;
@@ -17,7 +18,7 @@ class Slider extends Component {
     super(props);
 
     this.state = {
-      itemWidth: CARD_WIDTH,
+      itemWidth: layout().CARD.WIDTH,
       layoutHeight: 0,
       x: 0,
     };
@@ -28,7 +29,7 @@ class Slider extends Component {
   }
 
   componentWillReceiveProps() {
-    this.setState({ itemWidth: CARD_WIDTH, x: 0 });
+    this.setState({ itemWidth: layout().CARD.WIDTH, x: 0 });
   }
 
   _onScroll({ nativeEvent: { contentOffset: { x } } }) {
@@ -48,8 +49,8 @@ class Slider extends Component {
     _updateScroll(type === NEXT ? x + width : x - width);
   }
 
-  _onLayout({ nativeEvent: { layout = {} } }) {
-    this.setState({ layoutHeight: layout.height });
+  _onLayout({ nativeEvent }) {
+    this.setState({ layoutHeight: nativeEvent.layout.height });
   }
 
   _updateScroll(x) {
@@ -88,7 +89,7 @@ class Slider extends Component {
               title=">"
             /> }
           <ScrollView
-            contentContainerStyle={StyleSheet.flatten([styles.content, style])}
+            contentContainerStyle={StyleSheet.flatten(style)}
             horizontal
             onLayout={_onLayout}
             onScroll={momentum ? _onScroll : undefined}
@@ -98,7 +99,8 @@ class Slider extends Component {
             scrollEventThrottle={MOMENTUM_INTERVAL}
             style={styles.slider}
           >
-            { dataSource.map((data, index) => <View key={index} style={{ marginRight }}><Item data={data} /></View>)}
+            { dataSource.map((data, index) =>
+              <View key={index} style={{ marginRight }}><Item data={data} /></View>)}
           </ScrollView>
         </View>
       </View>

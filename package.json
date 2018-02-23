@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "private": true,
   "contributors": [
     {
@@ -49,12 +49,8 @@
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
+    "native": "react-native-scripts start",
     "test": "react-scripts test --env=jsdom",
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "native-storybook": "storybook start -p 7007 -c .storybook/native"
+    "storybook": "start-storybook -p 9001 -c .storybook"
   }
 }

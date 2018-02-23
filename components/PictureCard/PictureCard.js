@@ -1,7 +1,8 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { ImageBackground, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 
+import { layout } from '../../common';
 import Image from '../Image';
 import Text from '../Text';
 import Touchable from '../Touchable';
@@ -11,6 +12,7 @@ const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tow
 
 const PictureCard = ({
   children, caption, image, location, onPress, small, square, style, title,
+  layout: { CARD } = layout(), // eslint-disable-line
 }) => (
   <Touchable disabled={!onPress} onPress={onPress} style={style}>
     <View>
@@ -19,12 +21,22 @@ const PictureCard = ({
         source={{ uri: image || IMAGE_PLACEHOLDER }}
         style={StyleSheet.flatten([
           styles.image,
+          {
+            width: CARD.WIDTH,
+            height: CARD.PICTURE_HEIGHT,
+          },
+          square && { height: CARD.WIDTH },
           small && styles.small,
-          square && styles.square,
           style,
         ])}
       />
-      <View pointerEvents="none" style={image && image !== IMAGE_PLACEHOLDER && styles.opacity}>
+      <View
+        pointerEvents="none"
+        style={StyleSheet.flatten([
+          image && image !== IMAGE_PLACEHOLDER && styles.opacity,
+          { width: CARD.WIDTH },
+        ])}
+      >
         { location && <Text style={StyleSheet.flatten([styles.text, styles.location])}>{location.toUpperCase()}</Text> }
         <View style={location ? styles.contentBottom : styles.content}>
           { title && <Text style={StyleSheet.flatten([styles.text, styles.title])}>{title}</Text> }

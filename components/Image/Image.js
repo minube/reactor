@@ -15,7 +15,7 @@ class Image extends Component {
     const { props: { ...inherit } } = this;
 
     this.setState({ ready: true });
-    if (inherit.onLoad) inherit.onLoad();
+    if (inherit.onLoad) inherit.onLoad(arguments);
   }
 
   render() {

@@ -10,14 +10,14 @@ storiesOf('✅ Switch', module)
   .addWithJSX('default', () => (
     <Switch />
   ))
-  .addWithJSX('with label', () => (
+  .addWithJSX('label', () => (
     <Switch label="Example of label" />
   ))
   .addWithJSX('disabled', () => (
     <Switch disabled label="Example of label" />
   ))
-  .addWithJSX('custom style', () => (
-    <Switch style={{ backgroundColor: 'red' }} />
+  .addWithJSX('style', () => (
+    <Switch style={{ backgroundColor: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <WebView>

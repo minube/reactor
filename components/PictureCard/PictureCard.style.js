@@ -4,7 +4,7 @@ import { StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, UNIT,
+  BORDER_RADIUS, COLOR, FONT, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -13,12 +13,7 @@ export default StyleSheet.create({
   },
 
   image: {
-    // position: 'absolute',
-    // backgroundColor: COLOR.BACKGROUND,
-    borderRadius: LAYOUT.BORDER_RADIUS,
-    width: LAYOUT.CARD_WIDTH,
-    height: LAYOUT.CARD_PICTURE_HEIGHT,
-    // opacity: 0.5,
+    borderRadius: BORDER_RADIUS,
   },
 
   content: StyleSheet.flatten([
@@ -40,10 +35,6 @@ export default StyleSheet.create({
     height: UNIT * 10,
   },
 
-  square: {
-    height: LAYOUT.CARD_WIDTH,
-  },
-
   location: {
     position: 'absolute',
     top: UNIT,
@@ -53,7 +44,7 @@ export default StyleSheet.create({
 
   opacity: {
     backgroundColor: Color(COLOR.BLACK).alpha(0.35),
-    borderRadius: LAYOUT.BORDER_RADIUS,
+    borderRadius: BORDER_RADIUS,
     height: '100%',
     position: 'absolute',
     width: '100%',

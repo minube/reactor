@@ -10,28 +10,28 @@ storiesOf('✅ Text', module)
   .addWithJSX('default', () => (
     <Text>Hello World</Text>
   ))
-  .addWithJSX('with tiny', () => (
+  .addWithJSX('tiny', () => (
     <Text tiny>Hello World</Text>
   ))
-  .addWithJSX('with small', () => (
+  .addWithJSX('small', () => (
     <Text small>Hello World</Text>
   ))
-  .addWithJSX('with large', () => (
+  .addWithJSX('large', () => (
     <Text large>Hello World</Text>
   ))
-  .addWithJSX('with bold', () => (
+  .addWithJSX('bold', () => (
     <Text bold>Hello World</Text>
   ))
-  .addWithJSX('with primary', () => (
+  .addWithJSX('primary', () => (
     <Text primary>Hello World</Text>
   ))
-  .addWithJSX('with accent', () => (
+  .addWithJSX('accent', () => (
     <Text accent>Hello World</Text>
   ))
-  .addWithJSX('with color', () => (
+  .addWithJSX('color', () => (
     <Text color={THEME.COLOR.ERROR}>Hello World</Text>
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Customized Text</Text>
   ))
   .addWithJSX('🏀 Playground', () => (

@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 
 import WebView from '../WebView';
 import Image from './Image';
@@ -13,10 +14,13 @@ storiesOf('✅ Image', module)
   .addWithJSX('without source', () => (
     <Image style={{ width: 320, height: 240 }} />
   ))
-  .addWithJSX('with small activity', () => (
+  .addWithJSX('small activity', () => (
     <Image size="small" style={{ width: 320, height: 240 }} />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('⚡ onLoad', () => (
+    <Image onLoad={action('Image.onLoad()')} source={{ uri: IMAGE_PLACEHOLDER }} style={{ width: 320, height: 240 }} />
+  ))
+  .addWithJSX('style', () => (
     <WebView>
       <Image
         source={{ uri: IMAGE_PLACEHOLDER }}

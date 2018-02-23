@@ -5,4 +5,4 @@ import { THEME } from '../../common';
 
 const { COLOR } = THEME;
 
-export default ({ ...inherit }) => <ActivityIndicator color={COLOR.ACCENT} {...inherit} />;
+export default ({ ...inherit }) => <ActivityIndicator color={COLOR.BORDER} {...inherit} />;

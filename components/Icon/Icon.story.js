@@ -11,18 +11,18 @@ storiesOf('🛠 Icon', module)
   .addWithJSX('default', () => (
     <Icon />
   ))
-  .addWithJSX('with value', () => (
+  .addWithJSX('value', () => (
     <Icon value="menu" />
   ))
-  .addWithJSX('🔴 with color', () => (
+  .addWithJSX('🔴 color', () => (
     <WithNotes notes="Color is only supported in iOS environments">
       <Icon value="menu" color={THEME.COLOR.TEXT_LIGHTEN} />
     </WithNotes>
   ))
-  .addWithJSX('with size', () => (
+  .addWithJSX('size', () => (
     <Icon value="menu" size={48} />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} />
   ))
   .addWithJSX('🏀 Playground', () => (

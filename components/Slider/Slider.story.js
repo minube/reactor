@@ -22,22 +22,22 @@ storiesOf('🛠 Slider', module)
   .addWithJSX('default', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} />
   ))
-  .addWithJSX('with navigation', () => (
+  .addWithJSX('navigation', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} navigation />
   ))
-  .addWithJSX('with itemMargin', () => (
+  .addWithJSX('itemMargin', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} itemMargin={16} />
   ))
-  .addWithJSX('with (2) steps', () => (
+  .addWithJSX('steps (2)', () => (
     <Slider dataSource={dataSource} steps={2} item={ItemListingCard} />
   ))
-  .addWithJSX('with momentum', () => (
+  .addWithJSX('momentum', () => (
     <Slider dataSource={dataSource} momentum item={ItemListingCard} />
   ))
-  .addWithJSX('with title', () => (
+  .addWithJSX('title', () => (
     <Slider dataSource={dataSource} title="Explora nuevos destinos" item={ItemListingCard} />
   ))
-  .addWithJSX('with caption', () => (
+  .addWithJSX('caption', () => (
     <Slider
       caption="Muy del estilo de Chiang Mai"
       dataSource={dataSource}
@@ -45,7 +45,7 @@ storiesOf('🛠 Slider', module)
       item={ItemListingCard}
     />
   ))
-  .addWithJSX('💄 Custom Style', () => (
+  .addWithJSX('style', () => (
     <Slider
       dataSource={dataSource}
       item={ItemPictureCard}

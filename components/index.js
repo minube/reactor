@@ -3,7 +3,6 @@ import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Dialog from './Dialog';
 import Heading from './Heading';
-import HotelCard from './HotelCard';
 import Icon from './Icon';
 import Image from './Image';
 import Input from './Input';
@@ -25,7 +24,6 @@ export {
   Button,
   Dialog,
   Heading,
-  HotelCard,
   Icon,
   Image,
   Input,

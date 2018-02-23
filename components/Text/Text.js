@@ -15,10 +15,10 @@ const Text = ({
       tiny && styles.tiny,
       small && styles.small,
       large && styles.large,
-      primary && styles.primary,
-      accent && styles.accent,
       inherit.style,
       color && { color },
+      primary && styles.primary,
+      accent && styles.accent,
     ])}
   />
 );

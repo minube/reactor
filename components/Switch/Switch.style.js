@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, LAYOUT, UNIT,
+  COLOR, FONT, INPUT_HEIGHT, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -11,7 +11,7 @@ export default StyleSheet.create({
   container: StyleSheet.flatten([
     STYLE.ROW,
     {
-      height: LAYOUT.INPUT_HEIGHT,
+      height: INPUT_HEIGHT,
     },
   ]),
 

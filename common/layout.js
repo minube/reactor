@@ -19,7 +19,7 @@ export default () => {
         height: regular || large ? BUTTON.HEIGHT : BUTTON.SMALL_HEIGHT,
         paddingHorizontal: regular || large ? UNIT * 3 : BUTTON.SMALL_HEIGHT / 2,
       },
-      FONT_SIZE: regular || large ? FONT.SIZE.SMALL : FONT.SIZE.TINY,
+      TEXT: regular || large ? FONT.SIZE.SMALL : FONT.SIZE.TINY,
     },
 
     CARD: {

@@ -1,21 +1,24 @@
-import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, node, number, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 
+import { layout, SHAPE } from '../../common';
 import { PictureCard, Rating, Text } from '../';
 import styles from './ListingCard.style';
 
 const ListingCard = ({
-  category, children, description, empty, onPress, rating, ratingCount, style, title, ...inherit
+  category, children, description, empty, onPress, rating = {}, style, title,
+  layout: { CARD } = layout(), // eslint-disable-line
+  ...inherit
 }) => (
-  <View style={StyleSheet.flatten([styles.container, style])}>
+  <View style={StyleSheet.flatten([styles.container, { width: CARD.WIDTH }, style])}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
       <View>
         <PictureCard {...inherit} />
         <View style={styles.content}>
           { category && <Text style={styles.caption}>{category}</Text> }
           { title && <Text numberOfLines={1} ellipsizeMode="tail" style={styles.title}>{title}</Text> }
-          { rating > 0 && <Rating count={ratingCount} value={rating} style={styles.rating} /> }
+          { rating.value && <Rating {...rating} style={styles.rating} /> }
           { description && <Text numberOfLines={3} ellipsizeMode="tail" style={styles.caption}>{description}</Text> }
           { children }
         </View>
@@ -31,8 +34,7 @@ ListingCard.propTypes = {
   empty: bool,
   image: string,
   onPress: func,
-  rating: number,
-  ratingCount: number,
+  rating: shape(SHAPE.RATING),
   style: oneOfType([array, number]),
   title: string,
 };
@@ -44,8 +46,7 @@ ListingCard.defaultProps = {
   empty: false,
   image: undefined,
   onPress: undefined,
-  rating: undefined,
-  ratingCount: undefined,
+  rating: {},
   style: [],
   title: undefined,
 };

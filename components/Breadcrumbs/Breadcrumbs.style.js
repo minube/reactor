@@ -1,10 +1,8 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
-const {
-  COLOR, FONT, LAYOUT, UNIT, SCREEN,
-} = THEME;
+const { UNIT } = THEME;
 
 export default StyleSheet.create({
   link: {

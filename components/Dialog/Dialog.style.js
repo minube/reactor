@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, LAYOUT, OFFSET,
+  BORDER_RADIUS, COLOR, FONT, OFFSET, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -25,7 +25,7 @@ export default StyleSheet.create({
     {
       backgroundColor: COLOR.WHITE,
       borderRadius: BORDER_RADIUS,
-      minWidth: LAYOUT.DIALOG_MIN_WIDTH,
+      minWidth: '35%',
       maxHeight: '65%',
     },
   ]),

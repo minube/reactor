@@ -2,7 +2,7 @@ import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
 import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native';
 
-import { THEME } from '../../common';
+import { layout, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Dialog.style';
@@ -28,7 +28,7 @@ class Dialog extends Component {
     const { height } = Dimensions.get('window');
 
     Animated.parallel([
-      Animated.spring(opacity, { toValue: visible ? 1 : 0, useNativeDriver: true }),
+      Animated.spring(opacity, { toValue: visible ? 1 : 0 }),
       Animated.spring(bottom, { toValue: visible ? 0 : -height }),
     ]).start();
   }
@@ -42,6 +42,7 @@ class Dialog extends Component {
       _onScroll,
       props: {
         children, onClose, onSubmit, style, title, visible,
+        layout: { BUTTON } = layout(), // eslint-disable-line
       },
       state: {
         bottom, opacity, scroll,

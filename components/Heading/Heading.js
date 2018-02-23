@@ -2,23 +2,30 @@ import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'pr
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { THEME } from '../../common';
+import { layout, SHAPE, THEME } from '../../common';
 import Breadcrumbs from '../Breadcrumbs';
 import Image from '../Image';
 import Rating from '../Rating';
 import Text from '../Text';
 import styles from './Heading.style';
 
-const { COLOR, LAYOUT: { AVATAR_SMALL }, UNIT } = THEME;
+const { AVATAR_SMALL, COLOR, UNIT } = THEME;
 
 const Heading = ({
   breadcrumbs, color, column, onBreadcrumb, rating, style, title,
   contributors: { total, label, preview } = {},
+  layout: { HEADING } = layout(), // eslint-disable-line
 }) => (
   <View style={StyleSheet.flatten([styles.container, style])}>
     <View style={column ? styles.column : styles.row}>
-      { title && <Text bold color={color} style={styles.title}>{title}</Text> }
-      { rating && <Rating {...rating} textColor={color} /> }
+      <Text
+        bold
+        color={color}
+        style={StyleSheet.flatten([{ fontSize: HEADING.TITLE_FONT_SIZE }, styles.title])}
+      >
+        {title}
+      </Text>
+      { rating.value && <Rating {...rating} textColor={color} /> }
     </View>
     <View style={column ? styles.column : styles.row}>
       { breadcrumbs.length > 0 &&
@@ -46,7 +53,7 @@ Heading.propTypes = {
   column: bool,
   contributors: shape({}),
   onBreadcrumb: func,
-  rating: number,
+  rating: shape(SHAPE.RATING),
   style: oneOfType([array, number]),
   title: string,
 };
@@ -56,8 +63,8 @@ Heading.defaultProps = {
   color: undefined,
   column: false,
   contributors: undefined,
-  onBreadcrumb() {},
-  rating: undefined,
+  onBreadcrumb: undefined,
+  rating: {},
   style: [],
   title: undefined,
 };
