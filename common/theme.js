@@ -1,22 +1,19 @@
-import { Dimensions, Platform } from 'react-native';
+import { Platform } from 'react-native';
 
 const UNIT = 10;
-const WIDTH = Dimensions.get('window').width;
-
-const SCREEN = () => ({
-  TINY: WIDTH < 360,
-  PHONE: WIDTH >= 360 && WIDTH < 376,
-  TABLET: WIDTH >= 376 && WIDTH < 510,
-  SMALL: WIDTH >= 510 && WIDTH < 720,
-  REGULAR: WIDTH >= 720 && WIDTH <= 1024,
-  LARGE: WIDTH >= 1024,
-
-  HEIGHT: Dimensions.get('window').height,
-  WIDTH,
-});
 
 export default {
-  BORDER_RADIUS: UNIT / 5,
+  AVATAR: {
+    SMALL: UNIT * 2,
+  },
+
+  BORDER_RADIUS: UNIT * 0.3,
+
+  BUTTON: {
+    FLOATING_HEIGHT: UNIT * 6,
+    HEIGHT: UNIT * 4.5,
+    SMALL_HEIGHT: UNIT * 3,
+  },
 
   COLOR: {
     // -- Theme
@@ -68,32 +65,10 @@ export default {
     },
   },
 
-  OFFSET: UNIT * 1.6,
-  UNIT,
-
-  LAYOUT: {
-    AVATAR_SMALL: UNIT * 2,
-    BORDER_RADIUS: UNIT * 0.3,
-    BUTTON_FLOATING_HEIGHT: UNIT * 6,
-    BUTTON_HEIGHT: UNIT * 4.5,
-    BUTTON_SMALL_HEIGHT: UNIT * 3,
-
-    CARD_PICTURE_HEIGHT: SCREEN().REGULAR || SCREEN().LARGE ? UNIT * 19 : UNIT * 13.9,
-    CARD_WIDTH: (() => {
-      const {
-        TINY, PHONE, SMALL, TABLET, REGULAR,
-      } = SCREEN();
-
-      if (TINY) return UNIT * 13;
-      if (PHONE || SMALL) return UNIT * 15;
-      if (TABLET || REGULAR) return UNIT * 16.8;
-      return UNIT * 23.6;
-    })(),
-
-    DIALOG_MIN_WIDTH: '45%',
-    INPUT_HEIGHT: UNIT * 4.4,
-    PICKER_MAX_HEIGHT: UNIT * 51.2,
+  INPUT: {
+    HEIGHT: UNIT * 4.4,
   },
 
-  SCREEN,
+  OFFSET: UNIT * 1.6,
+  UNIT,
 };
