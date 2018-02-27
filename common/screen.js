@@ -1,9 +1,11 @@
 import { Dimensions } from 'react-native';
 
 export default () => {
-  const { width } = Dimensions.get('window');
+  const { height, width } = Dimensions.get('window');
 
   return {
+    PORTRAIT: height > width,
+
     TINY: width < 360,
     PHONE: width >= 360 && width < 376,
     TABLET: width >= 376 && width < 510,
