@@ -14,6 +14,11 @@ export default () => {
   const large = width >= 1024;
 
   return ({
+    SCREEN: {
+      tiny, phone, tablet, small, regular, large,
+    },
+
+    // -- components
     BUTTON: {
       CONTAINER: {
         height: regular || large ? BUTTON.HEIGHT : BUTTON.SMALL_HEIGHT,
