@@ -39,7 +39,7 @@ After get all the dependencies you have 2 ways to start playing with **Reactor**
 If you wanna use the web environment just type:
 
 ```
-yarn start
+yarn storybook
 ```
 
 This environment is the most advisable if your purpouse is test our components or just develop new ones.
@@ -48,7 +48,7 @@ This environment is the most advisable if your purpouse is test our components o
 Otherwise, if you wanna see **Reactor** in a native device you have 2 ways. But both of them needs start the native environment so you have to type:
 
 ```
-yarn rnstart
+yarn native
 ```
 
 If everything is ok we will get a screen like this:

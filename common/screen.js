@@ -4,7 +4,11 @@ export default () => {
   const { height, width } = Dimensions.get('window');
 
   return {
+    H: height,
+    W: width,
+
     PORTRAIT: height > width,
+    LANDSCAPE: width > height,
 
     TINY: width < 360,
     PHONE: width >= 360 && width < 376,
