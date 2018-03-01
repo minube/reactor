@@ -2,19 +2,24 @@ import { bool, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
+import { layout } from '../../common';
 import styles from './Text.style';
 
 const Text = ({
-  accent, bold, color, large, primary, small, tiny, ...inherit
+  accent, bold, color, large, primary, small, tiny,
+  layout: { TEXT } = layout(), // eslint-disable-line
+  ...inherit
 }) => (
   <NativeText
     {...inherit}
     style={StyleSheet.flatten([
       styles.container,
+
       bold && styles.bold,
       tiny && styles.tiny,
-      small && styles.small,
-      large && styles.large,
+      small && { ...TEXT.SMALL },
+      large && { ...TEXT.LARGE },
+
       inherit.style,
       color && { color },
       primary && styles.primary,

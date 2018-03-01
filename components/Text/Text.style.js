@@ -28,12 +28,4 @@ export default StyleSheet.create({
   tiny: {
     fontSize: FONT.SIZE.TINY,
   },
-
-  small: {
-    fontSize: FONT.SIZE.SMALL,
-  },
-
-  large: {
-    fontSize: FONT.SIZE.LARGE,
-  },
 });

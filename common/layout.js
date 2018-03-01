@@ -22,7 +22,14 @@ export default () => {
     },
 
     CARD: {
-      PICTURE_HEIGHT: REGULAR || LARGE ? UNIT * 19 : UNIT * 13.9,
+      HEIGHT: REGULAR || LARGE ? UNIT * 19 : UNIT * 13.9,
+      PORTRAIT: (() => {
+        if (TINY) return UNIT * 17;
+        if (PHONE || SMALL) return UNIT * 19.6;
+        if (TABLET || REGULAR) return UNIT * 22;
+
+        return UNIT * 25;
+      })(),
       WIDTH: (() => {
         if (TINY) return UNIT * 13;
         if (PHONE || SMALL) return UNIT * 15;
@@ -37,6 +44,31 @@ export default () => {
         if (TINY || PHONE || TABLET) return UNIT * 2.4;
         if (SMALL || REGULAR) return UNIT * 3;
         return UNIT * 4.8;
+      })(),
+    },
+
+    TEXT: {
+      SMALL: (() => {
+        const fontSize = UNIT * ((REGULAR || LARGE) ? 1.2 : 1);
+
+        return {
+          fontSize,
+          lineHeight: fontSize * 1.06,
+        };
+      })(),
+
+      REGULAR: THEME.REGULAR,
+
+      LARGE: (() => {
+        let fontSize = UNIT * 2;
+        if (TINY) fontSize = UNIT * 1.4;
+        if (PHONE || SMALL) fontSize = UNIT * 1.6;
+        if (TABLET || REGULAR) fontSize = UNIT * 1.8;
+
+        return {
+          fontSize,
+          lineHeight: fontSize * 1.06,
+        };
       })(),
     },
   });
