@@ -36,6 +36,9 @@ storiesOf('✅ PictureCard', module)
   .addWithJSX('⚡ onPress', () => (
     <PictureCard image={LIPSUM_IMAGE} onPress={action('PictureCard.onPress()')} />
   ))
+  .addWithJSX('⚡ onLoad', () => (
+    <PictureCard image={LIPSUM_IMAGE} onLoad={action('PictureCard.onLoad()')} />
+  ))
   .addWithJSX('style', () => (
     <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', opacity: 0.75 }} />
   ))

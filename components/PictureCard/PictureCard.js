@@ -11,12 +11,13 @@ import styles from './PictureCard.style';
 const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg';
 
 const PictureCard = ({
-  children, caption, image, location, onPress, small, square, style, title,
+  children, caption, image, location, onLoad, onPress, small, square, style, title,
   layout: { CARD } = layout(), // eslint-disable-line
 }) => (
   <Touchable disabled={!onPress} onPress={onPress} style={style}>
     <View>
       <Image
+        onLoad={onLoad}
         resizeMode={image ? 'cover' : 'center'}
         source={{ uri: image || IMAGE_PLACEHOLDER }}
         style={StyleSheet.flatten([
@@ -53,6 +54,7 @@ PictureCard.propTypes = {
   location: string,
   caption: string,
   image: string,
+  onLoad: func,
   onPress: func,
   small: bool,
   square: bool,
@@ -65,6 +67,7 @@ PictureCard.defaultProps = {
   location: undefined,
   caption: undefined,
   image: undefined,
+  onLoad: undefined,
   onPress: undefined,
   small: false,
   square: false,
