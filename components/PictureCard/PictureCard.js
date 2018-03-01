@@ -11,10 +11,14 @@ import styles from './PictureCard.style';
 const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg';
 
 const PictureCard = ({
-  children, caption, image, location, onLoad, onPress, small, square, style, title,
+  backgroundColor, children, caption, image, onLoad, onPress, portrait, small, style, title,
   layout: { CARD } = layout(), // eslint-disable-line
 }) => (
-  <Touchable disabled={!onPress} onPress={onPress} style={style}>
+  <Touchable
+    disabled={!onPress}
+    onPress={onPress}
+    style={StyleSheet.flatten([styles.container, { backgroundColor }, style])}
+  >
     <View>
       <Image
         onLoad={onLoad}
@@ -24,24 +28,16 @@ const PictureCard = ({
           styles.image,
           {
             width: CARD.WIDTH,
-            height: CARD.PICTURE_HEIGHT,
+            height: portrait ? CARD.PORTRAIT : CARD.HEIGHT,
           },
-          square && { height: CARD.WIDTH },
           small && styles.small,
           style,
         ])}
       />
-      <View
-        pointerEvents="none"
-        style={StyleSheet.flatten([
-          image && image !== IMAGE_PLACEHOLDER && styles.opacity,
-          { width: CARD.WIDTH },
-        ])}
-      >
-        { location && <Text style={StyleSheet.flatten([styles.text, styles.location])}>{location.toUpperCase()}</Text> }
-        <View style={location ? styles.contentBottom : styles.content}>
-          { title && <Text style={StyleSheet.flatten([styles.text, styles.title])}>{title}</Text> }
-          { caption && <Text style={StyleSheet.flatten([styles.text, styles.caption])}>{caption}</Text> }
+      <View pointerEvents="none" style={styles.content}>
+        <View>
+          { title && <Text bold large style={StyleSheet.flatten([styles.text, styles.title])}>{title}</Text> }
+          { caption && <Text small style={styles.text}>{caption}</Text> }
         </View>
         { children }
       </View>
@@ -50,27 +46,27 @@ const PictureCard = ({
 );
 
 PictureCard.propTypes = {
+  backgroundColor: string,
   children: node,
-  location: string,
   caption: string,
   image: string,
   onLoad: func,
   onPress: func,
+  portrait: bool,
   small: bool,
-  square: bool,
   style: oneOfType([array, number]),
   title: string,
 };
 
 PictureCard.defaultProps = {
+  backgroundColor: undefined,
   children: undefined,
-  location: undefined,
   caption: undefined,
   image: undefined,
   onLoad: undefined,
   onPress: undefined,
+  portrait: false,
   small: false,
-  square: false,
   style: [],
   title: undefined,
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { boolean, text } from '@storybook/addon-knobs/react';
+import { boolean, color, text } from '@storybook/addon-knobs/react';
 
 import WebView from '../WebView';
 import PictureCard from './index';
@@ -15,9 +15,6 @@ storiesOf('✅ PictureCard', module)
   .addWithJSX('image', () => (
     <PictureCard image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('location', () => (
-    <PictureCard location="{location}" image={LIPSUM_IMAGE} />
-  ))
   .addWithJSX('caption', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} />
   ))
@@ -30,8 +27,8 @@ storiesOf('✅ PictureCard', module)
   .addWithJSX('small', () => (
     <PictureCard caption="{caption}" small image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('square', () => (
-    <PictureCard caption="{caption}" square image={LIPSUM_IMAGE} title="{title}" />
+  .addWithJSX('portrait', () => (
+    <PictureCard caption="{caption}" portrait image={LIPSUM_IMAGE} title="{title}" />
   ))
   .addWithJSX('⚡ onPress', () => (
     <PictureCard image={LIPSUM_IMAGE} onPress={action('PictureCard.onPress()')} />
@@ -45,12 +42,13 @@ storiesOf('✅ PictureCard', module)
   .addWithJSX('🏀 Playground', () => (
     <WebView>
       <PictureCard
-        location={text('location', '{location}')}
-        caption={text('caption', '{caption}')}
+        caption={text('caption', 'minube stories')}
+        backgroundColor={color('backgroundColor', undefined)}
         small={boolean('small', false)}
         image={text('image', LIPSUM_IMAGE)}
         onPress={action('PictureCard.onPress()')}
-        title={text('title', '{title}')}
+        portrait={boolean('portrait', false)}
+        title={text('title', 'Una semana en Mallorca')}
       />
     </WebView>
   ));
