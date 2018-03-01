@@ -12,8 +12,8 @@ const Price = ({
 }) => (
   <View style={StyleSheet.flatten([styles.container, value >= 1000 && styles.containerSmall])}>
     { LEFT_SYMBOLS.includes(symbol) &&
-      <Text style={StyleSheet.flatten([styles.text, styles.symbol, style])}>{symbol}</Text> }
-    <Text style={StyleSheet.flatten([styles.text, styles.value, style])}>
+      <Text large style={StyleSheet.flatten([styles.symbol, style])}>{symbol}</Text> }
+    <Text large bold style={style}>
       {
         parseFloat(Math.abs(value))
           .toFixed(fixed)
@@ -22,7 +22,7 @@ const Price = ({
       }
     </Text>
     { !LEFT_SYMBOLS.includes(symbol) &&
-      <Text style={StyleSheet.flatten([styles.text, styles.symbol, style])}>{symbol}</Text> }
+      <Text style={StyleSheet.flatten([styles.symbol, style])}>{symbol}</Text> }
   </View>
 );
 

@@ -11,14 +11,6 @@ export default StyleSheet.create({
     transform: [{ scale: 0.80 }],
   },
 
-  text: {
-    fontSize: FONT.SIZE.LARGE,
-  },
-
-  value: {
-    fontWeight: FONT.WEIGHT.BOLD,
-  },
-
   symbol: {
     alignSelf: 'flex-end',
     fontWeight: FONT.WEIGHT.REGULAR,
