@@ -21,6 +21,10 @@ export default StyleSheet.create({
     fontSize: FONT.SIZE.REGULAR,
   },
 
+  lighten: {
+    color: COLOR.TEXT_LIGHTEN,
+  },
+
   primary: {
     color: COLOR.PRIMARY,
   },

@@ -6,7 +6,7 @@ import { layout } from '../../common';
 import styles from './Text.style';
 
 const Text = ({
-  accent, bold, color, large, primary, small, tiny,
+  accent, bold, color, large, lighten, primary, small, tiny,
   layout: { TEXT } = layout(), // eslint-disable-line
   ...inherit
 }) => (
@@ -16,12 +16,13 @@ const Text = ({
       styles.container,
 
       bold && styles.bold,
-      tiny && styles.tiny,
+      tiny && { ...TEXT.TINY },
       small && { ...TEXT.SMALL },
       large && { ...TEXT.LARGE },
 
       inherit.style,
       color && { color },
+      lighten && styles.lighten,
       primary && styles.primary,
       accent && styles.accent,
     ])}
@@ -33,6 +34,7 @@ Text.propTypes = {
   bold: bool,
   color: string,
   large: bool,
+  lighten: bool,
   primary: bool,
   small: bool,
   tiny: bool,
@@ -43,6 +45,7 @@ Text.defaultProps = {
   bold: false,
   color: undefined,
   large: false,
+  lighten: false,
   primary: false,
   small: false,
   tiny: false,

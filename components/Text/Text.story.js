@@ -28,6 +28,9 @@ storiesOf('✅ Text', module)
   .addWithJSX('accent', () => (
     <Text accent>Hello World</Text>
   ))
+  .addWithJSX('lighten', () => (
+    <Text lighten>Hello World</Text>
+  ))
   .addWithJSX('color', () => (
     <Text color={THEME.COLOR.ERROR}>Hello World</Text>
   ))
@@ -43,6 +46,7 @@ storiesOf('✅ Text', module)
         tiny={boolean('tiny', false)}
         large={boolean('large', false)}
         accent={boolean('accent', false)}
+        lighten={boolean('lighten', false)}
         primary={boolean('primary', false)}
       >
         {text('content', 'Hello World')}
