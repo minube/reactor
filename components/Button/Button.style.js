@@ -8,15 +8,19 @@ const {
 
 export default StyleSheet.create({
 
+  touchable: {
+    margin: UNIT / 2,
+    borderRadius: BORDER_RADIUS,
+  },
+
   container: StyleSheet.flatten([
     STYLE.ROW,
     STYLE.CENTERED,
     {
       backgroundColor: COLOR.TEXT,
-      borderRadius: BORDER_RADIUS,
       height: BUTTON.HEIGHT,
       paddingHorizontal: UNIT * 3,
-      margin: UNIT / 2,
+      borderRadius: BORDER_RADIUS,
     },
   ]),
 

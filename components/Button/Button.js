@@ -12,7 +12,15 @@ const Button = ({
   accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
   layout: { TEXT, BUTTON } = layout(), // eslint-disable-line
 }) => (
-  <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined}>
+  <Touchable
+    disabled={disabled}
+    onPress={!disabled ? onPress : undefined}
+    style={StyleSheet.flatten([
+      styles.touchable,
+      !title && icon && styles.floating,
+      rounded && styles.rounded,
+    ])}
+  >
     <View
       style={StyleSheet.flatten([
         styles.container,
