@@ -18,7 +18,6 @@ export default () => {
         height: REGULAR || LARGE ? BUTTON.HEIGHT : BUTTON.SMALL_HEIGHT,
         paddingHorizontal: REGULAR || LARGE ? UNIT * 3 : BUTTON.SMALL_HEIGHT / 2,
       },
-      TEXT: REGULAR || LARGE ? FONT.SIZE.SMALL : FONT.SIZE.TINY,
     },
 
     CARD: {
@@ -48,8 +47,17 @@ export default () => {
     },
 
     TEXT: {
+      TINY: (() => {
+        const fontSize = REGULAR || LARGE ? FONT.SIZE.TINY : UNIT * 1.1;
+
+        return {
+          fontSize,
+          lineHeight: fontSize * 1.1,
+        };
+      })(),
+
       SMALL: (() => {
-        const fontSize = UNIT * ((REGULAR || LARGE) ? 1.2 : 1);
+        const fontSize = REGULAR || LARGE ? FONT.SIZE.SMALL : FONT.SIZE.TINY;
 
         return {
           fontSize,
@@ -60,9 +68,9 @@ export default () => {
       REGULAR: THEME.REGULAR,
 
       LARGE: (() => {
-        let fontSize = UNIT * 2;
-        if (TINY) fontSize = UNIT * 1.4;
-        if (PHONE || SMALL) fontSize = UNIT * 1.6;
+        let fontSize = FONT.SIZE.LARGE;
+        if (TINY) fontSize = FONT.SIZE.SMALL;
+        if (PHONE || SMALL) fontSize = FONT.SIZE.REGULAR;
         if (TABLET || REGULAR) fontSize = UNIT * 1.8;
 
         return {

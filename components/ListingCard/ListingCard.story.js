@@ -56,8 +56,8 @@ storiesOf('✅ ListingCard', module)
     >
       <View style={STYLE.ROW}>
         <View style={{ marginRight: UNIT }}>
-          <Text style={{ color: TEXT, fontSize: FONT.SIZE.TINY }}>desde</Text>
-          <Price value={90} symbol="$" style={{ fontSize: FONT.SIZE.LARGE }} />
+          <Text tiny>desde</Text>
+          <Price large value={90} symbol="$" />
         </View>
         <Text tiny bold accent style={{ width: '50%' }}>
           Mascotas bienvenidas

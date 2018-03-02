@@ -10,7 +10,7 @@ const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
   accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
-  layout: { BUTTON } = layout(), // eslint-disable-line
+  layout: { TEXT, BUTTON } = layout(), // eslint-disable-line
 }) => (
   <Touchable disabled={disabled} onPress={!disabled ? onPress : undefined}>
     <View
@@ -32,12 +32,13 @@ const Button = ({
       { !activity && icon &&
         <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
-        <Text style={StyleSheet.flatten([
-          styles.text,
-          flat && styles.textFlat,
-          small && styles.textSmall,
-          !small && responsive && { fontSize: BUTTON.TEXT },
-          disabled && styles.textDisabled])}
+        <Text
+          style={StyleSheet.flatten([
+            styles.text,
+            flat && styles.textFlat,
+            small && styles.textSmall,
+            !small && responsive && TEXT.SMALL,
+            disabled && styles.textDisabled])}
         >
           {title}
         </Text> }

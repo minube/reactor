@@ -21,10 +21,10 @@ const Text = ({
       large && { ...TEXT.LARGE },
 
       inherit.style,
-      color && { color },
       lighten && styles.lighten,
       primary && styles.primary,
       accent && styles.accent,
+      color && { color },
     ])}
   />
 );

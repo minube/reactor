@@ -3,15 +3,10 @@ import { StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const {
-  COLOR, FONT, UNIT,
+  UNIT,
 } = THEME;
 
 export default StyleSheet.create({
-  caption: {
-    fontSize: FONT.SIZE.TINY,
-    color: COLOR.TEXT_LIGHTEN,
-  },
-
   container: {
     overflow: 'hidden',
   },
@@ -25,9 +20,6 @@ export default StyleSheet.create({
   },
 
   title: {
-    color: COLOR.TEXT,
-    fontSize: FONT.SIZE.SMALL,
-    fontWeight: FONT.WEIGHT.BOLD,
     marginVertical: UNIT / 2,
   },
 });

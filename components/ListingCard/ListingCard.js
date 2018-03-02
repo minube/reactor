@@ -16,10 +16,10 @@ const ListingCard = ({
       <View>
         <PictureCard {...inherit} />
         <View style={styles.content}>
-          { category && <Text style={styles.caption}>{category}</Text> }
-          { title && <Text numberOfLines={1} ellipsizeMode="tail" style={styles.title}>{title}</Text> }
+          { category && <Text lighten tiny>{category}</Text> }
+          { title && <Text bold small numberOfLines={1} ellipsizeMode="tail" style={styles.title}>{title}</Text> }
           { rating.value && <Rating {...rating} style={styles.rating} /> }
-          { description && <Text numberOfLines={3} ellipsizeMode="tail" style={styles.caption}>{description}</Text> }
+          { description && <Text lighten tiny numberOfLines={3} ellipsizeMode="tail">{description}</Text> }
           { children }
         </View>
       </View>

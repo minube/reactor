@@ -10,13 +10,13 @@ const Rating = ({
 }) => (
   <View style={styles.container}>
     { [...Array(5).keys()].map(rate => (
-      <Text {...inherit} color={color} key={rate} style={StyleSheet.flatten([styles.rate, style])}>
+      <Text {...inherit} primary color={color} key={rate} style={StyleSheet.flatten([styles.rate, style])}>
         {rate < Math.floor(value) ? '★' : '☆'}
       </Text>)) }
     { value > 0 && showValue &&
-      <Text bold color={textColor} style={StyleSheet.flatten([styles.count, style])}>{` ${value}/5`}</Text> }
+      <Text bold lighten tiny color={textColor} style={style}>{` ${value}/5`}</Text> }
     { count > 0 &&
-      <Text color={textColor} style={StyleSheet.flatten([styles.count, style])}>
+      <Text lighten tiny color={textColor} style={style}>
         {' (' + `${count} ${caption}`.trim() + ')'}
       </Text> }
   </View>
