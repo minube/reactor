@@ -42,19 +42,13 @@ export default () => {
       TINY: (() => {
         const fontSize = REGULAR || LARGE ? FONT.SIZE.TINY : UNIT * 1.1;
 
-        return {
-          fontSize,
-          lineHeight: fontSize * 1.1,
-        };
+        return { fontSize, lineHeight: fontSize * 1.1 };
       })(),
 
       SMALL: (() => {
         const fontSize = REGULAR || LARGE ? FONT.SIZE.SMALL : FONT.SIZE.TINY;
 
-        return {
-          fontSize,
-          lineHeight: fontSize * 1.06,
-        };
+        return { fontSize, lineHeight: fontSize * 1.06 };
       })(),
 
       REGULAR: THEME.REGULAR,
@@ -65,10 +59,16 @@ export default () => {
         if (PHONE || SMALL) fontSize = FONT.SIZE.REGULAR;
         if (TABLET || REGULAR) fontSize = UNIT * 1.8;
 
-        return {
-          fontSize,
-          lineHeight: fontSize * 1.06,
-        };
+        return { fontSize, lineHeight: fontSize * 1.06 };
+      })(),
+
+      LARGE_SHORT: (() => {
+        let fontSize = 36;
+        if (TINY) fontSize = UNIT * 1.8;
+        if (PHONE || SMALL) fontSize = FONT.SIZE.LARGE;
+        if (TABLET || REGULAR) fontSize = UNIT * 2.6;
+
+        return { fontSize, lineHeight: fontSize * 1.06 };
       })(),
 
       TITLE: (() => {
@@ -76,10 +76,7 @@ export default () => {
         if (TINY || PHONE || TABLET) fontSize = UNIT * 2.4;
         if (SMALL || REGULAR) fontSize = UNIT * 3;
 
-        return {
-          fontSize,
-          lineHeight: fontSize * 1.3,
-        };
+        return { fontSize, lineHeight: fontSize * 1.3 };
       })(),
     },
   });

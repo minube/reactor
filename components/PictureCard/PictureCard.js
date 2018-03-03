@@ -9,10 +9,11 @@ import Touchable from '../Touchable';
 import styles from './PictureCard.style';
 
 const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg';
+const SHORT_TITLE = 10;
 
 const PictureCard = ({
   backgroundColor, children, caption, image, onLoad, onPress, portrait, small, style, title,
-  layout: { CARD } = layout(), // eslint-disable-line
+  layout: { CARD, TEXT } = layout(), // eslint-disable-line
 }) => (
   <Touchable
     disabled={!onPress}
@@ -36,7 +37,14 @@ const PictureCard = ({
       />
       <View pointerEvents="none" style={styles.content}>
         <View>
-          { title && <Text bold large style={StyleSheet.flatten([styles.text, styles.title])}>{title}</Text> }
+          { title &&
+            <Text
+              bold
+              large
+              style={StyleSheet.flatten([styles.text, styles.title, title.length < SHORT_TITLE && TEXT.LARGE_SHORT])}
+            >
+              {title}
+            </Text> }
           { caption && <Text tiny style={styles.text}>{caption}</Text> }
         </View>
         { children }
