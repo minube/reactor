@@ -19,6 +19,9 @@ storiesOf('✅ Text', module)
   .addWithJSX('large', () => (
     <Text large>Hello World</Text>
   ))
+  .addWithJSX('title', () => (
+    <Text title>Hello World</Text>
+  ))
   .addWithJSX('bold', () => (
     <Text bold>Hello World</Text>
   ))
@@ -45,6 +48,7 @@ storiesOf('✅ Text', module)
         small={boolean('small', false)}
         tiny={boolean('tiny', false)}
         large={boolean('large', false)}
+        title={boolean('title', false)}
         accent={boolean('accent', false)}
         lighten={boolean('lighten', false)}
         primary={boolean('primary', false)}

@@ -38,14 +38,6 @@ export default () => {
       })(),
     },
 
-    HEADING: {
-      TITLE_FONT_SIZE: (() => {
-        if (TINY || PHONE || TABLET) return UNIT * 2.4;
-        if (SMALL || REGULAR) return UNIT * 3;
-        return UNIT * 4.8;
-      })(),
-    },
-
     TEXT: {
       TINY: (() => {
         const fontSize = REGULAR || LARGE ? FONT.SIZE.TINY : UNIT * 1.1;
@@ -76,6 +68,17 @@ export default () => {
         return {
           fontSize,
           lineHeight: fontSize * 1.06,
+        };
+      })(),
+
+      TITLE: (() => {
+        let fontSize = UNIT * 4.8;
+        if (TINY || PHONE || TABLET) fontSize = UNIT * 2.4;
+        if (SMALL || REGULAR) fontSize = UNIT * 3;
+
+        return {
+          fontSize,
+          lineHeight: fontSize * 1.3,
         };
       })(),
     },

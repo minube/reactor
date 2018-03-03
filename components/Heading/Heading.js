@@ -14,14 +14,15 @@ const { AVATAR_SMALL, COLOR, UNIT } = THEME;
 const Heading = ({
   breadcrumbs, color, column, onBreadcrumb, rating, style, title,
   contributors: { total, label, preview } = {},
-  layout: { HEADING } = layout(), // eslint-disable-line
+  layout: { TEXT } = layout(), // eslint-disable-line
 }) => (
   <View style={StyleSheet.flatten([styles.container, style])}>
     <View style={column ? styles.column : styles.row}>
       <Text
         bold
+        title
         color={color}
-        style={StyleSheet.flatten([{ fontSize: HEADING.TITLE_FONT_SIZE }, styles.title])}
+        style={StyleSheet.flatten([TEXT.TITLE, styles.title])}
       >
         {title}
       </Text>
