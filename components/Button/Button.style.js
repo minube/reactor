@@ -66,7 +66,6 @@ export default StyleSheet.create({
   text: {
     color: COLOR.WHITE,
     fontSize: FONT.SIZE.SMALL,
-    fontWeight: FONT.WEIGHT.BOLD,
   },
 
   textDisabled: {

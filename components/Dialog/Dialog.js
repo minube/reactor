@@ -55,7 +55,7 @@ class Dialog extends Component {
         style={StyleSheet.flatten([styles.container, { opacity }])}
       >
         <Animated.View style={StyleSheet.flatten([styles.frame, style, { bottom }])}>
-          { title && <Text style={styles.title}>{title}</Text> }
+          { title && <Text bold style={styles.title}>{title}</Text> }
           <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.content, scroll && styles.scroll])}>
             {children}
           </ScrollView>

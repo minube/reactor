@@ -13,7 +13,6 @@ export default StyleSheet.create({
 
   symbol: {
     alignSelf: 'flex-end',
-    fontWeight: FONT.WEIGHT.REGULAR,
     transform: [{ scale: 0.75 }],
   },
 });

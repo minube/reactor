@@ -32,7 +32,6 @@ export default StyleSheet.create({
 
   title: {
     fontSize: FONT.SIZE.LARGE,
-    fontWeight: FONT.WEIGHT.BOLD,
     padding: OFFSET,
   },
 

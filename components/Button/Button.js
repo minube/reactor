@@ -41,6 +41,7 @@ const Button = ({
         <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
         <Text
+          bold
           style={StyleSheet.flatten([
             styles.text,
             flat && styles.textFlat,
