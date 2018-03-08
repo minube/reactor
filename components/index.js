@@ -8,6 +8,7 @@ import Image from './Image';
 import Input from './Input';
 import Link from './Link';
 import ListingCard from './ListingCard';
+import Motion from './Motion';
 import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
@@ -29,6 +30,7 @@ export {
   Input,
   Link,
   ListingCard,
+  Motion,
   PictureCard,
   Price,
   ProgressBar,
