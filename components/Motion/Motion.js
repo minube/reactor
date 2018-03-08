@@ -4,12 +4,13 @@ import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native
 
 const isBrowser = Platform.OS === 'web';
 const SPRING = 'spring';
+const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
 
 class Motion extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: new Animated.Value(props.value || 0),
+      value: new Animated.Value(props.useNativeDriver ? 0 : props.value),
     };
   }
 
@@ -26,7 +27,7 @@ class Motion extends Component {
   render() {
     const {
       props: {
-        children, delay, duration, property, style, useNativeDriver,
+        children, delay, duration, property, style, type, useNativeDriver,
       },
       state: { value },
     } = this;
@@ -40,7 +41,7 @@ class Motion extends Component {
             transitionProperty: property,
             transitionDelay: `${delay}ms`,
             transitionDuration: `${duration}ms`,
-            transitionTimingFunction: SPRING ? 'easeInOut' : undefined,
+            transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
           },
           { [property]: useNativeDriver ? this.props.value : value },
         ])}
@@ -70,7 +71,7 @@ Motion.defaultProps = {
   style: [],
   type: SPRING,
   useNativeDriver: isBrowser,
-  value: undefined,
+  value: 0,
 };
 
 export default Motion;
