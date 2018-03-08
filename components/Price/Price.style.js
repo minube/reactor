@@ -1,8 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
-
-const { FONT } = THEME;
+import { STYLE } from '../../common';
 
 export default StyleSheet.create({
   container: STYLE.ROW,
