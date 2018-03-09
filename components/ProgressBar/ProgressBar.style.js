@@ -9,7 +9,6 @@ export default StyleSheet.create({
     width: '100%',
     height: UNIT / 2,
     overflow: 'hidden',
-    backgroundColor: 'orange',
   },
 
   progress: {
