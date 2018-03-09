@@ -2,7 +2,6 @@ import { array, bool, node, oneOfType, string, number } from 'prop-types';
 import React, { Component } from 'react';
 import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native';
 
-const isBrowser = Platform.OS === 'web';
 const SPRING = 'spring';
 const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
 
@@ -70,7 +69,7 @@ Motion.defaultProps = {
   property: 'opacity',
   style: [],
   type: SPRING,
-  useNativeDriver: isBrowser,
+  useNativeDriver: Platform.OS === 'web',
   value: 0,
 };
 
