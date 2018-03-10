@@ -2,7 +2,7 @@ import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'pr
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { layout, SHAPE, THEME } from '../../common';
+import { LAYOUT, SHAPE, THEME } from '../../common';
 import Breadcrumbs from '../Breadcrumbs';
 import Image from '../Image';
 import Rating from '../Rating';
@@ -14,7 +14,6 @@ const { AVATAR_SMALL, COLOR, UNIT } = THEME;
 const Heading = ({
   breadcrumbs, color, column, onBreadcrumb, rating, style, title,
   contributors: { total, label, preview } = {},
-  layout: { TEXT } = layout(), // eslint-disable-line
 }) => (
   <View style={StyleSheet.flatten([styles.container, style])}>
     <View style={column ? styles.column : styles.row}>
@@ -22,7 +21,7 @@ const Heading = ({
         bold
         title
         color={color}
-        style={StyleSheet.flatten([TEXT.TITLE, styles.title])}
+        style={StyleSheet.flatten([LAYOUT.STYLE.TEXT.TITLE, styles.title])}
       >
         {title}
       </Text>

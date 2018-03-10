@@ -1,18 +1,23 @@
-import screen from './screen';
+import { Dimensions } from 'react-native';
+
 import THEME from './theme';
 
 const { BUTTON, FONT, UNIT } = THEME;
+const screenSizes = (height, width) => ({
+  TINY: width < 360,
+  PHONE: width >= 360 && width < 376,
+  TABLET: width >= 376 && width < 510,
+  SMALL: width >= 510 && width < 720,
+  REGULAR: width >= 720 && width < 1024,
+  LARGE: width >= 1024,
+});
 
-export default () => {
-  const SCREEN = screen();
+const calc = ({ height, width }) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
-  } = SCREEN;
+  } = screenSizes(height, width);
 
-  return ({
-    SCREEN,
-
-    // -- components
+  return {
     BUTTON: {
       CONTAINER: {
         height: REGULAR || LARGE ? BUTTON.HEIGHT : BUTTON.SMALL_HEIGHT,
@@ -79,5 +84,41 @@ export default () => {
         return { fontSize, lineHeight: fontSize * 1.3 };
       })(),
     },
-  });
+  };
 };
+
+class Layout {
+  constructor({ height, width } = Dimensions.get('window')) {
+    if (!Layout.instance) {
+      Layout.instance = this;
+      this._height = height;
+      this._width = width;
+      this._style = calc({ height, width });
+    }
+    return Layout.instance;
+  }
+
+  get STYLE() {
+    return this._style;
+  }
+
+  get VIEWPORT() {
+    return {
+      H: this._height,
+      W: this._width,
+
+      PORTRAIT: this._height > this._width,
+      LANDSCAPE: this._width > this._height,
+
+      ...screenSizes(this._height, this._width),
+    };
+  }
+
+  calc({ height, width } = Dimensions.get('window')) {
+    this._height = height;
+    this._width = width;
+    this._style = calc({ height, width });
+  }
+}
+
+export default new Layout();

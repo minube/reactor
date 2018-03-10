@@ -2,7 +2,7 @@ import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'pr
 import React, { Component } from 'react';
 import { Platform, ScrollView, StyleSheet, View } from 'react-native';
 
-import { layout, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
@@ -18,7 +18,7 @@ class Slider extends Component {
     super(props);
 
     this.state = {
-      itemWidth: layout().CARD.WIDTH,
+      itemWidth: LAYOUT.STYLE.CARD.WIDTH,
       layoutHeight: 0,
       x: 0,
     };
@@ -29,7 +29,7 @@ class Slider extends Component {
   }
 
   componentWillReceiveProps() {
-    this.setState({ itemWidth: layout().CARD.WIDTH, x: 0 });
+    this.setState({ itemWidth: LAYOUT.STYLE.CARD.WIDTH, x: 0 });
   }
 
   _onScroll({ nativeEvent: { contentOffset: { x } } }) {

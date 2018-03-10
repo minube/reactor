@@ -2,7 +2,7 @@ import { array, bool, func, number, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { layout, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
@@ -10,7 +10,6 @@ const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
   accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
-  layout: { TEXT, BUTTON } = layout(), // eslint-disable-line
 }) => (
   <Touchable
     disabled={disabled}
@@ -29,7 +28,7 @@ const Button = ({
         accent && styles.accent,
         flat && styles.flat,
         small && styles.small,
-        !small && responsive && { ...BUTTON.CONTAINER },
+        !small && responsive && { ...LAYOUT.STYLE.BUTTON.CONTAINER },
         !title && icon && styles.floating,
         rounded && styles.rounded,
         disabled && styles.disabled,
@@ -46,7 +45,7 @@ const Button = ({
             styles.text,
             flat && styles.textFlat,
             small && styles.textSmall,
-            !small && responsive && TEXT.SMALL,
+            !small && responsive && LAYOUT.STYLE.TEXT.SMALL,
             disabled && styles.textDisabled])}
         >
           {title}

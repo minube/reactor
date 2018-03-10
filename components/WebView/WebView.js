@@ -2,6 +2,8 @@ import { node } from 'prop-types';
 import React, { Component } from 'react';
 import { View } from 'react-native';
 
+import { LAYOUT } from '../../common';
+
 let timeout;
 
 class WebView extends Component {
@@ -11,10 +13,10 @@ class WebView extends Component {
     return (
       <View
         {...inherit}
-        style={{ alignItems: 'center', width: '100%', height: '100%' }}
         key={this.state && this.state.timestamp}
         onLayout={() => {
           clearTimeout(timeout);
+          LAYOUT.calc();
           timeout = setTimeout(() => this.setState({ timestamp: new Date() }), 40);
         }}
       >

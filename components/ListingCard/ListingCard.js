@@ -2,16 +2,14 @@ import { array, bool, func, node, number, oneOfType, shape, string } from 'prop-
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 
-import { layout, SHAPE } from '../../common';
+import { LAYOUT, SHAPE } from '../../common';
 import { PictureCard, Rating, Text } from '../';
 import styles from './ListingCard.style';
 
 const ListingCard = ({
-  category, children, description, empty, onPress, rating = {}, style, title,
-  layout: { CARD } = layout(), // eslint-disable-line
-  ...inherit
+  category, children, description, empty, onPress, rating = {}, style, title, ...inherit
 }) => (
-  <View style={StyleSheet.flatten([styles.container, { width: CARD.WIDTH }, style])}>
+  <View style={StyleSheet.flatten([styles.container, { width: LAYOUT.STYLE.CARD.WIDTH }, style])}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
       <View>
         <PictureCard {...inherit} />

@@ -2,13 +2,11 @@ import { bool, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
-import { layout } from '../../common';
+import { LAYOUT } from '../../common';
 import styles from './Text.style';
 
 const Text = ({
-  accent, bold, color, large, lighten, primary, small, tiny, title,
-  layout: { TEXT } = layout(), // eslint-disable-line
-  ...inherit
+  accent, bold, color, large, lighten, primary, small, tiny, title, ...inherit
 }) => (
   <NativeText
     {...inherit}
@@ -16,10 +14,10 @@ const Text = ({
       styles.container,
 
       bold && styles.bold,
-      tiny && { ...TEXT.TINY },
-      small && { ...TEXT.SMALL },
-      large && { ...TEXT.LARGE },
-      title && { ...TEXT.TITLE },
+      tiny && { ...LAYOUT.STYLE.TEXT.TINY },
+      small && { ...LAYOUT.STYLE.TEXT.SMALL },
+      large && { ...LAYOUT.STYLE.TEXT.LARGE },
+      title && { ...LAYOUT.STYLE.TEXT.TITLE },
 
       inherit.style,
       lighten && styles.lighten,
