@@ -23,10 +23,11 @@ const Button = ({
     <View
       style={StyleSheet.flatten([
         styles.container,
-        color && { backgroundColor: color },
+        flat && styles.flat,
+        flat && color && { borderColor: color },
+        color && { backgroundColor: !flat ? color : undefined },
         primary && styles.primary,
         accent && styles.accent,
-        flat && styles.flat,
         small && styles.small,
         !small && responsive && { ...LAYOUT.STYLE.BUTTON.CONTAINER },
         !title && icon && styles.floating,
@@ -41,6 +42,7 @@ const Button = ({
       { title &&
         <Text
           bold
+          color={flat && color ? color : undefined}
           style={StyleSheet.flatten([
             styles.text,
             flat && styles.textFlat,
