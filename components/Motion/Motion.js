@@ -20,7 +20,9 @@ class Motion extends Component {
     duration = this.props.duration,
     value = this.props.duration || 0,
   }) {
-    if (!useNativeDriver) Animated[type](this.state.value, { toValue: value, delay, duration }).start();
+    if (!useNativeDriver && value !== this.props.value) {
+      Animated[type](this.state.value, { toValue: value, delay, duration }).start();
+    }
   }
 
   render() {
