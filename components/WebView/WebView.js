@@ -1,23 +1,23 @@
-import { node } from 'prop-types';
+import { func, node } from 'prop-types';
 import React, { Component } from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 
-let timeout;
-
 class WebView extends Component {
   render() {
-    const { props: { children, ...inherit } } = this;
+    const {
+      children, onLayout, ...inherit
+    } = this.props;
 
     return (
       <View
         {...inherit}
-        key={this.state && this.state.timestamp}
+        key={this.state && this.state.viewport}
         onLayout={() => {
-          clearTimeout(timeout);
           LAYOUT.calc();
-          timeout = setTimeout(() => this.setState({ timestamp: new Date() }), 40);
+          this.setState({ viewport: `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}` });
+          onLayout();
         }}
       >
         {children}
@@ -28,10 +28,12 @@ class WebView extends Component {
 
 WebView.propTypes = {
   children: node,
+  onLayout: func,
 };
 
 WebView.defaultProps = {
   children: undefined,
+  onLayout() {},
 };
 
 export default WebView;
