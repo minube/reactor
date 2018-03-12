@@ -15,26 +15,26 @@ const {
 
 storiesOf('🛠 Avatar', module)
   .addWithJSX('default', () => (
-    <Avatar big resizeMode="cover" image={IMAGE_AVATAR} href={LINK_AVATAR} />
+    <Avatar regular resizeMode="cover" style={{ borderRadius:'50%' }} image={IMAGE_AVATAR} href={LINK_AVATAR} />
   ))
   .addWithJSX('small', () => (
-    <Avatar small resizeMode="cover" image={IMAGE_AVATAR} href={LINK_AVATAR} />
+    <Avatar small resizeMode="cover" style={{ borderRadius:'50%' }} image={IMAGE_AVATAR} />
   ))
-  .addWithJSX('medium', () => (
-    <Avatar medium resizeMode="cover" image={IMAGE_AVATAR} href={LINK_AVATAR} />
+  .addWithJSX('large', () => (
+    <Avatar large resizeMode="cover" style={{ borderRadius:'50%' }} image={IMAGE_AVATAR} />
   ))
-  .addWithJSX('big', () => (
-    <Avatar big resizeMode="cover" image={IMAGE_AVATAR} href={LINK_AVATAR} />
+  .addWithJSX('link', () => (
+    <Avatar regular resizeMode="cover" style={{ borderRadius:'50%' }} image={IMAGE_AVATAR} href={LINK_AVATAR} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <WebView>
       <Avatar
+        style={{ borderRadius:'50%' }}
         resizeMode="cover"
         image={IMAGE_AVATAR}
-        href={LINK_AVATAR}
         small={boolean('small', false)}
-        medium={boolean('medium', false)}
-        big={boolean('big', true)}
+        regular={boolean('regular', true)}
+        large={boolean('large', false)}
       />
     </WebView>
   ));

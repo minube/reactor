@@ -13,35 +13,33 @@ const {
 } = THEME;
 
 const Avatar = ({
-  small, medium, big, image, href, style
+  small, regular, large, image, href, style
 }) => (
-  <View >
+  <View>
     <Link href={href}>
       <Image source={{ uri: image }}
         style={StyleSheet.flatten([
           small && styles.small,
-          medium && styles.medium,
-          big && styles.big,
+          regular && styles.regular,
+          large && styles.large,
           style,
         ])}/>
     </Link>
   </View>
 );
-
 Avatar.propTypes = {
   small: bool,
-  medium: bool,
-  big: bool,
-  image: string,
-  link:string
+  regular: bool,
+  large: bool,
+  image: string.isRequired,
+  href: string
 };
 
 Avatar.defaultProps = {
   small: false,
-  medium: false,
-  big: false,
-  image: undefined,
-  link:undefined
+  regular: true,
+  large: false,
+  href:undefined
 };
 
 export default Avatar;

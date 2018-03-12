@@ -57,4 +57,3 @@ storiesOf('✅ Text', module)
       </Text>
     </WebView>
   ));
-
