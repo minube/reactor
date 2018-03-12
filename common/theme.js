@@ -5,8 +5,8 @@ const UNIT = 10;
 export default {
   AVATAR: {
     SMALL: UNIT * 2,
-    MEDIUM: UNIT * 4,
-    BIG: UNIT * 6,
+    REGULAR: UNIT * 4,
+    LARGE: UNIT * 6,
   },
 
   BORDER_RADIUS: UNIT * 0.3,

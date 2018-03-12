@@ -12,12 +12,12 @@ export default StyleSheet.create({
     height: AVATAR.SMALL,
   },
   regular: {
-    width: AVATAR.MEDIUM,
-    height: AVATAR.MEDIUM,
+    width: AVATAR.REGULAR,
+    height: AVATAR.REGULAR,
   },
   large: {
-    width: AVATAR.BIG,
-    height: AVATAR.BIG,
+    width: AVATAR.LARGE,
+    height: AVATAR.LARGE,
   },
 
 });
