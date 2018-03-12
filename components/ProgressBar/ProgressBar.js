@@ -1,4 +1,4 @@
-import { bool, number } from 'prop-types';
+import { number } from 'prop-types';
 import React, { Component } from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -26,7 +26,7 @@ class ProgressBar extends Component {
     const {
       _onLayout,
       props: { progress = 0, ...inherit },
-      state: { layoutWidth = 0, width },
+      state: { layoutWidth = 0 },
     } = this;
 
     return (
@@ -39,10 +39,7 @@ class ProgressBar extends Component {
         ])}
       >
         <Motion
-          style={StyleSheet.flatten([
-            styles.progress,
-            { backgroundColor: inherit.color || COLOR.PRIMARY },
-          ])}
+          style={[styles.progress, { backgroundColor: inherit.color || COLOR.PRIMARY }]}
           property="width"
           value={progress * layoutWidth}
           type="timing"
