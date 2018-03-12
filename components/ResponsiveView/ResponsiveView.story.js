@@ -11,7 +11,7 @@ storiesOf('✅ ResponsiveView', module)
   .addWithJSX('default', () => (
     <ResponsiveView />
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .addWithJSX('⚡ onLayout', () => (
     <ResponsiveView onLayout={action('ResponsiveView.onLayout()')} />
   ))
   .addWithJSX('🏀 Playground', withState({ timestamp: new Date() }, store => (

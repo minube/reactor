@@ -17,7 +17,7 @@ class ResponsiveView extends Component {
         onLayout={() => {
           LAYOUT.calc();
           this.setState({ viewport: `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}` });
-          this.forceUpdate();
+          // this.forceUpdate(); @TODO: React fiber
           onLayout(LAYOUT.VIEWPORT);
         }}
       >
