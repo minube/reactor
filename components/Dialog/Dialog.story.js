@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean } from '@storybook/addon-knobs/react';
 
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import Dialog from './Dialog';
 import Text from '../Text';
 
@@ -12,7 +12,7 @@ storiesOf('🛠 Dialog', module)
     <Dialog onClose={action('Button.onClose()')} title="Title" visible />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Dialog
         title={text('title', 'Title')}
         onClose={action('Dialog.onClose()')}
@@ -21,5 +21,5 @@ storiesOf('🛠 Dialog', module)
       >
         <Text>Example of children</Text>
       </Dialog>
-    </WebView>
+    </ResponsiveView>
   ));

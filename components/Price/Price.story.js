@@ -4,7 +4,7 @@ import { number, text } from '@storybook/addon-knobs/react';
 import { WithNotes } from '@storybook/addon-notes';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import Price from './Price';
 
 storiesOf('✅ Price', module)
@@ -33,12 +33,12 @@ storiesOf('✅ Price', module)
     <Price style={{ fontSize: THEME.FONT.SIZE.SMALL, color: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Price
         fixed={number('fixed', 2)}
         value={number('value', 64)}
         symbol={text('symbol', '$')}
       />
-    </WebView>
+    </ResponsiveView>
   ));
 

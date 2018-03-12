@@ -4,7 +4,7 @@ import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 
-class WebView extends Component {
+class ResponsiveView extends Component {
   render() {
     const {
       children, onLayout, ...inherit
@@ -17,7 +17,8 @@ class WebView extends Component {
         onLayout={() => {
           LAYOUT.calc();
           this.setState({ viewport: `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}` });
-          onLayout();
+          this.forceUpdate();
+          onLayout(LAYOUT.VIEWPORT);
         }}
       >
         {children}
@@ -26,14 +27,14 @@ class WebView extends Component {
   }
 }
 
-WebView.propTypes = {
+ResponsiveView.propTypes = {
   children: node,
   onLayout: func,
 };
 
-WebView.defaultProps = {
+ResponsiveView.defaultProps = {
   children: undefined,
   onLayout() {},
 };
 
-export default WebView;
+export default ResponsiveView;

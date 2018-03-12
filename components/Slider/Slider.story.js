@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text, boolean, number } from '@storybook/addon-knobs/react';
 
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import ListingCard from '../ListingCard';
 import PictureCard from '../PictureCard';
 import Slider from './Slider';
@@ -53,7 +53,7 @@ storiesOf('🛠 Slider', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Slider
         caption={text('caption', 'Muy del estilo de Chiang Mai')}
         dataSource={dataSource}
@@ -64,6 +64,6 @@ storiesOf('🛠 Slider', module)
         title={text('title', 'Explora nuevos destinos')}
         item={ItemPictureCard}
       />
-    </WebView>
+    </ResponsiveView>
   ));
 

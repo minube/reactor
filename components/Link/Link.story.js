@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import Link from './Link';
 
 storiesOf('✅ Link', module)
@@ -23,9 +23,9 @@ storiesOf('✅ Link', module)
     </Link>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Link href={text('href', 'http://minube.com')}>
         {text('title', 'minube.com')}
       </Link>
-    </WebView>
+    </ResponsiveView>
   ));

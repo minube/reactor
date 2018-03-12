@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.3.14",
+  "version": "0.4.0",
   "private": true,
   "contributors": [
     {
@@ -20,6 +20,7 @@
     "@storybook/addons": "^3.3.12",
     "@storybook/react": "^3.3.12",
     "@storybook/react-native": "^3.3.12",
+    "@dump247/storybook-state": "^1.2.4",
     "babel-core": "6.26.0",
     "babel-eslint": "8.2.1",
     "babel-plugin-react-native-web": "0.4.0",

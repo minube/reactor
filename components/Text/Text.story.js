@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { text, color, boolean } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import Text from './Text';
 
 storiesOf('✅ Text', module)
@@ -41,7 +41,7 @@ storiesOf('✅ Text', module)
     <Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Customized Text</Text>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Text
         bold={boolean('bold', false)}
         color={color('color', THEME.COLOR.TEXT)}
@@ -55,6 +55,6 @@ storiesOf('✅ Text', module)
       >
         {text('content', 'Hello World')}
       </Text>
-    </WebView>
+    </ResponsiveView>
   ));
 

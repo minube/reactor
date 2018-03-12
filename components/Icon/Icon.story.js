@@ -4,7 +4,7 @@ import { WithNotes } from '@storybook/addon-notes';
 import { color, number, select } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import Icon from './Icon';
 
 storiesOf('🛠 Icon', module)
@@ -26,12 +26,12 @@ storiesOf('🛠 Icon', module)
     <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Icon
         size={number('size', THEME.FONT.SIZE.LARGE)}
         color={color('color', THEME.COLOR.TEXT)}
         value={select('value', ['search', 'menu'], 'search')}
       />
-    </WebView>
+    </ResponsiveView>
   ));
 

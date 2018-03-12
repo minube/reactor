@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, number, select, text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import ResponsiveView from '../ResponsiveView';
 import Motion from './Motion';
 
 const style = {
@@ -20,7 +20,7 @@ storiesOf('✅ Motion', module)
     </Motion>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <ResponsiveView>
       <Motion
         delay={number('delay', 0)}
         duration={number('duration', 500)}
@@ -31,5 +31,5 @@ storiesOf('✅ Motion', module)
       >
         <View style={style} />
       </Motion>
-    </WebView>
+    </ResponsiveView>
   ));
