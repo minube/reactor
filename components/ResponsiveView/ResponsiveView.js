@@ -1,10 +1,10 @@
 import { func, node } from 'prop-types';
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 
-class ResponsiveView extends Component {
+class ResponsiveView extends PureComponent {
   render() {
     const {
       children, onLayout, ...inherit
