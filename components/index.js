@@ -18,6 +18,7 @@ import Slider from './Slider';
 import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
+import Video from './Video';
 
 export {
   Activity,
@@ -40,4 +41,5 @@ export {
   Switch,
   Text,
   Touchable,
+  Video,
 };

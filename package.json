@@ -1,13 +1,18 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "private": true,
   "contributors": [
     {
       "name": "Javi Jimenez",
       "email": "javi.jimenez@minube.com",
       "url": "https://github.com/soyjavi"
+    },
+    {
+      "name": "David Galindo",
+      "email": "david.galindo@minube.com",
+      "url": "https://github.com/dgalindoc"
     }
   ],
   "devDependencies": {
