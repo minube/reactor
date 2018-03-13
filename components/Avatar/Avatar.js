@@ -1,45 +1,35 @@
-import React, { Component } from 'react';
-import { bool, string } from 'prop-types';
-import { StyleSheet, View } from 'react-native';
+import { array, bool, oneOfType, string, number } from 'prop-types';
+import React from 'react';
+import { StyleSheet } from 'react-native';
 
-import Activity from '../Activity';
-import styles from './Avatar.style';
 import Image from '../Image';
-import Link from '../Link';
-import { THEME } from '../../common';
-
-const {
-   AVATAR,
-} = THEME;
+import styles from './Avatar.style';
 
 const Avatar = ({
-  small, regular, large, image, href, style
+  image, large, small, style,
 }) => (
-  <View>
-    <Link href={href}>
-      <Image source={{ uri: image }}
-        style={StyleSheet.flatten([
-          small && styles.small,
-          regular && styles.regular,
-          large && styles.large,
-          style,
-        ])}/>
-    </Link>
-  </View>
+  <Image
+    resizeMode="cover"
+    source={{ uri: image }}
+    style={StyleSheet.flatten([
+      styles.image,
+      style,
+      small && styles.small,
+      large && styles.large,
+    ])}
+  />
 );
 Avatar.propTypes = {
-  small: bool,
-  regular: bool,
-  large: bool,
   image: string.isRequired,
-  href: string
+  large: bool,
+  small: bool,
+  style: oneOfType([array, number]),
 };
 
 Avatar.defaultProps = {
-  small: false,
-  regular: true,
   large: false,
-  href:undefined
+  small: false,
+  style: [],
 };
 
 export default Avatar;

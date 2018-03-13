@@ -1,23 +1,23 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { THEME } from '../../common';
 
-const {
-  COLOR, AVATAR,
-} = THEME;
+const { AVATAR: { REGULAR, SMALL, LARGE } } = THEME;
 
 export default StyleSheet.create({
-  small: {
-    width: AVATAR.SMALL,
-    height: AVATAR.SMALL,
-  },
-  regular: {
-    width: AVATAR.REGULAR,
-    height: AVATAR.REGULAR,
-  },
-  large: {
-    width: AVATAR.LARGE,
-    height: AVATAR.LARGE,
+  image: {
+    borderRadius: '50%',
+    width: REGULAR,
+    height: REGULAR,
   },
 
+  small: {
+    width: SMALL,
+    height: SMALL,
+  },
+
+  large: {
+    width: LARGE,
+    height: LARGE,
+  },
 });
