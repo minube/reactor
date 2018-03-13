@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Image as ImageNative, StyleSheet, View } from 'react-native';
 
 import Activity from '../Activity';
 import styles from './Image.style';
 
-class Image extends Component {
+class Image extends PureComponent {
   constructor(props) {
     super(props);
     this.state = { ready: false };
     this._onLoad = this._onLoad.bind(this);
   }
 
-  _onLoad() {
+  _onLoad(event) {
     const { props: { ...inherit } } = this;
 
     this.setState({ ready: true });
-    if (inherit.onLoad) inherit.onLoad(arguments);
+    if (inherit.onLoad) inherit.onLoad(event);
   }
 
   render() {

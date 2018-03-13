@@ -1,11 +1,11 @@
 import { array, number, oneOfType } from 'prop-types';
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { StyleSheet } from 'react-native';
 
 import Text from '../Text';
 import styles from './Link.style';
 
-class Link extends Component {
+class Link extends PureComponent {
   constructor(props) {
     super(props);
     this.state = { hover: false };

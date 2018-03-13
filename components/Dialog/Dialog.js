@@ -1,5 +1,5 @@
 import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native';
 
 import { THEME } from '../../common';
@@ -9,7 +9,7 @@ import styles from './Dialog.style';
 
 const { COLOR } = THEME;
 
-class Dialog extends Component {
+class Dialog extends PureComponent {
   constructor(props) {
     super(props);
 

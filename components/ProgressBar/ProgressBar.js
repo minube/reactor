@@ -1,5 +1,5 @@
 import { number } from 'prop-types';
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { THEME } from '../../common';
@@ -8,7 +8,7 @@ import styles from './ProgressBar.style';
 
 const { COLOR } = THEME;
 
-class ProgressBar extends Component {
+class ProgressBar extends PureComponent {
   constructor(props) {
     super(props);
 

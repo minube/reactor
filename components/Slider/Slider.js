@@ -1,5 +1,5 @@
 import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Platform, ScrollView, StyleSheet, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
@@ -13,7 +13,7 @@ const NEXT = 'next';
 let timeout;
 const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 0 : 16;
 
-class Slider extends Component {
+class Slider extends PureComponent {
   constructor(props) {
     super(props);
 

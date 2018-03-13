@@ -1,11 +1,11 @@
 import { array, bool, node, oneOfType, string, number } from 'prop-types';
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native';
 
 const SPRING = 'spring';
 const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
 
-class Motion extends Component {
+class Motion extends PureComponent {
   constructor(props) {
     super(props);
     this.state = {
