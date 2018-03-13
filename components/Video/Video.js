@@ -76,7 +76,7 @@ Video.propTypes = {
 
 Video.defaultProps = {
   autoPlay: false,
-  controls: true,
+  controls: false,
   onLoad() {},
   style: [],
 };

@@ -40,8 +40,8 @@ storiesOf('✅ Video', module)
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>
       <Video
-        autoplay={boolean('autoplay', false)}
-        controls={boolean('controls', false)}
+        autoplay={boolean('autoplay', true)}
+        controls={boolean('controls', true)}
         source={text('source', VIDEO_PLACEHOLDER)}
         style={object('style', VIDEO_STYLE, 'video-style')}
       />
