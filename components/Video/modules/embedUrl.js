@@ -1,4 +1,4 @@
-export default (source) => {
+export default (source = '') => {
   let url;
   let match;
 

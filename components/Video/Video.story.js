@@ -17,7 +17,7 @@ storiesOf('✅ Video', module)
     <Video />
   ))
   .addWithJSX('source', () => (
-    <Video source="http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4" />
+    <Video source={VIDEO_PLACEHOLDER} />
   ))
   .addWithJSX('youtube source', () => (
     <Video source="https://www.youtube.com/watch?v=cx4MxQcD8Fk" />
