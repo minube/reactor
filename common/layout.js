@@ -1,4 +1,4 @@
-import { Dimensions } from 'react-native';
+import { Dimensions, Platform } from 'react-native';
 
 import THEME from './theme';
 
@@ -103,12 +103,16 @@ class Layout {
   }
 
   get VIEWPORT() {
+    const H = this._height;
+    const PORTRAIT = this._height > this._width;
+
     return {
-      H: this._height,
+      H,
       W: this._width,
 
-      PORTRAIT: this._height > this._width,
+      PORTRAIT,
       LANDSCAPE: this._width > this._height,
+      IPHONEX: PORTRAIT && H === 812 && Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS,
 
       ...screenSizes(this._height, this._width),
     };

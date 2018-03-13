@@ -20,6 +20,7 @@ storiesOf('✅ ResponsiveView', module)
       <Text small>{`${LAYOUT.VIEWPORT.W} x ${LAYOUT.VIEWPORT.H}`}</Text>
       { LAYOUT.VIEWPORT.PORTRAIT && <Text tiny>PORTRAIT</Text> }
       { LAYOUT.VIEWPORT.LANDSCAPE && <Text tiny>LANDSCAPE</Text> }
+      { LAYOUT.VIEWPORT.IPHONEX && <Text tiny>IPHONEX</Text> }
       { LAYOUT.VIEWPORT.TINY && <Text tiny>TINY</Text> }
       { LAYOUT.VIEWPORT.PHONE && <Text tiny>PHONE</Text> }
       { LAYOUT.VIEWPORT.TABLET && <Text tiny>TABLET</Text> }
