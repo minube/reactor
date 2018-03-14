@@ -1,9 +1,8 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
+import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
-import { boolean, number, select, text } from '@storybook/addon-knobs/react';
+import { boolean, number, select } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import ResponsiveView from '../ResponsiveView';
 import Motion from './Motion';
 
@@ -12,6 +11,8 @@ const style = {
   height: 128,
   backgroundColor: 'grey',
 };
+
+const PROPERTIES = ['top', 'left', 'right', 'bottom', 'opacity', 'scale', 'translateX', 'translateY'];
 
 storiesOf('✅ Motion', module)
   .addWithJSX('default', () => (
@@ -24,10 +25,10 @@ storiesOf('✅ Motion', module)
       <Motion
         delay={number('delay', 0)}
         duration={number('duration', 500)}
-        property={select('property', ['top', 'left', 'right', 'bottom', 'opacity'], 'top')}
+        property={select('property', PROPERTIES, 'scale')}
         type={select('type', ['spring', 'timing'], 'spring')}
         useNativeDriver={boolean('useNativeDriver', true)}
-        value={number('value', 0)}
+        value={number('value', 0.5)}
       >
         <View style={style} />
       </Motion>

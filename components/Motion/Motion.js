@@ -4,6 +4,7 @@ import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native
 
 const SPRING = 'spring';
 const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
+const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY'];
 
 class Motion extends PureComponent {
   constructor(props) {
@@ -33,18 +34,21 @@ class Motion extends PureComponent {
       state: { value },
     } = this;
     const View = useNativeDriver ? ViewNative : Animated.View;
+    const isTransform = TRANSFORM_PROPERTIES.includes(property);
+    const transitionValue = useNativeDriver ? this.props.value : value;
+    const transitionProperty = isTransform ? 'transform' : property;
 
     return (
       <View
         style={StyleSheet.flatten([
           style,
           useNativeDriver && {
-            transitionProperty: property,
+            transitionProperty,
             transitionDelay: `${delay}ms`,
             transitionDuration: `${duration}ms`,
             transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
           },
-          { [property]: useNativeDriver ? this.props.value : value },
+          { [transitionProperty]: isTransform ? [{ [property]: transitionValue }] : transitionValue },
         ])}
       >
         { children }
