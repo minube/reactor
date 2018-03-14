@@ -15,11 +15,12 @@ class ResponsiveView extends PureComponent {
         {...inherit}
         key={this.state && this.state.viewport}
         onLayout={() => {
+          LAYOUT.calc();
+          onLayout(LAYOUT.VIEWPORT);
+
           const viewport = `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`;
           if (this.state && this.state.viewport === viewport) return;
 
-          LAYOUT.calc();
-          onLayout(LAYOUT.VIEWPORT);
           this.setState({ viewport });
           // this.forceUpdate(); @TODO: React fiber
         }}
