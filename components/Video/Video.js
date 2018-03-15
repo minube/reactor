@@ -1,5 +1,5 @@
 import { array, bool, func, number, oneOfType, string } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Platform, View } from 'react-native';
 
 import Activity from '../Activity';
@@ -8,16 +8,18 @@ import styles from './Video.style';
 
 const isWeb = Platform.OS === 'web';
 
-class Video extends PureComponent {
+class Video extends Component {
   constructor(props) {
     super(props);
-    this.state = { embed: embedUrl(this.props.source), ready: false };
+    this.state = { ready: false };
     this._onLoad = this._onLoad.bind(this);
   }
 
-  componentWillReceiveProps({ autoPlay, source }) {
-    if (source !== this.props.source) this.setState({ embed: embedUrl(source) });
-    if (this.el && this.el.play) this.el[autoPlay ? 'play' : 'pause']();
+  shouldComponentUpdate({ autoPlay, source }, { ready }) {
+    const { el = {} } = this;
+
+    if (el.play && el.pause) el[autoPlay ? 'play' : 'pause']();
+    return (source !== this.props.source || ready !== this.state.ready);
   }
 
   _onLoad() {
@@ -33,8 +35,9 @@ class Video extends PureComponent {
       props: {
         autoPlay, controls, source, style, ...inherit
       },
-      state: { embed, ready },
+      state: { ready },
     } = this;
+    const embed = embedUrl(this.props.source);
 
     return (
       <View style={StyleSheet.flatten([styles.container, !ready && styles.loading, style])}>
@@ -43,22 +46,24 @@ class Video extends PureComponent {
         { isWeb && !embed &&
           <video
             {...inherit}
+            ref={el => this.el = el}
             autoPlay={autoPlay}
             controls={controls ? "true" : undefined}
             onLoadedData={_onLoad}
             preload="true"
-            ref={el => this.el = el}
             src={source}
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
           /> }
 
         { isWeb && embed &&
           <iframe
+            allowFullScreen
+            key={embed}
             frameBorder={0}
             onLoad={_onLoad}
             width="100%"
             height="100%"
-            src={`${embed}&autoplay${autoPlay ? '1' : '0'}`}
+            src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
             title={embed}
           /> }
       </View>
