@@ -46,14 +46,16 @@ class Video extends Component {
         { isWeb && !embed &&
           <video
             {...inherit}
-            ref={el => this.el = el}
+            ref={(el) => { this.el = el; }}
             autoPlay={autoPlay}
-            controls={controls ? "true" : undefined}
+            controls={controls ? 'true' : undefined}
             onLoadedData={_onLoad}
             preload="true"
-            src={source}
             style={{ objectFit: 'cover', width: '100%', height: '100%' }}
-          /> }
+          >
+            <source src={source} />
+            <track kind="captions" />
+          </video> }
 
         { isWeb && embed &&
           <iframe
