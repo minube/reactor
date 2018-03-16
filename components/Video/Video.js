@@ -11,8 +11,11 @@ const isWeb = Platform.OS === 'web';
 class Video extends Component {
   constructor(props) {
     super(props);
-    this.state = { ready: false };
     this._onLoad = this._onLoad.bind(this);
+  }
+
+  state = {
+    ready: false,
   }
 
   shouldComponentUpdate({ autoPlay, source }, { ready }) {

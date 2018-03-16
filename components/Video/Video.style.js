@@ -14,7 +14,7 @@ export default StyleSheet.create({
   ]),
 
   loading: {
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BACKGROUND,
   },
 
   activity: {

@@ -6,11 +6,11 @@ import ASSETS from './assets';
 import styles from './Icon.style';
 
 const Icon = ({
-  color, size, style, value,
+  color, size, style, uri, value,
 }) => (
   <Image
     resizeMode="contain"
-    source={ASSETS[value]}
+    source={uri ? { uri } : ASSETS[value]}
     style={StyleSheet.flatten([
       styles.container,
       color && { tintColor: color },
@@ -24,6 +24,7 @@ Icon.propTypes = {
   color: string,
   size: number,
   style: oneOfType([array, number]),
+  uri: string,
   value: string,
 };
 
@@ -31,6 +32,7 @@ Icon.defaultProps = {
   color: undefined,
   size: undefined,
   style: [],
+  uri: undefined,
   value: 'base',
 };
 

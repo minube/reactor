@@ -7,8 +7,11 @@ import styles from './Image.style';
 class Image extends PureComponent {
   constructor(props) {
     super(props);
-    this.state = { ready: false };
     this._onLoad = this._onLoad.bind(this);
+  }
+
+  state = {
+    ready: false,
   }
 
   _onLoad(event) {

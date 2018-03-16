@@ -6,9 +6,8 @@ import Text from '../Text';
 import styles from './Link.style';
 
 class Link extends PureComponent {
-  constructor(props) {
-    super(props);
-    this.state = { hover: false };
+  state = {
+    hover: false,
   }
 
   render() {

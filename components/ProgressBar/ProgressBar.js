@@ -9,29 +9,19 @@ import styles from './ProgressBar.style';
 const { COLOR } = THEME;
 
 class ProgressBar extends PureComponent {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      layoutWidth: 0,
-    };
-    this._onLayout = this._onLayout.bind(this);
-  }
-
-  _onLayout({ nativeEvent: { layout = {} } }) {
-    this.setState({ layoutWidth: layout.width });
+  state = {
+    layoutWidth: 0,
   }
 
   render() {
     const {
-      _onLayout,
       props: { progress = 0, ...inherit },
       state: { layoutWidth = 0 },
     } = this;
 
     return (
       <View
-        onLayout={_onLayout}
+        onLayout={({ nativeEvent: { layout = {} } }) => this.setState({ layoutWidth: layout.width })}
         style={StyleSheet.flatten([
           styles.container,
           { backgroundColor: inherit.trackColor || COLOR.BACKGROUND },
