@@ -18,7 +18,7 @@ class Slider extends PureComponent {
     super(props);
 
     this.state = {
-      itemWidth: LAYOUT.STYLE.CARD.WIDTH,
+      itemWidth: props.itemWidth || LAYOUT.STYLE.CARD.WIDTH,
       layoutHeight: 0,
       x: 0,
     };
@@ -28,8 +28,11 @@ class Slider extends PureComponent {
     this._updateScroll = this._updateScroll.bind(this);
   }
 
-  componentWillReceiveProps() {
-    this.setState({ itemWidth: LAYOUT.STYLE.CARD.WIDTH, x: 0 });
+  componentWillReceiveProps({ itemWidth = this.props.itemWidth }) {
+    this.setState({
+      itemWidth: itemWidth || LAYOUT.STYLE.CARD.WIDTH,
+      x: 0,
+    });
   }
 
   _onScroll({ nativeEvent: { contentOffset: { x } } }) {
@@ -69,10 +72,11 @@ class Slider extends PureComponent {
 
     return (
       <View style={styles.container}>
-        <View style={(title || caption) && styles.header}>
-          { title && <Text bold large style={styles.title}>{title}</Text> }
-          { caption && <Text small style={styles.caption}>{caption}</Text> }
-        </View>
+        { (title || caption) &&
+          <View style={styles.header}>
+            { title && <Text bold large style={styles.title}>{title}</Text> }
+            { caption && <Text small style={styles.caption}>{caption}</Text> }
+          </View> }
         <View>
           { navigation &&
             <Button
@@ -113,6 +117,7 @@ Slider.propTypes = {
   dataSource: arrayOf(shape({})),
   item: func,
   itemMargin: number,
+  itemWidth: number,
   momentum: bool,
   navigation: bool,
   steps: number,
@@ -125,6 +130,7 @@ Slider.defaultProps = {
   dataSource: [],
   item: undefined,
   itemMargin: UNIT,
+  itemWidth: undefined,
   momentum: Platform.OS === 'web',
   navigation: Platform.OS === 'web',
   steps: 1,
