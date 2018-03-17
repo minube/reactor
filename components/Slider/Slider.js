@@ -57,8 +57,6 @@ class Slider extends PureComponent {
   }
 
   _updateScroll(x) {
-    console.log(x);
-
     this.scrollview.scrollTo({ x });
     this.setState({ x });
   }
@@ -69,7 +67,7 @@ class Slider extends PureComponent {
       props: {
         caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, style, title,
       },
-      state: { layoutHeight, x },
+      state: { layoutHeight },
     } = this;
 
     return (
