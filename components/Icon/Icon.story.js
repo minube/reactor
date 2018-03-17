@@ -1,22 +1,27 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { WithNotes } from '@storybook/addon-notes';
-import { color, number, select } from '@storybook/addon-knobs/react';
+import { boolean, color, number, select } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import ResponsiveView from '../ResponsiveView';
 import Icon from './Icon';
 
-storiesOf('🛠 Icon', module)
+storiesOf('✅ Icon', module)
   .addWithJSX('default', () => (
     <Icon />
   ))
   .addWithJSX('value', () => (
     <Icon value="menu" />
   ))
-  .addWithJSX('🔴 color', () => (
-    <WithNotes notes="Color is only supported in iOS environments">
-      <Icon value="menu" color={THEME.COLOR.TEXT_LIGHTEN} />
+  .addWithJSX('color (only Native)', () => (
+    <WithNotes notes="Color is only supported in Native environments">
+      <Icon value="menu" color={THEME.COLOR.ERROR} />
+    </WithNotes>
+  ))
+  .addWithJSX('invert (only Web)', () => (
+    <WithNotes notes="invert is only supported in web environments">
+      <Icon value="menu" invert />
     </WithNotes>
   ))
   .addWithJSX('size', () => (
@@ -30,7 +35,8 @@ storiesOf('🛠 Icon', module)
       <Icon
         size={number('size', THEME.FONT.SIZE.LARGE)}
         color={color('color', THEME.COLOR.TEXT)}
-        value={select('value', ['search', 'menu'], 'search')}
+        invert={boolean('invert', false)}
+        value={select('value', ['base', 'left', 'menu', 'options', 'right', 'search'], 'search')}
       />
     </ResponsiveView>
   ));

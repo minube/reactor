@@ -1,4 +1,4 @@
-import { array, number, oneOfType, string } from 'prop-types';
+import { array, bool, number, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Image } from 'react-native';
 
@@ -6,7 +6,7 @@ import ASSETS from './assets';
 import styles from './Icon.style';
 
 const Icon = ({
-  color, size, style, uri, value,
+  color, invert, size, style, uri, value,
 }) => (
   <Image
     resizeMode="contain"
@@ -14,6 +14,7 @@ const Icon = ({
     style={StyleSheet.flatten([
       styles.container,
       color && { tintColor: color },
+      invert && { filter: 'invert(100%)' },
       size && { width: size, height: size },
       style,
     ])}
@@ -22,6 +23,7 @@ const Icon = ({
 
 Icon.propTypes = {
   color: string,
+  invert: bool,
   size: number,
   style: oneOfType([array, number]),
   uri: string,
@@ -30,6 +32,7 @@ Icon.propTypes = {
 
 Icon.defaultProps = {
   color: undefined,
+  invert: false,
   size: undefined,
   style: [],
   uri: undefined,
