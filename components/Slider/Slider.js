@@ -84,16 +84,16 @@ class Slider extends PureComponent {
         { navigation &&
           <View style={StyleSheet.flatten([styles.navigation, { top: layoutHeight / 2 }])}>
             <Button
+              icon="left"
               onPress={_onButton}
               small
               style={StyleSheet.flatten([styles.button, styles.previous])}
-              title="<"
             />
             <Button
+              icon="right"
               onPress={() => _onButton(NEXT)}
               small
               style={StyleSheet.flatten([styles.button, styles.next])}
-              title=">"
             />
           </View> }
 
