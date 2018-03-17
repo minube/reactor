@@ -12,7 +12,7 @@ const VIDEO_STYLE = {
   height: 400,
 };
 
-storiesOf('✅ Video', module)
+storiesOf('🚨 Video (only web)', module)
   .addWithJSX('default', () => (
     <Video />
   ))
