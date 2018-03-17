@@ -14,10 +14,10 @@ storiesOf('✅ Button', module)
     <Button title="Press me" />
   ))
   .addWithJSX('floating', () => (
-    <Button icon="base" />
+    <Button icon="search" />
   ))
   .addWithJSX('icon', () => (
-    <Button icon="base" title="Press me" />
+    <Button icon="search" title="Press me" />
   ))
   .addWithJSX('flat', () => (
     <Button flat title="Press me" />

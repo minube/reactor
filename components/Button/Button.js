@@ -30,7 +30,7 @@ const Button = ({
         accent && styles.accent,
         small && styles.small,
         !small && responsive && { ...LAYOUT.STYLE.BUTTON.CONTAINER },
-        !title && icon && styles.floating,
+        !title && !small && icon && styles.floating,
         rounded && styles.rounded,
         disabled && styles.disabled,
         style,
@@ -38,7 +38,7 @@ const Button = ({
     >
       { activity && <Activity color={flat ? TEXT_LIGHTEN : WHITE} style={title && styles.activity} type="small" /> }
       { !activity && icon &&
-        <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
+        <Icon invert value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
         <Text
           bold

@@ -21,6 +21,7 @@ export default StyleSheet.create({
       height: BUTTON.HEIGHT,
       paddingHorizontal: UNIT * 3,
       borderRadius: BORDER_RADIUS,
+      width: 'fit-content',
     },
   ]),
 
@@ -60,7 +61,7 @@ export default StyleSheet.create({
 
   small: {
     height: BUTTON.SMALL_HEIGHT,
-    paddingHorizontal: BUTTON.SMALL_HEIGHT / 2,
+    paddingHorizontal: BUTTON.SMALL_HEIGHT / 3,
   },
 
   text: {
