@@ -57,6 +57,8 @@ class Slider extends PureComponent {
   }
 
   _updateScroll(x) {
+    console.log(x);
+
     this.scrollview.scrollTo({ x });
     this.setState({ x });
   }
@@ -67,46 +69,47 @@ class Slider extends PureComponent {
       props: {
         caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, style, title,
       },
-      state: { layoutHeight },
+      state: { layoutHeight, x },
     } = this;
 
     return (
       <View style={styles.container}>
+
         { (title || caption) &&
           <View style={styles.header}>
             { title && <Text bold large style={styles.title}>{title}</Text> }
             { caption && <Text small style={styles.caption}>{caption}</Text> }
           </View> }
-        <View>
-          { navigation &&
+
+        { navigation &&
+          <View style={StyleSheet.flatten([styles.navigation, { top: layoutHeight / 2 }])}>
             <Button
               onPress={_onButton}
               small
-              style={StyleSheet.flatten([styles.button, styles.previous, { top: layoutHeight / 2 }])}
+              style={StyleSheet.flatten([styles.button, styles.previous])}
               title="<"
-            /> }
-          { navigation &&
+            />
             <Button
               onPress={() => _onButton(NEXT)}
               small
-              style={StyleSheet.flatten([styles.button, styles.next, { top: layoutHeight / 2 }])}
+              style={StyleSheet.flatten([styles.button, styles.next])}
               title=">"
-            /> }
-          <ScrollView
-            contentContainerStyle={StyleSheet.flatten(style)}
-            horizontal
-            onLayout={_onLayout}
-            onScroll={momentum ? _onScroll : undefined}
-            ref={(scrollview) => {
-              this.scrollview = scrollview;
-            }}
-            scrollEventThrottle={MOMENTUM_INTERVAL}
-            style={styles.slider}
-          >
-            { dataSource.map((data, index) =>
-              <View key={index} style={{ marginRight }}><Item data={data} /></View>)}
-          </ScrollView>
-        </View>
+            />
+          </View> }
+
+        <ScrollView
+          contentContainerStyle={StyleSheet.flatten(style)}
+          horizontal
+          onLayout={_onLayout}
+          onScroll={momentum ? _onScroll : undefined}
+          ref={(scrollview) => {
+            this.scrollview = scrollview;
+          }}
+          scrollEventThrottle={MOMENTUM_INTERVAL}
+        >
+          { dataSource.map((data, index) =>
+            <View key={index} style={{ marginRight }}><Item data={data} /></View>)}
+        </ScrollView>
       </View>
     );
   }
