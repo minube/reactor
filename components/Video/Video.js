@@ -43,7 +43,10 @@ class Video extends Component {
     const embed = embedUrl(this.props.source);
 
     return (
-      <View style={StyleSheet.flatten([styles.container, !ready && styles.loading, style])}>
+      <View
+        pointerEvents={!controls && autoPlay ? 'none' : undefined}
+        style={StyleSheet.flatten([styles.container, !ready && styles.loading, style])}
+      >
         { !ready && <Activity size="large" style={styles.activity} /> }
 
         { isWeb && !embed &&
