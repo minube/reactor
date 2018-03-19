@@ -25,7 +25,7 @@ Icon.propTypes = {
   color: string,
   invert: bool,
   size: number,
-  style: oneOfType([array, object, number]),
+  style: oneOfType([array, number, object]),
   value: string,
 };
 

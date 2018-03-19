@@ -28,7 +28,7 @@ const Price = ({
 
 Price.propTypes = {
   fixed: number,
-  style: oneOfType([array, object, number]),
+  style: oneOfType([array, number, object]),
   symbol: string,
   value: number,
 };

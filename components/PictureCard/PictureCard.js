@@ -64,7 +64,7 @@ PictureCard.propTypes = {
   onPress: func,
   portrait: bool,
   small: bool,
-  style: oneOfType([array, object, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 

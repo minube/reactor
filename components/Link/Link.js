@@ -33,8 +33,8 @@ class Link extends PureComponent {
 }
 
 Link.propTypes = {
-  style: oneOfType([array, object, number]),
-  styleHover: oneOfType([array, object, number]),
+  style: oneOfType([array, number, object]),
+  styleHover: oneOfType([array, number, object]),
 };
 
 Link.defaultProps = {
