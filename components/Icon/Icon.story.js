@@ -14,18 +14,21 @@ storiesOf('✅ Icon', module)
   .addWithJSX('value', () => (
     <Icon value="menu" />
   ))
+  .addWithJSX('value (as uri)', () => (
+    <Icon value="https://api.adorable.io/avatars/48/8" />
+  ))
   .addWithJSX('color (only Native)', () => (
     <WithNotes notes="Color is only supported in Native environments">
-      <Icon value="menu" color={THEME.COLOR.ERROR} />
+      <Icon color={THEME.COLOR.ERROR} />
     </WithNotes>
   ))
   .addWithJSX('invert (only Web)', () => (
     <WithNotes notes="invert is only supported in web environments">
-      <Icon value="menu" invert />
+      <Icon invert />
     </WithNotes>
   ))
   .addWithJSX('size', () => (
-    <Icon value="menu" size={48} />
+    <Icon size={48} />
   ))
   .addWithJSX('style', () => (
     <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} />
@@ -36,7 +39,7 @@ storiesOf('✅ Icon', module)
         size={number('size', THEME.FONT.SIZE.LARGE)}
         color={color('color', THEME.COLOR.TEXT)}
         invert={boolean('invert', false)}
-        value={select('value', ['base', 'left', 'menu', 'options', 'right', 'search'], 'search')}
+        value={select('value', ['base', 'apps', 'left', 'options', 'right'], 'base')}
       />
     </ResponsiveView>
   ));

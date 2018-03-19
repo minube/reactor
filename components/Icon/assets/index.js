@@ -1,15 +1,13 @@
 import base from './base.png';
 import left from './left.png';
-import menu from './menu.png';
+import apps from './apps.png';
 import options from './options.png';
 import right from './right.png';
-import search from './search.png';
 
 export default {
   base,
   left,
-  menu,
+  apps,
   options,
   right,
-  search,
 };

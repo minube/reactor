@@ -38,7 +38,7 @@ const Button = ({
     >
       { activity && <Activity color={flat ? TEXT_LIGHTEN : WHITE} style={title && styles.activity} type="small" /> }
       { !activity && icon &&
-        <Icon invert value={icon} style={title ? styles.icon : styles.iconFloating} />}
+        <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
         <Text
           bold
