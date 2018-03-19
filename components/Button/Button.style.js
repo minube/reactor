@@ -9,7 +9,6 @@ const {
 export default StyleSheet.create({
 
   touchable: {
-    alignSelf: 'center',
     margin: UNIT / 2,
     borderRadius: BORDER_RADIUS,
   },
