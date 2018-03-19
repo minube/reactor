@@ -1,4 +1,4 @@
-import { array, bool, func, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -68,7 +68,7 @@ Button.propTypes = {
   responsive: bool,
   rounded: bool,
   small: bool,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 

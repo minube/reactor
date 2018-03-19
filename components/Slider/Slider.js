@@ -1,4 +1,4 @@
-import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
+import { array, arrayOf, bool, func, number, object, oneOfType, shape, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Platform, ScrollView, StyleSheet, View } from 'react-native';
 
@@ -11,7 +11,7 @@ const { UNIT } = THEME;
 
 const NEXT = 'next';
 let timeout;
-const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 0 : 16;
+const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 40 : 16;
 
 class Slider extends PureComponent {
   constructor(props) {
@@ -112,7 +112,7 @@ Slider.propTypes = {
   momentum: bool,
   navigation: bool,
   steps: number,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 

@@ -9,14 +9,17 @@ import Text from '../Text';
 
 storiesOf('🛠 Dialog', module)
   .addWithJSX('default', () => (
-    <Dialog onClose={action('Button.onClose()')} title="Title" visible />
+    <Dialog onClose={action('Dialog.onClose()')} title="Title" visible />
+  ))
+  .addWithJSX('⚡ onSubmit', () => (
+    <Dialog onSubmit={action('Dialog.onSubmit()')} title="Title" visible />
   ))
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>
       <Dialog
         title={text('title', 'Title')}
         onClose={action('Dialog.onClose()')}
-        onSubmit={boolean('onSubmit', true)}
+        onSubmit={action('Dialog.onSubmit()')}
         visible={boolean('visible', true)}
       >
         <Text>Example of children</Text>

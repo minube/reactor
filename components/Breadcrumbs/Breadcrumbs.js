@@ -1,6 +1,6 @@
-import { array, arrayOf, func, number, oneOfType, shape, string } from 'prop-types';
+import { array, arrayOf, func, number, object, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
 import { THEME } from '../../common';
 import Link from '../Link';
@@ -20,8 +20,8 @@ const Breadcrumbs = ({
           onPress(index);
           return false;
         }}
-        style={StyleSheet.flatten([styles.link, { color }, style])}
-        tiny
+        style={[styles.link, { color }, style]}
+        small
       >
         {`${caption}${index < dataSource.length - 1 ? ' ·' : ''}`}
       </Link>
@@ -33,7 +33,7 @@ Breadcrumbs.propTypes = {
   color: string,
   dataSource: arrayOf(shape({})),
   onPress: func,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
 };
 
 Breadcrumbs.defaultProps = {

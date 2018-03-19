@@ -1,4 +1,4 @@
-import { array, bool, func, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, number, object, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
 import { StyleSheet, Platform, View } from 'react-native';
 
@@ -84,7 +84,7 @@ Video.propTypes = {
   controls: bool,
   onLoad: func,
   source: string.isRequired,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
 };
 
 Video.defaultProps = {

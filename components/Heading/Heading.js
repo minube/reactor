@@ -1,4 +1,4 @@
-import { array, arrayOf, bool, func, number, oneOfType, shape, string } from 'prop-types';
+import { array, arrayOf, bool, func, number, object, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -54,7 +54,7 @@ Heading.propTypes = {
   contributors: shape({}),
   onBreadcrumb: func,
   rating: shape(SHAPE.RATING),
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 

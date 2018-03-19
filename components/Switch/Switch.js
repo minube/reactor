@@ -1,4 +1,4 @@
-import { array, number, oneOfType, string } from 'prop-types';
+import { array, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Switch, Text, View } from 'react-native';
 
@@ -21,7 +21,7 @@ const SwitchInput = ({ label, style, ...inherit }) => (
 
 SwitchInput.propTypes = {
   label: string,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
 };
 
 SwitchInput.defaultProps = {

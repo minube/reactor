@@ -1,4 +1,4 @@
-import { array, bool, node, oneOfType, string, number } from 'prop-types';
+import { array, bool, node, object, oneOfType, string, number } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native';
 
@@ -62,7 +62,7 @@ Motion.propTypes = {
   delay: number,
   duration: number,
   property: string,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   type: string,
   useNativeDriver: bool,
   value: number,

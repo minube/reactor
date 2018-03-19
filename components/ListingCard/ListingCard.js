@@ -1,4 +1,4 @@
-import { array, bool, func, node, number, oneOfType, shape, string } from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 
@@ -33,7 +33,7 @@ ListingCard.propTypes = {
   image: string,
   onPress: func,
   rating: shape(SHAPE.RATING),
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 

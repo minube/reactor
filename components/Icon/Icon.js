@@ -1,4 +1,4 @@
-import { array, bool, number, oneOfType, string } from 'prop-types';
+import { array, bool, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Image } from 'react-native';
 
@@ -25,7 +25,7 @@ Icon.propTypes = {
   color: string,
   invert: bool,
   size: number,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, object, number]),
   value: string,
 };
 

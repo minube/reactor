@@ -1,4 +1,4 @@
-import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -64,7 +64,7 @@ PictureCard.propTypes = {
   onPress: func,
   portrait: bool,
   small: bool,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, object, number]),
   title: string,
 };
 

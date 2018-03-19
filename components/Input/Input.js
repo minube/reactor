@@ -1,4 +1,4 @@
-import { array, bool, func, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, number, object, oneOfType, string } from 'prop-types';
 import React, { Component } from 'react';
 import { StyleSheet, TextInput, View } from 'react-native';
 
@@ -57,7 +57,7 @@ Input.propTypes = {
   label: string,
   onBlur: func,
   onFocus: func,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, object, number]),
 };
 
 Input.defaultProps = {

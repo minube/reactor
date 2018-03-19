@@ -1,4 +1,4 @@
-import { array, number, oneOfType, string } from 'prop-types';
+import { array, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -28,7 +28,7 @@ const Price = ({
 
 Price.propTypes = {
   fixed: number,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, object, number]),
   symbol: string,
   value: number,
 };

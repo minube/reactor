@@ -1,4 +1,4 @@
-import { array, number, oneOfType } from 'prop-types';
+import { array, number, object, oneOfType } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { StyleSheet } from 'react-native';
 
@@ -33,8 +33,8 @@ class Link extends PureComponent {
 }
 
 Link.propTypes = {
-  style: oneOfType([array, number]),
-  styleHover: oneOfType([array, number]),
+  style: oneOfType([array, object, number]),
+  styleHover: oneOfType([array, object, number]),
 };
 
 Link.defaultProps = {

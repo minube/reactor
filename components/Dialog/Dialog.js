@@ -1,4 +1,4 @@
-import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native';
 
@@ -71,7 +71,7 @@ Dialog.propTypes = {
   children: node,
   onClose: func,
   onSubmit: func,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
   visible: bool,
 };
