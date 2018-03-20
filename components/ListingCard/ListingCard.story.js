@@ -11,7 +11,7 @@ import Text from '../Text';
 import ResponsiveView from '../ResponsiveView';
 import ListingCard from './ListingCard';
 
-const { COLOR: { TEXT }, FONT, UNIT } = THEME;
+const { UNIT } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 const RATING = { showValue: false, count: 12, value: 4.5 };
 

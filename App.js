@@ -20,7 +20,7 @@ const dataSource = [...Array(16).keys()]
   .map(index => ({
     category: `Category ${index}`,
     title: `Title ${index}`,
-    rating: index,
+    rating: { value: index + 1 },
     image: `https://picsum.photos/320/200?image=1${index + 1}`,
   }));
 
