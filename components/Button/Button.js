@@ -41,7 +41,7 @@ const Button = ({
         <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
         <Text
-          bold
+          semibold
           color={flat && color ? color : undefined}
           style={StyleSheet.flatten([
             styles.text,

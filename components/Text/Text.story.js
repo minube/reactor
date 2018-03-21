@@ -22,6 +22,12 @@ storiesOf('✅ Text', module)
   .addWithJSX('title', () => (
     <Text title>Hello World</Text>
   ))
+  .addWithJSX('lighter', () => (
+    <Text lighter>Hello World</Text>
+  ))
+  .addWithJSX('semibold', () => (
+    <Text semibold>Hello World</Text>
+  ))
   .addWithJSX('bold', () => (
     <Text bold>Hello World</Text>
   ))
@@ -43,6 +49,8 @@ storiesOf('✅ Text', module)
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>
       <Text
+        lighter={boolean('lighter', false)}
+        semibold={boolean('semibold', false)}
         bold={boolean('bold', false)}
         color={color('color', THEME.COLOR.TEXT)}
         small={boolean('small', false)}

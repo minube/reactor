@@ -59,8 +59,9 @@ export default {
       LARGE: UNIT * 2,
     },
     WEIGHT: {
-      LIGHT: '300',
+      LIGHTER: '300',
       REGULAR: 'normal',
+      SEMIBOLD: '600',
       BOLD: 'bold',
     },
   },

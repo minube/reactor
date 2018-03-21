@@ -6,13 +6,15 @@ import { LAYOUT } from '../../common';
 import styles from './Text.style';
 
 const Text = ({
-  accent, bold, color, large, lighten, primary, small, tiny, title, ...inherit
+  accent, bold, color, large, lighten, lighter, primary, semibold, small, tiny, title, ...inherit
 }) => (
   <NativeText
     {...inherit}
     style={StyleSheet.flatten([
       styles.container,
 
+      lighter && styles.lighter,
+      semibold && styles.semibold,
       bold && styles.bold,
       tiny && { ...LAYOUT.STYLE.TEXT.TINY },
       small && { ...LAYOUT.STYLE.TEXT.SMALL },
@@ -34,7 +36,9 @@ Text.propTypes = {
   color: string,
   large: bool,
   lighten: bool,
+  lighter: bool,
   primary: bool,
+  semibold: bool,
   small: bool,
   tiny: bool,
   title: bool,
@@ -46,7 +50,9 @@ Text.defaultProps = {
   color: undefined,
   large: false,
   lighten: false,
+  lighter: false,
   primary: false,
+  semibold: false,
   small: false,
   tiny: false,
   title: false,

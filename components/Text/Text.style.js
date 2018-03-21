@@ -11,6 +11,14 @@ export default StyleSheet.create({
     color: COLOR.ACCENT,
   },
 
+  lighter: {
+    fontWeight: FONT.WEIGHT.LIGHTER,
+  },
+
+  semibold: {
+    fontWeight: FONT.WEIGHT.SEMIBOLD,
+  },
+
   bold: {
     fontWeight: FONT.WEIGHT.BOLD,
   },
