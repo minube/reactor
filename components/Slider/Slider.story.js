@@ -18,7 +18,7 @@ const dataSource = [...Array(16).keys()]
 const ItemListingCard = ({ data }) => <ListingCard {...data} />;
 const ItemPictureCard = ({ data }) => <PictureCard square {...data} />;
 
-storiesOf('🛠 Slider', module)
+storiesOf('✅ Slider', module)
   .addWithJSX('default', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} />
   ))
@@ -53,7 +53,7 @@ storiesOf('🛠 Slider', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <ResponsiveView style={{ maxWidth: 1024 }}>
       <Slider
         caption={text('caption', 'Muy del estilo de Chiang Mai')}
         dataSource={dataSource}

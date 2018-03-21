@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BUTTON_SMALL_HEIGHT, COLOR, UNIT, OFFSET,
+  BUTTON, COLOR, UNIT, OFFSET,
 } = THEME;
 
 export default StyleSheet.create({
@@ -26,17 +26,12 @@ export default StyleSheet.create({
       height: 0,
       justifyContent: 'space-between',
       left: 0,
-      marginTop: -(BUTTON_SMALL_HEIGHT / 2),
       overflow: 'visible',
       position: 'absolute',
       width: Platform.OS === 'web' ? '100%' : '50%',
       zIndex: 1,
     },
   ]),
-
-  slider: {
-    zIndex: -1,
-  },
 
   header: {
     marginBottom: UNIT,

@@ -16,7 +16,7 @@ const Button = ({
     onPress={!disabled ? onPress : undefined}
     style={StyleSheet.flatten([
       styles.touchable,
-      !title && icon && styles.floating,
+      !title && !small && icon && styles.floating,
       rounded && styles.rounded,
     ])}
   >

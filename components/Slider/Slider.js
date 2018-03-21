@@ -7,7 +7,7 @@ import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
 
-const { UNIT } = THEME;
+const { BUTTON, UNIT } = THEME;
 
 const NEXT = 'next';
 let timeout;
@@ -80,7 +80,7 @@ class Slider extends PureComponent {
           </View> }
 
         { navigation &&
-          <View style={StyleSheet.flatten([styles.navigation, { top: layoutHeight / 2 }])}>
+          <View style={StyleSheet.flatten([styles.navigation, { bottom: (layoutHeight + BUTTON.SMALL_HEIGHT) / 2 }])}>
             <Button icon="left" onPress={_onButton} small style={[styles.button, styles.previous]} />
             <Button icon="right" onPress={() => _onButton(NEXT)} small style={[styles.button, styles.next]} />
           </View> }
