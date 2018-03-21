@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BUTTON, COLOR, UNIT, OFFSET,
+  COLOR, UNIT, OFFSET,
 } = THEME;
 
 export default StyleSheet.create({
