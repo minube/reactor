@@ -12,8 +12,8 @@ const Button = ({
   accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
 }) => (
   <Touchable
-    disabled={disabled}
-    onPress={!disabled ? onPress : undefined}
+    disabled={disabled || !onPress}
+    onPress={onPress}
     style={StyleSheet.flatten([
       styles.touchable,
       !title && !small && icon && styles.floating,
