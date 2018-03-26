@@ -3,7 +3,7 @@ import { Dimensions, Platform } from 'react-native';
 import THEME from './theme';
 
 const { BUTTON, FONT, UNIT } = THEME;
-const screenSizes = (height, width) => ({
+const screenSizes = width => ({
   TINY: width < 360,
   PHONE: width >= 360 && width < 376,
   TABLET: width >= 376 && width < 510,
@@ -12,10 +12,10 @@ const screenSizes = (height, width) => ({
   LARGE: width >= 1024,
 });
 
-const calc = ({ height, width }) => {
+const calc = ({ width }) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
-  } = screenSizes(height, width);
+  } = screenSizes(width);
 
   return {
     BUTTON: {
@@ -114,7 +114,7 @@ class Layout {
       LANDSCAPE: this._width > this._height,
       IPHONEX: PORTRAIT && H === 812 && Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS,
 
-      ...screenSizes(this._height, this._width),
+      ...screenSizes(this._width),
     };
   }
 
