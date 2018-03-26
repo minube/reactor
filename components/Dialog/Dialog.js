@@ -20,7 +20,6 @@ class Dialog extends PureComponent {
       bottom: new Animated.Value(props.visible ? 0 : -height),
       scroll: false,
     };
-    this._onScroll = this._onScroll.bind(this);
   }
 
   componentWillReceiveProps({ visible }) {
@@ -33,7 +32,7 @@ class Dialog extends PureComponent {
     ]).start();
   }
 
-  _onScroll() {
+  _onScroll = () => {
     this.setState({ scroll: true });
   }
 

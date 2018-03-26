@@ -9,11 +9,6 @@ import styles from './Video.style';
 const isWeb = Platform.OS === 'web';
 
 class Video extends Component {
-  constructor(props) {
-    super(props);
-    this._onLoad = this._onLoad.bind(this);
-  }
-
   state = {
     ready: false,
   }
@@ -25,7 +20,7 @@ class Video extends Component {
     return (source !== this.props.source || ready !== this.state.ready);
   }
 
-  _onLoad() {
+  _onLoad = () => {
     const { props: { onLoad } } = this;
 
     this.setState({ ready: true });

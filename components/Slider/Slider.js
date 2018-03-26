@@ -22,10 +22,6 @@ class Slider extends PureComponent {
       layoutHeight: 0,
       x: 0,
     };
-    this._onButton = this._onButton.bind(this);
-    this._onLayout = this._onLayout.bind(this);
-    this._onScroll = this._onScroll.bind(this);
-    this._updateScroll = this._updateScroll.bind(this);
   }
 
   componentWillReceiveProps({ itemWidth = this.props.itemWidth }) {
@@ -35,7 +31,7 @@ class Slider extends PureComponent {
     });
   }
 
-  _onScroll({ nativeEvent: { contentOffset: { x } } }) {
+  _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
     const { _updateScroll, props: { itemMargin }, state: { itemWidth } } = this;
     const width = (itemWidth + itemMargin);
 
@@ -45,18 +41,18 @@ class Slider extends PureComponent {
     }
   }
 
-  _onButton(type) {
+  _onButton = (type) => {
     const { _updateScroll, props: { itemMargin, steps }, state: { itemWidth, x } } = this;
     const width = (itemWidth + itemMargin) * steps;
 
     _updateScroll(type === NEXT ? x + width : x - width);
   }
 
-  _onLayout({ nativeEvent }) {
+  _onLayout = ({ nativeEvent }) => {
     this.setState({ layoutHeight: nativeEvent.layout.height });
   }
 
-  _updateScroll(x) {
+  _updateScroll = (x) => {
     this.scrollview.scrollTo({ x });
     this.setState({ x });
   }

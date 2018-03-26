@@ -5,16 +5,11 @@ import Activity from '../Activity';
 import styles from './Image.style';
 
 class Image extends PureComponent {
-  constructor(props) {
-    super(props);
-    this._onLoad = this._onLoad.bind(this);
-  }
-
   state = {
     ready: false,
   }
 
-  _onLoad(event) {
+  _onLoad = (event) => {
     const { props: { ...inherit } } = this;
 
     this.setState({ ready: true });
