@@ -8,10 +8,9 @@ import ResponsiveView from '../ResponsiveView';
 import Breadcrumbs from './Breadcrumbs';
 
 const dataSource = [
-  { caption: 'Turismo', href: '/' },
-  { caption: 'Gran Bretaña', href: '/' },
-  { caption: 'Inglaterra', href: '/' },
-  { caption: 'Londres', href: '/' },
+  { caption: 'Spain', href: '/' },
+  { caption: 'Basque Country', href: '/' },
+  { caption: 'Bilbao', href: '/' },
 ];
 
 storiesOf('✅ Breadcrumbs', module)

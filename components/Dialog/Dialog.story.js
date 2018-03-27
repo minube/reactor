@@ -9,10 +9,16 @@ import Text from '../Text';
 
 storiesOf('🛠 Dialog', module)
   .addWithJSX('default', () => (
-    <Dialog onClose={action('Dialog.onClose()')} title="Title" visible />
+    <Dialog onClose={action('Dialog.onClose()')} visible />
+  ))
+  .addWithJSX('title', () => (
+    <Dialog title="Hello world" visible />
+  ))
+  .addWithJSX('⚡ onClose', () => (
+    <Dialog onClose={action('Dialog.onClose()')} visible />
   ))
   .addWithJSX('⚡ onSubmit', () => (
-    <Dialog onSubmit={action('Dialog.onSubmit()')} title="Title" visible />
+    <Dialog onSubmit={action('Dialog.onSubmit()')} visible />
   ))
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>

@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.4.25",
+  "version": "0.4.26",
   "private": true,
   "contributors": [
     {
@@ -29,6 +29,7 @@
     "babel-core": "6.26.0",
     "babel-eslint": "8.2.1",
     "babel-plugin-react-native-web": "0.4.0",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.19.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.9.0",
@@ -58,7 +59,7 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "native": "react-native-scripts start",
-    "test": "jest --watch",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "test": "jest",
+    "start": "start-storybook -p 9001 -c .storybook"
   }
 }

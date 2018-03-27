@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Activity> renders 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#dbdbdb"
+  hidesWhenStopped={true}
+  size="small"
+/>
+`;
+
+exports[`<Activity> when {color} 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#f00"
+  hidesWhenStopped={true}
+  size="small"
+/>
+`;
+
+exports[`<Activity> when {size} 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="#dbdbdb"
+  hidesWhenStopped={true}
+  size="large"
+/>
+`;

@@ -13,10 +13,10 @@ storiesOf('✅ Button', module)
   .addWithJSX('title', () => (
     <Button title="Press me" />
   ))
-  .addWithJSX('floating', () => (
+  .addWithJSX('icon', () => (
     <Button icon="apps" />
   ))
-  .addWithJSX('icon', () => (
+  .addWithJSX('icon & title', () => (
     <Button icon="apps" title="Press me" />
   ))
   .addWithJSX('flat', () => (
@@ -28,23 +28,23 @@ storiesOf('✅ Button', module)
   .addWithJSX('accent', () => (
     <Button accent title="Press me" />
   ))
+  .addWithJSX('activity', () => (
+    <Button activity title="Press me" />
+  ))
   .addWithJSX('color', () => (
     <Button color="red" title="Press me" />
+  ))
+  .addWithJSX('disabled', () => (
+    <Button disabled title="Press me" />
+  ))
+  .addWithJSX('responsive', () => (
+    <Button responsive title="Press me" />
   ))
   .addWithJSX('rounded', () => (
     <Button rounded title="Press me" />
   ))
   .addWithJSX('small', () => (
     <Button small title="Press me" />
-  ))
-  .addWithJSX('disabled', () => (
-    <Button disabled title="Press me" />
-  ))
-  .addWithJSX('activity', () => (
-    <Button activity title="Press me" />
-  ))
-  .addWithJSX('responsive', () => (
-    <Button responsive title="Press me" />
   ))
   .addWithJSX('⚡ onPress', () => (
     <Button onPress={action('Button.onPress()')} title="Press me" />
