@@ -34,10 +34,10 @@
     "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "jest-expo": "25.0.0",
+    "jest": "20.0.4",
     "react-native-scripts": "1.11.1",
     "react-native-test-utils": "1.1.1",
-    "react-scripts": "1.0.17",
+    "react-scripts": "1.1.1",
     "react-test-renderer": "16.2.0",
     "storybook-addon-jsx": "^5.3.0"
   },
@@ -51,12 +51,14 @@
     "react-native-web": "0.4.0"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "react-native",
+    "silent": true,
+    "testEnvironment": "jsdom"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "native": "react-native-scripts start",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest --watch",
     "storybook": "start-storybook -p 9001 -c .storybook"
   }
 }

@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Storybook from './Storybook';
+import Activity from './Activity';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<Storybook />, div);
+describe('<Activity>', () => {
+  let div;
+
+  beforeEach(() => {
+    div = document.createElement('div');
+  });
+
+  test('renders', () => {
+    ReactDOM.render(<Activity />, div);
+    ReactDOM.unmountComponentAtNode(div);
+  });
 });
+
