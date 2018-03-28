@@ -26,10 +26,10 @@ storiesOf('✅ Rating', module)
     <Rating value={4} color={THEME.COLOR.ACCENT} />
   ))
   .addWithJSX('textColor', () => (
-    <Rating count={32} value={4} color={THEME.COLOR.ACCENT} textColor={THEME.COLOR.PRIMARY}  />
+    <Rating count={32} value={4} color={THEME.COLOR.ACCENT} textColor={THEME.COLOR.PRIMARY} />
   ))
   .addWithJSX('style', () => (
-    <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }}/>
+    <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>

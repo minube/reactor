@@ -55,7 +55,7 @@ Heading.propTypes = {
   onBreadcrumb: func,
   rating: shape(SHAPE.RATING),
   style: oneOfType([array, number, object]),
-  title: string,
+  title: string.isRequired,
 };
 
 Heading.defaultProps = {

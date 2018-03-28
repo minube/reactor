@@ -1,0 +1,1075 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading> renders 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Heading> when {breadcrumbs} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessibilityRole="link"
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        href="/"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "lineHeight": 14.84,
+            "marginRight": 4.444444444444445,
+          }
+        }
+      >
+        Turismo ·
+      </Text>
+      <Text
+        accessibilityRole="link"
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        href="/"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "lineHeight": 14.84,
+            "marginRight": 4.444444444444445,
+          }
+        }
+      >
+        Gran Bretaña ·
+      </Text>
+      <Text
+        accessibilityRole="link"
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        href="/"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "lineHeight": 14.84,
+            "marginRight": 4.444444444444445,
+          }
+        }
+      >
+        Inglaterra ·
+      </Text>
+      <Text
+        accessibilityRole="link"
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        href="/"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onPress={[Function]}
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "lineHeight": 14.84,
+            "marginRight": 4.444444444444445,
+          }
+        }
+      >
+        Londres
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<Heading> when {color} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#f69a37",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Heading> when {column} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={Object {}}
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ☆
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+         4.5/5
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+         (12 valoraciones)
+      </Text>
+    </View>
+  </View>
+  <View
+    style={Object {}}
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "minHeight": undefined,
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+        128
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+         colaborators
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 5,
+            "width": NaN,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f4f4f4",
+              "borderRadius": NaN,
+              "height": undefined,
+              "justifyContent": "center",
+              "width": undefined,
+            }
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            size="small"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/48/8",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": NaN,
+                "height": undefined,
+                "width": undefined,
+              }
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="small"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f4f4f4",
+              "borderRadius": NaN,
+              "height": undefined,
+              "justifyContent": "center",
+              "width": undefined,
+            }
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            size="small"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/48/16",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": NaN,
+                "height": undefined,
+                "width": undefined,
+              }
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="small"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f4f4f4",
+              "borderRadius": NaN,
+              "height": undefined,
+              "justifyContent": "center",
+              "width": undefined,
+            }
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            size="small"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/48/32",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": NaN,
+                "height": undefined,
+                "width": undefined,
+              }
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="small"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<Heading> when {contributors} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-end",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+        128
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+         colaborators
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingLeft": 5,
+            "width": NaN,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f4f4f4",
+              "borderRadius": NaN,
+              "height": undefined,
+              "justifyContent": "center",
+              "width": undefined,
+            }
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            size="small"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/48/8",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": NaN,
+                "height": undefined,
+                "width": undefined,
+              }
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="small"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f4f4f4",
+              "borderRadius": NaN,
+              "height": undefined,
+              "justifyContent": "center",
+              "width": undefined,
+            }
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            size="small"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/48/16",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": NaN,
+                "height": undefined,
+                "width": undefined,
+              }
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="small"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "backgroundColor": "#f4f4f4",
+              "borderRadius": NaN,
+              "height": undefined,
+              "justifyContent": "center",
+              "width": undefined,
+            }
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            size="small"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/48/32",
+              }
+            }
+            style={
+              Object {
+                "borderRadius": NaN,
+                "height": undefined,
+                "width": undefined,
+              }
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="small"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<Heading> when {rating} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ★
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#10c0bc",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "lineHeight": 16,
+            "marginRight": 2.5,
+          }
+        }
+      >
+        ☆
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "fontWeight": "bold",
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+         4.5/5
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#9b9b9b",
+            "fontFamily": undefined,
+            "fontSize": 12,
+            "lineHeight": 13.200000000000001,
+          }
+        }
+      >
+         (12 valoraciones)
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Heading> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.25)",
+      "padding": 16,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Heading> when {title} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "lineHeight": 39,
+          "marginRight": 10,
+        }
+      }
+    >
+      Hello
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "minHeight": undefined,
+      }
+    }
+  />
+</View>
+`;

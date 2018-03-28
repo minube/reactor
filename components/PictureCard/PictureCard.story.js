@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { boolean, color, text } from '@storybook/addon-knobs/react';
 
+import { THEME } from '../../common';
 import ResponsiveView from '../ResponsiveView';
 import PictureCard from './index';
 
@@ -14,6 +15,9 @@ storiesOf('✅ PictureCard', module)
   ))
   .addWithJSX('image', () => (
     <PictureCard image={LIPSUM_IMAGE} />
+  ))
+  .addWithJSX('backgroundColor', () => (
+    <PictureCard image={LIPSUM_IMAGE} backgroundColor={THEME.COLOR.PRIMARY} />
   ))
   .addWithJSX('caption', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} />

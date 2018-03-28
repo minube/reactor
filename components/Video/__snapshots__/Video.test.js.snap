@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Video> renders 1`] = `
+<View
+  pointerEvents={undefined}
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#dbdbdb"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Video> when {autoplay} 1`] = `
+<View
+  pointerEvents={undefined}
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#dbdbdb"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Video> when {source} (vimeo) 1`] = `
+<View
+  pointerEvents={undefined}
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#dbdbdb"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Video> when {source} (youtube) 1`] = `
+<View
+  pointerEvents={undefined}
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#dbdbdb"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Video> when {source} 1`] = `
+<View
+  pointerEvents={undefined}
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+      "overflow": "hidden",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#dbdbdb"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Video> when {style} 1`] = `
+<View
+  pointerEvents={undefined}
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "alignSelf": "center",
+      "backgroundColor": "#f4f4f4",
+      "height": 400,
+      "justifyContent": "center",
+      "overflow": "hidden",
+      "width": 640,
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#dbdbdb"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "alignSelf": "center",
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Motion> renders 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {children} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+>
+  <View />
+</View>
+`;
+
+exports[`<Motion> when {delay} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {property} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "left": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {type} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "opacity": 0,
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {useNativeDriver} 1`] = `
+<View
+  style={
+    Object {
+      "opacity": 0,
+      "transitionDelay": "0ms",
+      "transitionDuration": "500ms",
+      "transitionProperty": "opacity",
+      "transitionTimingFunction": "cubic-bezier(0.175, 0.885, 0.160, 1.105)",
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {value} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "left": 128,
+    }
+  }
+/>
+`;

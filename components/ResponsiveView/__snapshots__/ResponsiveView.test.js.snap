@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ResponsiveView> renders 1`] = `
+<View
+  onLayout={[Function]}
+/>
+`;

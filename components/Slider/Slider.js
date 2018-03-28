@@ -102,7 +102,7 @@ class Slider extends PureComponent {
 Slider.propTypes = {
   caption: string,
   dataSource: arrayOf(shape({})),
-  item: func,
+  item: func.isRequired,
   itemMargin: number,
   itemWidth: number,
   momentum: bool,
@@ -115,7 +115,6 @@ Slider.propTypes = {
 Slider.defaultProps = {
   caption: undefined,
   dataSource: [],
-  item: undefined,
   itemMargin: UNIT,
   itemWidth: undefined,
   momentum: Platform.OS === 'web',

@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image> renders 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {color} (only Native) 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    color="#ef5160"
+    onLoad={[Function]}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {invert} (only Web) 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    invert={true}
+    onLoad={[Function]}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {size} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    size={48}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size={48}
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f69a37",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#f69a37",
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {value} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    value="menu"
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {value} as uri 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "justifyContent": "center",
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    value="https://api.adorable.io/avatars/48/8"
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;

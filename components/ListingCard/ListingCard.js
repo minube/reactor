@@ -7,7 +7,7 @@ import { PictureCard, Rating, Text } from '../';
 import styles from './ListingCard.style';
 
 const ListingCard = ({
-  category, children, description, empty, onPress, rating = {}, style, title, ...inherit
+  category, children, description, onPress, rating = {}, style, title, ...inherit
 }) => (
   <View style={StyleSheet.flatten([styles.container, { width: LAYOUT.STYLE.CARD.WIDTH }, style])}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
@@ -29,7 +29,6 @@ ListingCard.propTypes = {
   category: string,
   children: node,
   description: string,
-  empty: bool,
   image: string,
   onPress: func,
   rating: shape(SHAPE.RATING),
@@ -41,7 +40,6 @@ ListingCard.defaultProps = {
   category: undefined,
   children: undefined,
   description: undefined,
-  empty: false,
   image: undefined,
   onPress: undefined,
   rating: {},
