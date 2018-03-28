@@ -1,4 +1,4 @@
-import { array, bool, func, node, number, object, oneOfType, shape, string } from 'prop-types';
+import { array, func, node, number, object, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 

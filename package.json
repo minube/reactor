@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "private": true,
   "contributors": [
     {
@@ -58,8 +58,10 @@
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook",
     "native": "react-native-scripts start",
     "test": "jest",
-    "start": "start-storybook -p 9001 -c .storybook"
+    "lint": "eslint components/**",
+    "build": "yarn test && yarn lint"
   }
 }

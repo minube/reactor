@@ -92,7 +92,8 @@ class Slider extends PureComponent {
           scrollEventThrottle={MOMENTUM_INTERVAL}
         >
           { dataSource.map((data, index) =>
-            <View key={index} style={{ marginRight }}><Item data={data} /></View>)}
+            <View key={index} style={{ marginRight }}><Item data={data} /></View>) // eslint-disable-line
+          }
         </ScrollView>
       </View>
     );

@@ -20,6 +20,8 @@ You just need these packages as global environment:
 node@9.4.0
 
 brew install yarn
+brew install watchman
+brew postintall watchman
 
 yarn global add exp@47.4.4
 yarn global add create-react-app
@@ -39,7 +41,7 @@ After get all the dependencies you have 2 ways to start playing with **Reactor**
 If you wanna use the web environment just type:
 
 ```
-yarn storybook
+yarn start
 ```
 
 This environment is the most advisable if your purpouse is test our components or just develop new ones.
@@ -56,3 +58,10 @@ If everything is ok we will get a screen like this:
 ![Native Environment](https://i.imgur.com/8TnMTjG.png)
 
 Now we can choose how we will run the project. If you wanna test in a simulator you will need get the environment (xCode, Android) in your system. If you wanna test in real devices you must install the Expo Client for [iOS](https://itunes.apple.com/app/apple-store/id982107779?ct=www&mt=8) or [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=www). After that just read the QR Code with the Expo Client and done.
+
+### Coding your own components
+
+```
+yarn build
+```
+

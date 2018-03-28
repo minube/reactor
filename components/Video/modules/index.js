@@ -1,5 +1,3 @@
 import embedUrl from './embedUrl';
 
-export {
-  embedUrl,
-};
+export { embedUrl }; // eslint-disable-line

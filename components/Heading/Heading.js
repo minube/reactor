@@ -66,7 +66,6 @@ Heading.defaultProps = {
   onBreadcrumb: undefined,
   rating: {},
   style: [],
-  title: undefined,
 };
 
 export default Heading;

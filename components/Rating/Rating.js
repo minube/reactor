@@ -17,7 +17,7 @@ const Rating = ({
       <Text bold lighten tiny color={textColor} style={style}>{` ${value}/5`}</Text> }
     { count > 0 &&
       <Text lighten tiny color={textColor} style={style}>
-        {' (' + `${count} ${caption}`.trim() + ')'}
+        {` (${`${count} ${caption}`.trim()})`}
       </Text> }
   </View>
 );
