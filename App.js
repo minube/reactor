@@ -6,7 +6,6 @@ import {
   Button,
   Heading,
   ListingCard,
-  PictureCard,
   ProgressBar,
   Text,
   Slider,
@@ -14,18 +13,9 @@ import {
 } from './components';
 import PKG from './package.json';
 
-const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
+if (typeof global.self === 'undefined') global.self = global;
 
-const dataSource = [...Array(16).keys()]
-  .map(index => ({
-    category: `Category ${index}`,
-    title: `Title ${index}`,
-    rating: { value: index + 1 },
-    image: `https://picsum.photos/320/200?image=1${index + 1}`,
-  }));
-
-const ItemListingCard = ({ data }) => <ListingCard {...data} />;
-const ItemPictureCard = ({ data }) => <PictureCard square {...data} />;
+const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
 
 const styles = StyleSheet.create({
   container: StyleSheet.flatten([
@@ -39,6 +29,16 @@ const styles = StyleSheet.create({
 });
 
 export default class App extends Component {
+  state = {
+    dataSource: [...Array(16).keys()]
+      .map(index => ({
+        category: `Category ${index}`,
+        title: `Title ${index}`,
+        rating: { value: index + 1 },
+        image: `https://picsum.photos/320/200?image=1${index + 1}`,
+      })),
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -46,24 +46,12 @@ export default class App extends Component {
           <Text bold large>{PKG.name}</Text>
           <Text bold tiny>{PKG.version}</Text>
         </View>
-        <Slider dataSource={dataSource} item={ItemListingCard} navigation momentum />
+        <Button activity primary rounded title="Touch Me" onPress={() => console.log('Button.onPress')}/>
+        <Heading title="Actividades en España" rating={3} />
+        <Switch />
+        <ProgressBar progress={0.5} />
+        <Slider dataSource={this.state.dataSource} item={ItemListingCard} navigation momentum />
       </View>
     );
   }
 }
-
-// <Button activity primary rounded title="Touch Me" />
-// <Heading title="Actividades en España" rating={3} />
-
-// <ListingCard
-//   category="Restaurantes"
-//   description="Es una de esas joyas de Río que no hay que perderse. Se encuentra a caballo entre Lapa y el Barrio de… "
-//   image={LIPSUM_IMAGE}
-//   rating={4}
-//   title="Café Les Deux Molins - El café de Amelie con titulo súper largo la"
-// />
-
-// <Switch />
-
-// <ProgressBar progress={0.5} />
-
