@@ -17,17 +17,17 @@ describe('<Motion>', () => {
   });
 
   it('when {type}', () => {
-    const tree = renderer.create(<Motion type="timming" />).toJSON();
+    const tree = renderer.create(<Motion property="left" type="timing" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {useNativeDriver}', () => {
-    const tree = renderer.create(<Motion useNativeDriver />).toJSON();
+    const tree = renderer.create(<Motion property="left" useNativeDriver />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {delay}', () => {
-    const tree = renderer.create(<Motion delay={1000} />).toJSON();
+    const tree = renderer.create(<Motion property="left" delay={1000} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -37,7 +37,7 @@ describe('<Motion>', () => {
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Motion><View /></Motion>).toJSON();
+    const tree = renderer.create(<Motion property="left"><View /></Motion>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

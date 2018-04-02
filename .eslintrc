@@ -1,6 +1,12 @@
 {
   "parser": "babel-eslint",
   "extends": "airbnb",
+  "globals": {
+    "document": true,
+    "fetch": true,
+    "webpack": true,
+    "window": true
+  },
   "rules": {
     "max-len": [1, 120, { "tabWidth": 2, "ignoreComments": true }],
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],

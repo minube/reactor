@@ -42,13 +42,13 @@ class Motion extends PureComponent {
       <View
         style={StyleSheet.flatten([
           style,
-          useNativeDriver && {
+          property && useNativeDriver && {
             transitionProperty,
             transitionDelay: `${delay}ms`,
             transitionDuration: `${duration}ms`,
             transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
           },
-          { [transitionProperty]: isTransform ? [{ [property]: transitionValue }] : transitionValue },
+          property && { [transitionProperty]: isTransform ? [{ [property]: transitionValue }] : transitionValue },
         ])}
       >
         { children }
@@ -72,7 +72,7 @@ Motion.defaultProps = {
   children: undefined,
   delay: 0,
   duration: 500,
-  property: 'opacity',
+  property: undefined,
   style: [],
   type: SPRING,
   useNativeDriver: Platform.OS === 'web',

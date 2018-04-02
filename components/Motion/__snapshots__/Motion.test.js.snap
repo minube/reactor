@@ -3,11 +3,7 @@
 exports[`<Motion> renders 1`] = `
 <View
   collapsable={undefined}
-  style={
-    Object {
-      "opacity": 0,
-    }
-  }
+  style={Object {}}
 />
 `;
 
@@ -16,7 +12,7 @@ exports[`<Motion> when {children} 1`] = `
   collapsable={undefined}
   style={
     Object {
-      "opacity": 0,
+      "left": 0,
     }
   }
 >
@@ -29,7 +25,7 @@ exports[`<Motion> when {delay} 1`] = `
   collapsable={undefined}
   style={
     Object {
-      "opacity": 0,
+      "left": 0,
     }
   }
 />
@@ -51,7 +47,7 @@ exports[`<Motion> when {type} 1`] = `
   collapsable={undefined}
   style={
     Object {
-      "opacity": 0,
+      "left": 0,
     }
   }
 />
@@ -61,10 +57,10 @@ exports[`<Motion> when {useNativeDriver} 1`] = `
 <View
   style={
     Object {
-      "opacity": 0,
+      "left": 0,
       "transitionDelay": "0ms",
       "transitionDuration": "500ms",
-      "transitionProperty": "opacity",
+      "transitionProperty": "left",
       "transitionTimingFunction": "cubic-bezier(0.175, 0.885, 0.160, 1.105)",
     }
   }
