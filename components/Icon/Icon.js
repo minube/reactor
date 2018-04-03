@@ -10,7 +10,9 @@ const Icon = ({
 }) => (
   <Image
     resizeMode="contain"
-    source={ASSETS[value] ? ASSETS[value] : { uri: value }}
+    source={ASSETS[value] // eslint-disable-line
+      ? ASSETS[value]
+      : isNaN(value) ? { uri: value } : value} // eslint-disable-line
     style={StyleSheet.flatten([
       styles.container,
       color && { tintColor: color },
@@ -26,7 +28,7 @@ Icon.propTypes = {
   invert: bool,
   size: number,
   style: oneOfType([array, number, object]),
-  value: string,
+  value: oneOfType([number, string]),
 };
 
 Icon.defaultProps = {
