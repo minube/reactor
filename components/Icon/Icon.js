@@ -1,9 +1,11 @@
 import { array, bool, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, Image } from 'react-native';
+import { Platform, StyleSheet, Image } from 'react-native';
 
 import ASSETS from './assets';
 import styles from './Icon.style';
+
+const isWeb = Platform.OS === 'web';
 
 const Icon = ({
   color, invert, size, style, value,
@@ -15,8 +17,8 @@ const Icon = ({
       : isNaN(value) ? { uri: value } : value} // eslint-disable-line
     style={StyleSheet.flatten([
       styles.container,
-      color && { tintColor: color },
-      invert && { filter: 'invert(100%)' },
+      color && !isWeb && { tintColor: color },
+      invert && isWeb && { filter: 'invert(100%)' },
       size && { width: size, height: size },
       style,
     ])}
