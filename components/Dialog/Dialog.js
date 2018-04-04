@@ -4,9 +4,7 @@ import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native
 
 import { THEME } from '../../common';
 import Button from '../Button';
-import Icon from '../Icon';
 import Text from '../Text';
-import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;
@@ -55,19 +53,12 @@ class Dialog extends PureComponent {
         style={StyleSheet.flatten([styles.container, background && styles.background, styleContainer, { opacity }])}
       >
         <Animated.View pointerEvents="auto" style={StyleSheet.flatten([styles.frame, style, { bottom: position }])}>
-          { (title || !onClose) &&
-            <View style={styles.content}>
-              { title && <Text bold style={styles.title}>{title}</Text> }
-              { !onClose &&
-                <Touchable raised>
-                  <Icon value="close" invert style={styles.iconClose} />
-                </Touchable> }
-            </View> }
+          { title && <Text bold style={styles.title}>{title}</Text> }
           <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.children, scroll && styles.scroll])}>
             {children}
           </ScrollView>
           { (onClose || onSubmit) &&
-            <View style={styles.content}>
+            <View style={styles.buttons}>
               <Button title="Close" onPress={onClose} />
               { onSubmit && <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} /> }
             </View> }
