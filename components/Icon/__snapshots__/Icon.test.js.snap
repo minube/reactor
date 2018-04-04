@@ -48,7 +48,6 @@ exports[`<Icon> when {invert} (only Web) 1`] = `
   style={
     Object {
       "backgroundColor": "transparent",
-      "filter": "invert(100%)",
       "height": 20,
       "width": 20,
     }
