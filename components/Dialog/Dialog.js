@@ -51,10 +51,10 @@ class Dialog extends PureComponent {
 
     return (
       <Animated.View
-        pointerEvents={visible ? 'auto' : 'none'}
+        pointerEvents={visible && background ? 'auto' : 'none'}
         style={StyleSheet.flatten([styles.container, background && styles.background, styleContainer, { opacity }])}
       >
-        <Animated.View style={StyleSheet.flatten([styles.frame, style, { bottom: position }])}>
+        <Animated.View pointerEvents="auto" style={StyleSheet.flatten([styles.frame, style, { bottom: position }])}>
           { (title || !onClose) &&
             <View style={styles.content}>
               { title && <Text bold style={styles.title}>{title}</Text> }

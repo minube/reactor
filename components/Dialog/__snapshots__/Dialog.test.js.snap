@@ -22,6 +22,7 @@ exports[`<Dialog> renders 1`] = `
 >
   <View
     collapsable={undefined}
+    pointerEvents="auto"
     style={
       Object {
         "backgroundColor": "#ffffff",
@@ -131,6 +132,7 @@ exports[`<Dialog> when {title} 1`] = `
 >
   <View
     collapsable={undefined}
+    pointerEvents="auto"
     style={
       Object {
         "backgroundColor": "#ffffff",
@@ -256,6 +258,7 @@ exports[`<Dialog> when {visible} 1`] = `
 >
   <View
     collapsable={undefined}
+    pointerEvents="auto"
     style={
       Object {
         "backgroundColor": "#ffffff",
