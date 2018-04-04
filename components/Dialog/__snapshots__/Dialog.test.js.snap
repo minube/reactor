@@ -8,7 +8,7 @@ exports[`<Dialog> renders 1`] = `
     Object {
       "alignContent": "center",
       "alignItems": "center",
-      "backgroundColor": "rgba(0,0,0, 0.5)",
+      "backgroundColor": "rgba(0,0,0,0.5)",
       "height": "100%",
       "justifyContent": "center",
       "left": 0,
@@ -39,22 +39,11 @@ exports[`<Dialog> renders 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-      style={
-        Object {
-          "flex": 1,
-          "paddingHorizontal": 16,
-        }
-      }
-    >
-      <View />
-    </RCTScrollView>
     <View
       style={
         Object {
-          "alignContent": "flex-end",
-          "alignItems": "flex-end",
+          "alignContent": "center",
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "flex-end",
@@ -67,6 +56,7 @@ exports[`<Dialog> renders 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
+        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -80,46 +70,41 @@ exports[`<Dialog> renders 1`] = `
         onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "borderRadius": 3,
-            "margin": 5,
+            "opacity": 1,
           }
         }
         testID={undefined}
         tvParallaxProperties={undefined}
       >
-        <View
-          style={
+        <Image
+          resizeMode="contain"
+          source={
             Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#4a4a4a",
-              "borderRadius": 3,
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 45,
-              "justifyContent": "center",
-              "paddingHorizontal": 30,
+              "testUri": "../../../components/Icon/assets/close.png",
             }
           }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-              }
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "height": 32,
+              "opacity": 0.5,
+              "width": 32,
             }
-          >
-            Close
-          </Text>
-        </View>
+          }
+        />
       </View>
     </View>
+    <RCTScrollView
+      onScroll={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
   </View>
 </View>
 `;
@@ -132,7 +117,7 @@ exports[`<Dialog> when {title} 1`] = `
     Object {
       "alignContent": "center",
       "alignItems": "center",
-      "backgroundColor": "rgba(0,0,0, 0.5)",
+      "backgroundColor": "rgba(0,0,0,0.5)",
       "height": "100%",
       "justifyContent": "center",
       "left": 0,
@@ -163,38 +148,11 @@ exports[`<Dialog> when {title} 1`] = `
       }
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "bold",
-          "padding": 16,
-        }
-      }
-    >
-      Hello world
-    </Text>
-    <RCTScrollView
-      onScroll={[Function]}
-      style={
-        Object {
-          "flex": 1,
-          "paddingHorizontal": 16,
-        }
-      }
-    >
-      <View />
-    </RCTScrollView>
     <View
       style={
         Object {
-          "alignContent": "flex-end",
-          "alignItems": "flex-end",
+          "alignContent": "center",
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "flex-end",
@@ -202,11 +160,28 @@ exports[`<Dialog> when {title} 1`] = `
         }
       }
     >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "flex": 1,
+            "fontFamily": undefined,
+            "fontSize": 20,
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Hello world
+      </Text>
       <View
         accessibilityComponentType={undefined}
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
+        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -220,46 +195,41 @@ exports[`<Dialog> when {title} 1`] = `
         onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "borderRadius": 3,
-            "margin": 5,
+            "opacity": 1,
           }
         }
         testID={undefined}
         tvParallaxProperties={undefined}
       >
-        <View
-          style={
+        <Image
+          resizeMode="contain"
+          source={
             Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#4a4a4a",
-              "borderRadius": 3,
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 45,
-              "justifyContent": "center",
-              "paddingHorizontal": 30,
+              "testUri": "../../../components/Icon/assets/close.png",
             }
           }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-              }
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "height": 32,
+              "opacity": 0.5,
+              "width": 32,
             }
-          >
-            Close
-          </Text>
-        </View>
+          }
+        />
       </View>
     </View>
+    <RCTScrollView
+      onScroll={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
   </View>
 </View>
 `;
@@ -272,7 +242,7 @@ exports[`<Dialog> when {visible} 1`] = `
     Object {
       "alignContent": "center",
       "alignItems": "center",
-      "backgroundColor": "rgba(0,0,0, 0.5)",
+      "backgroundColor": "rgba(0,0,0,0.5)",
       "height": "100%",
       "justifyContent": "center",
       "left": 0,
@@ -303,22 +273,11 @@ exports[`<Dialog> when {visible} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-      style={
-        Object {
-          "flex": 1,
-          "paddingHorizontal": 16,
-        }
-      }
-    >
-      <View />
-    </RCTScrollView>
     <View
       style={
         Object {
-          "alignContent": "flex-end",
-          "alignItems": "flex-end",
+          "alignContent": "center",
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "flex-end",
@@ -331,6 +290,7 @@ exports[`<Dialog> when {visible} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
+        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -344,46 +304,41 @@ exports[`<Dialog> when {visible} 1`] = `
         onStartShouldSetResponder={[Function]}
         style={
           Object {
-            "borderRadius": 3,
-            "margin": 5,
+            "opacity": 1,
           }
         }
         testID={undefined}
         tvParallaxProperties={undefined}
       >
-        <View
-          style={
+        <Image
+          resizeMode="contain"
+          source={
             Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#4a4a4a",
-              "borderRadius": 3,
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 45,
-              "justifyContent": "center",
-              "paddingHorizontal": 30,
+              "testUri": "../../../components/Icon/assets/close.png",
             }
           }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-              }
+          style={
+            Object {
+              "backgroundColor": "transparent",
+              "height": 32,
+              "opacity": 0.5,
+              "width": 32,
             }
-          >
-            Close
-          </Text>
-        </View>
+          }
+        />
       </View>
     </View>
+    <RCTScrollView
+      onScroll={[Function]}
+      style={
+        Object {
+          "flex": 1,
+          "paddingHorizontal": 16,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
   </View>
 </View>
 `;

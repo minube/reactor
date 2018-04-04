@@ -3,14 +3,13 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, OFFSET,
+  BORDER_RADIUS, COLOR, FONT, OFFSET, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
   container: StyleSheet.flatten([
     STYLE.CENTERED,
     {
-      backgroundColor: 'rgba(0,0,0, 0.5)',
       height: '100%',
       left: 0,
       position: Platform.OS === 'web' ? 'fixed' : 'absolute',
@@ -19,6 +18,10 @@ export default StyleSheet.create({
       zIndex: 2,
     },
   ]),
+
+  background: {
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
 
   frame: StyleSheet.flatten([
     STYLE.SHADOW,
@@ -30,12 +33,18 @@ export default StyleSheet.create({
     },
   ]),
 
-  title: {
-    fontSize: FONT.SIZE.LARGE,
-    padding: OFFSET,
+  iconClose: {
+    opacity: 0.5,
+    width: UNIT * 3.2,
+    height: UNIT * 3.2,
   },
 
-  content: {
+  title: {
+    flex: 1,
+    fontSize: FONT.SIZE.LARGE,
+  },
+
+  children: {
     flex: 1,
     paddingHorizontal: OFFSET,
   },
@@ -47,13 +56,13 @@ export default StyleSheet.create({
     borderTopWidth: 1,
   },
 
-  footer: StyleSheet.flatten([
+  content: StyleSheet.flatten([
     STYLE.ROW,
     {
-      alignItems: 'flex-end',
-      alignContent: 'flex-end',
-      justifyContent: 'flex-end',
       padding: OFFSET,
+      alignItems: 'center',
+      alignContent: 'center',
+      justifyContent: 'flex-end',
     },
   ]),
 });

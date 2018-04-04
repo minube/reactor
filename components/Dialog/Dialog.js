@@ -4,7 +4,9 @@ import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native
 
 import { THEME } from '../../common';
 import Button from '../Button';
+import Icon from '../Icon';
 import Text from '../Text';
+import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;
@@ -17,18 +19,18 @@ class Dialog extends PureComponent {
 
     this.state = {
       opacity: new Animated.Value(props.visible ? 1 : 0),
-      bottom: new Animated.Value(props.visible ? 0 : -height),
+      position: new Animated.Value(props.visible ? 0 : -height),
       scroll: false,
     };
   }
 
   componentWillReceiveProps({ visible }) {
-    const { bottom, opacity } = this.state;
+    const { position, opacity } = this.state;
     const { height } = Dimensions.get('window');
 
     Animated.parallel([
       Animated.spring(opacity, { toValue: visible ? 1 : 0 }),
-      Animated.spring(bottom, { toValue: visible ? 0 : -height }),
+      Animated.spring(position, { toValue: visible ? 0 : -height }),
     ]).start();
   }
 
@@ -40,46 +42,58 @@ class Dialog extends PureComponent {
     const {
       _onScroll,
       props: {
-        children, onClose, onSubmit, style, title, visible,
+        background, children, onClose, onSubmit, style, styleContainer, title, visible,
       },
       state: {
-        bottom, opacity, scroll,
+        position, opacity, scroll,
       },
     } = this;
 
     return (
       <Animated.View
         pointerEvents={visible ? 'auto' : 'none'}
-        style={StyleSheet.flatten([styles.container, { opacity }])}
+        style={StyleSheet.flatten([styles.container, background && styles.background, styleContainer, { opacity }])}
       >
-        <Animated.View style={StyleSheet.flatten([styles.frame, style, { bottom }])}>
-          { title && <Text bold style={styles.title}>{title}</Text> }
-          <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.content, scroll && styles.scroll])}>
+        <Animated.View style={StyleSheet.flatten([styles.frame, style, { bottom: position }])}>
+          { (title || !onClose) &&
+            <View style={styles.content}>
+              { title && <Text bold style={styles.title}>{title}</Text> }
+              { !onClose &&
+                <Touchable raised>
+                  <Icon value="close" invert style={styles.iconClose} />
+                </Touchable> }
+            </View> }
+          <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.children, scroll && styles.scroll])}>
             {children}
           </ScrollView>
-          <View style={styles.footer}>
-            <Button title="Close" onPress={onClose} />
-            { onSubmit && <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} /> }
-          </View>
+          { (onClose || onSubmit) &&
+            <View style={styles.content}>
+              <Button title="Close" onPress={onClose} />
+              { onSubmit && <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} /> }
+            </View> }
         </Animated.View>
       </Animated.View>);
   }
 }
 
 Dialog.propTypes = {
+  background: bool,
   children: node,
   onClose: func,
   onSubmit: func,
   style: oneOfType([array, number, object]),
+  styleContainer: oneOfType([array, number, object]),
   title: string,
   visible: bool,
 };
 
 Dialog.defaultProps = {
+  background: true,
   children: undefined,
-  onClose() {},
+  onClose: undefined,
   onSubmit: undefined,
   style: [],
+  styleContainer: [],
   title: undefined,
   visible: false,
 };

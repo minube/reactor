@@ -9,20 +9,37 @@ import Text from '../Text';
 
 storiesOf('🛠 Dialog', module)
   .addWithJSX('default', () => (
-    <Dialog onClose={action('Dialog.onClose()')} visible />
+    <Dialog  />
+  ))
+  .addWithJSX('visible', () => (
+    <Dialog visible />
+  ))
+  .addWithJSX('background (disabled)', () => (
+    <Dialog background={false} visible />
   ))
   .addWithJSX('title', () => (
     <Dialog title="Hello world" visible />
   ))
   .addWithJSX('⚡ onClose', () => (
-    <Dialog onClose={action('Dialog.onClose()')} visible />
+    <Dialog title="Hello world" onClose={action('Dialog.onClose()')} visible />
   ))
   .addWithJSX('⚡ onSubmit', () => (
-    <Dialog onSubmit={action('Dialog.onSubmit()')} visible />
+    <Dialog title="Hello world" onSubmit={action('Dialog.onSubmit()')} visible />
+  ))
+  .addWithJSX('style', () => (
+    <Dialog title="Hello world" style={{ backgroundColor: 'orange', width: 512, height: 320 }} visible />
+  ))
+  .addWithJSX('styleContainer', () => (
+    <Dialog
+      title="Hello world"
+      styleContainer={{ padding: 32, alignItems: 'flex-start', justifyContent: 'flex-end' }}
+      visible
+    />
   ))
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>
       <Dialog
+        background={boolean('background', true)}
         title={text('title', 'Title')}
         onClose={action('Dialog.onClose()')}
         onSubmit={action('Dialog.onSubmit()')}
