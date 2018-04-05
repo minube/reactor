@@ -1,13 +1,16 @@
 import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native';
+import { Animated, Dimensions, Platform, StyleSheet, ScrollView, View } from 'react-native';
 
 import { THEME } from '../../common';
 import Button from '../Button';
+import Icon from '../Icon';
 import Text from '../Text';
+import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;
+const isWeb = Platform.OS === 'web';
 
 class Dialog extends PureComponent {
   constructor(props) {
@@ -40,7 +43,7 @@ class Dialog extends PureComponent {
     const {
       _onScroll,
       props: {
-        background, children, onClose, onSubmit, style, styleContainer, title, visible,
+        background, children, highlight, onClose, onSubmit, style, styleContainer, title, visible,
       },
       state: {
         position, opacity, scroll,
@@ -49,19 +52,22 @@ class Dialog extends PureComponent {
 
     return (
       <Animated.View
-        pointerEvents={visible && background ? 'auto' : 'none'}
+        pointerEvents={visible && (background || !isWeb) ? 'auto' : 'none'}
         style={StyleSheet.flatten([styles.container, background && styles.background, styleContainer, { opacity }])}
       >
         <Animated.View pointerEvents="auto" style={StyleSheet.flatten([styles.frame, style, { bottom: position }])}>
+          { onClose &&
+            <Touchable onPress={onClose} raised style={styles.iconClose}>
+              <Icon value={highlight ? 'close' : 'closeDark'} />
+            </Touchable> }
           { title && <Text bold style={styles.title}>{title}</Text> }
           <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.children, scroll && styles.scroll])}>
             {children}
+            { onSubmit &&
+              <View style={styles.buttons}>
+                <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} />
+              </View> }
           </ScrollView>
-          { (onClose || onSubmit) &&
-            <View style={styles.buttons}>
-              <Button title="Close" onPress={onClose} />
-              { onSubmit && <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} /> }
-            </View> }
         </Animated.View>
       </Animated.View>);
   }
@@ -70,6 +76,7 @@ class Dialog extends PureComponent {
 Dialog.propTypes = {
   background: bool,
   children: node,
+  highlight: bool,
   onClose: func,
   onSubmit: func,
   style: oneOfType([array, number, object]),
@@ -81,6 +88,7 @@ Dialog.propTypes = {
 Dialog.defaultProps = {
   background: true,
   children: undefined,
+  highlight: undefined,
   onClose: undefined,
   onSubmit: undefined,
   style: [],

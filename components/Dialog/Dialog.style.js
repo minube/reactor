@@ -23,6 +23,15 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
 
+  iconClose: {
+    position: 'absolute',
+    right: 0,
+    top: 0,
+    padding: OFFSET,
+    opacity: 0.5,
+    zIndex: 1,
+  },
+
   frame: StyleSheet.flatten([
     STYLE.SHADOW,
     {
