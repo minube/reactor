@@ -57,7 +57,7 @@ class Video extends Component {
             controls={controls ? 'true' : undefined}
             onLoadedData={_onLoad}
             preload="true"
-            style={{ 'object-fit': 'cover', width, height }}
+            style={{ objectFit: 'cover', width, height }}
           >
             <source src={source} />
             <track kind="captions" />

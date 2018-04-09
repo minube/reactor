@@ -1,9 +1,10 @@
 import embedUrl from './embedUrl';
 
 export default ({
-  autoPlay, controls, loop, source, muted,
+  autoPlay, controls, height, loop, source, muted, width,
 }) => {
   const embed = embedUrl(source);
+  const css = 'background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;';
 
   return !embed
     ?
@@ -13,15 +14,18 @@ export default ({
       playsinline
       preload="true"
       src="${source}"
-      style="object-fit: cover; margin: 0; padding: 0;"
+      style="object-fit: cover; ${css}"
       webkit-playsinline
       width="100%"
     />`
     :
     `<iframe
-      frameBorder={0}
+      allowtransparency="true"
+      frameBorder="0"
       src="${embed}&autoplay=${autoPlay ? 1 : 0}"
-      style="margin: 0; padding: 0;"
-      title={embed}
+      height="${height}"
+      style="${css}"
+      title="${embed}"
+      width="${width}"
     />`;
 };

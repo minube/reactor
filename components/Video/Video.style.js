@@ -23,9 +23,7 @@ export default StyleSheet.create({
   },
 
   webView: {
-    margin: 0,
-    padding: 0,
+    flex: 1,
     overflow: 'hidden',
-    backgroundColor: 'orange',
   },
 });
