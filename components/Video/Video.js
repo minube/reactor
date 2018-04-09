@@ -3,10 +3,12 @@ import React, { Component } from 'react';
 import { StyleSheet, Platform, View } from 'react-native';
 
 import Activity from '../Activity';
-import { embedUrl } from './modules';
+import { embedUrl, htmlVideo } from './modules';
 import styles from './Video.style';
 
 const isWeb = Platform.OS === 'web';
+let WebView;
+if (!isWeb) WebView = require('react-native').WebView; // eslint-disable-line
 
 class Video extends Component {
   state = {
@@ -31,16 +33,19 @@ class Video extends Component {
     const {
       _onLoad,
       props: {
-        autoPlay, controls, source, style, ...inherit
+        autoPlay, controls, height, source, style, width, ...inherit
       },
       state: { ready },
     } = this;
     const embed = embedUrl(this.props.source);
+    const dimensions = {
+      height, width, maxHeight: height, maxWidth: width,
+    };
 
     return (
       <View
         pointerEvents={!controls && autoPlay ? 'none' : undefined}
-        style={StyleSheet.flatten([styles.container, !ready && styles.loading, style])}
+        style={StyleSheet.flatten([styles.container, dimensions, !ready && styles.loading, style])}
       >
         { !ready && <Activity size="large" style={styles.activity} /> }
 
@@ -52,7 +57,7 @@ class Video extends Component {
             controls={controls ? 'true' : undefined}
             onLoadedData={_onLoad}
             preload="true"
-            style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+            style={{ 'object-fit': 'cover', width, height }}
           >
             <source src={source} />
             <track kind="captions" />
@@ -69,6 +74,17 @@ class Video extends Component {
             src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
             title={embed}
           /> }
+
+        { !isWeb &&
+          <WebView
+            allowsInlineMediaPlayback
+            mediaPlaybackRequiresUserAction={false}
+            scalesPageToFit={false}
+            scrollEnabled={false}
+            onLoad={_onLoad}
+            source={{ html: htmlVideo(this.props) }}
+            style={StyleSheet.flatten([styles.webView, dimensions])}
+          /> }
       </View>
     );
   }
@@ -77,16 +93,20 @@ class Video extends Component {
 Video.propTypes = {
   autoPlay: bool,
   controls: bool,
+  height: number,
   onLoad: func,
   source: string.isRequired,
   style: oneOfType([array, number, object]),
+  width: number,
 };
 
 Video.defaultProps = {
   autoPlay: false,
   controls: false,
+  height: 226,
   onLoad() {},
   style: [],
+  width: 428,
 };
 
 export default Video;

@@ -9,8 +9,12 @@ exports[`<Video> renders 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
+      "height": 226,
       "justifyContent": "center",
+      "maxHeight": 226,
+      "maxWidth": 428,
       "overflow": "hidden",
+      "width": 428,
     }
   }
 >
@@ -26,6 +30,66 @@ exports[`<Video> renders 1`] = `
       }
     }
   />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
+      mediaPlaybackRequiresUserAction={false}
+      messagingEnabled={false}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
+      scalesPageToFit={false}
+      scrollEnabled={false}
+      source={
+        Object {
+          "html": "<video
+                 
+              height=\\"100%\\"
+              playsinline
+              preload=\\"true\\"
+              src=\\"undefined\\"
+              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              webkit-playsinline
+              width=\\"100%\\"
+            />",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "backgroundColor": "orange",
+            "height": 226,
+            "margin": 0,
+            "maxHeight": 226,
+            "maxWidth": 428,
+            "overflow": "hidden",
+            "padding": 0,
+            "width": 428,
+          },
+        ]
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -38,8 +102,12 @@ exports[`<Video> when {autoplay} 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
+      "height": 226,
       "justifyContent": "center",
+      "maxHeight": 226,
+      "maxWidth": 428,
       "overflow": "hidden",
+      "width": 428,
     }
   }
 >
@@ -55,6 +123,66 @@ exports[`<Video> when {autoplay} 1`] = `
       }
     }
   />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
+      mediaPlaybackRequiresUserAction={false}
+      messagingEnabled={false}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
+      scalesPageToFit={false}
+      scrollEnabled={false}
+      source={
+        Object {
+          "html": "<video
+                 
+              height=\\"100%\\"
+              playsinline
+              preload=\\"true\\"
+              src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
+              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              webkit-playsinline
+              width=\\"100%\\"
+            />",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "backgroundColor": "orange",
+            "height": 226,
+            "margin": 0,
+            "maxHeight": 226,
+            "maxWidth": 428,
+            "overflow": "hidden",
+            "padding": 0,
+            "width": 428,
+          },
+        ]
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -67,8 +195,12 @@ exports[`<Video> when {source} (vimeo) 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
+      "height": 226,
       "justifyContent": "center",
+      "maxHeight": 226,
+      "maxWidth": 428,
       "overflow": "hidden",
+      "width": 428,
     }
   }
 >
@@ -84,6 +216,62 @@ exports[`<Video> when {source} (vimeo) 1`] = `
       }
     }
   />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
+      mediaPlaybackRequiresUserAction={false}
+      messagingEnabled={false}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
+      scalesPageToFit={false}
+      scrollEnabled={false}
+      source={
+        Object {
+          "html": "<iframe
+              frameBorder={0}
+              src=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0&autoplay=0\\"
+              style=\\"margin: 0; padding: 0;\\"
+              title={embed}
+            />",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "backgroundColor": "orange",
+            "height": 226,
+            "margin": 0,
+            "maxHeight": 226,
+            "maxWidth": 428,
+            "overflow": "hidden",
+            "padding": 0,
+            "width": 428,
+          },
+        ]
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -96,8 +284,12 @@ exports[`<Video> when {source} (youtube) 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
+      "height": 226,
       "justifyContent": "center",
+      "maxHeight": 226,
+      "maxWidth": 428,
       "overflow": "hidden",
+      "width": 428,
     }
   }
 >
@@ -113,6 +305,62 @@ exports[`<Video> when {source} (youtube) 1`] = `
       }
     }
   />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
+      mediaPlaybackRequiresUserAction={false}
+      messagingEnabled={false}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
+      scalesPageToFit={false}
+      scrollEnabled={false}
+      source={
+        Object {
+          "html": "<iframe
+              frameBorder={0}
+              src=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0&autoplay=0\\"
+              style=\\"margin: 0; padding: 0;\\"
+              title={embed}
+            />",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "backgroundColor": "orange",
+            "height": 226,
+            "margin": 0,
+            "maxHeight": 226,
+            "maxWidth": 428,
+            "overflow": "hidden",
+            "padding": 0,
+            "width": 428,
+          },
+        ]
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -125,8 +373,12 @@ exports[`<Video> when {source} 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
+      "height": 226,
       "justifyContent": "center",
+      "maxHeight": 226,
+      "maxWidth": 428,
       "overflow": "hidden",
+      "width": 428,
     }
   }
 >
@@ -142,6 +394,66 @@ exports[`<Video> when {source} 1`] = `
       }
     }
   />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
+      mediaPlaybackRequiresUserAction={false}
+      messagingEnabled={false}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
+      scalesPageToFit={false}
+      scrollEnabled={false}
+      source={
+        Object {
+          "html": "<video
+                 
+              height=\\"100%\\"
+              playsinline
+              preload=\\"true\\"
+              src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
+              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              webkit-playsinline
+              width=\\"100%\\"
+            />",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "backgroundColor": "orange",
+            "height": 226,
+            "margin": 0,
+            "maxHeight": 226,
+            "maxWidth": 428,
+            "overflow": "hidden",
+            "padding": 0,
+            "width": 428,
+          },
+        ]
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -156,6 +468,8 @@ exports[`<Video> when {style} 1`] = `
       "backgroundColor": "#f4f4f4",
       "height": 400,
       "justifyContent": "center",
+      "maxHeight": 226,
+      "maxWidth": 428,
       "overflow": "hidden",
       "width": 640,
     }
@@ -173,5 +487,65 @@ exports[`<Video> when {style} 1`] = `
       }
     }
   />
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTWebView
+      allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
+      mediaPlaybackRequiresUserAction={false}
+      messagingEnabled={false}
+      onLoadingError={[Function]}
+      onLoadingFinish={[Function]}
+      onLoadingStart={[Function]}
+      onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
+      scalesPageToFit={false}
+      scrollEnabled={false}
+      source={
+        Object {
+          "html": "<video
+                 
+              height=\\"100%\\"
+              playsinline
+              preload=\\"true\\"
+              src=\\"undefined\\"
+              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              webkit-playsinline
+              width=\\"100%\\"
+            />",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "backgroundColor": "#ffffff",
+          },
+          Object {
+            "backgroundColor": "orange",
+            "height": 226,
+            "margin": 0,
+            "maxHeight": 226,
+            "maxWidth": 428,
+            "overflow": "hidden",
+            "padding": 0,
+            "width": 428,
+          },
+        ]
+      }
+    />
+  </View>
 </View>
 `;

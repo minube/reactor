@@ -1,3 +1,7 @@
 import embedUrl from './embedUrl';
+import htmlVideo from './htmlVideo';
 
-export { embedUrl }; // eslint-disable-line
+export {
+  embedUrl,
+  htmlVideo,
+};

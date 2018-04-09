@@ -21,4 +21,11 @@ export default StyleSheet.create({
     position: 'absolute',
     alignSelf: 'center',
   },
+
+  webView: {
+    margin: 0,
+    padding: 0,
+    overflow: 'hidden',
+    backgroundColor: 'orange',
+  },
 });

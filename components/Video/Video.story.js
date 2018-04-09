@@ -1,18 +1,17 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean, object } from '@storybook/addon-knobs/react';
+import { text, boolean, number, object } from '@storybook/addon-knobs/react';
 
 import ResponsiveView from '../ResponsiveView';
 import Video from './Video';
 
-const VIDEO_PLACEHOLDER = 'http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4';
+const VIDEO_PLACEHOLDER = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
 const VIDEO_STYLE = {
-  width: 640,
-  height: 400,
+  borderRadius: 24,
 };
 
-storiesOf('🚨 Video (only web)', module)
+storiesOf('✅ Video', module)
   .addWithJSX('default', () => (
     <Video />
   ))
@@ -31,7 +30,10 @@ storiesOf('🚨 Video (only web)', module)
   .addWithJSX('controls', () => (
     <Video controls source={VIDEO_PLACEHOLDER} />
   ))
-  .addWithJSX('⚡ onLoad', () => (
+  .addWithJSX('dimensions', () => (
+    <Video height={128} source={VIDEO_PLACEHOLDER} width={256} />
+  ))
+  .addWithJSX('⚡ onLoad (only web)', () => (
     <Video onLoad={action('Video.onLoad()')} source={VIDEO_PLACEHOLDER} />
   ))
   .addWithJSX('style', () => (
@@ -41,9 +43,11 @@ storiesOf('🚨 Video (only web)', module)
     <ResponsiveView>
       <Video
         autoplay={boolean('autoplay', true)}
-        controls={boolean('controls', true)}
+        controls={boolean('controls', false)}
+        height={number('height', 226)}
         source={text('source', VIDEO_PLACEHOLDER)}
         style={object('style', VIDEO_STYLE, 'video-style')}
+        width={number('width', 428)}
       />
     </ResponsiveView>
   ));
