@@ -67,6 +67,24 @@ exports[`<Text> when {color} 1`] = `
 </Text>
 `;
 
+exports[`<Text> when {italic} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "fontStyle": "italic",
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
 exports[`<Text> when {large} 1`] = `
 <Text
   accessible={true}

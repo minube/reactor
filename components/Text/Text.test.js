@@ -46,6 +46,11 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {italic}', () => {
+    const tree = renderer.create(<Text italic>Hello World</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {primary}', () => {
     const tree = renderer.create(<Text primary>Hello World</Text>).toJSON();
     expect(tree).toMatchSnapshot();

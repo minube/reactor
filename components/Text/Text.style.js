@@ -29,6 +29,10 @@ export default StyleSheet.create({
     fontSize: FONT.SIZE.REGULAR,
   },
 
+  italic: {
+    fontStyle: 'italic',
+  },
+
   lighten: {
     color: COLOR.TEXT_LIGHTEN,
   },

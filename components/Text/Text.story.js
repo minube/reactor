@@ -31,6 +31,9 @@ storiesOf('✅ Text', module)
   .addWithJSX('bold', () => (
     <Text bold>Hello World</Text>
   ))
+  .addWithJSX('italic', () => (
+    <Text italic>Hello World</Text>
+  ))
   .addWithJSX('primary', () => (
     <Text primary>Hello World</Text>
   ))
@@ -52,6 +55,7 @@ storiesOf('✅ Text', module)
         lighter={boolean('lighter', false)}
         semibold={boolean('semibold', false)}
         bold={boolean('bold', false)}
+        italic={boolean('italic', false)}
         color={color('color', THEME.COLOR.TEXT)}
         small={boolean('small', false)}
         tiny={boolean('tiny', false)}

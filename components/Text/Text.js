@@ -6,7 +6,7 @@ import { LAYOUT } from '../../common';
 import styles from './Text.style';
 
 const Text = ({
-  accent, bold, color, large, lighten, lighter, primary, semibold, small, tiny, title, ...inherit
+  accent, bold, color, italic, large, lighten, lighter, primary, semibold, small, tiny, title, ...inherit
 }) => (
   <NativeText
     {...inherit}
@@ -16,6 +16,7 @@ const Text = ({
       lighter && styles.lighter,
       semibold && styles.semibold,
       bold && styles.bold,
+      italic && styles.italic,
       tiny && { ...LAYOUT.STYLE.TEXT.TINY },
       small && { ...LAYOUT.STYLE.TEXT.SMALL },
       large && { ...LAYOUT.STYLE.TEXT.LARGE },
@@ -34,6 +35,7 @@ Text.propTypes = {
   accent: bool,
   bold: bool,
   color: string,
+  italic: bool,
   large: bool,
   lighten: bool,
   lighter: bool,
@@ -48,6 +50,7 @@ Text.defaultProps = {
   accent: false,
   bold: false,
   color: undefined,
+  italic: false,
   large: false,
   lighten: false,
   lighter: false,
