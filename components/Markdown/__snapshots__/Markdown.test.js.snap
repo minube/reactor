@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Markdown> including a <Text> property 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    Hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontStyle": "italic",
+      }
+    }
+  >
+    World
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> renders 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 12,
+      "lineHeight": 13.200000000000001,
+    }
+  }
+/>
+`;
+
+exports[`<Markdown> when combining * & ** 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontStyle": "italic",
+      }
+    }
+  >
+    world
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    , I
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    'm 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    javi
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    .
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> when including * 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontStyle": "italic",
+      }
+    }
+  >
+    world
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> when including ** 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+      }
+    }
+  >
+    hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    world
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> when simple text 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 12,
+      "lineHeight": 13.200000000000001,
+    }
+  }
+>
+  Hello World
+</Text>
+`;

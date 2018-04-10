@@ -8,6 +8,7 @@ import Image from './Image';
 import Input from './Input';
 import Link from './Link';
 import ListingCard from './ListingCard';
+import Markdown from './Markdown';
 import Motion from './Motion';
 import PictureCard from './PictureCard';
 import Price from './Price';
@@ -31,6 +32,7 @@ export {
   Input,
   Link,
   ListingCard,
+  Markdown,
   Motion,
   PictureCard,
   Price,
