@@ -6,7 +6,7 @@ import { THEME } from '../../common';
 import ResponsiveView from '../ResponsiveView';
 import Markdown from './Markdown';
 
-storiesOf('⚠️  Markdown (third-party)', module)
+storiesOf('✅ Markdown', module)
   .addWithJSX('default', () => (
     <Markdown>hello world</Markdown>
   ))

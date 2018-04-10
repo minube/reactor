@@ -1,32 +1,27 @@
 import { string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
-import { defaultBlockParse as markdownParse } from 'simple-markdown';
 
 import { STYLE } from '../../common';
 import Text from '../Text';
-
-const ITALIC = 'em';
-const DEFAULT = 'text';
-const BOLD = 'strong';
+import { markdown, BOLD, ITALIC } from './modules';
 
 const Markdown = ({
   children, ...inherit
 }) => {
-  const [value: { content: value } = {}] = markdownParse(children);
+  const sentences = markdown(children);
 
   return (
-    value.content.length <= 1
+    sentences.length <= 1
       ?
-        <Text {...inherit} tiny>{children}</Text>
+        <Text {...inherit}>{children}</Text>
       :
         <View style={STYLE.ROW}>
-          { value.content.map(({ content, type }, index) => {
+          { sentences.map(({ value, type }, index) => {
             const key = `${type}${index}`;
-
             return (
               <Text key={key} {...inherit} bold={type === BOLD} italic={type === ITALIC}>
-                {type === DEFAULT ? content : content[0].content}
+                {value}
               </Text>
             );
           })}

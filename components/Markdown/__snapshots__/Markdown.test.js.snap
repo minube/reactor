@@ -37,7 +37,7 @@ exports[`<Markdown> including a <Text> property 1`] = `
       }
     }
   >
-    World
+    World 
   </Text>
 </View>
 `;
@@ -51,8 +51,7 @@ exports[`<Markdown> renders 1`] = `
     Object {
       "color": "#4a4a4a",
       "fontFamily": undefined,
-      "fontSize": 12,
-      "lineHeight": 13.200000000000001,
+      "fontSize": 16,
     }
   }
 />
@@ -95,35 +94,7 @@ exports[`<Markdown> when combining * & ** 1`] = `
       }
     }
   >
-    world
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-      }
-    }
-  >
-    , I
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-      }
-    }
-  >
-    'm 
+    world, I'm 
   </Text>
   <Text
     accessible={true}
@@ -138,21 +109,7 @@ exports[`<Markdown> when combining * & ** 1`] = `
       }
     }
   >
-    javi
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-      }
-    }
-  >
-    .
+    javi. 
   </Text>
 </View>
 `;
@@ -194,7 +151,7 @@ exports[`<Markdown> when including * 1`] = `
       }
     }
   >
-    world
+    world 
   </Text>
 </View>
 `;
@@ -236,7 +193,7 @@ exports[`<Markdown> when including ** 1`] = `
       }
     }
   >
-    world
+    world 
   </Text>
 </View>
 `;
@@ -250,8 +207,7 @@ exports[`<Markdown> when simple text 1`] = `
     Object {
       "color": "#4a4a4a",
       "fontFamily": undefined,
-      "fontSize": 12,
-      "lineHeight": 13.200000000000001,
+      "fontSize": 16,
     }
   }
 >
