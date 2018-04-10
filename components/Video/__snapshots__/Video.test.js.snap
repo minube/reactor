@@ -62,7 +62,7 @@ exports[`<Video> renders 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"undefined\\"
-              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -77,13 +77,11 @@ exports[`<Video> renders 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
-            "backgroundColor": "orange",
+            "flex": 1,
             "height": 226,
-            "margin": 0,
             "maxHeight": 226,
             "maxWidth": 428,
             "overflow": "hidden",
-            "padding": 0,
             "width": 428,
           },
         ]
@@ -155,7 +153,7 @@ exports[`<Video> when {autoplay} 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
-              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -170,13 +168,11 @@ exports[`<Video> when {autoplay} 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
-            "backgroundColor": "orange",
+            "flex": 1,
             "height": 226,
-            "margin": 0,
             "maxHeight": 226,
             "maxWidth": 428,
             "overflow": "hidden",
-            "padding": 0,
             "width": 428,
           },
         ]
@@ -243,10 +239,13 @@ exports[`<Video> when {source} (vimeo) 1`] = `
       source={
         Object {
           "html": "<iframe
-              frameBorder={0}
+              allowtransparency=\\"true\\"
+              frameBorder=\\"0\\"
               src=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0&autoplay=0\\"
-              style=\\"margin: 0; padding: 0;\\"
-              title={embed}
+              height=\\"226\\"
+              style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+              title=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0\\"
+              width=\\"428\\"
             />",
         }
       }
@@ -259,13 +258,11 @@ exports[`<Video> when {source} (vimeo) 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
-            "backgroundColor": "orange",
+            "flex": 1,
             "height": 226,
-            "margin": 0,
             "maxHeight": 226,
             "maxWidth": 428,
             "overflow": "hidden",
-            "padding": 0,
             "width": 428,
           },
         ]
@@ -332,10 +329,13 @@ exports[`<Video> when {source} (youtube) 1`] = `
       source={
         Object {
           "html": "<iframe
-              frameBorder={0}
+              allowtransparency=\\"true\\"
+              frameBorder=\\"0\\"
               src=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0&autoplay=0\\"
-              style=\\"margin: 0; padding: 0;\\"
-              title={embed}
+              height=\\"226\\"
+              style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+              title=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0\\"
+              width=\\"428\\"
             />",
         }
       }
@@ -348,13 +348,11 @@ exports[`<Video> when {source} (youtube) 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
-            "backgroundColor": "orange",
+            "flex": 1,
             "height": 226,
-            "margin": 0,
             "maxHeight": 226,
             "maxWidth": 428,
             "overflow": "hidden",
-            "padding": 0,
             "width": 428,
           },
         ]
@@ -426,7 +424,7 @@ exports[`<Video> when {source} 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
-              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -441,13 +439,11 @@ exports[`<Video> when {source} 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
-            "backgroundColor": "orange",
+            "flex": 1,
             "height": 226,
-            "margin": 0,
             "maxHeight": 226,
             "maxWidth": 428,
             "overflow": "hidden",
-            "padding": 0,
             "width": 428,
           },
         ]
@@ -519,7 +515,7 @@ exports[`<Video> when {style} 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"undefined\\"
-              style=\\"object-fit: cover; margin: 0; padding: 0;\\"
+              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -534,13 +530,11 @@ exports[`<Video> when {style} 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
-            "backgroundColor": "orange",
+            "flex": 1,
             "height": 226,
-            "margin": 0,
             "maxHeight": 226,
             "maxWidth": 428,
             "overflow": "hidden",
-            "padding": 0,
             "width": 428,
           },
         ]
