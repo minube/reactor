@@ -22,6 +22,11 @@ storiesOf('✅ Markdown', module)
   .addWithJSX('including a <Text> property', () => (
     <Markdown accent>Hello *World*</Markdown>
   ))
+  .addWithJSX('style container', () => (
+    <Markdown styleContainer={{ width: 192, backgroundColor: THEME.COLOR.PRIMARY, padding: 16 }}>
+      Lorem Ipsum is **simply dummy** text of the printing and typesetting *industry.*
+    </Markdown>
+  ))
   .addWithJSX('🏀 Playground', () => (
     <ResponsiveView>
       <Markdown>
