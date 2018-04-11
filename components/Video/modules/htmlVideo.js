@@ -1,10 +1,13 @@
+import { THEME } from '../../../common';
 import embedUrl from './embedUrl';
+
+const { COLOR: { CONTENT } } = THEME;
 
 export default ({
   autoPlay, controls, height, loop, source, muted, width,
 }) => {
   const embed = embedUrl(source);
-  const css = 'background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;';
+  const css = 'position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;';
 
   return !embed
     ?
@@ -14,7 +17,7 @@ export default ({
       playsinline
       preload="true"
       src="${source}"
-      style="object-fit: cover; ${css}"
+      style="object-fit: cover; background: ${CONTENT}; ${css}"
       webkit-playsinline
       width="100%"
     />`
@@ -24,7 +27,7 @@ export default ({
       frameBorder="0"
       src="${embed}&autoplay=${autoPlay ? 1 : 0}"
       height="${height}"
-      style="${css}"
+      style="background: transparent; ${css}"
       title="${embed}"
       width="${width}"
     />`;

@@ -33,7 +33,7 @@ class Video extends Component {
     const {
       _onLoad,
       props: {
-        autoPlay, controls, height, source, style, width, ...inherit
+        autoPlay, controls, height, onLoad, source, style, width, ...inherit
       },
       state: { ready },
     } = this;
@@ -47,7 +47,7 @@ class Video extends Component {
         pointerEvents={!controls && autoPlay ? 'none' : undefined}
         style={StyleSheet.flatten([styles.container, dimensions, !ready && styles.loading, style])}
       >
-        { !ready && <Activity size="large" style={styles.activity} /> }
+        { isWeb && !ready && <Activity size="large" style={styles.activity} /> }
 
         { isWeb && !embed &&
           <video
@@ -81,7 +81,7 @@ class Video extends Component {
             mediaPlaybackRequiresUserAction={false}
             scalesPageToFit={false}
             scrollEnabled={false}
-            onLoad={_onLoad}
+            onLoadStart={onLoad}
             source={{ html: htmlVideo(this.props) }}
             style={StyleSheet.flatten([styles.webView, dimensions])}
           /> }

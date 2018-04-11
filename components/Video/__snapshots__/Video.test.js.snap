@@ -18,18 +18,6 @@ exports[`<Video> renders 1`] = `
     }
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#dbdbdb"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Object {
-        "alignSelf": "center",
-        "position": "absolute",
-      }
-    }
-  />
   <View
     style={
       Object {
@@ -62,7 +50,7 @@ exports[`<Video> renders 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"undefined\\"
-              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -77,6 +65,7 @@ exports[`<Video> renders 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
+            "backgroundColor": "#CDD2D4",
             "flex": 1,
             "height": 226,
             "maxHeight": 226,
@@ -109,18 +98,6 @@ exports[`<Video> when {autoplay} 1`] = `
     }
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#dbdbdb"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Object {
-        "alignSelf": "center",
-        "position": "absolute",
-      }
-    }
-  />
   <View
     style={
       Object {
@@ -153,7 +130,7 @@ exports[`<Video> when {autoplay} 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
-              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -168,6 +145,7 @@ exports[`<Video> when {autoplay} 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
+            "backgroundColor": "#CDD2D4",
             "flex": 1,
             "height": 226,
             "maxHeight": 226,
@@ -200,18 +178,6 @@ exports[`<Video> when {source} (vimeo) 1`] = `
     }
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#dbdbdb"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Object {
-        "alignSelf": "center",
-        "position": "absolute",
-      }
-    }
-  />
   <View
     style={
       Object {
@@ -258,6 +224,7 @@ exports[`<Video> when {source} (vimeo) 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
+            "backgroundColor": "#CDD2D4",
             "flex": 1,
             "height": 226,
             "maxHeight": 226,
@@ -290,18 +257,6 @@ exports[`<Video> when {source} (youtube) 1`] = `
     }
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#dbdbdb"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Object {
-        "alignSelf": "center",
-        "position": "absolute",
-      }
-    }
-  />
   <View
     style={
       Object {
@@ -348,6 +303,7 @@ exports[`<Video> when {source} (youtube) 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
+            "backgroundColor": "#CDD2D4",
             "flex": 1,
             "height": 226,
             "maxHeight": 226,
@@ -380,18 +336,6 @@ exports[`<Video> when {source} 1`] = `
     }
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#dbdbdb"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Object {
-        "alignSelf": "center",
-        "position": "absolute",
-      }
-    }
-  />
   <View
     style={
       Object {
@@ -424,7 +368,7 @@ exports[`<Video> when {source} 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
-              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -439,6 +383,7 @@ exports[`<Video> when {source} 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
+            "backgroundColor": "#CDD2D4",
             "flex": 1,
             "height": 226,
             "maxHeight": 226,
@@ -471,18 +416,6 @@ exports[`<Video> when {style} 1`] = `
     }
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#dbdbdb"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Object {
-        "alignSelf": "center",
-        "position": "absolute",
-      }
-    }
-  />
   <View
     style={
       Object {
@@ -515,7 +448,7 @@ exports[`<Video> when {style} 1`] = `
               playsinline
               preload=\\"true\\"
               src=\\"undefined\\"
-              style=\\"object-fit: cover; background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
               webkit-playsinline
               width=\\"100%\\"
             />",
@@ -530,6 +463,7 @@ exports[`<Video> when {style} 1`] = `
             "backgroundColor": "#ffffff",
           },
           Object {
+            "backgroundColor": "#CDD2D4",
             "flex": 1,
             "height": 226,
             "maxHeight": 226,

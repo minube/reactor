@@ -18,7 +18,7 @@ if (typeof global.self === 'undefined') global.self = global;
 
 const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
 const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
-const youtube = 'https://www.youtube.com/embed/cx4MxQcD8Fk?title=0';
+const youtube = 'https://www.youtube.com/cx4MxQcD8Fk';
 const vimeo = 'https://player.vimeo.com/video/225434434';
 
 const styles = StyleSheet.create({
@@ -63,7 +63,14 @@ export default class App extends Component {
           <Text bold large>{PKG.name}</Text>
           <Text bold tiny>{PKG.version}</Text>
         </View>
-        <Video autoPlay loop height={200} width={320} source={video} />
+        <Video
+          autoPlay
+          loop
+          height={200}
+          width={320}
+          source={video}
+          onLoad={() => console.log('onload')}
+        />
       </View>
     );
   }
