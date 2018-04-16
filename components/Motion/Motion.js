@@ -15,13 +15,14 @@ class Motion extends PureComponent {
   }
 
   componentWillReceiveProps({
-    useNativeDriver = this.props.useNativeDriver,
-    type = this.props.type,
     delay = this.props.delay,
+    disabled = this.props.disabled,
     duration = this.props.duration,
+    type = this.props.type,
+    useNativeDriver = this.props.useNativeDriver,
     value = this.props.duration || 0,
   }) {
-    if (!useNativeDriver && value !== this.props.value) {
+    if (!disabled && !useNativeDriver && value !== this.props.value) {
       Animated[type](this.state.value, { toValue: value, delay, duration }).start();
     }
   }
@@ -29,28 +30,30 @@ class Motion extends PureComponent {
   render() {
     const {
       props: {
-        children, delay, duration, property, style, type, useNativeDriver,
+        children, delay, disabled, duration, property, style, type, useNativeDriver,
       },
       state: { value },
     } = this;
-    const View = useNativeDriver ? ViewNative : Animated.View;
+    const View = !disabled && useNativeDriver ? ViewNative : Animated.View;
     const isTransform = TRANSFORM_PROPERTIES.includes(property);
     const transitionValue = useNativeDriver ? this.props.value : value;
     const transitionProperty = isTransform ? 'transform' : property;
 
+    const styleMotion = !disabled
+      ?
+      StyleSheet.flatten([
+        property && useNativeDriver && {
+          transitionProperty,
+          transitionDelay: `${delay}ms`,
+          transitionDuration: `${duration}ms`,
+          transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
+        },
+        property && { [transitionProperty]: isTransform ? [{ [property]: transitionValue }] : transitionValue },
+      ])
+      : undefined;
+
     return (
-      <View
-        style={StyleSheet.flatten([
-          style,
-          property && useNativeDriver && {
-            transitionProperty,
-            transitionDelay: `${delay}ms`,
-            transitionDuration: `${duration}ms`,
-            transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
-          },
-          property && { [transitionProperty]: isTransform ? [{ [property]: transitionValue }] : transitionValue },
-        ])}
-      >
+      <View style={StyleSheet.flatten([style, styleMotion])}>
         { children }
       </View>
     );
@@ -60,6 +63,7 @@ class Motion extends PureComponent {
 Motion.propTypes = {
   children: node,
   delay: number,
+  disabled: bool,
   duration: number,
   property: string,
   style: oneOfType([array, number, object]),
@@ -71,6 +75,7 @@ Motion.propTypes = {
 Motion.defaultProps = {
   children: undefined,
   delay: 0,
+  disabled: false,
   duration: 500,
   property: undefined,
   style: [],

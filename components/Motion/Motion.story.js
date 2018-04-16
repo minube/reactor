@@ -24,6 +24,7 @@ storiesOf('✅ Motion', module)
     <ResponsiveView>
       <Motion
         delay={number('delay', 0)}
+        disabled={boolean('disabled', false)}
         duration={number('duration', 500)}
         property={select('property', PROPERTIES, 'scale')}
         type={select('type', ['spring', 'timing'], 'spring')}

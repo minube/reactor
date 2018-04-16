@@ -31,6 +31,11 @@ describe('<Motion>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {disabled}', () => {
+    const tree = renderer.create(<Motion property="left" disabled />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {value}', () => {
     const tree = renderer.create(<Motion property="left" value={128} />).toJSON();
     expect(tree).toMatchSnapshot();
