@@ -10,4 +10,9 @@ export default {
     textColor: string,
     value: number,
   },
+
+  MOTION: {
+    property: string,
+    value: number,
+  },
 };
