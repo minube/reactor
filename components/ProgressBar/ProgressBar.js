@@ -30,8 +30,9 @@ class ProgressBar extends PureComponent {
       >
         <Motion
           style={[styles.progress, { backgroundColor: inherit.color || COLOR.PRIMARY }]}
-          property="width"
-          value={progress * layoutWidth}
+          timeline={[
+            { property: 'width', value: progress * layoutWidth },
+          ]}
           type="timing"
         />
       </View>
