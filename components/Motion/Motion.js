@@ -3,12 +3,7 @@ import React, { PureComponent } from 'react';
 import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native';
 
 import { SHAPE } from '../../common';
-
-const SPRING = 'spring';
-const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
-const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY'];
-
-const isTransform = prop => TRANSFORM_PROPERTIES.includes(prop);
+import buildStyle from './modules/buildStyle';
 
 class Motion extends PureComponent {
   constructor(props) {
@@ -16,8 +11,9 @@ class Motion extends PureComponent {
 
     const { useNativeDriver, timeline = [] } = props;
     const state = {};
-
-    timeline.forEach(key => state[key.property] = new Animated.Value(useNativeDriver ? 0 : key.value));
+    timeline.forEach((key) => {
+      state[key.property] = new Animated.Value(useNativeDriver ? 0 : key.value);
+    });
 
     this.state = { ...state };
   }
@@ -39,43 +35,12 @@ class Motion extends PureComponent {
 
   render() {
     const {
-      props: {
-        children, delay, disabled, duration, style, type, useNativeDriver, timeline = [],
-      },
-      state,
-    } = this;
-
+      children, disabled, style, useNativeDriver,
+    } = this.props;
     const View = !disabled && useNativeDriver ? ViewNative : Animated.View;
 
-    let values = {};
-    timeline.forEach((key) => {
-      const v = useNativeDriver ? key.value : state[key.property];
-
-      values = {
-        ...values,
-        ...(
-          isTransform(key.property)
-            ? { transform: [{ [key.property]: v }] }
-            : { [key.property]: v }
-        ),
-      };
-    });
-
-    const styleMotion = !disabled
-      ?
-      StyleSheet.flatten([
-        useNativeDriver && {
-          transitionProperty: Object.keys(values).join(', '),
-          transitionDelay: `${delay}ms`,
-          transitionDuration: `${duration}ms`,
-          transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
-        },
-        values,
-      ])
-      : undefined;
-
     return (
-      <View style={StyleSheet.flatten([style, styleMotion])}>
+      <View style={StyleSheet.flatten([style, !disabled && buildStyle(this)])}>
         { children }
       </View>
     );
@@ -100,7 +65,7 @@ Motion.defaultProps = {
   duration: 500,
   style: [],
   timeline: undefined,
-  type: SPRING,
+  type: 'spring',
   useNativeDriver: Platform.OS === 'web',
 };
 
