@@ -1,59 +1,46 @@
-import { array, bool, node, object, oneOfType, string, number } from 'prop-types';
+import { array, arrayOf, bool, node, object, oneOfType, shape, string, number } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native';
 
-const SPRING = 'spring';
-const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
-const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY'];
+import { SHAPE } from '../../common';
+import buildStyle from './modules/buildStyle';
 
 class Motion extends PureComponent {
   constructor(props) {
     super(props);
-    this.state = {
-      value: new Animated.Value(props.useNativeDriver ? 0 : props.value),
-    };
+
+    const { useNativeDriver, timeline = [] } = props;
+    const state = {};
+    timeline.forEach((key) => {
+      state[key.property] = new Animated.Value(useNativeDriver ? 0 : key.value);
+    });
+
+    this.state = { ...state };
   }
 
   componentWillReceiveProps({
     delay = this.props.delay,
     disabled = this.props.disabled,
     duration = this.props.duration,
+    timeline = this.props.timeline,
     type = this.props.type,
     useNativeDriver = this.props.useNativeDriver,
-    value = this.props.duration || 0,
   }) {
-    if (!disabled && !useNativeDriver && value !== this.props.value) {
-      Animated[type](this.state.value, { toValue: value, delay, duration }).start();
-    }
+    if (disabled || useNativeDriver) return;
+
+    const motions = timeline.map(key =>
+      Animated[type](this.state[key.property], { toValue: key.value, delay, duration }).start());
+    Animated.parallel(motions).start();
   }
 
   render() {
     const {
-      props: {
-        children, delay, disabled, duration, property, style, type, useNativeDriver,
-      },
-      state: { value },
-    } = this;
+      children, disabled, style, useNativeDriver,
+    } = this.props;
     const View = !disabled && useNativeDriver ? ViewNative : Animated.View;
-    const isTransform = TRANSFORM_PROPERTIES.includes(property);
-    const transitionValue = useNativeDriver ? this.props.value : value;
-    const transitionProperty = isTransform ? 'transform' : property;
-
-    const styleMotion = !disabled
-      ?
-      StyleSheet.flatten([
-        property && useNativeDriver && {
-          transitionProperty,
-          transitionDelay: `${delay}ms`,
-          transitionDuration: `${duration}ms`,
-          transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
-        },
-        property && { [transitionProperty]: isTransform ? [{ [property]: transitionValue }] : transitionValue },
-      ])
-      : undefined;
 
     return (
-      <View style={StyleSheet.flatten([style, styleMotion])}>
+      <View style={StyleSheet.flatten([style, !disabled && buildStyle(this)])}>
         { children }
       </View>
     );
@@ -65,11 +52,10 @@ Motion.propTypes = {
   delay: number,
   disabled: bool,
   duration: number,
-  property: string,
   style: oneOfType([array, number, object]),
+  timeline: arrayOf(shape(SHAPE.MOTION)),
   type: string,
   useNativeDriver: bool,
-  value: number,
 };
 
 Motion.defaultProps = {
@@ -77,11 +63,10 @@ Motion.defaultProps = {
   delay: 0,
   disabled: false,
   duration: 500,
-  property: undefined,
   style: [],
-  type: SPRING,
+  timeline: undefined,
+  type: 'spring',
   useNativeDriver: Platform.OS === 'web',
-  value: 0,
 };
 
 export default Motion;
