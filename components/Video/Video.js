@@ -33,7 +33,7 @@ class Video extends Component {
     const {
       _onLoad,
       props: {
-        autoPlay, controls, height, onLoad, source, style, width, ...inherit
+        autoPlay, controls, height, onLoad, preload, source, style, width, ...inherit
       },
       state: { ready },
     } = this;
@@ -56,7 +56,7 @@ class Video extends Component {
             autoPlay={autoPlay}
             controls={controls ? 'true' : undefined}
             onLoadedData={_onLoad}
-            preload="true"
+            preload={preload ? 'auto' : 'none'}
             style={{ objectFit: 'cover', width, height }}
           >
             <source src={source} />
@@ -95,6 +95,7 @@ Video.propTypes = {
   controls: bool,
   height: number,
   onLoad: func,
+  preload: bool,
   source: string.isRequired,
   style: oneOfType([array, number, object]),
   width: number,
@@ -105,6 +106,7 @@ Video.defaultProps = {
   controls: false,
   height: 226,
   onLoad() {},
+  preload: false,
   style: [],
   width: 428,
 };

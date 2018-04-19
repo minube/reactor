@@ -36,6 +36,9 @@ storiesOf('✅ Video', module)
   .addWithJSX('⚡ onLoad (only web)', () => (
     <Video onLoad={action('Video.onLoad()')} source={VIDEO_PLACEHOLDER} />
   ))
+  .addWithJSX('preload', () => (
+    <Video preload source={VIDEO_PLACEHOLDER} />
+  ))
   .addWithJSX('style', () => (
     <Video source={VIDEO_PLACEHOLDER} style={VIDEO_STYLE} />
   ))
@@ -45,6 +48,7 @@ storiesOf('✅ Video', module)
         autoplay={boolean('autoplay', true)}
         controls={boolean('controls', false)}
         height={number('height', 226)}
+        preload={boolean('preload', false)}
         source={text('source', VIDEO_PLACEHOLDER)}
         style={object('style', VIDEO_STYLE, 'video-style')}
         width={number('width', 428)}
