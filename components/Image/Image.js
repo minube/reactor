@@ -1,8 +1,12 @@
+import { bool, number } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Image as ImageNative, StyleSheet, View } from 'react-native';
 
+import { LAYOUT } from '../../common';
 import Activity from '../Activity';
 import styles from './Image.style';
+
+const AKAMAI_DOMAIN = 'imgs-akamai.mnstatic.com';
 
 class Image extends PureComponent {
   state = {
@@ -19,21 +23,36 @@ class Image extends PureComponent {
   render() {
     const {
       _onLoad,
-      props: { ...inherit },
+      props: { ratio, responsive, ...inherit },
       state: { ready },
     } = this;
+    let { source: { uri } = {} } = inherit;
+
+    if (responsive && uri && uri.includes(AKAMAI_DOMAIN)) {
+      uri = `${uri}?fit=around|${LAYOUT.VIEWPORT.W / ratio}:${LAYOUT.VIEWPORT.H / ratio}`;
+    }
 
     return (
       <View style={StyleSheet.flatten([styles.container, inherit.style])}>
-        <ImageNative {...inherit} onLoad={_onLoad} />
+        <ImageNative
+          {...inherit}
+          source={uri ? { uri } : undefined}
+          onLoad={_onLoad}
+        />
         { !ready && <Activity color="white" size={inherit.size || 'large'} style={styles.activity} /> }
       </View>
     );
   }
 }
 
-Image.propTypes = {};
+Image.propTypes = {
+  ratio: number,
+  responsive: bool,
+};
 
-Image.defaultProps = {};
+Image.defaultProps = {
+  ratio: 1,
+  responsive: false,
+};
 
 export default Image;
