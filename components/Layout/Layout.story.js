@@ -4,17 +4,18 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withState } from '@dump247/storybook-state';
 
+import { LAYOUT } from '../../common';
 import LayoutView, { LayoutStyle } from './Layout';
 import Text from '../Text';
 
-storiesOf('✅ LayoutView', module)
+storiesOf('✅ Layout', module)
   .addWithJSX('default', () => (
     <LayoutView />
   ))
   .addWithJSX('⚡ onLayout', () => (
     <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
-  .addWithJSX('🏀 Playground', withState({ timestamp: new Date() }, store => (
+  .addWithJSX('🏀 Using <LayoutStyle>', withState({ timestamp: new Date() }, store => (
     <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
       <Text bold large>VIEWPORT</Text>
 
@@ -34,6 +35,21 @@ storiesOf('✅ LayoutView', module)
           </View>
         }
       </LayoutStyle>
+    </LayoutView>
+  )))
+  .addWithJSX('🏀 Using LAYOUT', withState({ timestamp: new Date() }, store => (
+    <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
+      <Text bold large>VIEWPORT</Text>
+      <Text small>{`${LAYOUT.VIEWPORT.W} x ${LAYOUT.VIEWPORT.H}`}</Text>
+      { LAYOUT.VIEWPORT.PORTRAIT && <Text tiny>PORTRAIT</Text> }
+      { LAYOUT.VIEWPORT.LANDSCAPE && <Text tiny>LANDSCAPE</Text> }
+      { LAYOUT.VIEWPORT.IPHONEX && <Text tiny>IPHONEX</Text> }
+      { LAYOUT.VIEWPORT.TINY && <Text tiny>TINY</Text> }
+      { LAYOUT.VIEWPORT.PHONE && <Text tiny>PHONE</Text> }
+      { LAYOUT.VIEWPORT.TABLET && <Text tiny>TABLET</Text> }
+      { LAYOUT.VIEWPORT.SMALL && <Text tiny>SMALL</Text> }
+      { LAYOUT.VIEWPORT.REGULAR && <Text tiny>REGULAR</Text> }
+      { LAYOUT.VIEWPORT.LARGE && <Text tiny>LARGE</Text> }
     </LayoutView>
   )));
 
