@@ -1,32 +1,50 @@
 import { func, node } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { createContext, PureComponent } from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 
+const Context = createContext();
+const { Provider, Consumer: ResponsiveStyle } = Context;
+
 class ResponsiveView extends PureComponent {
+  state = {
+    key: undefined,
+    style: LAYOUT.STYLE,
+    viewport: LAYOUT.VIEWPORT,
+  }
+
+  _onLayout = () => {
+    const { props: { onLayout } } = this;
+
+    LAYOUT.calc();
+    const { STYLE, VIEWPORT } = LAYOUT;
+    onLayout(VIEWPORT);
+
+    const key = `${VIEWPORT.W}x${VIEWPORT.H}`;
+    if (this.state && this.state.key === key) return;
+
+    this.setState({
+      key,
+      style: STYLE,
+      viewport: VIEWPORT,
+    });
+    // this.forceUpdate(); // @TODO: React fiber
+  }
+
   render() {
     const {
-      children, onLayout, ...inherit
-    } = this.props;
+      _onLayout,
+      props: { children, onLayout, ...inherit },
+      state: { key, style, viewport },
+    } = this;
 
     return (
-      <View
-        {...inherit}
-        key={this.state && this.state.viewport}
-        onLayout={() => {
-          LAYOUT.calc();
-          onLayout(LAYOUT.VIEWPORT);
-
-          const viewport = `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`;
-          if (this.state && this.state.viewport === viewport) return;
-
-          this.setState({ viewport });
-          // this.forceUpdate(); @TODO: React fiber
-        }}
-      >
-        {children}
-      </View>
+      <Provider value={{ style, viewport }}>
+        <View {...inherit} key={key} onLayout={_onLayout}>
+          {children}
+        </View>
+      </Provider>
     );
   }
 }
@@ -40,5 +58,7 @@ ResponsiveView.defaultProps = {
   children: undefined,
   onLayout() {},
 };
+
+export { ResponsiveStyle };
 
 export default ResponsiveView;
