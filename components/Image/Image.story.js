@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Image from './Image';
 
 const IMAGE_PLACEHOLDER = 'https://picsum.photos/320/200/?random';
@@ -32,7 +32,7 @@ storiesOf('✅ Image', module)
     <Image onLoad={action('Image.onLoad()')} source={{ uri: IMAGE_PLACEHOLDER }} style={DEFAULT_STYLE} />
   ))
   .addWithJSX('style', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Image
         source={{ uri: IMAGE_PLACEHOLDER }}
         style={{
@@ -41,5 +41,5 @@ storiesOf('✅ Image', module)
           width: 128,
         }}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));

@@ -8,7 +8,7 @@ import { THEME, STYLE } from '../../common';
 import Button from '../Button';
 import Price from '../Price';
 import Text from '../Text';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import ListingCard from './ListingCard';
 
 const { COLOR, UNIT } = THEME;
@@ -62,7 +62,7 @@ storiesOf('✅ ListingCard', module)
     <ListingCard style={{ backgroundColor: COLOR.PRIMARY, paddingTop: UNIT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <ListingCard
         category={text('category', 'category')}
         description={text('description', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')}
@@ -71,6 +71,6 @@ storiesOf('✅ ListingCard', module)
         rating={object('rating', RATING, 'listingcard-rating')}
         title={text('title', 'title')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));
 

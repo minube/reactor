@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, color, object, text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Heading from './Heading';
 
 const BREADCRUMBS = [
@@ -69,7 +69,7 @@ storiesOf('🛠 Heading', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Heading
         breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
         color={color('color', THEME.COLOR.TEXT)}
@@ -78,6 +78,6 @@ storiesOf('🛠 Heading', module)
         rating={object('rating', RATING, 'heading-rating')}
         title={text('title', 'Actividades en España')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));
 

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, color, number } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import ProgressBar from './ProgressBar';
 
 storiesOf('✅ ProgressBar', module)
@@ -23,12 +23,12 @@ storiesOf('✅ ProgressBar', module)
     <ProgressBar progress={0.5} style={{ borderRadius: THEME.OFFSET / 2, height: THEME.OFFSET }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView style={{ width: '100%' }}>
+    <LayoutView style={{ width: '100%' }}>
       <ProgressBar
         progress={number('progress', 0.5)}
         indeterminate={boolean('indeterminate', false)}
         color={color('color', THEME.COLOR.ACCENT)}
         trackColor={color('trackColor', THEME.COLOR.BACKGROUND)}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));

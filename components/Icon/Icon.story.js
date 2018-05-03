@@ -4,7 +4,7 @@ import { WithNotes } from '@storybook/addon-notes';
 import { boolean, color, number, select } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Icon from './Icon';
 
 storiesOf('✅ Icon', module)
@@ -34,13 +34,13 @@ storiesOf('✅ Icon', module)
     <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Icon
         size={number('size', THEME.FONT.SIZE.LARGE)}
         color={color('color', THEME.COLOR.TEXT)}
         invert={boolean('invert', false)}
         value={select('value', ['base', 'apps', 'left', 'options', 'right'], 'base')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));
 

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean } from '@storybook/addon-knobs/react';
 
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Dialog from './Dialog';
 import Text from '../Text';
 
@@ -37,7 +37,7 @@ storiesOf('🛠 Dialog', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Dialog
         background={boolean('background', true)}
         title={text('title', 'Title')}
@@ -47,5 +47,5 @@ storiesOf('🛠 Dialog', module)
       >
         <Text>Example of children</Text>
       </Dialog>
-    </ResponsiveView>
+    </LayoutView>
   ));

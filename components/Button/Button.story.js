@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color } from '@storybook/addon-knobs/react';
 
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Button from './Button';
 
 storiesOf('✅ Button', module)
@@ -53,7 +53,7 @@ storiesOf('✅ Button', module)
     <Button title="Press me" style={{ backgroundColor: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Button
         accent={boolean('accent', false)}
         activity={boolean('activity', false)}
@@ -68,6 +68,6 @@ storiesOf('✅ Button', module)
         small={boolean('small', false)}
         title={text('title', 'Touch me')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));
 
