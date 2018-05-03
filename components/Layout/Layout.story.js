@@ -4,21 +4,21 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { withState } from '@dump247/storybook-state';
 
-import ResponsiveView, { ResponsiveStyle } from './ResponsiveView';
+import LayoutView, { LayoutStyle } from './Layout';
 import Text from '../Text';
 
-storiesOf('✅ ResponsiveView', module)
+storiesOf('✅ LayoutView', module)
   .addWithJSX('default', () => (
-    <ResponsiveView />
+    <LayoutView />
   ))
   .addWithJSX('⚡ onLayout', () => (
-    <ResponsiveView onLayout={action('ResponsiveView.onLayout()')} />
+    <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
   .addWithJSX('🏀 Playground', withState({ timestamp: new Date() }, store => (
-    <ResponsiveView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
+    <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
       <Text bold large>VIEWPORT</Text>
 
-      <ResponsiveStyle>
+      <LayoutStyle>
         {({ viewport }) =>
           <View>
             <Text small>{`${viewport.W} x ${viewport.H}`}</Text>
@@ -33,7 +33,7 @@ storiesOf('✅ ResponsiveView', module)
             { viewport.LARGE && <Text tiny>LARGE</Text> }
           </View>
         }
-      </ResponsiveStyle>
-    </ResponsiveView>
+      </LayoutStyle>
+    </LayoutView>
   )));
 

@@ -5,9 +5,9 @@ import { View } from 'react-native';
 import { LAYOUT } from '../../common';
 
 const Context = createContext();
-const { Provider, Consumer: ResponsiveStyle } = Context;
+const { Provider, Consumer: LayoutStyle } = Context;
 
-class ResponsiveView extends PureComponent {
+class LayoutView extends PureComponent {
   state = {
     key: undefined,
     style: LAYOUT.STYLE,
@@ -22,7 +22,7 @@ class ResponsiveView extends PureComponent {
     onLayout(VIEWPORT);
 
     const key = `${VIEWPORT.W}x${VIEWPORT.H}`;
-    if (this.state && this.state.key === key) return;
+    if (this.state.key === key) return;
 
     this.setState({
       key,
@@ -49,16 +49,16 @@ class ResponsiveView extends PureComponent {
   }
 }
 
-ResponsiveView.propTypes = {
+LayoutView.propTypes = {
   children: node,
   onLayout: func,
 };
 
-ResponsiveView.defaultProps = {
+LayoutView.defaultProps = {
   children: undefined,
   onLayout() {},
 };
 
-export { ResponsiveStyle };
+export { LayoutStyle };
 
-export default ResponsiveView;
+export default LayoutView;
