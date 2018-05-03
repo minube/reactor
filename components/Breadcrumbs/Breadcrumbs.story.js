@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { color, object } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Breadcrumbs from './Breadcrumbs';
 
 const dataSource = [
@@ -34,11 +34,11 @@ storiesOf('✅ Breadcrumbs', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Breadcrumbs
         dataSource={object('dataSource', dataSource, 'heading-dataSource')}
         color={color('color', THEME.COLOR.TEXT)}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));
 

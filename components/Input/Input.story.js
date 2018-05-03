@@ -3,7 +3,7 @@ import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import { text, boolean, select } from '@storybook/addon-knobs/react';
 
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Input from './Input';
 
 storiesOf('🛠 Input', module)
@@ -35,7 +35,7 @@ storiesOf('🛠 Input', module)
     <Input style={{ backgroundColor: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Input
         disabled={boolean('disabled', false)}
         error={text('error', null)}
@@ -43,6 +43,6 @@ storiesOf('🛠 Input', module)
         label={text('label', null)}
         keyboard={select('type', ['default', 'numeric', 'email-address', 'phone-pad'], 'spring')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ))
 

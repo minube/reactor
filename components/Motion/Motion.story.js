@@ -3,7 +3,7 @@ import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { boolean, object, number, select } from '@storybook/addon-knobs/react';
 
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Motion from './Motion';
 
 const style = {
@@ -27,7 +27,7 @@ storiesOf('✅ Motion', module)
     </Motion>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Motion
         delay={number('delay', 0)}
         disabled={boolean('disabled', false)}
@@ -38,5 +38,5 @@ storiesOf('✅ Motion', module)
       >
         <View style={style} />
       </Motion>
-    </ResponsiveView>
+    </LayoutView>
   ));

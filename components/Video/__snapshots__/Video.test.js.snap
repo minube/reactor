@@ -45,15 +45,15 @@ exports[`<Video> renders 1`] = `
       source={
         Object {
           "html": "<video
-                 
-              height=\\"100%\\"
-              playsinline
-              preload=\\"true\\"
-              src=\\"undefined\\"
-              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-              webkit-playsinline
-              width=\\"100%\\"
-            />",
+         
+      height=\\"100%\\"
+      playsinline
+      preload=\\"true\\"
+      src=\\"undefined\\"
+      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      webkit-playsinline
+      width=\\"100%\\"
+    />",
         }
       }
       style={
@@ -125,15 +125,15 @@ exports[`<Video> when {autoplay} 1`] = `
       source={
         Object {
           "html": "<video
-                 
-              height=\\"100%\\"
-              playsinline
-              preload=\\"true\\"
-              src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
-              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-              webkit-playsinline
-              width=\\"100%\\"
-            />",
+         
+      height=\\"100%\\"
+      playsinline
+      preload=\\"true\\"
+      src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
+      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      webkit-playsinline
+      width=\\"100%\\"
+    />",
         }
       }
       style={
@@ -205,14 +205,14 @@ exports[`<Video> when {source} (vimeo) 1`] = `
       source={
         Object {
           "html": "<iframe
-              allowtransparency=\\"true\\"
-              frameBorder=\\"0\\"
-              src=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0&autoplay=0\\"
-              height=\\"226\\"
-              style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-              title=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0\\"
-              width=\\"428\\"
-            />",
+      allowtransparency=\\"true\\"
+      frameBorder=\\"0\\"
+      src=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0&autoplay=0\\"
+      height=\\"226\\"
+      style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      title=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0\\"
+      width=\\"428\\"
+    />",
         }
       }
       style={
@@ -284,14 +284,14 @@ exports[`<Video> when {source} (youtube) 1`] = `
       source={
         Object {
           "html": "<iframe
-              allowtransparency=\\"true\\"
-              frameBorder=\\"0\\"
-              src=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0&autoplay=0\\"
-              height=\\"226\\"
-              style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-              title=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0\\"
-              width=\\"428\\"
-            />",
+      allowtransparency=\\"true\\"
+      frameBorder=\\"0\\"
+      src=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0&autoplay=0\\"
+      height=\\"226\\"
+      style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      title=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0\\"
+      width=\\"428\\"
+    />",
         }
       }
       style={
@@ -363,15 +363,15 @@ exports[`<Video> when {source} 1`] = `
       source={
         Object {
           "html": "<video
-                 
-              height=\\"100%\\"
-              playsinline
-              preload=\\"true\\"
-              src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
-              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-              webkit-playsinline
-              width=\\"100%\\"
-            />",
+         
+      height=\\"100%\\"
+      playsinline
+      preload=\\"true\\"
+      src=\\"http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4\\"
+      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      webkit-playsinline
+      width=\\"100%\\"
+    />",
         }
       }
       style={
@@ -443,15 +443,15 @@ exports[`<Video> when {style} 1`] = `
       source={
         Object {
           "html": "<video
-                 
-              height=\\"100%\\"
-              playsinline
-              preload=\\"true\\"
-              src=\\"undefined\\"
-              style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-              webkit-playsinline
-              width=\\"100%\\"
-            />",
+         
+      height=\\"100%\\"
+      playsinline
+      preload=\\"true\\"
+      src=\\"undefined\\"
+      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      webkit-playsinline
+      width=\\"100%\\"
+    />",
         }
       }
       style={

@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { boolean, color, text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import PictureCard from './index';
 
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
@@ -44,7 +44,7 @@ storiesOf('✅ PictureCard', module)
     <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', opacity: 0.75 }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <PictureCard
         caption={text('caption', 'minube stories')}
         backgroundColor={color('backgroundColor', undefined)}
@@ -54,5 +54,5 @@ storiesOf('✅ PictureCard', module)
         portrait={boolean('portrait', false)}
         title={text('title', 'Una semana en Mallorca')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));

@@ -14,7 +14,7 @@ import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
-import ResponsiveView from './ResponsiveView';
+import LayoutView, { LayoutStyle } from './Layout';
 import Slider from './Slider';
 import Switch from './Switch';
 import Text from './Text';
@@ -37,7 +37,8 @@ export {
   PictureCard,
   Price,
   ProgressBar,
-  ResponsiveView,
+  LayoutStyle,
+  LayoutView,
   Rating,
   Slider,
   Switch,

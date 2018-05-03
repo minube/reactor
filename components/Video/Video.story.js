@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, number, object } from '@storybook/addon-knobs/react';
 
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Video from './Video';
 
 const VIDEO_PLACEHOLDER = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
@@ -43,7 +43,7 @@ storiesOf('✅ Video', module)
     <Video source={VIDEO_PLACEHOLDER} style={VIDEO_STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Video
         autoplay={boolean('autoplay', true)}
         controls={boolean('controls', false)}
@@ -53,5 +53,5 @@ storiesOf('✅ Video', module)
         style={object('style', VIDEO_STYLE, 'video-style')}
         width={number('width', 428)}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));

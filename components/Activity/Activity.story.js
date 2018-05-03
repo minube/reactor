@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, color, select } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import ResponsiveView from '../ResponsiveView';
+import LayoutView from '../Layout';
 import Activity from './Activity';
 
 storiesOf('✅ Activity', module)
@@ -17,12 +17,12 @@ storiesOf('✅ Activity', module)
     <Activity size="large" />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <ResponsiveView>
+    <LayoutView>
       <Activity
         animating={boolean('animating', true)}
         color={color('color', THEME.COLOR.ACCENT)}
         hidesWhenStopped={boolean('hidesWhenStopped', false)}
         size={select('size', ['small', 'large'], 'small')}
       />
-    </ResponsiveView>
+    </LayoutView>
   ));
