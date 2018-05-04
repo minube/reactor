@@ -20,6 +20,7 @@ import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
 import Video from './Video';
+import Viewport from './Viewport';
 
 export {
   Activity,
@@ -45,4 +46,5 @@ export {
   Text,
   Touchable,
   Video,
+  Viewport,
 };
