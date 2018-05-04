@@ -1,17 +1,16 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const {
-  COLOR, FONT, INPUT_HEIGHT, OFFSET, UNIT,
-} = THEME;
+const { COLOR, OFFSET } = THEME;
 
 export default StyleSheet.create({
   container: {
-    width: 375,
-    height: 667,
-    backgroundColor: COLOR.CONTENT,
+    position: 'absolute',
+    top: 0,
+    left: 0,
     overflow: 'hidden',
+    backgroundColor: COLOR.WHITE,
   },
 
   content: {
