@@ -6,25 +6,25 @@ const { COLOR, OFFSET } = THEME;
 
 export default StyleSheet.create({
   container: {
-    position: 'absolute',
-    top: 0,
+    backgroundColor: COLOR.WHITE,
     left: 0,
     overflow: 'hidden',
-    backgroundColor: COLOR.WHITE,
+    position: 'absolute',
+    top: 0,
   },
 
   content: {
-    position: 'absolute',
     height: '100%',
-    width: '100%',
     padding: OFFSET,
+    position: 'absolute',
+    width: '100%',
     zIndex: 0,
   },
 
   buttonBack: {
+    left: OFFSET,
     position: 'absolute',
     top: OFFSET,
-    left: OFFSET,
     zIndex: 1,
   },
 });

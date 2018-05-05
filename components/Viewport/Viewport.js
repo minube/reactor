@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, object, oneOfType } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
+import { View, ScrollView, StyleSheet } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Button from '../Button';
@@ -10,48 +10,34 @@ import styles from './Viewport.style';
 const MOTION_DURATION = 500;
 
 class Viewport extends PureComponent {
-  state = {
-    scroll: 0,
-  }
-
-  _onScroll = ({ nativeEvent: { contentOffset: { y: scroll } } }) => {
-    const { props: { onScroll } } = this;
-    this.setState({ scroll });
-
-    if (onScroll) onScroll(scroll);
-  }
-
   render() {
     const {
-      _onScroll,
       props: {
-        children, onBack, style, styleContent, visible,
+        children, onBack, onScroll, scroll, style, styleContent, visible,
       },
-      state: { scroll },
     } = this;
-
-    const { VIEWPORT: { H: height, W: width } } = LAYOUT;
+    const { VIEWPORT: { LANDSCAPE, H: height, W: width } } = LAYOUT;
+    const Content = scroll ? ScrollView : View;
 
     return (
       <Motion
-        disabled={false}
+        _disabled={LANDSCAPE}
+        duration={MOTION_DURATION / 2}
         style={StyleSheet.flatten([styles.container, { height, width }, style])}
         timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
         type="timing"
       >
-        <Motion
-          delay={MOTION_DURATION / 2}
+        <Content
+          onScroll={({ nativeEvent: { contentOffset: { y } } }) => onScroll(y)}
+          scrollEventThrottle={16}
           style={StyleSheet.flatten([styles.content, styleContent])}
-          timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
         >
-          <ScrollView onScroll={_onScroll}>
-            {children}
-          </ScrollView>
-        </Motion>
+          {children}
+        </Content>
         { onBack &&
           <Motion
             delay={MOTION_DURATION}
-            timeline={[{ property: 'scale', value: (visible && scroll === 0) ? 1 : 0 }]}
+            timeline={[{ property: 'scale', value: visible ? 1 : 0 }]}
             style={styles.buttonBack}
           >
             <Button icon="left" responsive onPress={onBack} />
@@ -65,6 +51,7 @@ Viewport.propTypes = {
   children: node,
   onBack: func,
   onScroll: func,
+  scroll: bool,
   style: oneOfType([array, number, object]),
   styleContent: oneOfType([array, number, object]),
   visible: bool,
@@ -74,6 +61,7 @@ Viewport.defaultProps = {
   children: undefined,
   onBack: undefined,
   onScroll: undefined,
+  scroll: true,
   style: [],
   styleContent: [],
   visible: true,
