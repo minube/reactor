@@ -47,16 +47,14 @@ const calc = ({ width }) => {
       TINY: (() => {
         const fontSize = REGULAR || LARGE ? FONT.SIZE.TINY : UNIT * 1.1;
 
-        return { fontSize, lineHeight: fontSize * 1.1 };
+        return { fontSize, lineHeight: fontSize * 1.15 };
       })(),
 
       SMALL: (() => {
         const fontSize = REGULAR || LARGE ? FONT.SIZE.SMALL : FONT.SIZE.TINY;
 
-        return { fontSize, lineHeight: fontSize * 1.06 };
+        return { fontSize, lineHeight: fontSize * 1.2 };
       })(),
-
-      REGULAR: THEME.REGULAR,
 
       LARGE: (() => {
         let fontSize = FONT.SIZE.LARGE;
@@ -64,7 +62,7 @@ const calc = ({ width }) => {
         if (PHONE || SMALL) fontSize = FONT.SIZE.REGULAR;
         if (TABLET || REGULAR) fontSize = UNIT * 1.8;
 
-        return { fontSize, lineHeight: fontSize * 1.06 };
+        return { fontSize, lineHeight: fontSize * 1.3 };
       })(),
 
       LARGE_SHORT: (() => {
@@ -73,7 +71,7 @@ const calc = ({ width }) => {
         if (PHONE || SMALL) fontSize = FONT.SIZE.LARGE;
         if (TABLET || REGULAR) fontSize = UNIT * 2.6;
 
-        return { fontSize, lineHeight: fontSize * 1.06 };
+        return { fontSize, lineHeight: fontSize * 1.3 };
       })(),
 
       TITLE: (() => {

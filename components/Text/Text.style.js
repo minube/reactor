@@ -27,6 +27,7 @@ export default StyleSheet.create({
     color: COLOR.TEXT,
     fontFamily: FONT.FAMILY,
     fontSize: FONT.SIZE.REGULAR,
+    lineHeight: FONT.SIZE.REGULAR * 1.3,
   },
 
   italic: {
