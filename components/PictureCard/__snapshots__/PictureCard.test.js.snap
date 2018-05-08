@@ -280,7 +280,7 @@ exports[`<PictureCard> when {caption} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 12,
-              "lineHeight": 13.200000000000001,
+              "lineHeight": 13.799999999999999,
               "textAlign": "center",
             }
           }
@@ -760,7 +760,7 @@ exports[`<PictureCard> when {title} 1`] = `
               "fontFamily": undefined,
               "fontSize": 18,
               "fontWeight": "bold",
-              "lineHeight": 19.080000000000002,
+              "lineHeight": 23.400000000000002,
               "marginBottom": 5,
               "textAlign": "center",
             }

@@ -286,7 +286,7 @@ exports[`<Rating> when {color} 1`] = `
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.200000000000001,
+        "lineHeight": 13.799999999999999,
       }
     }
   >
@@ -394,7 +394,7 @@ exports[`<Rating> when {count} 1`] = `
         "color": "#9b9b9b",
         "fontFamily": undefined,
         "fontSize": 12,
-        "lineHeight": 13.200000000000001,
+        "lineHeight": 13.799999999999999,
       }
     }
   >
@@ -503,7 +503,7 @@ exports[`<Rating> when {showValue} 1`] = `
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.200000000000001,
+        "lineHeight": 13.799999999999999,
       }
     }
   >
@@ -721,7 +721,7 @@ exports[`<Rating> when {textColor} 1`] = `
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.200000000000001,
+        "lineHeight": 13.799999999999999,
       }
     }
   >
@@ -830,7 +830,7 @@ exports[`<Rating> when {value} 1`] = `
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.200000000000001,
+        "lineHeight": 13.799999999999999,
       }
     }
   >

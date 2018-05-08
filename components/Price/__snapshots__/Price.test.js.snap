@@ -20,7 +20,7 @@ exports[`<Price> renders 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
             "scale": 0.75,
@@ -41,7 +41,7 @@ exports[`<Price> renders 1`] = `
         "fontFamily": undefined,
         "fontSize": 18,
         "fontWeight": "bold",
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
       }
     }
   >
@@ -70,7 +70,7 @@ exports[`<Price> when {fixed} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
             "scale": 0.75,
@@ -91,7 +91,7 @@ exports[`<Price> when {fixed} 1`] = `
         "fontFamily": undefined,
         "fontSize": 18,
         "fontWeight": "bold",
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
       }
     }
   >
@@ -120,7 +120,7 @@ exports[`<Price> when {style} 1`] = `
         "color": "orange",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
             "scale": 0.75,
@@ -141,7 +141,7 @@ exports[`<Price> when {style} 1`] = `
         "fontFamily": undefined,
         "fontSize": 14,
         "fontWeight": "bold",
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
       }
     }
   >
@@ -170,7 +170,7 @@ exports[`<Price> when {symbol} (left) 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
             "scale": 0.75,
@@ -191,7 +191,7 @@ exports[`<Price> when {symbol} (left) 1`] = `
         "fontFamily": undefined,
         "fontSize": 18,
         "fontWeight": "bold",
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
       }
     }
   >
@@ -220,7 +220,7 @@ exports[`<Price> when {symbol} (right) 1`] = `
         "fontFamily": undefined,
         "fontSize": 18,
         "fontWeight": "bold",
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
       }
     }
   >
@@ -236,6 +236,7 @@ exports[`<Price> when {symbol} (right) 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 16,
+        "lineHeight": 20.8,
         "transform": Array [
           Object {
             "scale": 0.75,
@@ -269,7 +270,7 @@ exports[`<Price> when {value} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
             "scale": 0.75,
@@ -290,7 +291,7 @@ exports[`<Price> when {value} 1`] = `
         "fontFamily": undefined,
         "fontSize": 18,
         "fontWeight": "bold",
-        "lineHeight": 19.080000000000002,
+        "lineHeight": 23.400000000000002,
       }
     }
   >

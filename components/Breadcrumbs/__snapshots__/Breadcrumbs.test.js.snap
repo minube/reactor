@@ -36,7 +36,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         "color": "#10c0bc",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
       }
     }
@@ -57,7 +57,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         "color": "#10c0bc",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
       }
     }
@@ -78,7 +78,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         "color": "#10c0bc",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
       }
     }
@@ -112,7 +112,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
       }
     }
@@ -133,7 +133,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
       }
     }
@@ -154,7 +154,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 14,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
       }
     }
@@ -189,7 +189,7 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 16,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
         "padding": 16,
       }
@@ -212,7 +212,7 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 16,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
         "padding": 16,
       }
@@ -235,7 +235,7 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 16,
-        "lineHeight": 14.84,
+        "lineHeight": 16.8,
         "marginRight": 4.444444444444445,
         "padding": 16,
       }

@@ -257,7 +257,7 @@ exports[`<ListingCard> when {category} 1`] = `
             "color": "#9b9b9b",
             "fontFamily": undefined,
             "fontSize": 12,
-            "lineHeight": 13.200000000000001,
+            "lineHeight": 13.799999999999999,
           }
         }
       >
@@ -444,6 +444,7 @@ exports[`<ListingCard> when {children} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 12,
                 "fontWeight": "600",
+                "lineHeight": 20.8,
               }
             }
           >
@@ -588,7 +589,7 @@ exports[`<ListingCard> when {description} 1`] = `
             "color": "#9b9b9b",
             "fontFamily": undefined,
             "fontSize": 12,
-            "lineHeight": 13.200000000000001,
+            "lineHeight": 13.799999999999999,
           }
         }
       >
@@ -950,7 +951,7 @@ exports[`<ListingCard> when {rating} 1`] = `
               "color": "#9b9b9b",
               "fontFamily": undefined,
               "fontSize": 12,
-              "lineHeight": 13.200000000000001,
+              "lineHeight": 13.799999999999999,
               "marginBottom": 5,
             }
           }
@@ -1224,7 +1225,7 @@ exports[`<ListingCard> when {title} 1`] = `
             "fontFamily": undefined,
             "fontSize": 14,
             "fontWeight": "bold",
-            "lineHeight": 14.84,
+            "lineHeight": 16.8,
             "marginVertical": 5,
           }
         }

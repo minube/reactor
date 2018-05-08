@@ -44,7 +44,7 @@ exports[`<Slider> when {caption} 1`] = `
           "color": "#9b9b9b",
           "fontFamily": undefined,
           "fontSize": 14,
-          "lineHeight": 14.84,
+          "lineHeight": 16.8,
         }
       }
     >
@@ -182,7 +182,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -298,7 +298,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -435,7 +435,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -551,7 +551,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -688,7 +688,7 @@ exports[`<Slider> when {momentum} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -804,7 +804,7 @@ exports[`<Slider> when {momentum} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -1099,7 +1099,7 @@ exports[`<Slider> when {steps} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -1215,7 +1215,7 @@ exports[`<Slider> when {steps} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -1357,7 +1357,7 @@ exports[`<Slider> when {style} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -1473,7 +1473,7 @@ exports[`<Slider> when {style} 1`] = `
                       "fontFamily": undefined,
                       "fontSize": 26,
                       "fontWeight": "bold",
-                      "lineHeight": 27.560000000000002,
+                      "lineHeight": 33.800000000000004,
                       "marginBottom": 5,
                       "textAlign": "center",
                     }
@@ -1516,7 +1516,7 @@ exports[`<Slider> when {title} 1`] = `
           "fontFamily": undefined,
           "fontSize": 18,
           "fontWeight": "bold",
-          "lineHeight": 19.080000000000002,
+          "lineHeight": 23.400000000000002,
         }
       }
     >
