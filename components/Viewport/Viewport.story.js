@@ -46,8 +46,11 @@ storiesOf('🚀 Viewport', module)
   .addWithJSX('scroll (false)', () => (
     <Viewport scroll={false}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .addWithJSX('⚡ onBack', () => (
     <Viewport onBack={action('Viewport.onBack()')}>{CHILDREN}</Viewport>
+  ))
+  .addWithJSX('⚡ onScroll', () => (
+    <Viewport onScroll={action('Viewport.onScroll()')}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('style', () => (
     <Viewport style={STYLE} styleContent={STYLE_CONTENT}>{CHILDREN}</Viewport>

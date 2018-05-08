@@ -10,8 +10,14 @@ import styles from './Viewport.style';
 const MOTION_DURATION = 500;
 
 class Viewport extends PureComponent {
+  _onScroll = ({ nativeEvent: { contentOffset: { y } } }) => {
+    const { props: { onScroll } } = this;
+    if (onScroll) onScroll(y);
+  }
+
   render() {
     const {
+      _onScroll,
       props: {
         children, onBack, onScroll, scroll, style, styleContent, visible,
       },
@@ -28,8 +34,8 @@ class Viewport extends PureComponent {
         type="timing"
       >
         <Content
-          onScroll={({ nativeEvent: { contentOffset: { y } } }) => onScroll(y)}
-          scrollEventThrottle={16}
+          onScroll={scroll && onScroll ? _onScroll : undefined}
+          scrollEventThrottle={scroll && onScroll ? 16 : undefined}
           style={StyleSheet.flatten([styles.content, styleContent])}
         >
           {children}

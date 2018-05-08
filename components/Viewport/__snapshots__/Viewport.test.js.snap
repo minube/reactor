@@ -20,12 +20,12 @@ exports[`<Viewport> renders 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={undefined}
+    scrollEventThrottle={undefined}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 16,
         "position": "absolute",
         "width": "100%",
@@ -33,12 +33,8 @@ exports[`<Viewport> renders 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View />
-    </RCTScrollView>
-  </View>
+    <View />
+  </RCTScrollView>
 </View>
 `;
 
@@ -62,12 +58,12 @@ exports[`<Viewport> when {children} 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={undefined}
+    scrollEventThrottle={undefined}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 16,
         "position": "absolute",
         "width": "100%",
@@ -75,20 +71,16 @@ exports[`<Viewport> when {children} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-        >
-          Hello World
-        </Text>
-      </View>
-    </RCTScrollView>
-  </View>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+      >
+        Hello World
+      </Text>
+    </View>
+  </RCTScrollView>
 </View>
 `;
 
@@ -112,12 +104,12 @@ exports[`<Viewport> when {onBack} 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={undefined}
+    scrollEventThrottle={undefined}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 16,
         "position": "absolute",
         "width": "100%",
@@ -125,12 +117,8 @@ exports[`<Viewport> when {onBack} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View />
-    </RCTScrollView>
-  </View>
+    <View />
+  </RCTScrollView>
   <View
     collapsable={undefined}
     style={
@@ -232,12 +220,12 @@ exports[`<Viewport> when {onScroll} 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={[Function]}
+    scrollEventThrottle={16}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 16,
         "position": "absolute",
         "width": "100%",
@@ -245,12 +233,8 @@ exports[`<Viewport> when {onScroll} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View />
-    </RCTScrollView>
-  </View>
+    <View />
+  </RCTScrollView>
 </View>
 `;
 
@@ -274,12 +258,12 @@ exports[`<Viewport> when {style} 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={undefined}
+    scrollEventThrottle={undefined}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 16,
         "position": "absolute",
         "width": "100%",
@@ -287,12 +271,8 @@ exports[`<Viewport> when {style} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View />
-    </RCTScrollView>
-  </View>
+    <View />
+  </RCTScrollView>
 </View>
 `;
 
@@ -316,12 +296,12 @@ exports[`<Viewport> when {styleContent} 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={undefined}
+    scrollEventThrottle={undefined}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 32,
         "position": "absolute",
         "width": "100%",
@@ -329,12 +309,8 @@ exports[`<Viewport> when {styleContent} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View />
-    </RCTScrollView>
-  </View>
+    <View />
+  </RCTScrollView>
 </View>
 `;
 
@@ -358,12 +334,12 @@ exports[`<Viewport> when {visible} 1`] = `
     }
   }
 >
-  <View
-    collapsable={undefined}
+  <RCTScrollView
+    onScroll={undefined}
+    scrollEventThrottle={undefined}
     style={
       Object {
         "height": "100%",
-        "opacity": 1,
         "padding": 16,
         "position": "absolute",
         "width": "100%",
@@ -371,11 +347,7 @@ exports[`<Viewport> when {visible} 1`] = `
       }
     }
   >
-    <RCTScrollView
-      onScroll={[Function]}
-    >
-      <View />
-    </RCTScrollView>
-  </View>
+    <View />
+  </RCTScrollView>
 </View>
 `;
