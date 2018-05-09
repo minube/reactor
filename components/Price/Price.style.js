@@ -5,12 +5,7 @@ import { STYLE } from '../../common';
 export default StyleSheet.create({
   container: STYLE.ROW,
 
-  containerSmall: {
-    transform: [{ scale: 0.80 }],
-  },
-
-  symbol: {
-    alignSelf: 'flex-end',
-    transform: [{ scale: 0.75 }],
+  minimize: {
+    transform: [{ scale: 0.8 }],
   },
 });

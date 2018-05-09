@@ -16,20 +16,68 @@ exports[`<Price> renders 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "alignSelf": "flex-end",
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    0
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
         "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
-            "scale": 0.75,
+            "scale": 0.8,
           },
         ],
       }
     }
   >
-    $
+    €
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {caption} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    from
   </Text>
   <Text
     accessible={true}
@@ -46,6 +94,26 @@ exports[`<Price> renders 1`] = `
     }
   >
     0
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    €
   </Text>
 </View>
 `;
@@ -66,20 +134,15 @@ exports[`<Price> when {fixed} 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "alignSelf": "flex-end",
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
+        "fontWeight": "bold",
         "lineHeight": 23.400000000000002,
-        "transform": Array [
-          Object {
-            "scale": 0.75,
-          },
-        ],
       }
     }
   >
-    $
+    19.12
   </Text>
   <Text
     accessible={true}
@@ -90,12 +153,16 @@ exports[`<Price> when {fixed} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
-        "fontWeight": "bold",
         "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
       }
     }
   >
-    19.12
+    €
   </Text>
 </View>
 `;
@@ -116,20 +183,15 @@ exports[`<Price> when {style} 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "alignSelf": "flex-end",
         "color": "orange",
         "fontFamily": undefined,
         "fontSize": 14,
+        "fontWeight": "bold",
         "lineHeight": 23.400000000000002,
-        "transform": Array [
-          Object {
-            "scale": 0.75,
-          },
-        ],
       }
     }
   >
-    $
+    19
   </Text>
   <Text
     accessible={true}
@@ -140,12 +202,16 @@ exports[`<Price> when {style} 1`] = `
         "color": "orange",
         "fontFamily": undefined,
         "fontSize": 14,
-        "fontWeight": "bold",
         "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
       }
     }
   >
-    19
+    €
   </Text>
 </View>
 `;
@@ -166,14 +232,13 @@ exports[`<Price> when {symbol} (left) 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "alignSelf": "flex-end",
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
         "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
-            "scale": 0.75,
+            "scale": 0.8,
           },
         ],
       }
@@ -232,14 +297,13 @@ exports[`<Price> when {symbol} (right) 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "alignSelf": "flex-end",
         "color": "#4a4a4a",
         "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
         "transform": Array [
           Object {
-            "scale": 0.75,
+            "scale": 0.8,
           },
         ],
       }
@@ -266,20 +330,15 @@ exports[`<Price> when {value} 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "alignSelf": "flex-end",
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
+        "fontWeight": "bold",
         "lineHeight": 23.400000000000002,
-        "transform": Array [
-          Object {
-            "scale": 0.75,
-          },
-        ],
       }
     }
   >
-    $
+    20
   </Text>
   <Text
     accessible={true}
@@ -290,12 +349,16 @@ exports[`<Price> when {value} 1`] = `
         "color": "#4a4a4a",
         "fontFamily": undefined,
         "fontSize": 18,
-        "fontWeight": "bold",
         "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
       }
     }
   >
-    20
+    €
   </Text>
 </View>
 `;

@@ -11,6 +11,9 @@ storiesOf('✅ Price', module)
   .addWithJSX('default', () => (
     <Price />
   ))
+  .addWithJSX('caption', () => (
+    <Price caption="From" />
+  ))
   .addWithJSX('value', () => (
     <Price value={19.95} />
   ))
@@ -30,14 +33,15 @@ storiesOf('✅ Price', module)
     </WithNotes>
   ))
   .addWithJSX('style', () => (
-    <Price style={{ fontSize: THEME.FONT.SIZE.SMALL, color: 'orange' }} />
+    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <LayoutView>
       <Price
+        caption={text('caption', 'from')}
         fixed={number('fixed', 2)}
         value={number('value', 64)}
-        symbol={text('symbol', '$')}
+        symbol={text('symbol', '€')}
       />
     </LayoutView>
   ));

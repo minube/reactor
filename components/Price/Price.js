@@ -8,11 +8,13 @@ import styles from './Price.style';
 const LEFT_SYMBOLS = ['$'];
 
 const Price = ({
-  fixed, style, symbol, value,
+  caption, fixed, style, symbol, value,
 }) => (
-  <View style={StyleSheet.flatten([styles.container, value >= 1000 && styles.containerSmall])}>
+  <View style={StyleSheet.flatten([styles.container, value >= 1000 && styles.minimize])}>
+    { caption && <Text large style={StyleSheet.flatten([styles.minimize, style])}>{caption}</Text> }
+
     { LEFT_SYMBOLS.includes(symbol) &&
-      <Text large style={StyleSheet.flatten([styles.symbol, style])}>{symbol}</Text> }
+      <Text large style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
     <Text large bold style={style}>
       {
         parseFloat(Math.abs(value))
@@ -22,11 +24,12 @@ const Price = ({
       }
     </Text>
     { !LEFT_SYMBOLS.includes(symbol) &&
-      <Text style={StyleSheet.flatten([styles.symbol, style])}>{symbol}</Text> }
+      <Text large style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
   </View>
 );
 
 Price.propTypes = {
+  caption: string,
   fixed: number,
   style: oneOfType([array, number, object]),
   symbol: string,
@@ -34,9 +37,10 @@ Price.propTypes = {
 };
 
 Price.defaultProps = {
+  caption: undefined,
   fixed: 0,
   style: [],
-  symbol: '$',
+  symbol: '€',
   value: 0,
 };
 
