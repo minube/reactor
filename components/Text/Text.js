@@ -13,16 +13,21 @@ const Text = ({
     style={StyleSheet.flatten([
       styles.container,
 
+      // -- appearance
       lighter && styles.lighter,
       semibold && styles.semibold,
       bold && styles.bold,
       italic && styles.italic,
+
+      // -- size
+      { ...LAYOUT.STYLE.TEXT.REGULAR },
       tiny && { ...LAYOUT.STYLE.TEXT.TINY },
       small && { ...LAYOUT.STYLE.TEXT.SMALL },
       large && { ...LAYOUT.STYLE.TEXT.LARGE },
       title && { ...LAYOUT.STYLE.TEXT.TITLE },
-
       inherit.style,
+
+      // -- color
       lighten && styles.lighten,
       primary && styles.primary,
       accent && styles.accent,

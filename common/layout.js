@@ -56,11 +56,18 @@ const calc = ({ width }) => {
         return { fontSize, lineHeight: fontSize * 1.2 };
       })(),
 
+      REGULAR: (() => {
+        const fontSize = REGULAR || LARGE ? FONT.SIZE.REGULAR : FONT.SIZE.SMALL;
+
+        return { fontSize, lineHeight: fontSize * 1.3 };
+      })(),
+
       LARGE: (() => {
         let fontSize = FONT.SIZE.LARGE;
         if (TINY) fontSize = FONT.SIZE.SMALL;
         if (PHONE || SMALL) fontSize = FONT.SIZE.REGULAR;
         if (TABLET || REGULAR) fontSize = UNIT * 1.8;
+        if (LARGE) fontSize = UNIT * 2;
 
         return { fontSize, lineHeight: fontSize * 1.3 };
       })(),
