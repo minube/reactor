@@ -178,6 +178,97 @@ exports[`<Button> when {activity} 1`] = `
 </View>
 `;
 
+exports[`<Button> when {children} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "borderRadius": 3,
+      "margin": 5,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#4a4a4a",
+        "borderRadius": 3,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 45,
+        "justifyContent": "center",
+        "paddingHorizontal": 30,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 18,
+            "fontWeight": "bold",
+            "lineHeight": 23.400000000000002,
+          }
+        }
+      >
+        10
+      </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 18,
+            "lineHeight": 23.400000000000002,
+            "transform": Array [
+              Object {
+                "scale": 0.8,
+              },
+            ],
+          }
+        }
+      >
+        €
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`<Button> when {color} 1`] = `
 <View
   accessibilityComponentType={undefined}

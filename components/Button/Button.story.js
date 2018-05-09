@@ -1,9 +1,10 @@
 import React from 'react';
+import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
+import { LayoutView, Price } from '../';
 import Button from './Button';
 
 storiesOf('✅ Button', module)
@@ -30,6 +31,11 @@ storiesOf('✅ Button', module)
   ))
   .addWithJSX('activity', () => (
     <Button activity title="Press me" />
+  ))
+  .addWithJSX('children', () => (
+    <Button color="red">
+      <Price value={10} style={{ color: 'white' }} />
+    </Button>
   ))
   .addWithJSX('color', () => (
     <Button color="red" title="Press me" />

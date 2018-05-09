@@ -1,4 +1,4 @@
-import { array, bool, func, number, object, oneOfType, string } from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -9,7 +9,7 @@ import styles from './Button.style';
 const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
-  accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
+  accent, activity, children, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
 }) => (
   <Touchable
     disabled={disabled || !onPress}
@@ -52,6 +52,7 @@ const Button = ({
         >
           {title}
         </Text> }
+      { children }
     </View>
   </Touchable>
 );
@@ -59,6 +60,7 @@ const Button = ({
 Button.propTypes = {
   accent: bool,
   activity: bool,
+  children: node,
   color: string,
   disabled: bool,
   flat: bool,
@@ -75,6 +77,7 @@ Button.propTypes = {
 Button.defaultProps = {
   accent: false,
   activity: false,
+  children: undefined,
   color: undefined,
   disabled: false,
   flat: false,

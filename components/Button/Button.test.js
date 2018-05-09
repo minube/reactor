@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
+import { Price } from '../';
 import Button from './Button';
 
 describe('<Button>', () => {
@@ -37,6 +38,11 @@ describe('<Button>', () => {
 
   it('when {activity}', () => {
     const tree = renderer.create(<Button activity title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {children}', () => {
+    const tree = renderer.create(<Button><Price value={10} /></Button>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
