@@ -12,7 +12,7 @@ const MOTION_DURATION = 500;
 class Viewport extends PureComponent {
   _onScroll = ({ nativeEvent: { contentOffset: { y } } }) => {
     const { props: { onScroll } } = this;
-    if (onScroll) onScroll(y);
+    onScroll(y);
   }
 
   render() {
@@ -22,24 +22,28 @@ class Viewport extends PureComponent {
         children, onBack, onScroll, scroll, style, styleContent, visible,
       },
     } = this;
-    const { VIEWPORT: { LANDSCAPE, H: height, W: width } } = LAYOUT;
-    const Content = scroll ? ScrollView : View;
+    const { VIEWPORT: { H: height, W: width } } = LAYOUT;
+    const styleFlatten = StyleSheet.flatten([styles.content, styleContent]);
 
     return (
       <Motion
-        _disabled={LANDSCAPE}
         duration={MOTION_DURATION / 2}
         style={StyleSheet.flatten([styles.container, { height, width }, style])}
         timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
         type="timing"
       >
-        <Content
-          onScroll={scroll && onScroll ? _onScroll : undefined}
-          scrollEventThrottle={scroll && onScroll ? 16 : undefined}
-          style={StyleSheet.flatten([styles.content, styleContent])}
-        >
-          {children}
-        </Content>
+        { scroll
+          ?
+            <ScrollView
+              onScroll={onScroll ? _onScroll : undefined}
+              scrollEventThrottle={onScroll ? 16 : undefined}
+              style={styleFlatten}
+            >
+              {children}
+            </ScrollView>
+          :
+            <View style={styleFlatten}>{children}</View> }
+
         { onBack &&
           <Motion
             delay={MOTION_DURATION}
