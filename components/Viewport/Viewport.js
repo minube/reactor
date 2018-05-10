@@ -10,6 +10,15 @@ import styles from './Viewport.style';
 const MOTION_DURATION = 500;
 
 class Viewport extends PureComponent {
+  state = {
+    height: LAYOUT.VIEWPORT.H,
+    width: LAYOUT.VIEWPORT.W,
+  }
+
+  _onLayout = ({ nativeEvent: { layout: { height, width } } }) => {
+    this.setState({ height, width });
+  }
+
   _onScroll = ({ nativeEvent: { contentOffset: { y } } }) => {
     const { props: { onScroll } } = this;
     onScroll(y);
@@ -17,13 +26,14 @@ class Viewport extends PureComponent {
 
   render() {
     const {
-      _onScroll,
+      _onLayout, _onScroll,
       props: {
         children, onBack, onScroll, scroll, style, styleContent, visible,
       },
+      state: { height, width },
     } = this;
-    const { VIEWPORT: { H: height, W: width } } = LAYOUT;
     const styleFlatten = StyleSheet.flatten([styles.content, styleContent]);
+    const { VIEWPORT: { LANDSCAPE } } = LAYOUT;
 
     return (
       <Motion
@@ -35,6 +45,7 @@ class Viewport extends PureComponent {
         { scroll
           ?
             <ScrollView
+              onLayout={LANDSCAPE ? _onLayout : undefined}
               onScroll={onScroll ? _onScroll : undefined}
               scrollEventThrottle={onScroll ? 16 : undefined}
               style={styleFlatten}
@@ -42,7 +53,7 @@ class Viewport extends PureComponent {
               {children}
             </ScrollView>
           :
-            <View style={styleFlatten}>{children}</View> }
+            <View onLayout={LANDSCAPE ? _onLayout : undefined} style={styleFlatten}>{children}</View> }
 
         { onBack &&
           <Motion

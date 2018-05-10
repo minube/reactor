@@ -21,6 +21,7 @@ exports[`<Viewport> renders 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={undefined}
     scrollEventThrottle={undefined}
     style={
@@ -59,6 +60,7 @@ exports[`<Viewport> when {children} 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={undefined}
     scrollEventThrottle={undefined}
     style={
@@ -105,6 +107,7 @@ exports[`<Viewport> when {onBack} 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={undefined}
     scrollEventThrottle={undefined}
     style={
@@ -221,6 +224,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={[Function]}
     scrollEventThrottle={16}
     style={
@@ -259,6 +263,7 @@ exports[`<Viewport> when {style} 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={undefined}
     scrollEventThrottle={undefined}
     style={
@@ -297,6 +302,7 @@ exports[`<Viewport> when {styleContent} 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={undefined}
     scrollEventThrottle={undefined}
     style={
@@ -335,6 +341,7 @@ exports[`<Viewport> when {visible} 1`] = `
   }
 >
   <RCTScrollView
+    onLayout={undefined}
     onScroll={undefined}
     scrollEventThrottle={undefined}
     style={
