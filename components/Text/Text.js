@@ -1,4 +1,4 @@
-import { bool, string } from 'prop-types';
+import { bool, number, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
@@ -6,10 +6,11 @@ import { LAYOUT } from '../../common';
 import styles from './Text.style';
 
 const Text = ({
-  accent, bold, color, italic, large, lighten, lighter, primary, semibold, small, tiny, title, ...inherit
+  accent, bold, color, italic, large, lighten, lighter, numberOfLines, primary, semibold, small, tiny, title, ...inherit
 }) => (
   <NativeText
     {...inherit}
+    numberOfLines={numberOfLines}
     style={StyleSheet.flatten([
       styles.container,
 
@@ -25,6 +26,9 @@ const Text = ({
       small && { ...LAYOUT.STYLE.TEXT.SMALL },
       large && { ...LAYOUT.STYLE.TEXT.LARGE },
       title && { ...LAYOUT.STYLE.TEXT.TITLE },
+      numberOfLines > 1 && LAYOUT.STYLE.TEXT.NUMBER_OF_LINES(numberOfLines, {
+        tiny, small, large, title,
+      }),
       inherit.style,
 
       // -- color
@@ -44,6 +48,7 @@ Text.propTypes = {
   large: bool,
   lighten: bool,
   lighter: bool,
+  numberOfLines: number,
   primary: bool,
   semibold: bool,
   small: bool,
@@ -59,6 +64,7 @@ Text.defaultProps = {
   large: false,
   lighten: false,
   lighter: false,
+  numberOfLines: undefined,
   primary: false,
   semibold: false,
   small: false,

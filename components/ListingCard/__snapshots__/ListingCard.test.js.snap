@@ -252,12 +252,13 @@ exports[`<ListingCard> when {category} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
+        numberOfLines={undefined}
         style={
           Object {
             "color": "#9b9b9b",
             "fontFamily": undefined,
             "fontSize": 12,
-            "lineHeight": 13.799999999999999,
+            "lineHeight": 15.600000000000001,
           }
         }
       >
@@ -438,6 +439,7 @@ exports[`<ListingCard> when {children} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={undefined}
             style={
               Object {
                 "color": "#9b9b9b",
@@ -589,7 +591,9 @@ exports[`<ListingCard> when {description} 1`] = `
             "color": "#9b9b9b",
             "fontFamily": undefined,
             "fontSize": 12,
-            "lineHeight": 13.799999999999999,
+            "lineHeight": 15.600000000000001,
+            "maxHeight": 46.800000000000004,
+            "overflow": "hidden",
           }
         }
       >
@@ -861,6 +865,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#10c0bc",
@@ -878,6 +883,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#10c0bc",
@@ -895,6 +901,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#10c0bc",
@@ -912,6 +919,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#10c0bc",
@@ -929,6 +937,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#10c0bc",
@@ -946,12 +955,13 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#9b9b9b",
               "fontFamily": undefined,
               "fontSize": 12,
-              "lineHeight": 13.799999999999999,
+              "lineHeight": 15.600000000000001,
               "marginBottom": 5,
             }
           }
@@ -1225,7 +1235,7 @@ exports[`<ListingCard> when {title} 1`] = `
             "fontFamily": undefined,
             "fontSize": 14,
             "fontWeight": "bold",
-            "lineHeight": 16.8,
+            "lineHeight": 18.2,
             "marginVertical": 5,
           }
         }

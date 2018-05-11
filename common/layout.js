@@ -1,21 +1,15 @@
 import { Dimensions, Platform } from 'react-native';
 
 import THEME from './theme';
+import screenSize from './screenSize';
+import fontStyle from './fontStyle';
 
 const { BUTTON, FONT, UNIT } = THEME;
-const screenSizes = width => ({
-  TINY: width < 360,
-  PHONE: width >= 360 && width < 376,
-  TABLET: width >= 376 && width < 510,
-  SMALL: width >= 510 && width < 720,
-  REGULAR: width >= 720 && width < 1024,
-  LARGE: width >= 1024,
-});
 
 const calc = ({ width }) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
-  } = screenSizes(width);
+  } = screenSize(width);
 
   return {
     BUTTON: {
@@ -44,33 +38,15 @@ const calc = ({ width }) => {
     },
 
     TEXT: {
-      TINY: (() => {
-        const fontSize = REGULAR || LARGE ? FONT.SIZE.TINY : UNIT * 1.1;
+      TINY: (() => fontStyle(width, { tiny: true }))(),
 
-        return { fontSize, lineHeight: fontSize * 1.15 };
-      })(),
+      SMALL: (() => fontStyle(width, { small: true }))(),
 
-      SMALL: (() => {
-        const fontSize = REGULAR || LARGE ? FONT.SIZE.SMALL : FONT.SIZE.TINY;
+      REGULAR: (() => fontStyle(width, { regular: true }))(),
 
-        return { fontSize, lineHeight: fontSize * 1.2 };
-      })(),
+      LARGE: (() => fontStyle(width, { large: true }))(),
 
-      REGULAR: (() => {
-        const fontSize = REGULAR || LARGE ? FONT.SIZE.REGULAR : FONT.SIZE.SMALL;
-
-        return { fontSize, lineHeight: fontSize * 1.3 };
-      })(),
-
-      LARGE: (() => {
-        let fontSize = FONT.SIZE.LARGE;
-        if (TINY) fontSize = FONT.SIZE.SMALL;
-        if (PHONE || SMALL) fontSize = FONT.SIZE.REGULAR;
-        if (TABLET || REGULAR) fontSize = UNIT * 1.8;
-        if (LARGE) fontSize = UNIT * 2;
-
-        return { fontSize, lineHeight: fontSize * 1.3 };
-      })(),
+      TITLE: (() => fontStyle(width, { title: true }))(),
 
       LARGE_SHORT: (() => {
         let fontSize = 36;
@@ -81,13 +57,14 @@ const calc = ({ width }) => {
         return { fontSize, lineHeight: fontSize * 1.3 };
       })(),
 
-      TITLE: (() => {
-        let fontSize = UNIT * 4.8;
-        if (TINY || PHONE || TABLET) fontSize = UNIT * 2.4;
-        if (SMALL || REGULAR) fontSize = UNIT * 3;
+      NUMBER_OF_LINES: (numberOfLines, type) => {
+        const { lineHeight } = fontStyle(width, type);
 
-        return { fontSize, lineHeight: fontSize * 1.3 };
-      })(),
+        return {
+          maxHeight: numberOfLines * lineHeight,
+          overflow: 'hidden',
+        };
+      },
     },
   };
 };
@@ -119,7 +96,7 @@ class Layout {
       LANDSCAPE: this._width > this._height,
       IPHONEX: PORTRAIT && H === 812 && Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS,
 
-      ...screenSizes(this._width),
+      ...screenSize(this._width),
     };
   }
 

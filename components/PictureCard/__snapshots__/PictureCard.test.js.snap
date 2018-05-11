@@ -275,12 +275,13 @@ exports[`<PictureCard> when {caption} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 12,
-              "lineHeight": 13.799999999999999,
+              "lineHeight": 15.600000000000001,
               "textAlign": "center",
             }
           }
@@ -754,6 +755,7 @@ exports[`<PictureCard> when {title} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={undefined}
           style={
             Object {
               "color": "#ffffff",

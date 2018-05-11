@@ -17,6 +17,7 @@ exports[`<Markdown> including a <Text> property 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -32,6 +33,7 @@ exports[`<Markdown> including a <Text> property 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -52,6 +54,7 @@ exports[`<Markdown> renders 1`] = `
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
+  numberOfLines={undefined}
   style={
     Object {
       "color": "#4a4a4a",
@@ -80,6 +83,7 @@ exports[`<Markdown> when combining * & ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -95,6 +99,7 @@ exports[`<Markdown> when combining * & ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -111,6 +116,7 @@ exports[`<Markdown> when combining * & ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -143,6 +149,7 @@ exports[`<Markdown> when including * 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -158,6 +165,7 @@ exports[`<Markdown> when including * 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -190,6 +198,7 @@ exports[`<Markdown> when including ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -205,6 +214,7 @@ exports[`<Markdown> when including ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#4a4a4a",
@@ -225,6 +235,7 @@ exports[`<Markdown> when simple text 1`] = `
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
+  numberOfLines={undefined}
   style={
     Object {
       "color": "#4a4a4a",

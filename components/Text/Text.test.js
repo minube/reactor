@@ -72,6 +72,11 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {numberOfLines}', () => {
+    const tree = renderer.create(<Text numberOfLines={2}>Hello World</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {style}', () => {
     const tree = renderer.create(<Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Hello World</Text>).toJSON();
     expect(tree).toMatchSnapshot();

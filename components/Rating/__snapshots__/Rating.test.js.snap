@@ -14,6 +14,7 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -30,6 +31,7 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -46,6 +48,7 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -62,6 +65,7 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -78,6 +82,7 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -107,6 +112,7 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -123,6 +129,7 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -139,6 +146,7 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -155,6 +163,7 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -171,6 +180,7 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -200,6 +210,7 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -216,6 +227,7 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -232,6 +244,7 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -248,6 +261,7 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -264,6 +278,7 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
@@ -280,13 +295,14 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#9b9b9b",
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.799999999999999,
+        "lineHeight": 15.600000000000001,
       }
     }
   >
@@ -309,6 +325,7 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -325,6 +342,7 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -341,6 +359,7 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -357,6 +376,7 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -373,6 +393,7 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -389,12 +410,13 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#9b9b9b",
         "fontFamily": undefined,
         "fontSize": 12,
-        "lineHeight": 13.799999999999999,
+        "lineHeight": 15.600000000000001,
       }
     }
   >
@@ -417,6 +439,7 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -433,6 +456,7 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -449,6 +473,7 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -465,6 +490,7 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -481,6 +507,7 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -497,13 +524,14 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#9b9b9b",
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.799999999999999,
+        "lineHeight": 15.600000000000001,
       }
     }
   >
@@ -526,6 +554,7 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -542,6 +571,7 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -558,6 +588,7 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -574,6 +605,7 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -590,6 +622,7 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -606,6 +639,7 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#9b9b9b",
@@ -635,6 +669,7 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -651,6 +686,7 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -667,6 +703,7 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -683,6 +720,7 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -699,6 +737,7 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -715,13 +754,14 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#f69a37",
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.799999999999999,
+        "lineHeight": 15.600000000000001,
       }
     }
   >
@@ -744,6 +784,7 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -760,6 +801,7 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -776,6 +818,7 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -792,6 +835,7 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -808,6 +852,7 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#10c0bc",
@@ -824,13 +869,14 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
         "color": "#9b9b9b",
         "fontFamily": undefined,
         "fontSize": 12,
         "fontWeight": "bold",
-        "lineHeight": 13.799999999999999,
+        "lineHeight": 15.600000000000001,
       }
     }
   >

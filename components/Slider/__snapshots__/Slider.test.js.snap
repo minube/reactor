@@ -39,12 +39,13 @@ exports[`<Slider> when {caption} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
+      numberOfLines={undefined}
       style={
         Object {
           "color": "#9b9b9b",
           "fontFamily": undefined,
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 18.2,
         }
       }
     >
@@ -176,6 +177,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -292,6 +294,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -429,6 +432,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -545,6 +549,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -682,6 +687,7 @@ exports[`<Slider> when {momentum} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -798,6 +804,7 @@ exports[`<Slider> when {momentum} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -1093,6 +1100,7 @@ exports[`<Slider> when {steps} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -1209,6 +1217,7 @@ exports[`<Slider> when {steps} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -1351,6 +1360,7 @@ exports[`<Slider> when {style} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -1467,6 +1477,7 @@ exports[`<Slider> when {style} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
+                  numberOfLines={undefined}
                   style={
                     Object {
                       "color": "#ffffff",
@@ -1510,6 +1521,7 @@ exports[`<Slider> when {title} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
+      numberOfLines={undefined}
       style={
         Object {
           "color": "#4a4a4a",
