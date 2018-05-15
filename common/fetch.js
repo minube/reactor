@@ -3,14 +3,16 @@ const DEFAULT_HEADERS = {
   'X-Requested-With': 'XMLHttpRequest',
 };
 
-export default async (endpoint, props = {}) => {
-  const { headers, method = 'GET', ...others } = props;
+const ENDPOINT = process.env.NODE_ENV === 'production' ? 'mapi.minube.com' : 'staging.mapi.minube.com';
 
-  return new Promise((resolve, reject) => {
-    fetch(endpoint, {
+export default async ({
+  headers, method = 'GET', secure = false, service, ...props
+}) => (
+  new Promise((resolve, reject) => {
+    fetch(`${secure ? 'https' : 'http'}://${ENDPOINT}/${service}`, {
       headers: { ...DEFAULT_HEADERS, ...headers },
       method,
-      ...others,
+      ...props,
     })
       .then(async (response) => {
         const json = await response.json();
@@ -23,5 +25,5 @@ export default async (endpoint, props = {}) => {
           message,
         });
       });
-  });
-};
+  })
+);
