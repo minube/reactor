@@ -4,13 +4,10 @@ import { StyleSheet, View } from 'react-native';
 import { STYLE, THEME } from './common';
 import {
   Button,
-  Heading,
   ListingCard,
-  ProgressBar,
   Text,
-  Slider,
-  Switch,
   Video,
+  Viewport,
 } from './components';
 import PKG from './package.json';
 
@@ -21,6 +18,8 @@ const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
 const youtube = 'https://www.youtube.com/cx4MxQcD8Fk';
 const vimeo = 'https://player.vimeo.com/video/225434434';
 
+const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
 const styles = StyleSheet.create({
   container: StyleSheet.flatten([
     STYLE.CENTERED,
@@ -28,21 +27,9 @@ const styles = StyleSheet.create({
       flex: 1,
       // backgroundColor: THEME.COLOR.BACKGROUND,
       padding: THEME.UNIT,
+      backgroundColor: 'orange',
     },
   ]),
-
-  webview: {
-    // flex: 1,
-    margin: 0,
-    padding: 0,
-    width: 256,
-    height: 200,
-
-    maxWidth: 256,
-    maxHeight: 200,
-    overflow: 'hidden',
-    backgroundColor: 'orange',
-  },
 });
 
 export default class App extends Component {
@@ -54,23 +41,41 @@ export default class App extends Component {
         rating: { value: index + 1 },
         image: `https://picsum.photos/320/200?image=1${index + 1}`,
       })),
+    viewport: false,
   }
 
   render() {
+    const { state: { viewport } } = this;
+
     return (
       <View style={styles.container}>
-        <View style={STYLE.CENTERED}>
+        <Viewport visible scroll={true} style={STYLE.CENTERED}>
           <Text bold large>{PKG.name}</Text>
           <Text bold tiny>{PKG.version}</Text>
-        </View>
-        <Video
-          autoPlay
-          loop
-          height={200}
-          width={320}
-          source={video}
-          onLoad={() => console.log('onload')}
-        />
+          <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
+          <Text>{LIPSUM}</Text>
+          <Text>{LIPSUM}</Text>
+          <Text>{LIPSUM}</Text>
+          <Text>{LIPSUM}</Text>
+          <Text>{LIPSUM}</Text>
+        </Viewport>
+
+        <Viewport
+          visible={viewport}
+          onBack={() => this.setState({ viewport: false })}
+          style={{ backgroundColor: 'red' }}
+        >
+
+          <Video
+            autoPlay
+            loop
+            height={200}
+            width={320}
+            source={video}
+            onLoad={() => console.log('onload')}
+          />
+          <Button title="Back" onPress={() => this.setState({ viewport: false })}/>
+        </Viewport>
       </View>
     );
   }

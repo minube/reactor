@@ -20,22 +20,27 @@ exports[`<Viewport> renders 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={undefined}
-    scrollEventThrottle={undefined}
     style={
       Object {
-        "height": "100%",
-        "padding": 16,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View />
-  </RCTScrollView>
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;
 
@@ -59,30 +64,35 @@ exports[`<Viewport> when {children} 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={undefined}
-    scrollEventThrottle={undefined}
     style={
       Object {
-        "height": "100%",
-        "padding": 16,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-      >
-        Hello World
-      </Text>
-    </View>
-  </RCTScrollView>
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Hello World
+        </Text>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;
 
@@ -106,100 +116,27 @@ exports[`<Viewport> when {onBack} 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={undefined}
-    scrollEventThrottle={undefined}
     style={
       Object {
-        "height": "100%",
-        "padding": 16,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View />
-  </RCTScrollView>
-  <View
-    collapsable={undefined}
-    style={
-      Object {
-        "left": 16,
-        "position": "absolute",
-        "top": 16,
-        "transform": Array [
-          Object {
-            "scale": 1,
-          },
-        ],
-        "zIndex": 1,
-      }
-    }
-  >
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
-      isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <RCTScrollView
       style={
         Object {
-          "borderRadius": 30,
-          "height": 60,
-          "margin": 5,
-          "paddingHorizontal": 0,
-          "width": 60,
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
         }
       }
-      testID={undefined}
-      tvParallaxProperties={undefined}
     >
-      <View
-        style={
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "backgroundColor": "#4a4a4a",
-            "borderRadius": 30,
-            "display": "flex",
-            "flexDirection": "row",
-            "height": 60,
-            "justifyContent": "center",
-            "paddingHorizontal": 0,
-            "width": 60,
-          }
-        }
-      >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "testUri": "../../../components/Icon/assets/left.png",
-            }
-          }
-          style={
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            }
-          }
-        />
-      </View>
-    </View>
-  </View>
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;
 
@@ -223,22 +160,29 @@ exports[`<Viewport> when {onScroll} 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={[Function]}
-    scrollEventThrottle={16}
     style={
       Object {
-        "height": "100%",
-        "padding": 16,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View />
-  </RCTScrollView>
+    <RCTScrollView
+      onScroll={[Function]}
+      scrollEventThrottle={16}
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;
 
@@ -262,22 +206,27 @@ exports[`<Viewport> when {style} 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={undefined}
-    scrollEventThrottle={undefined}
     style={
       Object {
-        "height": "100%",
-        "padding": 16,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View />
-  </RCTScrollView>
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;
 
@@ -301,22 +250,27 @@ exports[`<Viewport> when {styleContent} 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={undefined}
-    scrollEventThrottle={undefined}
     style={
       Object {
-        "height": "100%",
-        "padding": 32,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View />
-  </RCTScrollView>
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 32,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;
 
@@ -340,21 +294,26 @@ exports[`<Viewport> when {visible} 1`] = `
     }
   }
 >
-  <RCTScrollView
+  <RCTSafeAreaView
     onLayout={undefined}
-    onScroll={undefined}
-    scrollEventThrottle={undefined}
     style={
       Object {
-        "height": "100%",
-        "padding": 16,
-        "position": "absolute",
-        "width": "100%",
-        "zIndex": 0,
+        "flex": 1,
       }
     }
   >
-    <View />
-  </RCTScrollView>
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
 </View>
 `;

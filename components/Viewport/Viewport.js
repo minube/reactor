@@ -1,9 +1,8 @@
 import { array, bool, func, node, number, object, oneOfType } from 'prop-types';
-import React, { PureComponent } from 'react';
-import { View, ScrollView, StyleSheet } from 'react-native';
+import React, { createElement, PureComponent } from 'react';
+import { View, SafeAreaView, ScrollView, StyleSheet } from 'react-native';
 
 import { LAYOUT } from '../../common';
-import Button from '../Button';
 import Motion from '../Motion';
 import styles from './Viewport.style';
 
@@ -21,19 +20,17 @@ class Viewport extends PureComponent {
 
   _onScroll = ({ nativeEvent: { contentOffset: { y } } }) => {
     const { props: { onScroll } } = this;
-    onScroll(y);
+    onScroll({ y });
   }
 
   render() {
     const {
       _onLayout, _onScroll,
       props: {
-        children, onBack, onScroll, scroll, style, styleContent, visible,
+        children, onScroll, scroll, style, styleContent, visible,
       },
       state: { height, width },
     } = this;
-    const styleFlatten = StyleSheet.flatten([styles.content, styleContent]);
-    const { VIEWPORT: { LANDSCAPE } } = LAYOUT;
 
     return (
       <Motion
@@ -42,27 +39,16 @@ class Viewport extends PureComponent {
         timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
         type="timing"
       >
-        { scroll
-          ?
-            <ScrollView
-              onLayout={LANDSCAPE ? _onLayout : undefined}
-              onScroll={onScroll ? _onScroll : undefined}
-              scrollEventThrottle={onScroll ? 16 : undefined}
-              style={styleFlatten}
-            >
-              {children}
-            </ScrollView>
-          :
-            <View onLayout={LANDSCAPE ? _onLayout : undefined} style={styleFlatten}>{children}</View> }
-
-        { onBack &&
-          <Motion
-            delay={MOTION_DURATION}
-            timeline={[{ property: 'scale', value: visible ? 1 : 0 }]}
-            style={styles.buttonBack}
-          >
-            <Button icon="left" responsive onPress={onBack} />
-          </Motion> }
+        <SafeAreaView onLayout={LAYOUT.VIEWPORT.LANDSCAPE ? _onLayout : undefined} style={styles.safeArea}>
+          { createElement(
+              scroll ? ScrollView : View,
+              {
+                ...(scroll && onScroll ? { onScroll: _onScroll, scrollEventThrottle: 16 } : {}),
+                style: StyleSheet.flatten([styles.content, styleContent]),
+              },
+              children,
+            )}
+        </SafeAreaView>
       </Motion>
     );
   }
@@ -70,7 +56,6 @@ class Viewport extends PureComponent {
 
 Viewport.propTypes = {
   children: node,
-  onBack: func,
   onScroll: func,
   scroll: bool,
   style: oneOfType([array, number, object]),
@@ -80,7 +65,6 @@ Viewport.propTypes = {
 
 Viewport.defaultProps = {
   children: undefined,
-  onBack: undefined,
   onScroll: undefined,
   scroll: true,
   style: [],

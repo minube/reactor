@@ -11,18 +11,24 @@ const {
   BORDER_RADIUS, BUTTON, COLOR, FONT, UNIT,
 } = THEME;
 
-const STYLE = {
+
+const STYLE_LAYOUT = {
   width: 375,
   height: 667,
+  overflow: 'hidden',
+};
+
+const STYLE = {
   backgroundColor: COLOR.CONTENT,
+  padding: UNIT,
 };
 
 const STYLE_CONTENT = {
-  padding: 32,
+  padding: UNIT,
+  backgroundColor: COLOR.PRIMARY,
 };
 
 const STYLE_NAVIGATION = {
-  overflow: 'hidden',
 };
 
 const CHILDREN =
@@ -46,9 +52,6 @@ storiesOf('🚀 Viewport', module)
   .addWithJSX('scroll (false)', () => (
     <Viewport scroll={false}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('⚡ onBack', () => (
-    <Viewport onBack={action('Viewport.onBack()')}>{CHILDREN}</Viewport>
-  ))
   .addWithJSX('⚡ onScroll', () => (
     <Viewport onScroll={action('Viewport.onScroll()')}>{CHILDREN}</Viewport>
   ))
@@ -56,15 +59,15 @@ storiesOf('🚀 Viewport', module)
     <Viewport style={STYLE} styleContent={STYLE_CONTENT}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <View style={StyleSheet.flatten([STYLE, STYLE_NAVIGATION])}>
-      <Viewport style={STYLE} visible>
+    <View style={STYLE_LAYOUT}>
+      <Viewport style={[STYLE, STYLE_LAYOUT]} visible>
         <Text>viewport.1</Text>
       </Viewport>
       <Viewport
         onBack={action('Viewport.onBack()')}
         onScroll={action('Viewport.onScroll()')}
         scroll={boolean('scroll', true)}
-        style={STYLE}
+        style={[STYLE, STYLE_LAYOUT]}
         styleContent={object('style', STYLE_CONTENT, 'viewport-style')}
         visible={boolean('visible', true)}
       >
