@@ -34,6 +34,9 @@ storiesOf('🛠 Input', module)
   .addWithJSX('style', () => (
     <Input style={{ backgroundColor: 'orange' }} />
   ))
+  .addWithJSX('...inherit', () => (
+    <Input placeholder="placeholder..." />
+  ))
   .addWithJSX('🏀 Playground', () => (
     <LayoutView>
       <Input

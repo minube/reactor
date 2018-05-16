@@ -2,8 +2,11 @@ import { array, bool, func, number, object, oneOfType, string } from 'prop-types
 import React, { Component } from 'react';
 import { StyleSheet, TextInput, View } from 'react-native';
 
+import { THEME } from '../../common';
 import Text from '../Text';
 import styles from './Input.style';
+
+const { COLOR } = THEME;
 
 class Input extends Component {
   constructor(props) {
@@ -22,7 +25,7 @@ class Input extends Component {
     return (
       <View style={styles.container}>
         { label &&
-          <Text style={StyleSheet.flatten([styles.label, focus && styles.labelFocus])}>{label} </Text> }
+          <Text small lighten style={styles.label}>{label}</Text> }
         <TextInput
           {...inherit}
           autoCorrect={false}
@@ -32,18 +35,18 @@ class Input extends Component {
           keyboardType={keyboard}
           onBlur={onBlur || (() => !disabled && this.setState({ focus: false }))}
           onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
-          placeholderTextColor={undefined}
+          placeholderTextColor={COLOR.TEXT_LIGHTEN}
           underlineColorAndroid="transparent"
           style={StyleSheet.flatten([
             styles.input,
-            focus && styles.inputFocus,
-            error && styles.inputError,
             disabled && styles.inputDisabled,
+            !disabled && focus && styles.inputFocus,
+            !disabled && error && styles.inputError,
             style,
           ])}
         />
-        { (error || hint) &&
-          <Text style={StyleSheet.flatten([styles.label, error && styles.labelError])}>{error || hint} </Text> }
+        { !disabled && (error || hint) &&
+          <Text color={error ? COLOR.ERROR : undefined} small lighten style={styles.label}>{error || hint}</Text> }
       </View>
     );
   }
