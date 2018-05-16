@@ -4,7 +4,7 @@
   "requireCleanWorkingDir": true,
   "src": {
     "beforeStartCommand": "yarn run test && yarn run lint",
-    "afterReleaseCommand": "echo Successfully released ${version} to ${dist.repo}.",
+    "afterReleaseCommand": "yarn run gh-pages",
     "commitMessage": "Release v%s",
     "tagName": "v%s",
     "tagAnnotation": "Release v%s"
