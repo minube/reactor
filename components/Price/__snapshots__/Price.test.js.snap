@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Price> renders 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    0
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    €
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {caption} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    from
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    0
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    €
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {fixed} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    19.12
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    €
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "orange",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    19
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "orange",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    €
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {symbol} (left) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    $
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    4
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {symbol} (right) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    4
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    eur
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {value} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "fontWeight": "bold",
+        "lineHeight": 23.400000000000002,
+      }
+    }
+  >
+    20
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 18,
+        "lineHeight": 23.400000000000002,
+        "transform": Array [
+          Object {
+            "scale": 0.8,
+          },
+        ],
+      }
+    }
+  >
+    €
+  </Text>
+</View>
+`;

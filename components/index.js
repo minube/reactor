@@ -8,15 +8,19 @@ import Image from './Image';
 import Input from './Input';
 import Link from './Link';
 import ListingCard from './ListingCard';
+import Markdown from './Markdown';
+import Motion from './Motion';
 import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
+import LayoutView, { LayoutStyle } from './Layout';
 import Slider from './Slider';
 import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
-import WebView from './WebView';
+import Video from './Video';
+import Viewport from './Viewport';
 
 export {
   Activity,
@@ -29,13 +33,18 @@ export {
   Input,
   Link,
   ListingCard,
+  Markdown,
+  Motion,
   PictureCard,
   Price,
   ProgressBar,
+  LayoutStyle,
+  LayoutView,
   Rating,
   Slider,
   Switch,
   Text,
   Touchable,
-  WebView,
+  Video,
+  Viewport,
 };

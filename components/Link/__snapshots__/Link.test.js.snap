@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link> renders 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href={undefined}
+  numberOfLines={undefined}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+/>
+`;
+
+exports[`<Link> when {href} 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://minube.com"
+  numberOfLines={undefined}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+/>
+`;
+
+exports[`<Link> when {style} 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href={undefined}
+  numberOfLines={undefined}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 20,
+      "fontWeight": "bold",
+      "lineHeight": 20.8,
+    }
+  }
+  visible={true}
+/>
+`;
+
+exports[`<Link> when {styleHover} 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href={undefined}
+  numberOfLines={undefined}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+  visible={true}
+/>
+`;

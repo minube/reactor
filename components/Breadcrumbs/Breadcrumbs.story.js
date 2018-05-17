@@ -4,14 +4,13 @@ import { action } from '@storybook/addon-actions';
 import { color, object } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import LayoutView from '../Layout';
 import Breadcrumbs from './Breadcrumbs';
 
 const dataSource = [
-  { caption: 'Turismo', href: '/' },
-  { caption: 'Gran Bretaña', href: '/' },
-  { caption: 'Inglaterra', href: '/' },
-  { caption: 'Londres', href: '/' },
+  { caption: 'Spain', href: '/' },
+  { caption: 'Basque Country', href: '/' },
+  { caption: 'Bilbao', href: '/' },
 ];
 
 storiesOf('✅ Breadcrumbs', module)
@@ -35,11 +34,11 @@ storiesOf('✅ Breadcrumbs', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <LayoutView>
       <Breadcrumbs
         dataSource={object('dataSource', dataSource, 'heading-dataSource')}
         color={color('color', THEME.COLOR.TEXT)}
       />
-    </WebView>
+    </LayoutView>
   ));
 

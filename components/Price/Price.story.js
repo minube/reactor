@@ -1,15 +1,18 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { number, text } from '@storybook/addon-knobs/react';
-import { WithNotes } from '@storybook/addon-notes';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import LayoutView from '../Layout';
 import Price from './Price';
 
 storiesOf('✅ Price', module)
   .addWithJSX('default', () => (
     <Price />
+  ))
+  .addWithJSX('caption', () => (
+    <Price caption="From" />
   ))
   .addWithJSX('value', () => (
     <Price value={19.95} />
@@ -24,21 +27,22 @@ storiesOf('✅ Price', module)
     <Price value={4} symbol="eur" />
   ))
   .addWithJSX('fontSize auto-adjust', () => (
-    <WithNotes>
+    <View>
       <Price value={32} symbol="$" />
       <Price value={1024} symbol="$" />
-    </WithNotes>
+    </View>
   ))
   .addWithJSX('style', () => (
-    <Price style={{ fontSize: THEME.FONT.SIZE.SMALL, color: 'orange' }} />
+    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <LayoutView>
       <Price
+        caption={text('caption', 'from')}
         fixed={number('fixed', 2)}
         value={number('value', 64)}
-        symbol={text('symbol', '$')}
+        symbol={text('symbol', '€')}
       />
-    </WebView>
+    </LayoutView>
   ));
 

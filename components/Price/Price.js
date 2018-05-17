@@ -1,4 +1,4 @@
-import { array, number, oneOfType, string } from 'prop-types';
+import { array, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -8,12 +8,15 @@ import styles from './Price.style';
 const LEFT_SYMBOLS = ['$'];
 
 const Price = ({
-  fixed, style, symbol, value,
+  caption, fixed, style, symbol, value,
+  large = value < 1000 // eslint-disable-line
 }) => (
-  <View style={StyleSheet.flatten([styles.container, value >= 1000 && styles.containerSmall])}>
+  <View style={styles.container}>
+    { caption && <Text large style={StyleSheet.flatten([styles.minimize, style])}>{caption}</Text> }
+
     { LEFT_SYMBOLS.includes(symbol) &&
-      <Text large style={StyleSheet.flatten([styles.symbol, style])}>{symbol}</Text> }
-    <Text large bold style={style}>
+      <Text large={large} style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
+    <Text large={large} bold style={style}>
       {
         parseFloat(Math.abs(value))
           .toFixed(fixed)
@@ -22,21 +25,23 @@ const Price = ({
       }
     </Text>
     { !LEFT_SYMBOLS.includes(symbol) &&
-      <Text style={StyleSheet.flatten([styles.symbol, style])}>{symbol}</Text> }
+      <Text large={large} style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
   </View>
 );
 
 Price.propTypes = {
+  caption: string,
   fixed: number,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   symbol: string,
   value: number,
 };
 
 Price.defaultProps = {
+  caption: undefined,
   fixed: 0,
   style: [],
-  symbol: '$',
+  symbol: '€',
   value: 0,
 };
 

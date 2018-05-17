@@ -1,0 +1,777 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PictureCard> renders 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 190,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 190,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {backgroundColor} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#10c0bc",
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 190,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 190,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {caption} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 190,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 190,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": undefined,
+              "fontSize": 12,
+              "lineHeight": 15.600000000000001,
+              "textAlign": "center",
+            }
+          }
+        >
+          Hello world
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {image} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 190,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="cover"
+        source={
+          Object {
+            "uri": "https://picsum.photos/320/200/?random",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 190,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {portrait} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 220,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 220,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {small} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 100,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 100,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {style} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": "orange",
+      "borderRadius": 3,
+      "opacity": 0.75,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "orange",
+          "borderRadius": 3,
+          "height": 190,
+          "justifyContent": "center",
+          "opacity": 0.75,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "backgroundColor": "orange",
+            "borderRadius": 3,
+            "height": 190,
+            "opacity": 0.75,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<PictureCard> when {title} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "backgroundColor": undefined,
+      "borderRadius": 3,
+    }
+  }
+  testID={undefined}
+  tvParallaxProperties={undefined}
+>
+  <View
+    style={null}
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#f4f4f4",
+          "borderRadius": 3,
+          "height": 190,
+          "justifyContent": "center",
+          "opacity": 0.8,
+          "width": 168,
+        }
+      }
+    >
+      <Image
+        onLoad={[Function]}
+        resizeMode="center"
+        source={
+          Object {
+            "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+          }
+        }
+        style={
+          Object {
+            "borderRadius": 3,
+            "height": 190,
+            "opacity": 0.8,
+            "width": 168,
+          }
+        }
+      />
+      <ActivityIndicator
+        animating={true}
+        color="white"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "position": "absolute",
+          }
+        }
+      />
+    </View>
+    <View
+      pointerEvents="none"
+      style={
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Object {
+              "color": "#ffffff",
+              "fontFamily": undefined,
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "lineHeight": 23.400000000000002,
+              "marginBottom": 5,
+              "textAlign": "center",
+            }
+          }
+        >
+          Hello world
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

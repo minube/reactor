@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input> renders 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Object {
+        "borderColor": "#dbdbdb",
+        "borderRadius": 2.5,
+        "borderWidth": 1,
+        "color": "#4a4a4a",
+        "fontSize": 16,
+        "fontWeight": "normal",
+        "paddingHorizontal": 5,
+        "paddingVertical": 7.5,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

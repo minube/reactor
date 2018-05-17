@@ -1,17 +1,15 @@
-import { array, bool, func, node, number, oneOfType, shape, string } from 'prop-types';
+import { array, func, node, number, object, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 
-import { layout, SHAPE } from '../../common';
+import { LAYOUT, SHAPE } from '../../common';
 import { PictureCard, Rating, Text } from '../';
 import styles from './ListingCard.style';
 
 const ListingCard = ({
-  category, children, description, empty, onPress, rating = {}, style, title,
-  layout: { CARD } = layout(), // eslint-disable-line
-  ...inherit
+  category, children, description, onPress, rating = {}, style, title, ...inherit
 }) => (
-  <View style={StyleSheet.flatten([styles.container, { width: CARD.WIDTH }, style])}>
+  <View style={StyleSheet.flatten([styles.container, { width: LAYOUT.STYLE.CARD.WIDTH }, style])}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
       <View>
         <PictureCard {...inherit} />
@@ -31,11 +29,10 @@ ListingCard.propTypes = {
   category: string,
   children: node,
   description: string,
-  empty: bool,
   image: string,
   onPress: func,
   rating: shape(SHAPE.RATING),
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 
@@ -43,7 +40,6 @@ ListingCard.defaultProps = {
   category: undefined,
   children: undefined,
   description: undefined,
-  empty: false,
   image: undefined,
   onPress: undefined,
   rating: {},

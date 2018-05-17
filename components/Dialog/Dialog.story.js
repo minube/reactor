@@ -1,25 +1,52 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean } from '@storybook/addon-knobs/react';
+import { text, boolean, object } from '@storybook/addon-knobs/react';
 
-import WebView from '../WebView';
+import LayoutView from '../Layout';
 import Dialog from './Dialog';
 import Text from '../Text';
 
+const STYLE = { backgroundColor: 'blue' };
+const STYLE_CONTAINER = { backgroundColor: 'orange', width: '100%', height: 320 };
+
 storiesOf('🛠 Dialog', module)
   .addWithJSX('default', () => (
-    <Dialog onClose={action('Button.onClose()')} title="Title" visible />
+    <Dialog  />
+  ))
+  .addWithJSX('visible', () => (
+    <Dialog visible />
+  ))
+  .addWithJSX('background (disabled)', () => (
+    <Dialog background={false} visible />
+  ))
+  .addWithJSX('title', () => (
+    <Dialog title="Hello world" visible />
+  ))
+  .addWithJSX('⚡ onClose', () => (
+    <Dialog title="Hello world" onClose={action('Dialog.onClose()')} visible />
+  ))
+  .addWithJSX('⚡ onSubmit', () => (
+    <Dialog title="Hello world" onSubmit={action('Dialog.onSubmit()')} visible />
+  ))
+  .addWithJSX('style', () => (
+    <Dialog title="Hello world" style={STYLE} visible />
+  ))
+  .addWithJSX('styleContainer', () => (
+    <Dialog title="Hello world" styleContainer={STYLE_CONTAINER} visible />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <LayoutView>
       <Dialog
-        title={text('title', 'Title')}
+        background={boolean('background', true)}
         onClose={action('Dialog.onClose()')}
-        onSubmit={boolean('onSubmit', true)}
+        onSubmit={action('Dialog.onSubmit()')}
+        style={object('style', STYLE, 'dialog-style')}
+        styleContainer={object('styleContainer', STYLE_CONTAINER, 'dialog-styleContainer')}
+        title={text('title', 'Title')}
         visible={boolean('visible', true)}
       >
         <Text>Example of children</Text>
       </Dialog>
-    </WebView>
+    </LayoutView>
   ));

@@ -1,8 +1,8 @@
-import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { layout } from '../../common';
+import { LAYOUT } from '../../common';
 import Image from '../Image';
 import Text from '../Text';
 import Touchable from '../Touchable';
@@ -13,7 +13,6 @@ const SHORT_TITLE = 10;
 
 const PictureCard = ({
   backgroundColor, children, caption, image, onLoad, onPress, portrait, small, style, title,
-  layout: { CARD, TEXT } = layout(), // eslint-disable-line
 }) => (
   <Touchable
     disabled={!onPress}
@@ -28,8 +27,8 @@ const PictureCard = ({
         style={StyleSheet.flatten([
           styles.image,
           {
-            width: CARD.WIDTH,
-            height: portrait ? CARD.PORTRAIT : CARD.HEIGHT,
+            width: LAYOUT.STYLE.CARD.WIDTH,
+            height: portrait ? LAYOUT.STYLE.CARD.PORTRAIT : LAYOUT.STYLE.CARD.HEIGHT,
           },
           small && styles.small,
           style,
@@ -41,7 +40,10 @@ const PictureCard = ({
             <Text
               bold
               large
-              style={StyleSheet.flatten([styles.text, styles.title, title.length < SHORT_TITLE && TEXT.LARGE_SHORT])}
+              style={StyleSheet.flatten([
+                styles.text,
+                styles.title,
+                title.length < SHORT_TITLE && LAYOUT.STYLE.TEXT.LARGE_SHORT])}
             >
               {title}
             </Text> }
@@ -62,7 +64,7 @@ PictureCard.propTypes = {
   onPress: func,
   portrait: bool,
   small: bool,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 

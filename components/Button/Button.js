@@ -1,36 +1,36 @@
-import { array, bool, func, number, oneOfType, string } from 'prop-types';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { layout, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
 const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
-  accent, activity, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
-  layout: { TEXT, BUTTON } = layout(), // eslint-disable-line
+  accent, activity, children, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
 }) => (
   <Touchable
-    disabled={disabled}
-    onPress={!disabled ? onPress : undefined}
+    disabled={disabled || !onPress}
+    onPress={onPress}
     style={StyleSheet.flatten([
       styles.touchable,
-      !title && icon && styles.floating,
+      !title && !small && icon && styles.floating,
       rounded && styles.rounded,
     ])}
   >
     <View
       style={StyleSheet.flatten([
         styles.container,
-        color && { backgroundColor: color },
+        flat && styles.flat,
+        flat && color && { borderColor: color },
+        color && { backgroundColor: !flat ? color : undefined },
         primary && styles.primary,
         accent && styles.accent,
-        flat && styles.flat,
         small && styles.small,
-        !small && responsive && { ...BUTTON.CONTAINER },
-        !title && icon && styles.floating,
+        !small && responsive && { ...LAYOUT.STYLE.BUTTON.CONTAINER },
+        !title && !small && icon && styles.floating,
         rounded && styles.rounded,
         disabled && styles.disabled,
         style,
@@ -41,16 +41,18 @@ const Button = ({
         <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
         <Text
-          bold
+          semibold
+          color={flat && color ? color : undefined}
           style={StyleSheet.flatten([
             styles.text,
             flat && styles.textFlat,
             small && styles.textSmall,
-            !small && responsive && TEXT.SMALL,
+            !small && responsive && LAYOUT.STYLE.TEXT.SMALL,
             disabled && styles.textDisabled])}
         >
           {title}
         </Text> }
+      { children }
     </View>
   </Touchable>
 );
@@ -58,6 +60,7 @@ const Button = ({
 Button.propTypes = {
   accent: bool,
   activity: bool,
+  children: node,
   color: string,
   disabled: bool,
   flat: bool,
@@ -67,13 +70,14 @@ Button.propTypes = {
   responsive: bool,
   rounded: bool,
   small: bool,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   title: string,
 };
 
 Button.defaultProps = {
   accent: false,
   activity: false,
+  children: undefined,
   color: undefined,
   disabled: false,
   flat: false,

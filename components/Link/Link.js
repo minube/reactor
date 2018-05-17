@@ -1,19 +1,20 @@
-import { array, number, oneOfType } from 'prop-types';
-import React, { Component } from 'react';
+import { array, number, object, oneOfType, string } from 'prop-types';
+import React, { PureComponent } from 'react';
 import { StyleSheet } from 'react-native';
 
 import Text from '../Text';
 import styles from './Link.style';
 
-class Link extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { hover: false };
+class Link extends PureComponent {
+  state = {
+    hover: false,
   }
 
   render() {
     const {
-      props: { style, styleHover, ...inherit },
+      props: {
+        href, style, styleHover, ...inherit
+      },
       state: { hover },
     } = this;
 
@@ -21,6 +22,7 @@ class Link extends Component {
       <Text
         {...inherit}
         accessibilityRole="link"
+        href={href}
         onMouseEnter={() => inherit.href && this.setState({ hover: true })}
         onMouseLeave={() => inherit.href && this.setState({ hover: false })}
         style={StyleSheet.flatten([
@@ -34,8 +36,9 @@ class Link extends Component {
 }
 
 Link.propTypes = {
-  style: oneOfType([array, number]),
-  styleHover: oneOfType([array, number]),
+  href: string.isRequired,
+  style: oneOfType([array, number, object]),
+  styleHover: oneOfType([array, number, object]),
 };
 
 Link.defaultProps = {

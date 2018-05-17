@@ -1,15 +1,5 @@
 {
-  "presets": ["babel-preset-expo"],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "stream": "stream-browserify"
-        }
-      }
-    ]
-  ],
+  "presets": ["env", "babel-preset-expo"],
   "env": {
     "development": {
       "plugins": ["transform-react-jsx-source"]

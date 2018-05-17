@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
@@ -21,6 +21,9 @@ export default StyleSheet.create({
       height: BUTTON.HEIGHT,
       paddingHorizontal: UNIT * 3,
       borderRadius: BORDER_RADIUS,
+      ...Platform.select({
+        web: { width: 'fit-content' },
+      }),
     },
   ]),
 
@@ -60,7 +63,7 @@ export default StyleSheet.create({
 
   small: {
     height: BUTTON.SMALL_HEIGHT,
-    paddingHorizontal: BUTTON.SMALL_HEIGHT / 2,
+    paddingHorizontal: BUTTON.SMALL_HEIGHT / 3,
   },
 
   text: {

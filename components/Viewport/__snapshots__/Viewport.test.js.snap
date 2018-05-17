@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Viewport> renders 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {children} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Hello World
+        </Text>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {onBack} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {onScroll} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      onScroll={[Function]}
+      scrollEventThrottle={16}
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {style} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 480,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 320,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {styleContent} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 32,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {visible} 1`] = `
+<View
+  collapsable={undefined}
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    onLayout={undefined}
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Object {
+          "height": "100%",
+          "padding": 16,
+          "width": "100%",
+          "zIndex": 0,
+        }
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;

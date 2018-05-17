@@ -1,69 +1,39 @@
-import { bool, number } from 'prop-types';
-import React, { Component } from 'react';
-import { Animated, StyleSheet, View } from 'react-native';
+import { number } from 'prop-types';
+import React, { PureComponent } from 'react';
+import { StyleSheet, View } from 'react-native';
 
 import { THEME } from '../../common';
+import Motion from '../Motion';
 import styles from './ProgressBar.style';
 
 const { COLOR } = THEME;
 
-class ProgressBar extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      layoutWidth: 0,
-      width: new Animated.Value((props.progress || 0) * 100),
-    };
-    this._onLayout = this._onLayout.bind(this);
-    this._updateProgress = this._updateProgress.bind(this);
-  }
-
-  componentWillReceiveProps(nextProps) {
-    this._updateProgress(nextProps);
-  }
-
-  _onLayout({ nativeEvent: { layout = {} } }) {
-    this.setState({ layoutWidth: layout.width });
-    this._updateProgress(this.props, layout.width);
-  }
-
-  _updateProgress({ indeterminate, progress = 0 }, layoutWidth = this.state.layoutWidth) {
-    const { state: { width } } = this;
-
-    if (indeterminate) {
-      Animated.loop(Animated.timing(width, { fromValue: 0, toValue: layoutWidth })).start();
-    } else {
-      Animated.spring(width, {
-        toValue: progress * layoutWidth,
-      }).start();
-    }
+class ProgressBar extends PureComponent {
+  state = {
+    layoutWidth: 0,
   }
 
   render() {
     const {
-      _onLayout,
-      props: { ...inherit },
-      state: { width },
+      props: { progress = 0, ...inherit },
+      state: { layoutWidth = 0 },
     } = this;
 
     return (
       <View
-        onLayout={_onLayout}
+        onLayout={({ nativeEvent: { layout = {} } }) => this.setState({ layoutWidth: layout.width })}
         style={StyleSheet.flatten([
           styles.container,
           { backgroundColor: inherit.trackColor || COLOR.BACKGROUND },
           inherit.style,
         ])}
       >
-        <Animated.View
-          style={StyleSheet.flatten([
-            styles.progress,
-            {
-              backgroundColor: inherit.color || COLOR.PRIMARY,
-              width,
-            },
-          ])}
+        <Motion
+          style={[styles.progress, { backgroundColor: inherit.color || COLOR.PRIMARY }]}
+          timeline={[
+            { property: 'width', value: progress * layoutWidth },
+          ]}
+          type="timing"
         />
       </View>
     );
@@ -71,12 +41,10 @@ class ProgressBar extends Component {
 }
 
 ProgressBar.propTypes = {
-  indeterminate: bool,
   progress: number,
 };
 
 ProgressBar.defaultProps = {
-  indeterminate: false,
   progress: undefined,
 };
 

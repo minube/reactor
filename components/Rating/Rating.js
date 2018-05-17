@@ -1,4 +1,4 @@
-import { array, bool, number, oneOfType, string } from 'prop-types';
+import { array, bool, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -17,7 +17,7 @@ const Rating = ({
       <Text bold lighten tiny color={textColor} style={style}>{` ${value}/5`}</Text> }
     { count > 0 &&
       <Text lighten tiny color={textColor} style={style}>
-        {' (' + `${count} ${caption}`.trim() + ')'}
+        {` (${`${count} ${caption}`.trim()})`}
       </Text> }
   </View>
 );
@@ -27,7 +27,7 @@ Rating.propTypes = {
   color: string,
   count: number,
   showValue: bool,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
   textColor: string,
   value: number,
 };

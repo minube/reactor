@@ -8,51 +8,44 @@ import { THEME, STYLE } from '../../common';
 import Button from '../Button';
 import Price from '../Price';
 import Text from '../Text';
-import WebView from '../WebView';
+import LayoutView from '../Layout';
 import ListingCard from './ListingCard';
 
-const { COLOR: { TEXT }, FONT, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 const RATING = { showValue: false, count: 12, value: 4.5 };
 
 storiesOf('✅ ListingCard', module)
-  .addWithJSX('Empty', () => (
-    <ListingCard empty />
-  ))
   .addWithJSX('default', () => (
-    <ListingCard
-      category="Restaurantes"
-      image={LIPSUM_IMAGE}
-      rating={RATING}
-      ratingCount={2}
-      title="Café Les Deux Molins - El café de Amelie con titulo súper largo puede..."
-    />
+    <ListingCard />
+  ))
+  .addWithJSX('image', () => (
+    <ListingCard image={LIPSUM_IMAGE} />
+  ))
+  .addWithJSX('title', () => (
+    <ListingCard title="Café Les Deux Molins - El café de Amelie con titulo súper largo la" />
+  ))
+  .addWithJSX('category', () => (
+    <ListingCard category="Restaurantes" />
   ))
   .addWithJSX('description', () => (
+    <ListingCard description="Es una de esas joyas de Río que no hay que perderse. Se encuentra a caballo entre Lapa y el Barrio de… " />
+  ))
+  .addWithJSX('rating', () => (
+    <ListingCard rating={RATING} />
+  ))
+  .addWithJSX('children', () => (
+    <ListingCard>
+      <Button flat rounded small title="15 Actividades" style={{ alignSelf: 'flex-start', marginHorizontal: 0 }} />
+    </ListingCard>
+  ))
+  .addWithJSX('complete', () => (
     <ListingCard
       category="Restaurantes"
       description="Es una de esas joyas de Río que no hay que perderse. Se encuentra a caballo entre Lapa y el Barrio de… "
       image={LIPSUM_IMAGE}
       rating={RATING}
       title="Café Les Deux Molins - El café de Amelie con titulo súper largo la"
-    />
-  ))
-  .addWithJSX('button as a child', () => (
-    <ListingCard
-      category="Monumentos"
-      image={LIPSUM_IMAGE}
-      rating={RATING}
-      title="Torre Eiffel Lorem ipsum dolor sit amet adipiscing "
-    >
-      <Button flat rounded small title="15 Actividades" style={{ alignSelf: 'flex-start', marginHorizontal: 0 }} />
-    </ListingCard>
-  ))
-  .addWithJSX('a container as a child', () => (
-    <ListingCard
-      category="Monumentos"
-      image={LIPSUM_IMAGE}
-      rating={RATING}
-      title="Torre Eiffel Lorem ipsum dolor sit amet adipiscing "
     >
       <View style={STYLE.ROW}>
         <View style={{ marginRight: UNIT }}>
@@ -66,10 +59,10 @@ storiesOf('✅ ListingCard', module)
     </ListingCard>
   ))
   .addWithJSX('style', () => (
-    <ListingCard />
+    <ListingCard style={{ backgroundColor: COLOR.PRIMARY, paddingTop: UNIT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <LayoutView>
       <ListingCard
         category={text('category', 'category')}
         description={text('description', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')}
@@ -78,6 +71,6 @@ storiesOf('✅ ListingCard', module)
         rating={object('rating', RATING, 'listingcard-rating')}
         title={text('title', 'title')}
       />
-    </WebView>
+    </LayoutView>
   ));
 

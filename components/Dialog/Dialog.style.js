@@ -10,7 +10,6 @@ export default StyleSheet.create({
   container: StyleSheet.flatten([
     STYLE.CENTERED,
     {
-      backgroundColor: 'rgba(0,0,0, 0.5)',
       height: '100%',
       left: 0,
       position: Platform.OS === 'web' ? 'fixed' : 'absolute',
@@ -20,22 +19,34 @@ export default StyleSheet.create({
     },
   ]),
 
+  background: {
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
+
+  iconClose: {
+    position: 'absolute',
+    right: 0,
+    top: 0,
+    padding: OFFSET,
+    opacity: 0.5,
+    zIndex: 1,
+  },
+
   frame: StyleSheet.flatten([
     STYLE.SHADOW,
     {
       backgroundColor: COLOR.WHITE,
       borderRadius: BORDER_RADIUS,
-      minWidth: '35%',
-      maxHeight: '65%',
     },
   ]),
 
   title: {
+    flex: 1,
     fontSize: FONT.SIZE.LARGE,
     padding: OFFSET,
   },
 
-  content: {
+  children: {
     flex: 1,
     paddingHorizontal: OFFSET,
   },
@@ -47,13 +58,13 @@ export default StyleSheet.create({
     borderTopWidth: 1,
   },
 
-  footer: StyleSheet.flatten([
+  buttons: StyleSheet.flatten([
     STYLE.ROW,
     {
-      alignItems: 'flex-end',
-      alignContent: 'flex-end',
-      justifyContent: 'flex-end',
       padding: OFFSET,
+      alignItems: 'center',
+      alignContent: 'center',
+      justifyContent: 'flex-end',
     },
   ]),
 });

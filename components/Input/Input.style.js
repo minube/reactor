@@ -13,16 +13,8 @@ export default StyleSheet.create({
   },
 
   label: {
-    color: COLOR.TEXT_LIGHTEN,
-    fontSize: FONT.SIZE.SMALL,
     marginVertical: UNIT / 4,
   },
-
-  labelError: {
-    color: COLOR.ERROR,
-  },
-
-  labelFocus: {},
 
   input: {
     borderColor: COLOR.BORDER,

@@ -1,56 +1,72 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.3.8",
+  "version": "0.5.27",
   "private": true,
   "contributors": [
     {
       "name": "Javi Jimenez",
       "email": "javi.jimenez@minube.com",
       "url": "https://github.com/soyjavi"
+    },
+    {
+      "name": "David Galindo",
+      "email": "david.galindo@minube.com",
+      "url": "https://github.com/dgalindoc"
     }
   ],
   "devDependencies": {
+    "@dump247/storybook-state": "^1.5.0",
     "@sambego/storybook-styles": "^1.0.0",
-    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-actions": "^4.0.0-alpha.1",
+    "@storybook/addon-knobs": "^4.0.0-alpha.1",
+    "@storybook/addon-notes": "^4.0.0-alpha.1",
+    "@storybook/addon-options": "^4.0.0-alpha.1",
+    "@storybook/addon-viewport": "^4.0.0-alpha.1",
+    "@storybook/addons": "^4.0.0-alpha.1",
+    "@storybook/react": "^4.0.0-alpha.1",
+    "@storybook/react-native": "^4.0.0-alpha.1",
     "@storybook/addon-console": "^1.0.0",
-    "@storybook/addon-knobs": "^3.3.12",
-    "@storybook/addon-notes": "^3.3.12",
-    "@storybook/addon-options": "^3.3.12",
-    "@storybook/addons": "^3.3.12",
-    "@storybook/react": "^3.3.12",
-    "@storybook/react-native": "^3.3.12",
-    "babel-core": "6.26.0",
-    "babel-eslint": "8.2.1",
-    "babel-plugin-react-native-web": "0.4.0",
-    "eslint": "4.16.0",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-plugin-import": "2.8.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.6.1",
-    "jest-expo": "25.0.0",
-    "react-native-scripts": "1.11.1",
-    "react-native-test-utils": "1.1.1",
-    "react-scripts": "1.0.17",
-    "react-test-renderer": "16.2.0",
+    "@storybook/storybook-deployer": "^2.3.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-react-native-web": "^0.6.1",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "jest-fetch-mock": "^1.5.0",
+    "react-native-scripts": "^1.14.0",
+    "react-test-renderer": "^16.3.2",
+    "release-it": "^7.4.3",
     "storybook-addon-jsx": "^5.3.0"
   },
   "dependencies": {
-    "color": "2.0.1",
-    "expo": "^25.0.0",
-    "prop-types": "15.6.0",
-    "react": "16.2.0",
-    "react-dom": "16.2.0",
-    "react-native": "0.52.0",
-    "react-native-web": "0.4.0"
+    "color": "^2.0.1",
+    "expo": "^27.0.0",
+    "prop-types": "15.6.1",
+    "react": "16.3.1",
+    "react-dom": "16.3.1",
+    "react-native": "^0.55.0",
+    "react-native-web": "0.5.4"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "react-native",
+    "silent": true,
+    "testEnvironment": "jsdom"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
+    "start": "start-storybook -p 9001 -c .storybook",
     "native": "react-native-scripts start",
-    "test": "react-scripts test --env=jsdom",
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "test": "jest",
+    "lint": "eslint components/**",
+    "release": "release-it",
+    "___build-storybook": "build-storybook -c .storybook -o .out",
+    "gh-pages": "storybook-to-ghpages"
   }
 }

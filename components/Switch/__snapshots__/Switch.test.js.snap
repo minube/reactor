@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Switch> renders 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": undefined,
+    }
+  }
+>
+  <RCTSwitch
+    activeThumbColor="#10c0bc"
+    activeTrackColor="#dbdbdb"
+    disabled={false}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+        },
+      ]
+    }
+    value={false}
+  />
+</View>
+`;
+
+exports[`<Switch> when {disabled} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": undefined,
+    }
+  }
+>
+  <RCTSwitch
+    activeThumbColor="#10c0bc"
+    activeTrackColor="#dbdbdb"
+    disabled={false}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+        },
+      ]
+    }
+    value={false}
+    visible={true}
+  />
+</View>
+`;
+
+exports[`<Switch> when {label} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": undefined,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 10,
+      }
+    }
+  >
+    Hello world
+  </Text>
+  <RCTSwitch
+    activeThumbColor="#10c0bc"
+    activeTrackColor="#dbdbdb"
+    disabled={false}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+        },
+      ]
+    }
+    value={false}
+  />
+</View>
+`;
+
+exports[`<Switch> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "orange",
+      "display": "flex",
+      "flexDirection": "row",
+      "height": undefined,
+    }
+  }
+>
+  <RCTSwitch
+    activeThumbColor="#10c0bc"
+    activeTrackColor="#dbdbdb"
+    disabled={false}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+        },
+      ]
+    }
+    value={false}
+  />
+</View>
+`;

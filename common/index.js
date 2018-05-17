@@ -1,12 +1,12 @@
-import layout from './layout';
-import screen from './screen';
+import fetch from './fetch';
+import LAYOUT from './layout';
 import SHAPE from './shape';
 import STYLE from './style';
 import THEME from './theme';
 
 export {
-  layout,
-  screen,
+  fetch,
+  LAYOUT,
   SHAPE,
   STYLE,
   THEME,

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Motion> renders 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {children} 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+>
+  <View />
+</View>
+`;
+
+exports[`<Motion> when {delay} 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {disabled} 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {property} 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {type} 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {useNativeDriver} 1`] = `
+<View
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {value} 1`] = `
+<View
+  collapsable={undefined}
+  style={Object {}}
+/>
+`;

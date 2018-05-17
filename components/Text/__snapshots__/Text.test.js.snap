@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text> renders 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+/>
+`;
+
+exports[`<Text> when {accent} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#f69a37",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {bold} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {color} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#ef5160",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {italic} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "fontStyle": "italic",
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {large} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 18,
+      "lineHeight": 23.400000000000002,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {lighten} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#9b9b9b",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {lighter} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "fontWeight": "300",
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {numberOfLines} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={2}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+      "maxHeight": 41.6,
+      "overflow": "hidden",
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {primary} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#10c0bc",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {semibold} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "fontWeight": "600",
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {small} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 14,
+      "lineHeight": 18.2,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {style} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "orange",
+      "fontFamily": undefined,
+      "fontSize": 20,
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {tiny} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 12,
+      "lineHeight": 15.600000000000001,
+    }
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {title} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 30,
+      "lineHeight": 39,
+    }
+  }
+>
+  Hello World
+</Text>
+`;

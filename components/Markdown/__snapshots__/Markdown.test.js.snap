@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Markdown> including a <Text> property 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    Hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontStyle": "italic",
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    World 
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> renders 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+/>
+`;
+
+exports[`<Markdown> when combining * & ** 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontStyle": "italic",
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    world, I'm 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    javi. 
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> when including * 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontStyle": "italic",
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    world 
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> when including ** 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "flex-start",
+      "alignItems": "flex-start",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "justifyContent": "flex-start",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    hello 
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    world 
+  </Text>
+</View>
+`;
+
+exports[`<Markdown> when simple text 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  numberOfLines={undefined}
+  style={
+    Object {
+      "color": "#4a4a4a",
+      "fontFamily": undefined,
+      "fontSize": 16,
+      "lineHeight": 20.8,
+    }
+  }
+>
+  Hello World
+</Text>
+`;

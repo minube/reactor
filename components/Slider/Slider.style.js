@@ -1,17 +1,15 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
-  BUTTON_SMALL_HEIGHT, COLOR, UNIT, OFFSET,
+  COLOR, UNIT, OFFSET,
 } = THEME;
 
 export default StyleSheet.create({
   button: {
     position: 'absolute',
-    marginTop: -(BUTTON_SMALL_HEIGHT / 2),
     top: 0,
-    zIndex: 1,
   },
 
   caption: {
@@ -22,16 +20,21 @@ export default StyleSheet.create({
     width: '100%',
   },
 
-  slider: {
-    zIndex: -1,
-  },
+  navigation: StyleSheet.flatten([
+    STYLE.ROW,
+    {
+      height: 0,
+      justifyContent: 'space-between',
+      left: 0,
+      overflow: 'visible',
+      position: 'absolute',
+      width: Platform.OS === 'web' ? '100%' : '50%',
+      zIndex: 1,
+    },
+  ]),
 
   header: {
     marginBottom: UNIT,
-  },
-
-  title: {
-
   },
 
   previous: {

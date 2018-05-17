@@ -1,9 +1,10 @@
 import React from 'react';
+import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color } from '@storybook/addon-knobs/react';
 
-import WebView from '../WebView';
+import { LayoutView, Price } from '../';
 import Button from './Button';
 
 storiesOf('✅ Button', module)
@@ -13,11 +14,11 @@ storiesOf('✅ Button', module)
   .addWithJSX('title', () => (
     <Button title="Press me" />
   ))
-  .addWithJSX('floating', () => (
-    <Button icon="base" />
-  ))
   .addWithJSX('icon', () => (
-    <Button icon="base" title="Press me" />
+    <Button icon="apps" />
+  ))
+  .addWithJSX('icon & title', () => (
+    <Button icon="apps" title="Press me" />
   ))
   .addWithJSX('flat', () => (
     <Button flat title="Press me" />
@@ -28,23 +29,28 @@ storiesOf('✅ Button', module)
   .addWithJSX('accent', () => (
     <Button accent title="Press me" />
   ))
+  .addWithJSX('activity', () => (
+    <Button activity title="Press me" />
+  ))
+  .addWithJSX('children', () => (
+    <Button color="red">
+      <Price value={10} style={{ color: 'white' }} />
+    </Button>
+  ))
   .addWithJSX('color', () => (
     <Button color="red" title="Press me" />
+  ))
+  .addWithJSX('disabled', () => (
+    <Button disabled title="Press me" />
+  ))
+  .addWithJSX('responsive', () => (
+    <Button responsive title="Press me" />
   ))
   .addWithJSX('rounded', () => (
     <Button rounded title="Press me" />
   ))
   .addWithJSX('small', () => (
     <Button small title="Press me" />
-  ))
-  .addWithJSX('disabled', () => (
-    <Button disabled title="Press me" />
-  ))
-  .addWithJSX('activity', () => (
-    <Button activity title="Press me" />
-  ))
-  .addWithJSX('responsive', () => (
-    <Button responsive title="Press me" />
   ))
   .addWithJSX('⚡ onPress', () => (
     <Button onPress={action('Button.onPress()')} title="Press me" />
@@ -53,7 +59,7 @@ storiesOf('✅ Button', module)
     <Button title="Press me" style={{ backgroundColor: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <LayoutView>
       <Button
         accent={boolean('accent', false)}
         activity={boolean('activity', false)}
@@ -68,6 +74,6 @@ storiesOf('✅ Button', module)
         small={boolean('small', false)}
         title={text('title', 'Touch me')}
       />
-    </WebView>
+    </LayoutView>
   ));
 

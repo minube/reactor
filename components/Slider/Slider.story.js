@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text, boolean, number } from '@storybook/addon-knobs/react';
 
-import WebView from '../WebView';
+import LayoutView from '../Layout';
 import ListingCard from '../ListingCard';
 import PictureCard from '../PictureCard';
 import Slider from './Slider';
@@ -11,14 +11,14 @@ const dataSource = [...Array(16).keys()]
   .map(index => ({
     category: `Category ${index}`,
     title: `Title ${index}`,
-    rating: index,
+    rating: { value: index },
     image: `https://picsum.photos/320/200?image=1${index + 1}`,
   }));
 
 const ItemListingCard = ({ data }) => <ListingCard {...data} />;
 const ItemPictureCard = ({ data }) => <PictureCard square {...data} />;
 
-storiesOf('🛠 Slider', module)
+storiesOf('✅ Slider', module)
   .addWithJSX('default', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} />
   ))
@@ -53,17 +53,15 @@ storiesOf('🛠 Slider', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
-      <Slider
-        caption={text('caption', 'Muy del estilo de Chiang Mai')}
-        dataSource={dataSource}
-        itemMargin={number('itemMargin', 10)}
-        navigation={boolean('navigation', true)}
-        momentum={boolean('momentum', false)}
-        steps={number('steps', 1)}
-        title={text('title', 'Explora nuevos destinos')}
-        item={ItemPictureCard}
-      />
-    </WebView>
+    <Slider
+      caption={text('caption', 'Muy del estilo de Chiang Mai')}
+      dataSource={dataSource}
+      itemMargin={number('itemMargin', 10)}
+      navigation={boolean('navigation', true)}
+      momentum={boolean('momentum', false)}
+      steps={number('steps', 1)}
+      title={text('title', 'Explora nuevos destinos')}
+      item={ItemPictureCard}
+    />
   ));
 

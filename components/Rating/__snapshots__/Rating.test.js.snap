@@ -1,0 +1,886 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Rating> renders 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {caption} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {color} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "lineHeight": 15.600000000000001,
+      }
+    }
+  >
+     3.5/5
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {count} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
+        "fontSize": 12,
+        "lineHeight": 15.600000000000001,
+      }
+    }
+  >
+     (32)
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {showValue} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "lineHeight": 15.600000000000001,
+      }
+    }
+  >
+     3.5/5
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "lineHeight": 20,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "lineHeight": 20,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "lineHeight": 20,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "lineHeight": 20,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "lineHeight": 20,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "fontWeight": "bold",
+        "lineHeight": 20,
+      }
+    }
+  >
+     3.5/5
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {textColor} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#f69a37",
+        "fontFamily": undefined,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "lineHeight": 15.600000000000001,
+      }
+    }
+  >
+     3.5/5
+  </Text>
+</View>
+`;
+
+exports[`<Rating> when {value} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ★
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 16,
+        "marginRight": 2.5,
+      }
+    }
+  >
+    ☆
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "lineHeight": 15.600000000000001,
+      }
+    }
+  >
+     3.5/5
+  </Text>
+</View>
+`;

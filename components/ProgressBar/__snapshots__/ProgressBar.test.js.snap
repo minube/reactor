@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar> renders 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f4f4f4",
+      "height": 5,
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {color} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f4f4f4",
+      "height": 5,
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "backgroundColor": "#f69a37",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {progress} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f4f4f4",
+      "height": 5,
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {style} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f4f4f4",
+      "borderRadius": 8,
+      "height": 16,
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {trackColor} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#f69a37",
+      "height": 5,
+      "overflow": "hidden",
+      "width": "100%",
+    }
+  }
+>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;

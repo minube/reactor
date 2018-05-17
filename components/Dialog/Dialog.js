@@ -1,39 +1,41 @@
-import { array, bool, func, node, number, oneOfType, string } from 'prop-types';
-import React, { Component } from 'react';
-import { Animated, Dimensions, StyleSheet, ScrollView, View } from 'react-native';
+import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
+import React, { PureComponent } from 'react';
+import { Animated, Platform, StyleSheet, ScrollView, View } from 'react-native';
 
-import { layout, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
+import Icon from '../Icon';
 import Text from '../Text';
+import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;
+const isWeb = Platform.OS === 'web';
 
-class Dialog extends Component {
+class Dialog extends PureComponent {
   constructor(props) {
     super(props);
 
-    const { height } = Dimensions.get('window');
+    const { VIEWPORT: { H } } = LAYOUT;
 
     this.state = {
       opacity: new Animated.Value(props.visible ? 1 : 0),
-      bottom: new Animated.Value(props.visible ? 0 : -height),
+      position: new Animated.Value(props.visible ? 0 : -H),
       scroll: false,
     };
-    this._onScroll = this._onScroll.bind(this);
   }
 
   componentWillReceiveProps({ visible }) {
-    const { bottom, opacity } = this.state;
-    const { height } = Dimensions.get('window');
+    const { position, opacity } = this.state;
+    const { VIEWPORT: { H } } = LAYOUT;
 
     Animated.parallel([
       Animated.spring(opacity, { toValue: visible ? 1 : 0 }),
-      Animated.spring(bottom, { toValue: visible ? 0 : -height }),
+      Animated.spring(position, { toValue: visible ? 0 : -H }),
     ]).start();
   }
 
-  _onScroll() {
+  _onScroll = () => {
     this.setState({ scroll: true });
   }
 
@@ -41,47 +43,67 @@ class Dialog extends Component {
     const {
       _onScroll,
       props: {
-        children, onClose, onSubmit, style, title, visible,
-        layout: { BUTTON } = layout(), // eslint-disable-line
+        background, children, highlight, onClose, onSubmit, style, styleContainer, title, visible,
       },
       state: {
-        bottom, opacity, scroll,
+        position, opacity, scroll,
       },
     } = this;
+    const { VIEWPORT: { PORTRAIT } } = LAYOUT;
 
     return (
       <Animated.View
-        pointerEvents={visible ? 'auto' : 'none'}
-        style={StyleSheet.flatten([styles.container, { opacity }])}
+        pointerEvents={visible && (background || !isWeb) ? 'auto' : 'none'}
+        style={StyleSheet.flatten([styles.container, background && styles.background, styleContainer, { opacity }])}
       >
-        <Animated.View style={StyleSheet.flatten([styles.frame, style, { bottom }])}>
+        <Animated.View
+          pointerEvents="auto"
+          style={StyleSheet.flatten([
+            styles.frame, style,
+            {
+              bottom: position,
+              maxHeight: PORTRAIT ? '100%' : '66%',
+              minWidth: PORTRAIT ? '66%' : '33%',
+            },
+          ])}
+        >
+          { onClose &&
+            <Touchable onPress={onClose} raised style={styles.iconClose}>
+              <Icon value={highlight ? 'close' : 'closeDark'} />
+            </Touchable> }
           { title && <Text bold style={styles.title}>{title}</Text> }
-          <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.content, scroll && styles.scroll])}>
+          <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.children, scroll && styles.scroll])}>
             {children}
+            { onSubmit &&
+              <View style={styles.buttons}>
+                <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} />
+              </View> }
           </ScrollView>
-          <View style={styles.footer}>
-            <Button title="Close" onPress={onClose} />
-            { onSubmit && <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} /> }
-          </View>
         </Animated.View>
       </Animated.View>);
   }
 }
 
 Dialog.propTypes = {
+  background: bool,
   children: node,
+  highlight: bool,
   onClose: func,
   onSubmit: func,
-  style: oneOfType([array, number]),
+  style: oneOfType([array, number, object]),
+  styleContainer: oneOfType([array, number, object]),
   title: string,
   visible: bool,
 };
 
 Dialog.defaultProps = {
+  background: true,
   children: undefined,
-  onClose() {},
+  highlight: undefined,
+  onClose: undefined,
   onSubmit: undefined,
   style: [],
+  styleContainer: [],
   title: undefined,
   visible: false,
 };

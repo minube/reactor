@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, color, number } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import WebView from '../WebView';
+import LayoutView from '../Layout';
 import Rating from './Rating';
 
 storiesOf('✅ Rating', module)
@@ -26,13 +26,13 @@ storiesOf('✅ Rating', module)
     <Rating value={4} color={THEME.COLOR.ACCENT} />
   ))
   .addWithJSX('textColor', () => (
-    <Rating count={32} value={4} color={THEME.COLOR.ACCENT} textColor={THEME.COLOR.PRIMARY}  />
+    <Rating count={32} value={4} color={THEME.COLOR.ACCENT} textColor={THEME.COLOR.PRIMARY} />
   ))
   .addWithJSX('style', () => (
-    <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }}/>
+    <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <WebView>
+    <LayoutView>
       <Rating
         color={color('color', THEME.COLOR.TEXT)}
         textColor={color('textColor', THEME.COLOR.TEXT_LIGHTEN)}
@@ -40,6 +40,6 @@ storiesOf('✅ Rating', module)
         showValue={boolean('showValue', true)}
         value={number('value', 3)}
       />
-    </WebView>
+    </LayoutView>
   ));
 

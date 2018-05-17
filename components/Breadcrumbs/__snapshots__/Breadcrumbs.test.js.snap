@@ -1,0 +1,256 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Breadcrumbs> renders 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+/>
+`;
+
+exports[`<Breadcrumbs> when {color} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+      }
+    }
+  >
+    Spain ·
+  </Text>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+      }
+    }
+  >
+    Basque Country ·
+  </Text>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#10c0bc",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+      }
+    }
+  >
+    Bilbao
+  </Text>
+</View>
+`;
+
+exports[`<Breadcrumbs> when {dataSource} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+      }
+    }
+  >
+    Spain ·
+  </Text>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+      }
+    }
+  >
+    Basque Country ·
+  </Text>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 14,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+      }
+    }
+  >
+    Bilbao
+  </Text>
+</View>
+`;
+
+exports[`<Breadcrumbs> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.25)",
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+        "padding": 16,
+      }
+    }
+  >
+    Spain ·
+  </Text>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.25)",
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+        "padding": 16,
+      }
+    }
+  >
+    Basque Country ·
+  </Text>
+  <Text
+    accessibilityRole="link"
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    href="/"
+    numberOfLines={undefined}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    onPress={[Function]}
+    style={
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.25)",
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 18.2,
+        "marginRight": 4.444444444444445,
+        "padding": 16,
+      }
+    }
+  >
+    Bilbao
+  </Text>
+</View>
+`;
