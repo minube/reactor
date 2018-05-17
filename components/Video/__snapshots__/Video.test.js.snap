@@ -9,12 +9,12 @@ exports[`<Video> renders 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
-      "height": 226,
+      "height": 180,
       "justifyContent": "center",
-      "maxHeight": 226,
-      "maxWidth": 428,
+      "maxHeight": 180,
+      "maxWidth": 320,
       "overflow": "hidden",
-      "width": 428,
+      "width": 320,
     }
   }
 >
@@ -67,11 +67,11 @@ exports[`<Video> renders 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "flex": 1,
-            "height": 226,
-            "maxHeight": 226,
-            "maxWidth": 428,
+            "height": 180,
+            "maxHeight": 180,
+            "maxWidth": 320,
             "overflow": "hidden",
-            "width": 428,
+            "width": 320,
           },
         ]
       }
@@ -89,12 +89,12 @@ exports[`<Video> when {autoplay} 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
-      "height": 226,
+      "height": 180,
       "justifyContent": "center",
-      "maxHeight": 226,
-      "maxWidth": 428,
+      "maxHeight": 180,
+      "maxWidth": 320,
       "overflow": "hidden",
-      "width": 428,
+      "width": 320,
     }
   }
 >
@@ -147,11 +147,11 @@ exports[`<Video> when {autoplay} 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "flex": 1,
-            "height": 226,
-            "maxHeight": 226,
-            "maxWidth": 428,
+            "height": 180,
+            "maxHeight": 180,
+            "maxWidth": 320,
             "overflow": "hidden",
-            "width": 428,
+            "width": 320,
           },
         ]
       }
@@ -169,12 +169,12 @@ exports[`<Video> when {source} (vimeo) 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
-      "height": 226,
+      "height": 180,
       "justifyContent": "center",
-      "maxHeight": 226,
-      "maxWidth": 428,
+      "maxHeight": 180,
+      "maxWidth": 320,
       "overflow": "hidden",
-      "width": 428,
+      "width": 320,
     }
   }
 >
@@ -208,10 +208,10 @@ exports[`<Video> when {source} (vimeo) 1`] = `
       allowtransparency=\\"true\\"
       frameBorder=\\"0\\"
       src=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0&autoplay=0\\"
-      height=\\"226\\"
+      height=\\"180\\"
       style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       title=\\"https://player.vimeo.com/video/225434434?title=0&byline=0&portrait=0\\"
-      width=\\"428\\"
+      width=\\"320\\"
     />",
         }
       }
@@ -226,11 +226,11 @@ exports[`<Video> when {source} (vimeo) 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "flex": 1,
-            "height": 226,
-            "maxHeight": 226,
-            "maxWidth": 428,
+            "height": 180,
+            "maxHeight": 180,
+            "maxWidth": 320,
             "overflow": "hidden",
-            "width": 428,
+            "width": 320,
           },
         ]
       }
@@ -248,12 +248,12 @@ exports[`<Video> when {source} (youtube) 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
-      "height": 226,
+      "height": 180,
       "justifyContent": "center",
-      "maxHeight": 226,
-      "maxWidth": 428,
+      "maxHeight": 180,
+      "maxWidth": 320,
       "overflow": "hidden",
-      "width": 428,
+      "width": 320,
     }
   }
 >
@@ -287,10 +287,10 @@ exports[`<Video> when {source} (youtube) 1`] = `
       allowtransparency=\\"true\\"
       frameBorder=\\"0\\"
       src=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0&autoplay=0\\"
-      height=\\"226\\"
+      height=\\"180\\"
       style=\\"background: transparent; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       title=\\"https://www.youtube.com/embed/cx4MxQcD8Fk?title=0\\"
-      width=\\"428\\"
+      width=\\"320\\"
     />",
         }
       }
@@ -305,11 +305,11 @@ exports[`<Video> when {source} (youtube) 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "flex": 1,
-            "height": 226,
-            "maxHeight": 226,
-            "maxWidth": 428,
+            "height": 180,
+            "maxHeight": 180,
+            "maxWidth": 320,
             "overflow": "hidden",
-            "width": 428,
+            "width": 320,
           },
         ]
       }
@@ -327,12 +327,12 @@ exports[`<Video> when {source} 1`] = `
       "alignItems": "center",
       "alignSelf": "center",
       "backgroundColor": "#f4f4f4",
-      "height": 226,
+      "height": 180,
       "justifyContent": "center",
-      "maxHeight": 226,
-      "maxWidth": 428,
+      "maxHeight": 180,
+      "maxWidth": 320,
       "overflow": "hidden",
-      "width": 428,
+      "width": 320,
     }
   }
 >
@@ -385,11 +385,11 @@ exports[`<Video> when {source} 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "flex": 1,
-            "height": 226,
-            "maxHeight": 226,
-            "maxWidth": 428,
+            "height": 180,
+            "maxHeight": 180,
+            "maxWidth": 320,
             "overflow": "hidden",
-            "width": 428,
+            "width": 320,
           },
         ]
       }
@@ -409,8 +409,8 @@ exports[`<Video> when {style} 1`] = `
       "backgroundColor": "#f4f4f4",
       "height": 400,
       "justifyContent": "center",
-      "maxHeight": 226,
-      "maxWidth": 428,
+      "maxHeight": 180,
+      "maxWidth": 320,
       "overflow": "hidden",
       "width": 640,
     }
@@ -465,11 +465,11 @@ exports[`<Video> when {style} 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "flex": 1,
-            "height": 226,
-            "maxHeight": 226,
-            "maxWidth": 428,
+            "height": 180,
+            "maxHeight": 180,
+            "maxWidth": 320,
             "overflow": "hidden",
-            "width": 428,
+            "width": 320,
           },
         ]
       }

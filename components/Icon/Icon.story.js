@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { WithNotes } from '@storybook/addon-notes';
+import { withNotes } from '@storybook/addon-notes';
 import { boolean, color, number, select } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
@@ -18,14 +18,14 @@ storiesOf('✅ Icon', module)
     <Icon value="https://api.adorable.io/avatars/48/8" />
   ))
   .addWithJSX('color (only Native)', () => (
-    <WithNotes notes="Color is only supported in Native environments">
+    <withNotes notes="Color is only supported in Native environments">
       <Icon color={THEME.COLOR.ERROR} />
-    </WithNotes>
+    </withNotes>
   ))
   .addWithJSX('invert (only Web)', () => (
-    <WithNotes notes="invert is only supported in web environments">
+    <withNotes notes="invert is only supported in web environments">
       <Icon invert />
-    </WithNotes>
+    </withNotes>
   ))
   .addWithJSX('size', () => (
     <Icon size={48} />

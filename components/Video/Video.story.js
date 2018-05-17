@@ -47,11 +47,11 @@ storiesOf('✅ Video', module)
       <Video
         autoplay={boolean('autoplay', true)}
         controls={boolean('controls', false)}
-        height={number('height', 226)}
+        height={number('height', 180)}
         preload={boolean('preload', false)}
         source={text('source', VIDEO_PLACEHOLDER)}
         style={object('style', VIDEO_STYLE, 'video-style')}
-        width={number('width', 428)}
+        width={number('width', 320)}
       />
     </LayoutView>
   ));

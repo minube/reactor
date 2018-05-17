@@ -8,14 +8,14 @@ import { LAYOUT } from '../../common';
 import LayoutView, { LayoutStyle } from './Layout';
 import Text from '../Text';
 
-storiesOf('✅ Layout', module)
+storiesOf('🛠 Layout', module)
   .addWithJSX('default', () => (
     <LayoutView />
   ))
   .addWithJSX('⚡ onLayout', () => (
     <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
-  .addWithJSX('🏀 Using <LayoutStyle>', withState({ timestamp: new Date() }, store => (
+  .addWithJSX('🛠 Using <LayoutStyle>', withState({ timestamp: new Date() }, store => (
     <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
       <Text bold large>VIEWPORT</Text>
 

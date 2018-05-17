@@ -25,7 +25,7 @@ class Input extends Component {
     return (
       <View style={styles.container}>
         { label &&
-          <Text small lighten style={styles.label}>{label}</Text> }
+          <Text tiny lighten style={styles.label}>{label}</Text> }
         <TextInput
           {...inherit}
           autoCorrect={false}
@@ -46,7 +46,7 @@ class Input extends Component {
           ])}
         />
         { !disabled && (error || hint) &&
-          <Text color={error ? COLOR.ERROR : undefined} small lighten style={styles.label}>{error || hint}</Text> }
+          <Text color={error ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>{error || hint}</Text> }
       </View>
     );
   }

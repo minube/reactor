@@ -53,17 +53,15 @@ storiesOf('✅ Slider', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView style={{ maxWidth: 1024 }}>
-      <Slider
-        caption={text('caption', 'Muy del estilo de Chiang Mai')}
-        dataSource={dataSource}
-        itemMargin={number('itemMargin', 10)}
-        navigation={boolean('navigation', true)}
-        momentum={boolean('momentum', false)}
-        steps={number('steps', 1)}
-        title={text('title', 'Explora nuevos destinos')}
-        item={ItemPictureCard}
-      />
-    </LayoutView>
+    <Slider
+      caption={text('caption', 'Muy del estilo de Chiang Mai')}
+      dataSource={dataSource}
+      itemMargin={number('itemMargin', 10)}
+      navigation={boolean('navigation', true)}
+      momentum={boolean('momentum', false)}
+      steps={number('steps', 1)}
+      title={text('title', 'Explora nuevos destinos')}
+      item={ItemPictureCard}
+    />
   ));
 

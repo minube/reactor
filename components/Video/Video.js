@@ -104,11 +104,11 @@ Video.propTypes = {
 Video.defaultProps = {
   autoPlay: false,
   controls: false,
-  height: 226,
+  height: 180,
   onLoad() {},
   preload: false,
   style: [],
-  width: 428,
+  width: 320,
 };
 
 export default Video;
