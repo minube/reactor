@@ -5,6 +5,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import styles from '@sambego/storybook-styles';
 import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
+import './addon-viewport';
 import { THEME } from '../common';
 import PKG from '../package.json';
 
