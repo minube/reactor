@@ -6,18 +6,20 @@ const { AVATAR: { REGULAR, SMALL, LARGE } } = THEME;
 
 export default StyleSheet.create({
   image: {
-    borderRadius: '50%',
-    width: REGULAR,
+    borderRadius: REGULAR / 2,
     height: REGULAR,
+    width: REGULAR,
   },
 
   small: {
-    width: SMALL,
+    borderRadius: SMALL / 2,
     height: SMALL,
+    width: SMALL,
   },
 
   large: {
-    width: LARGE,
+    borderRadius: LARGE / 2,
     height: LARGE,
+    width: LARGE,
   },
 });

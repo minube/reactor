@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Avatar> renders 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "borderRadius": 20,
+      "height": 40,
+      "justifyContent": "center",
+      "width": 40,
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={undefined}
+    style={
+      Object {
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Avatar> when {image} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "borderRadius": 20,
+      "height": 40,
+      "justifyContent": "center",
+      "width": 40,
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://api.adorable.io/avatars/128/8",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Avatar> when {large} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "borderRadius": 30,
+      "height": 60,
+      "justifyContent": "center",
+      "width": 60,
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={undefined}
+    style={
+      Object {
+        "borderRadius": 30,
+        "height": 60,
+        "width": 60,
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Avatar> when {small} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "borderRadius": 10,
+      "height": 20,
+      "justifyContent": "center",
+      "width": 20,
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={undefined}
+    style={
+      Object {
+        "borderRadius": 10,
+        "height": 20,
+        "width": 20,
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Avatar> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "alignContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#f4f4f4",
+      "borderRadius": 5,
+      "height": 128,
+      "justifyContent": "center",
+      "width": 128,
+    }
+  }
+>
+  <Image
+    onLoad={[Function]}
+    resizeMode="cover"
+    source={undefined}
+    style={
+      Object {
+        "borderRadius": 5,
+        "height": 128,
+        "width": 128,
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Object {
+        "position": "absolute",
+      }
+    }
+  />
+</View>
+`;
