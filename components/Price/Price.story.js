@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { number, text } from '@storybook/addon-knobs/react';
-import { WithNotes } from '@storybook/addon-notes';
 
 import { THEME } from '../../common';
 import LayoutView from '../Layout';
@@ -27,10 +27,10 @@ storiesOf('✅ Price', module)
     <Price value={4} symbol="eur" />
   ))
   .addWithJSX('fontSize auto-adjust', () => (
-    <WithNotes>
+    <View>
       <Price value={32} symbol="$" />
       <Price value={1024} symbol="$" />
-    </WithNotes>
+    </View>
   ))
   .addWithJSX('style', () => (
     <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }} />

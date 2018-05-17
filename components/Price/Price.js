@@ -9,13 +9,14 @@ const LEFT_SYMBOLS = ['$'];
 
 const Price = ({
   caption, fixed, style, symbol, value,
+  large = value < 1000 // eslint-disable-line
 }) => (
-  <View style={StyleSheet.flatten([styles.container, value >= 1000 && styles.minimize])}>
+  <View style={styles.container}>
     { caption && <Text large style={StyleSheet.flatten([styles.minimize, style])}>{caption}</Text> }
 
     { LEFT_SYMBOLS.includes(symbol) &&
-      <Text large style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
-    <Text large bold style={style}>
+      <Text large={large} style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
+    <Text large={large} bold style={style}>
       {
         parseFloat(Math.abs(value))
           .toFixed(fixed)
@@ -24,7 +25,7 @@ const Price = ({
       }
     </Text>
     { !LEFT_SYMBOLS.includes(symbol) &&
-      <Text large style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
+      <Text large={large} style={StyleSheet.flatten([styles.minimize, style])}>{symbol}</Text> }
   </View>
 );
 
