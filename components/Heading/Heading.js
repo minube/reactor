@@ -4,12 +4,12 @@ import { StyleSheet, View } from 'react-native';
 
 import { LAYOUT, SHAPE, THEME } from '../../common';
 import Breadcrumbs from '../Breadcrumbs';
-import Image from '../Image';
+import Avatar from '../Avatar';
 import Rating from '../Rating';
 import Text from '../Text';
 import styles from './Heading.style';
 
-const { AVATAR_SMALL, COLOR, UNIT } = THEME;
+const { AVATAR: { SMALL }, COLOR, UNIT } = THEME;
 
 const Heading = ({
   breadcrumbs, color, column, onBreadcrumb, rating, style, title,
@@ -36,11 +36,10 @@ const Heading = ({
           <Text color={color} tiny>{` ${label}`}</Text>
           <View style={StyleSheet.flatten([
               styles.avatars,
-              { width: (AVATAR_SMALL + (UNIT / 2)) * preview.length },
+              { width: (SMALL + (UNIT / 2)) * preview.length },
             ])}
           >
-            { preview.map(({ id, image }) =>
-              <Image key={id} size="small" style={styles.avatar} source={{ uri: image }} />) }
+            { preview.map(({ id, image }) => <Avatar key={id} small image={image} />)}
           </View>
         </View> }
     </View>

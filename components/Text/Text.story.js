@@ -77,4 +77,3 @@ storiesOf('✅ Text', module)
       </Text>
     </LayoutView>
   ));
-

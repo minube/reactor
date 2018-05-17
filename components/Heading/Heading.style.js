@@ -27,12 +27,6 @@ export default StyleSheet.create({
     },
   ]),
 
-  avatar: {
-    borderRadius: AVATAR_SMALL / 2,
-    height: AVATAR_SMALL,
-    width: AVATAR_SMALL,
-  },
-
   avatars: StyleSheet.flatten([
     STYLE.ROW,
     {
