@@ -84,10 +84,13 @@ exports[`<Switch> when {label} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={undefined}
     style={
       Object {
-        "color": "#cccccc",
+        "color": "#9b9b9b",
+        "fontFamily": undefined,
         "fontSize": 14,
+        "lineHeight": 18.2,
         "marginRight": 10,
       }
     }

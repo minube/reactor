@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  COLOR, FONT, INPUT_HEIGHT, UNIT,
+  INPUT_HEIGHT, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -16,13 +16,7 @@ export default StyleSheet.create({
   ]),
 
   label: {
-    color: COLOR.BASE,
-    fontSize: FONT.SIZE.SMALL,
     marginRight: UNIT,
-  },
-
-  disabled: {
-    color: COLOR.BASE,
   },
 
   switch: {
