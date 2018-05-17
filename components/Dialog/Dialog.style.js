@@ -37,8 +37,6 @@ export default StyleSheet.create({
     {
       backgroundColor: COLOR.WHITE,
       borderRadius: BORDER_RADIUS,
-      minWidth: '35%',
-      maxHeight: '65%',
     },
   ]),
 
