@@ -8,7 +8,7 @@ import Avatar from './Avatar';
 const LOREM_AVATAR = 'https://api.adorable.io/avatars/128/8';
 const STYLE = { borderRadius: 5, width: 128, height: 128 };
 
-storiesOf('🛠 Avatar', module)
+storiesOf('✅ Avatar', module)
   .addWithJSX('default', () => (
     <Avatar image={LOREM_AVATAR} />
   ))
