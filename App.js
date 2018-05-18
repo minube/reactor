@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { STYLE, THEME } from './common';
@@ -9,6 +9,7 @@ import {
   Video,
   Viewport,
 } from './components';
+import { Consumer, Provider } from './context';
 import PKG from './package.json';
 
 if (typeof global.self === 'undefined') global.self = global;
@@ -19,6 +20,16 @@ const youtube = 'https://www.youtube.com/cx4MxQcD8Fk';
 const vimeo = 'https://player.vimeo.com/video/225434434';
 
 const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+
+const DICTIONARY = {
+  'es-ES': {
+    GREETINGS: 'Hola Mundo...',
+  },
+
+  'en-EN': {
+    GREETINGS: 'Hello World...',
+  },
+};
 
 const styles = StyleSheet.create({
   container: StyleSheet.flatten([
@@ -48,35 +59,44 @@ export default class App extends Component {
     const { state: { viewport } } = this;
 
     return (
-      <View style={styles.container}>
-        <Viewport visible scroll={true} style={STYLE.CENTERED}>
-          <Text bold large>{PKG.name}</Text>
-          <Text bold tiny>{PKG.version}</Text>
-          <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
-          <Text>{LIPSUM}</Text>
-          <Text>{LIPSUM}</Text>
-          <Text>{LIPSUM}</Text>
-          <Text>{LIPSUM}</Text>
-          <Text>{LIPSUM}</Text>
-        </Viewport>
+      <Provider dictionary={DICTIONARY} language="en-EN">
+        <View style={styles.container}>
+          <Viewport visible scroll style={STYLE.CENTERED}>
+            <Consumer>
+              { ({ l10n }) => (
+                <Fragment>
+                  <Text bold large>{PKG.name}</Text>
+                  <Text bold tiny>{PKG.version}</Text>
+                  <Text bold tiny>{`l10n: ${l10n.GREETINGS}`}</Text>
+                </Fragment>
+              )}
+            </Consumer>
+            <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
+            <Text>{LIPSUM}</Text>
+            <Text>{LIPSUM}</Text>
+            <Text>{LIPSUM}</Text>
+            <Text>{LIPSUM}</Text>
+            <Text>{LIPSUM}</Text>
+          </Viewport>
 
-        <Viewport
-          visible={viewport}
-          onBack={() => this.setState({ viewport: false })}
-          style={{ backgroundColor: 'red' }}
-        >
+          <Viewport
+            visible={viewport}
+            onBack={() => this.setState({ viewport: false })}
+            style={{ backgroundColor: 'red' }}
+          >
 
-          <Video
-            autoPlay
-            loop
-            height={200}
-            width={320}
-            source={video}
-            onLoad={() => console.log('onload')}
-          />
-          <Button title="Back" onPress={() => this.setState({ viewport: false })}/>
-        </Viewport>
-      </View>
+            <Video
+              autoPlay
+              loop
+              height={200}
+              width={320}
+              source={video}
+              onLoad={() => console.log('onload')}
+            />
+            <Button title="Back" onPress={() => this.setState({ viewport: false })}/>
+          </Viewport>
+        </View>
+      </Provider>
     );
   }
 }

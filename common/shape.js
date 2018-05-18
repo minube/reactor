@@ -15,4 +15,9 @@ export default {
     property: string,
     value: number,
   },
+
+  SESSION: {
+    device_id: string,
+    user_id: string,
+  },
 };
