@@ -5,46 +5,42 @@ import { View } from 'react-native';
 import { LAYOUT } from '../../common';
 
 const Context = createContext();
-const { Provider, Consumer: LayoutStyle } = Context;
+const { Provider, Consumer: ConsumerLayout } = Context;
 
 class LayoutView extends PureComponent {
   state = {
     key: undefined,
-    style: LAYOUT.STYLE,
-    viewport: LAYOUT.VIEWPORT,
   }
 
   _onLayout = () => {
-    const { props: { onLayout } } = this;
+    setTimeout(() => {
+      LAYOUT.calc();
+      const { VIEWPORT } = LAYOUT;
+      const key = `${VIEWPORT.W}x${VIEWPORT.H}`;
 
-    LAYOUT.calc();
-    const { STYLE, VIEWPORT } = LAYOUT;
-    onLayout(VIEWPORT);
+      if (this.state.key !== key) {
+        const { props: { onLayout } } = this;
 
-    const key = `${VIEWPORT.W}x${VIEWPORT.H}`;
-    if (this.state.key === key) return;
-
-    this.setState({
-      key,
-      style: STYLE,
-      viewport: VIEWPORT,
-    });
-    // this.forceUpdate(); // @TODO: React fiber
+        onLayout(VIEWPORT);
+        this.setState({ key });
+        // this.forceUpdate(); // @TODO: React fiber
+      }
+    }, 30);
   }
 
   render() {
     const {
       _onLayout,
       props: { children, onLayout, ...inherit },
-      state: { key, style, viewport },
+      state: { key },
     } = this;
 
     return (
-      <Provider value={{ style, viewport }}>
-        <View {...inherit} key={key} onLayout={_onLayout}>
+      <View {...inherit} key={key} onLayout={_onLayout}>
+        <Provider value={{ style: LAYOUT.STYLE, viewport: LAYOUT.VIEWPORT }}>
           {children}
-        </View>
-      </Provider>
+        </Provider>
+      </View>
     );
   }
 }
@@ -59,6 +55,6 @@ LayoutView.defaultProps = {
   onLayout() {},
 };
 
-export { LayoutStyle };
+export { ConsumerLayout };
 
 export default LayoutView;
