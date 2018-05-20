@@ -1,6 +1,6 @@
 {
   "non-interactive": true,
-  "increment": "minor",
+  "increment": "patch",
   "requireCleanWorkingDir": true,
   "src": {
     "beforeStartCommand": "yarn run test && yarn run lint",
