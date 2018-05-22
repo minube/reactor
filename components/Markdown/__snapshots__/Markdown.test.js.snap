@@ -50,20 +50,24 @@ exports[`<Markdown> including a <Text> property 1`] = `
 `;
 
 exports[`<Markdown> renders 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  numberOfLines={undefined}
-  style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
+<View
+  style={Array []}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      }
     }
-  }
-/>
+  />
+</View>
 `;
 
 exports[`<Markdown> when combining * & ** 1`] = `
@@ -231,20 +235,24 @@ exports[`<Markdown> when including ** 1`] = `
 `;
 
 exports[`<Markdown> when simple text 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  numberOfLines={undefined}
-  style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
-  }
+<View
+  style={Array []}
 >
-  Hello World
-</Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      }
+    }
+  >
+    Hello World
+  </Text>
+</View>
 `;

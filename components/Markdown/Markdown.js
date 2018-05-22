@@ -14,7 +14,9 @@ const Markdown = ({
   return (
     sentences.length <= 1
       ?
-        <Text {...inherit}>{children}</Text>
+        <View style={styleContainer}>
+          <Text {...inherit}>{children}</Text>
+        </View>
       :
         <View style={StyleSheet.flatten([style.container, styleContainer])}>
           { sentences.map(({ value, type }, index) => {
