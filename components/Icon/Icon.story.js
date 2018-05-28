@@ -39,7 +39,7 @@ storiesOf('✅ Icon', module)
         size={number('size', THEME.FONT.SIZE.LARGE)}
         color={color('color', THEME.COLOR.TEXT)}
         invert={boolean('invert', false)}
-        value={select('value', ['base', 'apps', 'left', 'options', 'right'], 'base')}
+        value={select('value', ['base', 'close', 'closeDark', 'apps', 'left', 'options', 'right', 'share'], 'base')}
       />
     </LayoutView>
   ));

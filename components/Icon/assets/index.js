@@ -5,6 +5,7 @@ import left from './left.png';
 import apps from './apps.png';
 import options from './options.png';
 import right from './right.png';
+import share from './share.png';
 
 export default {
   base,
@@ -14,4 +15,5 @@ export default {
   apps,
   options,
   right,
+  share,
 };
