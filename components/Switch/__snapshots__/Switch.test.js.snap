@@ -86,13 +86,36 @@ exports[`<Switch> when {label} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#9b9b9b",
-        "fontFamily": undefined,
-        "fontSize": 14,
-        "lineHeight": 18.2,
-        "marginRight": 10,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        Object {
+          "fontSize": 14,
+          "lineHeight": 16.8,
+        },
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "marginRight": 10,
+        },
+      ]
     }
   >
     Hello world

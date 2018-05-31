@@ -55,10 +55,13 @@ export default {
       ? '"Open Sans" , "Montserrat", sans-serif'
       : undefined, // '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
     SIZE: {
+      GNOME: UNIT * 1.1,
       TINY: UNIT * 1.2,
       SMALL: UNIT * 1.4,
       REGULAR: UNIT * 1.6,
       LARGE: UNIT * 2,
+      SUBTITLE: UNIT * 3,
+      TITLE: UNIT * 4.8,
     },
     WEIGHT: {
       LIGHTER: '300',

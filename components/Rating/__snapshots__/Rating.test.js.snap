@@ -16,13 +16,34 @@ exports[`<Rating> renders 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -33,13 +54,34 @@ exports[`<Rating> renders 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -50,13 +92,34 @@ exports[`<Rating> renders 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -67,13 +130,34 @@ exports[`<Rating> renders 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -84,13 +168,34 @@ exports[`<Rating> renders 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -114,13 +219,34 @@ exports[`<Rating> when {caption} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -131,13 +257,34 @@ exports[`<Rating> when {caption} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -148,13 +295,34 @@ exports[`<Rating> when {caption} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -165,13 +333,34 @@ exports[`<Rating> when {caption} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -182,13 +371,34 @@ exports[`<Rating> when {caption} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -212,13 +422,35 @@ exports[`<Rating> when {color} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "#f69a37",
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -229,13 +461,35 @@ exports[`<Rating> when {color} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "#f69a37",
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -246,13 +500,35 @@ exports[`<Rating> when {color} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "#f69a37",
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -263,13 +539,35 @@ exports[`<Rating> when {color} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "#f69a37",
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -280,13 +578,35 @@ exports[`<Rating> when {color} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "#f69a37",
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -297,13 +617,36 @@ exports[`<Rating> when {color} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#9b9b9b",
-        "fontFamily": undefined,
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "lineHeight": 15.600000000000001,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {},
+      ]
     }
   >
      3.5/5
@@ -327,13 +670,34 @@ exports[`<Rating> when {count} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -344,13 +708,34 @@ exports[`<Rating> when {count} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -361,13 +746,34 @@ exports[`<Rating> when {count} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -378,13 +784,34 @@ exports[`<Rating> when {count} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -395,13 +822,34 @@ exports[`<Rating> when {count} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -412,12 +860,34 @@ exports[`<Rating> when {count} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#9b9b9b",
-        "fontFamily": undefined,
-        "fontSize": 12,
-        "lineHeight": 15.600000000000001,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {},
+      ]
     }
   >
      (32)
@@ -441,13 +911,34 @@ exports[`<Rating> when {showValue} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -458,13 +949,34 @@ exports[`<Rating> when {showValue} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -475,13 +987,34 @@ exports[`<Rating> when {showValue} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -492,13 +1025,34 @@ exports[`<Rating> when {showValue} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -509,13 +1063,34 @@ exports[`<Rating> when {showValue} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -526,13 +1101,36 @@ exports[`<Rating> when {showValue} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#9b9b9b",
-        "fontFamily": undefined,
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "lineHeight": 15.600000000000001,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {},
+      ]
     }
   >
      3.5/5
@@ -556,13 +1154,36 @@ exports[`<Rating> when {style} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "lineHeight": 20,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+          "lineHeight": 20,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -573,13 +1194,36 @@ exports[`<Rating> when {style} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "lineHeight": 20,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+          "lineHeight": 20,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -590,13 +1234,36 @@ exports[`<Rating> when {style} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "lineHeight": 20,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+          "lineHeight": 20,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -607,13 +1274,36 @@ exports[`<Rating> when {style} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "lineHeight": 20,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+          "lineHeight": 20,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -624,13 +1314,36 @@ exports[`<Rating> when {style} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "lineHeight": 20,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+          "lineHeight": 20,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -641,13 +1354,40 @@ exports[`<Rating> when {style} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#9b9b9b",
-        "fontFamily": undefined,
-        "fontSize": 20,
-        "fontWeight": "bold",
-        "lineHeight": 20,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "color": "orange",
+          "fontSize": 20,
+          "lineHeight": 20,
+        },
+      ]
     }
   >
      3.5/5
@@ -671,13 +1411,34 @@ exports[`<Rating> when {textColor} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -688,13 +1449,34 @@ exports[`<Rating> when {textColor} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -705,13 +1487,34 @@ exports[`<Rating> when {textColor} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -722,13 +1525,34 @@ exports[`<Rating> when {textColor} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -739,13 +1563,34 @@ exports[`<Rating> when {textColor} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -756,13 +1601,38 @@ exports[`<Rating> when {textColor} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "lineHeight": 15.600000000000001,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "color": "#f69a37",
+        },
+      ]
     }
   >
      3.5/5
@@ -786,13 +1656,34 @@ exports[`<Rating> when {value} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -803,13 +1694,34 @@ exports[`<Rating> when {value} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -820,13 +1732,34 @@ exports[`<Rating> when {value} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ★
@@ -837,13 +1770,34 @@ exports[`<Rating> when {value} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -854,13 +1808,34 @@ exports[`<Rating> when {value} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#10c0bc",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 16,
-        "marginRight": 2.5,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#10c0bc",
+        },
+        false,
+        Object {
+          "lineHeight": 16,
+          "marginRight": 2.5,
+        },
+      ]
     }
   >
     ☆
@@ -871,13 +1846,36 @@ exports[`<Rating> when {value} 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#9b9b9b",
-        "fontFamily": undefined,
-        "fontSize": 12,
-        "fontWeight": "bold",
-        "lineHeight": 15.600000000000001,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {},
+      ]
     }
   >
      3.5/5

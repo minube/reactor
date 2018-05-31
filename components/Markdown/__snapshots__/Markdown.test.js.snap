@@ -19,12 +19,31 @@ exports[`<Markdown> including a <Text> property 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#f69a37",
+        },
+        Object {},
+      ]
     }
   >
     Hello 
@@ -35,13 +54,33 @@ exports[`<Markdown> including a <Text> property 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#f69a37",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "fontStyle": "italic",
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        Object {
+          "fontStyle": "italic",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#f69a37",
+        },
+        Object {},
+      ]
     }
   >
     World 
@@ -59,12 +98,29 @@ exports[`<Markdown> renders 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   />
 </View>
@@ -89,12 +145,29 @@ exports[`<Markdown> when combining * & ** 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     hello 
@@ -105,13 +178,31 @@ exports[`<Markdown> when combining * & ** 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "fontStyle": "italic",
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        Object {
+          "fontStyle": "italic",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     world, I'm 
@@ -122,13 +213,31 @@ exports[`<Markdown> when combining * & ** 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "fontWeight": "bold",
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     javi. 
@@ -155,12 +264,29 @@ exports[`<Markdown> when including * 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     hello 
@@ -171,13 +297,31 @@ exports[`<Markdown> when including * 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "fontStyle": "italic",
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        Object {
+          "fontStyle": "italic",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     world 
@@ -204,12 +348,29 @@ exports[`<Markdown> when including ** 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     hello 
@@ -220,13 +381,31 @@ exports[`<Markdown> when including ** 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "fontWeight": "bold",
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        Object {
+          "fontWeight": "bold",
+        },
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     world 
@@ -244,12 +423,29 @@ exports[`<Markdown> when simple text 1`] = `
     ellipsizeMode="tail"
     numberOfLines={undefined}
     style={
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      }
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {},
+      ]
     }
   >
     Hello World

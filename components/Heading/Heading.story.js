@@ -69,7 +69,7 @@ storiesOf('🛠 Heading', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
+    <LayoutView style={{ width: '100%' }}>
       <Heading
         breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
         color={color('color', THEME.COLOR.TEXT)}

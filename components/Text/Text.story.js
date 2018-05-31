@@ -21,6 +21,9 @@ storiesOf('✅ Text', module)
   .addWithJSX('large', () => (
     <Text large>Hello World</Text>
   ))
+  .addWithJSX('subtitle', () => (
+    <Text subtitle>Hello World</Text>
+  ))
   .addWithJSX('title', () => (
     <Text title>Hello World</Text>
   ))
@@ -49,15 +52,15 @@ storiesOf('✅ Text', module)
     <Text color={THEME.COLOR.ERROR}>Hello World</Text>
   ))
   .addWithJSX('numberOfLines', () => (
-    <LayoutView style={{ maxWidth: '100%' }}>
-      <Text large numberOfLines={2}>{LIPSUM}</Text>
+    <LayoutView>
+      <Text small numberOfLines={2}>{LIPSUM}</Text>
     </LayoutView>
   ))
   .addWithJSX('style', () => (
-    <Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Customized Text</Text>
+    <Text style={{ backgroundColor: 'blue', color: 'orange' }}>Customized Text</Text>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView style={{ maxWidth: '100%' }}>
+    <LayoutView style={{ width: '100%' }}>
       <Text
         lighter={boolean('lighter', false)}
         semibold={boolean('semibold', false)}
@@ -67,6 +70,7 @@ storiesOf('✅ Text', module)
         small={boolean('small', false)}
         tiny={boolean('tiny', false)}
         large={boolean('large', false)}
+        subtitle={boolean('subtitle', false)}
         title={boolean('title', false)}
         accent={boolean('accent', false)}
         lighten={boolean('lighten', false)}

@@ -7,12 +7,29 @@ exports[`<Text> renders 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 />
 `;
@@ -24,12 +41,31 @@ exports[`<Text> when {accent} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#f69a37",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "color": "#f69a37",
+      },
+      Object {},
+    ]
   }
 >
   Hello World
@@ -43,13 +79,31 @@ exports[`<Text> when {bold} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "fontWeight": "bold",
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      Object {
+        "fontWeight": "bold",
+      },
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -63,12 +117,31 @@ exports[`<Text> when {color} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#ef5160",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "color": "#ef5160",
+      },
+    ]
   }
 >
   Hello World
@@ -82,13 +155,31 @@ exports[`<Text> when {italic} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "fontStyle": "italic",
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      Object {
+        "fontStyle": "italic",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -102,12 +193,32 @@ exports[`<Text> when {large} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 18,
-      "lineHeight": 23.400000000000002,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      Object {
+        "fontSize": 20,
+        "lineHeight": 26,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -121,12 +232,31 @@ exports[`<Text> when {lighten} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#9b9b9b",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "color": "#9b9b9b",
+      },
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -140,13 +270,31 @@ exports[`<Text> when {lighter} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "fontWeight": "300",
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      Object {
+        "fontWeight": "300",
+      },
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -160,14 +308,29 @@ exports[`<Text> when {numberOfLines} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={2}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-      "maxHeight": 41.6,
-      "overflow": "hidden",
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -181,12 +344,31 @@ exports[`<Text> when {primary} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#10c0bc",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "color": "#10c0bc",
+      },
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -200,13 +382,31 @@ exports[`<Text> when {semibold} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "fontWeight": "600",
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      Object {
+        "fontWeight": "600",
+      },
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -220,12 +420,32 @@ exports[`<Text> when {small} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 14,
-      "lineHeight": 18.2,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      Object {
+        "fontSize": 14,
+        "lineHeight": 16.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -239,12 +459,32 @@ exports[`<Text> when {style} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "orange",
-      "fontFamily": undefined,
-      "fontSize": 20,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "color": "orange",
+        "fontSize": 20,
+      },
+    ]
   }
 >
   Hello World
@@ -258,12 +498,32 @@ exports[`<Text> when {tiny} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 12,
-      "lineHeight": 15.600000000000001,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      Object {
+        "fontSize": 12,
+        "lineHeight": 14.399999999999999,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World
@@ -277,12 +537,32 @@ exports[`<Text> when {title} 1`] = `
   ellipsizeMode="tail"
   numberOfLines={undefined}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 30,
-      "lineHeight": 39,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 30,
+        "lineHeight": 39,
+      },
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 >
   Hello World

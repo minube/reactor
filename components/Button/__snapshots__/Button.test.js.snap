@@ -91,13 +91,34 @@ exports[`<Button> when {accent} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -165,13 +186,34 @@ exports[`<Button> when {activity} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -236,13 +278,34 @@ exports[`<Button> when {children} 1`] = `
         ellipsizeMode="tail"
         numberOfLines={undefined}
         style={
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 18,
-            "fontWeight": "bold",
-            "lineHeight": 23.400000000000002,
-          }
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            false,
+            Object {
+              "fontWeight": "bold",
+            },
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 20,
+              "lineHeight": 26,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {},
+          ]
         }
       >
         10
@@ -253,17 +316,38 @@ exports[`<Button> when {children} 1`] = `
         ellipsizeMode="tail"
         numberOfLines={undefined}
         style={
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 18,
-            "lineHeight": 23.400000000000002,
-            "transform": Array [
-              Object {
-                "scale": 0.8,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 20,
+              "lineHeight": 26,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "transform": Array [
+                Object {
+                  "scale": 0.8,
+                },
+              ],
+            },
+          ]
         }
       >
         €
@@ -320,13 +404,34 @@ exports[`<Button> when {color} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -383,14 +488,35 @@ exports[`<Button> when {disabled} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-          "opacity": 0.75,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "opacity": 0.75,
+          },
+        ]
       }
     >
       Press me
@@ -448,13 +574,34 @@ exports[`<Button> when {flat} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#9b9b9b",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -526,13 +673,34 @@ exports[`<Button> when {icon} & {title} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -652,13 +820,35 @@ exports[`<Button> when {responsive} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 18.2,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+            "lineHeight": 16.8,
+          },
+        ]
       }
     >
       Press me
@@ -714,13 +904,34 @@ exports[`<Button> when {rounded} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -776,13 +987,34 @@ exports[`<Button> when {small} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 12,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 12,
+          },
+        ]
       }
     >
       Press me
@@ -838,13 +1070,34 @@ exports[`<Button> when {style} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me
@@ -900,13 +1153,34 @@ exports[`<Button> when {title} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#ffffff",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "fontWeight": "600",
-          "lineHeight": 20.8,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
       }
     >
       Press me

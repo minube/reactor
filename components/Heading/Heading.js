@@ -21,7 +21,7 @@ const Heading = ({
         bold
         title
         color={color}
-        style={StyleSheet.flatten([LAYOUT.STYLE.TEXT.TITLE, styles.title])}
+        style={[LAYOUT.STYLE.TEXT.TITLE, styles.title]}
       >
         {title}
       </Text>

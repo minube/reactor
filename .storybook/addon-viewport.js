@@ -1,11 +1,21 @@
 import { configureViewport } from '@storybook/addon-viewport';
 
-
-
 configureViewport({
   defaultViewport: 'iPhone 6',
 
   viewports: {
+    desktop: {
+      name: 'Desktop',
+      styles: {
+        width: '100%',
+        height: '100%',
+        border: 'none',
+        display: 'block',
+        margin: '0',
+        boxShadow: 'none',
+      },
+      type: 'desktop',
+    },
 
     iphone6: {
       name: 'iPhone 6',
@@ -45,19 +55,6 @@ configureViewport({
         width: '768px',
       },
       type: 'tablet',
-    },
-
-    desktop: {
-      name: 'Desktop',
-      styles: {
-        width: '100%',
-        height: '100%',
-        border: 'none',
-        display: 'block',
-        margin: '0',
-        boxShadow: 'none',
-      },
-      type: 'desktop',
     },
   },
 });

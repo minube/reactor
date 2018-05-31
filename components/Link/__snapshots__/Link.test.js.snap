@@ -11,12 +11,29 @@ exports[`<Link> renders 1`] = `
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 />
 `;
@@ -32,12 +49,29 @@ exports[`<Link> when {href} 1`] = `
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
 />
 `;
@@ -53,13 +87,32 @@ exports[`<Link> when {style} 1`] = `
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 20,
-      "fontWeight": "bold",
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 20,
+        "fontWeight": "bold",
+      },
+    ]
   }
   visible={true}
 />
@@ -76,12 +129,29 @@ exports[`<Link> when {styleHover} 1`] = `
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
-    Object {
-      "color": "#4a4a4a",
-      "fontFamily": undefined,
-      "fontSize": 16,
-      "lineHeight": 20.8,
-    }
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {},
+    ]
   }
   visible={true}
 />

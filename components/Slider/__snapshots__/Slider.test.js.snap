@@ -41,12 +41,34 @@ exports[`<Slider> when {caption} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#9b9b9b",
-          "fontFamily": undefined,
-          "fontSize": 14,
-          "lineHeight": 18.2,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          Object {
+            "fontSize": 14,
+            "lineHeight": 16.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+          },
+        ]
       }
     >
       Hello World
@@ -179,15 +201,38 @@ exports[`<Slider> when {dataSource} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 0
@@ -296,15 +341,38 @@ exports[`<Slider> when {dataSource} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 1
@@ -434,15 +502,38 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 0
@@ -551,15 +642,38 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 1
@@ -689,15 +803,38 @@ exports[`<Slider> when {momentum} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 0
@@ -806,15 +943,38 @@ exports[`<Slider> when {momentum} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 1
@@ -1102,15 +1262,38 @@ exports[`<Slider> when {steps} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 0
@@ -1219,15 +1402,38 @@ exports[`<Slider> when {steps} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 1
@@ -1362,15 +1568,38 @@ exports[`<Slider> when {style} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 0
@@ -1479,15 +1708,38 @@ exports[`<Slider> when {style} 1`] = `
                   ellipsizeMode="tail"
                   numberOfLines={undefined}
                   style={
-                    Object {
-                      "color": "#ffffff",
-                      "fontFamily": undefined,
-                      "fontSize": 26,
-                      "fontWeight": "bold",
-                      "lineHeight": 33.800000000000004,
-                      "marginBottom": 5,
-                      "textAlign": "center",
-                    }
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontWeight": "bold",
+                      },
+                      false,
+                      Object {
+                        "fontSize": 16,
+                        "lineHeight": 20.8,
+                      },
+                      false,
+                      false,
+                      Object {
+                        "fontSize": 20,
+                        "lineHeight": 26,
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "marginBottom": 5,
+                        "textAlign": "center",
+                      },
+                    ]
                   }
                 >
                   Title 1
@@ -1523,13 +1775,34 @@ exports[`<Slider> when {title} 1`] = `
       ellipsizeMode="tail"
       numberOfLines={undefined}
       style={
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontSize": 18,
-          "fontWeight": "bold",
-          "lineHeight": 23.400000000000002,
-        }
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          Object {
+            "fontWeight": "bold",
+          },
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 20,
+            "lineHeight": 26,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {},
+        ]
       }
     >
       Hello World

@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { boolean, object } from '@storybook/addon-knobs/react';

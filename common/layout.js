@@ -1,10 +1,19 @@
-import { Dimensions, Platform } from 'react-native';
+import { Dimensions, Platform, StyleSheet } from 'react-native';
 
 import THEME from './theme';
 import screenSize from './screenSize';
-import fontStyle from './fontStyle';
 
 const { BUTTON, FONT, UNIT } = THEME;
+
+const TEXTS = StyleSheet.create({
+  GNOME: { fontSize: FONT.SIZE.GNOME, lineHeight: FONT.SIZE.GNOME * 1.2 },
+  TINY: { fontSize: FONT.SIZE.TINY, lineHeight: FONT.SIZE.TINY * 1.2 },
+  SMALL: { fontSize: FONT.SIZE.SMALL, lineHeight: FONT.SIZE.SMALL * 1.2 },
+  REGULAR: { fontSize: FONT.SIZE.REGULAR, lineHeight: FONT.SIZE.REGULAR * 1.3 },
+  LARGE: { fontSize: FONT.SIZE.LARGE, lineHeight: FONT.SIZE.LARGE * 1.3 },
+  SUBTITLE: { fontSize: FONT.SIZE.SUBTITLE, lineHeight: FONT.SIZE.SUBTITLE * 1.3 },
+  TITLE: { fontSize: FONT.SIZE.TITLE, lineHeight: FONT.SIZE.TITLE * 1.3 },
+});
 
 const calc = ({ width }) => {
   const {
@@ -38,33 +47,30 @@ const calc = ({ width }) => {
     },
 
     TEXT: {
-      TINY: (() => fontStyle(width, { tiny: true }))(),
-
-      SMALL: (() => fontStyle(width, { small: true }))(),
-
-      REGULAR: (() => fontStyle(width, { regular: true }))(),
-
-      LARGE: (() => fontStyle(width, { large: true }))(),
-
-      TITLE: (() => fontStyle(width, { title: true }))(),
-
-      LARGE_SHORT: (() => {
-        let fontSize = 36;
-        if (TINY) fontSize = UNIT * 1.8;
-        if (PHONE || SMALL) fontSize = FONT.SIZE.LARGE;
-        if (TABLET || REGULAR) fontSize = UNIT * 2.6;
-
-        return { fontSize, lineHeight: fontSize * 1.3 };
+      TINY: (() => (REGULAR || LARGE ? TEXTS.TINY : TEXTS.GNOME))(),
+      SMALL: (() => (REGULAR || LARGE ? TEXTS.SMALL : TEXTS.TINY))(),
+      REGULAR: (() => (REGULAR || LARGE ? TEXTS.REGULAR : TEXTS.SMALL))(),
+      LARGE: (() => (REGULAR || LARGE ? TEXTS.LARGE : TEXTS.REGULAR))(),
+      SUBTITLE: (() => {
+        if (TINY || PHONE || TABLET) return TEXTS.REGULAR;
+        if (SMALL || REGULAR) return TEXTS.LARGE;
+        return TEXTS.SUBTITLE;
+      })(),
+      TITLE: (() => {
+        if (TINY || PHONE || TABLET) return TEXTS.LARGE;
+        if (SMALL || REGULAR) return TEXTS.SUBTITLE;
+        return TEXTS.TITLE;
       })(),
 
-      NUMBER_OF_LINES: (numberOfLines, type) => {
-        const { lineHeight } = fontStyle(width, type);
+      // @TODO
+      // LARGE_SHORT: (() => {
+      //   let fontSize = 36;
+      //   if (TINY) fontSize = UNIT * 1.8;
+      //   if (PHONE || SMALL) fontSize = FONT.SIZE.LARGE;
+      //   if (TABLET || REGULAR) fontSize = UNIT * 2.6;
 
-        return {
-          maxHeight: numberOfLines * lineHeight,
-          overflow: 'hidden',
-        };
-      },
+      //   return { fontSize, lineHeight: fontSize * 1.3 };
+      // })(),
     },
   };
 };

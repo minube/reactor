@@ -254,12 +254,34 @@ exports[`<ListingCard> when {category} 1`] = `
         ellipsizeMode="tail"
         numberOfLines={undefined}
         style={
-          Object {
-            "color": "#9b9b9b",
-            "fontFamily": undefined,
-            "fontSize": 12,
-            "lineHeight": 15.600000000000001,
-          }
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            Object {
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
+            },
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#9b9b9b",
+            },
+            false,
+            false,
+            Object {},
+          ]
         }
       >
         Hello world
@@ -441,13 +463,34 @@ exports[`<ListingCard> when {children} 1`] = `
             ellipsizeMode="tail"
             numberOfLines={undefined}
             style={
-              Object {
-                "color": "#9b9b9b",
-                "fontFamily": undefined,
-                "fontSize": 12,
-                "fontWeight": "600",
-                "lineHeight": 20.8,
-              }
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                },
+                false,
+                Object {
+                  "fontWeight": "600",
+                },
+                false,
+                false,
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 20.8,
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                Object {
+                  "color": "#9b9b9b",
+                  "fontSize": 12,
+                },
+              ]
             }
           >
             15 Actividades
@@ -587,14 +630,37 @@ exports[`<ListingCard> when {description} 1`] = `
         ellipsizeMode="tail"
         numberOfLines={3}
         style={
-          Object {
-            "color": "#9b9b9b",
-            "fontFamily": undefined,
-            "fontSize": 12,
-            "lineHeight": 15.600000000000001,
-            "maxHeight": 46.800000000000004,
-            "overflow": "hidden",
-          }
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            Object {
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
+            },
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#9b9b9b",
+            },
+            false,
+            false,
+            Object {
+              "maxHeight": 36,
+              "overflow": "hidden",
+            },
+          ]
         }
       >
         Hello world
@@ -867,14 +933,35 @@ exports[`<ListingCard> when {rating} 1`] = `
           ellipsizeMode="tail"
           numberOfLines={undefined}
           style={
-            Object {
-              "color": "#10c0bc",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "lineHeight": 16,
-              "marginBottom": 5,
-              "marginRight": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#10c0bc",
+              },
+              false,
+              Object {
+                "lineHeight": 16,
+                "marginBottom": 5,
+                "marginRight": 2.5,
+              },
+            ]
           }
         >
           ★
@@ -885,14 +972,35 @@ exports[`<ListingCard> when {rating} 1`] = `
           ellipsizeMode="tail"
           numberOfLines={undefined}
           style={
-            Object {
-              "color": "#10c0bc",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "lineHeight": 16,
-              "marginBottom": 5,
-              "marginRight": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#10c0bc",
+              },
+              false,
+              Object {
+                "lineHeight": 16,
+                "marginBottom": 5,
+                "marginRight": 2.5,
+              },
+            ]
           }
         >
           ★
@@ -903,14 +1011,35 @@ exports[`<ListingCard> when {rating} 1`] = `
           ellipsizeMode="tail"
           numberOfLines={undefined}
           style={
-            Object {
-              "color": "#10c0bc",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "lineHeight": 16,
-              "marginBottom": 5,
-              "marginRight": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#10c0bc",
+              },
+              false,
+              Object {
+                "lineHeight": 16,
+                "marginBottom": 5,
+                "marginRight": 2.5,
+              },
+            ]
           }
         >
           ★
@@ -921,14 +1050,35 @@ exports[`<ListingCard> when {rating} 1`] = `
           ellipsizeMode="tail"
           numberOfLines={undefined}
           style={
-            Object {
-              "color": "#10c0bc",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "lineHeight": 16,
-              "marginBottom": 5,
-              "marginRight": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#10c0bc",
+              },
+              false,
+              Object {
+                "lineHeight": 16,
+                "marginBottom": 5,
+                "marginRight": 2.5,
+              },
+            ]
           }
         >
           ★
@@ -939,14 +1089,35 @@ exports[`<ListingCard> when {rating} 1`] = `
           ellipsizeMode="tail"
           numberOfLines={undefined}
           style={
-            Object {
-              "color": "#10c0bc",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "lineHeight": 16,
-              "marginBottom": 5,
-              "marginRight": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#10c0bc",
+              },
+              false,
+              Object {
+                "lineHeight": 16,
+                "marginBottom": 5,
+                "marginRight": 2.5,
+              },
+            ]
           }
         >
           ☆
@@ -957,13 +1128,36 @@ exports[`<ListingCard> when {rating} 1`] = `
           ellipsizeMode="tail"
           numberOfLines={undefined}
           style={
-            Object {
-              "color": "#9b9b9b",
-              "fontFamily": undefined,
-              "fontSize": 12,
-              "lineHeight": 15.600000000000001,
-              "marginBottom": 5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 14.399999999999999,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#9b9b9b",
+              },
+              false,
+              false,
+              Object {
+                "marginBottom": 5,
+              },
+            ]
           }
         >
            (12)
@@ -1230,14 +1424,36 @@ exports[`<ListingCard> when {title} 1`] = `
         ellipsizeMode="tail"
         numberOfLines={1}
         style={
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 14,
-            "fontWeight": "bold",
-            "lineHeight": 18.2,
-            "marginVertical": 5,
-          }
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            false,
+            Object {
+              "fontWeight": "bold",
+            },
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            Object {
+              "fontSize": 14,
+              "lineHeight": 16.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "marginVertical": 5,
+            },
+          ]
         }
       >
         Hello world
