@@ -29,7 +29,7 @@ class ProgressBar extends PureComponent {
         ])}
       >
         <Motion
-          style={[styles.progress, { backgroundColor: inherit.color || COLOR.PRIMARY }]}
+          style={StyleSheet.flatten([styles.progress, { backgroundColor: inherit.color || COLOR.PRIMARY }])}
           timeline={[
             { property: 'width', value: progress * layoutWidth },
           ]}

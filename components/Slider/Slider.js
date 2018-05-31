@@ -77,8 +77,18 @@ class Slider extends PureComponent {
 
         { navigation &&
           <View style={StyleSheet.flatten([styles.navigation, { bottom: (layoutHeight + BUTTON.SMALL_HEIGHT) / 2 }])}>
-            <Button icon="left" onPress={_onButton} small style={[styles.button, styles.previous]} />
-            <Button icon="right" onPress={() => _onButton(NEXT)} small style={[styles.button, styles.next]} />
+            <Button
+              icon="left"
+              onPress={_onButton}
+              small
+              style={StyleSheet.flatten([styles.button, styles.previous])}
+            />
+            <Button
+              icon="right"
+              onPress={() => _onButton(NEXT)}
+              small
+              style={StyleSheet.flatten([styles.button, styles.next])}
+            />
           </View> }
 
         <ScrollView

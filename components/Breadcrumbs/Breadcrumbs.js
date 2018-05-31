@@ -1,6 +1,6 @@
 import { array, arrayOf, func, number, object, oneOfType, shape, string } from 'prop-types';
 import React from 'react';
-import { View } from 'react-native';
+import { View, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 import Link from '../Link';
@@ -20,7 +20,7 @@ const Breadcrumbs = ({
           onPress(index);
           return false;
         }}
-        style={[styles.link, { color }, style]}
+        style={StyleSheet.flatten([styles.link, { color }, style])}
         small
       >
         {`${caption}${index < dataSource.length - 1 ? ' ·' : ''}`}
