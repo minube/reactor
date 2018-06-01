@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Animated, Platform, StyleSheet, ScrollView, View } from 'react-native';
+import { Animated, Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
