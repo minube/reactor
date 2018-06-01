@@ -32,15 +32,13 @@ const DICTIONARY = {
 };
 
 const styles = StyleSheet.create({
-  container: StyleSheet.flatten([
-    STYLE.CENTERED,
-    {
-      flex: 1,
-      // backgroundColor: THEME.COLOR.BACKGROUND,
-      padding: THEME.UNIT,
-      backgroundColor: 'orange',
-    },
-  ]),
+  container: {
+    ...STYLE.CENTERED,
+    flex: 1,
+    // backgroundColor: THEME.COLOR.BACKGROUND,
+    padding: THEME.UNIT,
+    backgroundColor: 'orange',
+  },
 });
 
 export default class App extends Component {

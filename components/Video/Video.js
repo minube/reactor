@@ -1,6 +1,6 @@
-import { array, bool, func, number, object, oneOfType, string } from 'prop-types';
+import { bool, func, number, string } from 'prop-types';
 import React, { Component } from 'react';
-import { StyleSheet, Platform, View } from 'react-native';
+import { Platform, View } from 'react-native';
 
 import Activity from '../Activity';
 import { embedUrl, htmlVideo } from './modules';
@@ -33,7 +33,7 @@ class Video extends Component {
     const {
       _onLoad,
       props: {
-        autoPlay, controls, height, onLoad, preload, source, style, width, ...inherit
+        autoPlay, controls, height, onLoad, preload, source, width, ...inherit
       },
       state: { ready },
     } = this;
@@ -45,7 +45,7 @@ class Video extends Component {
     return (
       <View
         pointerEvents={!controls && autoPlay ? 'none' : undefined}
-        style={StyleSheet.flatten([styles.container, dimensions, !ready && styles.loading, style])}
+        style={[styles.container, dimensions, !ready && styles.loading, inherit.style]}
       >
         { isWeb && !ready && <Activity size="large" style={styles.activity} /> }
 
@@ -83,7 +83,7 @@ class Video extends Component {
             scrollEnabled={false}
             onLoadStart={onLoad}
             source={{ html: htmlVideo(this.props) }}
-            style={StyleSheet.flatten([styles.webView, dimensions])}
+            style={[styles.webView, dimensions]}
           /> }
       </View>
     );
@@ -97,7 +97,6 @@ Video.propTypes = {
   onLoad: func,
   preload: bool,
   source: string.isRequired,
-  style: oneOfType([array, number, object]),
   width: number,
 };
 
@@ -107,7 +106,6 @@ Video.defaultProps = {
   height: 180,
   onLoad() {},
   preload: false,
-  style: [],
   width: 320,
 };
 

@@ -1,22 +1,22 @@
-import { array, bool, number, object, oneOfType, string } from 'prop-types';
+import { bool, number, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
 import Text from '../Text';
 import styles from './Rating.style';
 
 const Rating = ({
-  caption, color, count, showValue, style, textColor, value, ...inherit
+  caption, color, count, showValue, textColor, value, ...inherit
 }) => (
   <View style={styles.container}>
     { [...Array(5).keys()].map(rate => (
-      <Text {...inherit} primary color={color} key={rate} style={StyleSheet.flatten([styles.rate, style])}>
+      <Text {...inherit} primary color={color} key={rate} style={[styles.rate, inherit.style]}>
         {rate < Math.floor(value) ? '★' : '☆'}
       </Text>)) }
     { value > 0 && showValue &&
-      <Text bold lighten tiny color={textColor} style={style}>{` ${value}/5`}</Text> }
+      <Text bold lighten tiny color={textColor} style={inherit.style}>{` ${value}/5`}</Text> }
     { count > 0 &&
-      <Text lighten tiny color={textColor} style={style}>
+      <Text lighten tiny color={textColor} style={inherit.style}>
         {` (${`${count} ${caption}`.trim()})`}
       </Text> }
   </View>
@@ -27,7 +27,6 @@ Rating.propTypes = {
   color: string,
   count: number,
   showValue: bool,
-  style: oneOfType([array, number, object]),
   textColor: string,
   value: number,
 };
@@ -37,7 +36,6 @@ Rating.defaultProps = {
   color: undefined,
   count: 0,
   showValue: true,
-  style: [],
   textColor: undefined,
   value: 0,
 };

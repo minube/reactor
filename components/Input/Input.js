@@ -1,6 +1,6 @@
-import { array, bool, func, number, object, oneOfType, string } from 'prop-types';
+import { bool, func, string } from 'prop-types';
 import React, { Component } from 'react';
-import { StyleSheet, TextInput, View } from 'react-native';
+import { TextInput, View } from 'react-native';
 
 import { THEME } from '../../common';
 import Text from '../Text';
@@ -17,7 +17,7 @@ class Input extends Component {
   render() {
     const {
       props: {
-        disabled, error, hint, keyboard, label, onBlur, onFocus, style, ...inherit
+        disabled, error, hint, keyboard, label, onBlur, onFocus, ...inherit
       },
       state: { focus },
     } = this;
@@ -37,13 +37,13 @@ class Input extends Component {
           onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
           placeholderTextColor={COLOR.TEXT_LIGHTEN}
           underlineColorAndroid="transparent"
-          style={StyleSheet.flatten([
+          style={[
             styles.input,
             disabled && styles.inputDisabled,
             !disabled && focus && styles.inputFocus,
             !disabled && error && styles.inputError,
-            style,
-          ])}
+            inherit.style,
+          ]}
         />
         { !disabled && (error || hint) &&
           <Text color={error ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>{error || hint}</Text> }
@@ -60,7 +60,6 @@ Input.propTypes = {
   label: string,
   onBlur: func,
   onFocus: func,
-  style: oneOfType([array, object, number]),
 };
 
 Input.defaultProps = {
@@ -71,7 +70,6 @@ Input.defaultProps = {
   label: undefined,
   onBlur: undefined,
   onFocus: undefined,
-  style: [],
 };
 
 export default Input;

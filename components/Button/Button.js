@@ -1,4 +1,4 @@
-import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
+import { bool, func, node, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
@@ -6,49 +6,55 @@ import { LAYOUT, THEME } from '../../common';
 import { Activity, Icon, Text, Touchable } from '../';
 import styles from './Button.style';
 
-const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
+const { COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
 
 const Button = ({
-  accent, activity, children, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, style, title,
+  accent, activity, children, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, title,
+  ...inherit
 }) => (
   <Touchable
     disabled={disabled || !onPress}
     onPress={onPress}
-    style={StyleSheet.flatten([
+    style={[
       styles.touchable,
       !title && !small && icon && styles.floating,
       rounded && styles.rounded,
-    ])}
+      inherit.style,
+    ]}
   >
     <View
-      style={StyleSheet.flatten([
+      style={[
         styles.container,
+        STYLE.BUTTON_REGULAR,
         flat && styles.flat,
-        flat && color && { borderColor: color },
-        color && { backgroundColor: !flat ? color : undefined },
         primary && styles.primary,
         accent && styles.accent,
-        small && styles.small,
-        !small && responsive && { ...LAYOUT.STYLE.BUTTON.CONTAINER },
+        small && STYLE.BUTTON_SMALL,
+        !small && responsive && LAYOUT.STYLE.BUTTON.CONTAINER,
         !title && !small && icon && styles.floating,
         rounded && styles.rounded,
         disabled && styles.disabled,
-        style,
-      ])}
+
+        color && StyleSheet.flatten([
+          !flat && { backgroundColor: color },
+          flat && { borderColor: color },
+        ]),
+      ]}
     >
-      { activity && <Activity color={flat ? TEXT_LIGHTEN : WHITE} style={title && styles.activity} type="small" /> }
+      { activity &&
+        <Activity color={flat ? TEXT_LIGHTEN : WHITE} style={title && styles.activity} type="small" /> }
       { !activity && icon &&
         <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
       { title &&
         <Text
           semibold
           color={flat && color ? color : undefined}
-          style={StyleSheet.flatten([
+          style={[
             styles.text,
             flat && styles.textFlat,
             small && styles.textSmall,
             !small && responsive && LAYOUT.STYLE.TEXT.SMALL,
-            disabled && styles.textDisabled])}
+            disabled && styles.textDisabled]}
         >
           {title}
         </Text> }
@@ -70,7 +76,6 @@ Button.propTypes = {
   responsive: bool,
   rounded: bool,
   small: bool,
-  style: oneOfType([array, number, object]),
   title: string,
 };
 
@@ -87,7 +92,6 @@ Button.defaultProps = {
   responsive: false,
   rounded: false,
   small: false,
-  style: [],
   title: undefined,
 };
 

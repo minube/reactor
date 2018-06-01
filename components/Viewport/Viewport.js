@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, object, oneOfType } from 'prop-types';
 import React, { createElement, PureComponent } from 'react';
-import { View, SafeAreaView, ScrollView, StyleSheet } from 'react-native';
+import { View, SafeAreaView, ScrollView } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Motion from '../Motion';
@@ -27,7 +27,7 @@ class Viewport extends PureComponent {
     const {
       _onLayout, _onScroll,
       props: {
-        children, onScroll, scroll, style, styleContent, visible,
+        children, onScroll, scroll, styleContent, visible, ...inherit
       },
       state: { height, width },
     } = this;
@@ -35,7 +35,7 @@ class Viewport extends PureComponent {
     return (
       <Motion
         duration={MOTION_DURATION / 2}
-        style={StyleSheet.flatten([styles.container, { height, width }, style])}
+        style={[styles.container, { height, width }, inherit.style]}
         timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
         type="timing"
       >
@@ -44,7 +44,7 @@ class Viewport extends PureComponent {
               scroll ? ScrollView : View,
               {
                 ...(scroll && onScroll ? { onScroll: _onScroll, scrollEventThrottle: 16 } : {}),
-                style: StyleSheet.flatten([styles.content, styleContent]),
+                style: [styles.content, styleContent],
               },
               children,
             )}
@@ -58,7 +58,6 @@ Viewport.propTypes = {
   children: node,
   onScroll: func,
   scroll: bool,
-  style: oneOfType([array, number, object]),
   styleContent: oneOfType([array, number, object]),
   visible: bool,
 };
@@ -67,7 +66,6 @@ Viewport.defaultProps = {
   children: undefined,
   onScroll: undefined,
   scroll: true,
-  style: [],
   styleContent: [],
   visible: true,
 };

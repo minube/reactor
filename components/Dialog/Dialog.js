@@ -54,25 +54,26 @@ class Dialog extends PureComponent {
     return (
       <Animated.View
         pointerEvents={visible && (background || !isWeb) ? 'auto' : 'none'}
-        style={StyleSheet.flatten([styles.container, background && styles.background, styleContainer, { opacity }])}
+        style={[styles.container, background && styles.background, styleContainer, { opacity }]}
       >
         <Animated.View
           pointerEvents="auto"
-          style={StyleSheet.flatten([
-            styles.frame, style,
+          style={[
+            styles.frame,
+            style,
             {
               bottom: position,
               maxHeight: PORTRAIT ? '100%' : '66%',
               minWidth: PORTRAIT ? '66%' : '33%',
             },
-          ])}
+          ]}
         >
           { onClose &&
             <Touchable onPress={onClose} raised style={styles.iconClose}>
               <Icon value={highlight ? 'close' : 'closeDark'} />
             </Touchable> }
           { title && <Text bold style={styles.title}>{title}</Text> }
-          <ScrollView onScroll={_onScroll} style={StyleSheet.flatten([styles.children, scroll && styles.scroll])}>
+          <ScrollView onScroll={_onScroll} style={[styles.children, scroll && styles.scroll]}>
             {children}
             { onSubmit &&
               <View style={styles.buttons}>

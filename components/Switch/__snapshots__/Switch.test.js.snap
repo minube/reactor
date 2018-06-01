@@ -3,12 +3,15 @@
 exports[`<Switch> renders 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flexDirection": "row",
-      "height": undefined,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": undefined,
+      },
+      undefined,
+    ]
   }
 >
   <RCTSwitch
@@ -37,12 +40,15 @@ exports[`<Switch> renders 1`] = `
 exports[`<Switch> when {disabled} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flexDirection": "row",
-      "height": undefined,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": undefined,
+      },
+      undefined,
+    ]
   }
 >
   <RCTSwitch
@@ -72,12 +78,15 @@ exports[`<Switch> when {disabled} 1`] = `
 exports[`<Switch> when {label} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flexDirection": "row",
-      "height": undefined,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": undefined,
+      },
+      undefined,
+    ]
   }
 >
   <Text
@@ -146,13 +155,17 @@ exports[`<Switch> when {label} 1`] = `
 exports[`<Switch> when {style} 1`] = `
 <View
   style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "orange",
-      "display": "flex",
-      "flexDirection": "row",
-      "height": undefined,
-    }
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": undefined,
+      },
+      Object {
+        "backgroundColor": "orange",
+      },
+    ]
   }
 >
   <RCTSwitch

@@ -13,19 +13,17 @@ export default StyleSheet.create({
     borderRadius: BORDER_RADIUS,
   },
 
-  container: StyleSheet.flatten([
-    STYLE.ROW,
-    STYLE.CENTERED,
-    {
-      backgroundColor: COLOR.TEXT,
-      height: BUTTON.HEIGHT,
-      paddingHorizontal: UNIT * 3,
-      borderRadius: BORDER_RADIUS,
-      ...Platform.select({
-        web: { width: 'fit-content' },
-      }),
-    },
-  ]),
+  container: {
+    ...STYLE.ROW,
+    ...STYLE.CENTERED,
+    backgroundColor: COLOR.TEXT,
+    // height: BUTTON.HEIGHT,
+    // paddingHorizontal: UNIT * 3,
+    borderRadius: BORDER_RADIUS,
+    ...Platform.select({
+      web: { width: 'fit-content' },
+    }),
+  },
 
   accent: {
     backgroundColor: COLOR.ACCENT,
@@ -61,10 +59,10 @@ export default StyleSheet.create({
     borderRadius: BUTTON.HEIGHT / 2,
   },
 
-  small: {
-    height: BUTTON.SMALL_HEIGHT,
-    paddingHorizontal: BUTTON.SMALL_HEIGHT / 3,
-  },
+  // small: {
+  //   height: BUTTON.SMALL_HEIGHT,
+  //   paddingHorizontal: BUTTON.SMALL_HEIGHT / 3,
+  // },
 
   text: {
     color: COLOR.WHITE,

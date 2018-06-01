@@ -7,17 +7,15 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
-  container: StyleSheet.flatten([
-    STYLE.CENTERED,
-    {
-      height: '100%',
-      left: 0,
-      position: Platform.OS === 'web' ? 'fixed' : 'absolute',
-      top: 0,
-      width: '100%',
-      zIndex: 2,
-    },
-  ]),
+  container: {
+    ...STYLE.CENTERED,
+    height: '100%',
+    left: 0,
+    position: Platform.OS === 'web' ? 'fixed' : 'absolute',
+    top: 0,
+    width: '100%',
+    zIndex: 2,
+  },
 
   background: {
     backgroundColor: 'rgba(0,0,0,0.5)',
@@ -32,13 +30,11 @@ export default StyleSheet.create({
     zIndex: 1,
   },
 
-  frame: StyleSheet.flatten([
-    STYLE.SHADOW,
-    {
-      backgroundColor: COLOR.WHITE,
-      borderRadius: BORDER_RADIUS,
-    },
-  ]),
+  frame: {
+    ...STYLE.SHADOW,
+    backgroundColor: COLOR.WHITE,
+    borderRadius: BORDER_RADIUS,
+  },
 
   title: {
     flex: 1,
@@ -58,13 +54,11 @@ export default StyleSheet.create({
     borderTopWidth: 1,
   },
 
-  buttons: StyleSheet.flatten([
-    STYLE.ROW,
-    {
-      padding: OFFSET,
-      alignItems: 'center',
-      alignContent: 'center',
-      justifyContent: 'flex-end',
-    },
-  ]),
+  buttons: {
+    ...STYLE.ROW,
+    padding: OFFSET,
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'flex-end',
+  },
 });

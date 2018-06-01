@@ -3,9 +3,12 @@
 exports[`<Heading> renders 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -75,9 +78,12 @@ exports[`<Heading> renders 1`] = `
 exports[`<Heading> when {breadcrumbs} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -189,7 +195,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             false,
             Object {
               "color": "#9b9b9b",
-              "marginRight": 4.444444444444445,
+              "marginRight": 4,
             },
           ]
         }
@@ -233,7 +239,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             false,
             Object {
               "color": "#9b9b9b",
-              "marginRight": 4.444444444444445,
+              "marginRight": 4,
             },
           ]
         }
@@ -277,7 +283,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             false,
             Object {
               "color": "#9b9b9b",
-              "marginRight": 4.444444444444445,
+              "marginRight": 4,
             },
           ]
         }
@@ -321,7 +327,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             false,
             Object {
               "color": "#9b9b9b",
-              "marginRight": 4.444444444444445,
+              "marginRight": 4,
             },
           ]
         }
@@ -336,9 +342,12 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
 exports[`<Heading> when {color} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -411,9 +420,12 @@ exports[`<Heading> when {color} 1`] = `
 exports[`<Heading> when {column} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -829,27 +841,41 @@ exports[`<Heading> when {column} 1`] = `
       </Text>
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-            "paddingLeft": 5,
-            "width": 75,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+          ]
         }
       >
         <View
           style={
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#f4f4f4",
-              "borderRadius": 10,
-              "height": 20,
-              "justifyContent": "center",
-              "width": 20,
-            }
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
           }
         >
           <Image
@@ -861,11 +887,22 @@ exports[`<Heading> when {column} 1`] = `
               }
             }
             style={
-              Object {
-                "borderRadius": 10,
-                "height": 20,
-                "width": 20,
-              }
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
             }
           />
           <ActivityIndicator
@@ -882,15 +919,30 @@ exports[`<Heading> when {column} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#f4f4f4",
-              "borderRadius": 10,
-              "height": 20,
-              "justifyContent": "center",
-              "width": 20,
-            }
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
           }
         >
           <Image
@@ -902,11 +954,22 @@ exports[`<Heading> when {column} 1`] = `
               }
             }
             style={
-              Object {
-                "borderRadius": 10,
-                "height": 20,
-                "width": 20,
-              }
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
             }
           />
           <ActivityIndicator
@@ -923,15 +986,30 @@ exports[`<Heading> when {column} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#f4f4f4",
-              "borderRadius": 10,
-              "height": 20,
-              "justifyContent": "center",
-              "width": 20,
-            }
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
           }
         >
           <Image
@@ -943,11 +1021,22 @@ exports[`<Heading> when {column} 1`] = `
               }
             }
             style={
-              Object {
-                "borderRadius": 10,
-                "height": 20,
-                "width": 20,
-              }
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
             }
           />
           <ActivityIndicator
@@ -971,9 +1060,12 @@ exports[`<Heading> when {column} 1`] = `
 exports[`<Heading> when {contributors} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -1126,27 +1218,41 @@ exports[`<Heading> when {contributors} 1`] = `
       </Text>
       <View
         style={
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-            "paddingLeft": 5,
-            "width": 75,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+          ]
         }
       >
         <View
           style={
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#f4f4f4",
-              "borderRadius": 10,
-              "height": 20,
-              "justifyContent": "center",
-              "width": 20,
-            }
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
           }
         >
           <Image
@@ -1158,11 +1264,22 @@ exports[`<Heading> when {contributors} 1`] = `
               }
             }
             style={
-              Object {
-                "borderRadius": 10,
-                "height": 20,
-                "width": 20,
-              }
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
             }
           />
           <ActivityIndicator
@@ -1179,15 +1296,30 @@ exports[`<Heading> when {contributors} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#f4f4f4",
-              "borderRadius": 10,
-              "height": 20,
-              "justifyContent": "center",
-              "width": 20,
-            }
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
           }
         >
           <Image
@@ -1199,11 +1331,22 @@ exports[`<Heading> when {contributors} 1`] = `
               }
             }
             style={
-              Object {
-                "borderRadius": 10,
-                "height": 20,
-                "width": 20,
-              }
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
             }
           />
           <ActivityIndicator
@@ -1220,15 +1363,30 @@ exports[`<Heading> when {contributors} 1`] = `
         </View>
         <View
           style={
-            Object {
-              "alignContent": "center",
-              "alignItems": "center",
-              "backgroundColor": "#f4f4f4",
-              "borderRadius": 10,
-              "height": 20,
-              "justifyContent": "center",
-              "width": 20,
-            }
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ],
+            ]
           }
         >
           <Image
@@ -1240,11 +1398,22 @@ exports[`<Heading> when {contributors} 1`] = `
               }
             }
             style={
-              Object {
-                "borderRadius": 10,
-                "height": 20,
-                "width": 20,
-              }
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "marginLeft": 5,
+                },
+              ]
             }
           />
           <ActivityIndicator
@@ -1268,9 +1437,12 @@ exports[`<Heading> when {contributors} 1`] = `
 exports[`<Heading> when {rating} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -1620,11 +1792,15 @@ exports[`<Heading> when {rating} 1`] = `
 exports[`<Heading> when {style} 1`] = `
 <View
   style={
-    Object {
-      "backgroundColor": "rgba(0,0,0,0.25)",
-      "padding": 16,
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "rgba(0,0,0,0.25)",
+        "padding": 16,
+      },
+    ]
   }
 >
   <View
@@ -1696,9 +1872,12 @@ exports[`<Heading> when {style} 1`] = `
 exports[`<Heading> when {title} 1`] = `
 <View
   style={
-    Object {
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
   }
 >
   <View

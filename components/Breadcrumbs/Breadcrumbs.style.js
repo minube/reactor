@@ -2,11 +2,12 @@ import { StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
-const { UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   link: {
-    marginRight: UNIT / 2.25,
+    color: COLOR.TEXT,
+    marginRight: UNIT * 0.4,
   },
 
   container: STYLE.ROW,

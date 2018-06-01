@@ -30,12 +30,15 @@ exports[`<Viewport> renders 1`] = `
   >
     <RCTScrollView
       style={
-        Object {
-          "height": "100%",
-          "padding": 16,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
     >
       <View />
@@ -74,12 +77,15 @@ exports[`<Viewport> when {children} 1`] = `
   >
     <RCTScrollView
       style={
-        Object {
-          "height": "100%",
-          "padding": 16,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
     >
       <View>
@@ -126,12 +132,15 @@ exports[`<Viewport> when {onBack} 1`] = `
   >
     <RCTScrollView
       style={
-        Object {
-          "height": "100%",
-          "padding": 16,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
     >
       <View />
@@ -172,12 +181,15 @@ exports[`<Viewport> when {onScroll} 1`] = `
       onScroll={[Function]}
       scrollEventThrottle={16}
       style={
-        Object {
-          "height": "100%",
-          "padding": 16,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
     >
       <View />
@@ -216,12 +228,15 @@ exports[`<Viewport> when {style} 1`] = `
   >
     <RCTScrollView
       style={
-        Object {
-          "height": "100%",
-          "padding": 16,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
     >
       <View />
@@ -260,12 +275,17 @@ exports[`<Viewport> when {styleContent} 1`] = `
   >
     <RCTScrollView
       style={
-        Object {
-          "height": "100%",
-          "padding": 32,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Object {
+            "padding": 32,
+          },
+        ]
       }
     >
       <View />
@@ -304,12 +324,15 @@ exports[`<Viewport> when {visible} 1`] = `
   >
     <RCTScrollView
       style={
-        Object {
-          "height": "100%",
-          "padding": 16,
-          "width": "100%",
-          "zIndex": 0,
-        }
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
     >
       <View />

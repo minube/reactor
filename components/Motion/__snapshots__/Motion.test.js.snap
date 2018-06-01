@@ -46,7 +46,12 @@ exports[`<Motion> when {type} 1`] = `
 
 exports[`<Motion> when {useNativeDriver} 1`] = `
 <View
-  style={Object {}}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 />
 `;
 

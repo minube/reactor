@@ -1,12 +1,9 @@
 import { number } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
-import { THEME } from '../../common';
 import Motion from '../Motion';
 import styles from './ProgressBar.style';
-
-const { COLOR } = THEME;
 
 class ProgressBar extends PureComponent {
   state = {
@@ -22,17 +19,15 @@ class ProgressBar extends PureComponent {
     return (
       <View
         onLayout={({ nativeEvent: { layout = {} } }) => this.setState({ layoutWidth: layout.width })}
-        style={StyleSheet.flatten([
+        style={[
           styles.container,
-          { backgroundColor: inherit.trackColor || COLOR.BACKGROUND },
           inherit.style,
-        ])}
+          inherit.trackColor && { backgroundColor: inherit.trackColor },
+        ]}
       >
         <Motion
-          style={StyleSheet.flatten([styles.progress, { backgroundColor: inherit.color || COLOR.PRIMARY }])}
-          timeline={[
-            { property: 'width', value: progress * layoutWidth },
-          ]}
+          style={[styles.progress, inherit.color && { backgroundColor: inherit.color }]}
+          timeline={[{ property: 'width', value: progress * layoutWidth }]}
           type="timing"
         />
       </View>

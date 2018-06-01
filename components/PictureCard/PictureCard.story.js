@@ -44,7 +44,7 @@ storiesOf('✅ PictureCard', module)
     <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', opacity: 0.75 }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
+    <LayoutView style={{ width: '100%' }}>
       <PictureCard
         caption={text('caption', 'minube stories')}
         backgroundColor={color('backgroundColor', undefined)}

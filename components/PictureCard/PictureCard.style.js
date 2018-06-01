@@ -17,15 +17,14 @@ export default StyleSheet.create({
     opacity: 0.8,
   },
 
-  content: StyleSheet.flatten([
-    STYLE.CENTERED,
-    {
-      position: 'absolute',
-      width: '100%',
-      height: '100%',
-      padding: UNIT,
-    },
-  ]),
+  content: {
+    ...STYLE.CENTERED,
+    position: 'absolute',
+    left: 0,
+    height: '100%',
+    padding: UNIT,
+    alignSelf: 'center',
+  },
 
   small: {
     height: UNIT * 10,
@@ -38,9 +37,5 @@ export default StyleSheet.create({
 
   title: {
     marginBottom: UNIT / 2,
-  },
-
-  caption: {
-
   },
 });

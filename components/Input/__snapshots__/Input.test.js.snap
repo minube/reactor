@@ -20,17 +20,23 @@ exports[`<Input> renders 1`] = `
     onFocus={[Function]}
     placeholderTextColor="#9b9b9b"
     style={
-      Object {
-        "borderColor": "#dbdbdb",
-        "borderRadius": 2.5,
-        "borderWidth": 1,
-        "color": "#4a4a4a",
-        "fontSize": 16,
-        "fontWeight": "normal",
-        "paddingHorizontal": 5,
-        "paddingVertical": 7.5,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+        undefined,
+      ]
     }
     underlineColorAndroid="transparent"
   />

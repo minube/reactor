@@ -1,9 +1,7 @@
 import { Platform } from 'react-native';
 import THEME from './theme';
 
-const {
-  COLOR,
-} = THEME;
+const { COLOR } = THEME;
 
 export default {
   CENTERED: {

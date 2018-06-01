@@ -18,27 +18,45 @@ exports[`<Button> renders 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      undefined,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+        false,
+        false,
+        undefined,
+      ]
     }
   />
 </View>
@@ -62,27 +80,47 @@ exports[`<Button> when {accent} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#f69a37",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        Object {
+          "backgroundColor": "#f69a37",
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Text
@@ -145,27 +183,45 @@ exports[`<Button> when {activity} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <ActivityIndicator
@@ -240,27 +296,45 @@ exports[`<Button> when {children} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      undefined,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <View
@@ -375,27 +449,47 @@ exports[`<Button> when {color} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "red",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "backgroundColor": "red",
+        },
+      ]
     }
   >
     <Text
@@ -458,28 +552,48 @@ exports[`<Button> when {disabled} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#dbdbdb",
-        "borderRadius": 3,
-        "borderWidth": 0,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "backgroundColor": "#dbdbdb",
+          "borderWidth": 0,
+        },
+        undefined,
+      ]
     }
   >
     <Text
@@ -543,29 +657,49 @@ exports[`<Button> when {flat} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#ffffff",
-        "borderColor": "#dbdbdb",
-        "borderRadius": 3,
-        "borderWidth": 1,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderWidth": 1,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Text
@@ -628,27 +762,45 @@ exports[`<Button> when {icon} & {title} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Image
@@ -659,12 +811,19 @@ exports[`<Button> when {icon} & {title} 1`] = `
         }
       }
       style={
-        Object {
-          "backgroundColor": "transparent",
-          "height": 16,
-          "marginRight": 10,
-          "width": 16,
-        }
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "height": 16,
+            "marginRight": 10,
+            "width": 16,
+          },
+          undefined,
+        ]
       }
     />
     <Text
@@ -727,31 +886,55 @@ exports[`<Button> when {icon} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 30,
-      "height": 60,
-      "margin": 5,
-      "paddingHorizontal": 0,
-      "width": 60,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      Object {
+        "borderRadius": 30,
+        "height": 60,
+        "paddingHorizontal": 0,
+        "width": 60,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 30,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 60,
-        "justifyContent": "center",
-        "paddingHorizontal": 0,
-        "width": 60,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "borderRadius": 30,
+          "height": 60,
+          "paddingHorizontal": 0,
+          "width": 60,
+        },
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Image
@@ -762,11 +945,18 @@ exports[`<Button> when {icon} 1`] = `
         }
       }
       style={
-        Object {
-          "backgroundColor": "transparent",
-          "height": 20,
-          "width": 20,
-        }
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "height": 20,
+            "width": 20,
+          },
+          undefined,
+        ]
       }
     />
   </View>
@@ -791,27 +981,48 @@ exports[`<Button> when {responsive} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Text
@@ -875,27 +1086,49 @@ exports[`<Button> when {rounded} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 22.5,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      Object {
+        "borderRadius": 22.5,
+      },
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 22.5,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "borderRadius": 22.5,
+        },
+        false,
+        undefined,
+      ]
     }
   >
     <Text
@@ -958,27 +1191,48 @@ exports[`<Button> when {small} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 30,
-        "justifyContent": "center",
-        "paddingHorizontal": 10,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        Object {
+          "height": 30,
+          "paddingHorizontal": 15,
+        },
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Text
@@ -1041,27 +1295,47 @@ exports[`<Button> when {style} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      Object {
+        "backgroundColor": "orange",
+      },
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "orange",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Text
@@ -1124,27 +1398,45 @@ exports[`<Button> when {title} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "borderRadius": 3,
-      "margin": 5,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "margin": 5,
+      },
+      false,
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
   <View
     style={
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#4a4a4a",
-        "borderRadius": 3,
-        "display": "flex",
-        "flexDirection": "row",
-        "height": 45,
-        "justifyContent": "center",
-        "paddingHorizontal": 30,
-      }
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#4a4a4a",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
     }
   >
     <Text

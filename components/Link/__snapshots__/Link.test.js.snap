@@ -153,6 +153,12 @@ exports[`<Link> when {styleHover} 1`] = `
       Object {},
     ]
   }
+  styleHover={
+    Object {
+      "fontSize": 20,
+      "fontWeight": "bold",
+    }
+  }
   visible={true}
 />
 `;

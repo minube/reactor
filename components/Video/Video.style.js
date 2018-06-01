@@ -5,13 +5,11 @@ import { STYLE, THEME } from '../../common';
 const { COLOR } = THEME;
 
 export default StyleSheet.create({
-  container: StyleSheet.flatten([
-    STYLE.CENTERED,
-    {
-      alignSelf: 'center',
-      overflow: 'hidden',
-    },
-  ]),
+  container: {
+    ...STYLE.CENTERED,
+    alignSelf: 'center',
+    overflow: 'hidden',
+  },
 
   loading: {
     backgroundColor: COLOR.BACKGROUND,

@@ -9,11 +9,15 @@ exports[`<Icon> renders 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "transparent",
-      "height": 20,
-      "width": 20,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      undefined,
+    ]
   }
 />
 `;
@@ -27,12 +31,17 @@ exports[`<Icon> when {color} (only Native) 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "transparent",
-      "height": 20,
-      "tintColor": "#ef5160",
-      "width": 20,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      Object {
+        "tintColor": "#ef5160",
+      },
+    ]
   }
 />
 `;
@@ -46,11 +55,15 @@ exports[`<Icon> when {invert} (only Web) 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "transparent",
-      "height": 20,
-      "width": 20,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      Object {},
+    ]
   }
 />
 `;
@@ -64,11 +77,18 @@ exports[`<Icon> when {size} 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "transparent",
-      "height": 48,
-      "width": 48,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      Object {
+        "height": 48,
+        "width": 48,
+      },
+    ]
   }
 />
 `;
@@ -82,11 +102,17 @@ exports[`<Icon> when {style} 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "#f69a37",
-      "height": 20,
-      "width": 20,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      Object {
+        "backgroundColor": "#f69a37",
+      },
+      undefined,
+    ]
   }
 />
 `;
@@ -100,11 +126,15 @@ exports[`<Icon> when {value} 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "transparent",
-      "height": 20,
-      "width": 20,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      undefined,
+    ]
   }
 />
 `;
@@ -118,11 +148,15 @@ exports[`<Icon> when {value} as uri 1`] = `
     }
   }
   style={
-    Object {
-      "backgroundColor": "transparent",
-      "height": 20,
-      "width": 20,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      undefined,
+    ]
   }
 />
 `;

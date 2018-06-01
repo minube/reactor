@@ -17,7 +17,7 @@ storiesOf('✅ Link', module)
     <Link
       href="http://minube.com"
       style={{ fontSize: THEME.FONT.SIZE.LARGE, fontWeight: THEME.FONT.WEIGHT.BOLD }}
-      styleHover={{ color: THEME.COLOR.PRIMARY }}
+      styleHover={{ color: 'red' }}
     >
       minube.com
     </Link>

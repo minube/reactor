@@ -1,6 +1,6 @@
 import { array, number, object, oneOfType, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
 import Text from '../Text';
 import { markdown, BOLD, ITALIC } from './modules';
@@ -18,7 +18,7 @@ const Markdown = ({
           <Text {...inherit}>{children}</Text>
         </View>
       :
-        <View style={StyleSheet.flatten([style.container, styleContainer])}>
+        <View style={[style.container, styleContainer]}>
           { sentences.map(({ value, type }, index) => {
             const key = `${type}${index}`;
             return (

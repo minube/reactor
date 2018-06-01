@@ -4,18 +4,25 @@ exports[`<Video> renders 1`] = `
 <View
   pointerEvents={undefined}
   style={
-    Object {
-      "alignContent": "center",
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#f4f4f4",
-      "height": 180,
-      "justifyContent": "center",
-      "maxHeight": 180,
-      "maxWidth": 320,
-      "overflow": "hidden",
-      "width": 320,
-    }
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 180,
+        "maxHeight": 180,
+        "maxWidth": 320,
+        "width": 320,
+      },
+      Object {
+        "backgroundColor": "#f4f4f4",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -64,15 +71,19 @@ exports[`<Video> renders 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "flex": 1,
-            "height": 180,
-            "maxHeight": 180,
-            "maxWidth": 320,
-            "overflow": "hidden",
-            "width": 320,
-          },
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 180,
+              "maxHeight": 180,
+              "maxWidth": 320,
+              "width": 320,
+            },
+          ],
         ]
       }
     />
@@ -84,18 +95,25 @@ exports[`<Video> when {autoplay} 1`] = `
 <View
   pointerEvents={undefined}
   style={
-    Object {
-      "alignContent": "center",
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#f4f4f4",
-      "height": 180,
-      "justifyContent": "center",
-      "maxHeight": 180,
-      "maxWidth": 320,
-      "overflow": "hidden",
-      "width": 320,
-    }
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 180,
+        "maxHeight": 180,
+        "maxWidth": 320,
+        "width": 320,
+      },
+      Object {
+        "backgroundColor": "#f4f4f4",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -144,15 +162,19 @@ exports[`<Video> when {autoplay} 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "flex": 1,
-            "height": 180,
-            "maxHeight": 180,
-            "maxWidth": 320,
-            "overflow": "hidden",
-            "width": 320,
-          },
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 180,
+              "maxHeight": 180,
+              "maxWidth": 320,
+              "width": 320,
+            },
+          ],
         ]
       }
     />
@@ -164,18 +186,25 @@ exports[`<Video> when {source} (vimeo) 1`] = `
 <View
   pointerEvents={undefined}
   style={
-    Object {
-      "alignContent": "center",
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#f4f4f4",
-      "height": 180,
-      "justifyContent": "center",
-      "maxHeight": 180,
-      "maxWidth": 320,
-      "overflow": "hidden",
-      "width": 320,
-    }
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 180,
+        "maxHeight": 180,
+        "maxWidth": 320,
+        "width": 320,
+      },
+      Object {
+        "backgroundColor": "#f4f4f4",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -223,15 +252,19 @@ exports[`<Video> when {source} (vimeo) 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "flex": 1,
-            "height": 180,
-            "maxHeight": 180,
-            "maxWidth": 320,
-            "overflow": "hidden",
-            "width": 320,
-          },
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 180,
+              "maxHeight": 180,
+              "maxWidth": 320,
+              "width": 320,
+            },
+          ],
         ]
       }
     />
@@ -243,18 +276,25 @@ exports[`<Video> when {source} (youtube) 1`] = `
 <View
   pointerEvents={undefined}
   style={
-    Object {
-      "alignContent": "center",
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#f4f4f4",
-      "height": 180,
-      "justifyContent": "center",
-      "maxHeight": 180,
-      "maxWidth": 320,
-      "overflow": "hidden",
-      "width": 320,
-    }
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 180,
+        "maxHeight": 180,
+        "maxWidth": 320,
+        "width": 320,
+      },
+      Object {
+        "backgroundColor": "#f4f4f4",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -302,15 +342,19 @@ exports[`<Video> when {source} (youtube) 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "flex": 1,
-            "height": 180,
-            "maxHeight": 180,
-            "maxWidth": 320,
-            "overflow": "hidden",
-            "width": 320,
-          },
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 180,
+              "maxHeight": 180,
+              "maxWidth": 320,
+              "width": 320,
+            },
+          ],
         ]
       }
     />
@@ -322,18 +366,25 @@ exports[`<Video> when {source} 1`] = `
 <View
   pointerEvents={undefined}
   style={
-    Object {
-      "alignContent": "center",
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#f4f4f4",
-      "height": 180,
-      "justifyContent": "center",
-      "maxHeight": 180,
-      "maxWidth": 320,
-      "overflow": "hidden",
-      "width": 320,
-    }
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 180,
+        "maxHeight": 180,
+        "maxWidth": 320,
+        "width": 320,
+      },
+      Object {
+        "backgroundColor": "#f4f4f4",
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -382,15 +433,19 @@ exports[`<Video> when {source} 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "flex": 1,
-            "height": 180,
-            "maxHeight": 180,
-            "maxWidth": 320,
-            "overflow": "hidden",
-            "width": 320,
-          },
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 180,
+              "maxHeight": 180,
+              "maxWidth": 320,
+              "width": 320,
+            },
+          ],
         ]
       }
     />
@@ -402,18 +457,28 @@ exports[`<Video> when {style} 1`] = `
 <View
   pointerEvents={undefined}
   style={
-    Object {
-      "alignContent": "center",
-      "alignItems": "center",
-      "alignSelf": "center",
-      "backgroundColor": "#f4f4f4",
-      "height": 400,
-      "justifyContent": "center",
-      "maxHeight": 180,
-      "maxWidth": 320,
-      "overflow": "hidden",
-      "width": 640,
-    }
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "alignSelf": "center",
+        "justifyContent": "center",
+        "overflow": "hidden",
+      },
+      Object {
+        "height": 180,
+        "maxHeight": 180,
+        "maxWidth": 320,
+        "width": 320,
+      },
+      Object {
+        "backgroundColor": "#f4f4f4",
+      },
+      Object {
+        "height": 400,
+        "width": 640,
+      },
+    ]
   }
 >
   <View
@@ -462,15 +527,19 @@ exports[`<Video> when {style} 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "flex": 1,
-            "height": 180,
-            "maxHeight": 180,
-            "maxWidth": 320,
-            "overflow": "hidden",
-            "width": 320,
-          },
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+              "flex": 1,
+              "overflow": "hidden",
+            },
+            Object {
+              "height": 180,
+              "maxHeight": 180,
+              "maxWidth": 320,
+              "width": 320,
+            },
+          ],
         ]
       }
     />

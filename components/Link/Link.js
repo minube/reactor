@@ -1,9 +1,8 @@
-import { array, number, object, oneOfType, string } from 'prop-types';
+import { string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { StyleSheet } from 'react-native';
 
+import { THEME } from '../../common';
 import Text from '../Text';
-import styles from './Link.style';
 
 class Link extends PureComponent {
   state = {
@@ -13,7 +12,7 @@ class Link extends PureComponent {
   render() {
     const {
       props: {
-        href, style, styleHover, ...inherit
+        href, ...inherit
       },
       state: { hover },
     } = this;
@@ -23,13 +22,10 @@ class Link extends PureComponent {
         {...inherit}
         accessibilityRole="link"
         href={href}
-        onMouseEnter={() => inherit.href && this.setState({ hover: true })}
-        onMouseLeave={() => inherit.href && this.setState({ hover: false })}
-        style={StyleSheet.flatten([
-          style,
-          hover && styles.hover,
-          hover && styleHover,
-        ])}
+        color={hover && !inherit.styleHover ? THEME.COLOR.ACCENT : undefined}
+        onMouseEnter={() => this.setState({ hover: true })}
+        onMouseLeave={() => this.setState({ hover: false })}
+        style={[inherit.style, hover && inherit.styleHover]}
       />
     );
   }
@@ -37,13 +33,6 @@ class Link extends PureComponent {
 
 Link.propTypes = {
   href: string.isRequired,
-  style: oneOfType([array, number, object]),
-  styleHover: oneOfType([array, number, object]),
-};
-
-Link.defaultProps = {
-  style: [],
-  styleHover: [],
 };
 
 export default Link;

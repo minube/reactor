@@ -1,19 +1,9 @@
-import { Dimensions, Platform, StyleSheet } from 'react-native';
+import { Dimensions, Platform } from 'react-native';
 
 import THEME from './theme';
 import screenSize from './screenSize';
 
-const { BUTTON, FONT, UNIT } = THEME;
-
-const TEXTS = StyleSheet.create({
-  GNOME: { fontSize: FONT.SIZE.GNOME, lineHeight: FONT.SIZE.GNOME * 1.2 },
-  TINY: { fontSize: FONT.SIZE.TINY, lineHeight: FONT.SIZE.TINY * 1.2 },
-  SMALL: { fontSize: FONT.SIZE.SMALL, lineHeight: FONT.SIZE.SMALL * 1.2 },
-  REGULAR: { fontSize: FONT.SIZE.REGULAR, lineHeight: FONT.SIZE.REGULAR * 1.3 },
-  LARGE: { fontSize: FONT.SIZE.LARGE, lineHeight: FONT.SIZE.LARGE * 1.3 },
-  SUBTITLE: { fontSize: FONT.SIZE.SUBTITLE, lineHeight: FONT.SIZE.SUBTITLE * 1.3 },
-  TITLE: { fontSize: FONT.SIZE.TITLE, lineHeight: FONT.SIZE.TITLE * 1.3 },
-});
+const { STYLE } = THEME;
 
 const calc = ({ width }) => {
   const {
@@ -22,55 +12,43 @@ const calc = ({ width }) => {
 
   return {
     BUTTON: {
-      CONTAINER: {
-        height: REGULAR || LARGE ? BUTTON.HEIGHT : BUTTON.SMALL_HEIGHT,
-        paddingHorizontal: REGULAR || LARGE ? UNIT * 3 : BUTTON.SMALL_HEIGHT / 2,
-      },
+      CONTAINER: (() => (REGULAR || LARGE ? STYLE.BUTTON_REGULAR : STYLE.BUTTON_SMALL))(),
     },
 
     CARD: {
-      HEIGHT: REGULAR || LARGE ? UNIT * 19 : UNIT * 13.9,
+      HEIGHT: REGULAR || LARGE ? STYLE.CARD_HEIGHT_REGULAR : STYLE.CARD_HEIGHT_SMALL,
       PORTRAIT: (() => {
-        if (TINY) return UNIT * 17;
-        if (PHONE || SMALL) return UNIT * 19.6;
-        if (TABLET || REGULAR) return UNIT * 22;
+        if (TINY) return STYLE.CARD_HEIGHT_PORTRAIT_TINY;
+        if (PHONE || SMALL) return STYLE.CARD_HEIGHT_PORTRAIT_SMALL;
+        if (TABLET || REGULAR) return STYLE.CARD_HEIGHT_PORTRAIT_REGULAR;
 
-        return UNIT * 25;
+        return STYLE.CARD_HEIGHT_PORTRAIT_DEFAULT;
       })(),
-      WIDTH: (() => {
-        if (TINY) return UNIT * 13;
-        if (PHONE || SMALL) return UNIT * 15;
-        if (TABLET || REGULAR) return UNIT * 16.8;
 
-        return UNIT * 23.6;
+      WIDTH: (() => {
+        if (TINY) return STYLE.CARD_WIDTH_TINY;
+        if (PHONE || SMALL) return STYLE.CARD_WIDTH_SMALL;
+        if (TABLET || REGULAR) return STYLE.CARD_WIDTH_REGULAR;
+
+        return STYLE.CARD_WIDTH_DEFAULT;
       })(),
     },
 
     TEXT: {
-      TINY: (() => (REGULAR || LARGE ? TEXTS.TINY : TEXTS.GNOME))(),
-      SMALL: (() => (REGULAR || LARGE ? TEXTS.SMALL : TEXTS.TINY))(),
-      REGULAR: (() => (REGULAR || LARGE ? TEXTS.REGULAR : TEXTS.SMALL))(),
-      LARGE: (() => (REGULAR || LARGE ? TEXTS.LARGE : TEXTS.REGULAR))(),
+      TINY: (() => (REGULAR || LARGE ? STYLE.TEXT_TINY : STYLE.TEXT_GNOME))(),
+      SMALL: (() => (REGULAR || LARGE ? STYLE.TEXT_SMALL : STYLE.TEXT_TINY))(),
+      REGULAR: (() => (REGULAR || LARGE ? STYLE.TEXT_REGULAR : STYLE.TEXT_SMALL))(),
+      LARGE: (() => (REGULAR || LARGE ? STYLE.TEXT_LARGE : STYLE.TEXT_REGULAR))(),
       SUBTITLE: (() => {
-        if (TINY || PHONE || TABLET) return TEXTS.REGULAR;
-        if (SMALL || REGULAR) return TEXTS.LARGE;
-        return TEXTS.SUBTITLE;
+        if (TINY || PHONE || TABLET) return STYLE.TEXT_REGULAR;
+        if (SMALL || REGULAR) return STYLE.TEXT_LARGE;
+        return STYLE.TEXT_SUBTITLE;
       })(),
       TITLE: (() => {
-        if (TINY || PHONE || TABLET) return TEXTS.LARGE;
-        if (SMALL || REGULAR) return TEXTS.SUBTITLE;
-        return TEXTS.TITLE;
+        if (TINY || PHONE || TABLET) return STYLE.TEXT_LARGE;
+        if (SMALL || REGULAR) return STYLE.TEXT_SUBTITLE;
+        return STYLE.TEXT_TITLE;
       })(),
-
-      // @TODO
-      // LARGE_SHORT: (() => {
-      //   let fontSize = 36;
-      //   if (TINY) fontSize = UNIT * 1.8;
-      //   if (PHONE || SMALL) fontSize = FONT.SIZE.LARGE;
-      //   if (TABLET || REGULAR) fontSize = UNIT * 2.6;
-
-      //   return { fontSize, lineHeight: fontSize * 1.3 };
-      // })(),
     },
   };
 };

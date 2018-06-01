@@ -59,7 +59,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         false,
         Object {
           "color": "#10c0bc",
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
         },
       ]
     }
@@ -103,7 +103,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         false,
         Object {
           "color": "#10c0bc",
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
         },
       ]
     }
@@ -147,7 +147,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         false,
         Object {
           "color": "#10c0bc",
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
         },
       ]
     }
@@ -204,7 +204,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         false,
         Object {
           "color": "#4a4a4a",
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
         },
       ]
     }
@@ -248,7 +248,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         false,
         Object {
           "color": "#4a4a4a",
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
         },
       ]
     }
@@ -292,7 +292,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         false,
         Object {
           "color": "#4a4a4a",
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
         },
       ]
     }
@@ -351,7 +351,7 @@ exports[`<Breadcrumbs> when {style} 1`] = `
           "backgroundColor": "rgba(0,0,0,0.25)",
           "color": "#4a4a4a",
           "fontSize": 16,
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
           "padding": 16,
         },
       ]
@@ -398,7 +398,7 @@ exports[`<Breadcrumbs> when {style} 1`] = `
           "backgroundColor": "rgba(0,0,0,0.25)",
           "color": "#4a4a4a",
           "fontSize": 16,
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
           "padding": 16,
         },
       ]
@@ -445,7 +445,7 @@ exports[`<Breadcrumbs> when {style} 1`] = `
           "backgroundColor": "rgba(0,0,0,0.25)",
           "color": "#4a4a4a",
           "fontSize": 16,
-          "marginRight": 4.444444444444445,
+          "marginRight": 4,
           "padding": 16,
         },
       ]

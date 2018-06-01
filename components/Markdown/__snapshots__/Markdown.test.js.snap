@@ -3,14 +3,17 @@
 exports[`<Markdown> including a <Text> property 1`] = `
 <View
   style={
-    Object {
-      "alignContent": "flex-start",
-      "alignItems": "flex-start",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      },
+      Array [],
+    ]
   }
 >
   <Text
@@ -129,14 +132,17 @@ exports[`<Markdown> renders 1`] = `
 exports[`<Markdown> when combining * & ** 1`] = `
 <View
   style={
-    Object {
-      "alignContent": "flex-start",
-      "alignItems": "flex-start",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      },
+      Array [],
+    ]
   }
 >
   <Text
@@ -248,14 +254,17 @@ exports[`<Markdown> when combining * & ** 1`] = `
 exports[`<Markdown> when including * 1`] = `
 <View
   style={
-    Object {
-      "alignContent": "flex-start",
-      "alignItems": "flex-start",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      },
+      Array [],
+    ]
   }
 >
   <Text
@@ -332,14 +341,17 @@ exports[`<Markdown> when including * 1`] = `
 exports[`<Markdown> when including ** 1`] = `
 <View
   style={
-    Object {
-      "alignContent": "flex-start",
-      "alignItems": "flex-start",
-      "display": "flex",
-      "flexDirection": "row",
-      "flexWrap": "wrap",
-      "justifyContent": "flex-start",
-    }
+    Array [
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "flex-start",
+        "display": "flex",
+        "flexDirection": "row",
+        "flexWrap": "wrap",
+        "justifyContent": "flex-start",
+      },
+      Array [],
+    ]
   }
 >
   <Text

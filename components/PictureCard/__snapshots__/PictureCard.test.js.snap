@@ -18,10 +18,14 @@ exports[`<PictureCard> renders 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": undefined,
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -31,16 +35,28 @@ exports[`<PictureCard> renders 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 190,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -52,12 +68,20 @@ exports[`<PictureCard> renders 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 190,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -75,15 +99,21 @@ exports[`<PictureCard> renders 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View />
@@ -110,10 +140,16 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": "#10c0bc",
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#10c0bc",
+      },
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -123,16 +159,28 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 190,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -144,12 +192,20 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 190,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -167,15 +223,21 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View />
@@ -202,10 +264,14 @@ exports[`<PictureCard> when {caption} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": undefined,
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -215,16 +281,28 @@ exports[`<PictureCard> when {caption} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 190,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -236,12 +314,20 @@ exports[`<PictureCard> when {caption} 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 190,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -259,15 +345,21 @@ exports[`<PictureCard> when {caption} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View>
@@ -334,10 +426,14 @@ exports[`<PictureCard> when {image} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": undefined,
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -347,16 +443,28 @@ exports[`<PictureCard> when {image} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 190,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -368,12 +476,20 @@ exports[`<PictureCard> when {image} 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 190,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -391,15 +507,21 @@ exports[`<PictureCard> when {image} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View />
@@ -426,10 +548,14 @@ exports[`<PictureCard> when {portrait} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": undefined,
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -439,16 +565,28 @@ exports[`<PictureCard> when {portrait} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 220,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 220,
+            },
+            false,
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -460,12 +598,20 @@ exports[`<PictureCard> when {portrait} 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 220,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 220,
+            },
+            false,
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -483,15 +629,21 @@ exports[`<PictureCard> when {portrait} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View />
@@ -518,10 +670,14 @@ exports[`<PictureCard> when {small} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": undefined,
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -531,16 +687,30 @@ exports[`<PictureCard> when {small} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 100,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            Object {
+              "height": 100,
+            },
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -552,12 +722,22 @@ exports[`<PictureCard> when {small} 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 100,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            Object {
+              "height": 100,
+            },
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -575,15 +755,21 @@ exports[`<PictureCard> when {small} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View />
@@ -610,11 +796,17 @@ exports[`<PictureCard> when {style} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": "orange",
-      "borderRadius": 3,
-      "opacity": 0.75,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      Object {
+        "backgroundColor": "orange",
+        "opacity": 0.75,
+      },
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -624,16 +816,31 @@ exports[`<PictureCard> when {style} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "orange",
-          "borderRadius": 3,
-          "height": 190,
-          "justifyContent": "center",
-          "opacity": 0.75,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            Object {
+              "backgroundColor": "orange",
+              "opacity": 0.75,
+            },
+          ],
+        ]
       }
     >
       <Image
@@ -645,13 +852,23 @@ exports[`<PictureCard> when {style} 1`] = `
           }
         }
         style={
-          Object {
-            "backgroundColor": "orange",
-            "borderRadius": 3,
-            "height": 190,
-            "opacity": 0.75,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            Object {
+              "backgroundColor": "orange",
+              "opacity": 0.75,
+            },
+          ]
         }
       />
       <ActivityIndicator
@@ -669,15 +886,21 @@ exports[`<PictureCard> when {style} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View />
@@ -704,10 +927,14 @@ exports[`<PictureCard> when {title} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "backgroundColor": undefined,
-      "borderRadius": 3,
-    }
+    Array [
+      Object {
+        "backgroundColor": "#CDD2D4",
+        "borderRadius": 3,
+      },
+      undefined,
+      undefined,
+    ]
   }
   testID={undefined}
   tvParallaxProperties={undefined}
@@ -717,16 +944,28 @@ exports[`<PictureCard> when {title} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
-          "borderRadius": 3,
-          "height": 190,
-          "justifyContent": "center",
-          "opacity": 0.8,
-          "width": 168,
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "backgroundColor": "#f4f4f4",
+            "justifyContent": "center",
+          },
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ],
+        ]
       }
     >
       <Image
@@ -738,12 +977,20 @@ exports[`<PictureCard> when {title} 1`] = `
           }
         }
         style={
-          Object {
-            "borderRadius": 3,
-            "height": 190,
-            "opacity": 0.8,
-            "width": 168,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "opacity": 0.8,
+            },
+            Object {
+              "width": 168,
+            },
+            Object {
+              "height": 190,
+            },
+            false,
+            undefined,
+          ]
         }
       />
       <ActivityIndicator
@@ -761,15 +1008,21 @@ exports[`<PictureCard> when {title} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "height": "100%",
-          "justifyContent": "center",
-          "padding": 10,
-          "position": "absolute",
-          "width": "100%",
-        }
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "alignSelf": "center",
+            "height": "100%",
+            "justifyContent": "center",
+            "left": 0,
+            "padding": 10,
+            "position": "absolute",
+          },
+          Object {
+            "width": 168,
+          },
+        ]
       }
     >
       <View>

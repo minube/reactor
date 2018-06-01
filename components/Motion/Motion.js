@@ -1,6 +1,6 @@
-import { array, arrayOf, bool, node, object, oneOfType, shape, string, number } from 'prop-types';
+import { arrayOf, bool, node, shape, string, number } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Animated, Platform, StyleSheet, View as ViewNative } from 'react-native';
+import { Animated, Platform, View as ViewNative } from 'react-native';
 
 import { SHAPE } from '../../common';
 import buildStyle from './modules/buildStyle';
@@ -35,12 +35,12 @@ class Motion extends PureComponent {
 
   render() {
     const {
-      children, disabled, style, useNativeDriver,
+      children, disabled, useNativeDriver, ...inherit
     } = this.props;
     const View = !disabled && useNativeDriver ? ViewNative : Animated.View;
 
     return (
-      <View style={StyleSheet.flatten([style, !disabled && buildStyle(this)])}>
+      <View style={[inherit.style, !disabled && buildStyle(this)]}>
         { children }
       </View>
     );
@@ -52,7 +52,6 @@ Motion.propTypes = {
   delay: number,
   disabled: bool,
   duration: number,
-  style: oneOfType([array, number, object]),
   timeline: arrayOf(shape(SHAPE.MOTION)),
   type: string,
   useNativeDriver: bool,
@@ -63,7 +62,6 @@ Motion.defaultProps = {
   delay: 0,
   disabled: false,
   duration: 500,
-  style: [],
   timeline: undefined,
   type: 'spring',
   useNativeDriver: Platform.OS === 'web',

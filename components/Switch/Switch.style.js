@@ -8,12 +8,10 @@ const {
 
 export default StyleSheet.create({
 
-  container: StyleSheet.flatten([
-    STYLE.ROW,
-    {
-      height: INPUT_HEIGHT,
-    },
-  ]),
+  container: {
+    ...STYLE.ROW,
+    height: INPUT_HEIGHT,
+  },
 
   label: {
     marginRight: UNIT,

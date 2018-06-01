@@ -1,6 +1,6 @@
-import { array, arrayOf, bool, func, number, object, oneOfType, shape, string } from 'prop-types';
+import { arrayOf, bool, func, shape, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
 import { LAYOUT, SHAPE, THEME } from '../../common';
 import Breadcrumbs from '../Breadcrumbs';
@@ -9,13 +9,14 @@ import Rating from '../Rating';
 import Text from '../Text';
 import styles from './Heading.style';
 
-const { AVATAR: { SMALL }, COLOR, UNIT } = THEME;
+const { COLOR } = THEME;
 
 const Heading = ({
-  breadcrumbs, color, column, onBreadcrumb, rating, style, title,
+  breadcrumbs, color, column, onBreadcrumb, rating, title,
   contributors: { total, label, preview } = {},
+  ...inherit
 }) => (
-  <View style={StyleSheet.flatten([styles.container, style])}>
+  <View style={[styles.container, inherit.style]}>
     <View style={column ? styles.column : styles.row}>
       <Text
         bold
@@ -34,12 +35,8 @@ const Heading = ({
         <View style={column ? styles.row : styles.contributors}>
           <Text bold color={color} tiny>{total}</Text>
           <Text color={color} tiny>{` ${label}`}</Text>
-          <View style={StyleSheet.flatten([
-              styles.avatars,
-              { width: (SMALL + (UNIT / 2)) * preview.length },
-            ])}
-          >
-            { preview.map(({ id, image }) => <Avatar key={id} small image={image} />)}
+          <View style={[styles.avatars]}>
+            { preview.map(({ id, image }) => <Avatar key={id} small image={image} style={styles.avatar} />)}
           </View>
         </View> }
     </View>
@@ -53,7 +50,6 @@ Heading.propTypes = {
   contributors: shape({}),
   onBreadcrumb: func,
   rating: shape(SHAPE.RATING),
-  style: oneOfType([array, number, object]),
   title: string.isRequired,
 };
 
@@ -64,7 +60,6 @@ Heading.defaultProps = {
   contributors: undefined,
   onBreadcrumb: undefined,
   rating: {},
-  style: [],
 };
 
 export default Heading;

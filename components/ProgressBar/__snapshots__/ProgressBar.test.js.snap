@@ -4,12 +4,16 @@ exports[`<ProgressBar> renders 1`] = `
 <View
   onLayout={[Function]}
   style={
-    Object {
-      "backgroundColor": "#f4f4f4",
-      "height": 5,
-      "overflow": "hidden",
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      undefined,
+    ]
   }
 >
   <View
@@ -29,12 +33,16 @@ exports[`<ProgressBar> when {color} 1`] = `
 <View
   onLayout={[Function]}
   style={
-    Object {
-      "backgroundColor": "#f4f4f4",
-      "height": 5,
-      "overflow": "hidden",
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      undefined,
+    ]
   }
 >
   <View
@@ -54,12 +62,16 @@ exports[`<ProgressBar> when {progress} 1`] = `
 <View
   onLayout={[Function]}
   style={
-    Object {
-      "backgroundColor": "#f4f4f4",
-      "height": 5,
-      "overflow": "hidden",
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      undefined,
+    ]
   }
 >
   <View
@@ -79,13 +91,19 @@ exports[`<ProgressBar> when {style} 1`] = `
 <View
   onLayout={[Function]}
   style={
-    Object {
-      "backgroundColor": "#f4f4f4",
-      "borderRadius": 8,
-      "height": 16,
-      "overflow": "hidden",
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      Object {
+        "borderRadius": 8,
+        "height": 16,
+      },
+      undefined,
+    ]
   }
 >
   <View
@@ -105,12 +123,18 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
 <View
   onLayout={[Function]}
   style={
-    Object {
-      "backgroundColor": "#f69a37",
-      "height": 5,
-      "overflow": "hidden",
-      "width": "100%",
-    }
+    Array [
+      Object {
+        "backgroundColor": "#f4f4f4",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#f69a37",
+      },
+    ]
   }
 >
   <View

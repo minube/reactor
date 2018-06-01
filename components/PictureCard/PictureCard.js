@@ -1,6 +1,6 @@
-import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
+import { bool, func, node, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Image from '../Image';
@@ -12,38 +12,37 @@ const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tow
 const SHORT_TITLE = 10;
 
 const PictureCard = ({
-  backgroundColor, children, caption, image, onLoad, onPress, portrait, small, style, title,
+  backgroundColor, children, caption, image, onLoad, onPress, portrait, small, title, ...inherit
 }) => (
   <Touchable
     disabled={!onPress}
     onPress={onPress}
-    style={StyleSheet.flatten([styles.container, { backgroundColor }, style])}
+    style={[styles.container, inherit.style, backgroundColor && { backgroundColor }]}
   >
     <View>
       <Image
         onLoad={onLoad}
         resizeMode={image ? 'cover' : 'center'}
         source={{ uri: image || IMAGE_PLACEHOLDER }}
-        style={StyleSheet.flatten([
+        style={[
           styles.image,
-          {
-            width: LAYOUT.STYLE.CARD.WIDTH,
-            height: portrait ? LAYOUT.STYLE.CARD.PORTRAIT : LAYOUT.STYLE.CARD.HEIGHT,
-          },
+          LAYOUT.STYLE.CARD.WIDTH,
+          portrait ? LAYOUT.STYLE.CARD.PORTRAIT : LAYOUT.STYLE.CARD.HEIGHT,
           small && styles.small,
-          style,
-        ])}
+          inherit.style,
+        ]}
       />
-      <View pointerEvents="none" style={styles.content}>
+      <View pointerEvents="none" style={[styles.content, LAYOUT.STYLE.CARD.WIDTH]}>
         <View>
           { title &&
             <Text
               bold
               large
-              style={StyleSheet.flatten([
+              style={[
                 styles.text,
                 styles.title,
-                title.length < SHORT_TITLE && LAYOUT.STYLE.TEXT.LARGE_SHORT])}
+                title.length < SHORT_TITLE && LAYOUT.STYLE.TEXT.TITLE,
+              ]}
             >
               {title}
             </Text> }
@@ -64,7 +63,6 @@ PictureCard.propTypes = {
   onPress: func,
   portrait: bool,
   small: bool,
-  style: oneOfType([array, number, object]),
   title: string,
 };
 
@@ -77,7 +75,6 @@ PictureCard.defaultProps = {
   onPress: undefined,
   portrait: false,
   small: false,
-  style: [],
   title: undefined,
 };
 

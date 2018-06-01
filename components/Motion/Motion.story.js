@@ -26,6 +26,11 @@ storiesOf('✅ Motion', module)
       <View style={style} />
     </Motion>
   ))
+  .addWithJSX('style', () => (
+    <Motion timeline={timeline} style={{ backgroundColor: 'orange', padding: 10 }}>
+      <View style={style} />
+    </Motion>
+  ))
   .addWithJSX('🏀 Playground', () => (
     <LayoutView>
       <Motion

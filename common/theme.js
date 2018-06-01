@@ -1,6 +1,33 @@
-import { Platform } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 const UNIT = 10;
+
+const BUTTON = {
+  FLOATING_HEIGHT: UNIT * 6,
+  HEIGHT: UNIT * 4.5,
+  SMALL_HEIGHT: UNIT * 3,
+};
+
+const FONT = {
+  FAMILY: Platform.OS === 'web'
+    ? '"Open Sans" , "Montserrat", sans-serif'
+    : undefined, // '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
+  SIZE: {
+    GNOME: UNIT * 1.1,
+    TINY: UNIT * 1.2,
+    SMALL: UNIT * 1.4,
+    REGULAR: UNIT * 1.6,
+    LARGE: UNIT * 2,
+    SUBTITLE: UNIT * 3,
+    TITLE: UNIT * 4.8,
+  },
+  WEIGHT: {
+    LIGHTER: '300',
+    REGULAR: 'normal',
+    SEMIBOLD: '600',
+    BOLD: 'bold',
+  },
+};
 
 export default {
   AVATAR: {
@@ -11,11 +38,7 @@ export default {
 
   BORDER_RADIUS: UNIT * 0.3,
 
-  BUTTON: {
-    FLOATING_HEIGHT: UNIT * 6,
-    HEIGHT: UNIT * 4.5,
-    SMALL_HEIGHT: UNIT * 3,
-  },
+  BUTTON,
 
   COLOR: {
     // -- Theme
@@ -50,26 +73,7 @@ export default {
     TWITTER: '#54abee',
   },
 
-  FONT: {
-    FAMILY: Platform.OS === 'web'
-      ? '"Open Sans" , "Montserrat", sans-serif'
-      : undefined, // '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
-    SIZE: {
-      GNOME: UNIT * 1.1,
-      TINY: UNIT * 1.2,
-      SMALL: UNIT * 1.4,
-      REGULAR: UNIT * 1.6,
-      LARGE: UNIT * 2,
-      SUBTITLE: UNIT * 3,
-      TITLE: UNIT * 4.8,
-    },
-    WEIGHT: {
-      LIGHTER: '300',
-      REGULAR: 'normal',
-      SEMIBOLD: '600',
-      BOLD: 'bold',
-    },
-  },
+  FONT,
 
   INPUT: {
     HEIGHT: UNIT * 4.4,
@@ -77,4 +81,28 @@ export default {
 
   OFFSET: UNIT * 1.6,
   UNIT,
+
+  STYLE: StyleSheet.create({
+    BUTTON_REGULAR: { height: BUTTON.HEIGHT, paddingHorizontal: UNIT * 3 },
+    BUTTON_SMALL: { height: BUTTON.SMALL_HEIGHT, paddingHorizontal: BUTTON.SMALL_HEIGHT / 2 },
+
+    CARD_HEIGHT_SMALL: { height: UNIT * 13.9 },
+    CARD_HEIGHT_REGULAR: { height: UNIT * 19 },
+    CARD_HEIGHT_PORTRAIT_TINY: { height: UNIT * 17 },
+    CARD_HEIGHT_PORTRAIT_SMALL: { height: UNIT * 19.6 },
+    CARD_HEIGHT_PORTRAIT_REGULAR: { height: UNIT * 22 },
+    CARD_HEIGHT_PORTRAIT_DEFAULT: { height: UNIT * 25 },
+    CARD_WIDTH_TINY: { width: UNIT * 13 },
+    CARD_WIDTH_SMALL: { width: UNIT * 15 },
+    CARD_WIDTH_REGULAR: { width: UNIT * 16.8 },
+    CARD_WIDTH_DEFAULT: { width: UNIT * 23.6 },
+
+    TEXT_GNOME: { fontSize: FONT.SIZE.GNOME, lineHeight: FONT.SIZE.GNOME * 1.2 },
+    TEXT_TINY: { fontSize: FONT.SIZE.TINY, lineHeight: FONT.SIZE.TINY * 1.2 },
+    TEXT_SMALL: { fontSize: FONT.SIZE.SMALL, lineHeight: FONT.SIZE.SMALL * 1.2 },
+    TEXT_REGULAR: { fontSize: FONT.SIZE.REGULAR, lineHeight: FONT.SIZE.REGULAR * 1.3 },
+    TEXT_LARGE: { fontSize: FONT.SIZE.LARGE, lineHeight: FONT.SIZE.LARGE * 1.3 },
+    TEXT_SUBTITLE: { fontSize: FONT.SIZE.SUBTITLE, lineHeight: FONT.SIZE.SUBTITLE * 1.3 },
+    TEXT_TITLE: { fontSize: FONT.SIZE.TITLE, lineHeight: FONT.SIZE.TITLE * 1.3 },
+  }),
 };

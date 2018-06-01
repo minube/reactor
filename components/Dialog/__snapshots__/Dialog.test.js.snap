@@ -43,10 +43,13 @@ exports[`<Dialog> renders 1`] = `
     <RCTScrollView
       onScroll={[Function]}
       style={
-        Object {
-          "flex": 1,
-          "paddingHorizontal": 16,
-        }
+        Array [
+          Object {
+            "flex": 1,
+            "paddingHorizontal": 16,
+          },
+          false,
+        ]
       }
     >
       <View />
@@ -137,10 +140,13 @@ exports[`<Dialog> when {title} 1`] = `
     <RCTScrollView
       onScroll={[Function]}
       style={
-        Object {
-          "flex": 1,
-          "paddingHorizontal": 16,
-        }
+        Array [
+          Object {
+            "flex": 1,
+            "paddingHorizontal": 16,
+          },
+          false,
+        ]
       }
     >
       <View />
@@ -192,10 +198,13 @@ exports[`<Dialog> when {visible} 1`] = `
     <RCTScrollView
       onScroll={[Function]}
       style={
-        Object {
-          "flex": 1,
-          "paddingHorizontal": 16,
-        }
+        Array [
+          Object {
+            "flex": 1,
+            "paddingHorizontal": 16,
+          },
+          false,
+        ]
       }
     >
       <View />

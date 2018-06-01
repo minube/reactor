@@ -1,6 +1,6 @@
 import { bool, number } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Image as ImageNative, StyleSheet, View } from 'react-native';
+import { Image as ImageNative, View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Activity from '../Activity';
@@ -33,7 +33,7 @@ class Image extends PureComponent {
     }
 
     return (
-      <View style={StyleSheet.flatten([styles.container, inherit.style])}>
+      <View style={[styles.container, inherit.style]}>
         <ImageNative
           {...inherit}
           source={uri ? { uri } : undefined}

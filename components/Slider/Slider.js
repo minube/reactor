@@ -1,32 +1,43 @@
-import { array, arrayOf, bool, func, number, object, oneOfType, shape, string } from 'prop-types';
+import { arrayOf, bool, func, number, shape, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Platform, ScrollView, StyleSheet, View } from 'react-native';
+import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
 
-const { BUTTON, UNIT } = THEME;
+const { UNIT } = THEME;
 
 const NEXT = 'next';
 let timeout;
 const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 40 : 16;
+
+const cardWidth = () => {
+  const {
+    TINY, PHONE, SMALL, TABLET, REGULAR,
+  } = LAYOUT.VIEWPORT;
+
+  if (TINY) return UNIT * 13;
+  if (PHONE || SMALL) return UNIT * 15;
+  if (TABLET || REGULAR) return UNIT * 16.8;
+
+  return UNIT * 23.6;
+};
 
 class Slider extends PureComponent {
   constructor(props) {
     super(props);
 
     this.state = {
-      itemWidth: props.itemWidth || LAYOUT.STYLE.CARD.WIDTH,
-      layoutHeight: 0,
+      itemWidth: props.itemWidth || cardWidth(),
       x: 0,
     };
   }
 
   componentWillReceiveProps({ itemWidth = this.props.itemWidth }) {
     this.setState({
-      itemWidth: itemWidth || LAYOUT.STYLE.CARD.WIDTH,
+      itemWidth: itemWidth || cardWidth(),
       x: 0,
     });
   }
@@ -48,10 +59,6 @@ class Slider extends PureComponent {
     _updateScroll(type === NEXT ? x + width : x - width);
   }
 
-  _onLayout = ({ nativeEvent }) => {
-    this.setState({ layoutHeight: nativeEvent.layout.height });
-  }
-
   _updateScroll = (x) => {
     this.scrollview.scrollTo({ x });
     this.setState({ x });
@@ -59,11 +66,10 @@ class Slider extends PureComponent {
 
   render() {
     const {
-      _onButton, _onLayout, _onScroll,
+      _onButton, _onScroll,
       props: {
-        caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, style, title,
+        caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, title, ...inherit
       },
-      state: { layoutHeight },
     } = this;
 
     return (
@@ -76,25 +82,17 @@ class Slider extends PureComponent {
           </View> }
 
         { navigation &&
-          <View style={StyleSheet.flatten([styles.navigation, { bottom: (layoutHeight + BUTTON.SMALL_HEIGHT) / 2 }])}>
-            <Button
-              icon="left"
-              onPress={_onButton}
-              small
-              style={StyleSheet.flatten([styles.button, styles.previous])}
-            />
-            <Button
-              icon="right"
-              onPress={() => _onButton(NEXT)}
-              small
-              style={StyleSheet.flatten([styles.button, styles.next])}
-            />
+          <View style={[styles.navigation, styles.previous]} >
+            <Button icon="left" onPress={_onButton} small />
+          </View> }
+        { navigation &&
+          <View style={[styles.navigation, styles.next]} >
+            <Button icon="right" onPress={() => _onButton(NEXT)} small />
           </View> }
 
         <ScrollView
-          contentContainerStyle={StyleSheet.flatten(style)}
+          contentContainerStyle={inherit.style}
           horizontal
-          onLayout={_onLayout}
           onScroll={momentum ? _onScroll : undefined}
           ref={(scrollview) => {
             this.scrollview = scrollview;
@@ -119,7 +117,6 @@ Slider.propTypes = {
   momentum: bool,
   navigation: bool,
   steps: number,
-  style: oneOfType([array, number, object]),
   title: string,
 };
 
@@ -131,7 +128,6 @@ Slider.defaultProps = {
   momentum: Platform.OS === 'web',
   navigation: Platform.OS === 'web',
   steps: 1,
-  style: [],
   title: undefined,
 };
 
