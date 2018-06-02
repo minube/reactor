@@ -60,12 +60,12 @@ class Dialog extends PureComponent {
           pointerEvents="auto"
           style={[
             styles.frame,
-            style,
             {
               bottom: position,
               maxHeight: PORTRAIT ? '100%' : '66%',
               minWidth: PORTRAIT ? '66%' : '33%',
             },
+            style,
           ]}
         >
           { onClose &&

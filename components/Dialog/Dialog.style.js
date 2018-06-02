@@ -37,7 +37,6 @@ export default StyleSheet.create({
   },
 
   title: {
-    flex: 1,
     fontSize: FONT.SIZE.LARGE,
     padding: OFFSET,
   },
