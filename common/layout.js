@@ -5,7 +5,7 @@ import screenSize from './screenSize';
 
 const { STYLE } = THEME;
 
-const calc = ({ width }) => {
+const calc = width => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
   } = screenSize(width);
@@ -54,12 +54,13 @@ const calc = ({ width }) => {
 };
 
 class Layout {
-  constructor({ height, width } = Dimensions.get('window')) {
+  constructor() {
     if (!Layout.instance) {
+      const { height = 720, width = 1280 } = Dimensions.get('window');
       Layout.instance = this;
       this._height = height;
       this._width = width;
-      this._style = calc({ height, width });
+      this._style = calc(width);
     }
     return Layout.instance;
   }
@@ -70,24 +71,25 @@ class Layout {
 
   get VIEWPORT() {
     const H = this._height;
-    const PORTRAIT = this._height > this._width;
+    const W = this._width;
+    const PORTRAIT = H > W;
 
     return {
       H,
-      W: this._width,
+      W,
 
       PORTRAIT,
-      LANDSCAPE: this._width > this._height,
+      LANDSCAPE: W > H,
       IPHONEX: PORTRAIT && H === 812 && Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS,
 
-      ...screenSize(this._width),
+      ...screenSize(W),
     };
   }
 
-  calc({ height, width } = Dimensions.get('window')) {
+  calc({ height = 720, width = 1280 } = Dimensions.get('window')) {
     this._height = height;
     this._width = width;
-    this._style = calc({ height, width });
+    this._style = calc(width);
   }
 }
 
