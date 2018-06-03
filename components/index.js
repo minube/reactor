@@ -15,6 +15,7 @@ import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
 import LayoutView, { LayoutStyle } from './Layout';
+import Share from './Share';
 import Slider from './Slider';
 import Switch from './Switch';
 import Text from './Text';
@@ -41,6 +42,7 @@ export {
   LayoutStyle,
   LayoutView,
   Rating,
+  Share,
   Slider,
   Switch,
   Text,

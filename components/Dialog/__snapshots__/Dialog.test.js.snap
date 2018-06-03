@@ -128,7 +128,6 @@ exports[`<Dialog> when {title} 1`] = `
           false,
           false,
           Object {
-            "flex": 1,
             "fontSize": 20,
             "padding": 16,
           },

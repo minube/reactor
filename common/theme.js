@@ -97,6 +97,11 @@ export default {
     CARD_WIDTH_REGULAR: { width: UNIT * 16.8 },
     CARD_WIDTH_DEFAULT: { width: UNIT * 23.6 },
 
+    SHARE_MOBILE: {
+      height: '100%',
+      width: '100%',
+    },
+
     TEXT_GNOME: { fontSize: FONT.SIZE.GNOME, lineHeight: FONT.SIZE.GNOME * 1.2 },
     TEXT_TINY: { fontSize: FONT.SIZE.TINY, lineHeight: FONT.SIZE.TINY * 1.2 },
     TEXT_SMALL: { fontSize: FONT.SIZE.SMALL, lineHeight: FONT.SIZE.SMALL * 1.2 },

@@ -5,7 +5,7 @@ import screenSize from './screenSize';
 
 const { STYLE } = THEME;
 
-const calc = width => {
+const calc = (width) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
   } = screenSize(width);
@@ -32,6 +32,10 @@ const calc = width => {
 
         return STYLE.CARD_WIDTH_DEFAULT;
       })(),
+    },
+
+    SHARE: {
+      DIALOG: (() => (TINY || PHONE || SMALL ? STYLE.SHARE_MOBILE : undefined))(),
     },
 
     TEXT: {
