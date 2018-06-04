@@ -128,6 +128,9 @@ exports[`<Slider> when {dataSource} 1`] = `
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
               },
+              Object {
+                "width": 168,
+              },
               undefined,
               undefined,
             ]
@@ -204,21 +207,17 @@ exports[`<Slider> when {dataSource} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -256,8 +255,8 @@ exports[`<Slider> when {dataSource} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -299,6 +298,9 @@ exports[`<Slider> when {dataSource} 1`] = `
               Object {
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
+              },
+              Object {
+                "width": 168,
               },
               undefined,
               undefined,
@@ -376,21 +378,17 @@ exports[`<Slider> when {dataSource} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -428,8 +426,8 @@ exports[`<Slider> when {dataSource} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -492,6 +490,9 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
               },
+              Object {
+                "width": 168,
+              },
               undefined,
               undefined,
             ]
@@ -568,21 +569,17 @@ exports[`<Slider> when {itemMargin} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -620,8 +617,8 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -663,6 +660,9 @@ exports[`<Slider> when {itemMargin} 1`] = `
               Object {
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
+              },
+              Object {
+                "width": 168,
               },
               undefined,
               undefined,
@@ -740,21 +740,17 @@ exports[`<Slider> when {itemMargin} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -792,8 +788,8 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -856,6 +852,9 @@ exports[`<Slider> when {momentum} 1`] = `
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
               },
+              Object {
+                "width": 168,
+              },
               undefined,
               undefined,
             ]
@@ -932,21 +931,17 @@ exports[`<Slider> when {momentum} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -984,8 +979,8 @@ exports[`<Slider> when {momentum} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -1027,6 +1022,9 @@ exports[`<Slider> when {momentum} 1`] = `
               Object {
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
+              },
+              Object {
+                "width": 168,
               },
               undefined,
               undefined,
@@ -1104,21 +1102,17 @@ exports[`<Slider> when {momentum} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -1156,8 +1150,8 @@ exports[`<Slider> when {momentum} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -1441,6 +1435,9 @@ exports[`<Slider> when {steps} 1`] = `
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
               },
+              Object {
+                "width": 168,
+              },
               undefined,
               undefined,
             ]
@@ -1517,21 +1514,17 @@ exports[`<Slider> when {steps} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -1569,8 +1562,8 @@ exports[`<Slider> when {steps} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -1612,6 +1605,9 @@ exports[`<Slider> when {steps} 1`] = `
               Object {
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
+              },
+              Object {
+                "width": 168,
               },
               undefined,
               undefined,
@@ -1689,21 +1685,17 @@ exports[`<Slider> when {steps} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -1741,8 +1733,8 @@ exports[`<Slider> when {steps} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -1810,6 +1802,9 @@ exports[`<Slider> when {style} 1`] = `
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
               },
+              Object {
+                "width": 168,
+              },
               undefined,
               undefined,
             ]
@@ -1886,21 +1881,17 @@ exports[`<Slider> when {style} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -1938,8 +1929,8 @@ exports[`<Slider> when {style} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },
@@ -1981,6 +1972,9 @@ exports[`<Slider> when {style} 1`] = `
               Object {
                 "backgroundColor": "#CDD2D4",
                 "borderRadius": 3,
+              },
+              Object {
+                "width": 168,
               },
               undefined,
               undefined,
@@ -2058,21 +2052,17 @@ exports[`<Slider> when {style} 1`] = `
             <View
               pointerEvents="none"
               style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "alignSelf": "center",
-                    "height": "100%",
-                    "justifyContent": "center",
-                    "left": 0,
-                    "padding": 10,
-                    "position": "absolute",
-                  },
-                  Object {
-                    "width": 168,
-                  },
-                ]
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
               }
             >
               <View>
@@ -2110,8 +2100,8 @@ exports[`<Slider> when {style} 1`] = `
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 30,
-                        "lineHeight": 39,
+                        "fontSize": 20,
+                        "lineHeight": 26,
                         "marginBottom": 5,
                         "textAlign": "center",
                       },

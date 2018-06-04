@@ -8,6 +8,7 @@ import {
   Text,
   Video,
   Viewport,
+  Slider,
 } from './components';
 import { Consumer, Provider } from './context';
 import PKG from './package.json';
@@ -70,6 +71,8 @@ export default class App extends Component {
               )}
             </Consumer>
             <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
+            <Slider dataSource={this.state.dataSource} item={ItemListingCard} navigation momentum />
+
             <Text>{LIPSUM}</Text>
             <Text>{LIPSUM}</Text>
             <Text>{LIPSUM}</Text>

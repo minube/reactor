@@ -23,6 +23,9 @@ exports[`<PictureCard> renders 1`] = `
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
       },
+      Object {
+        "width": 168,
+      },
       undefined,
       undefined,
     ]
@@ -99,21 +102,17 @@ exports[`<PictureCard> renders 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View />
@@ -144,6 +143,9 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
       Object {
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
+      },
+      Object {
+        "width": 168,
       },
       undefined,
       Object {
@@ -223,21 +225,17 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View />
@@ -268,6 +266,9 @@ exports[`<PictureCard> when {caption} 1`] = `
       Object {
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
+      },
+      Object {
+        "width": 168,
       },
       undefined,
       undefined,
@@ -345,21 +346,17 @@ exports[`<PictureCard> when {caption} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View>
@@ -430,6 +427,9 @@ exports[`<PictureCard> when {image} 1`] = `
       Object {
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
+      },
+      Object {
+        "width": 168,
       },
       undefined,
       undefined,
@@ -507,21 +507,17 @@ exports[`<PictureCard> when {image} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View />
@@ -553,6 +549,9 @@ exports[`<PictureCard> when {portrait} 1`] = `
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
       },
+      Object {
+        "width": 168,
+      },
       undefined,
       undefined,
     ]
@@ -629,21 +628,17 @@ exports[`<PictureCard> when {portrait} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View />
@@ -674,6 +669,9 @@ exports[`<PictureCard> when {small} 1`] = `
       Object {
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
+      },
+      Object {
+        "width": 168,
       },
       undefined,
       undefined,
@@ -755,21 +753,17 @@ exports[`<PictureCard> when {small} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View />
@@ -800,6 +794,9 @@ exports[`<PictureCard> when {style} 1`] = `
       Object {
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
+      },
+      Object {
+        "width": 168,
       },
       Object {
         "backgroundColor": "orange",
@@ -886,21 +883,17 @@ exports[`<PictureCard> when {style} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View />
@@ -931,6 +924,9 @@ exports[`<PictureCard> when {title} 1`] = `
       Object {
         "backgroundColor": "#CDD2D4",
         "borderRadius": 3,
+      },
+      Object {
+        "width": 168,
       },
       undefined,
       undefined,
@@ -1008,21 +1004,17 @@ exports[`<PictureCard> when {title} 1`] = `
     <View
       pointerEvents="none"
       style={
-        Array [
-          Object {
-            "alignContent": "center",
-            "alignItems": "center",
-            "alignSelf": "center",
-            "height": "100%",
-            "justifyContent": "center",
-            "left": 0,
-            "padding": 10,
-            "position": "absolute",
-          },
-          Object {
-            "width": 168,
-          },
-        ]
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "alignSelf": "center",
+          "height": "100%",
+          "justifyContent": "center",
+          "left": 0,
+          "padding": 10,
+          "position": "absolute",
+          "width": "100%",
+        }
       }
     >
       <View>

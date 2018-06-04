@@ -17,7 +17,7 @@ const PictureCard = ({
   <Touchable
     disabled={!onPress}
     onPress={onPress}
-    style={[styles.container, inherit.style, backgroundColor && { backgroundColor }]}
+    style={[styles.container, LAYOUT.STYLE.CARD.WIDTH, inherit.style, backgroundColor && { backgroundColor }]}
   >
     <View>
       <Image
@@ -32,7 +32,7 @@ const PictureCard = ({
           inherit.style,
         ]}
       />
-      <View pointerEvents="none" style={[styles.content, LAYOUT.STYLE.CARD.WIDTH]}>
+      <View pointerEvents="none" style={styles.content}>
         <View>
           { title &&
             <Text
@@ -41,7 +41,7 @@ const PictureCard = ({
               style={[
                 styles.text,
                 styles.title,
-                title.length < SHORT_TITLE && LAYOUT.STYLE.TEXT.TITLE,
+                title.length < SHORT_TITLE && LAYOUT.STYLE.TEXT.SUBTITLE,
               ]}
             >
               {title}

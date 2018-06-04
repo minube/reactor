@@ -63,7 +63,7 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "start-storybook -p 9001 -c .storybook",
-    "native": "react-native-scripts start",
+    "start:native": "react-native-scripts start",
     "test": "jest",
     "lint": "eslint components/**",
     "release": "release-it",

@@ -53,166 +53,8 @@ exports[`<ListingCard> renders 1`] = `
             "backgroundColor": "#CDD2D4",
             "borderRadius": 3,
           },
-          Array [],
-          undefined,
-        ]
-      }
-      testID={undefined}
-      tvParallaxProperties={undefined}
-    >
-      <View
-        style={null}
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
-                "justifyContent": "center",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                Array [],
-              ],
-            ]
-          }
-        >
-          <Image
-            onLoad={[Function]}
-            resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "borderRadius": 3,
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                Array [],
-              ]
-            }
-          />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
-            style={
-              Object {
-                "position": "absolute",
-              }
-            }
-          />
-        </View>
-        <View
-          pointerEvents="none"
-          style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
-                "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
-              },
-              Object {
-                "width": 168,
-              },
-            ]
-          }
-        >
-          <View />
-        </View>
-      </View>
-    </View>
-    <View
-      style={
-        Object {
-          "paddingVertical": 10,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`<ListingCard> when {category} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
->
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={undefined}
-    testID={undefined}
-  >
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
-      isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Array [
           Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
+            "width": 168,
           },
           Array [],
           undefined,
@@ -290,21 +132,177 @@ exports[`<ListingCard> when {category} 1`] = `
         <View
           pointerEvents="none"
           style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+        >
+          <View />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<ListingCard> when {category} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "width": 168,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={undefined}
+    testID={undefined}
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#CDD2D4",
+            "borderRadius": 3,
+          },
+          Object {
+            "width": 168,
+          },
+          Array [],
+          undefined,
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={null}
+      >
+        <View
+          style={
             Array [
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
+                "backgroundColor": "#f4f4f4",
                 "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
               },
-              Object {
-                "width": 168,
-              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                Array [],
+              ],
             ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="center"
+            source={
+              Object {
+                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 3,
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                Array [],
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
           }
         >
           <View />
@@ -414,6 +412,9 @@ exports[`<ListingCard> when {children} 1`] = `
             "backgroundColor": "#CDD2D4",
             "borderRadius": 3,
           },
+          Object {
+            "width": 168,
+          },
           Array [],
           undefined,
         ]
@@ -490,21 +491,17 @@ exports[`<ListingCard> when {children} 1`] = `
         <View
           pointerEvents="none"
           style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
-                "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
-              },
-              Object {
-                "width": 168,
-              },
-            ]
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
           }
         >
           <View />
@@ -688,6 +685,9 @@ exports[`<ListingCard> when {description} 1`] = `
             "backgroundColor": "#CDD2D4",
             "borderRadius": 3,
           },
+          Object {
+            "width": 168,
+          },
           Array [],
           undefined,
         ]
@@ -764,21 +764,17 @@ exports[`<ListingCard> when {description} 1`] = `
         <View
           pointerEvents="none"
           style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
-                "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
-              },
-              Object {
-                "width": 168,
-              },
-            ]
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
           }
         >
           <View />
@@ -891,6 +887,9 @@ exports[`<ListingCard> when {image} 1`] = `
             "backgroundColor": "#CDD2D4",
             "borderRadius": 3,
           },
+          Object {
+            "width": 168,
+          },
           Array [],
           undefined,
         ]
@@ -967,21 +966,17 @@ exports[`<ListingCard> when {image} 1`] = `
         <View
           pointerEvents="none"
           style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
-                "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
-              },
-              Object {
-                "width": 168,
-              },
-            ]
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
           }
         >
           <View />
@@ -1051,6 +1046,9 @@ exports[`<ListingCard> when {rating} 1`] = `
           Object {
             "backgroundColor": "#CDD2D4",
             "borderRadius": 3,
+          },
+          Object {
+            "width": 168,
           },
           Array [],
           undefined,
@@ -1128,21 +1126,17 @@ exports[`<ListingCard> when {rating} 1`] = `
         <View
           pointerEvents="none"
           style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
-                "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
-              },
-              Object {
-                "width": 168,
-              },
-            ]
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
           }
         >
           <View />
@@ -1462,166 +1456,8 @@ exports[`<ListingCard> when {style} 1`] = `
             "backgroundColor": "#CDD2D4",
             "borderRadius": 3,
           },
-          Array [],
-          undefined,
-        ]
-      }
-      testID={undefined}
-      tvParallaxProperties={undefined}
-    >
-      <View
-        style={null}
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
-                "justifyContent": "center",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                Array [],
-              ],
-            ]
-          }
-        >
-          <Image
-            onLoad={[Function]}
-            resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "borderRadius": 3,
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                Array [],
-              ]
-            }
-          />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
-            style={
-              Object {
-                "position": "absolute",
-              }
-            }
-          />
-        </View>
-        <View
-          pointerEvents="none"
-          style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
-                "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
-              },
-              Object {
-                "width": 168,
-              },
-            ]
-          }
-        >
-          <View />
-        </View>
-      </View>
-    </View>
-    <View
-      style={
-        Object {
-          "paddingVertical": 10,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`<ListingCard> when {title} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
->
-  <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
-    accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    style={undefined}
-    testID={undefined}
-  >
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hasTVPreferredFocus={undefined}
-      hitSlop={undefined}
-      isTVSelectable={true}
-      nativeID={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Array [
           Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
+            "width": 168,
           },
           Array [],
           undefined,
@@ -1699,21 +1535,177 @@ exports[`<ListingCard> when {title} 1`] = `
         <View
           pointerEvents="none"
           style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
+          }
+        >
+          <View />
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "paddingVertical": 10,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<ListingCard> when {title} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "overflow": "hidden",
+      },
+      Object {
+        "width": 168,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={undefined}
+    testID={undefined}
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hasTVPreferredFocus={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#CDD2D4",
+            "borderRadius": 3,
+          },
+          Object {
+            "width": 168,
+          },
+          Array [],
+          undefined,
+        ]
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <View
+        style={null}
+      >
+        <View
+          style={
             Array [
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "alignSelf": "center",
-                "height": "100%",
+                "backgroundColor": "#f4f4f4",
                 "justifyContent": "center",
-                "left": 0,
-                "padding": 10,
-                "position": "absolute",
               },
-              Object {
-                "width": 168,
-              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                Array [],
+              ],
             ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="center"
+            source={
+              Object {
+                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 3,
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                Array [],
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "position": "absolute",
+              }
+            }
+          />
+        </View>
+        <View
+          pointerEvents="none"
+          style={
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "alignSelf": "center",
+              "height": "100%",
+              "justifyContent": "center",
+              "left": 0,
+              "padding": 10,
+              "position": "absolute",
+              "width": "100%",
+            }
           }
         >
           <View />
