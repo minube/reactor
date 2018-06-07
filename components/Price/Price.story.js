@@ -32,8 +32,11 @@ storiesOf('✅ Price', module)
       <Price value={1024} symbol="$" />
     </View>
   ))
+  .addWithJSX('inherit <Text> properties', () => (
+    <Price title primary />
+  ))
   .addWithJSX('style', () => (
-    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }} />
+    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.SMALL, color: THEME.COLOR.ACCENT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <LayoutView>

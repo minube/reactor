@@ -3,6 +3,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import Text from '../Text';
+import { format } from './modules';
 import styles from './Price.style';
 
 const LEFT_SYMBOLS = ['$'];
@@ -16,17 +17,10 @@ const Price = ({
     { caption && <Text large style={[styles.minimize, inherit.style]}>{caption}</Text> }
 
     { LEFT_SYMBOLS.includes(symbol) &&
-      <Text large={large} style={[styles.minimize, inherit.style]}>{symbol}</Text> }
-    <Text large={large} bold style={inherit.style}>
-      {
-        parseFloat(Math.abs(value))
-          .toFixed(fixed)
-          // .replace(/\B(?=(\d{3})+(?!\d))/g, ',') // @TODO: Another option
-          .replace(/(\d)(?=(\d{3})+\.)/g, '$1,')
-      }
-    </Text>
+      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>{symbol}</Text> }
+    <Text large={large} bold {...inherit} style={inherit.style}>{format(value, fixed)}</Text>
     { !LEFT_SYMBOLS.includes(symbol) &&
-      <Text large={large} style={[styles.minimize, inherit.style]}>{symbol}</Text> }
+      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>{symbol}</Text> }
   </View>
 );
 
