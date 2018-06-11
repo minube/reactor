@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+ import React, { Component, Fragment } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { STYLE, THEME } from './common';
@@ -9,6 +9,7 @@ import {
   Video,
   Viewport,
   Slider,
+  Share,
 } from './components';
 import { Consumer, Provider } from './context';
 import PKG from './package.json';
@@ -70,6 +71,10 @@ export default class App extends Component {
                 </Fragment>
               )}
             </Consumer>
+            <Share
+              uri="http://soyjavi.com"
+              title="Share"
+            />
             <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
             <Slider dataSource={this.state.dataSource} item={ItemListingCard} navigation momentum />
 

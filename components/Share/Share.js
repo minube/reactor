@@ -1,6 +1,6 @@
 import { func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { View, Platform } from 'react-native';
+import { View, Platform, Share as ShareNative } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Button from '../Button';
@@ -26,7 +26,7 @@ class Share extends PureComponent {
     onOption: func,
     onPress: func,
     title: string,
-    uri: string,
+    uri: string.isRequired,
   };
 
   static defaultProps = {
@@ -35,7 +35,6 @@ class Share extends PureComponent {
     onOption() {},
     onPress() {},
     title: 'Share',
-    uri: undefined,
   };
 
   constructor(props) {
@@ -57,15 +56,17 @@ class Share extends PureComponent {
   }
 
   _onPress = () => {
-    const { props: { onPress } } = this;
+    const {
+      props: {
+        caption, onPress, title, uri,
+      },
+    } = this;
 
     if (IS_WEB) {
       this.setState({ visible: true });
     } else {
-      console.log('TODO: NativeShare');
-      // Share.share({ uri, title, message });
+      ShareNative.share({ url: uri, title, message: caption });
     }
-
     onPress();
   }
 
