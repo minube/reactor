@@ -77,14 +77,14 @@ class Share extends PureComponent {
     } = this;
 
     return (
-      <View>
+      <View pointerEvents="auto">
         <Button {...inherit} responsive icon="share" onPress={_onPress} />
         { IS_WEB &&
           <Dialog
-            title="Share"
+            title={inherit.title}
             visible={visible}
             onClose={_onCancel}
-            style={[styles.container, LAYOUT.STYLE.SHARE.DIALOG]}
+            style={[styles.dialog, LAYOUT.STYLE.SHARE.DIALOG]}
           >
             <Text lighten small>{caption}</Text>
             <View style={styles.options}>

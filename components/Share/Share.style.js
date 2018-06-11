@@ -5,7 +5,7 @@ import { STYLE, THEME } from '../../common';
 const { COLOR, OFFSET, UNIT } = THEME;
 
 export default StyleSheet.create({
-  container: {
+  dialog: {
     minWidth: 'auto',
     width: UNIT * 36,
   },
