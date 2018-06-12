@@ -35,7 +35,7 @@ const calc = (width) => {
     },
 
     SHARE: {
-      DIALOG: (() => (TINY || PHONE || SMALL ? STYLE.SHARE_MOBILE : undefined))(),
+      DIALOG: (() => (TINY || PHONE || SMALL ? STYLE.SHARE_MOBILE : {}))(),
     },
 
     TEXT: {
