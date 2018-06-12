@@ -1,6 +1,6 @@
 import { func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { View, Platform, Share as ShareNative } from 'react-native';
+import { View, Platform } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Button from '../Button';
@@ -11,6 +11,8 @@ import Touchable from '../Touchable';
 import styles from './Share.style';
 
 const IS_WEB = Platform.OS === 'web';
+const shareNative = IS_WEB ? undefined : require('react-native').Share.share;
+
 const OPTIONS = [
   { icon: '', title: 'Facebook', uri: 'https://www.facebook.com/sharer/sharer.php?u=' },
   { icon: '', title: 'Twitter', uri: 'http://www.twitter.com/share?url=' },
@@ -65,7 +67,7 @@ class Share extends PureComponent {
     if (IS_WEB) {
       this.setState({ visible: true });
     } else {
-      ShareNative.share({ url: uri, title, message: caption });
+      shareNative({ url: uri, title, message: caption });
     }
     onPress();
   }
