@@ -1,4 +1,5 @@
 import Activity from './Activity';
+import Avatar from './Avatar';
 import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Dialog from './Dialog';
@@ -25,6 +26,7 @@ import Viewport from './Viewport';
 
 export {
   Activity,
+  Avatar,
   Breadcrumbs,
   Button,
   Dialog,
