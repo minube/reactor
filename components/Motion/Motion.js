@@ -1,5 +1,5 @@
 import { arrayOf, bool, node, shape, string, number } from 'prop-types';
-import React, { PureComponent } from 'react';
+import { createElement, PureComponent } from 'react';
 import { Animated, Platform, View as ViewNative } from 'react-native';
 
 import { SHAPE } from '../../common';
@@ -11,9 +11,12 @@ class Motion extends PureComponent {
 
     const { useNativeDriver, timeline = [] } = props;
     const state = {};
-    timeline.forEach((key) => {
-      state[key.property] = new Animated.Value(useNativeDriver ? 0 : key.value);
-    });
+
+    if (!props.useNativeDriver) {
+      timeline.forEach((key) => {
+        state[key.property] = new Animated.Value(useNativeDriver ? 0 : key.value);
+      });
+    }
 
     this.state = { ...state };
   }
@@ -37,12 +40,14 @@ class Motion extends PureComponent {
     const {
       children, disabled, useNativeDriver, ...inherit
     } = this.props;
-    const View = !disabled && useNativeDriver ? ViewNative : Animated.View;
 
-    return (
-      <View style={[inherit.style, !disabled && buildStyle(this)]}>
-        { children }
-      </View>
+    const props = { style: [inherit.style, !disabled && buildStyle(this)] };
+    if (inherit.pointerEvents) props.pointerEvents = inherit.pointerEvents;
+
+    return createElement(
+      !disabled && useNativeDriver ? ViewNative : Animated.View,
+      props,
+      children,
     );
   }
 }
