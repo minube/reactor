@@ -1,5 +1,6 @@
 import Activity from './Activity';
 import Avatar from './Avatar';
+import BoardingPass from './BoardingPass';
 import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Dialog from './Dialog';
@@ -27,6 +28,7 @@ import Viewport from './Viewport';
 export {
   Activity,
   Avatar,
+  BoardingPass,
   Breadcrumbs,
   Button,
   Dialog,
