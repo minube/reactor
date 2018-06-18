@@ -1,5 +1,5 @@
 import { arrayOf, bool, func, number, shape, string } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
@@ -25,25 +25,46 @@ const cardWidth = () => {
   return UNIT * 23.6;
 };
 
-class Slider extends PureComponent {
+class Slider extends Component {
+  static propTypes = {
+    caption: string,
+    dataSource: arrayOf(shape({})),
+    item: func.isRequired,
+    itemMargin: number,
+    itemWidth: number,
+    momentum: bool,
+    navigation: bool,
+    steps: number,
+    title: string,
+  };
+
+  static defaultProps = {
+    caption: undefined,
+    dataSource: [],
+    itemMargin: UNIT,
+    itemWidth: undefined,
+    momentum: Platform.OS === 'web',
+    navigation: Platform.OS === 'web',
+    steps: 1,
+    title: undefined,
+  };
+
   constructor(props) {
     super(props);
 
-    this.state = {
-      itemWidth: props.itemWidth || cardWidth(),
-      x: 0,
-    };
+    this.state = { x: 0 };
   }
 
-  componentWillReceiveProps({ itemWidth = this.props.itemWidth }) {
-    this.setState({
-      itemWidth: itemWidth || cardWidth(),
-      x: 0,
-    });
+  componentWillReceiveProps() {
+    this.setState({ x: 0 });
+  }
+
+  shouldComponentUpdate({ dataSource = [], itemWidth }) {
+    return dataSource.length !== this.props.dataSource.length || itemWidth !== this.props.itemWidth;
   }
 
   _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
-    const { _updateScroll, props: { itemMargin }, state: { itemWidth } } = this;
+    const { _updateScroll, props: { itemMargin, itemWidth = cardWidth() } } = this;
     const width = (itemWidth + itemMargin);
 
     if (!Number.isInteger(x / width)) {
@@ -53,7 +74,11 @@ class Slider extends PureComponent {
   }
 
   _onButton = (type) => {
-    const { _updateScroll, props: { itemMargin, steps }, state: { itemWidth, x } } = this;
+    const {
+      _updateScroll,
+      props: { itemMargin, itemWidth = cardWidth(), steps },
+      state: { x },
+    } = this;
     const width = (itemWidth + itemMargin) * steps;
 
     _updateScroll(type === NEXT ? x + width : x - width);
@@ -107,28 +132,5 @@ class Slider extends PureComponent {
     );
   }
 }
-
-Slider.propTypes = {
-  caption: string,
-  dataSource: arrayOf(shape({})),
-  item: func.isRequired,
-  itemMargin: number,
-  itemWidth: number,
-  momentum: bool,
-  navigation: bool,
-  steps: number,
-  title: string,
-};
-
-Slider.defaultProps = {
-  caption: undefined,
-  dataSource: [],
-  itemMargin: UNIT,
-  itemWidth: undefined,
-  momentum: Platform.OS === 'web',
-  navigation: Platform.OS === 'web',
-  steps: 1,
-  title: undefined,
-};
 
 export default Slider;
