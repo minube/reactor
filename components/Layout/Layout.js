@@ -6,26 +6,28 @@ import { LAYOUT } from '../../common';
 
 const Context = createContext();
 const { Provider, Consumer: ConsumerLayout } = Context;
+const getKey = () => `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`;
 
 class LayoutView extends PureComponent {
   state = {
-    key: undefined,
+    key: getKey(),
   }
 
   _onLayout = () => {
     setTimeout(() => {
       LAYOUT.calc();
-      const { VIEWPORT } = LAYOUT;
-      const key = `${VIEWPORT.W}x${VIEWPORT.H}`;
+      const key = getKey();
 
       if (this.state.key !== key) {
+        const { VIEWPORT } = LAYOUT;
+
         const { props: { onLayout } } = this;
 
         onLayout(VIEWPORT);
         this.setState({ key });
         // this.forceUpdate(); // @TODO: React fiber
       }
-    }, 30);
+    }, 100);
   }
 
   render() {
