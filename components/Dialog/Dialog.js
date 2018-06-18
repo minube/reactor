@@ -38,13 +38,14 @@ class Dialog extends PureComponent {
 
     return (
       <Motion
-        pointerEvents={visible && (background || !isWeb) ? 'auto' : 'none'}
+        pointerEvents={background ? 'auto' : 'none'}
         style={[styles.container, background && styles.background, styleContainer]}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
         <Motion
           delay={250}
           duration={250}
+          pointerEvents="auto"
           type="timing"
           style={[
             styles.frame,
@@ -100,3 +101,4 @@ Dialog.defaultProps = {
 };
 
 export default Dialog;
+
