@@ -34,7 +34,6 @@ class BoardingPass extends PureComponent {
 
   state = {
     busy: true,
-    unmount: false,
   };
 
   componentDidMount() {
@@ -45,21 +44,17 @@ class BoardingPass extends PureComponent {
     if (reload) this._fetch(props);
   }
 
-  componentWillUnmount() {
-    this.state.unmount = true;
-  }
-
   _fetch = ({
     endpoint, headers, method, onError, onResponse, parameters, secure, service,
   }) => {
     if (!service) return;
-    this.setState({ busy: true, unmount: false });
+    this.setState({ busy: true });
     fetch({
       endpoint, headers, method, secure, service, ...parameters,
     })
       .then(onResponse)
       .catch(onError)
-      .finally(() => !this.state.unmount && this.setState({ busy: false }));
+      .finally(() => this.setState({ busy: false }));
   }
 
   render() {
