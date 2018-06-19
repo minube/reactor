@@ -1,6 +1,6 @@
 import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { ScrollView, View } from 'react-native';
+import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
@@ -11,6 +11,7 @@ import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
 const { COLOR } = THEME;
+const IS_WEB = Platform.OS === 'web';
 
 class Dialog extends PureComponent {
   constructor(props) {
@@ -37,7 +38,7 @@ class Dialog extends PureComponent {
 
     return (
       <Motion
-        pointerEvents={(background && visible) ? 'auto' : 'none'}
+        pointerEvents={((background || !IS_WEB) && visible) ? 'auto' : 'none'}
         style={[styles.container, background && styles.background, styleContainer]}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
@@ -100,4 +101,3 @@ Dialog.defaultProps = {
 };
 
 export default Dialog;
-

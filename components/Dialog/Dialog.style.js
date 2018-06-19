@@ -42,7 +42,6 @@ export default StyleSheet.create({
   },
 
   children: {
-    flex: 1,
     paddingHorizontal: OFFSET,
   },
 
