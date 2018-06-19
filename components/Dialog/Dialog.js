@@ -37,7 +37,7 @@ class Dialog extends PureComponent {
 
     return (
       <Motion
-        pointerEvents={background ? 'auto' : 'none'}
+        pointerEvents={(background && visible) ? 'auto' : 'none'}
         style={[styles.container, background && styles.background, styleContainer]}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
