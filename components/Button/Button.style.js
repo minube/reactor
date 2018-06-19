@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
@@ -17,12 +17,7 @@ export default StyleSheet.create({
     ...STYLE.ROW,
     ...STYLE.CENTERED,
     backgroundColor: COLOR.TEXT,
-    // height: BUTTON.HEIGHT,
-    // paddingHorizontal: UNIT * 3,
     borderRadius: BORDER_RADIUS,
-    ...Platform.select({
-      web: { width: 'fit-content' },
-    }),
   },
 
   accent: {
@@ -58,11 +53,6 @@ export default StyleSheet.create({
   rounded: {
     borderRadius: BUTTON.HEIGHT / 2,
   },
-
-  // small: {
-  //   height: BUTTON.SMALL_HEIGHT,
-  //   paddingHorizontal: BUTTON.SMALL_HEIGHT / 3,
-  // },
 
   text: {
     color: COLOR.WHITE,
