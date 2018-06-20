@@ -26,7 +26,6 @@ const Button = ({
       style={[
         styles.container,
         STYLE.BUTTON_REGULAR,
-        flat && styles.flat,
         primary && styles.primary,
         accent && styles.accent,
         small && STYLE.BUTTON_SMALL,
@@ -35,7 +34,9 @@ const Button = ({
         rounded && styles.rounded,
         disabled && styles.disabled,
 
-        color && StyleSheet.flatten([
+        // flat behavior
+        flat && color !== WHITE ? styles.flat : styles.transparent,
+        color && color !== WHITE && StyleSheet.flatten([
           !flat && { backgroundColor: color },
           flat && { borderColor: color },
         ]),

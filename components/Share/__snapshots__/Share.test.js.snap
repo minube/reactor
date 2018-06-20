@@ -53,7 +53,6 @@ exports[`<Share> renders 1`] = `
           false,
           false,
           false,
-          false,
           Object {
             "height": 45,
             "paddingHorizontal": 30,
@@ -61,6 +60,10 @@ exports[`<Share> renders 1`] = `
           false,
           false,
           false,
+          Object {
+            "backgroundColor": "transparent",
+            "paddingHorizontal": 0,
+          },
           undefined,
         ]
       }

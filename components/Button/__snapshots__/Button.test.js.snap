@@ -51,10 +51,13 @@ exports[`<Button> renders 1`] = `
         false,
         false,
         false,
-        false,
         undefined,
         false,
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -110,7 +113,6 @@ exports[`<Button> when {accent} 1`] = `
           "paddingHorizontal": 30,
         },
         false,
-        false,
         Object {
           "backgroundColor": "#f69a37",
         },
@@ -119,6 +121,10 @@ exports[`<Button> when {accent} 1`] = `
         false,
         false,
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -219,7 +225,10 @@ exports[`<Button> when {activity} 1`] = `
         false,
         false,
         false,
-        false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -329,10 +338,13 @@ exports[`<Button> when {children} 1`] = `
         false,
         false,
         false,
-        false,
         undefined,
         false,
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -485,7 +497,10 @@ exports[`<Button> when {color} 1`] = `
         false,
         false,
         false,
-        false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         Object {
           "backgroundColor": "red",
         },
@@ -587,10 +602,13 @@ exports[`<Button> when {disabled} 1`] = `
         false,
         false,
         false,
-        false,
         Object {
           "backgroundColor": "#dbdbdb",
           "borderWidth": 0,
+        },
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
         },
         undefined,
       ]
@@ -686,18 +704,18 @@ exports[`<Button> when {flat} 1`] = `
           "height": 45,
           "paddingHorizontal": 30,
         },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         Object {
           "backgroundColor": "#ffffff",
           "borderColor": "#dbdbdb",
           "borderWidth": 1,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         undefined,
       ]
     }
@@ -798,7 +816,10 @@ exports[`<Button> when {icon} & {title} 1`] = `
         false,
         false,
         false,
-        false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -924,7 +945,6 @@ exports[`<Button> when {icon} 1`] = `
         false,
         false,
         false,
-        false,
         Object {
           "borderRadius": 30,
           "height": 60,
@@ -933,6 +953,10 @@ exports[`<Button> when {icon} 1`] = `
         },
         false,
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -1013,7 +1037,6 @@ exports[`<Button> when {responsive} 1`] = `
         false,
         false,
         false,
-        false,
         Object {
           "height": 45,
           "paddingHorizontal": 30,
@@ -1021,6 +1044,10 @@ exports[`<Button> when {responsive} 1`] = `
         false,
         false,
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -1122,11 +1149,14 @@ exports[`<Button> when {rounded} 1`] = `
         false,
         false,
         false,
-        false,
         Object {
           "borderRadius": 22.5,
         },
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -1222,7 +1252,6 @@ exports[`<Button> when {small} 1`] = `
         },
         false,
         false,
-        false,
         Object {
           "height": 30,
           "paddingHorizontal": 15,
@@ -1231,6 +1260,10 @@ exports[`<Button> when {small} 1`] = `
         false,
         false,
         false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -1333,7 +1366,10 @@ exports[`<Button> when {style} 1`] = `
         false,
         false,
         false,
-        false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }
@@ -1434,7 +1470,10 @@ exports[`<Button> when {title} 1`] = `
         false,
         false,
         false,
-        false,
+        Object {
+          "backgroundColor": "transparent",
+          "paddingHorizontal": 0,
+        },
         undefined,
       ]
     }

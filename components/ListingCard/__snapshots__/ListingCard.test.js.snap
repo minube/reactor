@@ -566,11 +566,6 @@ exports[`<ListingCard> when {children} 1`] = `
                 "height": 45,
                 "paddingHorizontal": 30,
               },
-              Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
-                "borderWidth": 1,
-              },
               false,
               false,
               Object {
@@ -583,6 +578,11 @@ exports[`<ListingCard> when {children} 1`] = `
                 "borderRadius": 22.5,
               },
               false,
+              Object {
+                "backgroundColor": "#ffffff",
+                "borderColor": "#dbdbdb",
+                "borderWidth": 1,
+              },
               undefined,
             ]
           }

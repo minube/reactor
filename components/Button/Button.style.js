@@ -46,6 +46,11 @@ export default StyleSheet.create({
     borderColor: COLOR.BORDER,
   },
 
+  transparent: {
+    backgroundColor: COLOR.TRANSPARENT,
+    paddingHorizontal: 0,
+  },
+
   primary: {
     backgroundColor: COLOR.PRIMARY,
   },
