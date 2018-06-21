@@ -10,6 +10,7 @@ const { COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
 
 const Button = ({
   accent, activity, children, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, title,
+  isWhite = color === WHITE, // eslint-disable-line
   ...inherit
 }) => (
   <Touchable
@@ -35,11 +36,14 @@ const Button = ({
         disabled && styles.disabled,
 
         // flat behavior
-        flat && color !== WHITE ? styles.flat : styles.transparent,
-        color && color !== WHITE && StyleSheet.flatten([
-          !flat && { backgroundColor: color },
-          flat && { borderColor: color },
-        ]),
+        flat
+        ?
+          StyleSheet.flatten([
+            isWhite ? styles.transparent : styles.flat,
+            color && !isWhite && { borderColor: color },
+          ])
+        :
+          color && !isWhite && StyleSheet.flatten([{ backgroundColor: color }]),
       ]}
     >
       { activity &&

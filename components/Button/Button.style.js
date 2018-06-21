@@ -7,7 +7,6 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
-
   touchable: {
     margin: UNIT / 2,
     borderRadius: BORDER_RADIUS,
@@ -43,7 +42,7 @@ export default StyleSheet.create({
   flat: {
     backgroundColor: COLOR.WHITE,
     borderWidth: UNIT * 0.1,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.TEXT_LIGHTEN,
   },
 
   transparent: {

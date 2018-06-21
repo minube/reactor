@@ -60,10 +60,6 @@ exports[`<Share> renders 1`] = `
           false,
           false,
           false,
-          Object {
-            "backgroundColor": "transparent",
-            "paddingHorizontal": 0,
-          },
           undefined,
         ]
       }

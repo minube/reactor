@@ -1249,10 +1249,6 @@ exports[`<Slider> when {navigation} 1`] = `
             false,
             false,
             false,
-            Object {
-              "backgroundColor": "transparent",
-              "paddingHorizontal": 0,
-            },
             undefined,
           ]
         }
@@ -1353,10 +1349,6 @@ exports[`<Slider> when {navigation} 1`] = `
             false,
             false,
             false,
-            Object {
-              "backgroundColor": "transparent",
-              "paddingHorizontal": 0,
-            },
             undefined,
           ]
         }
