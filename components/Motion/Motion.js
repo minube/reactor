@@ -6,6 +6,26 @@ import { SHAPE } from '../../common';
 import buildStyle from './modules/buildStyle';
 
 class Motion extends PureComponent {
+  static propTypes = {
+    children: node,
+    delay: number,
+    disabled: bool,
+    duration: number,
+    timeline: arrayOf(shape(SHAPE.MOTION)),
+    type: string,
+    useNativeDriver: bool,
+  };
+
+  static defaultProps = {
+    children: undefined,
+    delay: 0,
+    disabled: false,
+    duration: 500,
+    timeline: undefined,
+    type: 'spring',
+    useNativeDriver: Platform.OS === 'web',
+  };
+
   constructor(props) {
     super(props);
 
@@ -51,25 +71,5 @@ class Motion extends PureComponent {
     );
   }
 }
-
-Motion.propTypes = {
-  children: node,
-  delay: number,
-  disabled: bool,
-  duration: number,
-  timeline: arrayOf(shape(SHAPE.MOTION)),
-  type: string,
-  useNativeDriver: bool,
-};
-
-Motion.defaultProps = {
-  children: undefined,
-  delay: 0,
-  disabled: false,
-  duration: 500,
-  timeline: undefined,
-  type: 'spring',
-  useNativeDriver: Platform.OS === 'web',
-};
 
 export default Motion;

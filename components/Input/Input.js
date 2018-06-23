@@ -9,10 +9,29 @@ import styles from './Input.style';
 const { COLOR } = THEME;
 
 class Input extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { focus: false };
-  }
+  static propTypes = {
+    disabled: bool,
+    error: string,
+    hint: string,
+    keyboard: string,
+    label: string,
+    onBlur: func,
+    onFocus: func,
+  };
+
+  static defaultProps = {
+    disabled: false,
+    error: undefined,
+    hint: undefined,
+    keyboard: 'default',
+    label: undefined,
+    onBlur: undefined,
+    onFocus: undefined,
+  };
+
+  state = {
+    focus: false,
+  };
 
   render() {
     const {
@@ -51,25 +70,5 @@ class Input extends Component {
     );
   }
 }
-
-Input.propTypes = {
-  disabled: bool,
-  error: string,
-  hint: string,
-  keyboard: string,
-  label: string,
-  onBlur: func,
-  onFocus: func,
-};
-
-Input.defaultProps = {
-  disabled: false,
-  error: undefined,
-  hint: undefined,
-  keyboard: 'default',
-  label: undefined,
-  onBlur: undefined,
-  onFocus: undefined,
-};
 
 export default Input;

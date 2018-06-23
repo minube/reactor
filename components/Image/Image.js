@@ -9,6 +9,16 @@ import styles from './Image.style';
 const AKAMAI_DOMAIN = 'imgs-akamai.mnstatic.com';
 
 class Image extends PureComponent {
+  static propTypes = {
+    ratio: number,
+    responsive: bool,
+  };
+
+  static defaultProps = {
+    ratio: 1,
+    responsive: false,
+  };
+
   state = {
     ready: false,
   }
@@ -44,15 +54,5 @@ class Image extends PureComponent {
     );
   }
 }
-
-Image.propTypes = {
-  ratio: number,
-  responsive: bool,
-};
-
-Image.defaultProps = {
-  ratio: 1,
-  responsive: false,
-};
 
 export default Image;

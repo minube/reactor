@@ -14,13 +14,33 @@ const { COLOR } = THEME;
 const IS_WEB = Platform.OS === 'web';
 
 class Dialog extends PureComponent {
-  constructor(props) {
-    super(props);
+  static propTypes = {
+    background: bool,
+    children: node,
+    highlight: bool,
+    onClose: func,
+    onSubmit: func,
+    style: oneOfType([array, number, object]),
+    styleContainer: oneOfType([array, number, object]),
+    title: string,
+    visible: bool,
+  };
 
-    this.state = {
-      scroll: false,
-    };
-  }
+  static defaultProps = {
+    background: true,
+    children: undefined,
+    highlight: undefined,
+    onClose: undefined,
+    onSubmit: undefined,
+    style: [],
+    styleContainer: [],
+    title: undefined,
+    visible: false,
+  };
+
+  state = {
+    scroll: false,
+  };
 
   _onScroll = () => {
     this.setState({ scroll: true });
@@ -75,29 +95,5 @@ class Dialog extends PureComponent {
       </Motion>);
   }
 }
-
-Dialog.propTypes = {
-  background: bool,
-  children: node,
-  highlight: bool,
-  onClose: func,
-  onSubmit: func,
-  style: oneOfType([array, number, object]),
-  styleContainer: oneOfType([array, number, object]),
-  title: string,
-  visible: bool,
-};
-
-Dialog.defaultProps = {
-  background: true,
-  children: undefined,
-  highlight: undefined,
-  onClose: undefined,
-  onSubmit: undefined,
-  style: [],
-  styleContainer: [],
-  title: undefined,
-  visible: false,
-};
 
 export default Dialog;

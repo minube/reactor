@@ -9,6 +9,16 @@ const { Provider, Consumer: ConsumerLayout } = Context;
 const getKey = () => `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`;
 
 class LayoutView extends PureComponent {
+  static propTypes = {
+    children: node,
+    onLayout: func,
+  };
+
+  static defaultProps = {
+    children: undefined,
+    onLayout() {},
+  };
+
   state = {
     key: getKey(),
   }
@@ -46,16 +56,6 @@ class LayoutView extends PureComponent {
     );
   }
 }
-
-LayoutView.propTypes = {
-  children: node,
-  onLayout: func,
-};
-
-LayoutView.defaultProps = {
-  children: undefined,
-  onLayout() {},
-};
 
 export { ConsumerLayout };
 

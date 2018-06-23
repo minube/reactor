@@ -5,6 +5,10 @@ import { THEME } from '../../common';
 import Text from '../Text';
 
 class Link extends PureComponent {
+  static propTypes = {
+    href: string.isRequired,
+  };
+
   state = {
     hover: false,
   }
@@ -30,9 +34,5 @@ class Link extends PureComponent {
     );
   }
 }
-
-Link.propTypes = {
-  href: string.isRequired,
-};
 
 export default Link;

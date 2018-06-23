@@ -9,6 +9,22 @@ import styles from './Viewport.style';
 const MOTION_DURATION = 500;
 
 class Viewport extends PureComponent {
+  static propTypes = {
+    children: node,
+    onScroll: func,
+    scroll: bool,
+    styleContent: oneOfType([array, number, object]),
+    visible: bool,
+  };
+
+  static defaultProps = {
+    children: undefined,
+    onScroll: undefined,
+    scroll: true,
+    styleContent: [],
+    visible: true,
+  };
+
   state = {
     height: LAYOUT.VIEWPORT.H,
     width: LAYOUT.VIEWPORT.W,
@@ -53,21 +69,5 @@ class Viewport extends PureComponent {
     );
   }
 }
-
-Viewport.propTypes = {
-  children: node,
-  onScroll: func,
-  scroll: bool,
-  styleContent: oneOfType([array, number, object]),
-  visible: bool,
-};
-
-Viewport.defaultProps = {
-  children: undefined,
-  onScroll: undefined,
-  scroll: true,
-  styleContent: [],
-  visible: true,
-};
 
 export default Viewport;
