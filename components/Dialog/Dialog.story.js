@@ -7,10 +7,10 @@ import LayoutView from '../Layout';
 import Dialog from './Dialog';
 import Text from '../Text';
 
-const STYLE = { backgroundColor: 'blue' };
+const STYLE = { backgroundColor: 'black' };
 const STYLE_CONTAINER = { backgroundColor: 'orange', width: '100%', height: 320 };
 
-storiesOf('🛠 Dialog', module)
+storiesOf('✅ Dialog', module)
   .addWithJSX('default', () => (
     <Dialog  />
   ))
@@ -23,11 +23,19 @@ storiesOf('🛠 Dialog', module)
   .addWithJSX('title', () => (
     <Dialog title="Hello world" visible />
   ))
+  .addWithJSX('highlight', () => (
+    <Dialog highlight title="Hello world" visible style={STYLE} />
+  ))
+  .addWithJSX('children', () => (
+    <Dialog title="Hello world" visible>
+      <Text>lorem ipsum...</Text>
+    </Dialog>
+  ))
   .addWithJSX('⚡ onClose', () => (
     <Dialog title="Hello world" onClose={action('Dialog.onClose()')} visible />
   ))
-  .addWithJSX('⚡ onSubmit', () => (
-    <Dialog title="Hello world" onSubmit={action('Dialog.onSubmit()')} visible />
+  .addWithJSX('⚡ onClose + highlight', () => (
+    <Dialog title="Hello world" highlight onClose={action('Dialog.onClose()')} visible style={STYLE} />
   ))
   .addWithJSX('style', () => (
     <Dialog title="Hello world" style={STYLE} visible />

@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, OFFSET,
+  BORDER_RADIUS, COLOR, FONT, OFFSET, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -21,13 +21,17 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
 
-  iconClose: {
+  touchable: {
     position: 'absolute',
-    right: 0,
-    top: 0,
-    padding: OFFSET,
-    opacity: 0.5,
+    right: OFFSET / 2,
+    top: OFFSET / 2,
     zIndex: 1,
+  },
+
+  icon: {
+    width: UNIT * 3.6,
+    height: UNIT * 3.6,
+    opacity: 0.5,
   },
 
   frame: {
@@ -43,6 +47,8 @@ export default StyleSheet.create({
 
   children: {
     paddingHorizontal: OFFSET,
+    // padding: OFFSET,
+    paddingBottom: OFFSET,
   },
 
   scroll: {
@@ -50,13 +56,5 @@ export default StyleSheet.create({
     borderBottomWidth: 1,
     borderTopColor: COLOR.DIVIDER,
     borderTopWidth: 1,
-  },
-
-  buttons: {
-    ...STYLE.ROW,
-    padding: OFFSET,
-    alignItems: 'center',
-    alignContent: 'center',
-    justifyContent: 'flex-end',
   },
 });

@@ -3,15 +3,14 @@ import React, { PureComponent } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Button from '../Button';
 import Icon from '../Icon';
 import Motion from '../Motion';
 import Text from '../Text';
 import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
-const { COLOR } = THEME;
 const IS_WEB = Platform.OS === 'web';
+const { COLOR: { WHITE } } = THEME;
 
 class Dialog extends PureComponent {
   static propTypes = {
@@ -19,7 +18,6 @@ class Dialog extends PureComponent {
     children: node,
     highlight: bool,
     onClose: func,
-    onSubmit: func,
     style: oneOfType([array, number, object]),
     styleContainer: oneOfType([array, number, object]),
     title: string,
@@ -31,7 +29,6 @@ class Dialog extends PureComponent {
     children: undefined,
     highlight: undefined,
     onClose: undefined,
-    onSubmit: undefined,
     style: [],
     styleContainer: [],
     title: undefined,
@@ -50,7 +47,7 @@ class Dialog extends PureComponent {
     const {
       _onScroll,
       props: {
-        background, children, highlight, onClose, onSubmit, style, styleContainer, title, visible,
+        background, children, highlight, onClose, style, styleContainer, title, visible,
       },
       state: { scroll },
     } = this;
@@ -79,16 +76,12 @@ class Dialog extends PureComponent {
         >
           <View>
             { onClose &&
-              <Touchable onPress={onClose} raised style={styles.iconClose}>
-                <Icon value={highlight ? 'close' : 'closeDark'} />
+              <Touchable onPress={onClose} raised style={styles.touchable}>
+                <Icon value={highlight ? 'close' : 'closeDark'} style={styles.icon} />
               </Touchable> }
-            { title && <Text bold style={styles.title}>{title}</Text> }
+            { title && <Text bold style={styles.title} color={highlight ? WHITE : undefined}>{title}</Text> }
             <ScrollView onScroll={_onScroll} style={[styles.children, scroll && styles.scroll]}>
               {children}
-              { onSubmit &&
-                <View style={styles.buttons}>
-                  <Button color={COLOR.PRIMARY} title="Submit" onPress={onClose} />
-                </View> }
             </ScrollView>
           </View>
         </Motion>
