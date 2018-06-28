@@ -6,6 +6,7 @@ exports[`<PictureCard> renders 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -18,24 +19,17 @@ exports[`<PictureCard> renders 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "#CDD2D4",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -127,6 +121,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -139,26 +134,17 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      Object {
-        "backgroundColor": "#10c0bc",
-      },
-    ]
+    Object {
+      "backgroundColor": "#10c0bc",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -250,6 +236,7 @@ exports[`<PictureCard> when {caption} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -262,24 +249,17 @@ exports[`<PictureCard> when {caption} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "#CDD2D4",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -411,6 +391,7 @@ exports[`<PictureCard> when {image} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -423,24 +404,17 @@ exports[`<PictureCard> when {image} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "#CDD2D4",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -532,6 +506,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -544,24 +519,17 @@ exports[`<PictureCard> when {portrait} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "#CDD2D4",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -653,6 +621,7 @@ exports[`<PictureCard> when {small} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -665,24 +634,17 @@ exports[`<PictureCard> when {small} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "#CDD2D4",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -778,6 +740,7 @@ exports[`<PictureCard> when {style} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -790,27 +753,17 @@ exports[`<PictureCard> when {style} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      Object {
-        "backgroundColor": "orange",
-        "opacity": 0.75,
-      },
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "orange",
+      "borderRadius": 3,
+      "opacity": 0.75,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [
@@ -908,6 +861,7 @@ exports[`<PictureCard> when {title} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
+  collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}
   isTVSelectable={true}
@@ -920,24 +874,17 @@ exports[`<PictureCard> when {title} 1`] = `
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
   style={
-    Array [
-      Object {
-        "backgroundColor": "#CDD2D4",
-        "borderRadius": 3,
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-      undefined,
-    ]
+    Object {
+      "backgroundColor": "#CDD2D4",
+      "borderRadius": 3,
+      "opacity": 1,
+      "width": 168,
+    }
   }
   testID={undefined}
   tvParallaxProperties={undefined}
 >
-  <View
-    style={null}
-  >
+  <View>
     <View
       style={
         Array [

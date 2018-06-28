@@ -1,6 +1,6 @@
 import { bool, func, node, string } from 'prop-types';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import { Activity, Icon, Text, Touchable } from '../';
@@ -9,57 +9,48 @@ import styles from './Button.style';
 const { COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
 
 const Button = ({
-  accent, activity, children, color, disabled, flat, icon, onPress, primary, responsive, rounded, small, title,
-  isWhite = color === WHITE, // eslint-disable-line
+  accent, activity, children, color, contained, disabled, icon, onPress, outlined,
+  primary, responsive, rounded, small, title,
+  isSolid = contained && !outlined, // eslint-disable-line
   ...inherit
 }) => (
   <Touchable
     disabled={disabled || !onPress}
     onPress={onPress}
-    style={[
-      styles.touchable,
-      !title && !small && icon && styles.floating,
-      rounded && styles.rounded,
-      inherit.style,
-    ]}
+    style={[styles.touchable, rounded && styles.rounded, inherit.style]}
   >
     <View
       style={[
         styles.container,
         STYLE.BUTTON_REGULAR,
-        primary && styles.primary,
-        accent && styles.accent,
+        // -- Layout
         small && STYLE.BUTTON_SMALL,
         !small && responsive && LAYOUT.STYLE.BUTTON.CONTAINER,
-        !title && !small && icon && styles.floating,
         rounded && styles.rounded,
-        disabled && styles.disabled,
+        !title && !children && styles.squared,
 
-        // flat behavior
-        flat
-        ?
-          StyleSheet.flatten([
-            isWhite ? styles.transparent : styles.flat,
-            color && !isWhite && { borderColor: color },
-          ])
-        :
-          color && !isWhite && StyleSheet.flatten([{ backgroundColor: color }]),
+        // -- Color
+        (isSolid && !primary && !accent) && { backgroundColor: color || TEXT_LIGHTEN },
+        isSolid && primary && styles.primary,
+        isSolid && accent && styles.accent,
+        isSolid && disabled && { backgroundColor: TEXT_LIGHTEN },
+        outlined && styles.outlined,
+        outlined && { borderColor: color || TEXT_LIGHTEN },
+        disabled && styles.disabled,
       ]}
     >
-      { activity &&
-        <Activity color={flat ? TEXT_LIGHTEN : WHITE} style={title && styles.activity} type="small" /> }
-      { !activity && icon &&
-        <Icon value={icon} style={title ? styles.icon : styles.iconFloating} />}
+      { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
+      { icon && !activity && <Icon value={icon} /> }
       { title &&
         <Text
           semibold
-          color={flat && color ? color : undefined}
+          color={isSolid ? WHITE : color || TEXT_LIGHTEN}
           style={[
-            styles.text,
-            flat && styles.textFlat,
-            small && styles.textSmall,
-            !small && responsive && LAYOUT.STYLE.TEXT.SMALL,
-            disabled && styles.textDisabled]}
+            small // eslint-disable-line
+              ? styles.textSmall
+              : responsive ? LAYOUT.STYLE.TEXT.SMALL : styles.text,
+            (activity || icon) && styles.textMarginLeft,
+          ]}
         >
           {title}
         </Text> }
@@ -72,11 +63,12 @@ Button.propTypes = {
   accent: bool,
   activity: bool,
   children: node,
+  contained: bool,
   color: string,
   disabled: bool,
-  flat: bool,
   icon: string,
   onPress: func,
+  outlined: bool,
   primary: bool,
   responsive: bool,
   rounded: bool,
@@ -88,11 +80,12 @@ Button.defaultProps = {
   accent: false,
   activity: false,
   children: undefined,
+  contained: true,
   color: undefined,
   disabled: false,
-  flat: false,
   icon: undefined,
   onPress: undefined,
+  outlined: false,
   primary: false,
   responsive: false,
   rounded: false,

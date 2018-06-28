@@ -21,17 +21,11 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
 
-  touchable: {
+  button: {
     position: 'absolute',
-    right: OFFSET / 2,
-    top: OFFSET / 2,
+    right: -UNIT / 2,
+    top: 0,
     zIndex: 1,
-  },
-
-  icon: {
-    width: UNIT * 3.6,
-    height: UNIT * 3.6,
-    opacity: 0.5,
   },
 
   frame: {
@@ -47,7 +41,6 @@ export default StyleSheet.create({
 
   children: {
     paddingHorizontal: OFFSET,
-    // padding: OFFSET,
     paddingBottom: OFFSET,
   },
 

@@ -7,7 +7,7 @@ import LayoutView from '../Layout';
 import Dialog from './Dialog';
 import Text from '../Text';
 
-const STYLE = { backgroundColor: 'black' };
+const STYLE = { backgroundColor: 'grey' };
 const STYLE_CONTAINER = { backgroundColor: 'orange', width: '100%', height: 320 };
 
 storiesOf('✅ Dialog', module)
@@ -47,6 +47,7 @@ storiesOf('✅ Dialog', module)
     <LayoutView>
       <Dialog
         background={boolean('background', true)}
+        highlight={boolean('highlight', true)}
         onClose={action('Dialog.onClose()')}
         onSubmit={action('Dialog.onSubmit()')}
         style={object('style', STYLE, 'dialog-style')}

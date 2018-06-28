@@ -83,8 +83,9 @@ export default {
   UNIT,
 
   STYLE: StyleSheet.create({
-    BUTTON_REGULAR: { height: BUTTON.HEIGHT, paddingHorizontal: UNIT * 3 },
-    BUTTON_SMALL: { height: BUTTON.SMALL_HEIGHT, paddingHorizontal: BUTTON.SMALL_HEIGHT / 2 },
+    BUTTON_REGULAR: { minWidth: BUTTON.HEIGHT, height: BUTTON.HEIGHT, paddingHorizontal: UNIT * 3 },
+    BUTTON_SMALL:
+      { minWidth: BUTTON.SMALL_HEIGHT, height: BUTTON.SMALL_HEIGHT, paddingHorizontal: BUTTON.SMALL_HEIGHT / 2 },
 
     CARD_HEIGHT_SMALL: { height: UNIT * 13.9 },
     CARD_HEIGHT_REGULAR: { height: UNIT * 19 },

@@ -20,8 +20,11 @@ storiesOf('✅ Button', module)
   .addWithJSX('icon & title', () => (
     <Button icon="apps" title="Press me" />
   ))
-  .addWithJSX('flat', () => (
-    <Button flat title="Press me" />
+  .addWithJSX('contained (false)', () => (
+    <Button contained={false} title="Press me" />
+  ))
+  .addWithJSX('outlined', () => (
+    <Button outlined title="Press me" />
   ))
   .addWithJSX('primary', () => (
     <Button primary title="Press me" />
@@ -64,15 +67,17 @@ storiesOf('✅ Button', module)
         accent={boolean('accent', false)}
         activity={boolean('activity', false)}
         color={color('color', undefined)}
+        contained={boolean('contained', true)}
         disabled={boolean('disabled', false)}
-        flat={boolean('flat', false)}
+        // flat={boolean('flat', false)}
         icon={text('icon', null)}
         onPress={action('Button.onPress()')}
+        outlined={boolean('outlined', false)}
         primary={boolean('primary', false)}
         responsive={boolean('responsive', false)}
         rounded={boolean('rounded', false)}
         small={boolean('small', false)}
-        title={text('title', 'Touch me')}
+        title={text('title', undefined)}
       />
     </LayoutView>
   ));

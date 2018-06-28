@@ -26,13 +26,23 @@ describe('<Button>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {flat}', () => {
-    const tree = renderer.create(<Button flat title="Press me" />).toJSON();
+  it('when {contained}', () => {
+    const tree = renderer.create(<Button contained title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {outlined}', () => {
+    const tree = renderer.create(<Button outlined title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {accent}', () => {
-    const tree = renderer.create(<Button accent title="Press me" />).toJSON();
+    const tree = renderer.create(<Button contained accent title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {primary}', () => {
+    const tree = renderer.create(<Button contained primary title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

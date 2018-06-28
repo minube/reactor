@@ -36,6 +36,7 @@ exports[`<ListingCard> renders 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -48,24 +49,17 @@ exports[`<ListingCard> renders 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -196,6 +190,7 @@ exports[`<ListingCard> when {category} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -208,24 +203,17 @@ exports[`<ListingCard> when {category} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -395,6 +383,7 @@ exports[`<ListingCard> when {children} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -407,24 +396,17 @@ exports[`<ListingCard> when {children} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -520,6 +502,7 @@ exports[`<ListingCard> when {children} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
+        collapsable={undefined}
         hasTVPreferredFocus={undefined}
         hitSlop={undefined}
         isTVSelectable={true}
@@ -532,20 +515,12 @@ exports[`<ListingCard> when {children} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "margin": 5,
-            },
-            false,
-            Object {
-              "borderRadius": 22.5,
-            },
-            Object {
-              "alignSelf": "flex-start",
-              "marginHorizontal": 0,
-            },
-          ]
+          Object {
+            "alignSelf": "flex-start",
+            "borderRadius": 22.5,
+            "marginHorizontal": 0,
+            "opacity": 1,
+          }
         }
         testID={undefined}
         tvParallaxProperties={undefined}
@@ -556,7 +531,6 @@ exports[`<ListingCard> when {children} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#4a4a4a",
                 "borderRadius": 3,
                 "display": "flex",
                 "flexDirection": "row",
@@ -564,25 +538,28 @@ exports[`<ListingCard> when {children} 1`] = `
               },
               Object {
                 "height": 45,
+                "minWidth": 45,
                 "paddingHorizontal": 30,
               },
-              false,
-              false,
               Object {
                 "height": 30,
+                "minWidth": 30,
                 "paddingHorizontal": 15,
               },
-              false,
               false,
               Object {
                 "borderRadius": 22.5,
               },
               false,
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#9b9b9b",
-                "borderWidth": 1,
+                "backgroundColor": "#9b9b9b",
               },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
             ]
           }
         >
@@ -616,7 +593,7 @@ exports[`<ListingCard> when {children} 1`] = `
                 false,
                 false,
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#ffffff",
                   "fontSize": 12,
                 },
               ]
@@ -667,6 +644,7 @@ exports[`<ListingCard> when {description} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -679,24 +657,17 @@ exports[`<ListingCard> when {description} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -869,6 +840,7 @@ exports[`<ListingCard> when {image} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -881,24 +853,17 @@ exports[`<ListingCard> when {image} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -1029,6 +994,7 @@ exports[`<ListingCard> when {rating} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -1041,24 +1007,17 @@ exports[`<ListingCard> when {rating} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -1438,6 +1397,7 @@ exports[`<ListingCard> when {style} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -1450,24 +1410,17 @@ exports[`<ListingCard> when {style} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [
@@ -1598,6 +1551,7 @@ exports[`<ListingCard> when {title} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
+      collapsable={undefined}
       hasTVPreferredFocus={undefined}
       hitSlop={undefined}
       isTVSelectable={true}
@@ -1610,24 +1564,17 @@ exports[`<ListingCard> when {title} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       style={
-        Array [
-          Object {
-            "backgroundColor": "#CDD2D4",
-            "borderRadius": 3,
-          },
-          Object {
-            "width": 168,
-          },
-          Array [],
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 3,
+          "opacity": 1,
+          "width": 168,
+        }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View
-        style={null}
-      >
+      <View>
         <View
           style={
             Array [

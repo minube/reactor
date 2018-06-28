@@ -3,10 +3,9 @@ import React, { PureComponent } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import Icon from '../Icon';
+import Button from '../Button';
 import Motion from '../Motion';
 import Text from '../Text';
-import Touchable from '../Touchable';
 import styles from './Dialog.style';
 
 const IS_WEB = Platform.OS === 'web';
@@ -76,10 +75,14 @@ class Dialog extends PureComponent {
         >
           <View>
             { onClose &&
-              <Touchable onPress={onClose} raised style={styles.touchable}>
-                <Icon value={highlight ? 'close' : 'closeDark'} style={styles.icon} />
-              </Touchable> }
-            { title && <Text bold style={styles.title} color={highlight ? WHITE : undefined}>{title}</Text> }
+              <Button
+                contained={false}
+                icon={highlight ? 'close' : 'closeDark'}
+                onPress={onClose}
+                style={styles.button}
+              /> }
+            { title &&
+              <Text bold style={styles.title} color={highlight ? WHITE : undefined}>{title}</Text> }
             <ScrollView onScroll={_onScroll} style={[styles.children, scroll && styles.scroll]}>
               {children}
             </ScrollView>

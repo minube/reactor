@@ -6,33 +6,6 @@ exports[`<Touchable> renders 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  hasTVPreferredFocus={undefined}
-  hitSlop={undefined}
-  isTVSelectable={true}
-  nativeID={undefined}
-  onLayout={undefined}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={null}
-  testID={undefined}
-  tvParallaxProperties={undefined}
->
-  <View
-    style={null}
-  />
-</View>
-`;
-
-exports[`<Touchable> when {raised} 1`] = `
-<View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
-  accessible={true}
   collapsable={undefined}
   hasTVPreferredFocus={undefined}
   hitSlop={undefined}

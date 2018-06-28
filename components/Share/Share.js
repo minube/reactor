@@ -81,7 +81,7 @@ class Share extends PureComponent {
 
     return (
       <View pointerEvents="auto">
-        <Button {...inherit} responsive icon="share" onPress={_onPress} />
+        <Button {...inherit} icon="share" onPress={_onPress} />
         { IS_WEB &&
           <Dialog
             title={inherit.title}
@@ -92,12 +92,7 @@ class Share extends PureComponent {
             <Text lighten small>{caption}</Text>
             <View style={styles.options}>
               { OPTIONS.map(({ title, icon, uri }) => (
-                <Touchable
-                  key={title}
-                  onPress={() => _onOption(uri)}
-                  raised
-                  style={styles.option}
-                >
+                <Touchable key={title} onPress={() => _onOption(uri)} style={styles.option}>
                   <Icon value={icon} style={styles.icon} />
                   <Text primary>{title}</Text>
                 </Touchable>))}
