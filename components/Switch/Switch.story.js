@@ -16,6 +16,9 @@ storiesOf('✅ Switch', module)
   .addWithJSX('disabled', () => (
     <Switch disabled label="Example of label" />
   ))
+  .addWithJSX('value', () => (
+    <Switch value label="Example of label" />
+  ))
   .addWithJSX('style', () => (
     <Switch style={{ backgroundColor: 'orange' }} />
   ))
