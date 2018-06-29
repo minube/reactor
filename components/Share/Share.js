@@ -2,7 +2,7 @@ import { func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View, Platform } from 'react-native';
 
-import { LAYOUT } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Dialog from '../Dialog';
 import Icon from '../Icon';
@@ -10,6 +10,7 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles from './Share.style';
 
+const { COLOR } = THEME;
 const IS_WEB = Platform.OS === 'web';
 const shareNative = IS_WEB ? undefined : require('react-native').Share.share;
 
@@ -23,6 +24,7 @@ const OPTIONS = [
 
 class Share extends PureComponent {
   static propTypes = {
+    accentColor: string,
     caption: string,
     onCancel: func,
     onOption: func,
@@ -32,6 +34,7 @@ class Share extends PureComponent {
   };
 
   static defaultProps = {
+    accentColor: COLOR.PRIMARY,
     caption: undefined,
     onCancel() {},
     onOption() {},
@@ -75,7 +78,7 @@ class Share extends PureComponent {
   render() {
     const {
       _onCancel, _onOption, _onPress,
-      props: { caption, ...inherit },
+      props: { caption, accentColor, ...inherit },
       state: { visible },
     } = this;
 
@@ -94,7 +97,7 @@ class Share extends PureComponent {
               { OPTIONS.map(({ title, icon, uri }) => (
                 <Touchable key={title} onPress={() => _onOption(uri)} style={styles.option}>
                   <Icon value={icon} style={styles.icon} />
-                  <Text primary>{title}</Text>
+                  <Text color={accentColor}>{title}</Text>
                 </Touchable>))}
             </View>
           </Dialog> }

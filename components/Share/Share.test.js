@@ -23,6 +23,11 @@ describe('<Share>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {accentColor}', () => {
+    const tree = renderer.create(<share accentColor="red" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {onCancel}', () => {
     // @TODO: Test <Share /> {onCancel}
   });

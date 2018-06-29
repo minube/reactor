@@ -126,6 +126,12 @@ exports[`<Share> renders 1`] = `
 </View>
 `;
 
+exports[`<Share> when {accentColor} 1`] = `
+<share
+  accentColor="red"
+/>
+`;
+
 exports[`<Share> when {caption} 1`] = `
 <share
   caption="Hello world"

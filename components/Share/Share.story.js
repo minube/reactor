@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { boolean, object, text } from '@storybook/addon-knobs/react';
+import { boolean, color, object, text } from '@storybook/addon-knobs/react';
 
 import LayoutView from '../Layout';
 import Share from './Share';
@@ -19,6 +19,9 @@ storiesOf('✅ Share', module)
   .addWithJSX('caption', () => (
     <Share caption={LOREM} />
   ))
+  .addWithJSX('accentColor', () => (
+    <Share accentColor="red" />
+  ))
   .addWithJSX('⚡ onCancel (only web)', () => (
     <Share onCancel={action('Share.onCancel()')} />
   ))
@@ -34,6 +37,7 @@ storiesOf('✅ Share', module)
         primary
         title={text('title', 'hello')}
         caption={text('caption', LOREM)}
+        accentColor={color('accentColor', LOREM)}
         onCancel={action('Share.onCancel()')}
         onOption={action('Share.onOption()')}
         onPress={action('Share.onPress()')}
