@@ -24,9 +24,6 @@ export default StyleSheet.create({
   },
 
   icon: {
-    backgroundColor: COLOR.CONTENT,
-    width: UNIT * 2,
-    height: UNIT * 2,
     marginRight: UNIT,
   },
 });
