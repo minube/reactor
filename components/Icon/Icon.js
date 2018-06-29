@@ -32,14 +32,14 @@ Icon.propTypes = {
   color: string,
   invert: bool,
   size: number,
-  value: oneOfType([number, string]),
+  value: oneOfType([number, string]).isRequired,
 };
 
 Icon.defaultProps = {
   color: undefined,
   invert: false,
   size: undefined,
-  value: 'base',
+  // value: 'base',
 };
 
 export default Icon;

@@ -12,26 +12,26 @@ storiesOf('✅ Icon', module)
     <Icon />
   ))
   .addWithJSX('value', () => (
-    <Icon value="menu" />
+    <Icon value="closeDark" />
   ))
   .addWithJSX('value (as uri)', () => (
     <Icon value="https://api.adorable.io/avatars/48/8" />
   ))
   .addWithJSX('color (only Native)', () => (
     <withNotes notes="Color is only supported in Native environments">
-      <Icon color={THEME.COLOR.ERROR} />
+      <Icon color={THEME.COLOR.ERROR} value="closeDark" />
     </withNotes>
   ))
   .addWithJSX('invert (only Web)', () => (
     <withNotes notes="invert is only supported in web environments">
-      <Icon invert />
+      <Icon invert value="closeDark" />
     </withNotes>
   ))
   .addWithJSX('size', () => (
-    <Icon size={48} />
+    <Icon size={48} value="closeDark" />
   ))
   .addWithJSX('style', () => (
-    <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} />
+    <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} value="closeDark" />
   ))
   .addWithJSX('🏀 Playground', () => (
     <LayoutView>
@@ -39,7 +39,7 @@ storiesOf('✅ Icon', module)
         size={number('size', THEME.FONT.SIZE.LARGE)}
         color={color('color', THEME.COLOR.TEXT)}
         invert={boolean('invert', false)}
-        value={select('value', ['base', 'close', 'closeDark', 'apps', 'left', 'options', 'right', 'share'], 'base')}
+        value={select('value', ['apps', 'close', 'closeDark', 'emailDark', 'left', 'right', 'share'], 'closeDark')}
       />
     </LayoutView>
   ));
