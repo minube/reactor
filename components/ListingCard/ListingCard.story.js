@@ -8,7 +8,6 @@ import { THEME, STYLE } from '../../common';
 import Button from '../Button';
 import Price from '../Price';
 import Text from '../Text';
-import LayoutView from '../Layout';
 import ListingCard from './ListingCard';
 
 const { COLOR, UNIT } = THEME;
@@ -62,15 +61,13 @@ storiesOf('✅ ListingCard', module)
     <ListingCard style={{ backgroundColor: COLOR.PRIMARY, paddingTop: UNIT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <ListingCard
-        category={text('category', 'category')}
-        description={text('description', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')}
-        image={text('image', LIPSUM_IMAGE)}
-        onPress={action('Button.onPress()')}
-        rating={object('rating', RATING, 'listingcard-rating')}
-        title={text('title', 'title')}
-      />
-    </LayoutView>
+    <ListingCard
+      category={text('category', 'category')}
+      description={text('description', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')}
+      image={text('image', LIPSUM_IMAGE)}
+      onPress={action('Button.onPress()')}
+      rating={object('rating', RATING, 'listingcard-rating')}
+      title={text('title', 'title')}
+    />
   ));
 

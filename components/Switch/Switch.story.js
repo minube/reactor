@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import Switch from './Switch';
 
 storiesOf('✅ Switch', module)
@@ -23,13 +22,11 @@ storiesOf('✅ Switch', module)
     <Switch style={{ backgroundColor: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Switch
-        disabled={boolean('disabled', false)}
-        label={text('label', 'Example of label')}
-        value={boolean('value', true)}
-        onValueChange={action('Switch.onValueChange()')}
-      />
-    </LayoutView>
+    <Switch
+      disabled={boolean('disabled', false)}
+      label={text('label', 'Example of label')}
+      value={boolean('value', true)}
+      onValueChange={action('Switch.onValueChange()')}
+    />
   ));
 

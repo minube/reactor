@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import LayoutView from '../Layout';
 import Link from './Link';
 
 storiesOf('✅ Link', module)
@@ -23,9 +22,7 @@ storiesOf('✅ Link', module)
     </Link>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Link href={text('href', 'http://minube.com')}>
-        {text('title', 'minube.com')}
-      </Link>
-    </LayoutView>
+    <Link href={text('href', 'http://minube.com')}>
+      {text('title', 'minube.com')}
+    </Link>
   ));

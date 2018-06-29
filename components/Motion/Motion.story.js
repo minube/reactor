@@ -3,7 +3,6 @@ import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { boolean, object, number, select } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import Motion from './Motion';
 
 const style = {
@@ -32,16 +31,14 @@ storiesOf('✅ Motion', module)
     </Motion>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Motion
-        delay={number('delay', 0)}
-        disabled={boolean('disabled', false)}
-        duration={number('duration', 500)}
-        timeline={object('timeline', timeline, 'motion-timeline')}
-        type={select('type', ['spring', 'timing'], 'spring')}
-        useNativeDriver={boolean('useNativeDriver', true)}
-      >
-        <View style={style} />
-      </Motion>
-    </LayoutView>
+    <Motion
+      delay={number('delay', 0)}
+      disabled={boolean('disabled', false)}
+      duration={number('duration', 500)}
+      timeline={object('timeline', timeline, 'motion-timeline')}
+      type={select('type', ['spring', 'timing'], 'spring')}
+      useNativeDriver={boolean('useNativeDriver', true)}
+    >
+      <View style={style} />
+    </Motion>
   ));

@@ -4,7 +4,6 @@ import { action } from '@storybook/addon-actions';
 import { color, object } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import LayoutView from '../Layout';
 import Breadcrumbs from './Breadcrumbs';
 
 const dataSource = [
@@ -34,11 +33,9 @@ storiesOf('✅ Breadcrumbs', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Breadcrumbs
-        dataSource={object('dataSource', dataSource, 'heading-dataSource')}
-        color={color('color', THEME.COLOR.TEXT)}
-      />
-    </LayoutView>
+    <Breadcrumbs
+      dataSource={object('dataSource', dataSource, 'heading-dataSource')}
+      color={color('color', THEME.COLOR.TEXT)}
+    />
   ));
 

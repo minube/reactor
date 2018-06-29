@@ -4,7 +4,6 @@ import { storiesOf } from '@storybook/react';
 import { number, text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import LayoutView from '../Layout';
 import Price from './Price';
 
 storiesOf('✅ Price', module)
@@ -39,13 +38,11 @@ storiesOf('✅ Price', module)
     <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.SMALL, color: THEME.COLOR.ACCENT }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Price
-        caption={text('caption', 'from')}
-        fixed={number('fixed', 2)}
-        value={number('value', 64)}
-        symbol={text('symbol', '€')}
-      />
-    </LayoutView>
+    <Price
+      caption={text('caption', 'from')}
+      fixed={number('fixed', 2)}
+      value={number('value', 64)}
+      symbol={text('symbol', '€')}
+    />
   ));
 

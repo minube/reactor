@@ -6,18 +6,15 @@ import styles from '@sambego/storybook-styles';
 import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
 import './addon-viewport';
+import decoratorLayout from './decorator-layout';
 import { THEME } from '../common';
 import PKG from '../package.json';
 
+addDecorator(decoratorLayout);
 addDecorator(withKnobs);
 addDecorator(styles({
-  alignItems: 'center',
-  backgroundImage: "linear-gradient(45deg, #ddd 25%, transparent 25%), linear-gradient(-45deg, #ddd 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #ddd 75%), linear-gradient(-45deg, transparent 75%, #ddd 75%)",
-  backgroundSize: '32px 32px',
-  backgroundPosition: '0 0, 0 16px, 16px -16px, -16px 0px',
-  display: 'flex',
   height: '100vh',
-  justifyContent: 'center',
+  width: '100%',
 }));
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
 setAddon(JSXAddon);

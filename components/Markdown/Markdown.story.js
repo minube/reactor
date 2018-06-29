@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { text, color, boolean } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import LayoutView from '../Layout';
 import Markdown from './Markdown';
 
 storiesOf('✅ Markdown', module)
@@ -28,10 +27,8 @@ storiesOf('✅ Markdown', module)
     </Markdown>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Markdown>
-        {text('content', 'Hello World')}
-      </Markdown>
-    </LayoutView>
+    <Markdown>
+      {text('content', 'Hello World')}
+    </Markdown>
   ));
 

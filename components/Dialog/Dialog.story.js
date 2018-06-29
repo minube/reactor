@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, object } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import Dialog from './Dialog';
 import Text from '../Text';
 
@@ -44,18 +43,16 @@ storiesOf('✅ Dialog', module)
     <Dialog title="Hello world" styleContainer={STYLE_CONTAINER} visible />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Dialog
-        background={boolean('background', true)}
-        highlight={boolean('highlight', true)}
-        onClose={action('Dialog.onClose()')}
-        onSubmit={action('Dialog.onSubmit()')}
-        style={object('style', STYLE, 'dialog-style')}
-        styleContainer={object('styleContainer', STYLE_CONTAINER, 'dialog-styleContainer')}
-        title={text('title', 'Title')}
-        visible={boolean('visible', true)}
-      >
-        <Text>Example of children</Text>
-      </Dialog>
-    </LayoutView>
+    <Dialog
+      background={boolean('background', true)}
+      highlight={boolean('highlight', true)}
+      onClose={action('Dialog.onClose()')}
+      onSubmit={action('Dialog.onSubmit()')}
+      style={object('style', STYLE, 'dialog-style')}
+      styleContainer={object('styleContainer', STYLE_CONTAINER, 'dialog-styleContainer')}
+      title={text('title', 'Title')}
+      visible={boolean('visible', true)}
+    >
+      <Text>Example of children</Text>
+    </Dialog>
   ));

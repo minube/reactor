@@ -62,23 +62,21 @@ storiesOf('✅ Button', module)
     <Button title="Press me" style={{ backgroundColor: 'orange' }} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Button
-        accent={boolean('accent', false)}
-        activity={boolean('activity', false)}
-        color={color('color', undefined)}
-        contained={boolean('contained', true)}
-        disabled={boolean('disabled', false)}
-        // flat={boolean('flat', false)}
-        icon={text('icon', null)}
-        onPress={action('Button.onPress()')}
-        outlined={boolean('outlined', false)}
-        primary={boolean('primary', false)}
-        responsive={boolean('responsive', false)}
-        rounded={boolean('rounded', false)}
-        small={boolean('small', false)}
-        title={text('title', undefined)}
-      />
-    </LayoutView>
+    <Button
+      accent={boolean('accent', false)}
+      activity={boolean('activity', false)}
+      color={color('color', undefined)}
+      contained={boolean('contained', true)}
+      disabled={boolean('disabled', false)}
+      // flat={boolean('flat', false)}
+      icon={text('icon', null)}
+      onPress={action('Button.onPress()')}
+      outlined={boolean('outlined', false)}
+      primary={boolean('primary', false)}
+      responsive={boolean('responsive', false)}
+      rounded={boolean('rounded', false)}
+      small={boolean('small', false)}
+      title={text('title', undefined)}
+    />
   ));
 

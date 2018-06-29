@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { boolean, object, text } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import Avatar from './Avatar';
 
 const LOREM_AVATAR = 'https://api.adorable.io/avatars/128/8';
@@ -22,12 +21,10 @@ storiesOf('✅ Avatar', module)
     <Avatar image={LOREM_AVATAR} style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Avatar
-        image={text('image', LOREM_AVATAR)}
-        small={boolean('small', false)}
-        large={boolean('large', false)}
-        style={object('style', STYLE, 'avatar-style')}
-      />
-    </LayoutView>
+    <Avatar
+      image={text('image', LOREM_AVATAR)}
+      small={boolean('small', false)}
+      large={boolean('large', false)}
+      style={object('style', STYLE, 'avatar-style')}
+    />
   ));

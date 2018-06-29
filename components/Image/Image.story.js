@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { boolean, object, number } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import Image from './Image';
 
 const IMAGE_PLACEHOLDER = 'https://picsum.photos/320/200/?random';
@@ -45,14 +44,12 @@ storiesOf('✅ Image', module)
     />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Image
-        small={boolean('small', false)}
-        ratio={number('ratio', false)}
-        responsive={boolean('responsive', false)}
-        onLoad={action('Button.onLoad()')}
-        source={object('source', SOURCE, 'image-source')}
-        style={object('style', DEFAULT_STYLE, 'image-style')}
-      />
-    </LayoutView>
+    <Image
+      small={boolean('small', false)}
+      ratio={number('ratio', false)}
+      responsive={boolean('responsive', false)}
+      onLoad={action('Button.onLoad()')}
+      source={object('source', SOURCE, 'image-source')}
+      style={object('style', DEFAULT_STYLE, 'image-style')}
+    />
   ));

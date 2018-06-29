@@ -4,7 +4,6 @@ import { action } from '@storybook/addon-actions';
 import { color, object } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import LayoutView from '../Layout';
 import BoardingPass from './BoardingPass';
 
 const endpoint = 'httpbin.org/';

@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text, boolean, number } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import ListingCard from '../ListingCard';
 import PictureCard from '../PictureCard';
 import Slider from './Slider';

@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { boolean, color, object, text } from '@storybook/addon-knobs/react';
 
-import LayoutView from '../Layout';
 import Share from './Share';
 
 const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.";
@@ -32,15 +31,13 @@ storiesOf('✅ Share', module)
     <Share onPress={action('Share.onPress()')} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <LayoutView>
-      <Share
-        primary
-        title={text('title', 'hello')}
-        caption={text('caption', LOREM)}
-        accentColor={color('accentColor', LOREM)}
-        onCancel={action('Share.onCancel()')}
-        onOption={action('Share.onOption()')}
-        onPress={action('Share.onPress()')}
-      />
-    </LayoutView>
+    <Share
+      primary
+      title={text('title', 'hello')}
+      caption={text('caption', LOREM)}
+      accentColor={color('accentColor', LOREM)}
+      onCancel={action('Share.onCancel()')}
+      onOption={action('Share.onOption()')}
+      onPress={action('Share.onPress()')}
+    />
   ));
