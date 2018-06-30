@@ -4,7 +4,7 @@
   "requireCleanWorkingDir": true,
   "src": {
     "beforeStartCommand": "yarn run test && yarn run lint",
-    "afterReleaseCommand": "yarn run gh-pages",
+    "afterReleaseCommand": "yarn run storybook-to-ghpages",
     "commitMessage": "Release v%s",
     "tagName": "v%s",
     "tagAnnotation": "Release v%s"
