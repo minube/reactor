@@ -73,7 +73,7 @@ class Dialog extends PureComponent {
           ]}
           timeline={[{ property: 'translateY', value: visible ? 0 : H }]}
         >
-          <View>
+          <View style={styles.content}>
             { onClose &&
               <Button
                 contained={false}

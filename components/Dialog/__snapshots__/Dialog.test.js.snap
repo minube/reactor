@@ -44,7 +44,13 @@ exports[`<Dialog> renders 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <RCTScrollView
         onScroll={[Function]}
         style={
@@ -107,7 +113,13 @@ exports[`<Dialog> when {background} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <RCTScrollView
         onScroll={[Function]}
         style={
@@ -171,7 +183,13 @@ exports[`<Dialog> when {children} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <RCTScrollView
         onScroll={[Function]}
         style={
@@ -269,7 +287,13 @@ exports[`<Dialog> when {highlight} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <View
         accessibilityComponentType={undefined}
         accessibilityLabel={undefined}
@@ -456,7 +480,13 @@ exports[`<Dialog> when {onClose} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <View
         accessibilityComponentType={undefined}
         accessibilityLabel={undefined}
@@ -604,7 +634,13 @@ exports[`<Dialog> when {style} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <RCTScrollView
         onScroll={[Function]}
         style={
@@ -668,7 +704,13 @@ exports[`<Dialog> when {styleContainer} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <RCTScrollView
         onScroll={[Function]}
         style={
@@ -732,7 +774,13 @@ exports[`<Dialog> when {title} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -834,7 +882,13 @@ exports[`<Dialog> when {visible} 1`] = `
       }
     }
   >
-    <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
       <RCTScrollView
         onScroll={[Function]}
         style={

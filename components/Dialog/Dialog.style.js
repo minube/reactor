@@ -34,6 +34,10 @@ export default StyleSheet.create({
     borderRadius: BORDER_RADIUS,
   },
 
+  content: {
+    flex: 1,
+  },
+
   title: {
     fontSize: FONT.SIZE.LARGE,
     padding: OFFSET,
@@ -45,9 +49,9 @@ export default StyleSheet.create({
   },
 
   scroll: {
-    borderBottomColor: COLOR.DIVIDER,
+    borderBottomColor: COLOR.BORDER,
     borderBottomWidth: 1,
-    borderTopColor: COLOR.DIVIDER,
+    borderTopColor: COLOR.BORDER,
     borderTopWidth: 1,
   },
 });
