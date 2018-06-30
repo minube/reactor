@@ -1,4 +1,4 @@
-import { bool, func, string } from 'prop-types';
+import { bool, func, number, string } from 'prop-types';
 import React, { Component } from 'react';
 import { TextInput, View } from 'react-native';
 
@@ -15,6 +15,7 @@ class Input extends Component {
     hint: string,
     keyboard: string,
     label: string,
+    lines: number,
     onBlur: func,
     onFocus: func,
   };
@@ -25,6 +26,7 @@ class Input extends Component {
     hint: undefined,
     keyboard: 'default',
     label: undefined,
+    lines: undefined,
     onBlur: undefined,
     onFocus: undefined,
   };
@@ -36,7 +38,7 @@ class Input extends Component {
   render() {
     const {
       props: {
-        disabled, error, hint, keyboard, label, onBlur, onFocus, ...inherit
+        disabled, error, hint, keyboard, label, lines, onBlur, onFocus, ...inherit
       },
       state: { focus },
     } = this;
@@ -52,6 +54,8 @@ class Input extends Component {
           blurOnSubmit
           editable={!disabled}
           keyboardType={keyboard}
+          numberOfLines={lines}
+          multiline={lines > 1}
           onBlur={onBlur || (() => !disabled && this.setState({ focus: false }))}
           onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
           placeholderTextColor={COLOR.TEXT_LIGHTEN}

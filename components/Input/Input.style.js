@@ -17,6 +17,7 @@ export default StyleSheet.create({
   },
 
   input: {
+    backgroundColor: COLOR.WHITE,
     borderColor: COLOR.BORDER,
     borderWidth: 1,
     borderRadius: UNIT / 4,

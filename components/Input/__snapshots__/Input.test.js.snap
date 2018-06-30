@@ -16,12 +16,15 @@ exports[`<Input> renders 1`] = `
     blurOnSubmit={true}
     editable={true}
     keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
     onBlur={[Function]}
     onFocus={[Function]}
     placeholderTextColor="#9b9b9b"
     style={
       Array [
         Object {
+          "backgroundColor": "#ffffff",
           "borderColor": "#dbdbdb",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -36,6 +39,456 @@ exports[`<Input> renders 1`] = `
         false,
         undefined,
         undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`<Input> when {disabled} 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={false}
+    keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        Object {
+          "backgroundColor": "#f4f4f4",
+          "color": "#cccccc",
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`<Input> when {error} 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        Object {
+          "borderColor": "#ef5160",
+        },
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "color": "#ef5160",
+          "marginVertical": 2.5,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`<Input> when {hint} 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "marginVertical": 2.5,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`<Input> when {keyboard} 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="numeric"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`<Input> when {label} 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "marginVertical": 2.5,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`<Input> when {lines} 1`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={true}
+    numberOfLines={5}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;
+
+exports[`<Input> when {lines} 2`] = `
+<View
+  style={
+    Object {
+      "marginBottom": 16,
+      "minHeight": undefined,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+        Object {
+          "backgroundColor": "orange",
+        },
       ]
     }
     underlineColorAndroid="transparent"
