@@ -17,6 +17,7 @@ class Input extends Component {
     label: string,
     lines: number,
     onBlur: func,
+    onChange: func,
     onFocus: func,
   };
 
@@ -28,6 +29,7 @@ class Input extends Component {
     label: undefined,
     lines: undefined,
     onBlur: undefined,
+    onChange: undefined,
     onFocus: undefined,
   };
 
@@ -38,7 +40,7 @@ class Input extends Component {
   render() {
     const {
       props: {
-        disabled, error, hint, keyboard, label, lines, onBlur, onFocus, ...inherit
+        disabled, error, hint, keyboard, label, lines, onBlur, onChange, onFocus, ...inherit
       },
       state: { focus },
     } = this;
@@ -56,6 +58,7 @@ class Input extends Component {
           keyboardType={keyboard}
           numberOfLines={lines}
           multiline={lines > 1}
+          onChangeText={onChange}
           onBlur={onBlur || (() => !disabled && this.setState({ focus: false }))}
           onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
           placeholderTextColor={COLOR.TEXT_LIGHTEN}

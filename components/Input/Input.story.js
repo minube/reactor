@@ -30,6 +30,9 @@ storiesOf('🛠 Input', module)
   .addWithJSX('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />
   ))
+  .addWithJSX('⚡ onChange', () => (
+    <Input onChange={action('Input.onChange()')} title="Press me" />
+  ))
   .addWithJSX('⚡ onFocus', () => (
     <Input onFocus={action('Input.onFocus()')} title="Press me" />
   ))
