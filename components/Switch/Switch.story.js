@@ -18,6 +18,9 @@ storiesOf('✅ Switch', module)
   .addWithJSX('value', () => (
     <Switch value label="Example of label" />
   ))
+  .addWithJSX('⚡ onChange', () => (
+    <Switch onChange={action('Switch.onChange()')} value />
+  ))
   .addWithJSX('style', () => (
     <Switch style={{ backgroundColor: 'orange' }} />
   ))
