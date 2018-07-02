@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -45,12 +44,6 @@ describe('<Icon>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Icon />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -44,12 +43,6 @@ describe('<Rating>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Rating value={3.5} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Rating />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

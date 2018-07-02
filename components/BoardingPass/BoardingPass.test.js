@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { Text } from 'react-native';
 
@@ -22,11 +21,5 @@ describe('<BoardingPass>', () => {
   it('when {loading}', () => {
     const tree = renderer.create(<BoardingPass loading={LOADING}>{CHILDREN}</BoardingPass>).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<BoardingPass />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });

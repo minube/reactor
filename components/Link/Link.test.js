@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -26,12 +25,6 @@ describe('<Link>', () => {
     const styleHover = { fontSize: THEME.FONT.SIZE.LARGE, fontWeight: THEME.FONT.WEIGHT.BOLD };
     const tree = renderer.create(<Link visible styleHover={styleHover} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Link />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

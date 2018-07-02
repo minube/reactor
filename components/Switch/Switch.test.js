@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import Switch from './Switch';
@@ -23,12 +22,6 @@ describe('<Switch>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Switch style={{ backgroundColor: 'orange' }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Switch />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

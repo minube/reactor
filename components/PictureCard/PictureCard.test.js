@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -54,12 +53,6 @@ describe('<PictureCard>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<PictureCard style={{ backgroundColor: 'orange', opacity: 0.75 }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<PictureCard />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

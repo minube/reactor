@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -67,12 +66,6 @@ describe('<Heading>', () => {
     };
     const tree = renderer.create(<Heading title="Hello" style={style} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Heading />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -51,12 +50,6 @@ describe('<ListingCard>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<ListingCard style={{ backgroundColor: THEME.COLOR.PRIMARY, paddingTop: THEME.UNIT }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<ListingCard />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

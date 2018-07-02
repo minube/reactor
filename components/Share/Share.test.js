@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import Share from './Share';
@@ -38,12 +37,6 @@ describe('<Share>', () => {
 
   it('when {onPress}', () => {
     // @TODO: Test <Share /> {onPress}
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Share />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

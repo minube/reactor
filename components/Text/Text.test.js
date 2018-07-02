@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -80,12 +79,6 @@ describe('<Text>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Hello World</Text>).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Text />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

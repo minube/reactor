@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import Video from './Video';
@@ -40,12 +39,6 @@ describe('<Video>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Video style={{ width: 640, height: 400,}} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Video />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

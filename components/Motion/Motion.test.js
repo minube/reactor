@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 import { View } from 'react-native';
 
@@ -44,12 +43,6 @@ describe('<Motion>', () => {
   it('when {children}', () => {
     const tree = renderer.create(<Motion property="left"><View /></Motion>).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Motion />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

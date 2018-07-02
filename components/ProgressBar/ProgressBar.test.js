@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -29,12 +28,6 @@ describe('<ProgressBar>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<ProgressBar style={{ borderRadius: THEME.OFFSET / 2, height: THEME.OFFSET }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<ProgressBar />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

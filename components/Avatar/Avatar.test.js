@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import Avatar from './Avatar';
@@ -31,12 +30,6 @@ describe('<Avatar>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Avatar style={STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Avatar />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

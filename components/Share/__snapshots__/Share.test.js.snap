@@ -65,11 +65,7 @@ exports[`<Share> renders 1`] = `
     >
       <Image
         resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/share.png",
-          }
-        }
+        source={1}
         style={
           Array [
             Object {

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { Text } from 'react-native';
 import TestRenderer from 'react-test-renderer';
 
@@ -41,11 +40,5 @@ describe('<Viewport>', () => {
   it('when {visible}', () => {
     const renderer = TestRenderer.create(<Viewport visible />).toJSON();
     expect(renderer).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Viewport />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });

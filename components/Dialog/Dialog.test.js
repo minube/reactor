@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import Dialog from './Dialog';
@@ -52,13 +51,6 @@ describe('<Dialog>', () => {
   it('when {highlight}', () => {
     const tree = renderer.create(<Dialog title="Hello world" onClose={EVENT} highlight />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Dialog />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

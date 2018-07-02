@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -39,12 +38,6 @@ describe('<Price>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Price style={{ fontSize: THEME.FONT.SIZE.SMALL, color: 'orange' }} value={19.1234} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Price />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

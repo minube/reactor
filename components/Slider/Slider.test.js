@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import PictureCard from '../PictureCard';
@@ -57,12 +56,6 @@ describe('<Slider>', () => {
   it('when {style}', () => {
     const tree = renderer.create(<Slider dataSource={dataSource} item={Item} style={{ backgroundColor: 'orange', padding: 20 }} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Slider />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 

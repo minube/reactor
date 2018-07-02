@@ -1224,11 +1224,7 @@ exports[`<Slider> when {navigation} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={
-            Object {
-              "testUri": "../../../components/Icon/assets/left.png",
-            }
-          }
+          source={1}
           style={
             Array [
               Object {
@@ -1326,11 +1322,7 @@ exports[`<Slider> when {navigation} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={
-            Object {
-              "testUri": "../../../components/Icon/assets/right.png",
-            }
-          }
+          source={1}
           style={
             Array [
               Object {

@@ -359,11 +359,7 @@ exports[`<Dialog> when {highlight} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/close.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -552,11 +548,7 @@ exports[`<Dialog> when {onClose} 1`] = `
         >
           <Image
             resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/close_dark.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {

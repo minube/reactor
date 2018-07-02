@@ -1904,7 +1904,7 @@ babel-helpers@^6.24.1:
     babel-runtime "^6.22.0"
     babel-template "^6.24.1"
 
-babel-jest@^22.4.3, babel-jest@^22.4.4:
+babel-jest@^22.4.1, babel-jest@^22.4.4:
   version "22.4.4"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-22.4.4.tgz#977259240420e227444ebe49e226a61e49ea659d"
   dependencies:
@@ -2037,9 +2037,9 @@ babel-plugin-react-docgen@^2.0.0-rc.0:
     lodash "^4.17.0"
     react-docgen "^3.0.0-beta11"
 
-babel-plugin-react-native-web@^0.7.0:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.7.2.tgz#adbe5a080d27773e03d10261094485048f34d2cd"
+babel-plugin-react-native-web@^0.8.0:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.8.6.tgz#42dbc1f3956689793216f35dc2d5e8b9c0a4c82c"
 
 babel-plugin-react-transform@2.0.2:
   version "2.0.2"
@@ -6968,6 +6968,15 @@ jest-environment-node@^22.4.1:
     jest-mock "^22.4.3"
     jest-util "^22.4.3"
 
+jest-expo@~28.0.0:
+  version "28.0.0"
+  resolved "https://registry.yarnpkg.com/jest-expo/-/jest-expo-28.0.0.tgz#f7e5d55bc96381d6cae0e91f94df79d58b3897f8"
+  dependencies:
+    babel-jest "^22.4.1"
+    jest "^22.4.2"
+    json5 "^0.5.1"
+    react-test-renderer "^16.3.1"
+
 jest-fetch-mock@^1.5.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/jest-fetch-mock/-/jest-fetch-mock-1.6.0.tgz#2d1c0575ea141d8b1b5aa883ae6bb7247df8e3be"
@@ -7154,7 +7163,7 @@ jest-worker@^22.2.2, jest-worker@^22.4.3:
   dependencies:
     merge-stream "^1.0.1"
 
-jest@^22.4.3:
+jest@^22.4.2, jest@^22.4.3:
   version "22.4.4"
   resolved "https://registry.yarnpkg.com/jest/-/jest-22.4.4.tgz#ffb36c9654b339a13e10b3d4b338eb3e9d49f6eb"
   dependencies:
@@ -9892,9 +9901,9 @@ react-native-vector-icons@4.5.0:
     prop-types "^15.5.10"
     yargs "^8.0.2"
 
-react-native-web@0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.8.3.tgz#332b32c5bafd885c98e6e69f75d4e99e2e323664"
+react-native-web@^0.8.0:
+  version "0.8.6"
+  resolved "https://registry.yarnpkg.com/react-native-web/-/react-native-web-0.8.6.tgz#86242909829b971e44d22b21a2d2cf3815cc0bf9"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"

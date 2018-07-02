@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
@@ -39,12 +38,6 @@ describe('<Breadcrumbs>', () => {
     };
     const tree = renderer.create(<Breadcrumbs dataSource={dataSource} style={style} />).toJSON();
     expect(tree).toMatchSnapshot();
-  });
-
-  it('renders in DOM environment', () => {
-    const div = document.createElement('div');
-    ReactDOM.render(<Breadcrumbs />, div);
-    ReactDOM.unmountComponentAtNode(div);
   });
 });
 
