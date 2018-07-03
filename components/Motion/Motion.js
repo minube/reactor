@@ -1,4 +1,6 @@
-import { arrayOf, bool, node, shape, string, number } from 'prop-types';
+import {
+  arrayOf, bool, node, shape, string, number,
+} from 'prop-types';
 import { createElement, PureComponent } from 'react';
 import { Animated, Platform, View as ViewNative } from 'react-native';
 
@@ -41,18 +43,15 @@ class Motion extends PureComponent {
     this.state = { ...state };
   }
 
-  componentWillReceiveProps({
-    delay = this.props.delay,
-    disabled = this.props.disabled,
-    duration = this.props.duration,
-    timeline = this.props.timeline,
-    type = this.props.type,
-    useNativeDriver = this.props.useNativeDriver,
-  }) {
+  componentWillReceiveProps({ disabled = this.props.disabled, useNativeDriver = this.props.useNativeDriver, ...nextProps }) { // eslint-disable-line
     if (disabled || useNativeDriver) return;
+    const { props, state = {} } = this;
+    const {
+      delay = props.delay, duration = props.duration, timeline = props.timeline, type = props.type,
+    } = nextProps;
 
-    const motions = timeline.map(key =>
-      Animated[type](this.state[key.property], { toValue: key.value, delay, duration }).start());
+    const motions = timeline.map(key => (
+      Animated[type](state[key.property], { toValue: key.value, delay, duration }).start()));
     Animated.parallel(motions).start();
   }
 

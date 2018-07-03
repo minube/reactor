@@ -10,7 +10,11 @@ const { COLOR } = THEME;
 
 const Switch = ({ label, onChange, ...inherit }) => (
   <View style={[styles.container, inherit.style]}>
-    { label && <Text small lighten style={styles.label}>{label}</Text> }
+    { label && (
+    <Text small lighten style={styles.label}>
+      {label}
+    </Text>
+    ) }
     <SwitchNative
       {...inherit}
       activeThumbColor={COLOR.PRIMARY}

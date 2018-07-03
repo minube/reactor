@@ -1,4 +1,6 @@
-import { bool, func, node, string } from 'prop-types';
+import {
+  bool, func, node, string,
+} from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -34,7 +36,8 @@ const PictureCard = ({
       />
       <View pointerEvents="none" style={styles.content}>
         <View>
-          { title &&
+          { title
+            && (
             <Text
               bold
               large
@@ -45,8 +48,13 @@ const PictureCard = ({
               ]}
             >
               {title}
-            </Text> }
-          { caption && <Text tiny style={styles.text}>{caption}</Text> }
+            </Text>
+            ) }
+          { caption && (
+          <Text tiny style={styles.text}>
+            {caption}
+          </Text>
+          ) }
         </View>
         { children }
       </View>

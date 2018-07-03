@@ -62,20 +62,20 @@ class Layout {
     if (!Layout.instance) {
       const { height = 720, width = 1280 } = Dimensions.get('window');
       Layout.instance = this;
-      this._height = height;
-      this._width = width;
-      this._style = calc(width);
+      this.height = height;
+      this.width = width;
+      this.style = calc(width);
     }
     return Layout.instance;
   }
 
   get STYLE() {
-    return this._style;
+    return this.style;
   }
 
   get VIEWPORT() {
-    const H = this._height;
-    const W = this._width;
+    const H = this.height;
+    const W = this.width;
     const PORTRAIT = H > W;
 
     return {
@@ -91,9 +91,9 @@ class Layout {
   }
 
   calc({ height = 720, width = 1280 } = Dimensions.get('window')) {
-    this._height = height;
-    this._width = width;
-    this._style = calc(width);
+    this.height = height;
+    this.width = width;
+    this.style = calc(width);
   }
 }
 

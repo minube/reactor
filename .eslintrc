@@ -1,6 +1,7 @@
 {
-  "parser": "babel-eslint",
   "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": { "jest": true },
   "globals": {
     "document": true,
     "fetch": true,
@@ -9,8 +10,6 @@
   },
   "rules": {
     "max-len": [1, 120, { "tabWidth": 2, "ignoreComments": true }],
-    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
-    "no-underscore-dangle": ["error", { "allowAfterThis": true }],
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": "off",
   },
 }

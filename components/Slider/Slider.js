@@ -1,4 +1,6 @@
-import { arrayOf, bool, func, number, shape, string } from 'prop-types';
+import {
+  arrayOf, bool, func, number, shape, string,
+} from 'prop-types';
 import React, { Component } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
@@ -60,7 +62,8 @@ class Slider extends Component {
   }
 
   shouldComponentUpdate({ dataSource = [], itemWidth }) {
-    return dataSource.length !== this.props.dataSource.length || itemWidth !== this.props.itemWidth;
+    const { props } = this;
+    return dataSource.length !== props.dataSource.length || itemWidth !== props.itemWidth;
   }
 
   _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
@@ -100,20 +103,34 @@ class Slider extends Component {
     return (
       <View style={styles.container}>
 
-        { (title || caption) &&
+        { (title || caption)
+          && (
           <View style={styles.header}>
-            { title && <Text bold large style={styles.title}>{title}</Text> }
-            { caption && <Text small style={styles.caption}>{caption}</Text> }
-          </View> }
+            { title && (
+            <Text bold large style={styles.title}>
+              {title}
+            </Text>
+            ) }
+            { caption && (
+            <Text small style={styles.caption}>
+              {caption}
+            </Text>
+            ) }
+          </View>
+          ) }
 
-        { navigation &&
-          <View style={[styles.navigation, styles.previous]} >
+        { navigation
+          && (
+          <View style={[styles.navigation, styles.previous]}>
             <Button icon="left" onPress={_onButton} small />
-          </View> }
-        { navigation &&
-          <View style={[styles.navigation, styles.next]} >
+          </View>
+          ) }
+        { navigation
+          && (
+          <View style={[styles.navigation, styles.next]}>
             <Button icon="right" onPress={() => _onButton(NEXT)} small />
-          </View> }
+          </View>
+          ) }
 
         <ScrollView
           contentContainerStyle={inherit.style}

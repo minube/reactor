@@ -14,13 +14,27 @@ const Price = ({
   ...inherit
 }) => (
   <View style={styles.container}>
-    { caption && <Text large style={[styles.minimize, inherit.style]}>{caption}</Text> }
+    { caption && (
+    <Text large style={[styles.minimize, inherit.style]}>
+      {caption}
+    </Text>
+    ) }
 
-    { LEFT_SYMBOLS.includes(symbol) &&
-      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>{symbol}</Text> }
-    <Text large={large} bold {...inherit} style={inherit.style}>{format(value, fixed)}</Text>
-    { !LEFT_SYMBOLS.includes(symbol) &&
-      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>{symbol}</Text> }
+    { LEFT_SYMBOLS.includes(symbol)
+      && (
+      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>
+        {symbol}
+      </Text>
+      ) }
+    <Text large={large} bold {...inherit} style={inherit.style}>
+      {format(value, fixed)}
+    </Text>
+    { !LEFT_SYMBOLS.includes(symbol)
+      && (
+      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>
+        {symbol}
+      </Text>
+      ) }
   </View>
 );
 

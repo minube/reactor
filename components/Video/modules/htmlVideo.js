@@ -10,8 +10,7 @@ export default ({
   const css = 'position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;';
 
   return !embed
-    ?
-    `<video
+    ? `<video
       ${autoPlay ? 'autoplay' : ''} ${controls ? 'controls' : ''} ${loop ? 'loop' : ''} ${muted ? 'muted' : ''}
       height="100%"
       playsinline
@@ -21,8 +20,7 @@ export default ({
       webkit-playsinline
       width="100%"
     />`
-    :
-    `<iframe
+    : `<iframe
       allowtransparency="true"
       frameBorder="0"
       src="${embed}&autoplay=${autoPlay ? 1 : 0}"

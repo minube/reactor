@@ -13,12 +13,18 @@ const Rating = ({
       <Text {...inherit} primary color={color} key={rate} style={[styles.rate, inherit.style]}>
         {rate < Math.floor(value) ? '★' : '☆'}
       </Text>)) }
-    { value > 0 && showValue &&
-      <Text bold lighten tiny color={textColor} style={inherit.style}>{` ${value}/5`}</Text> }
-    { count > 0 &&
+    { value > 0 && showValue
+      && (
+      <Text bold lighten tiny color={textColor} style={inherit.style}>
+        {` ${value}/5`}
+      </Text>
+      ) }
+    { count > 0
+      && (
       <Text lighten tiny color={textColor} style={inherit.style}>
         {` (${`${count} ${caption}`.trim()})`}
-      </Text> }
+      </Text>
+      ) }
   </View>
 );
 

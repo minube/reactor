@@ -1,9 +1,11 @@
-import { func, node, shape, string } from 'prop-types';
+import {
+  func, node, shape, string,
+} from 'prop-types';
 import React from 'react';
 import { TouchableWithoutFeedback, View } from 'react-native';
 
 import { LAYOUT, SHAPE } from '../../common';
-import { PictureCard, Rating, Text } from '../';
+import { PictureCard, Rating, Text } from '..';
 import styles from './ListingCard.style';
 
 const ListingCard = ({
@@ -14,10 +16,22 @@ const ListingCard = ({
       <View>
         <PictureCard {...inherit} style={[]} />
         <View style={styles.content}>
-          { category && <Text lighten tiny>{category}</Text> }
-          { title && <Text bold small numberOfLines={1} ellipsizeMode="tail" style={styles.title}>{title}</Text> }
+          { category && (
+          <Text lighten tiny>
+            {category}
+          </Text>
+          ) }
+          { title && (
+          <Text bold small numberOfLines={1} ellipsizeMode="tail" style={styles.title}>
+            {title}
+          </Text>
+          ) }
           { rating.value && <Rating {...rating} style={styles.rating} /> }
-          { description && <Text lighten tiny numberOfLines={3} ellipsizeMode="tail">{description}</Text> }
+          { description && (
+          <Text lighten tiny numberOfLines={3} ellipsizeMode="tail">
+            {description}
+          </Text>
+          ) }
           { children }
         </View>
       </View>

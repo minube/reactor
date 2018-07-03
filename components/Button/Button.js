@@ -1,9 +1,13 @@
-import { bool, func, node, string } from 'prop-types';
+import {
+  bool, func, node, string,
+} from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import { Activity, Icon, Text, Touchable } from '../';
+import {
+  Activity, Icon, Text, Touchable,
+} from '..';
 import styles from './Button.style';
 
 const { COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
@@ -41,7 +45,8 @@ const Button = ({
     >
       { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
       { icon && !activity && <Icon value={icon} /> }
-      { title &&
+      { title
+        && (
         <Text
           semibold
           color={isSolid ? WHITE : color || TEXT_LIGHTEN}
@@ -53,7 +58,8 @@ const Button = ({
           ]}
         >
           {title}
-        </Text> }
+        </Text>
+        ) }
       { children }
     </View>
   </Touchable>

@@ -85,22 +85,28 @@ class Share extends PureComponent {
     return (
       <View pointerEvents="auto">
         <Button {...inherit} icon="share" onPress={_onPress} />
-        { IS_WEB &&
+        { IS_WEB
+          && (
           <Dialog
             title={inherit.title}
             visible={visible}
             onClose={_onCancel}
             style={[styles.dialog, LAYOUT.STYLE.SHARE.DIALOG]}
           >
-            <Text lighten small>{caption}</Text>
+            <Text lighten small>
+              {caption}
+            </Text>
             <View style={styles.options}>
               { OPTIONS.map(({ title, icon, uri }) => (
                 <Touchable key={title} onPress={() => _onOption(uri)} style={styles.option}>
                   <Icon value={icon} style={styles.icon} />
-                  <Text color={accentColor}>{title}</Text>
+                  <Text color={accentColor}>
+                    {title}
+                  </Text>
                 </Touchable>))}
             </View>
-          </Dialog> }
+          </Dialog>
+          ) }
       </View>
     );
   }

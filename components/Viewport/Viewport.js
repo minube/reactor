@@ -1,4 +1,6 @@
-import { array, bool, func, node, number, object, oneOfType } from 'prop-types';
+import {
+  array, bool, func, node, number, object, oneOfType,
+} from 'prop-types';
 import React, { createElement, PureComponent } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
@@ -57,13 +59,13 @@ class Viewport extends PureComponent {
       >
         <SafeAreaView onLayout={LAYOUT.VIEWPORT.LANDSCAPE ? _onLayout : undefined} style={styles.safeArea}>
           { createElement(
-              scroll ? ScrollView : View,
-              {
-                ...(scroll && onScroll ? { onScroll: _onScroll, scrollEventThrottle: 16 } : {}),
-                style: [styles.content, styleContent],
-              },
-              children,
-            )}
+            scroll ? ScrollView : View,
+            {
+              ...(scroll && onScroll ? { onScroll: _onScroll, scrollEventThrottle: 16 } : {}),
+              style: [styles.content, styleContent],
+            },
+            children,
+          )}
         </SafeAreaView>
       </Motion>
     );

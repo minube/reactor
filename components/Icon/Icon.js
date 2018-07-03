@@ -1,4 +1,6 @@
-import { bool, number, oneOfType, string } from 'prop-types';
+import {
+  bool, number, oneOfType, string,
+} from 'prop-types';
 import React from 'react';
 import { Platform, StyleSheet, Image } from 'react-native';
 

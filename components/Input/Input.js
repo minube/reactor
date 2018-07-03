@@ -1,4 +1,6 @@
-import { bool, func, number, string } from 'prop-types';
+import {
+  bool, func, number, string,
+} from 'prop-types';
 import React, { Component } from 'react';
 import { TextInput, View } from 'react-native';
 
@@ -47,8 +49,12 @@ class Input extends Component {
 
     return (
       <View style={styles.container}>
-        { label &&
-          <Text tiny lighten style={styles.label}>{label}</Text> }
+        { label
+          && (
+          <Text tiny lighten style={styles.label}>
+            {label}
+          </Text>
+          ) }
         <TextInput
           {...inherit}
           autoCorrect={false}
@@ -71,8 +77,12 @@ class Input extends Component {
             inherit.style,
           ]}
         />
-        { !disabled && (error || hint) &&
-          <Text color={error ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>{error || hint}</Text> }
+        { !disabled && (error || hint)
+          && (
+          <Text color={error ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>
+            {error || hint}
+          </Text>
+          ) }
       </View>
     );
   }

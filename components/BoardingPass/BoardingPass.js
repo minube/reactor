@@ -1,4 +1,6 @@
-import { bool, func, node, shape, string } from 'prop-types';
+import {
+  bool, func, node, shape, string,
+} from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
@@ -37,14 +39,14 @@ class BoardingPass extends PureComponent {
   };
 
   componentDidMount() {
-    this._fetch(this.props);
+    this.doFetch(this.props);
   }
 
   componentWillReceiveProps({ reload, ...props }) {
-    if (reload) this._fetch(props);
+    if (reload) this.doFetch(props);
   }
 
-  _fetch = ({
+  doFetch = ({
     endpoint, headers, method, onError, onResponse, parameters, secure, service,
   }) => {
     if (!service) return;

@@ -1,4 +1,6 @@
-import { array, bool, func, node, number, object, oneOfType, string } from 'prop-types';
+import {
+  array, bool, func, node, number, object, oneOfType, string,
+} from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
@@ -74,15 +76,21 @@ class Dialog extends PureComponent {
           timeline={[{ property: 'translateY', value: visible ? 0 : H }]}
         >
           <View style={styles.content}>
-            { onClose &&
+            { onClose
+              && (
               <Button
                 contained={false}
                 icon={highlight ? 'close' : 'closeDark'}
                 onPress={onClose}
                 style={styles.button}
-              /> }
-            { title &&
-              <Text bold style={styles.title} color={highlight ? WHITE : undefined}>{title}</Text> }
+              />
+              ) }
+            { title
+              && (
+              <Text bold style={styles.title} color={highlight ? WHITE : undefined}>
+                {title}
+              </Text>
+              ) }
             <ScrollView onScroll={_onScroll} style={[styles.children, scroll && styles.scroll]}>
               {children}
             </ScrollView>

@@ -1,4 +1,6 @@
-import { array, number, object, oneOfType, string } from 'prop-types';
+import {
+  array, number, object, oneOfType, string,
+} from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -13,11 +15,14 @@ const Markdown = ({
 
   return (
     sentences.length <= 1
-      ?
+      ? (
         <View style={styleContainer}>
-          <Text {...inherit}>{children}</Text>
+          <Text {...inherit}>
+            {children}
+          </Text>
         </View>
-      :
+      )
+      : (
         <View style={[style.container, styleContainer]}>
           { sentences.map(({ value, type }, index) => {
             const key = `${type}${index}`;
@@ -28,6 +33,7 @@ const Markdown = ({
             );
           })}
         </View>
+      )
   );
 };
 

@@ -1,4 +1,6 @@
-import { arrayOf, bool, func, shape, string } from 'prop-types';
+import {
+  arrayOf, bool, func, shape, string,
+} from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -29,16 +31,22 @@ const Heading = ({
       { rating.value && <Rating {...rating} textColor={color} /> }
     </View>
     <View style={column ? styles.column : styles.row}>
-      { breadcrumbs.length > 0 &&
-        <Breadcrumbs color={color || COLOR.TEXT_LIGHTEN} dataSource={breadcrumbs} onPress={onBreadcrumb} /> }
-      { total &&
+      { breadcrumbs.length > 0
+        && <Breadcrumbs color={color || COLOR.TEXT_LIGHTEN} dataSource={breadcrumbs} onPress={onBreadcrumb} /> }
+      { total
+        && (
         <View style={column ? styles.row : styles.contributors}>
-          <Text bold color={color} tiny>{total}</Text>
-          <Text color={color} tiny>{` ${label}`}</Text>
+          <Text bold color={color} tiny>
+            {total}
+          </Text>
+          <Text color={color} tiny>
+            {` ${label}`}
+          </Text>
           <View style={[styles.avatars]}>
             { preview.map(({ id, image }) => <Avatar key={id} small image={image} style={styles.avatar} />)}
           </View>
-        </View> }
+        </View>
+        ) }
     </View>
   </View>
 );

@@ -1,4 +1,6 @@
-import { bool, func, number, string } from 'prop-types';
+import {
+  bool, func, number, string,
+} from 'prop-types';
 import React, { Component } from 'react';
 import { Platform, View } from 'react-native';
 
@@ -16,10 +18,10 @@ class Video extends Component {
   }
 
   shouldComponentUpdate({ autoPlay, source }, { ready }) {
-    const { el = {} } = this;
+    const { el = {}, props, state } = this;
 
     if (el.play && el.pause) el[autoPlay ? 'play' : 'pause']();
-    return (source !== this.props.source || ready !== this.state.ready);
+    return (source !== props.source || ready !== state.ready);
   }
 
   _onLoad = () => {
@@ -37,7 +39,7 @@ class Video extends Component {
       },
       state: { ready },
     } = this;
-    const embed = embedUrl(this.props.source);
+    const embed = embedUrl(source);
     const dimensions = {
       height, width, maxHeight: height, maxWidth: width,
     };
@@ -49,7 +51,8 @@ class Video extends Component {
       >
         { isWeb && !ready && <Activity size="large" style={styles.activity} /> }
 
-        { isWeb && !embed &&
+        { isWeb && !embed
+          && (
           <video
             {...inherit}
             ref={(el) => { this.el = el; }}
@@ -61,9 +64,11 @@ class Video extends Component {
           >
             <source src={source} />
             <track kind="captions" />
-          </video> }
+          </video>
+          ) }
 
-        { isWeb && embed &&
+        { isWeb && embed
+          && (
           <iframe
             allowFullScreen
             key={embed}
@@ -73,9 +78,11 @@ class Video extends Component {
             height="100%"
             src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
             title={embed}
-          /> }
+          />
+          ) }
 
-        { !isWeb &&
+        { !isWeb
+          && (
           <WebView
             allowsInlineMediaPlayback
             mediaPlaybackRequiresUserAction={false}
@@ -84,7 +91,8 @@ class Video extends Component {
             onLoadStart={onLoad}
             source={{ html: htmlVideo(this.props) }}
             style={[styles.webView, dimensions]}
-          /> }
+          />
+          ) }
       </View>
     );
   }

@@ -16,7 +16,7 @@ import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
-import LayoutView, { LayoutStyle } from './Layout';
+import LayoutView from './Layout';
 import Share from './Share';
 import Slider from './Slider';
 import Switch from './Switch';
@@ -43,7 +43,6 @@ export {
   PictureCard,
   Price,
   ProgressBar,
-  LayoutStyle,
   LayoutView,
   Rating,
   Share,

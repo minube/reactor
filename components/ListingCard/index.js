@@ -1,1 +1,1 @@
-export { default } from './ListingCard';
+export { default } from './ListingCard'; // eslint-disable-line

@@ -1,4 +1,6 @@
-import { func, node, shape, string } from 'prop-types';
+import {
+  func, node, shape, string,
+} from 'prop-types';
 import React from 'react';
 
 import { SHAPE } from '../common';

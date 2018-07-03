@@ -1,4 +1,6 @@
-import { arrayOf, func, shape, string } from 'prop-types';
+import {
+  arrayOf, func, shape, string,
+} from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 

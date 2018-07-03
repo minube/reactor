@@ -25,12 +25,12 @@ class LayoutView extends PureComponent {
 
   _onLayout = () => {
     setTimeout(() => {
+      const { state } = this;
       LAYOUT.calc();
       const key = getKey();
 
-      if (this.state.key !== key) {
+      if (state.key !== key) {
         const { VIEWPORT } = LAYOUT;
-
         const { props: { onLayout } } = this;
 
         onLayout(VIEWPORT);
