@@ -60,7 +60,7 @@ const calc = (width) => {
 class Layout {
   constructor() {
     if (!Layout.instance) {
-      const { height = 720, width = 1280 } = Dimensions.get('window');
+      const { height, width } = Dimensions.get('window');
       Layout.instance = this;
       this.height = height;
       this.width = width;
@@ -90,7 +90,7 @@ class Layout {
     };
   }
 
-  calc({ height = 720, width = 1280 } = Dimensions.get('window')) {
+  calc({ height = 640, width = 360 } = Dimensions.get('window')) {
     this.height = height;
     this.width = width;
     this.style = calc(width);
