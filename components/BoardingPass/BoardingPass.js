@@ -9,6 +9,7 @@ import fetch from './modules/fetch';
 class BoardingPass extends PureComponent {
   static propTypes = {
     children: node.isRequired,
+    enabled: bool,
     endpoint: string,
     headers: shape({}),
     loading: node,
@@ -22,6 +23,7 @@ class BoardingPass extends PureComponent {
   };
 
   static defaultProps = {
+    enabled: true,
     endpoint: undefined,
     headers: {},
     loading: <View />,
@@ -47,9 +49,9 @@ class BoardingPass extends PureComponent {
   }
 
   doFetch = ({
-    endpoint, headers, method, onError, onResponse, parameters, secure, service,
+    enabled, endpoint, headers, method, onError, onResponse, parameters, secure, service,
   }) => {
-    if (!service) return;
+    if (!enabled || !service) return;
     this.setState({ busy: true });
     fetch({
       endpoint, headers, method, secure, service, ...parameters,
@@ -60,9 +62,9 @@ class BoardingPass extends PureComponent {
   }
 
   render() {
-    const { props: { children, loading }, state: { busy } } = this;
+    const { props: { children, enabled, loading }, state: { busy } } = this;
 
-    return busy ? loading : children;
+    return busy && enabled ? loading : children;
   }
 }
 
