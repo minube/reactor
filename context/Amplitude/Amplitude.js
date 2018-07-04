@@ -2,7 +2,7 @@ import { node, shape, string } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { Platform } from 'react-native';
 
-import { SHAPE } from '../../common';
+import SHAPE from '../../common/shape';
 import { queryString } from './modules';
 import PKG from '../../package.json';
 

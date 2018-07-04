@@ -31,6 +31,8 @@ import Text from './components/Text';
 import Touchable from './components/Touchable';
 import Video from './components/Video';
 import Viewport from './components/Viewport';
+// -- Context
+import { Consumer, Provider } from './context';
 
 export {
   // Components
@@ -68,4 +70,7 @@ export {
   SHAPE,
   STYLE,
   THEME,
+  // Context
+  Consumer,
+  Provider,
 };

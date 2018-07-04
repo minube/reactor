@@ -3,7 +3,7 @@ import {
 } from 'prop-types';
 import React from 'react';
 
-import { SHAPE } from '../common';
+import SHAPE from '../common/shape';
 import { ConsumerAmplitude, ProviderAmplitude } from './Amplitude';
 import { ConsumerL10N, ProviderL10N } from './L10N';
 
