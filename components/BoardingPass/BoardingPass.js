@@ -68,4 +68,6 @@ class BoardingPass extends PureComponent {
   }
 }
 
+export { fetch };
+
 export default BoardingPass;

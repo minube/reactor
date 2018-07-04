@@ -1,6 +1,6 @@
 import Activity from './Activity';
 import Avatar from './Avatar';
-import BoardingPass from './BoardingPass';
+import BoardingPass, { fetch } from './BoardingPass';
 import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Dialog from './Dialog';
@@ -29,6 +29,7 @@ export {
   Activity,
   Avatar,
   BoardingPass,
+  fetch,
   Breadcrumbs,
   Button,
   Dialog,
