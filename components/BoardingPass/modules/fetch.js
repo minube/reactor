@@ -1,10 +1,11 @@
+import { ENV } from '../../../common';
+
+const { IS_PRODUCTION } = ENV;
 const DEFAULT_HEADERS = {
   'Content-Type': 'application/json',
   'X-Requested-With': 'XMLHttpRequest',
 };
-const ENDPOINT = process.env.NODE_ENV === 'production'
-  ? 'mapi.minube.com'
-  : 'staging.mapi.minube.com';
+const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'staging.mapi.minube.com';
 
 if (typeof global.self === 'undefined') global.self = global;
 
