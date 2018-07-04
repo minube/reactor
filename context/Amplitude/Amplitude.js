@@ -7,9 +7,7 @@ import SHAPE from '../../common/shape';
 import { queryString } from './modules';
 import PKG from '../../package.json';
 
-const { IS_PRODUCTION } = ENV;
-const IS_WEB = Platform.OS === 'web';
-const IS_NODE = IS_WEB && typeof window === 'undefined';
+const { IS_PRODUCTION, IS_WEB, IS_SERVER } = ENV;
 const ENDPOINT = 'https://api.amplitude.com/httpapi';
 const Context = createContext();
 const { Provider, Consumer: ConsumerAmplitude } = Context;
@@ -21,7 +19,7 @@ class ProviderAmplitude extends PureComponent {
     if (!IS_PRODUCTION) console.log('⚡️ProviderAmplitude.LogEvent', type, props);
 
     if (IS_WEB) {
-      if (!IS_NODE) {
+      if (!IS_SERVER) {
         const amplitude = require('amplitude-js').getInstance(); //eslint-disable-line
         amplitude.init(key);
         amplitude.logEvent(type, props);

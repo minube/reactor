@@ -2,15 +2,15 @@ import {
   array, bool, func, node, number, object, oneOfType, string,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Platform, ScrollView, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Motion from '../Motion';
 import Text from '../Text';
 import styles from './Dialog.style';
 
-const IS_WEB = Platform.OS === 'web';
+const { IS_WEB } = ENV;
 const { COLOR: { WHITE } } = THEME;
 
 class Dialog extends PureComponent {

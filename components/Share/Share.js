@@ -1,8 +1,8 @@
 import { func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { View, Platform } from 'react-native';
+import { View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Dialog from '../Dialog';
 import Icon from '../Icon';
@@ -10,8 +10,8 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles from './Share.style';
 
+const { IS_WEB } = ENV;
 const { COLOR } = THEME;
-const IS_WEB = Platform.OS === 'web';
 const shareNative = IS_WEB ? undefined : require('react-native').Share.share;
 
 const OPTIONS = [
