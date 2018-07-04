@@ -1,7 +1,7 @@
 import { Dimensions, Platform } from 'react-native';
 
 import THEME from './theme';
-import screenSize from './screenSize';
+import screenSize from './modules/screenSize';
 
 const { STYLE } = THEME;
 
