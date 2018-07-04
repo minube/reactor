@@ -2,11 +2,12 @@ import { node, shape, string } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { Platform } from 'react-native';
 
+import ENV from '../../common/environment';
 import SHAPE from '../../common/shape';
 import { queryString } from './modules';
 import PKG from '../../package.json';
 
-const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+const { IS_PRODUCTION } = ENV;
 const IS_WEB = Platform.OS === 'web';
 const IS_NODE = IS_WEB && typeof window === 'undefined';
 const ENDPOINT = 'https://api.amplitude.com/httpapi';
