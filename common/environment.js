@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-const IS_SERVER = window === 'undefined';
+const IS_SERVER = typeof window === 'undefined';
 const IS_WEB = Platform.OS === 'web';
 const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
