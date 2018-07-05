@@ -188,13 +188,16 @@ exports[`<Slider> when {dataSource} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -353,13 +356,16 @@ exports[`<Slider> when {dataSource} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -538,13 +544,16 @@ exports[`<Slider> when {itemMargin} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -703,13 +712,16 @@ exports[`<Slider> when {itemMargin} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -888,13 +900,16 @@ exports[`<Slider> when {momentum} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -1053,13 +1068,16 @@ exports[`<Slider> when {momentum} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -1453,13 +1471,16 @@ exports[`<Slider> when {steps} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -1618,13 +1639,16 @@ exports[`<Slider> when {steps} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -1808,13 +1832,16 @@ exports[`<Slider> when {style} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>
@@ -1973,13 +2000,16 @@ exports[`<Slider> when {style} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="white"
+                color="#dbdbdb"
                 hidesWhenStopped={true}
                 size="large"
                 style={
-                  Object {
-                    "position": "absolute",
-                  }
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
                 }
               />
             </View>

@@ -42,13 +42,16 @@ exports[`<Avatar> renders 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -100,13 +103,16 @@ exports[`<Avatar> when {image} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -162,13 +168,16 @@ exports[`<Avatar> when {large} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -224,13 +233,16 @@ exports[`<Avatar> when {small} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -286,13 +298,16 @@ exports[`<Avatar> when {style} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>

@@ -83,13 +83,16 @@ exports[`<PictureCard> renders 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -198,13 +201,16 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -313,13 +319,16 @@ exports[`<PictureCard> when {caption} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -468,13 +477,16 @@ exports[`<PictureCard> when {image} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -583,13 +595,16 @@ exports[`<PictureCard> when {portrait} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -702,13 +717,16 @@ exports[`<PictureCard> when {small} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -823,13 +841,16 @@ exports[`<PictureCard> when {style} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>
@@ -938,13 +959,16 @@ exports[`<PictureCard> when {title} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="white"
+        color="#dbdbdb"
         hidesWhenStopped={true}
         size="large"
         style={
-          Object {
-            "position": "absolute",
-          }
+          Array [
+            Object {
+              "position": "absolute",
+            },
+            false,
+          ]
         }
       />
     </View>

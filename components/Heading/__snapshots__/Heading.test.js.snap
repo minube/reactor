@@ -907,13 +907,16 @@ exports[`<Heading> when {column} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -974,13 +977,16 @@ exports[`<Heading> when {column} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1041,13 +1047,16 @@ exports[`<Heading> when {column} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1284,13 +1293,16 @@ exports[`<Heading> when {contributors} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1351,13 +1363,16 @@ exports[`<Heading> when {contributors} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1418,13 +1433,16 @@ exports[`<Heading> when {contributors} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>

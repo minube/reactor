@@ -229,9 +229,15 @@ exports[`<Button> when {activity} 1`] = `
   >
     <ActivityIndicator
       animating={true}
-      color="#ffffff"
+      color="#dbdbdb"
       hidesWhenStopped={true}
       size="small"
+      style={
+        Array [
+          undefined,
+          false,
+        ]
+      }
       type="small"
     />
     <Text

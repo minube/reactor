@@ -113,13 +113,16 @@ exports[`<ListingCard> renders 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -267,13 +270,16 @@ exports[`<ListingCard> when {category} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -460,13 +466,16 @@ exports[`<ListingCard> when {children} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -721,13 +730,16 @@ exports[`<ListingCard> when {description} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -917,13 +929,16 @@ exports[`<ListingCard> when {image} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1071,13 +1086,16 @@ exports[`<ListingCard> when {rating} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1474,13 +1492,16 @@ exports[`<ListingCard> when {style} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>
@@ -1628,13 +1649,16 @@ exports[`<ListingCard> when {title} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="white"
+            color="#dbdbdb"
             hidesWhenStopped={true}
             size="large"
             style={
-              Object {
-                "position": "absolute",
-              }
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
             }
           />
         </View>

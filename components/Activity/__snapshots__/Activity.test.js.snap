@@ -6,15 +6,27 @@ exports[`<Activity> renders 1`] = `
   color="#dbdbdb"
   hidesWhenStopped={true}
   size="small"
+  style={
+    Array [
+      undefined,
+      false,
+    ]
+  }
 />
 `;
 
 exports[`<Activity> when {color} 1`] = `
 <ActivityIndicator
   animating={true}
-  color="#f00"
+  color="#dbdbdb"
   hidesWhenStopped={true}
   size="small"
+  style={
+    Array [
+      undefined,
+      false,
+    ]
+  }
 />
 `;
 
@@ -24,5 +36,11 @@ exports[`<Activity> when {size} 1`] = `
   color="#dbdbdb"
   hidesWhenStopped={true}
   size="large"
+  style={
+    Array [
+      undefined,
+      false,
+    ]
+  }
 />
 `;

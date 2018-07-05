@@ -20,13 +20,16 @@ exports[`<Image> renders 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -53,13 +56,16 @@ exports[`<Image> when {color} (only Native) 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -86,13 +92,16 @@ exports[`<Image> when {invert} (only Web) 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -122,13 +131,16 @@ exports[`<Image> when {ratio} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -158,13 +170,16 @@ exports[`<Image> when {responsive} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -191,13 +206,16 @@ exports[`<Image> when {size} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size={48}
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -227,13 +245,16 @@ exports[`<Image> when {source} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
@@ -266,13 +287,16 @@ exports[`<Image> when {style} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="white"
+    color="#dbdbdb"
     hidesWhenStopped={true}
     size="large"
     style={
-      Object {
-        "position": "absolute",
-      }
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
     }
   />
 </View>
