@@ -48,7 +48,7 @@ class Input extends Component {
     } = this;
 
     return (
-      <View style={styles.container}>
+      <View style={[inherit.styleContainer, styles.container]}>
         { label
           && (
           <Text tiny lighten style={styles.label}>

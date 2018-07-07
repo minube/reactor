@@ -3,10 +3,13 @@
 exports[`<Input> renders 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
@@ -50,10 +53,13 @@ exports[`<Input> renders 1`] = `
 exports[`<Input> when {disabled} 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
@@ -100,10 +106,13 @@ exports[`<Input> when {disabled} 1`] = `
 exports[`<Input> when {error} 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
@@ -190,10 +199,13 @@ exports[`<Input> when {error} 1`] = `
 exports[`<Input> when {hint} 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
@@ -277,10 +289,13 @@ exports[`<Input> when {hint} 1`] = `
 exports[`<Input> when {keyboard} 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
@@ -324,10 +339,13 @@ exports[`<Input> when {keyboard} 1`] = `
 exports[`<Input> when {label} 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <Text
@@ -411,10 +429,13 @@ exports[`<Input> when {label} 1`] = `
 exports[`<Input> when {lines} 1`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
@@ -458,10 +479,13 @@ exports[`<Input> when {lines} 1`] = `
 exports[`<Input> when {lines} 2`] = `
 <View
   style={
-    Object {
-      "marginBottom": 16,
-      "minHeight": undefined,
-    }
+    Array [
+      undefined,
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+    ]
   }
 >
   <TextInput
