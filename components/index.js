@@ -8,6 +8,7 @@ import Heading from './Heading';
 import Icon from './Icon';
 import Image from './Image';
 import Input from './Input';
+import InputPicker from './InputPicker';
 import Link from './Link';
 import ListingCard from './ListingCard';
 import Markdown from './Markdown';
@@ -37,6 +38,7 @@ export {
   Icon,
   Image,
   Input,
+  InputPicker,
   Link,
   ListingCard,
   Markdown,

@@ -1,0 +1,566 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputPicker> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputPicker> when {disabled} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        false,
+        Object {
+          "backgroundColor": "#f4f4f4",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          Object {
+            "color": "#cccccc",
+          },
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputPicker> when {error} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        Object {
+          "borderColor": "#ef5160",
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "color": "#ef5160",
+          "marginVertical": 2.5,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`<InputPicker> when {hint} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "marginVertical": 2.5,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+</View>
+`;
+
+exports[`<InputPicker> when {label} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "fontSize": 16,
+          "lineHeight": 20.8,
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 14.399999999999999,
+        },
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "color": "#9b9b9b",
+        },
+        false,
+        false,
+        Object {
+          "marginVertical": 2.5,
+        },
+      ]
+    }
+  >
+    Hello World
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputPicker> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      Object {
+        "backgroundColor": "orange",
+        "padding": 10,
+        "width": 256,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputPicker> when {value} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "paddingRight": 5,
+          "width": "100%",
+        },
+        false,
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "height": 38,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
