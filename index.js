@@ -15,6 +15,7 @@ import Heading from './components/Heading';
 import Icon from './components/Icon';
 import Image from './components/Image';
 import Input from './components/Input';
+import InputPicker from './components/InputPicker';
 import Link from './components/Link';
 import ListingCard from './components/ListingCard';
 import Markdown from './components/Markdown';
@@ -46,6 +47,7 @@ export {
   Icon,
   Image,
   Input,
+  InputPicker,
   Link,
   ListingCard,
   Markdown,
