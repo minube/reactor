@@ -27,6 +27,9 @@ storiesOf('🛠 Input', module)
   .addWithJSX('lines', () => (
     <Input lines={5} />
   ))
+  .addWithJSX('value', () => (
+    <Input value="soyjavi.com" />
+  ))
   .addWithJSX('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />
   ))
@@ -37,7 +40,7 @@ storiesOf('🛠 Input', module)
     <Input onFocus={action('Input.onFocus()')} title="Press me" />
   ))
   .addWithJSX('style', () => (
-    <Input style={{ backgroundColor: 'orange' }} />
+    <Input style={{ backgroundColor: 'orange', padding: 10, width: 256 }} />
   ))
   .addWithJSX('...inherit', () => (
     <Input placeholder="placeholder..." />

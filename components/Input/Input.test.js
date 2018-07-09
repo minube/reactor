@@ -39,8 +39,13 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {lines}', () => {
-    const tree = renderer.create(<Input style={{ backgroundColor: 'orange' }} />).toJSON();
+  it('when {value}', () => {
+    const tree = renderer.create(<Input value="soyjavi" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {style}', () => {
+    const tree = renderer.create(<Input style={{ backgroundColor: 'orange', padding: 10, width: 256 }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

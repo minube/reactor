@@ -4,11 +4,11 @@ exports[`<Input> renders 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -42,10 +42,10 @@ exports[`<Input> renders 1`] = `
         false,
         false,
         undefined,
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
 </View>
 `;
@@ -54,11 +54,11 @@ exports[`<Input> when {disabled} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -95,10 +95,10 @@ exports[`<Input> when {disabled} 1`] = `
         },
         false,
         false,
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
 </View>
 `;
@@ -107,11 +107,11 @@ exports[`<Input> when {error} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -147,10 +147,10 @@ exports[`<Input> when {error} 1`] = `
         Object {
           "borderColor": "#ef5160",
         },
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
   <Text
     accessible={true}
@@ -200,11 +200,11 @@ exports[`<Input> when {hint} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -238,10 +238,10 @@ exports[`<Input> when {hint} 1`] = `
         false,
         false,
         undefined,
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
   <Text
     accessible={true}
@@ -290,11 +290,11 @@ exports[`<Input> when {keyboard} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -328,10 +328,10 @@ exports[`<Input> when {keyboard} 1`] = `
         false,
         false,
         undefined,
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
 </View>
 `;
@@ -340,11 +340,11 @@ exports[`<Input> when {label} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -418,10 +418,10 @@ exports[`<Input> when {label} 1`] = `
         false,
         false,
         undefined,
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
 </View>
 `;
@@ -430,11 +430,11 @@ exports[`<Input> when {lines} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
       },
+      undefined,
     ]
   }
 >
@@ -468,22 +468,26 @@ exports[`<Input> when {lines} 1`] = `
         false,
         false,
         undefined,
-        undefined,
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
   />
 </View>
 `;
 
-exports[`<Input> when {lines} 2`] = `
+exports[`<Input> when {style} 1`] = `
 <View
   style={
     Array [
-      undefined,
       Object {
         "marginBottom": 16,
         "minHeight": undefined,
+      },
+      Object {
+        "backgroundColor": "orange",
+        "padding": 10,
+        "width": 256,
       },
     ]
   }
@@ -518,12 +522,60 @@ exports[`<Input> when {lines} 2`] = `
         false,
         false,
         undefined,
-        Object {
-          "backgroundColor": "orange",
-        },
       ]
     }
     underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`<Input> when {value} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+        "minHeight": undefined,
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    numberOfLines={undefined}
+    onBlur={[Function]}
+    onChangeText={undefined}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "normal",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value="soyjavi"
   />
 </View>
 `;
