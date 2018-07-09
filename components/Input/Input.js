@@ -48,7 +48,7 @@ class Input extends Component {
     } = this;
 
     return (
-      <View style={[inherit.styleContainer, styles.container]}>
+      <View style={[styles.container, inherit.style]}>
         { label
           && (
           <Text tiny lighten style={styles.label}>
@@ -57,6 +57,7 @@ class Input extends Component {
           ) }
         <TextInput
           {...inherit}
+          value={inherit.value || ''}
           autoCorrect={false}
           autoCapitalize="none"
           blurOnSubmit
@@ -74,7 +75,6 @@ class Input extends Component {
             disabled && styles.inputDisabled,
             !disabled && focus && styles.inputFocus,
             !disabled && error && styles.inputError,
-            inherit.style,
           ]}
         />
         { !disabled && (error || hint)

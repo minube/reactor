@@ -17,6 +17,7 @@ const Switch = ({ label, onChange, ...inherit }) => (
     ) }
     <SwitchNative
       {...inherit}
+      value={inherit.value || false}
       activeThumbColor={COLOR.PRIMARY}
       activeTrackColor={COLOR.BORDER}
       onValueChange={onChange}
