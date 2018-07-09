@@ -1,9 +1,11 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, number, select } from '@storybook/addon-knobs/react';
+import { text, boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Input from './Input';
+
+const STYLE = { backgroundColor: 'orange', padding: 10, width: 256 };
 
 storiesOf('🛠 Input', module)
   .addWithJSX('default', () => (
@@ -40,7 +42,7 @@ storiesOf('🛠 Input', module)
     <Input onFocus={action('Input.onFocus()')} title="Press me" />
   ))
   .addWithJSX('style', () => (
-    <Input style={{ backgroundColor: 'orange', padding: 10, width: 256 }} />
+    <Input style={STYLE} />
   ))
   .addWithJSX('...inherit', () => (
     <Input placeholder="placeholder..." />
@@ -53,6 +55,8 @@ storiesOf('🛠 Input', module)
       keyboard={select('type', ['default', 'numeric', 'email-address', 'phone-pad'], 'default')}
       label={text('label', null)}
       lines={number('lines', 1)}
+      value={text('value', null)}
+      style={object('style', STYLE)}
     />
   ))
 
