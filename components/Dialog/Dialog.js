@@ -70,8 +70,9 @@ class Dialog extends PureComponent {
           style={[
             styles.frame,
             {
-              maxHeight: PORTRAIT ? '100%' : '66%',
+              maxHeight: PORTRAIT ? '100%' : '90%',
               minWidth: PORTRAIT ? '66%' : '33%',
+              maxWidth: PORTRAIT ? '100%' : '66%',
             },
             style,
           ]}

@@ -28,6 +28,7 @@ exports[`<Dialog> renders 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -97,6 +98,7 @@ exports[`<Dialog> when {background} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -167,6 +169,7 @@ exports[`<Dialog> when {children} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -271,6 +274,7 @@ exports[`<Dialog> when {highlight} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -460,6 +464,7 @@ exports[`<Dialog> when {onClose} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -607,9 +612,10 @@ exports[`<Dialog> when {style} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "black",
+        "backgroundColor": "rgba(0,255,0,0.25)",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -660,7 +666,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
     Object {
       "alignContent": "center",
       "alignItems": "center",
-      "backgroundColor": "black",
+      "backgroundColor": "rgba(0,255,0,0.25)",
       "height": "100%",
       "justifyContent": "center",
       "left": 0,
@@ -680,6 +686,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -750,6 +757,7 @@ exports[`<Dialog> when {title} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {
@@ -858,6 +866,7 @@ exports[`<Dialog> when {visible} 1`] = `
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
         "maxHeight": "100%",
+        "maxWidth": "100%",
         "minWidth": "66%",
         "shadowColor": "#000000",
         "shadowOffset": Object {

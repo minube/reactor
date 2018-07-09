@@ -6,6 +6,8 @@ import Text from '../Text';
 
 const EVENT = () => {};
 
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
+
 describe('<Dialog>', () => {
   it('renders', () => {
     const tree = renderer.create(<Dialog />).toJSON();
@@ -33,12 +35,12 @@ describe('<Dialog>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Dialog style={{ backgroundColor: 'black' }} />).toJSON();
+    const tree = renderer.create(<Dialog style={STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {styleContainer}', () => {
-    const tree = renderer.create(<Dialog styleContainer={{ backgroundColor: 'black' }} />).toJSON();
+    const tree = renderer.create(<Dialog styleContainer={STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

@@ -6,8 +6,8 @@ import { text, boolean, object } from '@storybook/addon-knobs/react';
 import Dialog from './Dialog';
 import Text from '../Text';
 
-const STYLE = { backgroundColor: 'grey' };
-const STYLE_CONTAINER = { backgroundColor: 'orange', width: '100%', height: 320 };
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
+const STYLE_CONTAINER = { backgroundColor: 'rgba(0,255,0,0.25)', height: '50%' };
 
 storiesOf('✅ Dialog', module)
   .addWithJSX('default', () => (
@@ -52,6 +52,8 @@ storiesOf('✅ Dialog', module)
       styleContainer={object('styleContainer', STYLE_CONTAINER, 'dialog-styleContainer')}
       title={text('title', 'Title')}
       visible={boolean('visible', true)}
+      style={object('style', STYLE)}
+      styleContainer={object('styleContainer', STYLE_CONTAINER)}
     >
       <Text>Example of children</Text>
     </Dialog>
