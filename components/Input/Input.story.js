@@ -5,7 +5,7 @@ import { text, boolean, object, number, select } from '@storybook/addon-knobs/re
 
 import Input from './Input';
 
-const STYLE = { backgroundColor: 'orange', padding: 10, width: 256 };
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
 storiesOf('🛠 Input', module)
   .addWithJSX('default', () => (

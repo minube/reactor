@@ -40,7 +40,7 @@ export default StyleSheet.create({
   picker: {
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
-    height: UNIT * 3.8,
+    height: UNIT * 3.3,
     color: COLOR.TEXT,
     // @TODO: How we can set size and weight
     // fontSize: FONT.SIZE.REGULAR,

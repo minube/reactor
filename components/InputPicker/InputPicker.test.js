@@ -35,7 +35,7 @@ describe('<InputPicker>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<InputPicker style={{ backgroundColor: 'orange', padding: 10, width: 256 }} />).toJSON();
+    const tree = renderer.create(<InputPicker style={{ backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

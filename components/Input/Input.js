@@ -46,6 +46,7 @@ class Input extends Component {
       },
       state: { focus },
     } = this;
+    const hasError = error || (inherit.required && !inherit.value);
 
     return (
       <View style={[styles.container, inherit.style]}>
@@ -74,13 +75,13 @@ class Input extends Component {
             styles.input,
             disabled && styles.inputDisabled,
             !disabled && focus && styles.inputFocus,
-            !disabled && error && styles.inputError,
+            !disabled && hasError && styles.inputError,
           ]}
         />
-        { !disabled && (error || hint)
+        { !disabled && (hasError || hint)
           && (
-          <Text color={error ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>
-            {error || hint}
+          <Text color={hasError ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>
+            {error || hint || 'required'}
           </Text>
           ) }
       </View>

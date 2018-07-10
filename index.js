@@ -11,6 +11,7 @@ import BoardingPass, { fetch } from './components/BoardingPass';
 import Breadcrumbs from './components/Breadcrumbs';
 import Button from './components/Button';
 import Dialog from './components/Dialog';
+import Form from './components/Form';
 import Heading from './components/Heading';
 import Icon from './components/Icon';
 import Image from './components/Image';
@@ -43,6 +44,7 @@ export {
   Breadcrumbs,
   Button,
   Dialog,
+  Form,
   Heading,
   Icon,
   Image,

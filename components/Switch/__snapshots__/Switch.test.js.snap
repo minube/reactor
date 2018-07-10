@@ -9,6 +9,7 @@ exports[`<Switch> renders 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "height": undefined,
+        "marginBottom": 16,
       },
       undefined,
     ]
@@ -47,6 +48,7 @@ exports[`<Switch> when {disabled} 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "height": undefined,
+        "marginBottom": 16,
       },
       undefined,
     ]
@@ -86,6 +88,7 @@ exports[`<Switch> when {label} 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "height": undefined,
+        "marginBottom": 16,
       },
       undefined,
     ]
@@ -164,6 +167,7 @@ exports[`<Switch> when {style} 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "height": undefined,
+        "marginBottom": 16,
       },
       Object {
         "backgroundColor": "orange",

@@ -6,7 +6,7 @@ import { text, boolean, number, object, select } from '@storybook/addon-knobs/re
 import InputPicker from './InputPicker';
 
 const DATASOURCE = ['one', 'two', 'three', 'four', 'five'];
-const STYLE = { backgroundColor: 'orange', padding: 10, width: 256 };
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
 storiesOf('🛠 InputPicker', module)
   .addWithJSX('default', () => (

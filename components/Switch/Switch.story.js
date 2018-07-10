@@ -1,9 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean } from '@storybook/addon-knobs/react';
+import { text, boolean, object } from '@storybook/addon-knobs/react';
 
 import Switch from './Switch';
+
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ Switch', module)
   .addWithJSX('default', () => (
@@ -22,7 +24,7 @@ storiesOf('✅ Switch', module)
     <Switch onChange={action('Switch.onChange()')} value />
   ))
   .addWithJSX('style', () => (
-    <Switch style={{ backgroundColor: 'orange' }} />
+    <Switch style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Switch
@@ -30,6 +32,7 @@ storiesOf('✅ Switch', module)
       label={text('label', 'Example of label')}
       value={boolean('value', true)}
       onValueChange={action('Switch.onValueChange()')}
+      style={object('style', STYLE)}
     />
   ));
 

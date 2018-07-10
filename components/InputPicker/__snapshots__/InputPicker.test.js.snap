@@ -36,7 +36,7 @@ exports[`<InputPicker> renders 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           false,
         ]
@@ -100,7 +100,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           Object {
             "color": "#cccccc",
@@ -166,7 +166,7 @@ exports[`<InputPicker> when {error} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           false,
         ]
@@ -269,7 +269,7 @@ exports[`<InputPicker> when {hint} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           false,
         ]
@@ -411,7 +411,7 @@ exports[`<InputPicker> when {label} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           false,
         ]
@@ -446,7 +446,7 @@ exports[`<InputPicker> when {style} 1`] = `
         "minHeight": undefined,
       },
       Object {
-        "backgroundColor": "orange",
+        "backgroundColor": "rgba(0,255,0,0.25)",
         "padding": 10,
         "width": 256,
       },
@@ -477,7 +477,7 @@ exports[`<InputPicker> when {style} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           false,
         ]
@@ -539,7 +539,7 @@ exports[`<InputPicker> when {value} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "color": "#4a4a4a",
-            "height": 38,
+            "height": 33,
           },
           false,
         ]

@@ -485,7 +485,7 @@ exports[`<Input> when {style} 1`] = `
         "minHeight": undefined,
       },
       Object {
-        "backgroundColor": "orange",
+        "backgroundColor": "rgba(0,255,0,0.25)",
         "padding": 10,
         "width": 256,
       },

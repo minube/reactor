@@ -4,6 +4,7 @@ import BoardingPass, { fetch } from './BoardingPass';
 import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Dialog from './Dialog';
+import Form from './Form';
 import Heading from './Heading';
 import Icon from './Icon';
 import Image from './Image';
@@ -34,6 +35,7 @@ export {
   Breadcrumbs,
   Button,
   Dialog,
+  Form,
   Heading,
   Icon,
   Image,
