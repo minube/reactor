@@ -9,6 +9,7 @@ import Heading from './Heading';
 import Icon from './Icon';
 import Image from './Image';
 import Input from './Input';
+import InputList from './InputList';
 import InputPicker from './InputPicker';
 import Link from './Link';
 import ListingCard from './ListingCard';
@@ -40,6 +41,7 @@ export {
   Icon,
   Image,
   Input,
+  InputList,
   InputPicker,
   Link,
   ListingCard,

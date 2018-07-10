@@ -3,6 +3,7 @@ import React, { createElement, PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
 import Input from '../Input';
+import InputList from '../InputList';
 import InputPicker from '../InputPicker';
 import Text from '../Text';
 import Switch from '../Switch';
@@ -12,6 +13,7 @@ import styles from './Form.style';
 const Inputs = {
   bool: Switch,
   select: InputPicker,
+  list: InputList,
 };
 
 class Form extends PureComponent {

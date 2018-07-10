@@ -24,7 +24,8 @@ const ATTRIBUTES = {
       facebook: { style: 'inline3' },
       github: { style: 'inline3', required: true },
     }
-  }
+  },
+  languages: { type: 'list' },
 };
 
 const DATA = {
@@ -32,7 +33,8 @@ const DATA = {
   social: {
     twitter: 'soyjavi',
     facebook: '😅',
-  }
+  },
+  languages: [ 'JavaScript', 'CoffeeScript', 'C++']
 };
 
 const STORY_STYLE = { minWidth: 320, maxWidth: '50%', maxHeight: '80%' };
