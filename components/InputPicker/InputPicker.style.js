@@ -12,10 +12,6 @@ export default StyleSheet.create({
     marginBottom: OFFSET,
   },
 
-  label: {
-    marginVertical: UNIT / 4,
-  },
-
   input: {
     backgroundColor: COLOR.WHITE,
     paddingRight: UNIT * 0.5,
@@ -27,10 +23,6 @@ export default StyleSheet.create({
 
   inputError: {
     borderColor: COLOR.ERROR,
-  },
-
-  inputFocus: {
-    borderColor: COLOR.PRIMARY,
   },
 
   inputDisabled: {

@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 import { TextInput, View } from 'react-native';
 
 import { THEME } from '../../common';
-import Text from '../Text';
+import InputLabel from './InputLabel';
 import styles from './Input.style';
 
 const { COLOR } = THEME;
@@ -50,12 +50,7 @@ class Input extends Component {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { label
-          && (
-          <Text tiny lighten style={styles.label}>
-            {label}
-          </Text>
-          ) }
+        { label && <InputLabel value={label} /> }
         <TextInput
           {...inherit}
           value={inherit.value || ''}
@@ -78,15 +73,11 @@ class Input extends Component {
             !disabled && hasError && styles.inputError,
           ]}
         />
-        { !disabled && (hasError || hint)
-          && (
-          <Text color={hasError ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>
-            {error || hint || 'required'}
-          </Text>
-          ) }
+        { !disabled && (hasError || hint) && <InputLabel error={hasError} value={error || hint || 'required'} /> }
       </View>
     );
   }
 }
 
+export { InputLabel };
 export default Input;

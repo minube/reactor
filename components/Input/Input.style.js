@@ -12,10 +12,6 @@ export default StyleSheet.create({
     marginBottom: OFFSET,
   },
 
-  label: {
-    marginVertical: UNIT / 4,
-  },
-
   input: {
     backgroundColor: COLOR.WHITE,
     borderColor: COLOR.BORDER,

@@ -23,7 +23,6 @@ exports[`<InputPicker> renders 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         undefined,
         false,
       ]
@@ -85,7 +84,6 @@ exports[`<InputPicker> when {disabled} 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         false,
         Object {
           "backgroundColor": "#f4f4f4",
@@ -151,7 +149,6 @@ exports[`<InputPicker> when {error} 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         Object {
           "borderColor": "#ef5160",
         },
@@ -256,7 +253,6 @@ exports[`<InputPicker> when {hint} 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         undefined,
         false,
       ]
@@ -398,7 +394,6 @@ exports[`<InputPicker> when {label} 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         undefined,
         false,
       ]
@@ -464,7 +459,6 @@ exports[`<InputPicker> when {style} 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         undefined,
         false,
       ]
@@ -526,7 +520,6 @@ exports[`<InputPicker> when {value} 1`] = `
           "paddingRight": 5,
           "width": "100%",
         },
-        false,
         undefined,
         false,
       ]
