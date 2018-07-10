@@ -2,10 +2,12 @@ import React from 'react';
 import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean, color } from '@storybook/addon-knobs/react';
+import { text, boolean, color, object } from '@storybook/addon-knobs/react';
 
 import { LayoutView, Price } from '../';
 import Button from './Button';
+
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ Button', module)
   .addWithJSX('default', () => (
@@ -59,7 +61,7 @@ storiesOf('✅ Button', module)
     <Button onPress={action('Button.onPress()')} title="Press me" />
   ))
   .addWithJSX('style', () => (
-    <Button title="Press me" style={{ backgroundColor: 'orange' }} />
+    <Button title="Press me" style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Button
@@ -77,6 +79,7 @@ storiesOf('✅ Button', module)
       rounded={boolean('rounded', false)}
       small={boolean('small', false)}
       title={text('title', undefined)}
+      style={object('style', STYLE)}
     />
   ));
 

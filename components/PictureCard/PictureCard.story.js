@@ -40,7 +40,7 @@ storiesOf('✅ PictureCard', module)
     <PictureCard image={LIPSUM_IMAGE} onLoad={action('PictureCard.onLoad()')} />
   ))
   .addWithJSX('style', () => (
-    <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'orange', opacity: 0.75 }} />
+    <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'rgba(0,255,0,0.25)', opacity: 0.75 }} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <PictureCard

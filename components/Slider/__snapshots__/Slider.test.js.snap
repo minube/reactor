@@ -188,7 +188,7 @@ exports[`<Slider> when {dataSource} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -356,7 +356,7 @@ exports[`<Slider> when {dataSource} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -544,7 +544,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -712,7 +712,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -900,7 +900,7 @@ exports[`<Slider> when {momentum} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -1068,7 +1068,7 @@ exports[`<Slider> when {momentum} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -1471,7 +1471,7 @@ exports[`<Slider> when {steps} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -1639,7 +1639,7 @@ exports[`<Slider> when {steps} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -1832,7 +1832,7 @@ exports[`<Slider> when {style} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={
@@ -2000,7 +2000,7 @@ exports[`<Slider> when {style} 1`] = `
               />
               <ActivityIndicator
                 animating={true}
-                color="#dbdbdb"
+                color="white"
                 hidesWhenStopped={true}
                 size="large"
                 style={

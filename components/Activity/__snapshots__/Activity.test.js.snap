@@ -18,7 +18,7 @@ exports[`<Activity> renders 1`] = `
 exports[`<Activity> when {color} 1`] = `
 <ActivityIndicator
   animating={true}
-  color="#dbdbdb"
+  color="#f00"
   hidesWhenStopped={true}
   size="small"
   style={

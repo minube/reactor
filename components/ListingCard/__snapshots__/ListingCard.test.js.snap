@@ -113,7 +113,7 @@ exports[`<ListingCard> renders 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -270,7 +270,7 @@ exports[`<ListingCard> when {category} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -466,7 +466,7 @@ exports[`<ListingCard> when {children} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -730,7 +730,7 @@ exports[`<ListingCard> when {description} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -929,7 +929,7 @@ exports[`<ListingCard> when {image} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1086,7 +1086,7 @@ exports[`<ListingCard> when {rating} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1492,7 +1492,7 @@ exports[`<ListingCard> when {style} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1649,7 +1649,7 @@ exports[`<ListingCard> when {title} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={

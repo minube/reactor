@@ -18,8 +18,8 @@ if (typeof global.self === 'undefined') global.self = global;
 
 const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
 const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
-const youtube = 'https://www.youtube.com/cx4MxQcD8Fk';
-const vimeo = 'https://player.vimeo.com/video/225434434';
+const youtube = 'https://www.youtube.com/cx4MxQcD8Fk'; // eslint-disable-line
+const vimeo = 'https://player.vimeo.com/video/225434434'; // eslint-disable-line
 
 const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
 
@@ -37,9 +37,8 @@ const styles = StyleSheet.create({
   container: {
     ...STYLE.CENTERED,
     flex: 1,
-    // backgroundColor: THEME.COLOR.BACKGROUND,
     padding: THEME.UNIT,
-    backgroundColor: 'orange',
+    backgroundColor: 'rgba(0,255,0,0.25)',
   },
 });
 

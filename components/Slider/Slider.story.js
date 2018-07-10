@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, number } from '@storybook/addon-knobs/react';
+import { text, boolean, number, object } from '@storybook/addon-knobs/react';
 
 import ListingCard from '../ListingCard';
 import PictureCard from '../PictureCard';
@@ -16,6 +16,7 @@ const dataSource = [...Array(16).keys()]
 
 const ItemListingCard = ({ data }) => <ListingCard {...data} />;
 const ItemPictureCard = ({ data }) => <PictureCard square {...data} />;
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
 
 storiesOf('✅ Slider', module)
   .addWithJSX('default', () => (
@@ -45,11 +46,7 @@ storiesOf('✅ Slider', module)
     />
   ))
   .addWithJSX('style', () => (
-    <Slider
-      dataSource={dataSource}
-      item={ItemPictureCard}
-      style={{ backgroundColor: 'orange', padding: 20 }}
-    />
+    <Slider dataSource={dataSource} item={ItemPictureCard} style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Slider
@@ -61,6 +58,7 @@ storiesOf('✅ Slider', module)
       steps={number('steps', 1)}
       title={text('title', 'Explora nuevos destinos')}
       item={ItemPictureCard}
+      style={object('style', STYLE)}
     />
   ));
 

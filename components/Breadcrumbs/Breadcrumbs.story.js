@@ -5,6 +5,7 @@ import { color, object } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import Breadcrumbs from './Breadcrumbs';
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: THEME.OFFSET,  fontSize: THEME.FONT.SIZE.REGULAR, };
 
 const dataSource = [
   { caption: 'Spain', href: '/' },
@@ -23,19 +24,13 @@ storiesOf('✅ Breadcrumbs', module)
     <Breadcrumbs dataSource={dataSource} onPress={action('Breadcrumbs.onPress()')} />
   ))
   .addWithJSX('style', () => (
-    <Breadcrumbs
-      dataSource={dataSource}
-      style={{
-        padding: THEME.OFFSET,
-        backgroundColor: 'rgba(0,0,0,0.25)',
-        fontSize: THEME.FONT.SIZE.REGULAR,
-      }}
-    />
+    <Breadcrumbs dataSource={dataSource} style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Breadcrumbs
       dataSource={object('dataSource', dataSource, 'heading-dataSource')}
       color={color('color', THEME.COLOR.TEXT)}
+      style={object('style', STYLE)}
     />
   ));
 

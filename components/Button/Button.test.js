@@ -85,7 +85,7 @@ describe('<Button>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Button title="Press me" style={{ backgroundColor: 'orange' }} />).toJSON();
+    const tree = renderer.create(<Button title="Press me" style={{ backgroundColor: 'rgba(0,255,0,0.25)' }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

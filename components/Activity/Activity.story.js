@@ -10,7 +10,7 @@ storiesOf('✅ Activity', module)
     <Activity />
   ))
   .addWithJSX('color', () => (
-    <Activity color={THEME.COLOR.ACCENT} />
+    <Activity color="green" />
   ))
   .addWithJSX('size', () => (
     <Activity size="large" />
@@ -18,7 +18,7 @@ storiesOf('✅ Activity', module)
   .addWithJSX('🏀 Playground', () => (
     <Activity
       animating={boolean('animating', true)}
-      color={color('color', THEME.COLOR.ACCENT)}
+      color={color('color', 'green')}
       hidesWhenStopped={boolean('hidesWhenStopped', false)}
       size={select('size', ['small', 'large'], 'small')}
     />

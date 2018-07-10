@@ -83,7 +83,7 @@ exports[`<PictureCard> renders 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -201,7 +201,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -319,7 +319,7 @@ exports[`<PictureCard> when {caption} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -477,7 +477,7 @@ exports[`<PictureCard> when {image} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -595,7 +595,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -717,7 +717,7 @@ exports[`<PictureCard> when {small} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -841,7 +841,7 @@ exports[`<PictureCard> when {style} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={
@@ -959,7 +959,7 @@ exports[`<PictureCard> when {title} 1`] = `
       />
       <ActivityIndicator
         animating={true}
-        color="#dbdbdb"
+        color="white"
         hidesWhenStopped={true}
         size="large"
         style={

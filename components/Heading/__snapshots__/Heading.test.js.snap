@@ -907,7 +907,7 @@ exports[`<Heading> when {column} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -977,7 +977,7 @@ exports[`<Heading> when {column} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1047,7 +1047,7 @@ exports[`<Heading> when {column} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1293,7 +1293,7 @@ exports[`<Heading> when {contributors} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1363,7 +1363,7 @@ exports[`<Heading> when {contributors} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={
@@ -1433,7 +1433,7 @@ exports[`<Heading> when {contributors} 1`] = `
           />
           <ActivityIndicator
             animating={true}
-            color="#dbdbdb"
+            color="white"
             hidesWhenStopped={true}
             size="large"
             style={

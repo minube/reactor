@@ -42,7 +42,7 @@ exports[`<Avatar> renders 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -103,7 +103,7 @@ exports[`<Avatar> when {image} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -168,7 +168,7 @@ exports[`<Avatar> when {large} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -233,7 +233,7 @@ exports[`<Avatar> when {small} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -298,7 +298,7 @@ exports[`<Avatar> when {style} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={

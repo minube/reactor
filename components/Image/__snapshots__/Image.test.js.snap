@@ -20,7 +20,7 @@ exports[`<Image> renders 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -56,7 +56,7 @@ exports[`<Image> when {color} (only Native) 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -92,7 +92,7 @@ exports[`<Image> when {invert} (only Web) 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -131,7 +131,7 @@ exports[`<Image> when {ratio} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -170,7 +170,7 @@ exports[`<Image> when {responsive} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -206,7 +206,7 @@ exports[`<Image> when {size} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size={48}
     style={
@@ -245,7 +245,7 @@ exports[`<Image> when {source} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={
@@ -287,7 +287,7 @@ exports[`<Image> when {style} 1`] = `
   />
   <ActivityIndicator
     animating={true}
-    color="#dbdbdb"
+    color="white"
     hidesWhenStopped={true}
     size="large"
     style={

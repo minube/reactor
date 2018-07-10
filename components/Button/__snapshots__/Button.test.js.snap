@@ -229,7 +229,7 @@ exports[`<Button> when {activity} 1`] = `
   >
     <ActivityIndicator
       animating={true}
-      color="#dbdbdb"
+      color="#ffffff"
       hidesWhenStopped={true}
       size="small"
       style={
@@ -1489,7 +1489,7 @@ exports[`<Button> when {style} 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "backgroundColor": "orange",
+      "backgroundColor": "rgba(0,255,0,0.25)",
       "borderRadius": 3,
       "marginHorizontal": 5,
       "opacity": 1,
