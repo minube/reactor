@@ -45,7 +45,8 @@ class InputList extends PureComponent {
 
   _onRemove = (item) => {
     const { props: { onChange, value = [] } } = this;
-    onChange(value.filter(i => i !== item));
+    const newValue = value.filter(i => i !== item);
+    onChange(newValue.length > 0 ? newValue : undefined);
   }
 
   render() {
