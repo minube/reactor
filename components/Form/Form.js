@@ -19,14 +19,14 @@ const Inputs = {
 class Form extends PureComponent {
   static propTypes = {
     attributes: shape({}).isRequired,
-    data: shape({}),
+    value: shape({}),
     onChange: func,
     onValid: func,
     title: string,
   };
 
   static defaultProps = {
-    data: undefined,
+    value: undefined,
     title: undefined,
     onChange: undefined,
     onValid() {},
@@ -45,14 +45,14 @@ class Form extends PureComponent {
     onValid(valid);
   }
 
-  _onChange = ({ value, keyMap }) => {
-    const { props: { data, onChange } } = this;
+  _onChange = ({ keyValue, keyMap }) => {
+    const { props: { value, onChange } } = this;
 
-    if (onChange) onChange(set(data, keyMap, value));
+    if (onChange) onChange(set(value, keyMap, keyValue));
   }
 
   renderForm = ({
-    attributes = {}, data = {}, fieldset = false, title, key,
+    attributes = {}, value = {}, fieldset = false, title, key,
   }) => {
     const { renderField, renderForm } = this;
 
@@ -71,13 +71,13 @@ class Form extends PureComponent {
             return props.attributes
               ? renderForm({
                 attributes: props.attributes,
-                data: data[field],
+                value: value[field],
                 fieldset: true,
                 title: props.title,
                 key: keyMap,
               })
               : renderField({
-                field, props, value: data[field], keyMap,
+                field, props, value: value[field], keyMap,
               });
           })
         }
@@ -86,10 +86,12 @@ class Form extends PureComponent {
   }
 
   renderField = ({
-    field, props: { style, type, ...props } = {}, value = props.defaultValue, keyMap,
+    field, props: {
+      required, style, type, ...props
+    } = {}, value = props.defaultValue, keyMap,
   }) => {
     const { _onChange } = this;
-    const isIncomplete = props.required && !value && !props.disabled;
+    const isIncomplete = required && !value && !props.disabled;
     if (isIncomplete) this.state.valid = false;
 
     return createElement(Inputs[type] || Input, {
@@ -99,7 +101,7 @@ class Form extends PureComponent {
       error: isIncomplete ? 'required' : props.error,
       value,
       style: styles[style] || styles.anchor,
-      onChange: newValue => _onChange({ value: newValue, keyMap }),
+      onChange: keyValue => _onChange({ keyValue, keyMap }),
     });
   }
 
@@ -107,13 +109,13 @@ class Form extends PureComponent {
     const {
       renderForm,
       props: {
-        attributes, data, title, ...inherit
+        attributes, value, title, ...inherit
       },
     } = this;
 
     return (
       <ScrollView style={inherit.style}>
-        {renderForm({ attributes, data, title })}
+        {renderForm({ attributes, value, title })}
       </ScrollView>
     );
   }

@@ -110,7 +110,6 @@ exports[`<Form> when {attributes} 1`] = `
           onChangeText={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9b9b9b"
-          required={true}
           style={
             Array [
               Object {
@@ -858,7 +857,6 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#9b9b9b"
-            required={true}
             style={
               Array [
                 Object {
@@ -1017,7 +1015,6 @@ exports[`<Form> when {data} 1`] = `
           onChangeText={[Function]}
           onFocus={[Function]}
           placeholderTextColor="#9b9b9b"
-          required={true}
           style={
             Array [
               Object {
@@ -1034,12 +1031,55 @@ exports[`<Form> when {data} 1`] = `
               },
               false,
               false,
-              false,
+              Object {
+                "borderColor": "#ef5160",
+              },
             ]
           }
           underlineColorAndroid="transparent"
-          value="soyjavi"
+          value=""
         />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 14.399999999999999,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#9b9b9b",
+              },
+              false,
+              false,
+              Object {
+                "color": "#ef5160",
+                "marginVertical": 2.5,
+              },
+            ]
+          }
+        >
+          required
+        </Text>
       </View>
       <View
         style={
@@ -1245,7 +1285,7 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
           underlineColorAndroid="transparent"
-          value="hello@soyjavi.com"
+          value=""
         />
       </View>
       <View
@@ -1564,7 +1604,7 @@ exports[`<Form> when {data} 1`] = `
               ]
             }
             underlineColorAndroid="transparent"
-            value="soyjavi"
+            value=""
           />
         </View>
         <View
@@ -1653,7 +1693,7 @@ exports[`<Form> when {data} 1`] = `
               ]
             }
             underlineColorAndroid="transparent"
-            value="😅"
+            value=""
           />
         </View>
         <View
@@ -1722,7 +1762,6 @@ exports[`<Form> when {data} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             placeholderTextColor="#9b9b9b"
-            required={true}
             style={
               Array [
                 Object {

@@ -28,7 +28,7 @@ const ATTRIBUTES = {
   languages: { type: 'list' },
 };
 
-const DATA = {
+const VALUE = {
   username: 'soyjavi',
   social: {
     twitter: 'soyjavi',
@@ -43,18 +43,18 @@ const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
 class FormHOC extends Component {
   constructor(props) {
     super(props);
-    this.state = { data: props.data };
+    this.state = { value: props.value };
   }
 
-  _onChange = (data) => {
+  _onChange = (value) => {
     const { props: { onChange } } = this;
-    this.setState({ data });
-    if (onChange) onChange(data);
+    this.setState({ value });
+    if (onChange) onChange(value);
   }
 
   render() {
-    const { _onChange, props, state: { data = {} } } = this;
-    return <Form {...props} data={data} onChange={_onChange} />
+    const { _onChange, props, state: { value = {} } } = this;
+    return <Form {...props} value={value} onChange={_onChange} />
   }
 }
 
@@ -65,8 +65,8 @@ storiesOf('🛠 Form', module)
   .addWithJSX('attributes', () => (
     <FormHOC attributes={ATTRIBUTES} style={STORY_STYLE} />
   ))
-  .addWithJSX('data', () => (
-    <FormHOC attributes={ATTRIBUTES} data={DATA} style={STORY_STYLE} />
+  .addWithJSX('value', () => (
+    <FormHOC attributes={ATTRIBUTES} value={VALUE} style={STORY_STYLE} />
   ))
   .addWithJSX('title', () => (
     <FormHOC attributes={ATTRIBUTES} title="Your contact" style={STORY_STYLE} />
@@ -83,7 +83,7 @@ storiesOf('🛠 Form', module)
   .addWithJSX('🏀 Playground', () => (
     <FormHOC
       attributes={object('attributes', ATTRIBUTES)}
-      data={object('data', DATA)}
+      value={object('value', VALUE)}
       title={text('title', null)}
       style={object('style', {...STYLE, ...STORY_STYLE})}
     />
