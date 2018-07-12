@@ -31,7 +31,7 @@ const Button = ({
         small && STYLE.BUTTON_SMALL,
         !small && responsive && LAYOUT.STYLE.BUTTON.CONTAINER,
         rounded && styles.rounded,
-        !title && !children && styles.squared,
+        ((!title && !children) || (!contained && !outlined)) && styles.squared,
 
         // -- Color
         (isSolid && !primary && !accent) && { backgroundColor: color || TEXT_LIGHTEN },
