@@ -7,17 +7,19 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
-  container: {
+  content: {
     backgroundColor: COLOR.CONTENT,
+  },
+
+  borderRadius: {
     borderRadius: BORDER_RADIUS,
   },
 
   image: {
-    borderRadius: BORDER_RADIUS,
     opacity: 0.8,
   },
 
-  content: {
+  info: {
     ...STYLE.CENTERED,
     position: 'absolute',
     left: 0,

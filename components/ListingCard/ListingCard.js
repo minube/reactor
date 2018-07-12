@@ -11,9 +11,9 @@ import styles from './ListingCard.style';
 const ListingCard = ({
   category, children, description, onPress, rating = {}, title, ...inherit
 }) => (
-  <View style={[styles.container, LAYOUT.STYLE.CARD.WIDTH, inherit.style]}>
+  <View style={inherit.style}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
-      <View>
+      <View style={[styles.container, LAYOUT.STYLE.CARD.WIDTH]}>
         <PictureCard {...inherit} style={[]} />
         <View style={styles.content}>
           { category && (

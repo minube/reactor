@@ -13,6 +13,7 @@ import ListingCard from './ListingCard';
 const { COLOR, UNIT } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 const RATING = { showValue: false, count: 12, value: 4.5 };
+const STYLE_LISTINGCARD = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ ListingCard', module)
   .addWithJSX('default', () => (
@@ -58,7 +59,7 @@ storiesOf('✅ ListingCard', module)
     </ListingCard>
   ))
   .addWithJSX('style', () => (
-    <ListingCard style={{ backgroundColor: COLOR.PRIMARY, paddingTop: UNIT }} />
+    <ListingCard style={STYLE_LISTINGCARD} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <ListingCard
@@ -68,6 +69,7 @@ storiesOf('✅ ListingCard', module)
       onPress={action('Button.onPress()')}
       rating={object('rating', RATING, 'listingcard-rating')}
       title={text('title', 'title')}
+      style={object('style', STYLE_LISTINGCARD)}
     />
   ));
 

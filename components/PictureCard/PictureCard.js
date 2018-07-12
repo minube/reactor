@@ -16,17 +16,16 @@ const SHORT_TITLE = 10;
 const PictureCard = ({
   backgroundColor, children, caption, image, onLoad, onPress, portrait, small, title, ...inherit
 }) => (
-  <Touchable
-    disabled={!onPress}
-    onPress={onPress}
-    style={[styles.container, LAYOUT.STYLE.CARD.WIDTH, inherit.style, backgroundColor && { backgroundColor }]}
-  >
-    <View>
+  <Touchable disabled={!onPress} onPress={onPress} style={inherit.styleContainer}>
+    <View
+      style={[styles.content, styles.borderRadius, LAYOUT.STYLE.CARD.WIDTH, backgroundColor && { backgroundColor }]}
+    >
       <Image
         onLoad={onLoad}
         resizeMode={image ? 'cover' : 'center'}
         source={{ uri: image || IMAGE_PLACEHOLDER }}
         style={[
+          styles.borderRadius,
           styles.image,
           LAYOUT.STYLE.CARD.WIDTH,
           portrait ? LAYOUT.STYLE.CARD.PORTRAIT : LAYOUT.STYLE.CARD.HEIGHT,
@@ -34,7 +33,7 @@ const PictureCard = ({
           inherit.style,
         ]}
       />
-      <View pointerEvents="none" style={styles.content}>
+      <View pointerEvents="none" style={styles.info}>
         <View>
           { title
             && (

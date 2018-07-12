@@ -2,17 +2,7 @@
 
 exports[`<ListingCard> renders 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -28,7 +18,16 @@ exports[`<ListingCard> renders 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -50,16 +49,28 @@ exports[`<ListingCard> renders 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -72,6 +83,8 @@ exports[`<ListingCard> renders 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -98,6 +111,8 @@ exports[`<ListingCard> renders 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -159,17 +174,7 @@ exports[`<ListingCard> renders 1`] = `
 
 exports[`<ListingCard> when {category} 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -185,7 +190,16 @@ exports[`<ListingCard> when {category} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -207,16 +221,28 @@ exports[`<ListingCard> when {category} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -229,6 +255,8 @@ exports[`<ListingCard> when {category} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -255,6 +283,8 @@ exports[`<ListingCard> when {category} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -355,17 +385,7 @@ exports[`<ListingCard> when {category} 1`] = `
 
 exports[`<ListingCard> when {children} 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -381,7 +401,16 @@ exports[`<ListingCard> when {children} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -403,16 +432,28 @@ exports[`<ListingCard> when {children} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -425,6 +466,8 @@ exports[`<ListingCard> when {children} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -451,6 +494,8 @@ exports[`<ListingCard> when {children} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -619,17 +664,7 @@ exports[`<ListingCard> when {children} 1`] = `
 
 exports[`<ListingCard> when {description} 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -645,7 +680,16 @@ exports[`<ListingCard> when {description} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -667,16 +711,28 @@ exports[`<ListingCard> when {description} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -689,6 +745,8 @@ exports[`<ListingCard> when {description} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -715,6 +773,8 @@ exports[`<ListingCard> when {description} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -818,17 +878,7 @@ exports[`<ListingCard> when {description} 1`] = `
 
 exports[`<ListingCard> when {image} 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -844,7 +894,16 @@ exports[`<ListingCard> when {image} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -866,16 +925,28 @@ exports[`<ListingCard> when {image} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -888,6 +959,8 @@ exports[`<ListingCard> when {image} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -914,6 +987,8 @@ exports[`<ListingCard> when {image} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -975,17 +1050,7 @@ exports[`<ListingCard> when {image} 1`] = `
 
 exports[`<ListingCard> when {rating} 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -1001,7 +1066,16 @@ exports[`<ListingCard> when {rating} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -1023,16 +1097,28 @@ exports[`<ListingCard> when {rating} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -1045,6 +1131,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -1071,6 +1159,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -1379,18 +1469,10 @@ exports[`<ListingCard> when {rating} 1`] = `
 exports[`<ListingCard> when {style} 1`] = `
 <View
   style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      Object {
-        "backgroundColor": "#10c0bc",
-        "paddingTop": 10,
-      },
-    ]
+    Object {
+      "backgroundColor": "#10c0bc",
+      "paddingTop": 10,
+    }
   }
 >
   <View
@@ -1407,7 +1489,16 @@ exports[`<ListingCard> when {style} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -1429,16 +1520,28 @@ exports[`<ListingCard> when {style} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -1451,6 +1554,8 @@ exports[`<ListingCard> when {style} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -1477,6 +1582,8 @@ exports[`<ListingCard> when {style} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -1538,17 +1645,7 @@ exports[`<ListingCard> when {style} 1`] = `
 
 exports[`<ListingCard> when {title} 1`] = `
 <View
-  style={
-    Array [
-      Object {
-        "overflow": "hidden",
-      },
-      Object {
-        "width": 168,
-      },
-      undefined,
-    ]
-  }
+  style={undefined}
 >
   <View
     accessibilityComponentType={undefined}
@@ -1564,7 +1661,16 @@ exports[`<ListingCard> when {title} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    style={undefined}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "width": 168,
+        },
+      ]
+    }
     testID={undefined}
   >
     <View
@@ -1586,16 +1692,28 @@ exports[`<ListingCard> when {title} 1`] = `
       onStartShouldSetResponder={[Function]}
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
-          "borderRadius": 3,
           "opacity": 1,
-          "width": 168,
         }
       }
       testID={undefined}
       tvParallaxProperties={undefined}
     >
-      <View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#CDD2D4",
+            },
+            Object {
+              "borderRadius": 3,
+            },
+            Object {
+              "width": 168,
+            },
+            undefined,
+          ]
+        }
+      >
         <View
           style={
             Array [
@@ -1608,6 +1726,8 @@ exports[`<ListingCard> when {title} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {
@@ -1634,6 +1754,8 @@ exports[`<ListingCard> when {title} 1`] = `
               Array [
                 Object {
                   "borderRadius": 3,
+                },
+                Object {
                   "opacity": 0.8,
                 },
                 Object {

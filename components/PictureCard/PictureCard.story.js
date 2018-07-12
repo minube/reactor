@@ -1,12 +1,14 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { boolean, color, text } from '@storybook/addon-knobs/react';
+import { boolean, color, object, text } from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import PictureCard from './index';
 
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
+const STYLE = { backgroundColor: 'rgba(0,255,0,1)', opacity: 0.75 };
+const STYLE_CONTAINER = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ PictureCard', module)
   .addWithJSX('default', () => (
@@ -40,7 +42,10 @@ storiesOf('✅ PictureCard', module)
     <PictureCard image={LIPSUM_IMAGE} onLoad={action('PictureCard.onLoad()')} />
   ))
   .addWithJSX('style', () => (
-    <PictureCard image={LIPSUM_IMAGE} style={{ backgroundColor: 'rgba(0,255,0,0.25)', opacity: 0.75 }} />
+    <PictureCard image={LIPSUM_IMAGE} style={STYLE} />
+  ))
+  .addWithJSX('styleContainer', () => (
+    <PictureCard image={LIPSUM_IMAGE} styleContainer={STYLE_CONTAINER} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <PictureCard
@@ -51,5 +56,7 @@ storiesOf('✅ PictureCard', module)
       onPress={action('PictureCard.onPress()')}
       portrait={boolean('portrait', false)}
       title={text('title', 'Una semana en Mallorca')}
+      style={object('style', STYLE)}
+      styleContainer={object('styleContainer', STYLE_CONTAINER)}
     />
   ));

@@ -125,16 +125,28 @@ exports[`<Slider> when {dataSource} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -147,6 +159,8 @@ exports[`<Slider> when {dataSource} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -173,6 +187,8 @@ exports[`<Slider> when {dataSource} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -293,16 +309,28 @@ exports[`<Slider> when {dataSource} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -315,6 +343,8 @@ exports[`<Slider> when {dataSource} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -341,6 +371,8 @@ exports[`<Slider> when {dataSource} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -481,16 +513,28 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -503,6 +547,8 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -529,6 +575,8 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -649,16 +697,28 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -671,6 +731,8 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -697,6 +759,8 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -837,16 +901,28 @@ exports[`<Slider> when {momentum} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -859,6 +935,8 @@ exports[`<Slider> when {momentum} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -885,6 +963,8 @@ exports[`<Slider> when {momentum} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1005,16 +1085,28 @@ exports[`<Slider> when {momentum} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -1027,6 +1119,8 @@ exports[`<Slider> when {momentum} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1053,6 +1147,8 @@ exports[`<Slider> when {momentum} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1408,16 +1504,28 @@ exports[`<Slider> when {steps} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -1430,6 +1538,8 @@ exports[`<Slider> when {steps} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1456,6 +1566,8 @@ exports[`<Slider> when {steps} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1576,16 +1688,28 @@ exports[`<Slider> when {steps} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -1598,6 +1722,8 @@ exports[`<Slider> when {steps} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1624,6 +1750,8 @@ exports[`<Slider> when {steps} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1769,16 +1897,28 @@ exports[`<Slider> when {style} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -1791,6 +1931,8 @@ exports[`<Slider> when {style} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1817,6 +1959,8 @@ exports[`<Slider> when {style} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1937,16 +2081,28 @@ exports[`<Slider> when {style} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Object {
-              "backgroundColor": "#CDD2D4",
-              "borderRadius": 3,
               "opacity": 1,
-              "width": 168,
             }
           }
           testID={undefined}
           tvParallaxProperties={undefined}
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#CDD2D4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+              ]
+            }
+          >
             <View
               style={
                 Array [
@@ -1959,6 +2115,8 @@ exports[`<Slider> when {style} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
@@ -1985,6 +2143,8 @@ exports[`<Slider> when {style} 1`] = `
                   Array [
                     Object {
                       "borderRadius": 3,
+                    },
+                    Object {
                       "opacity": 0.8,
                     },
                     Object {
