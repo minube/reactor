@@ -38,6 +38,7 @@ class BoardingPass extends PureComponent {
 
   state = {
     busy: true,
+    error: undefined,
   };
 
   componentDidMount() {
@@ -52,19 +53,22 @@ class BoardingPass extends PureComponent {
     enabled, endpoint, headers, method, onError, onResponse, parameters, secure, service,
   }) => {
     if (!enabled || !service) return;
-    this.setState({ busy: true });
+    this.setState({ busy: true, error: undefined });
     fetch({
       endpoint, headers, method, secure, service, ...parameters,
     })
       .then(onResponse)
-      .catch(onError)
+      .catch((error) => {
+        onError(error);
+        this.setState({ error });
+      })
       .finally(() => this.setState({ busy: false }));
   }
 
   render() {
-    const { props: { children, enabled, loading }, state: { busy } } = this;
+    const { props: { children, enabled, loading }, state: { busy, error } } = this;
 
-    return busy && enabled ? loading : children;
+    return ((busy && enabled) || error) ? loading : children;
   }
 }
 
