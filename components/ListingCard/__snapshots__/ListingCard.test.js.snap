@@ -94,7 +94,7 @@ exports[`<ListingCard> renders 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -122,7 +122,7 @@ exports[`<ListingCard> renders 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -266,7 +266,7 @@ exports[`<ListingCard> when {category} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -294,7 +294,7 @@ exports[`<ListingCard> when {category} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -477,7 +477,7 @@ exports[`<ListingCard> when {children} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -505,7 +505,7 @@ exports[`<ListingCard> when {children} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -756,7 +756,7 @@ exports[`<ListingCard> when {description} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -784,7 +784,7 @@ exports[`<ListingCard> when {description} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -970,7 +970,7 @@ exports[`<ListingCard> when {image} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -998,7 +998,7 @@ exports[`<ListingCard> when {image} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -1142,7 +1142,7 @@ exports[`<ListingCard> when {rating} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -1170,7 +1170,7 @@ exports[`<ListingCard> when {rating} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -1466,7 +1466,7 @@ exports[`<ListingCard> when {rating} 1`] = `
 </View>
 `;
 
-exports[`<ListingCard> when {style} 1`] = `
+exports[`<ListingCard> when {styleContainer} 1`] = `
 <View
   style={
     Object {
@@ -1565,7 +1565,7 @@ exports[`<ListingCard> when {style} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -1593,7 +1593,7 @@ exports[`<ListingCard> when {style} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />
@@ -1737,7 +1737,7 @@ exports[`<ListingCard> when {title} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ],
             ]
           }
@@ -1765,7 +1765,7 @@ exports[`<ListingCard> when {title} 1`] = `
                   "height": 190,
                 },
                 false,
-                Array [],
+                undefined,
               ]
             }
           />

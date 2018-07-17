@@ -58,8 +58,8 @@ storiesOf('✅ ListingCard', module)
       </View>
     </ListingCard>
   ))
-  .addWithJSX('style', () => (
-    <ListingCard style={STYLE_LISTINGCARD} />
+  .addWithJSX('styleContainer', () => (
+    <ListingCard styleContainer={STYLE_LISTINGCARD} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <ListingCard
@@ -69,7 +69,7 @@ storiesOf('✅ ListingCard', module)
       onPress={action('Button.onPress()')}
       rating={object('rating', RATING, 'listingcard-rating')}
       title={text('title', 'title')}
-      style={object('style', STYLE_LISTINGCARD)}
+      styleContainer={object('styleContainer', STYLE_LISTINGCARD)}
     />
   ));
 

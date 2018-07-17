@@ -11,10 +11,10 @@ import styles from './ListingCard.style';
 const ListingCard = ({
   category, children, description, onPress, rating = {}, title, ...inherit
 }) => (
-  <View style={inherit.style}>
+  <View style={inherit.styleContainer}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
       <View style={[styles.container, LAYOUT.STYLE.CARD.WIDTH]}>
-        <PictureCard {...inherit} style={[]} />
+        <PictureCard {...inherit} styleContainer={null} />
         <View style={styles.content}>
           { category && (
           <Text lighten tiny>

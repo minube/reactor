@@ -47,8 +47,8 @@ describe('<ListingCard>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {style}', () => {
-    const tree = renderer.create(<ListingCard style={{ backgroundColor: THEME.COLOR.PRIMARY, paddingTop: THEME.UNIT }} />).toJSON();
+  it('when {styleContainer}', () => {
+    const tree = renderer.create(<ListingCard styleContainer={{ backgroundColor: THEME.COLOR.PRIMARY, paddingTop: THEME.UNIT }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
