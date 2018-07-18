@@ -14,6 +14,7 @@ const ATTRIBUTES = {
   },
   mail: { keyboard: 'url', style: 'inline2' },
   bio: { lines: 4 },
+  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.png' },
   isPublic: { type: 'bool' },
   social: {
     title: 'Social Networks',

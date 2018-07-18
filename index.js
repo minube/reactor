@@ -16,6 +16,7 @@ import Heading from './components/Heading';
 import Icon from './components/Icon';
 import Image from './components/Image';
 import Input from './components/Input';
+import InputImage from './components/InputImage';
 import InputList from './components/InputList';
 import InputPicker from './components/InputPicker';
 import Link from './components/Link';
@@ -50,6 +51,7 @@ export {
   Icon,
   Image,
   Input,
+  InputImage,
   InputList,
   InputPicker,
   Link,
