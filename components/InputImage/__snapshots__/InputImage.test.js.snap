@@ -562,8 +562,8 @@ exports[`<InputImage> when {value} 1`] = `
         Object {
           "backgroundColor": "#CDD2D4",
           "borderRadius": 3,
-          "height": 54,
-          "width": 54,
+          "height": 60,
+          "width": 60,
         },
       ]
     }
@@ -579,8 +579,8 @@ exports[`<InputImage> when {value} 1`] = `
         Object {
           "backgroundColor": "#CDD2D4",
           "borderRadius": 3,
-          "height": 54,
-          "width": 54,
+          "height": 60,
+          "width": 60,
         }
       }
     />

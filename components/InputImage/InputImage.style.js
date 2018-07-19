@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, UNIT,
+  AVATAR: { LARGE }, BORDER_RADIUS, COLOR, UNIT,
 } = THEME;
 
 export default StyleSheet.create({
@@ -21,8 +21,8 @@ export default StyleSheet.create({
   },
 
   image: {
-    width: UNIT * 5.4,
-    height: UNIT * 5.4,
+    width: LARGE,
+    height: LARGE,
     borderRadius: BORDER_RADIUS,
     backgroundColor: COLOR.CONTENT,
   },
