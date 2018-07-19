@@ -342,6 +342,1136 @@ exports[`<InputList> when {hint} 1`] = `
 </View>
 `;
 
+exports[`<InputList> when {itemTemplate} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 16,
+          "minHeight": undefined,
+        },
+        Object {
+          "marginBottom": 0,
+        },
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      blurOnSubmit={true}
+      editable={true}
+      keyboardType="default"
+      multiline={false}
+      numberOfLines={undefined}
+      onBlur={[Function]}
+      onChangeText={[Function]}
+      onFocus={[Function]}
+      onSubmitEditing={[Function]}
+      placeholderTextColor="#9b9b9b"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "#ffffff",
+            "borderColor": "#dbdbdb",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "color": "#4a4a4a",
+            "fontSize": 16,
+            "fontWeight": "normal",
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#dbdbdb",
+          "borderRadius": 2.5,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      pointerEvents={undefined}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingLeft": 10,
+          "paddingVertical": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/128/1",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          one
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderRadius": 3,
+            "marginHorizontal": 5,
+            "opacity": 0.25,
+            "transform": Array [
+              Object {
+                "scale": 0.75,
+              },
+            ],
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 45,
+                "minWidth": 45,
+                "paddingHorizontal": 30,
+              },
+              Object {
+                "height": 30,
+                "minWidth": 30,
+                "paddingHorizontal": 15,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents={undefined}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingLeft": 10,
+          "paddingVertical": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/128/2",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          two
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderRadius": 3,
+            "marginHorizontal": 5,
+            "opacity": 0.25,
+            "transform": Array [
+              Object {
+                "scale": 0.75,
+              },
+            ],
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 45,
+                "minWidth": 45,
+                "paddingHorizontal": 30,
+              },
+              Object {
+                "height": 30,
+                "minWidth": 30,
+                "paddingHorizontal": 15,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents={undefined}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingLeft": 10,
+          "paddingVertical": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/128/3",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          three
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderRadius": 3,
+            "marginHorizontal": 5,
+            "opacity": 0.25,
+            "transform": Array [
+              Object {
+                "scale": 0.75,
+              },
+            ],
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 45,
+                "minWidth": 45,
+                "paddingHorizontal": 30,
+              },
+              Object {
+                "height": 30,
+                "minWidth": 30,
+                "paddingHorizontal": 15,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents={undefined}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingLeft": 10,
+          "paddingVertical": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/128/4",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          four
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderRadius": 3,
+            "marginHorizontal": 5,
+            "opacity": 0.25,
+            "transform": Array [
+              Object {
+                "scale": 0.75,
+              },
+            ],
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 45,
+                "minWidth": 45,
+                "paddingHorizontal": 30,
+              },
+              Object {
+                "height": 30,
+                "minWidth": 30,
+                "paddingHorizontal": 15,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+    <View
+      pointerEvents={undefined}
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingLeft": 10,
+          "paddingVertical": 5,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "backgroundColor": "#f4f4f4",
+                "justifyContent": "center",
+              },
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ],
+            ]
+          }
+        >
+          <Image
+            onLoad={[Function]}
+            resizeMode="cover"
+            source={
+              Object {
+                "uri": "https://api.adorable.io/avatars/128/5",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "borderRadius": 20,
+                  "height": 40,
+                  "width": 40,
+                },
+                false,
+                Object {
+                  "borderRadius": 10,
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+              ]
+            }
+          />
+          <ActivityIndicator
+            animating={true}
+            color="white"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Array [
+                Object {
+                  "position": "absolute",
+                },
+                false,
+              ]
+            }
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={undefined}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          five
+        </Text>
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hasTVPreferredFocus={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "borderRadius": 3,
+            "marginHorizontal": 5,
+            "opacity": 0.25,
+            "transform": Array [
+              Object {
+                "scale": 0.75,
+              },
+            ],
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 45,
+                "minWidth": 45,
+                "paddingHorizontal": 30,
+              },
+              Object {
+                "height": 30,
+                "minWidth": 30,
+                "paddingHorizontal": 15,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
 exports[`<InputList> when {label} 1`] = `
 <View
   style={

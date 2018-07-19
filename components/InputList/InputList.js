@@ -1,7 +1,7 @@
 import {
   arrayOf, bool, func, string,
 } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { createElement, PureComponent } from 'react';
 import { View } from 'react-native';
 
 import Button from '../Button';
@@ -14,6 +14,7 @@ class InputList extends PureComponent {
     disabled: bool,
     error: string,
     hint: string,
+    itemTemplate: func,
     label: string,
     onChange: func,
     value: arrayOf(string),
@@ -23,6 +24,7 @@ class InputList extends PureComponent {
     disabled: false,
     error: undefined,
     hint: undefined,
+    itemTemplate: undefined,
     label: undefined,
     onChange() {},
     value: undefined,
@@ -53,7 +55,7 @@ class InputList extends PureComponent {
     const {
       _onAdd, _onInputChange, _onRemove,
       props: {
-        disabled, error, hint, label, onChange, value = [], ...inherit
+        disabled, error, hint, itemTemplate, label, onChange, value = [], ...inherit
       },
       state: {
         inputValue,
@@ -71,7 +73,7 @@ class InputList extends PureComponent {
           style={styles.input}
           value={inputValue}
         />
-        { value.length > 0 && !error && (
+        { value.length > 0 && (
           <View
             style={[
               styles.value,
@@ -80,13 +82,19 @@ class InputList extends PureComponent {
             ]}
           >
             { value.map(item => (
-              <View pointerEvents={disabled ? 'none' : undefined} style={styles.item}>
-                <Text small style={styles.itemText}>
-                  {item}
-                </Text>
+              <View
+                key={itemTemplate ? item.id : item}
+                pointerEvents={disabled ? 'none' : undefined}
+                style={styles.item}
+              >
+                { itemTemplate
+                  ? createElement(itemTemplate, { ...item })
+                  : (
+                    <Text small style={styles.itemText}>
+                      {item}
+                    </Text>) }
                 <Button
                   small
-                  _rounded
                   contained={false}
                   icon="closeDark"
                   onPress={() => _onRemove(item)}

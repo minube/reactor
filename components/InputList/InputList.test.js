@@ -1,10 +1,26 @@
 import React from 'react';
+import { View } from 'react-native';
 import renderer from 'react-test-renderer';
 
+import Avatar from '../Avatar';
 import InputList from './InputList';
+import Text from '../Text';
 
 const VALUE = ['one', 'two', 'three', 'four', 'five'];
+const VALUE_COMPLEX = [
+  { avatar: 'https://api.adorable.io/avatars/128/1', name: 'one' },
+  { avatar: 'https://api.adorable.io/avatars/128/2', name: 'two' },
+  { avatar: 'https://api.adorable.io/avatars/128/3', name: 'three' },
+  { avatar: 'https://api.adorable.io/avatars/128/4', name: 'four' },
+  { avatar: 'https://api.adorable.io/avatars/128/5', name: 'five' },
+]
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
+const item = ({ avatar, name }) => (
+  <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+    <Avatar image={avatar} small />
+    <Text style={{ marginLeft: 10 }}>{name}</Text>
+  </View>
+);
 
 describe('<InputList>', () => {
   it('renders', () => {
@@ -34,6 +50,11 @@ describe('<InputList>', () => {
 
   it('when {value}', () => {
     const tree = renderer.create(<InputList value={VALUE} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {itemTemplate}', () => {
+    const tree = renderer.create(<InputList itemTemplate={item} value={VALUE_COMPLEX} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
