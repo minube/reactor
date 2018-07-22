@@ -9,16 +9,25 @@ export default StyleSheet.create({
     marginBottom: OFFSET,
   },
 
+  dataSource: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    top: UNIT * 4.6,
+    width: '100%',
+    zIndex: 1,
+  },
+
   input: {
     marginBottom: 0,
   },
 
-  inputError: {
+  error: {
     borderColor: COLOR.ERROR,
     borderTopWidth: 1,
   },
 
-  inputDisabled: {
+  disabled: {
     backgroundColor: COLOR.BACKGROUND,
   },
 
@@ -35,10 +44,6 @@ export default StyleSheet.create({
     justifyContent: 'space-between',
     paddingLeft: UNIT,
     paddingVertical: UNIT * 0.5,
-  },
-
-  itemText: {
-    flex: 1,
   },
 
   itemButton: {

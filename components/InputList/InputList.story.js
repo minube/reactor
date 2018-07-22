@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View } from 'react-native';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
@@ -8,6 +8,7 @@ import Avatar from '../Avatar';
 import InputList from './InputList';
 import Text from '../Text';
 
+const DATA_SOURCE = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
 const VALUE = ['one', 'two', 'three', 'four', 'five'];
 const VALUE_COMPLEX = [
   { avatar: 'https://api.adorable.io/avatars/128/1', name: 'one' },
@@ -23,6 +24,24 @@ const item = ({ avatar, name }) => (
     <Text style={{ marginLeft: 10 }}>{name}</Text>
   </View>
 );
+
+class InputListHOC extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: props.value };
+  }
+
+  _onChange = (value) => {
+    const { props: { onChange } } = this;
+    this.setState({ value });
+    if (onChange) onChange(value);
+  }
+
+  render() {
+    const { _onChange, props, state: { value = {} } } = this;
+    return <InputList {...props} value={value} onChange={_onChange} />
+  }
+}
 
 storiesOf('🛠 InputList', module)
   .addWithJSX('default', () => (
@@ -43,6 +62,9 @@ storiesOf('🛠 InputList', module)
   .addWithJSX('value', () => (
     <InputList value="three" value={VALUE} />
   ))
+  .addWithJSX('dataSource', () => (
+    <InputList dataSource={DATA_SOURCE} />
+  ))
   .addWithJSX('itemTemplate', () => (
     <InputList itemTemplate={item} value={VALUE_COMPLEX} />
   ))
@@ -53,7 +75,8 @@ storiesOf('🛠 InputList', module)
     <InputList style={STYLE} value={VALUE} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <InputList
+    <InputListHOC
+      dataSource={array('dataSource', DATA_SOURCE)}
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', null)}

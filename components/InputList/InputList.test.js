@@ -6,6 +6,7 @@ import Avatar from '../Avatar';
 import InputList from './InputList';
 import Text from '../Text';
 
+const DATA_SOURCE = ['uno', 'dos', 'tres', 'cuatro', 'cinco'];
 const VALUE = ['one', 'two', 'three', 'four', 'five'];
 const VALUE_COMPLEX = [
   { avatar: 'https://api.adorable.io/avatars/128/1', name: 'one' },
@@ -45,6 +46,11 @@ describe('<InputList>', () => {
 
   it('when {label}', () => {
     const tree = renderer.create(<InputList label="Hello World" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {dataSource}', () => {
+    const tree = renderer.create(<InputList dataSource={DATA_SOURCE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

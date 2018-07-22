@@ -1,16 +1,19 @@
 import {
-  arrayOf, bool, func, string,
+  arrayOf, bool, func, shape, string,
 } from 'prop-types';
-import React, { createElement, PureComponent } from 'react';
+import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import Button from '../Button';
 import Input, { InputLabel } from '../Input';
-import Text from '../Text';
+import Touchable from '../Touchable';
+import ItemList from './components/ItemList';
+import filterDataSource from './modules/filterDataSource';
 import styles from './InputList.style';
 
 class InputList extends PureComponent {
   static propTypes = {
+    dataSource: arrayOf(shape({})),
     disabled: bool,
     error: string,
     hint: string,
@@ -21,6 +24,7 @@ class InputList extends PureComponent {
   };
 
   static defaultProps = {
+    dataSource: undefined,
     disabled: false,
     error: undefined,
     hint: undefined,
@@ -51,48 +55,52 @@ class InputList extends PureComponent {
     onChange(newValue.length > 0 ? newValue : undefined);
   }
 
+  _onSelectItem = (item) => {
+    const { props: { onChange, value = [] } } = this;
+
+    onChange([...value, item]);
+    this.setState({ inputValue: undefined });
+  }
+
   render() {
     const {
-      _onAdd, _onInputChange, _onRemove,
+      _onAdd, _onInputChange, _onSelectItem, _onRemove,
       props: {
-        disabled, error, hint, itemTemplate, label, onChange, value = [], ...inherit
+        dataSource, hint, itemTemplate, onChange, value = [], ...inherit
       },
       state: {
         inputValue,
       },
     } = this;
+    const { disabled, error } = inherit;
 
     return (
       <View style={[styles.container, inherit.style]}>
         <Input
-          disabled={disabled}
-          error={error}
-          label={label}
+          {...inherit}
           onChange={_onInputChange}
           onSubmitEditing={_onAdd}
           style={styles.input}
           value={inputValue}
         />
+        { dataSource && inputValue && ( //
+          <View style={[styles.value, styles.dataSource]}>
+            { filterDataSource(dataSource, inputValue).map(item => (
+              <Touchable onPress={() => _onSelectItem(item)} style={styles.item}>
+                <ItemList template={itemTemplate} value={item} />
+              </Touchable>))}
+          </View>
+        )}
+
         { value.length > 0 && (
-          <View
-            style={[
-              styles.value,
-              !disabled && error && styles.inputError,
-              disabled && styles.inputDisabled,
-            ]}
-          >
+          <View style={[styles.value, !disabled && error && styles.error, disabled && styles.disabled]}>
             { value.map(item => (
               <View
                 key={itemTemplate ? item.id : item}
                 pointerEvents={disabled ? 'none' : undefined}
                 style={styles.item}
               >
-                { itemTemplate
-                  ? createElement(itemTemplate, { ...item })
-                  : (
-                    <Text small style={styles.itemText}>
-                      {item}
-                    </Text>) }
+                <ItemList template={itemTemplate} value={item} />
                 <Button
                   small
                   contained={false}
