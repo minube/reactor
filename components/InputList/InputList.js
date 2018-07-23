@@ -73,6 +73,7 @@ class InputList extends PureComponent {
       },
     } = this;
     const { disabled, error } = inherit;
+    const suggestions = dataSource && inputValue ? filterDataSource(dataSource, inputValue, value) : [];
 
     return (
       <View style={[styles.container, inherit.style]}>
@@ -83,9 +84,9 @@ class InputList extends PureComponent {
           style={styles.input}
           value={inputValue}
         />
-        { dataSource && inputValue && ( //
+        { suggestions.length > 0 && (
           <View style={[styles.value, styles.dataSource]}>
-            { filterDataSource(dataSource, inputValue).map(item => (
+            { suggestions.map(item => (
               <Touchable onPress={() => _onSelectItem(item)} style={styles.item}>
                 <ItemList template={itemTemplate} value={item} />
               </Touchable>))}
