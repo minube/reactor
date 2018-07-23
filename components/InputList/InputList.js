@@ -36,16 +36,27 @@ class InputList extends PureComponent {
 
   state = {
     inputValue: undefined,
+    suggestions: [],
   };
 
-  _onInputChange = inputValue => this.setState({ inputValue })
+  _onInputChange = (inputValue) => {
+    const { props: { dataSource, value } } = this;
+
+    this.setState({
+      inputValue,
+      suggestions: dataSource && inputValue ? filterDataSource(dataSource, inputValue, value) : [],
+    });
+  }
 
   _onAdd = () => {
-    const { props: { onChange, value = [] }, state: { inputValue } } = this;
+    const {
+      props: { dataSource, onChange, value = [] },
+      state: { inputValue, suggestions },
+    } = this;
 
-    if (!value.find(item => item === inputValue)) {
-      onChange([...value, inputValue]);
-      this.setState({ inputValue: undefined });
+    if (suggestions.length === 1 || (!dataSource && !value.find(item => item === inputValue))) {
+      onChange([...value, suggestions[0] || inputValue]);
+      this.setState({ inputValue: undefined, suggestions: [] });
     }
   }
 
@@ -59,21 +70,18 @@ class InputList extends PureComponent {
     const { props: { onChange, value = [] } } = this;
 
     onChange([...value, item]);
-    this.setState({ inputValue: undefined });
+    this.setState({ inputValue: undefined, suggestions: [] });
   }
 
   render() {
     const {
       _onAdd, _onInputChange, _onSelectItem, _onRemove,
       props: {
-        dataSource, hint, itemTemplate, onChange, value = [], ...inherit
+        hint, itemTemplate, onChange, value = [], ...inherit
       },
-      state: {
-        inputValue,
-      },
+      state: { inputValue, suggestions = [] },
     } = this;
     const { disabled, error } = inherit;
-    const suggestions = dataSource && inputValue ? filterDataSource(dataSource, inputValue, value) : [];
 
     return (
       <View style={[styles.container, inherit.style]}>
