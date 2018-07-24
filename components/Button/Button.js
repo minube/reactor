@@ -21,6 +21,7 @@ const Button = ({
   <Touchable
     disabled={disabled || !onPress}
     onPress={onPress}
+    rippleColor={isSolid ? undefined : color}
     style={[styles.touchable, rounded && styles.rounded, inherit.style]}
   >
     <View
