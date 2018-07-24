@@ -625,32 +625,34 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -704,6 +706,23 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -835,32 +854,34 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -914,6 +935,23 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -1045,32 +1083,34 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -1124,6 +1164,23 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -1255,32 +1312,34 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -1334,6 +1393,23 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -1465,32 +1541,34 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -1544,6 +1622,23 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
   </View>
@@ -1856,32 +1951,34 @@ exports[`<InputList> when {value} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -1935,6 +2032,23 @@ exports[`<InputList> when {value} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -1993,32 +2107,34 @@ exports[`<InputList> when {value} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -2072,6 +2188,23 @@ exports[`<InputList> when {value} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -2130,32 +2263,34 @@ exports[`<InputList> when {value} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -2209,6 +2344,23 @@ exports[`<InputList> when {value} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -2267,32 +2419,34 @@ exports[`<InputList> when {value} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -2346,6 +2500,23 @@ exports[`<InputList> when {value} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
     <View
@@ -2404,32 +2575,34 @@ exports[`<InputList> when {value} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "borderRadius": 3,
-            "marginHorizontal": 5,
-            "opacity": 0.25,
-            "transform": Array [
-              Object {
-                "scale": 0.75,
-              },
-            ],
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            false,
+            Object {
+              "opacity": 0.25,
+              "transform": Array [
+                Object {
+                  "scale": 0.75,
+                },
+              ],
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -2483,6 +2656,23 @@ exports[`<InputList> when {value} 1`] = `
             }
           />
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
   </View>

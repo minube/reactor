@@ -6,27 +6,27 @@ exports[`<Button> renders 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -62,6 +62,23 @@ exports[`<Button> renders 1`] = `
       ]
     }
   />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -71,27 +88,27 @@ exports[`<Button> when {accent} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -164,6 +181,23 @@ exports[`<Button> when {accent} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -173,27 +207,27 @@ exports[`<Button> when {activity} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -280,6 +314,23 @@ exports[`<Button> when {activity} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -289,27 +340,27 @@ exports[`<Button> when {children} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -434,6 +485,23 @@ exports[`<Button> when {children} 1`] = `
       </Text>
     </View>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -443,27 +511,27 @@ exports[`<Button> when {color} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -536,6 +604,23 @@ exports[`<Button> when {color} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -545,27 +630,27 @@ exports[`<Button> when {contained} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -638,6 +723,23 @@ exports[`<Button> when {contained} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -647,27 +749,27 @@ exports[`<Button> when {disabled} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -744,6 +846,23 @@ exports[`<Button> when {disabled} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -753,27 +872,27 @@ exports[`<Button> when {icon} & {title} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -862,6 +981,23 @@ exports[`<Button> when {icon} & {title} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -871,27 +1007,27 @@ exports[`<Button> when {icon} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -943,6 +1079,23 @@ exports[`<Button> when {icon} 1`] = `
       }
     />
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -952,27 +1105,27 @@ exports[`<Button> when {outlined} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1047,6 +1200,23 @@ exports[`<Button> when {outlined} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -1056,27 +1226,27 @@ exports[`<Button> when {primary} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1149,6 +1319,23 @@ exports[`<Button> when {primary} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -1158,27 +1345,27 @@ exports[`<Button> when {responsive} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1256,6 +1443,23 @@ exports[`<Button> when {responsive} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -1265,27 +1469,29 @@ exports[`<Button> when {rounded} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 22.5,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      Object {
+        "borderRadius": 22.5,
+      },
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1360,6 +1566,23 @@ exports[`<Button> when {rounded} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -1369,27 +1592,27 @@ exports[`<Button> when {small} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1466,6 +1689,23 @@ exports[`<Button> when {small} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -1475,28 +1715,29 @@ exports[`<Button> when {style} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "backgroundColor": "rgba(0,255,0,0.25)",
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      Object {
+        "backgroundColor": "rgba(0,255,0,0.25)",
+      },
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1569,6 +1810,23 @@ exports[`<Button> when {style} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
 
@@ -1578,27 +1836,27 @@ exports[`<Button> when {title} 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
-    Object {
-      "borderRadius": 3,
-      "marginHorizontal": 5,
-      "opacity": 1,
-    }
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
   <View
     style={
@@ -1671,5 +1929,22 @@ exports[`<Button> when {title} 1`] = `
       Press me
     </Text>
   </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;

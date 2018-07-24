@@ -35,25 +35,18 @@ exports[`<ListingCard> renders 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -160,6 +153,23 @@ exports[`<ListingCard> renders 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -207,25 +217,18 @@ exports[`<ListingCard> when {category} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -332,6 +335,23 @@ exports[`<ListingCard> when {category} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -418,25 +438,18 @@ exports[`<ListingCard> when {children} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -543,6 +556,23 @@ exports[`<ListingCard> when {children} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -556,28 +586,32 @@ exports[`<ListingCard> when {children} 1`] = `
         accessibilityLabel={undefined}
         accessibilityTraits={undefined}
         accessible={true}
-        collapsable={undefined}
-        hasTVPreferredFocus={undefined}
         hitSlop={undefined}
-        isTVSelectable={true}
         nativeID={undefined}
-        onLayout={undefined}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
-          Object {
-            "alignSelf": "flex-start",
-            "borderRadius": 22.5,
-            "marginHorizontal": 0,
-            "opacity": 1,
-          }
+          Array [
+            Object {
+              "borderRadius": 3,
+              "marginHorizontal": 5,
+            },
+            Object {
+              "borderRadius": 22.5,
+            },
+            Object {
+              "alignSelf": "flex-start",
+              "marginHorizontal": 0,
+            },
+          ]
         }
         testID={undefined}
-        tvParallaxProperties={undefined}
       >
         <View
           style={
@@ -656,6 +690,23 @@ exports[`<ListingCard> when {children} 1`] = `
             15 Actividades
           </Text>
         </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        />
       </View>
     </View>
   </View>
@@ -697,25 +748,18 @@ exports[`<ListingCard> when {description} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -822,6 +866,23 @@ exports[`<ListingCard> when {description} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -911,25 +972,18 @@ exports[`<ListingCard> when {image} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -1036,6 +1090,23 @@ exports[`<ListingCard> when {image} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -1083,25 +1154,18 @@ exports[`<ListingCard> when {rating} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -1208,6 +1272,23 @@ exports[`<ListingCard> when {rating} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -1506,25 +1587,18 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -1631,6 +1705,23 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={
@@ -1678,25 +1769,18 @@ exports[`<ListingCard> when {title} 1`] = `
       accessibilityLabel={undefined}
       accessibilityTraits={undefined}
       accessible={true}
-      collapsable={undefined}
-      hasTVPreferredFocus={undefined}
       hitSlop={undefined}
-      isTVSelectable={true}
       nativeID={undefined}
-      onLayout={undefined}
+      onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "opacity": 1,
-        }
-      }
+      pointerEvents="box-only"
+      style={null}
       testID={undefined}
-      tvParallaxProperties={undefined}
     >
       <View
         style={
@@ -1803,6 +1887,23 @@ exports[`<ListingCard> when {title} 1`] = `
           <View />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      />
     </View>
     <View
       style={

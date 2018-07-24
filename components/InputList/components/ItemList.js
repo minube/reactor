@@ -1,5 +1,5 @@
 import {
-  node, oneOf, shape, string,
+  node, oneOfType, shape, string,
 } from 'prop-types';
 import React, { createElement } from 'react';
 
@@ -17,7 +17,7 @@ const Item = ({ template, value = {} }) => (
 
 Item.propTypes = {
   template: node.isRequired,
-  value: oneOf(string, shape({})).isRequired,
+  value: oneOfType(string, shape({})).isRequired,
 };
 
 export default Item;

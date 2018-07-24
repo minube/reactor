@@ -14,7 +14,7 @@ const { IS_WEB } = ENV;
 const { COLOR } = THEME;
 const MOTION_DURATION = 250;
 
-class Dialog extends PureComponent {
+export default class Dialog extends PureComponent {
   static propTypes = {
     background: bool,
     children: node,
@@ -102,5 +102,3 @@ class Dialog extends PureComponent {
       </Motion>);
   }
 }
-
-export default Dialog;
