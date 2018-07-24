@@ -6,26 +6,205 @@ exports[`<Touchable> renders 1`] = `
   accessibilityLabel={undefined}
   accessibilityTraits={undefined}
   accessible={true}
-  collapsable={undefined}
-  hasTVPreferredFocus={undefined}
   hitSlop={undefined}
-  isTVSelectable={true}
   nativeID={undefined}
-  onLayout={undefined}
+  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={undefined}
+  testID={undefined}
+>
+  <View />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Touchable> when {children} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={undefined}
+  testID={undefined}
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  >
+    Hello World
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Touchable> when {containerBorderRadius} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={undefined}
+  testID={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "borderRadius": 48,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Touchable> when {rippleColor} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
+  style={undefined}
+  testID={undefined}
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Touchable> when {style} 1`] = `
+<View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="box-only"
   style={
     Object {
-      "opacity": 1,
+      "backgroundColor": "rgba(0,255,0,0.25)",
     }
   }
   testID={undefined}
-  tvParallaxProperties={undefined}
 >
-  <View />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  />
 </View>
 `;
