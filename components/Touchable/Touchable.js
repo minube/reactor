@@ -1,4 +1,6 @@
-import { node, number, string } from 'prop-types';
+import {
+  func, node, number, string,
+} from 'prop-types';
 import React, { PureComponent } from 'react';
 import {
   Animated, Easing, Platform, TouchableNativeFeedback, TouchableWithoutFeedback, View,
@@ -22,12 +24,14 @@ class Touchable extends PureComponent {
   static propTypes = {
     children: node,
     containerBorderRadius: number,
+    onPress: func,
     rippleColor: string,
   };
 
   static defaultProps = {
     children: undefined,
     containerBorderRadius: undefined,
+    onPress: undefined,
     rippleColor: undefined,
   };
 
@@ -56,10 +60,14 @@ class Touchable extends PureComponent {
     this.setState({ width, height });
   }
 
-  _onPressIn = ({ nativeEvent }) => {
-    const { onAnimationEnd, state: { ripples, width, height } } = this;
-    const { locationX: x, locationY: y } = nativeEvent;
+  _onPress = (event) => {
+    const { onAnimationEnd, props: { onPress }, state: { ripples, width, height } } = this;
 
+    event.persist();
+    if (requestAnimationFrame) requestAnimationFrame(() => onPress(event)); // eslint-disable-line
+    else onPress(event);
+
+    const { locationX: x, locationY: y } = event.nativeEvent;
     const w = 0.5 * width;
     const h = 0.5 * height;
     const offsetX = Math.abs(w - x);
@@ -79,15 +87,15 @@ class Touchable extends PureComponent {
 
   render() {
     const {
-      _onPressIn, _onLayout,
+      _onPress, _onLayout,
       props: {
-        children, containerBorderRadius, rippleColor, ...inherit
+        children, containerBorderRadius, onPress, rippleColor, ...inherit
       },
-      state: { ripples },
+      state: { ripples = [] },
     } = this;
 
     return (
-      <TouchableWithoutFeedback {...inherit} onLayout={_onLayout} onPressIn={inherit.onPress ? _onPressIn : undefined}>
+      <TouchableWithoutFeedback onLayout={_onLayout} onPress={onPress ? _onPress : undefined}>
         <View style={inherit.style} pointerEvents="box-only">
           {children}
           <View style={[styles.container, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
