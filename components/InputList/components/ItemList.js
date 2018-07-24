@@ -17,7 +17,7 @@ const Item = ({ template, value = {} }) => (
 
 Item.propTypes = {
   template: node.isRequired,
-  value: oneOfType(string, shape({})).isRequired,
+  value: oneOfType([string, shape({})]).isRequired,
 };
 
 export default Item;
