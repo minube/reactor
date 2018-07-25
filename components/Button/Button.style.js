@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
@@ -45,6 +45,14 @@ export default StyleSheet.create({
   },
 
   // -- Text
+  textNoPointerEvent: {
+    ...Platform.select({
+      web: {
+        userSelect: 'none',
+      },
+    }),
+  },
+
   text: {
     fontSize: FONT.SIZE.SMALL,
   },

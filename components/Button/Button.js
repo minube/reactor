@@ -52,6 +52,7 @@ const Button = ({
           semibold
           color={isSolid ? WHITE : color || TEXT_LIGHTEN}
           style={[
+            styles.textNoPointerEvent,
             small // eslint-disable-line
               ? styles.textSmall
               : responsive ? LAYOUT.STYLE.TEXT.SMALL : styles.text,
