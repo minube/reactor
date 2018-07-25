@@ -15,7 +15,7 @@ exports[`<Button> renders 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -97,7 +97,7 @@ exports[`<Button> when {accent} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -216,7 +216,7 @@ exports[`<Button> when {activity} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -349,7 +349,7 @@ exports[`<Button> when {children} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -520,7 +520,7 @@ exports[`<Button> when {color} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -639,7 +639,7 @@ exports[`<Button> when {contained} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -758,7 +758,7 @@ exports[`<Button> when {disabled} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -881,7 +881,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1016,7 +1016,7 @@ exports[`<Button> when {icon} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1114,7 +1114,7 @@ exports[`<Button> when {outlined} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1235,7 +1235,7 @@ exports[`<Button> when {primary} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1354,7 +1354,7 @@ exports[`<Button> when {responsive} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1478,7 +1478,7 @@ exports[`<Button> when {rounded} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1601,7 +1601,7 @@ exports[`<Button> when {small} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1724,7 +1724,7 @@ exports[`<Button> when {style} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -1845,7 +1845,7 @@ exports[`<Button> when {title} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Array [
       Object {

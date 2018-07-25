@@ -15,7 +15,7 @@ exports[`<PictureCard> renders 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -159,7 +159,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -305,7 +305,7 @@ exports[`<PictureCard> when {caption} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -489,7 +489,7 @@ exports[`<PictureCard> when {image} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -633,7 +633,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -777,7 +777,7 @@ exports[`<PictureCard> when {small} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -925,7 +925,7 @@ exports[`<PictureCard> when {style} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -1075,7 +1075,7 @@ exports[`<PictureCard> when {title} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >

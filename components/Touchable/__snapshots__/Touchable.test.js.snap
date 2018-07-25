@@ -15,7 +15,7 @@ exports[`<Touchable> renders 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -55,7 +55,7 @@ exports[`<Touchable> when {children} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -101,7 +101,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -142,7 +142,7 @@ exports[`<Touchable> when {rippleColor} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={undefined}
   testID={undefined}
 >
@@ -181,7 +181,7 @@ exports[`<Touchable> when {style} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
+  pointerEvents={undefined}
   style={
     Object {
       "backgroundColor": "rgba(0,255,0,0.25)",
