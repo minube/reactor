@@ -59,7 +59,7 @@ storiesOf('🏀 Playground', module)
           color={color('color', COLOR.TEXT)}
           onPress={action('Button.onPress()')}
           outlined
-          title={text('title', 'Descargar')}
+          title={text('button', 'Descargar')}
         />
       </View>
     </Dialog>
