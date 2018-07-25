@@ -7,7 +7,6 @@ import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
 import './addon-viewport';
 import decoratorLayout from './decorator-layout';
-import { THEME } from '../common';
 import PKG from '../package.json';
 
 addDecorator(decoratorLayout);
@@ -26,4 +25,5 @@ setOptions({
 setConsoleOptions({ panelExclude: [] });
 
 const stories = require.context('../components', true, /\.story\.js$/);
+stories.playground = require('../index.story.js');
 configure(() => stories.keys().forEach(stories), module);
