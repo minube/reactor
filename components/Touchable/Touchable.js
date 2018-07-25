@@ -95,7 +95,7 @@ class Touchable extends PureComponent {
     } = this;
 
     return (
-      <TouchableWithoutFeedback onLayout={_onLayout} onPress={onPress ? _onPress : undefined}>
+      <TouchableWithoutFeedback onLayout={onPress ? _onLayout : undefined} onPress={onPress ? _onPress : undefined}>
         <View style={inherit.style} pointerEvents={onPress ? 'box-only' : undefined}>
           {children}
           <View style={[styles.container, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
