@@ -16,7 +16,7 @@ class ProviderAmplitude extends PureComponent {
   _logEvent = ({ type, ...props } = {}) => {
     const { props: { key, session } } = this;
 
-    if (!IS_PRODUCTION) console.log('⚡️ProviderAmplitude.LogEvent', type, props);
+    if (!IS_PRODUCTION) console.info('⚡️ProviderAmplitude.LogEvent', type, props);
 
     if (IS_WEB) {
       if (!IS_SERVER) {
