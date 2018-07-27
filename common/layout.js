@@ -5,6 +5,8 @@ import screenSize from './modules/screenSize';
 
 const { STYLE } = THEME;
 
+const DEFAULT = { WIDTH: 360, HEIGHT: 640 };
+
 const calc = (width) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
@@ -74,8 +76,8 @@ class Layout {
   }
 
   get VIEWPORT() {
-    const H = this.height;
-    const W = this.width;
+    const H = this.height || DEFAULT.HEIGHT;
+    const W = this.width || DEFAULT.WIDTH;
     const PORTRAIT = H > W;
 
     return {
@@ -90,7 +92,7 @@ class Layout {
     };
   }
 
-  calc({ height = 640, width = 360 } = Dimensions.get('window')) {
+  calc({ height = DEFAULT.HEIGHT, width = DEFAULT.WIDTH } = Dimensions.get('window')) {
     this.height = height;
     this.width = width;
     this.style = calc(width);
