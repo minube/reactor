@@ -30,6 +30,9 @@ storiesOf('✅ Dialog', module)
       <Text>lorem ipsum...</Text>
     </Dialog>
   ))
+  .addWithJSX('reverse', () => (
+    <Dialog reverse visible />
+  ))
   .addWithJSX('⚡ onClose', () => (
     <Dialog title="Hello world" onClose={action('Dialog.onClose()')} visible />
   ))
@@ -46,6 +49,7 @@ storiesOf('✅ Dialog', module)
     <Dialog
       background={boolean('background', true)}
       highlight={boolean('highlight', true)}
+      reverse={boolean('reverse', false)}
       onClose={action('Dialog.onClose()')}
       onSubmit={action('Dialog.onSubmit()')}
       style={object('style', STYLE, 'dialog-style')}

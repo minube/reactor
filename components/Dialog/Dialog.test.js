@@ -19,6 +19,11 @@ describe('<Dialog>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {reverse}', () => {
+    const tree = renderer.create(<Dialog visible reverse />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {title}', () => {
     const tree = renderer.create(<Dialog title="Hello world" />).toJSON();
     expect(tree).toMatchSnapshot();

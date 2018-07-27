@@ -20,6 +20,7 @@ export default class Dialog extends PureComponent {
     children: node,
     highlight: bool,
     onClose: func,
+    reverse: bool,
     style: oneOfType([array, number, object]),
     styleContainer: oneOfType([array, number, object]),
     title: string,
@@ -31,6 +32,7 @@ export default class Dialog extends PureComponent {
     children: undefined,
     highlight: undefined,
     onClose: undefined,
+    reverse: false,
     style: [],
     styleContainer: [],
     title: undefined,
@@ -49,11 +51,13 @@ export default class Dialog extends PureComponent {
     const {
       _onScroll,
       props: {
-        background, children, highlight, onClose, style, styleContainer, title, visible,
+        background, children, highlight, reverse, onClose, style, styleContainer, title, visible,
       },
       state: { scroll },
     } = this;
     const { VIEWPORT: { H, PORTRAIT } } = LAYOUT;
+    let translateY = 0;
+    if (!visible) translateY = reverse ? -H : H;
 
     return (
       <Motion
@@ -76,7 +80,7 @@ export default class Dialog extends PureComponent {
             },
             style,
           ]}
-          timeline={[{ property: 'translateY', value: visible ? 0 : H }]}
+          timeline={[{ property: 'translateY', value: translateY }]}
         >
           <View style={styles.content}>
             { onClose
