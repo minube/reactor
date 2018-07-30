@@ -43,6 +43,7 @@ class Video extends Component {
     const dimensions = {
       height, width, maxHeight: height, maxWidth: width,
     };
+    const pointerEvents = !controls ? 'none' : undefined;
 
     return (
       <View
@@ -59,6 +60,7 @@ class Video extends Component {
             autoPlay={autoPlay}
             controls={controls ? 'true' : undefined}
             onLoadedData={_onLoad}
+            pointerEvents={pointerEvents}
             preload={preload ? 'auto' : 'none'}
             style={{ objectFit: 'cover', width, height }}
           >
@@ -74,6 +76,7 @@ class Video extends Component {
             key={embed}
             frameBorder={0}
             onLoad={_onLoad}
+            pointerEvents={pointerEvents}
             width="100%"
             height="100%"
             src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}

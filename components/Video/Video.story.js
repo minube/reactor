@@ -5,7 +5,7 @@ import { text, boolean, number, object } from '@storybook/addon-knobs/react';
 
 import Video from './Video';
 
-const VIDEO_PLACEHOLDER = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
+const VIDEO_PLACEHOLDER = 'https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4';
 const VIDEO_STYLE = {
   borderRadius: 24,
 };
@@ -32,11 +32,11 @@ storiesOf('✅ Video', module)
   .addWithJSX('dimensions', () => (
     <Video height={128} source={VIDEO_PLACEHOLDER} width={256} />
   ))
-  .addWithJSX('⚡ onLoad (only web)', () => (
-    <Video onLoad={action('Video.onLoad()')} source={VIDEO_PLACEHOLDER} />
-  ))
   .addWithJSX('preload', () => (
     <Video preload source={VIDEO_PLACEHOLDER} />
+  ))
+  .addWithJSX('⚡ onLoad (only web)', () => (
+    <Video source={VIDEO_PLACEHOLDER} onLoad={action('Video.onLoad()')} />
   ))
   .addWithJSX('style', () => (
     <Video source={VIDEO_PLACEHOLDER} style={VIDEO_STYLE} />

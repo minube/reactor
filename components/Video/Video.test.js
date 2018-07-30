@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import Video from './Video';
 
-const VIDEO_PLACEHOLDER = 'http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4';
+const VIDEO_PLACEHOLDER = 'https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4';
 
 
 describe('<Video>', () => {
@@ -29,6 +29,21 @@ describe('<Video>', () => {
 
   it('when {autoplay}', () => {
     const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} autoplay />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {controls}', () => {
+    const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} controls />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {dimensions}', () => {
+    const tree = renderer.create(<Video height={128} source={VIDEO_PLACEHOLDER} width={256} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {preload}', () => {
+    const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} preload />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
