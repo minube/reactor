@@ -61,11 +61,7 @@ class Touchable extends PureComponent {
   }
 
   _onPress = (event) => {
-    const { onAnimationEnd, props: { onPress }, state: { ripples, width, height } } = this;
-
-    event.persist();
-    if (requestAnimationFrame) requestAnimationFrame(() => onPress(event)); // eslint-disable-line
-    else onPress(event);
+    const { onAnimationEnd, state: { ripples, width, height } } = this;
 
     const { locationX: x, locationY: y } = event.nativeEvent;
     const w = 0.5 * width;
@@ -95,7 +91,11 @@ class Touchable extends PureComponent {
     } = this;
 
     return (
-      <TouchableWithoutFeedback onLayout={onPress ? _onLayout : undefined} onPress={onPress ? _onPress : undefined}>
+      <TouchableWithoutFeedback
+        onLayout={onPress ? _onLayout : undefined}
+        onPressIn={onPress ? _onPress : undefined}
+        onPress={onPress}
+      >
         <View style={inherit.style} pointerEvents={onPress ? 'box-only' : undefined}>
           {children}
           <View style={[styles.container, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
