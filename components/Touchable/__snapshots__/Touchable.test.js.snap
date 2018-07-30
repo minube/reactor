@@ -36,7 +36,20 @@ exports[`<Touchable> renders 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -82,7 +95,20 @@ exports[`<Touchable> when {children} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -123,7 +149,20 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
         },
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -162,7 +201,20 @@ exports[`<Touchable> when {rippleColor} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "rgba(0,255,0,0.25)",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -205,6 +257,19 @@ exports[`<Touchable> when {style} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;

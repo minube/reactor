@@ -78,7 +78,20 @@ exports[`<Button> renders 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -197,7 +210,20 @@ exports[`<Button> when {accent} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -330,7 +356,20 @@ exports[`<Button> when {activity} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -501,7 +540,20 @@ exports[`<Button> when {children} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -620,7 +672,20 @@ exports[`<Button> when {color} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -739,7 +804,20 @@ exports[`<Button> when {contained} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -862,7 +940,20 @@ exports[`<Button> when {disabled} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -997,7 +1088,20 @@ exports[`<Button> when {icon} & {title} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1095,7 +1199,20 @@ exports[`<Button> when {icon} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1216,7 +1333,20 @@ exports[`<Button> when {outlined} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1335,7 +1465,20 @@ exports[`<Button> when {primary} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1459,7 +1602,20 @@ exports[`<Button> when {responsive} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1582,7 +1738,20 @@ exports[`<Button> when {rounded} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1705,7 +1874,20 @@ exports[`<Button> when {small} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1826,7 +2008,20 @@ exports[`<Button> when {style} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1945,6 +2140,19 @@ exports[`<Button> when {title} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;

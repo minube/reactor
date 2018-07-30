@@ -140,7 +140,20 @@ exports[`<PictureCard> renders 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -286,7 +299,20 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -470,7 +496,20 @@ exports[`<PictureCard> when {caption} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -614,7 +653,20 @@ exports[`<PictureCard> when {image} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -758,7 +810,20 @@ exports[`<PictureCard> when {portrait} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -906,7 +971,20 @@ exports[`<PictureCard> when {small} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1056,7 +1134,20 @@ exports[`<PictureCard> when {style} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;
 
@@ -1243,6 +1334,19 @@ exports[`<PictureCard> when {title} 1`] = `
         undefined,
       ]
     }
-  />
+  >
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
 </View>
 `;

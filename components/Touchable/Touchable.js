@@ -39,6 +39,7 @@ class Touchable extends PureComponent {
     width: 0,
     height: 0,
     ripples: [],
+    mask: new Animated.Value(0),
   };
 
   componentDidMount() {
@@ -60,8 +61,13 @@ class Touchable extends PureComponent {
     this.setState({ width, height });
   }
 
-  _onPress = (event) => {
-    const { onAnimationEnd, state: { ripples, width, height } } = this;
+  _onPressIn = (event) => {
+    const {
+      onAnimationEnd,
+      state: {
+        mask, ripples, width, height,
+      },
+    } = this;
 
     const { locationX: x, locationY: y } = event.nativeEvent;
     const w = 0.5 * width;
@@ -77,29 +83,45 @@ class Touchable extends PureComponent {
       y,
     };
 
+    Animated.timing(mask, { ...ANIMATION, delay: ANIMATION.duration / 4, toValue: 0.25 }).start();
     Animated.timing(ripple.progress, ANIMATION).start(onAnimationEnd);
     this.setState({ ripples: [...ripples, ripple] });
   }
 
+  _onPressOut = () => {
+    const { state: { mask } } = this;
+    Animated.timing(mask, { ...ANIMATION, toValue: 0 }).start();
+  }
+
   render() {
     const {
-      _onPress, _onLayout,
+      _onPressIn, _onPressOut, _onLayout,
       props: {
         children, containerBorderRadius, onPress, rippleColor, ...inherit
       },
-      state: { ripples = [] },
+      state: {
+        mask, width, height, ripples = [],
+      },
     } = this;
 
     return (
       <TouchableWithoutFeedback
         onLayout={onPress ? _onLayout : undefined}
-        onPressIn={onPress ? _onPress : undefined}
+        onPressIn={onPress ? _onPressIn : undefined}
+        onPressOut={_onPressOut}
         onPress={onPress}
       >
         <View style={inherit.style} pointerEvents={onPress ? 'box-only' : undefined}>
           {children}
           <View style={[styles.container, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
             { ripples.map(props => <Ripple color={rippleColor} {...props} />)}
+            <Animated.View
+              style={[
+                styles.mask,
+                { opacity: mask, height, width },
+                rippleColor && { backgroundColor: rippleColor },
+              ]}
+            />
           </View>
         </View>
       </TouchableWithoutFeedback>

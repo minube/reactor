@@ -169,7 +169,20 @@ exports[`<ListingCard> renders 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -351,7 +364,20 @@ exports[`<ListingCard> when {category} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -572,7 +598,20 @@ exports[`<ListingCard> when {children} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -706,7 +745,20 @@ exports[`<ListingCard> when {children} 1`] = `
               undefined,
             ]
           }
-        />
+        >
+          <View
+            collapsable={undefined}
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
       </View>
     </View>
   </View>
@@ -882,7 +934,20 @@ exports[`<ListingCard> when {description} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -1106,7 +1171,20 @@ exports[`<ListingCard> when {image} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -1288,7 +1366,20 @@ exports[`<ListingCard> when {rating} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -1721,7 +1812,20 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={
@@ -1903,7 +2007,20 @@ exports[`<ListingCard> when {title} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
     <View
       style={

@@ -290,7 +290,20 @@ exports[`<Slider> when {dataSource} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -484,7 +497,20 @@ exports[`<Slider> when {dataSource} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -698,7 +724,20 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -892,7 +931,20 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -1106,7 +1158,20 @@ exports[`<Slider> when {momentum} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -1300,7 +1365,20 @@ exports[`<Slider> when {momentum} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -1428,7 +1506,20 @@ exports[`<Slider> when {navigation} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
   <View
@@ -1543,7 +1634,20 @@ exports[`<Slider> when {navigation} 1`] = `
             undefined,
           ]
         }
-      />
+      >
+        <View
+          collapsable={undefined}
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
   <RCTScrollView
@@ -1763,7 +1867,20 @@ exports[`<Slider> when {steps} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -1957,7 +2074,20 @@ exports[`<Slider> when {steps} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -2176,7 +2306,20 @@ exports[`<Slider> when {style} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -2370,7 +2513,20 @@ exports[`<Slider> when {style} 1`] = `
                 undefined,
               ]
             }
-          />
+          >
+            <View
+              collapsable={undefined}
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>

@@ -134,7 +134,20 @@ exports[`<Share> renders 1`] = `
           undefined,
         ]
       }
-    />
+    >
+      <View
+        collapsable={undefined}
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
   </View>
 </View>
 `;
