@@ -10,7 +10,7 @@ import {
 } from '..';
 import styles from './Button.style';
 
-const { COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
+const { BUTTON, COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
 
 const Button = ({
   accent, activity, children, color, contained, disabled, icon, onPress, outlined,
@@ -19,6 +19,7 @@ const Button = ({
   ...inherit
 }) => (
   <Touchable
+    containerBorderRadius={rounded ? BUTTON.HEIGHT / 2 : undefined}
     disabled={disabled || !onPress}
     onPress={onPress}
     rippleColor={isSolid ? undefined : color}

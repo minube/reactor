@@ -1735,7 +1735,9 @@ exports[`<Button> when {rounded} 1`] = `
           "right": 0,
           "top": 0,
         },
-        undefined,
+        Object {
+          "borderRadius": 22.5,
+        },
       ]
     }
   >
