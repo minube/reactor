@@ -15,9 +15,7 @@ class Link extends PureComponent {
 
   render() {
     const {
-      props: {
-        href, ...inherit
-      },
+      props: { href, ...inherit },
       state: { hover },
     } = this;
 
