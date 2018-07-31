@@ -8,6 +8,7 @@ import styles from './Image.style';
 
 const AKAMAI_DOMAIN = 'imgs-akamai.mnstatic.com';
 const { IS_SERVER } = ENV;
+const ImageServer = IS_SERVER ? require('./Image.server').default : undefined;
 
 class Image extends PureComponent {
   static propTypes = {
@@ -45,7 +46,7 @@ class Image extends PureComponent {
 
     return (
       IS_SERVER
-        ? <ImageNative {...inherit} defaultSource={uri ? { uri } : undefined} />
+        ? <ImageServer uri={uri} {...inherit} />
         : (
           <View style={[styles.container, inherit.style]}>
             <ImageNative
