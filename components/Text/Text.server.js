@@ -1,5 +1,7 @@
 import { createElement } from 'react';
 
+const STYLE = { marginTop: 0, marginBottom: 0 };
+
 export default ({
   color, title, subtitle, large, small, tiny, ...inherit
 }) => {
@@ -10,5 +12,5 @@ export default ({
   else if (large) tag = 'h3';
   else if (small || tiny) tag = 'small';
 
-  return createElement(tag, { style: { color } }, inherit.children);
+  return createElement(tag, { style: { ...STYLE, color } }, inherit.children);
 };
