@@ -1,6 +1,9 @@
 import { createElement } from 'react';
 
-const STYLE = { marginTop: 0, marginBottom: 0 };
+import { THEME } from '../../common';
+
+const { COLOR } = THEME;
+const STYLE = { color: COLOR.TEXT, marginTop: 0, marginBottom: 0 };
 
 export default ({
   color, title, subtitle, large, small, tiny, ...inherit

@@ -1,13 +1,11 @@
 import { bool, number, string } from 'prop-types';
-import React, { createElement } from 'react';
+import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
-import { ENV, LAYOUT, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import styles from './Text.style';
 
 const { FONT } = THEME;
-const { IS_SERVER } = ENV;
-const TextServer = IS_SERVER ? require('./Text.server').default : undefined;
 
 const Text = ({
   lighter, semibold, bold, italic,
@@ -16,44 +14,38 @@ const Text = ({
   numberOfLines,
   ...inherit
 }) => (
-  IS_SERVER
-    ? createElement(TextServer, {
-      color, title, subtitle, large, small, tiny, ...inherit,
-    })
-    : (
-      <NativeText
-        {...inherit}
-        numberOfLines={numberOfLines}
-        style={[
-          styles.container,
-          // -- appearance
-          lighter && styles.lighter,
-          semibold && styles.semibold,
-          bold && styles.bold,
-          italic && styles.italic,
-          // -- size
-          LAYOUT.STYLE.TEXT.REGULAR,
-          tiny && LAYOUT.STYLE.TEXT.TINY,
-          small && LAYOUT.STYLE.TEXT.SMALL,
-          large && LAYOUT.STYLE.TEXT.LARGE,
-          subtitle && LAYOUT.STYLE.TEXT.SUBTITLE,
-          title && LAYOUT.STYLE.TEXT.TITLE,
-          // -- color
-          lighten && styles.lighten,
-          primary && styles.primary,
-          accent && styles.accent,
-          // -- flatten
-          StyleSheet.flatten([
-            inherit.style,
-            color && { color },
-            numberOfLines > 1 && (small || tiny) && {
-              maxHeight: numberOfLines * (small ? FONT.SIZE.SMALL : FONT.SIZE.TINY),
-              overflow: 'hidden',
-            },
-          ]),
-        ]}
-      />
-    )
+  <NativeText
+    {...inherit}
+    numberOfLines={numberOfLines}
+    style={[
+      styles.container,
+      // -- appearance
+      lighter && styles.lighter,
+      semibold && styles.semibold,
+      bold && styles.bold,
+      italic && styles.italic,
+      // -- size
+      LAYOUT.STYLE.TEXT.REGULAR,
+      tiny && LAYOUT.STYLE.TEXT.TINY,
+      small && LAYOUT.STYLE.TEXT.SMALL,
+      large && LAYOUT.STYLE.TEXT.LARGE,
+      subtitle && LAYOUT.STYLE.TEXT.SUBTITLE,
+      title && LAYOUT.STYLE.TEXT.TITLE,
+      // -- color
+      lighten && styles.lighten,
+      primary && styles.primary,
+      accent && styles.accent,
+      // -- flatten
+      StyleSheet.flatten([
+        inherit.style,
+        color && { color },
+        numberOfLines > 1 && (small || tiny) && {
+          maxHeight: numberOfLines * (small ? FONT.SIZE.SMALL : FONT.SIZE.TINY),
+          overflow: 'hidden',
+        },
+      ]),
+    ]}
+  />
 );
 
 Text.propTypes = {
