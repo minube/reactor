@@ -2,15 +2,11 @@ import {
   bool, func, number, string,
 } from 'prop-types';
 import React, { Component } from 'react';
-import { Platform, View } from 'react-native';
+import { View } from 'react-native';
 
 import Activity from '../Activity';
-import { embedUrl, htmlVideo } from './modules';
+import { embedUrl } from './modules';
 import styles from './Video.style';
-
-const isWeb = Platform.OS === 'web';
-let WebView;
-if (!isWeb) WebView = require('react-native').WebView; // eslint-disable-line
 
 class Video extends Component {
   state = {
@@ -50,52 +46,36 @@ class Video extends Component {
         pointerEvents={!controls && autoPlay ? 'none' : undefined}
         style={[styles.container, dimensions, !ready && styles.loading, inherit.style]}
       >
-        { isWeb && !ready && <Activity size="large" style={styles.activity} /> }
+        { !ready && <Activity size="large" style={styles.activity} /> }
 
-        { isWeb && !embed
-          && (
-          <video
-            {...inherit}
-            ref={(el) => { this.el = el; }}
-            autoPlay={autoPlay}
-            controls={controls ? 'true' : undefined}
-            onLoadedData={_onLoad}
-            pointerEvents={pointerEvents}
-            preload={preload ? 'auto' : 'none'}
-            style={{ objectFit: 'cover', width, height }}
-          >
-            <source src={source} />
-            <track kind="captions" />
-          </video>
-          ) }
-
-        { isWeb && embed
-          && (
-          <iframe
-            allowFullScreen
-            key={embed}
-            frameBorder={0}
-            onLoad={_onLoad}
-            pointerEvents={pointerEvents}
-            width="100%"
-            height="100%"
-            src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
-            title={embed}
-          />
-          ) }
-
-        { !isWeb
-          && (
-          <WebView
-            allowsInlineMediaPlayback
-            mediaPlaybackRequiresUserAction={false}
-            scalesPageToFit={false}
-            scrollEnabled={false}
-            onLoadStart={onLoad}
-            source={{ html: htmlVideo(this.props) }}
-            style={[styles.webView, dimensions]}
-          />
-          ) }
+        { embed
+          ? (
+            <iframe
+              allowFullScreen
+              key={embed}
+              frameBorder={0}
+              onLoad={_onLoad}
+              pointerEvents={pointerEvents}
+              width="100%"
+              height="100%"
+              src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
+              title={embed}
+            />)
+          : (
+            <video
+              {...inherit}
+              ref={(el) => { this.el = el; }}
+              autoPlay={autoPlay}
+              controls={controls ? 'true' : undefined}
+              onLoadedData={_onLoad}
+              pointerEvents={pointerEvents}
+              preload={preload ? 'auto' : 'none'}
+              style={{ objectFit: 'cover', width, height }}
+            >
+              <source src={source} />
+              <track kind="captions" />
+            </video>)
+        }
       </View>
     );
   }

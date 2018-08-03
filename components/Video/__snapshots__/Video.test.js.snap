@@ -2,7 +2,6 @@
 
 exports[`<Video> renders 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -17,9 +16,6 @@ exports[`<Video> renders 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -93,7 +89,6 @@ exports[`<Video> renders 1`] = `
 
 exports[`<Video> when {autoplay} 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -108,9 +103,6 @@ exports[`<Video> when {autoplay} 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -184,7 +176,6 @@ exports[`<Video> when {autoplay} 1`] = `
 
 exports[`<Video> when {controls} 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -199,9 +190,6 @@ exports[`<Video> when {controls} 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -275,7 +263,6 @@ exports[`<Video> when {controls} 1`] = `
 
 exports[`<Video> when {dimensions} 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -290,9 +277,6 @@ exports[`<Video> when {dimensions} 1`] = `
         "maxHeight": 128,
         "maxWidth": 256,
         "width": 256,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -366,7 +350,6 @@ exports[`<Video> when {dimensions} 1`] = `
 
 exports[`<Video> when {preload} 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -381,9 +364,6 @@ exports[`<Video> when {preload} 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -457,7 +437,6 @@ exports[`<Video> when {preload} 1`] = `
 
 exports[`<Video> when {source} (vimeo) 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -472,9 +451,6 @@ exports[`<Video> when {source} (vimeo) 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -547,7 +523,6 @@ exports[`<Video> when {source} (vimeo) 1`] = `
 
 exports[`<Video> when {source} (youtube) 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -562,9 +537,6 @@ exports[`<Video> when {source} (youtube) 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -637,7 +609,6 @@ exports[`<Video> when {source} (youtube) 1`] = `
 
 exports[`<Video> when {source} 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -652,9 +623,6 @@ exports[`<Video> when {source} 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       undefined,
     ]
@@ -728,7 +696,6 @@ exports[`<Video> when {source} 1`] = `
 
 exports[`<Video> when {style} 1`] = `
 <View
-  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -743,9 +710,6 @@ exports[`<Video> when {style} 1`] = `
         "maxHeight": 180,
         "maxWidth": 320,
         "width": 320,
-      },
-      Object {
-        "backgroundColor": "#f4f4f4",
       },
       Object {
         "height": 400,
