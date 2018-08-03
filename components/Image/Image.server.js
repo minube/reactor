@@ -1,5 +1,9 @@
 import { createElement } from 'react';
 
-const DEFAULT_ALT = 'Server Side Rendering';
+import resizeWithAkamai from './modules/resizeWithAkamai';
 
-export default ({ alt = DEFAULT_ALT, style, uri: src }) => createElement('img', { alt, src, style });
+const DEFAULT_ALT = 'minube.com';
+
+export default ({
+  alt = DEFAULT_ALT, style, source: { uri },
+}) => createElement('img', { alt, src: resizeWithAkamai({ uri }), style });
