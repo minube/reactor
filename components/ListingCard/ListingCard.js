@@ -5,7 +5,10 @@ import React from 'react';
 import { TouchableWithoutFeedback, View } from 'react-native';
 
 import { LAYOUT, SHAPE } from '../../common';
-import { PictureCard, Rating, Text } from '..';
+import PictureCard from '../PictureCard';
+import Rating from '../Rating';
+import Text from '../Text';
+
 import styles from './ListingCard.style';
 
 const ListingCard = ({

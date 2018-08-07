@@ -5,9 +5,10 @@ import React from 'react';
 import { View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
-import {
-  Activity, Icon, Text, Touchable,
-} from '..';
+import Activity from '../Activity';
+import Icon from '../Icon';
+import Text from '../Text';
+import Touchable from '../Touchable';
 import styles from './Button.style';
 
 const { BUTTON, COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;

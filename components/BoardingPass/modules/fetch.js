@@ -1,4 +1,4 @@
-import ENV from '../../../common/environment';
+import { ENV } from '../../../common';
 
 const { IS_PRODUCTION } = ENV;
 const DEFAULT_HEADERS = {
