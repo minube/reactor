@@ -17,11 +17,11 @@ const VALUE_COMPLEX = [
   { avatar: 'https://api.adorable.io/avatars/128/4', name: 'four' },
   { avatar: 'https://api.adorable.io/avatars/128/5', name: 'five' },
 ]
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', maxWidth: 320 };
 const item = ({ avatar, name }) => (
   <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
     <Avatar image={avatar} small />
-    <Text style={{ marginLeft: 10 }}>{name}</Text>
+    <Text tiny semibold style={{ marginLeft: 6 }}>{name}</Text>
   </View>
 );
 

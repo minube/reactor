@@ -491,6 +491,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "borderTopWidth": 0,
           "borderWidth": 1,
         },
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "padding": 10,
+        },
         undefined,
         false,
       ]
@@ -501,10 +507,14 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -635,77 +645,28 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -743,10 +704,14 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -877,77 +842,28 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -985,10 +901,14 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -1119,77 +1039,28 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -1227,10 +1098,14 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -1361,77 +1236,28 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -1469,10 +1295,14 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -1603,77 +1433,28 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -1955,6 +1736,12 @@ exports[`<InputList> when {value} 1`] = `
           "borderTopWidth": 0,
           "borderWidth": 1,
         },
+        Object {
+          "alignItems": "flex-start",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "padding": 10,
+        },
         undefined,
         false,
       ]
@@ -1965,10 +1752,14 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -1985,18 +1776,20 @@ exports[`<InputList> when {value} 1`] = `
               "fontFamily": undefined,
             },
             false,
-            false,
+            Object {
+              "fontWeight": "600",
+            },
             false,
             false,
             Object {
               "fontSize": 16,
               "lineHeight": 20.8,
             },
-            false,
             Object {
-              "fontSize": 14,
-              "lineHeight": 16.8,
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
             },
+            false,
             false,
             false,
             false,
@@ -2026,77 +1819,28 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -2134,10 +1878,14 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -2154,18 +1902,20 @@ exports[`<InputList> when {value} 1`] = `
               "fontFamily": undefined,
             },
             false,
-            false,
+            Object {
+              "fontWeight": "600",
+            },
             false,
             false,
             Object {
               "fontSize": 16,
               "lineHeight": 20.8,
             },
-            false,
             Object {
-              "fontSize": 14,
-              "lineHeight": 16.8,
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
             },
+            false,
             false,
             false,
             false,
@@ -2195,77 +1945,28 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -2303,10 +2004,14 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -2323,18 +2028,20 @@ exports[`<InputList> when {value} 1`] = `
               "fontFamily": undefined,
             },
             false,
-            false,
+            Object {
+              "fontWeight": "600",
+            },
             false,
             false,
             Object {
               "fontSize": 16,
               "lineHeight": 20.8,
             },
-            false,
             Object {
-              "fontSize": 14,
-              "lineHeight": 16.8,
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
             },
+            false,
             false,
             false,
             false,
@@ -2364,77 +2071,28 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -2472,10 +2130,14 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -2492,18 +2154,20 @@ exports[`<InputList> when {value} 1`] = `
               "fontFamily": undefined,
             },
             false,
-            false,
+            Object {
+              "fontWeight": "600",
+            },
             false,
             false,
             Object {
               "fontSize": 16,
               "lineHeight": 20.8,
             },
-            false,
             Object {
-              "fontSize": 14,
-              "lineHeight": 16.8,
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
             },
+            false,
             false,
             false,
             false,
@@ -2533,77 +2197,28 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [
@@ -2641,10 +2256,14 @@ exports[`<InputList> when {value} 1`] = `
       style={
         Object {
           "alignItems": "center",
+          "backgroundColor": "#CDD2D4",
+          "borderRadius": 16,
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "paddingLeft": 10,
+          "margin": 1,
+          "minHeight": 32,
+          "paddingHorizontal": 10,
           "paddingVertical": 5,
         }
       }
@@ -2661,18 +2280,20 @@ exports[`<InputList> when {value} 1`] = `
               "fontFamily": undefined,
             },
             false,
-            false,
+            Object {
+              "fontWeight": "600",
+            },
             false,
             false,
             Object {
               "fontSize": 16,
               "lineHeight": 20.8,
             },
-            false,
             Object {
-              "fontSize": 14,
-              "lineHeight": 16.8,
+              "fontSize": 12,
+              "lineHeight": 14.399999999999999,
             },
+            false,
             false,
             false,
             false,
@@ -2702,77 +2323,28 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            false,
-            Object {
-              "opacity": 0.25,
-              "transform": Array [
-                Object {
-                  "scale": 0.75,
-                },
-              ],
-            },
-          ]
-        }
+        style={undefined}
         testID={undefined}
       >
-        <View
+        <Image
+          resizeMode="contain"
+          source={1}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
+                "height": 10,
+                "marginLeft": 10,
+                "width": 10,
               },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
+              undefined,
             ]
           }
-        >
-          <Image
-            resizeMode="contain"
-            source={1}
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-        </View>
+        />
         <View
           style={
             Array [

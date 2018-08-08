@@ -4,7 +4,7 @@ import {
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import Button from '../Button';
+import Icon from '../Icon';
 import Input, { InputLabel } from '../Input';
 import Touchable from '../Touchable';
 import ItemList from './components/ItemList';
@@ -92,31 +92,30 @@ class InputList extends PureComponent {
           style={styles.input}
           value={inputValue}
         />
+
         { suggestions.length > 0 && (
-          <View style={[styles.value, styles.dataSource]}>
+          <View style={[styles.content, styles.suggestions]}>
             { suggestions.map(item => (
-              <Touchable onPress={() => _onSelectItem(item)} style={styles.item}>
+              <Touchable onPress={() => _onSelectItem(item)} style={styles.suggestion}>
                 <ItemList template={itemTemplate} value={item} />
               </Touchable>))}
           </View>
         )}
 
         { value.length > 0 && (
-          <View style={[styles.value, !disabled && error && styles.error, disabled && styles.disabled]}>
+          <View
+            style={[styles.content, styles.values, !disabled && error && styles.error, disabled && styles.disabled]}
+          >
             { value.map(item => (
               <View
                 key={itemTemplate ? item.id : item}
                 pointerEvents={disabled ? 'none' : undefined}
-                style={styles.item}
+                style={styles.value}
               >
                 <ItemList template={itemTemplate} value={item} />
-                <Button
-                  small
-                  contained={false}
-                  icon="closeDark"
-                  onPress={() => _onRemove(item)}
-                  style={styles.itemButton}
-                />
+                <Touchable onPress={() => _onRemove(item)}>
+                  <Icon value="close" style={styles.iconClose} />
+                </Touchable>
               </View>
             ))}
           </View>

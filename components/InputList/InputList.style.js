@@ -9,13 +9,12 @@ export default StyleSheet.create({
     marginBottom: OFFSET,
   },
 
-  dataSource: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    top: UNIT * 4.6,
-    width: '100%',
-    zIndex: 1,
+  content: {
+    backgroundColor: COLOR.WHITE,
+    borderColor: COLOR.BORDER,
+    borderWidth: 1,
+    borderTopWidth: 0,
+    borderRadius: UNIT / 4,
   },
 
   input: {
@@ -31,27 +30,44 @@ export default StyleSheet.create({
     backgroundColor: COLOR.BACKGROUND,
   },
 
-  value: {
-    backgroundColor: COLOR.WHITE,
-    borderColor: COLOR.BORDER,
-    borderWidth: 1,
-    borderTopWidth: 0,
-    borderRadius: UNIT / 4,
+  values: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    alignItems: 'flex-start',
+    padding: UNIT,
   },
 
-  item: {
+  value: {
     ...STYLE.ROW,
     justifyContent: 'space-between',
-    paddingLeft: UNIT,
-    paddingVertical: UNIT * 0.5,
+    minHeight: OFFSET * 2,
+    backgroundColor: COLOR.CONTENT,
+    borderRadius: OFFSET,
+    margin: UNIT / 10,
+    paddingHorizontal: UNIT,
+    paddingVertical: UNIT / 2,
   },
 
-  itemButton: {
-    opacity: 0.25,
-    transform: [{ scale: 0.75 }],
+  iconClose: {
+    marginLeft: UNIT,
+    width: UNIT,
+    height: UNIT,
   },
 
-  active: {
-    color: COLOR.ACCENT,
+  suggestions: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    alignSelf: 'flex-start',
+    top: UNIT * 3.6,
+    width: '100%',
+    zIndex: 1,
+  },
+
+  suggestion: {
+    ...STYLE.ROW,
+    justifyContent: 'space-between',
+    paddingHorizontal: UNIT,
+    paddingVertical: UNIT / 2,
   },
 });

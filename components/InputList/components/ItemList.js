@@ -10,7 +10,7 @@ const Item = ({ template, value = {} }) => (
   template
     ? createElement(template, { ...value })
     : (
-      <Text small style={styles.text}>
+      <Text semibold tiny style={styles.text}>
         {value}
       </Text>)
 );
