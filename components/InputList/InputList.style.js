@@ -7,6 +7,7 @@ const { COLOR, OFFSET, UNIT } = THEME;
 export default StyleSheet.create({
   container: {
     marginBottom: OFFSET,
+    zIndex: 1,
   },
 
   content: {
@@ -58,8 +59,9 @@ export default StyleSheet.create({
     position: 'absolute',
     left: 0,
     right: 0,
+    borderTopWidth: 1,
     alignSelf: 'flex-start',
-    top: UNIT * 3.6,
+    top: UNIT * 5.4,
     width: '100%',
     zIndex: 1,
   },

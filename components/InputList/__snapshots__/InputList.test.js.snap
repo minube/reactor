@@ -6,6 +6,7 @@ exports[`<InputList> renders 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -29,7 +30,6 @@ exports[`<InputList> renders 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -71,6 +71,7 @@ exports[`<InputList> when {dataSource} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -94,15 +95,6 @@ exports[`<InputList> when {dataSource} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={
-        Array [
-          "uno",
-          "dos",
-          "tres",
-          "cuatro",
-          "cinco",
-        ]
-      }
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -144,6 +136,7 @@ exports[`<InputList> when {disabled} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -167,7 +160,6 @@ exports[`<InputList> when {disabled} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={false}
       keyboardType="default"
       multiline={false}
@@ -212,6 +204,7 @@ exports[`<InputList> when {error} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -235,7 +228,6 @@ exports[`<InputList> when {error} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -320,6 +312,7 @@ exports[`<InputList> when {hint} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -343,7 +336,6 @@ exports[`<InputList> when {hint} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -425,6 +417,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -448,7 +441,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -1497,6 +1489,7 @@ exports[`<InputList> when {label} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -1560,7 +1553,6 @@ exports[`<InputList> when {label} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -1602,6 +1594,7 @@ exports[`<InputList> when {style} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -1628,7 +1621,6 @@ exports[`<InputList> when {style} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}
@@ -1670,6 +1662,7 @@ exports[`<InputList> when {value} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
+        "zIndex": 1,
       },
       undefined,
     ]
@@ -1693,7 +1686,6 @@ exports[`<InputList> when {value} 1`] = `
       autoCapitalize="none"
       autoCorrect={false}
       blurOnSubmit={true}
-      dataSource={undefined}
       editable={true}
       keyboardType="default"
       multiline={false}

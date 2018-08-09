@@ -57,22 +57,22 @@ storiesOf('🛠 InputList', module)
     <InputList hint="Optional field" />
   ))
   .addWithJSX('label', () => (
-    <InputList label="Username" />
+    <InputList label="Numbers" />
   ))
   .addWithJSX('value', () => (
-    <InputList value="three" value={VALUE} />
+    <InputList label="Numbers" value="three" value={VALUE} />
   ))
   .addWithJSX('dataSource', () => (
-    <InputList dataSource={DATA_SOURCE} />
+    <InputList label="Numbers" dataSource={DATA_SOURCE} />
   ))
   .addWithJSX('itemTemplate', () => (
-    <InputList itemTemplate={item} value={VALUE_COMPLEX} />
+    <InputList label="Numbers" itemTemplate={item} value={VALUE_COMPLEX} />
   ))
   .addWithJSX('⚡ onChange', () => (
-    <InputList onChange={action('InputList.onChange()')} title="Press me" value={VALUE} />
+    <InputList label="Numbers" onChange={action('InputList.onChange()')} title="Press me" value={VALUE} />
   ))
   .addWithJSX('style', () => (
-    <InputList style={STYLE} value={VALUE} />
+    <InputList label="Numbers" style={STYLE} value={VALUE} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <InputListHOC
@@ -80,7 +80,7 @@ storiesOf('🛠 InputList', module)
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', null)}
-      label={text('label', null)}
+      label={text('label', "numbers")}
       value={array('value', VALUE)}
       style={object('style', STYLE)}
     />

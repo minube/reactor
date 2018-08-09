@@ -6,18 +6,22 @@ import React, { createElement } from 'react';
 import Text from '../../Text';
 import styles from './ItemList.style';
 
-const Item = ({ template, value = {} }) => (
+const ItemList = ({ template, value = {} }) => (
   template
     ? createElement(template, { ...value })
     : (
       <Text semibold tiny style={styles.text}>
-        {value}
+        {typeof value === 'object' ? value.title : value}
       </Text>)
 );
 
-Item.propTypes = {
-  template: node.isRequired,
+ItemList.propTypes = {
+  template: node,
   value: oneOfType([string, shape({})]).isRequired,
 };
 
-export default Item;
+ItemList.defaultProps = {
+  template: undefined,
+};
+
+export default ItemList;
