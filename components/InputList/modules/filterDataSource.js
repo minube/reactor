@@ -1,4 +1,4 @@
-export default (base = [], value = '', selected = []) => {
+export default (base = [], value = '', selected = [], fieldId = 'id') => {
   if (value.length < 1) return base;
   const isString = typeof base[0] === 'string';
 
@@ -10,6 +10,6 @@ export default (base = [], value = '', selected = []) => {
     .filter(item => (
       isString
         ? selected.includes(item) === false
-        : true // @TODO: We should filter objects dataSource
+        : selected.find(selectedId => selectedId === item[fieldId]) === undefined
     ));
 };
