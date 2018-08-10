@@ -3,6 +3,10 @@
     "react-native"
   ],
   "plugins": [
-    "react-native-web"
+    "react-native-web",
+    ["transform-runtime", {
+      "polyfill": false,
+      "regenerator": true
+    }]
   ]
 }
