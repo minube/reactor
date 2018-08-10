@@ -23,7 +23,7 @@ if (environment === 'web' && window && window.navigator) {
 }
 
 const connection = async () => {
-  const { effectiveType, type } = await NetInfo.getConnectionInfo();
+  const { effectiveType, type } = await NetInfo.getConnectionInfo() || {};
   return { effectiveType, type };
 };
 

@@ -5976,10 +5976,6 @@ hash.js@^1.1.5:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-hash@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hash/-/hash-0.2.1.tgz#a719d789397c5637f02043c0c180f431fdf9a6ec"
-
 hawk@~6.0.2:
   version "6.0.2"
   resolved "https://registry.yarnpkg.com/hawk/-/hawk-6.0.2.tgz#af4d914eb065f9b5ce4d9d11c1cb2126eecc3038"
