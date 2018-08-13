@@ -38,6 +38,11 @@ class Form extends PureComponent {
     valid: true,
   };
 
+  componentDidMount() {
+    const { props: { onValid }, state: { valid } } = this;
+    onValid(valid);
+  }
+
   componentWillUpdate() {
     this.state.valid = true;
   }
