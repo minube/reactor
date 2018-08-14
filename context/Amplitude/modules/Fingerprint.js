@@ -1,8 +1,7 @@
 import deviceEntropy, { connection } from './entropy';
 import AsyncStore from './AsyncStore';
+import sha256 from './sha256';
 import PKG from '../../../package.json';
-
-const sha256 = require('hash.js/lib/hash/sha/256');
 
 const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;
 
@@ -18,9 +17,7 @@ export default async () => {
       random: Math.floor(Math.random() * (2 ** 32)),
       timestamp: new Date().getTime(),
     };
-    fingerprint = sha256()
-      .update(Object.values(entropy).join('-'))
-      .digest('hex');
+    fingerprint = sha256(Object.values(entropy).join('-'));
 
     await AsyncStore.setItem(STORE_FINGERPRINT, fingerprint);
   }
