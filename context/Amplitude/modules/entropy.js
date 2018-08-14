@@ -2,15 +2,18 @@ import {
   DeviceInfo, Dimensions, NetInfo, PixelRatio, Platform,
 } from 'react-native';
 
-let { OS: platform } = Platform;
+import { ENV } from '../../../common';
+
+const { IS_WEB, IS_SERVER } = ENV;
 const { height, width } = Dimensions.get('window');
 const pixelRatio = PixelRatio.get();
 const fontScale = PixelRatio.getFontScale();
 const { locale, totalMemory, userAgent } = DeviceInfo;
-const environment = platform === 'web' ? 'web' : 'native';
+const environment = IS_WEB ? 'web' : 'native';
+let { OS: platform } = Platform;
 
 let vendor;
-if (environment === 'web' && window && window.navigator) {
+if (IS_WEB && !IS_SERVER && window && window.navigator) {
   const { appVersion, vendor: navigatorVendor } = window.navigator;
 
   platform = undefined;
