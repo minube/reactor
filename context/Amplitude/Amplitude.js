@@ -34,15 +34,19 @@ class ProviderAmplitude extends PureComponent {
 
   async componentWillMount() {
     const { _syncEvents } = this;
+    let fingerprint;
+    if (!IS_SERVER) fingerprint = await new Fingerprint();
 
     this.setState({
       isConnected: true,
-      fingerprint: await new Fingerprint(),
+      fingerprint,
       sessionId: new Date().getTime(),
     });
 
-    _syncEvents();
-    NetInfo.addEventListener('connectionChange', _syncEvents);
+    if (!IS_SERVER) {
+      _syncEvents();
+      NetInfo.addEventListener('connectionChange', _syncEvents);
+    }
   }
 
   _syncEvents = async () => {
