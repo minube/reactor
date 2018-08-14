@@ -1,3 +1,8 @@
-import queryString from './queryString';
+import AsyncStore from './AsyncStore';
+import entropy from './entropy';
+import fetch from './fetch';
+import Fingerprint from './Fingerprint';
 
-export { queryString } // eslint-disable-line
+export {
+  AsyncStore, entropy, fetch, Fingerprint,
+};

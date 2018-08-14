@@ -4,9 +4,11 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color, object } from '@storybook/addon-knobs/react';
 
+import { STYLE, THEME } from './common';
 import {
-  Button, Dialog, Text, Image, STYLE, THEME,
-} from './index';
+  Button, Dialog, Text, Image,
+} from './components';
+import { Consumer, Provider } from './context';
 
 const { COLOR, OFFSET, UNIT } = THEME;
 
@@ -63,5 +65,17 @@ storiesOf('🏀 Playground', module)
         />
       </View>
     </Dialog>
+  ))
+  .addWithJSX('Amplitude v3', () => (
+    <Provider>
+      <Consumer>
+        { ({ logEvent }) => (
+            <Button
+              title="Press me"
+              onPress={() => logEvent({ type: 'reactor:demo', hello: 'world' })}
+            />
+        )}
+        </Consumer>
+    </Provider>
   ));
 
