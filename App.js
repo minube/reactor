@@ -1,4 +1,4 @@
- import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { STYLE, THEME } from './common';
