@@ -1,8 +1,8 @@
 import AsyncStore from './AsyncStore';
-import entropy from './entropy';
 import fetch from './fetch';
 import Fingerprint from './Fingerprint';
+import getCookie from './getCookie';
 
 export {
-  AsyncStore, entropy, fetch, Fingerprint,
+  AsyncStore, fetch, Fingerprint, getCookie,
 };
