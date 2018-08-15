@@ -15,7 +15,7 @@ describe('sha256', () => {
     expect(sha256()).toEqual('e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855');
   });
 
-  it('connection entrophy', async () => {
+  it('using sample of hashes', async () => {
     expect(sha256(SAMPLES[0])).toEqual(HASHES[0]);
     expect(sha256(SAMPLES[1])).toEqual(HASHES[1]);
   });
