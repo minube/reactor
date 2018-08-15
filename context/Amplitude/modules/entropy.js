@@ -10,19 +10,20 @@ const pixelRatio = PixelRatio.get();
 const fontScale = PixelRatio.getFontScale();
 const { locale, totalMemory, userAgent } = DeviceInfo;
 const environment = IS_WEB ? 'web' : 'native';
-let { OS: platform } = Platform;
+const { OS: platform } = Platform;
+let deviceModel;
+let osName = platform;
+let osVersion;
 
-let vendor;
 if (IS_WEB && !IS_SERVER && window && window.navigator) {
   const { appVersion, vendor: navigatorVendor } = window.navigator;
 
-  platform = undefined;
-  if (appVersion.indexOf('Win') !== -1) platform = 'windows';
-  if (appVersion.indexOf('Mac') !== -1) platform = 'macos';
-  if (appVersion.indexOf('X11') !== -1) platform = 'unix';
-  if (appVersion.indexOf('Linux') !== -1) platform = 'linux';
+  if (appVersion.indexOf('Win') !== -1) osName = 'windows';
+  if (appVersion.indexOf('Mac') !== -1) osName = 'macos';
+  if (appVersion.indexOf('X11') !== -1) osName = 'unix';
+  if (appVersion.indexOf('Linux') !== -1) osName = 'linux';
 
-  vendor = navigatorVendor;
+  osName = navigatorVendor;
 }
 
 const connection = async () => {
@@ -33,14 +34,16 @@ const connection = async () => {
 export { connection };
 
 export default {
-  platform,
+  deviceModel,
   environment,
-  width,
   height,
-  pixelRatio,
   fontScale,
   locale,
+  osName,
+  osVersion,
+  pixelRatio,
+  platform,
   totalMemory,
   userAgent,
-  vendor,
+  width,
 };
