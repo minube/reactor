@@ -15,7 +15,7 @@ const ENDPOINT_PROPERTY = {
 };
 
 export default async (key, event = {}, endpoint = DEFAULT_ENDPOINT) => {
-  if (!IS_PRODUCTION) console.info('⚡️ProviderAmplitude.LogEvent', event);
+  if (!IS_PRODUCTION) console.info('⚡️ProviderAmplitude:${endpoint}', event);
 
   const props = {
     device_model: deviceModel, // "Android",
