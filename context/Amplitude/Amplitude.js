@@ -41,7 +41,7 @@ class ProviderAmplitude extends PureComponent {
     if (!IS_SERVER) {
       fingerprint = await new Fingerprint();
       if (IS_WEB) cookie = getCookie('reactor:request');
-      fetch(key, { user_id: fingerprint, user_properties: cookie ? JSON.parse(cookie) : cookie }, 'identify');
+      fetch(key, { ...fingerprint, user_properties: cookie ? JSON.parse(cookie) : cookie }, 'identify');
     }
 
     this.setState({ isConnected: true, fingerprint, sessionId });
@@ -80,12 +80,14 @@ class ProviderAmplitude extends PureComponent {
     } = this;
 
     const event = {
-      user_id: fingerprint,
+      ...fingerprint, // uuid + device_id
       session_id: sessionId,
+      // version_name: undefined, // WEB: .com, .nova.pt ... NATIVE: version number
       ...session,
       event_id: eventId,
       event_properties: props,
       event_type: type,
+      sequence_number: eventId,
     };
     eventId += 1;
 

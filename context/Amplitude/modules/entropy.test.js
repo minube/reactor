@@ -1,15 +1,15 @@
 import entropy, { connection } from './entropy';
 
 const ENTROPY_KEYS = [
+  'browserName',
+  'browserVersion',
   'deviceModel',
-  'environment',
   'height',
   'fontScale',
   'locale',
   'osName',
   'osVersion',
   'pixelRatio',
-  'platform',
   'totalMemory',
   'userAgent',
   'width',
@@ -18,15 +18,15 @@ const ENTROPY_KEYS = [
 describe('entropy', () => {
   it('default', () => {
     expect(Object.keys(entropy)).toEqual(ENTROPY_KEYS);
+    expect(entropy.browserName).toBeUndefined();
+    expect(entropy.browserVersion).toBeUndefined();
     expect(entropy.deviceModel).toBeUndefined();
-    expect(entropy.environment).toEqual('native');
     expect(entropy.height).toEqual(1334);
     expect(entropy.fontScale).toEqual(2);
     expect(entropy.locale).toBeUndefined();
     expect(entropy.osName).toEqual('ios');
     expect(entropy.osVersion).toBeUndefined();
     expect(entropy.pixelRatio).toEqual(2);
-    expect(entropy.platform).toEqual('ios');
     expect(entropy.totalMemory).toBeUndefined()
     expect(entropy.userAgent).toBeUndefined()
     expect(entropy.width).toEqual(750);

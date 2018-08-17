@@ -4,9 +4,10 @@ import PKG from '../../../package.json';
 import entropy from './entropy';
 import queryString from './queryString';
 
-const { IS_PRODUCTION } = ENV;
+const { IS_PRODUCTION, IS_WEB } = ENV;
 const {
-  deviceModel, locale, osName, osVersion, platform, userAgent, ...userProperties
+  browserName, browserVersion, deviceModel, locale, osName, osVersion, platform, totalMemory, userAgent,
+  ...userProperties
 } = entropy;
 const DEFAULT_ENDPOINT = 'httpapi';
 const ENDPOINT_PROPERTY = {
@@ -15,21 +16,29 @@ const ENDPOINT_PROPERTY = {
 };
 
 export default async (key, event = {}, endpoint = DEFAULT_ENDPOINT) => {
-  if (!IS_PRODUCTION) console.info(`⚡️ProviderAmplitude:${endpoint}`, event);
+  if (!IS_PRODUCTION) console.info(`⚡️ProviderAmplitude:${endpoint}`, event); // eslint-disable-line
 
   const props = {
-    device_model: deviceModel, // "Android",
+    // device_model: deviceModel, // iPhone
     language: locale,
     library: { name: PKG.name, version: PKG.version },
-    os_name: osName, // "Chrome Mobile"
-    os_version: osVersion, // 70
-    platform,
+    os_name: IS_WEB ? browserName : osName,
+    os_version: IS_WEB ? browserVersion : osVersion,
+    platform: IS_WEB ? 'web' : osName,
     timestamp: new Date().getTime(),
     user_agent: userAgent,
-    // version_name: null
+    // version_name: null // Used for determine the app, we'll use event_properties.pkg
     ...event,
     user_properties: endpoint !== DEFAULT_ENDPOINT
-      ? { $setOnce: { ...userProperties, ...event.user_properties } }
+      ? {
+        $setOnce: {
+          browser: { name: browserName, version: browserVersion },
+          os: { name: osName, version: osVersion },
+          screen: userProperties,
+          totalMemory,
+          ...event.user_properties,
+        },
+      }
       : undefined,
   };
 
