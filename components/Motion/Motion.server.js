@@ -1,4 +1,7 @@
 import { createElement } from 'react';
-import { View } from 'react-native';
 
-export default ({ children, style }) => createElement(View, { style }, children);
+import { serverSideStyle } from '../../common';
+
+export default ({
+  children, style,
+}) => createElement('div', { style: serverSideStyle(style) }, children);

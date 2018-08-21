@@ -1,3 +1,7 @@
 import { createElement } from 'react';
 
-export default ({ href, ...inherit }) => createElement('a', { href }, inherit.children);
+import { serverSideStyle } from '../../common';
+
+export default ({
+  children, href, style,
+}) => createElement('a', { href, style: serverSideStyle(style) }, children);
