@@ -39,7 +39,7 @@ class Image extends PureComponent {
     if (responsive && uri) uri = resizeWithAkamai({ uri, ratio });
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, inherit.styleContainer || inherit.style]}>
         <ImageNative
           {...inherit}
           source={uri ? { uri } : undefined}
