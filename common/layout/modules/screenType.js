@@ -1,4 +1,4 @@
-export default width => ({
+export default (width = 360) => ({
   TINY: width < 360,
   PHONE: width >= 360 && width < 376,
   TABLET: width >= 376 && width < 510,

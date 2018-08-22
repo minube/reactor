@@ -3,7 +3,7 @@ import screenType from './screenType';
 
 const { STYLE } = THEME;
 
-export default (width) => {
+export default (width = 360) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
   } = screenType(width);
