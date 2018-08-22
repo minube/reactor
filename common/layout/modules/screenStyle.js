@@ -1,16 +1,12 @@
-import { Dimensions, Platform } from 'react-native';
-
-import THEME from './theme';
-import screenSize from './modules/screenSize';
+import THEME from '../../theme';
+import screenType from './screenType';
 
 const { STYLE } = THEME;
 
-const DEFAULT = { WIDTH: 360, HEIGHT: 640 };
-
-const calc = (width) => {
+export default (width) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
-  } = screenSize(width);
+  } = screenType(width);
 
   return {
     BUTTON: {
@@ -58,45 +54,3 @@ const calc = (width) => {
     },
   };
 };
-
-class Layout {
-  constructor() {
-    if (!Layout.instance) {
-      const { height, width } = Dimensions.get('window');
-      Layout.instance = this;
-      this.height = height;
-      this.width = width;
-      this.style = calc(width);
-    }
-    return Layout.instance;
-  }
-
-  get STYLE() {
-    return this.style;
-  }
-
-  get VIEWPORT() {
-    const H = this.height || DEFAULT.HEIGHT;
-    const W = this.width || DEFAULT.WIDTH;
-    const PORTRAIT = H > W;
-
-    return {
-      H,
-      W,
-
-      PORTRAIT,
-      LANDSCAPE: W > H,
-      IPHONEX: PORTRAIT && H === 812 && Platform.OS === 'ios' && !Platform.isPad && !Platform.isTVOS,
-
-      ...screenSize(W),
-    };
-  }
-
-  calc({ height = DEFAULT.HEIGHT, width = DEFAULT.WIDTH } = Dimensions.get('window')) {
-    this.height = height;
-    this.width = width;
-    this.style = calc(width);
-  }
-}
-
-export default new Layout();

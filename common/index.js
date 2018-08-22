@@ -1,16 +1,15 @@
 import ENV from './environment';
-import LAYOUT from './layout';
+import LAYOUT from './layout/index';
 import SHAPE from './shape';
+import serverSideStyle from './serverSideStyle';
 import STYLE from './style';
 import THEME from './theme';
-// -- Methods
-import serverSideStyle from './modules/serverSideStyle';
 
 export {
   ENV,
   LAYOUT,
   SHAPE,
+  serverSideStyle,
   STYLE,
   THEME,
-  serverSideStyle,
 };
