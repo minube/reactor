@@ -2,15 +2,13 @@ import { Dimensions, Platform } from 'react-native';
 
 import { isMobile, screenStyle, screenType } from './modules';
 
-const DEFAULT = { WIDTH: 360, HEIGHT: 640 };
-
 class Layout {
   constructor() {
     if (!Layout.instance) {
       const { height, width } = Dimensions.get('window');
       Layout.instance = this;
-      this.height = height;
-      this.width = width;
+      this.height = height || 640;
+      this.width = width || 360;
       this.style = screenStyle(width);
     }
     return Layout.instance;
@@ -21,8 +19,7 @@ class Layout {
   }
 
   get VIEWPORT() {
-    const H = this.height || DEFAULT.HEIGHT;
-    const W = this.width || DEFAULT.WIDTH;
+    const { height: H, width: W } = this;
     const PORTRAIT = H > W;
 
     return {
@@ -37,9 +34,21 @@ class Layout {
     };
   }
 
-  calc({ height = DEFAULT.HEIGHT, width = DEFAULT.WIDTH } = Dimensions.get('window'), userAgent) {
-    // @TODO: If we have userAgent;
-    console.log('userAgent', isMobile(navigator.userAgent), navigator.userAgent);
+  calc(size, userAgent) {
+    let { height, width } = this;
+
+    if (!size && !userAgent) {
+      ({ height, width } = Dimensions.get('window'));
+    } else if (size) {
+      ({ height, width } = size);
+    } else if (userAgent) {
+      height = 768;
+      width = 1024;
+      if (isMobile) {
+        height = 640;
+        width = 360;
+      }
+    }
 
     this.height = height;
     this.width = width;
