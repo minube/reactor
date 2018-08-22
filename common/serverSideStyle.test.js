@@ -18,4 +18,3 @@ describe('serverSideStyle', () => {
     expect(value).toEqual(STYLE_OBJ);
   });
 });
-
