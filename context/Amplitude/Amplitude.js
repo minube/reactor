@@ -12,6 +12,7 @@ import PKG from '../../package.json';
 const { IS_PRODUCTION, IS_WEB, IS_SERVER } = ENV;
 const { Provider, Consumer: ConsumerAmplitude } = createContext();
 const STORE_EVENTS = `${PKG.name}:events`;
+const MINUBE_USER_ID = 'mn_user_id';
 let eventId = 1;
 
 class ProviderAmplitude extends PureComponent {
@@ -29,22 +30,33 @@ class ProviderAmplitude extends PureComponent {
 
   state = {
     fingerprint: undefined,
-    sessionId: undefined,
+    session: undefined,
   };
 
   async componentWillMount() {
     const { _syncEvents, props: { key } } = this;
-    const sessionId = new Date().getTime();
+    let { props: { session = {} } } = this;
     let fingerprint;
     let cookie;
 
     if (!IS_SERVER) {
       fingerprint = await new Fingerprint();
-      if (IS_WEB) cookie = getCookie('reactor:request');
-      fetch(key, { ...fingerprint, user_properties: cookie ? JSON.parse(cookie) : cookie }, 'identify');
+      if (IS_WEB) {
+        cookie = getCookie('reactor:request');
+        session = { ...session, user_id: await AsyncStore.getItem(MINUBE_USER_ID) };
+      }
+      await fetch(
+        key,
+        { ...fingerprint, ...session, userProperties: cookie ? JSON.parse(cookie) : cookie },
+        'identify',
+      );
     }
 
-    this.setState({ isConnected: true, fingerprint, sessionId });
+    this.setState({
+      isConnected: true,
+      fingerprint,
+      session: { ...session, session_id: new Date().getTime() },
+    });
 
     if (!IS_SERVER) {
       _syncEvents();
@@ -75,15 +87,13 @@ class ProviderAmplitude extends PureComponent {
 
     const {
       _storeEvent,
-      props: { key, session },
-      state: { isConnected, fingerprint, sessionId },
+      props: { key },
+      state: { isConnected, fingerprint, session },
     } = this;
 
     const event = {
-      ...fingerprint, // uuid + device_id
-      session_id: sessionId,
-      // version_name: undefined, // WEB: .com, .nova.pt ... NATIVE: version number
-      ...session,
+      ...fingerprint, // uuid & device_id
+      ...session, // user_id && session_id
       event_id: eventId,
       event_properties: props,
       event_type: type,

@@ -39,7 +39,7 @@ export default async (key, event = {}, endpoint = ENDPOINT_DEFAULT) => {
           os: { name: osName, version: osVersion },
           screen: userProperties,
           totalMemory,
-          ...event.user_properties,
+          ...event.userProperties,
         },
       }
       : {},
