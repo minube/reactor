@@ -44,7 +44,7 @@ class Layout {
     } else if (userAgent) {
       height = 768;
       width = 1024;
-      if (isMobile) {
+      if (isMobile(userAgent)) {
         height = 640;
         width = 360;
       }
