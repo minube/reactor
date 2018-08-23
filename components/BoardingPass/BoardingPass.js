@@ -57,12 +57,14 @@ class BoardingPass extends PureComponent {
     fetch({
       endpoint, headers, method, secure, service, ...parameters,
     })
-      .then(onResponse)
+      .then((response) => {
+        onResponse(response);
+        this.setState({ busy: false });
+      })
       .catch((error) => {
         onError(error);
-        this.setState({ error });
-      })
-      .finally(() => this.setState({ busy: false }));
+        this.setState({ busy: false, error });
+      });
   }
 
   render() {
