@@ -1,6 +1,6 @@
 import { Dimensions, Platform } from 'react-native';
 
-import { isMobile, screenStyle, screenType } from './modules';
+import { screenStyle, screenType, userAgentScreenSize } from './modules';
 
 class Layout {
   constructor() {
@@ -42,12 +42,7 @@ class Layout {
     } else if (size) {
       ({ height, width } = size);
     } else if (userAgent) {
-      height = 768;
-      width = 1024;
-      if (isMobile(userAgent)) {
-        height = 640;
-        width = 360;
-      }
+      ({ height, width } = userAgentScreenSize(userAgent));
     }
 
     this.height = height;
