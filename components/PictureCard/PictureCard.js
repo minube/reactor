@@ -16,9 +16,15 @@ const SHORT_TITLE = 10;
 const PictureCard = ({
   backgroundColor, children, caption, image, onLoad, onPress, portrait, small, title, ...inherit
 }) => (
-  <Touchable disabled={!onPress} onPress={onPress} style={inherit.styleContainer}>
+  <Touchable disabled={!onPress} onPress={onPress} _style={inherit.styleContainer}>
     <View
-      style={[styles.content, styles.borderRadius, LAYOUT.STYLE.CARD.WIDTH, backgroundColor && { backgroundColor }]}
+      style={[
+        styles.content,
+        styles.borderRadius,
+        LAYOUT.STYLE.CARD.WIDTH,
+        inherit.styleContainer,
+        backgroundColor && { backgroundColor },
+      ]}
     >
       <Image
         onLoad={onLoad}

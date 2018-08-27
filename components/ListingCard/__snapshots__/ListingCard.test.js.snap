@@ -45,7 +45,7 @@ exports[`<ListingCard> renders 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -60,6 +60,7 @@ exports[`<ListingCard> renders 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -240,7 +241,7 @@ exports[`<ListingCard> when {category} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -255,6 +256,7 @@ exports[`<ListingCard> when {category} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -474,7 +476,7 @@ exports[`<ListingCard> when {children} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -489,6 +491,7 @@ exports[`<ListingCard> when {children} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -812,7 +815,7 @@ exports[`<ListingCard> when {description} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -827,6 +830,7 @@ exports[`<ListingCard> when {description} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -1049,7 +1053,7 @@ exports[`<ListingCard> when {image} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -1064,6 +1068,7 @@ exports[`<ListingCard> when {image} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -1244,7 +1249,7 @@ exports[`<ListingCard> when {rating} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -1259,6 +1264,7 @@ exports[`<ListingCard> when {rating} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -1690,7 +1696,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -1705,6 +1711,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }
@@ -1885,7 +1892,7 @@ exports[`<ListingCard> when {title} 1`] = `
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
       pointerEvents={undefined}
-      style={null}
+      style={undefined}
       testID={undefined}
     >
       <View
@@ -1900,6 +1907,7 @@ exports[`<ListingCard> when {title} 1`] = `
             Object {
               "width": 168,
             },
+            null,
             undefined,
           ]
         }

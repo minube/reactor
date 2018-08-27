@@ -137,6 +137,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   "width": 168,
                 },
                 undefined,
+                undefined,
               ]
             }
           >
@@ -343,6 +344,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                 Object {
                   "width": 168,
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -571,6 +573,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   "width": 168,
                 },
                 undefined,
+                undefined,
               ]
             }
           >
@@ -777,6 +780,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 Object {
                   "width": 168,
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -1005,6 +1009,7 @@ exports[`<Slider> when {momentum} 1`] = `
                   "width": 168,
                 },
                 undefined,
+                undefined,
               ]
             }
           >
@@ -1211,6 +1216,7 @@ exports[`<Slider> when {momentum} 1`] = `
                 Object {
                   "width": 168,
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -1714,6 +1720,7 @@ exports[`<Slider> when {steps} 1`] = `
                   "width": 168,
                 },
                 undefined,
+                undefined,
               ]
             }
           >
@@ -1920,6 +1927,7 @@ exports[`<Slider> when {steps} 1`] = `
                 Object {
                   "width": 168,
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -2153,6 +2161,7 @@ exports[`<Slider> when {style} 1`] = `
                   "width": 168,
                 },
                 undefined,
+                undefined,
               ]
             }
           >
@@ -2359,6 +2368,7 @@ exports[`<Slider> when {style} 1`] = `
                 Object {
                   "width": 168,
                 },
+                undefined,
                 undefined,
               ]
             }

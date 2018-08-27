@@ -32,6 +32,7 @@ exports[`<PictureCard> renders 1`] = `
           "width": 168,
         },
         undefined,
+        undefined,
       ]
     }
   >
@@ -188,6 +189,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
         Object {
           "width": 168,
         },
+        undefined,
         Object {
           "backgroundColor": "#10c0bc",
         },
@@ -347,6 +349,7 @@ exports[`<PictureCard> when {caption} 1`] = `
         Object {
           "width": 168,
         },
+        undefined,
         undefined,
       ]
     }
@@ -545,6 +548,7 @@ exports[`<PictureCard> when {image} 1`] = `
           "width": 168,
         },
         undefined,
+        undefined,
       ]
     }
   >
@@ -702,6 +706,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
           "width": 168,
         },
         undefined,
+        undefined,
       ]
     }
   >
@@ -858,6 +863,7 @@ exports[`<PictureCard> when {small} 1`] = `
         Object {
           "width": 168,
         },
+        undefined,
         undefined,
       ]
     }
@@ -1019,6 +1025,7 @@ exports[`<PictureCard> when {style} 1`] = `
         Object {
           "width": 168,
         },
+        undefined,
         undefined,
       ]
     }
@@ -1182,6 +1189,7 @@ exports[`<PictureCard> when {title} 1`] = `
         Object {
           "width": 168,
         },
+        undefined,
         undefined,
       ]
     }
