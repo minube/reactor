@@ -32,6 +32,7 @@ export default StyleSheet.create({
     ...STYLE.SHADOW,
     backgroundColor: COLOR.WHITE,
     borderRadius: BORDER_RADIUS,
+    display: Platform.OS === 'web' ? 'block' : undefined,
   },
 
   content: {

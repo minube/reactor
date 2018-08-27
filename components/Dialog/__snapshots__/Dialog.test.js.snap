@@ -27,6 +27,7 @@ exports[`<Dialog> renders 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -97,6 +98,7 @@ exports[`<Dialog> when {background} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -168,6 +170,7 @@ exports[`<Dialog> when {children} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -273,6 +276,7 @@ exports[`<Dialog> when {highlight} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -494,6 +498,7 @@ exports[`<Dialog> when {onClose} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -676,6 +681,7 @@ exports[`<Dialog> when {reverse} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -747,6 +753,7 @@ exports[`<Dialog> when {style} 1`] = `
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -818,6 +825,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -889,6 +897,7 @@ exports[`<Dialog> when {title} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
@@ -998,6 +1007,7 @@ exports[`<Dialog> when {visible} 1`] = `
       Object {
         "backgroundColor": "#ffffff",
         "borderRadius": 3,
+        "display": undefined,
         "maxHeight": "100%",
         "maxWidth": "100%",
         "minWidth": "66%",
