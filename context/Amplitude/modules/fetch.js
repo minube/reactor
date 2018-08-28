@@ -25,6 +25,7 @@ export default async (key, event = {}, endpoint = ENDPOINT_DEFAULT) => {
     device_model: deviceModel,
     language: locale,
     library: { name: PKG.name, version: PKG.version },
+    ip: '$remote',
     os_name: IS_WEB ? browserName : osName,
     os_version: IS_WEB ? browserVersion : osVersion,
     platform: IS_WEB ? 'Web' : osName,
