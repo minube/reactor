@@ -9,11 +9,17 @@ export default ({ uri = '', ratio = 1 }) => {
   if (!uri.includes(AKAMAI_DOMAIN)) return uri;
 
   const { VIEWPORT: { TINY, PHONE, LARGE } } = LAYOUT;
-  let { VIEWPORT: { W, H } } = LAYOUT;
+  let { W, H } = REGULAR;
 
-  if (TINY || PHONE) ({ W, H } = LOW);
-  else if (LARGE) ({ W, H } = HIGH);
-  else ({ W, H } = REGULAR);
+  if (TINY || PHONE) {
+    // ({ W, H } = LOW); // @TODO: Not supported natively by iOS
+    W = LOW.W; // eslint-disable-line
+    H = LOW.H; // eslint-disable-line
+  } else if (LARGE) {
+    // ({ W, H } = HIGH)();
+    W = HIGH.W; // eslint-disable-line
+    H = HIGH.H; // eslint-disable-line
+  }
 
   return `${uri}?fit=around|${parseInt(W / ratio, 10)}:${parseInt(H / ratio, 10)}`;
 };
