@@ -7,6 +7,7 @@ import {
 } from 'react-native';
 
 import { ENV } from '../../common';
+
 import Ripple from './components/Ripple';
 import styles from './Touchable.style';
 
@@ -104,13 +105,18 @@ class Touchable extends PureComponent {
       },
     } = this;
 
+    let events = {};
+    if (onPress) {
+      events = {
+        onLayout: _onLayout,
+        onPressIn: _onPressIn,
+        onPressOut: _onPressOut,
+        [ENV.IS_MOBILE_WEB ? 'onTouchStart' : 'onPress']: onPress,
+      };
+    }
+
     return (
-      <TouchableWithoutFeedback
-        onLayout={onPress ? _onLayout : undefined}
-        onPressIn={onPress ? _onPressIn : undefined}
-        onPressOut={_onPressOut}
-        onPress={onPress}
-      >
+      <TouchableWithoutFeedback {...events}>
         <View style={inherit.style} pointerEvents={onPress ? 'box-only' : undefined}>
           {children}
           <View style={[styles.container, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
