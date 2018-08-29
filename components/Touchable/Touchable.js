@@ -94,9 +94,15 @@ class Touchable extends PureComponent {
     Animated.timing(mask, { ...ANIMATION, toValue: 0 }).start();
   }
 
+  _onPress = (event) => {
+    const { props: { onPress } } = this;
+    event.preventDefault();
+    onPress(event);
+  }
+
   render() {
     const {
-      _onPressIn, _onPressOut, _onLayout,
+      _onPress, _onPressIn, _onPressOut, _onLayout,
       props: {
         children, containerBorderRadius, onPress, rippleColor, ...inherit
       },
@@ -111,7 +117,7 @@ class Touchable extends PureComponent {
         onLayout: _onLayout,
         onPressIn: _onPressIn,
         onPressOut: _onPressOut,
-        [ENV.IS_MOBILE_WEB ? 'onTouchStart' : 'onPress']: onPress,
+        onPress: _onPress,
       };
     }
 
