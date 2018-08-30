@@ -22,7 +22,6 @@ exports[`<Switch> renders 1`] = `
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    onValueChange={undefined}
     style={
       Array [
         Object {
@@ -61,7 +60,6 @@ exports[`<Switch> when {disabled} 1`] = `
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    onValueChange={undefined}
     style={
       Array [
         Object {
@@ -98,7 +96,6 @@ exports[`<Switch> when {label} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -141,7 +138,6 @@ exports[`<Switch> when {label} 1`] = `
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    onValueChange={undefined}
     style={
       Array [
         Object {
@@ -182,7 +178,6 @@ exports[`<Switch> when {style} 1`] = `
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
-    onValueChange={undefined}
     style={
       Array [
         Object {

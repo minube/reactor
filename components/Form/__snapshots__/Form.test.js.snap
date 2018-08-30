@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Form> renders 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -25,9 +23,7 @@ exports[`<Form> renders 1`] = `
 `;
 
 exports[`<Form> when {attributes} 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -61,7 +57,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -105,7 +100,6 @@ exports[`<Form> when {attributes} 1`] = `
           editable={true}
           keyboardType="default"
           multiline={false}
-          numberOfLines={undefined}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
@@ -138,7 +132,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -193,7 +186,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -311,7 +303,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -355,7 +346,6 @@ exports[`<Form> when {attributes} 1`] = `
           editable={true}
           keyboardType="url"
           multiline={false}
-          numberOfLines={undefined}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
@@ -400,7 +390,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -557,7 +546,6 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -602,7 +590,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -651,7 +638,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -691,7 +677,6 @@ exports[`<Form> when {attributes} 1`] = `
           activeThumbColor="#10c0bc"
           activeTrackColor="#dbdbdb"
           disabled={false}
-          error={undefined}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
@@ -736,7 +721,6 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -789,7 +773,6 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -833,7 +816,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -878,7 +860,6 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -922,7 +903,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -967,7 +947,6 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -1011,7 +990,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -1044,7 +1022,6 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -1089,9 +1066,7 @@ exports[`<Form> when {attributes} 1`] = `
 `;
 
 exports[`<Form> when {data} 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -1125,7 +1100,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1169,7 +1143,6 @@ exports[`<Form> when {data} 1`] = `
           editable={true}
           keyboardType="default"
           multiline={false}
-          numberOfLines={undefined}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
@@ -1202,7 +1175,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1257,7 +1229,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1375,7 +1346,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1419,7 +1389,6 @@ exports[`<Form> when {data} 1`] = `
           editable={true}
           keyboardType="url"
           multiline={false}
-          numberOfLines={undefined}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
@@ -1464,7 +1433,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1621,7 +1589,6 @@ exports[`<Form> when {data} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -1666,7 +1633,6 @@ exports[`<Form> when {data} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -1715,7 +1681,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1755,7 +1720,6 @@ exports[`<Form> when {data} 1`] = `
           activeThumbColor="#10c0bc"
           activeTrackColor="#dbdbdb"
           disabled={false}
-          error={undefined}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
@@ -1800,7 +1764,6 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1853,7 +1816,6 @@ exports[`<Form> when {data} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -1897,7 +1859,6 @@ exports[`<Form> when {data} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -1942,7 +1903,6 @@ exports[`<Form> when {data} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -1986,7 +1946,6 @@ exports[`<Form> when {data} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -2031,7 +1990,6 @@ exports[`<Form> when {data} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -2075,7 +2033,6 @@ exports[`<Form> when {data} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -2108,7 +2065,6 @@ exports[`<Form> when {data} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -2153,9 +2109,7 @@ exports[`<Form> when {data} 1`] = `
 `;
 
 exports[`<Form> when {onChange} 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -2177,9 +2131,7 @@ exports[`<Form> when {onChange} 1`] = `
 `;
 
 exports[`<Form> when {onValid} 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -2230,9 +2182,7 @@ exports[`<Form> when {style} 1`] = `
 `;
 
 exports[`<Form> when {title} 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -2253,7 +2203,6 @@ exports[`<Form> when {title} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {

@@ -20,7 +20,6 @@ exports[`<Markdown> including a <Text> property 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -55,7 +54,6 @@ exports[`<Markdown> including a <Text> property 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -99,7 +97,6 @@ exports[`<Markdown> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -149,7 +146,6 @@ exports[`<Markdown> when combining * & ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -182,7 +178,6 @@ exports[`<Markdown> when combining * & ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -217,7 +212,6 @@ exports[`<Markdown> when combining * & ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -271,7 +265,6 @@ exports[`<Markdown> when including * 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -304,7 +297,6 @@ exports[`<Markdown> when including * 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -358,7 +350,6 @@ exports[`<Markdown> when including ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -391,7 +382,6 @@ exports[`<Markdown> when including ** 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -433,7 +423,6 @@ exports[`<Markdown> when simple text 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {

@@ -2,7 +2,6 @@
 
 exports[`<Viewport> renders 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -21,7 +20,6 @@ exports[`<Viewport> renders 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,
@@ -49,7 +47,6 @@ exports[`<Viewport> renders 1`] = `
 
 exports[`<Viewport> when {children} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -68,7 +65,6 @@ exports[`<Viewport> when {children} 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,
@@ -104,7 +100,6 @@ exports[`<Viewport> when {children} 1`] = `
 
 exports[`<Viewport> when {onBack} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -123,7 +118,6 @@ exports[`<Viewport> when {onBack} 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,
@@ -151,7 +145,6 @@ exports[`<Viewport> when {onBack} 1`] = `
 
 exports[`<Viewport> when {onScroll} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -170,7 +163,6 @@ exports[`<Viewport> when {onScroll} 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,
@@ -200,7 +192,6 @@ exports[`<Viewport> when {onScroll} 1`] = `
 
 exports[`<Viewport> when {style} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -219,7 +210,6 @@ exports[`<Viewport> when {style} 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,
@@ -247,7 +237,6 @@ exports[`<Viewport> when {style} 1`] = `
 
 exports[`<Viewport> when {styleContent} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -266,7 +255,6 @@ exports[`<Viewport> when {styleContent} 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,
@@ -296,7 +284,6 @@ exports[`<Viewport> when {styleContent} 1`] = `
 
 exports[`<Viewport> when {visible} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#ffffff",
@@ -315,7 +302,6 @@ exports[`<Viewport> when {visible} 1`] = `
   }
 >
   <RCTSafeAreaView
-    onLayout={undefined}
     style={
       Object {
         "flex": 1,

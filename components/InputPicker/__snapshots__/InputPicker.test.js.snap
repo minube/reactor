@@ -190,7 +190,6 @@ exports[`<InputPicker> when {error} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -292,7 +291,6 @@ exports[`<InputPicker> when {hint} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -347,7 +345,6 @@ exports[`<InputPicker> when {label} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {

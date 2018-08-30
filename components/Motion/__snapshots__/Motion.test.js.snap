@@ -2,14 +2,12 @@
 
 exports[`<Motion> renders 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
 
 exports[`<Motion> when {children} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 >
   <View />
@@ -18,28 +16,24 @@ exports[`<Motion> when {children} 1`] = `
 
 exports[`<Motion> when {delay} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
 
 exports[`<Motion> when {disabled} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
 
 exports[`<Motion> when {property} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
 
 exports[`<Motion> when {type} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
@@ -57,7 +51,6 @@ exports[`<Motion> when {useNativeDriver} 1`] = `
 
 exports[`<Motion> when {value} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;

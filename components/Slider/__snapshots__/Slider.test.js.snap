@@ -9,9 +9,7 @@ exports[`<Slider> renders 1`] = `
   }
 >
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View />
@@ -38,7 +36,6 @@ exports[`<Slider> when {caption} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -74,9 +71,7 @@ exports[`<Slider> when {caption} 1`] = `
     </Text>
   </View>
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View />
@@ -93,9 +88,7 @@ exports[`<Slider> when {dataSource} 1`] = `
   }
 >
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View>
@@ -107,22 +100,13 @@ exports[`<Slider> when {dataSource} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -232,7 +216,6 @@ exports[`<Slider> when {dataSource} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -293,7 +276,6 @@ exports[`<Slider> when {dataSource} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -315,22 +297,13 @@ exports[`<Slider> when {dataSource} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -440,7 +413,6 @@ exports[`<Slider> when {dataSource} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -501,7 +473,6 @@ exports[`<Slider> when {dataSource} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -529,9 +500,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
   }
 >
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View>
@@ -543,22 +512,13 @@ exports[`<Slider> when {itemMargin} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -668,7 +628,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -729,7 +688,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -751,22 +709,13 @@ exports[`<Slider> when {itemMargin} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -876,7 +825,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -937,7 +885,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -965,7 +912,6 @@ exports[`<Slider> when {momentum} 1`] = `
   }
 >
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
     onScroll={[Function]}
     scrollEventThrottle={16}
@@ -979,22 +925,13 @@ exports[`<Slider> when {momentum} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -1104,7 +1041,6 @@ exports[`<Slider> when {momentum} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -1165,7 +1101,6 @@ exports[`<Slider> when {momentum} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -1187,22 +1122,13 @@ exports[`<Slider> when {momentum} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -1312,7 +1238,6 @@ exports[`<Slider> when {momentum} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -1373,7 +1298,6 @@ exports[`<Slider> when {momentum} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -1416,12 +1340,7 @@ exports[`<Slider> when {navigation} 1`] = `
     }
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
       onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -1440,7 +1359,6 @@ exports[`<Slider> when {navigation} 1`] = `
           undefined,
         ]
       }
-      testID={undefined}
     >
       <View
         style={
@@ -1514,7 +1432,6 @@ exports[`<Slider> when {navigation} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -1544,12 +1461,7 @@ exports[`<Slider> when {navigation} 1`] = `
     }
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
       onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -1568,7 +1480,6 @@ exports[`<Slider> when {navigation} 1`] = `
           undefined,
         ]
       }
-      testID={undefined}
     >
       <View
         style={
@@ -1642,7 +1553,6 @@ exports[`<Slider> when {navigation} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -1657,9 +1567,7 @@ exports[`<Slider> when {navigation} 1`] = `
     </View>
   </View>
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View />
@@ -1676,9 +1584,7 @@ exports[`<Slider> when {steps} 1`] = `
   }
 >
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View>
@@ -1690,22 +1596,13 @@ exports[`<Slider> when {steps} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -1815,7 +1712,6 @@ exports[`<Slider> when {steps} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -1876,7 +1772,6 @@ exports[`<Slider> when {steps} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -1898,22 +1793,13 @@ exports[`<Slider> when {steps} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -2023,7 +1909,6 @@ exports[`<Slider> when {steps} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -2084,7 +1969,6 @@ exports[`<Slider> when {steps} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -2119,7 +2003,6 @@ exports[`<Slider> when {style} 1`] = `
       }
     }
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View>
@@ -2131,22 +2014,13 @@ exports[`<Slider> when {style} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -2256,7 +2130,6 @@ exports[`<Slider> when {style} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -2317,7 +2190,6 @@ exports[`<Slider> when {style} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -2339,22 +2211,13 @@ exports[`<Slider> when {style} 1`] = `
         }
       >
         <View
-          accessibilityComponentType={undefined}
-          accessibilityLabel={undefined}
-          accessibilityTraits={undefined}
           accessible={true}
-          hitSlop={undefined}
-          nativeID={undefined}
-          onLayout={undefined}
           onResponderGrant={[Function]}
           onResponderMove={[Function]}
           onResponderRelease={[Function]}
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
-          pointerEvents={undefined}
-          style={undefined}
-          testID={undefined}
         >
           <View
             style={
@@ -2464,7 +2327,6 @@ exports[`<Slider> when {style} 1`] = `
                   accessible={true}
                   allowFontScaling={true}
                   ellipsizeMode="tail"
-                  numberOfLines={undefined}
                   style={
                     Array [
                       Object {
@@ -2525,7 +2387,6 @@ exports[`<Slider> when {style} 1`] = `
             }
           >
             <View
-              collapsable={undefined}
               style={
                 Object {
                   "backgroundColor": "#ffffff",
@@ -2563,7 +2424,6 @@ exports[`<Slider> when {title} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -2599,9 +2459,7 @@ exports[`<Slider> when {title} 1`] = `
     </Text>
   </View>
   <RCTScrollView
-    contentContainerStyle={undefined}
     horizontal={true}
-    onScroll={undefined}
     scrollEventThrottle={16}
   >
     <View />

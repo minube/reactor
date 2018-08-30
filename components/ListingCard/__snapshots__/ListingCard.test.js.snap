@@ -1,17 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ListingCard> renders 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -28,25 +20,15 @@ exports[`<ListingCard> renders 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -172,7 +154,6 @@ exports[`<ListingCard> renders 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -197,17 +178,9 @@ exports[`<ListingCard> renders 1`] = `
 `;
 
 exports[`<ListingCard> when {category} 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -224,25 +197,15 @@ exports[`<ListingCard> when {category} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -368,7 +331,6 @@ exports[`<ListingCard> when {category} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -392,7 +354,6 @@ exports[`<ListingCard> when {category} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -432,17 +393,9 @@ exports[`<ListingCard> when {category} 1`] = `
 `;
 
 exports[`<ListingCard> when {children} 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -459,25 +412,15 @@ exports[`<ListingCard> when {children} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -603,7 +546,6 @@ exports[`<ListingCard> when {children} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -624,20 +566,13 @@ exports[`<ListingCard> when {children} 1`] = `
       }
     >
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
-        onLayout={undefined}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        pointerEvents={undefined}
         style={
           Array [
             Object {
@@ -653,7 +588,6 @@ exports[`<ListingCard> when {children} 1`] = `
             },
           ]
         }
-        testID={undefined}
       >
         <View
           style={
@@ -697,7 +631,6 @@ exports[`<ListingCard> when {children} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={undefined}
             style={
               Array [
                 Object {
@@ -752,7 +685,6 @@ exports[`<ListingCard> when {children} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#ffffff",
@@ -771,17 +703,9 @@ exports[`<ListingCard> when {children} 1`] = `
 `;
 
 exports[`<ListingCard> when {description} 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -798,25 +722,15 @@ exports[`<ListingCard> when {description} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -942,7 +856,6 @@ exports[`<ListingCard> when {description} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -1009,17 +922,9 @@ exports[`<ListingCard> when {description} 1`] = `
 `;
 
 exports[`<ListingCard> when {image} 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1036,25 +941,15 @@ exports[`<ListingCard> when {image} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -1180,7 +1075,6 @@ exports[`<ListingCard> when {image} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -1205,17 +1099,9 @@ exports[`<ListingCard> when {image} 1`] = `
 `;
 
 exports[`<ListingCard> when {rating} 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1232,25 +1118,15 @@ exports[`<ListingCard> when {rating} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -1376,7 +1252,6 @@ exports[`<ListingCard> when {rating} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -1409,7 +1284,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1448,7 +1322,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1487,7 +1360,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1526,7 +1398,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1565,7 +1436,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1604,7 +1474,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={undefined}
           style={
             Array [
               Object {
@@ -1656,13 +1525,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
   }
 >
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1679,25 +1542,15 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -1823,7 +1676,6 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",
@@ -1848,17 +1700,9 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
 `;
 
 exports[`<ListingCard> when {title} 1`] = `
-<View
-  style={undefined}
->
+<View>
   <View
-    accessibilityComponentType={undefined}
-    accessibilityLabel={undefined}
-    accessibilityTraits={undefined}
     accessible={true}
-    hitSlop={undefined}
-    nativeID={undefined}
-    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
@@ -1875,25 +1719,15 @@ exports[`<ListingCard> when {title} 1`] = `
         },
       ]
     }
-    testID={undefined}
   >
     <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
       accessible={true}
-      hitSlop={undefined}
-      nativeID={undefined}
-      onLayout={undefined}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
       onResponderRelease={[Function]}
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
-      pointerEvents={undefined}
-      style={undefined}
-      testID={undefined}
     >
       <View
         style={
@@ -2019,7 +1853,6 @@ exports[`<ListingCard> when {title} 1`] = `
         }
       >
         <View
-          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",

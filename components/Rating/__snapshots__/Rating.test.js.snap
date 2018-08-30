@@ -14,7 +14,6 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -52,7 +51,6 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -90,7 +88,6 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -128,7 +125,6 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -166,7 +162,6 @@ exports[`<Rating> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -217,7 +212,6 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -255,7 +249,6 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -293,7 +286,6 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -331,7 +323,6 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -369,7 +360,6 @@ exports[`<Rating> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -420,7 +410,6 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -459,7 +448,6 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -498,7 +486,6 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -537,7 +524,6 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -576,7 +562,6 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -615,7 +600,6 @@ exports[`<Rating> when {color} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -668,7 +652,6 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -706,7 +689,6 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -744,7 +726,6 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -782,7 +763,6 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -820,7 +800,6 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -858,7 +837,6 @@ exports[`<Rating> when {count} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -909,7 +887,6 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -947,7 +924,6 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -985,7 +961,6 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1023,7 +998,6 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1061,7 +1035,6 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1099,7 +1072,6 @@ exports[`<Rating> when {showValue} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1152,7 +1124,6 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1192,7 +1163,6 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1232,7 +1202,6 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1272,7 +1241,6 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1312,7 +1280,6 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1352,7 +1319,6 @@ exports[`<Rating> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1409,7 +1375,6 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1447,7 +1412,6 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1485,7 +1449,6 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1523,7 +1486,6 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1561,7 +1523,6 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1599,7 +1560,6 @@ exports[`<Rating> when {textColor} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1654,7 +1614,6 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1692,7 +1651,6 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1730,7 +1688,6 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1768,7 +1725,6 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1806,7 +1762,6 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -1844,7 +1799,6 @@ exports[`<Rating> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {

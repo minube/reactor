@@ -17,7 +17,6 @@ exports[`<ProgressBar> renders 1`] = `
   }
 >
   <View
-    collapsable={undefined}
     style={
       Object {
         "backgroundColor": "#10c0bc",
@@ -46,7 +45,6 @@ exports[`<ProgressBar> when {color} 1`] = `
   }
 >
   <View
-    collapsable={undefined}
     style={
       Object {
         "backgroundColor": "#f69a37",
@@ -75,7 +73,6 @@ exports[`<ProgressBar> when {progress} 1`] = `
   }
 >
   <View
-    collapsable={undefined}
     style={
       Object {
         "backgroundColor": "#10c0bc",
@@ -107,7 +104,6 @@ exports[`<ProgressBar> when {style} 1`] = `
   }
 >
   <View
-    collapsable={undefined}
     style={
       Object {
         "backgroundColor": "#10c0bc",
@@ -138,7 +134,6 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   }
 >
   <View
-    collapsable={undefined}
     style={
       Object {
         "backgroundColor": "#10c0bc",

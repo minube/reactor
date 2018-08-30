@@ -26,7 +26,6 @@ exports[`<Avatar> renders 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
-    source={undefined}
     style={
       Array [
         Object {
@@ -148,7 +147,6 @@ exports[`<Avatar> when {large} 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
-    source={undefined}
     style={
       Array [
         Object {
@@ -213,7 +211,6 @@ exports[`<Avatar> when {small} 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
-    source={undefined}
     style={
       Array [
         Object {
@@ -278,7 +275,6 @@ exports[`<Avatar> when {style} 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
-    source={undefined}
     style={
       Array [
         Object {

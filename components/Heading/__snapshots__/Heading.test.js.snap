@@ -25,7 +25,6 @@ exports[`<Heading> renders 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -100,7 +99,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -164,7 +162,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
         href="/"
-        numberOfLines={undefined}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -208,7 +205,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
         href="/"
-        numberOfLines={undefined}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -252,7 +248,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
         href="/"
-        numberOfLines={undefined}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -296,7 +291,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         allowFontScaling={true}
         ellipsizeMode="tail"
         href="/"
-        numberOfLines={undefined}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -364,7 +358,6 @@ exports[`<Heading> when {color} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -435,7 +428,6 @@ exports[`<Heading> when {column} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -486,7 +478,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -524,7 +515,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -562,7 +552,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -600,7 +589,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -638,7 +626,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -676,7 +663,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -716,7 +702,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -769,7 +754,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -807,7 +791,6 @@ exports[`<Heading> when {column} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1091,7 +1074,6 @@ exports[`<Heading> when {contributors} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -1155,7 +1137,6 @@ exports[`<Heading> when {contributors} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1193,7 +1174,6 @@ exports[`<Heading> when {contributors} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1477,7 +1457,6 @@ exports[`<Heading> when {rating} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -1528,7 +1507,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1566,7 +1544,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1604,7 +1581,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1642,7 +1618,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1680,7 +1655,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1718,7 +1692,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1758,7 +1731,6 @@ exports[`<Heading> when {rating} 1`] = `
         accessible={true}
         allowFontScaling={true}
         ellipsizeMode="tail"
-        numberOfLines={undefined}
         style={
           Array [
             Object {
@@ -1835,7 +1807,6 @@ exports[`<Heading> when {style} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {
@@ -1912,7 +1883,6 @@ exports[`<Heading> when {title} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      numberOfLines={undefined}
       style={
         Array [
           Object {

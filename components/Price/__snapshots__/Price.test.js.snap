@@ -14,7 +14,6 @@ exports[`<Price> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -52,7 +51,6 @@ exports[`<Price> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -107,7 +105,6 @@ exports[`<Price> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -149,7 +146,6 @@ exports[`<Price> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -187,7 +183,6 @@ exports[`<Price> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -242,7 +237,6 @@ exports[`<Price> when {fixed} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -280,7 +274,6 @@ exports[`<Price> when {fixed} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -335,7 +328,6 @@ exports[`<Price> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -376,7 +368,6 @@ exports[`<Price> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -433,7 +424,6 @@ exports[`<Price> when {symbol} (left) 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -475,7 +465,6 @@ exports[`<Price> when {symbol} (left) 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -526,7 +515,6 @@ exports[`<Price> when {symbol} (right) 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -564,7 +552,6 @@ exports[`<Price> when {symbol} (right) 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -619,7 +606,6 @@ exports[`<Price> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
@@ -657,7 +643,6 @@ exports[`<Price> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={undefined}
     style={
       Array [
         Object {
