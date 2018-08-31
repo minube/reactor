@@ -8,7 +8,7 @@ import fetch from './modules/fetch';
 
 class BoardingPass extends PureComponent {
   static propTypes = {
-    children: node.isRequired,
+    children: node,
     enabled: bool,
     endpoint: string,
     headers: shape({}),
@@ -23,6 +23,7 @@ class BoardingPass extends PureComponent {
   };
 
   static defaultProps = {
+    children: undefined,
     enabled: true,
     endpoint: undefined,
     headers: {},
