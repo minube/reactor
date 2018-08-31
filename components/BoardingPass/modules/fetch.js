@@ -1,20 +1,23 @@
 import { ENV } from '../../../common';
 
 const { IS_PRODUCTION } = ENV;
-const DEFAULT_HEADERS = {
-  'Content-Type': 'application/json',
-  'X-Requested-With': 'XMLHttpRequest',
-};
 const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'staging.mapi.minube.com';
+const DEFAULT_METHOD = 'GET';
+const CONTENT_JSON = 'application/json';
+const CONTENT_FORM = 'application/x-www-form-urlencoded; charset=UTF-8';
 
 if (typeof global.self === 'undefined') global.self = global;
 
 export default async ({
-  endpoint = ENDPOINT, headers, method = 'GET', secure = false, service, ...props
+  endpoint = ENDPOINT, headers, method = DEFAULT_METHOD, secure = false, service, ...props
 }) => (
   new Promise((resolve, reject) => {
     fetch(`${secure ? 'https' : 'http'}://${endpoint}/${service}`, {
-      headers: { ...DEFAULT_HEADERS, ...headers },
+      headers: {
+        'Content-Type': DEFAULT_METHOD ? CONTENT_JSON : CONTENT_FORM,
+        'X-Requested-With': 'XMLHttpRequest',
+        ...headers,
+      },
       method,
       ...props,
     })
