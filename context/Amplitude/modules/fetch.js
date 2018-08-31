@@ -1,8 +1,8 @@
 import ENV from '../../../common/environment';
+import queryString from '../../../common/queryString';
 import PKG from '../../../package.json';
 
 import entropy from './entropy';
-import queryString from './queryString';
 
 const { IS_PRODUCTION, IS_WEB } = ENV;
 const {
