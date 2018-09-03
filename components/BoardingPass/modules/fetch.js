@@ -1,10 +1,16 @@
 import { ENV } from '../../../common';
 
 const { IS_PRODUCTION } = ENV;
-const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'staging.mapi.minube.com';
 const DEFAULT_METHOD = 'GET';
-const CONTENT_JSON = 'application/json';
-const CONTENT_FORM = 'application/x-www-form-urlencoded; charset=UTF-8';
+const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'staging.mapi.minube.com';
+const FORM_METHODS = ['POST'];
+const HEADER_JSON = {
+  'Content-Type': 'application/json',
+  'X-Requested-With': 'XMLHttpRequest',
+};
+const HEADER_FORM = {
+  'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+};
 
 if (typeof global.self === 'undefined') global.self = global;
 
@@ -14,8 +20,7 @@ export default async ({
   new Promise((resolve, reject) => {
     fetch(`${secure ? 'https' : 'http'}://${endpoint}/${service}`, {
       headers: {
-        'Content-Type': DEFAULT_METHOD ? CONTENT_JSON : CONTENT_FORM,
-        'X-Requested-With': 'XMLHttpRequest',
+        ...(FORM_METHODS.includes(method) ? HEADER_FORM : HEADER_JSON),
         ...headers,
       },
       method,
