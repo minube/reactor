@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import InputImage from './InputImage';
 
-const VALUE = 'http://soyjavi.com/assets/images/soyjavi.png';
+const VALUE = 'http://soyjavi.com/assets/images/soyjavi.jpg';
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 describe('<InputImage>', () => {

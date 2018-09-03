@@ -16,7 +16,7 @@ const ATTRIBUTES = {
   },
   mail: { keyboard: 'url', placeholder: 'Your email...', style: 'inline2' },
   bio: { lines: 4 },
-  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.png' },
+  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   isPublic: { type: 'bool' },
   social: {
     title: 'Social Networks',
@@ -61,7 +61,7 @@ class FormHOC extends Component {
 
 storiesOf('🛠 Form', module)
   .addWithJSX('default', () => (
-    <Form />
+    <Form attributes={{}} />
   ))
   .addWithJSX('attributes', () => (
     <FormHOC attributes={ATTRIBUTES} style={STORY_STYLE} />

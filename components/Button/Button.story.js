@@ -71,7 +71,7 @@ storiesOf('✅ Button', module)
       color={color('color', undefined)}
       contained={boolean('contained', true)}
       disabled={boolean('disabled', false)}
-      icon={text('icon', null)}
+      icon={text('icon', undefined)}
       onPress={action('Button.onPress()')}
       outlined={boolean('outlined', false)}
       primary={boolean('primary', false)}

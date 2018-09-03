@@ -5,7 +5,7 @@ import { array, text, boolean, number, object, select } from '@storybook/addon-k
 
 import InputImage from './InputImage';
 
-const VALUE = 'http://soyjavi.com/assets/images/soyjavi.png';
+const VALUE = 'http://soyjavi.com/assets/images/soyjavi.jpg';
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 512 };
 
 storiesOf('🛠 InputImage', module)

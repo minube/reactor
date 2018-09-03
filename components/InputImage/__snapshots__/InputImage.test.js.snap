@@ -563,7 +563,7 @@ exports[`<InputImage> when {value} 1`] = `
       onLoad={[Function]}
       source={
         Object {
-          "uri": "http://soyjavi.com/assets/images/soyjavi.png",
+          "uri": "http://soyjavi.com/assets/images/soyjavi.jpg",
         }
       }
       style={
@@ -640,7 +640,7 @@ exports[`<InputImage> when {value} 1`] = `
         ]
       }
       underlineColorAndroid="transparent"
-      value="http://soyjavi.com/assets/images/soyjavi.png"
+      value="http://soyjavi.com/assets/images/soyjavi.jpg"
     />
   </View>
 </View>

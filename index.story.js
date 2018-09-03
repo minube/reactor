@@ -49,7 +49,7 @@ storiesOf('🏀 Playground', module)
     >
       <View style={styles.content}>
         <Image
-          source={{ uri: 'http://soyjavi.com/assets/images/soyjavi.png' }}
+          source={{ uri: 'http://soyjavi.com/assets/images/soyjavi.jpg' }}
           style={styles.icon}
         />
         <View style={styles.texts}>

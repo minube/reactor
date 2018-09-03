@@ -497,7 +497,7 @@ exports[`<Form> when {attributes} 1`] = `
             onLoad={[Function]}
             source={
               Object {
-                "uri": "http://soyjavi.com/assets/images/soyjavi.png",
+                "uri": "http://soyjavi.com/assets/images/soyjavi.jpg",
               }
             }
             style={
@@ -586,7 +586,7 @@ exports[`<Form> when {attributes} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            defaultValue="http://soyjavi.com/assets/images/soyjavi.png"
+            defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
             editable={true}
             keyboardType="default"
             multiline={false}
@@ -614,7 +614,7 @@ exports[`<Form> when {attributes} 1`] = `
               ]
             }
             underlineColorAndroid="transparent"
-            value="http://soyjavi.com/assets/images/soyjavi.png"
+            value="http://soyjavi.com/assets/images/soyjavi.jpg"
           />
         </View>
       </View>
@@ -1540,7 +1540,7 @@ exports[`<Form> when {data} 1`] = `
             onLoad={[Function]}
             source={
               Object {
-                "uri": "http://soyjavi.com/assets/images/soyjavi.png",
+                "uri": "http://soyjavi.com/assets/images/soyjavi.jpg",
               }
             }
             style={
@@ -1629,7 +1629,7 @@ exports[`<Form> when {data} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            defaultValue="http://soyjavi.com/assets/images/soyjavi.png"
+            defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
             editable={true}
             keyboardType="default"
             multiline={false}
@@ -1657,7 +1657,7 @@ exports[`<Form> when {data} 1`] = `
               ]
             }
             underlineColorAndroid="transparent"
-            value="http://soyjavi.com/assets/images/soyjavi.png"
+            value="http://soyjavi.com/assets/images/soyjavi.jpg"
           />
         </View>
       </View>
