@@ -5,8 +5,7 @@ import { View } from 'react-native';
 import { ENV, LAYOUT } from '../../common';
 
 const { IS_WEB, IS_SERVER, IS_MOBILE_WEB } = ENV;
-const Context = createContext('reactor:layout');
-const { Provider, Consumer: LayoutConsumer } = Context;
+const { Provider, Consumer: LayoutConsumer } = createContext('reactor:layout');
 
 class LayoutView extends PureComponent {
   static propTypes = {
