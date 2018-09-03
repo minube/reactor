@@ -2,11 +2,11 @@ import { func, node } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { View } from 'react-native';
 
-import { LAYOUT } from '../../common';
+import { ENV, LAYOUT } from '../../common';
 
-const Context = createContext();
-const { Provider, Consumer: ConsumerLayout } = Context;
-const getKey = () => `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`;
+const { IS_WEB, IS_SERVER, IS_MOBILE_WEB } = ENV;
+const Context = createContext('reactor:layout');
+const { Provider, Consumer: LayoutConsumer } = Context;
 
 class LayoutView extends PureComponent {
   static propTypes = {
@@ -20,24 +20,17 @@ class LayoutView extends PureComponent {
   };
 
   state = {
-    key: getKey(),
+    key: `${LAYOUT.VIEWPORT.W}x${LAYOUT.VIEWPORT.H}`,
   }
 
-  _onLayout = () => {
+  _onLayout = ({ nativeEvent: { layout = {} } }) => {
+    const { props: { onLayout } } = this;
+
     setTimeout(() => {
-      const { state } = this;
       LAYOUT.calc();
-      const key = getKey();
-
-      if (state.key !== key) {
-        const { VIEWPORT } = LAYOUT;
-        const { props: { onLayout } } = this;
-
-        onLayout(VIEWPORT);
-        this.setState({ key });
-        // this.forceUpdate(); // @TODO: React fiber
-      }
-    }, 100);
+      onLayout(LAYOUT.VIEWPORT);
+      this.setState({ key: `${layout.width}x${layout.height}` });
+    }, 40);
   }
 
   render() {
@@ -48,15 +41,19 @@ class LayoutView extends PureComponent {
     } = this;
 
     return (
-      <View {...inherit} key={key} onLayout={_onLayout}>
-        <Provider value={{ style: LAYOUT.STYLE, viewport: LAYOUT.VIEWPORT }}>
+      <Provider value={{ style: LAYOUT.STYLE, viewport: LAYOUT.VIEWPORT }}>
+        <View
+          {...inherit}
+          key={key}
+          onLayout={IS_WEB && !IS_SERVER && !IS_MOBILE_WEB ? _onLayout : undefined}
+        >
           {children}
-        </Provider>
-      </View>
+        </View>
+      </Provider>
     );
   }
 }
 
-export { ConsumerLayout };
+export { LayoutConsumer };
 
 export default LayoutView;

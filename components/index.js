@@ -12,6 +12,7 @@ import Input from './Input';
 import InputImage from './InputImage';
 import InputList from './InputList';
 import InputPicker from './InputPicker';
+import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
 import ListingCard from './ListingCard';
 import Markdown from './Markdown';
@@ -20,7 +21,6 @@ import PictureCard from './PictureCard';
 import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
-import LayoutView from './Layout';
 import Share from './Share';
 import Slider from './Slider';
 import Switch from './Switch';
@@ -45,6 +45,8 @@ export {
   InputImage,
   InputList,
   InputPicker,
+  LayoutView,
+  LayoutConsumer,
   Link,
   ListingCard,
   Markdown,
@@ -52,7 +54,7 @@ export {
   PictureCard,
   Price,
   ProgressBar,
-  LayoutView,
+
   Rating,
   Share,
   Slider,
