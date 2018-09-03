@@ -1,6 +1,11 @@
 # reactor
-Reusable presentational components
-[![version](https://img.shields.io/badge/v-0.7.20-blue.svg?style=for-the-badge)]()
+[![version](https://img.shields.io/github/package-json/v/minube/reactor.svg?style=flat-square)](https://github.com/minube/reactor/releases)
+[![Build Status](http://img.shields.io/travis/minube/reactor/master.svg?style=flat-square)](https://travis-ci.org/minube/reactor)
+[![dependencies Status](https://david-dm.org/minube/reactor/status.svg?style=flat-square)](https://david-dm.org/minube/reactor)
+[![devDependencies Status](https://david-dm.org/minube/reactor/dev-status.svg?style=flat-square)](https://david-dm.org/minube/reactor?type=dev)
+[![License](https://img.shields.io/github/license/minube/reactor.svg?style=flat-square)](https://spdx.org/licenses/LGPL-3.0.html)
+
+> Reusable presentational components
 
 ## Introduction
 Reactor brings the platform-agnostic Components and APIs of React Native to the Web (and viceversa).
@@ -32,7 +37,7 @@ It is time for clone the repository and get all the dependencies using our `pack
 
 ```
 git clone https://github.com/minube/reactor
-yarn
+yarn --ignore-engines
 ```
 
 After get all the dependencies you have 2 ways to start playing with **Reactor**.
