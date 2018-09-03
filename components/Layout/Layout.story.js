@@ -5,22 +5,21 @@ import { action } from '@storybook/addon-actions';
 import { withState } from '@dump247/storybook-state';
 
 import { LAYOUT } from '../../common';
-import LayoutView, { LayoutStyle } from './Layout';
+import LayoutView, { LayoutConsumer } from './Layout';
 import Text from '../Text';
 
 storiesOf('🛠 Layout', module)
   .addWithJSX('default', () => (
     <LayoutView />
   ))
-  .addWithJSX('⚡ onLayout', () => (
+  .addWithJSX('⚡ onLayout (WEB)', () => (
     <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
-  .addWithJSX('🛠 Using <LayoutStyle>', withState({ timestamp: new Date() }, store => (
-    <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
-      <Text bold large>VIEWPORT</Text>
-
-      <LayoutStyle>
-        {({ viewport }) =>
+  .addWithJSX('🛠 <LayoutConsumer>', () => (
+    <LayoutView>
+      <Text bold large>{'<LayoutConsumer />'}</Text>
+      <LayoutConsumer>
+        { ({ viewport }) =>
           <View>
             <Text small>{`${viewport.W} x ${viewport.H}`}</Text>
             { viewport.PORTRAIT && <Text tiny>PORTRAIT</Text> }
@@ -34,12 +33,12 @@ storiesOf('🛠 Layout', module)
             { viewport.LARGE && <Text tiny>LARGE</Text> }
           </View>
         }
-      </LayoutStyle>
+      </LayoutConsumer>
     </LayoutView>
-  )))
-  .addWithJSX('🏀 Using LAYOUT', withState({ timestamp: new Date() }, store => (
+  ))
+  .addWithJSX('common/LAYOUT', withState({ timestamp: new Date() }, store => (
     <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
-      <Text bold large>VIEWPORT</Text>
+      <Text bold large>common/LAYOUT</Text>
       <Text small>{`${LAYOUT.VIEWPORT.W} x ${LAYOUT.VIEWPORT.H}`}</Text>
       { LAYOUT.VIEWPORT.PORTRAIT && <Text tiny>PORTRAIT</Text> }
       { LAYOUT.VIEWPORT.LANDSCAPE && <Text tiny>LANDSCAPE</Text> }
