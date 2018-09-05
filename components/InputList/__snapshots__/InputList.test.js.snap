@@ -625,7 +625,11 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -812,7 +816,11 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -999,7 +1007,11 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -1186,7 +1198,11 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -1373,7 +1389,11 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -1745,7 +1765,11 @@ exports[`<InputList> when {value} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -1861,7 +1885,11 @@ exports[`<InputList> when {value} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -1977,7 +2005,11 @@ exports[`<InputList> when {value} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -2093,7 +2125,11 @@ exports[`<InputList> when {value} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {
@@ -2209,7 +2245,11 @@ exports[`<InputList> when {value} 1`] = `
       >
         <Image
           resizeMode="contain"
-          source={1}
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/close.png",
+            }
+          }
           style={
             Array [
               Object {

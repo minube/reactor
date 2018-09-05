@@ -941,7 +941,11 @@ exports[`<Button> when {icon} & {title} 1`] = `
   >
     <Image
       resizeMode="contain"
-      source={1}
+      source={
+        Object {
+          "testUri": "../../../components/Icon/assets/apps.png",
+        }
+      }
       style={
         Array [
           Object {
@@ -1081,7 +1085,11 @@ exports[`<Button> when {icon} 1`] = `
   >
     <Image
       resizeMode="contain"
-      source={1}
+      source={
+        Object {
+          "testUri": "../../../components/Icon/assets/apps.png",
+        }
+      }
       style={
         Array [
           Object {

@@ -1,5 +1,4 @@
 module.exports = {
-  preset: 'jest-expo',
-  silent: true,
-  testEnvironment: 'jsdom',
+  preset: 'react-native',
+  silent: false,
 };
