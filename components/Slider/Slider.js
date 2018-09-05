@@ -4,10 +4,9 @@ import {
 import React, { Component } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
-import { THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
-import cardWidth from './modules/cardWidth';
 import styles from './Slider.style';
 
 const { UNIT } = THEME;
@@ -57,7 +56,7 @@ class Slider extends Component {
   }
 
   _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
-    const { _updateScroll, props: { itemMargin, itemWidth = cardWidth() } } = this;
+    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.STYLE.CARD.WIDTH } } = this;
     const width = (itemWidth + itemMargin);
 
     if (!Number.isInteger(x / width)) {
@@ -69,7 +68,7 @@ class Slider extends Component {
   _onButton = (type) => {
     const {
       _updateScroll,
-      props: { itemMargin, itemWidth = cardWidth(), steps },
+      props: { itemMargin, itemWidth = LAYOUT.STYLE.CARD.WIDTH, steps },
       state: { x },
     } = this;
     const width = (itemWidth + itemMargin) * steps;
