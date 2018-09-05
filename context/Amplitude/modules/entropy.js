@@ -67,7 +67,7 @@ if (IS_NATIVE) {
   switch (osName) {
     case 'Mac OS X':
       // osVersion = /Mac OS X (10[\.\_\d]+)/.exec(userAgent)[1];
-      osVersion = /Mac OS X 10_(\d+)_?(\d+)?/.exec(appVersion);
+      osVersion = /Mac OS X 10_(\d+)_?(\d+)?/.exec(appVersion) || [];
       osVersion = `${osVersion[1]}.${osVersion[2]}`;
       break;
 
