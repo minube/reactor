@@ -26,62 +26,6 @@ exports[`<Avatar> renders 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
-    style={
-      Array [
-        Object {
-          "borderRadius": 20,
-          "height": 40,
-          "width": 40,
-        },
-        false,
-        false,
-        undefined,
-      ]
-    }
-  />
-  <ActivityIndicator
-    animating={true}
-    color="white"
-    hidesWhenStopped={true}
-    size="large"
-    style={
-      Array [
-        Object {
-          "position": "absolute",
-        },
-        false,
-      ]
-    }
-  />
-</View>
-`;
-
-exports[`<Avatar> when {image} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#f4f4f4",
-        "justifyContent": "center",
-      },
-      Array [
-        Object {
-          "borderRadius": 20,
-          "height": 40,
-          "width": 40,
-        },
-        false,
-        false,
-        undefined,
-      ],
-    ]
-  }
->
-  <Image
-    onLoad={[Function]}
-    resizeMode="cover"
     source={
       Object {
         "uri": "https://api.adorable.io/avatars/128/8",
@@ -147,6 +91,11 @@ exports[`<Avatar> when {large} 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://api.adorable.io/avatars/128/8",
+      }
+    }
     style={
       Array [
         Object {
@@ -211,6 +160,11 @@ exports[`<Avatar> when {small} 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://api.adorable.io/avatars/128/8",
+      }
+    }
     style={
       Array [
         Object {
@@ -275,6 +229,11 @@ exports[`<Avatar> when {style} 1`] = `
   <Image
     onLoad={[Function]}
     resizeMode="cover"
+    source={
+      Object {
+        "uri": "https://api.adorable.io/avatars/128/8",
+      }
+    }
     style={
       Array [
         Object {

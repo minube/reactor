@@ -1,5 +1,5 @@
 import {
-  arrayOf, bool, func, shape, string,
+  arrayOf, bool, func, oneOfType, shape, string,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
@@ -13,7 +13,7 @@ import styles from './InputList.style';
 
 class InputList extends PureComponent {
   static propTypes = {
-    dataSource: arrayOf(shape({})),
+    dataSource: arrayOf(oneOfType([string, shape({})])),
     dataSourceField: string,
     disabled: bool,
     error: string,
@@ -21,7 +21,7 @@ class InputList extends PureComponent {
     itemTemplate: func,
     label: string,
     onChange: func,
-    value: arrayOf(string),
+    value: arrayOf(oneOfType([string, shape({})])),
   };
 
   static defaultProps = {
@@ -129,7 +129,11 @@ class InputList extends PureComponent {
                 : item;
 
               return (
-                <View key={itemValue} pointerEvents={disabled ? 'none' : undefined} style={styles.value}>
+                <View
+                  key={JSON.stringify(itemValue)}
+                  pointerEvents={disabled ? 'none' : undefined}
+                  style={styles.value}
+                >
                   <ItemList template={itemTemplate} value={itemValue} />
                   <Touchable onPress={() => _onRemoveItem(item)}>
                     <Icon value="close" style={styles.iconClose} />

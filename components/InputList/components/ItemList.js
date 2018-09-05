@@ -1,5 +1,5 @@
 import {
-  node, oneOfType, shape, string,
+  func, node, oneOfType, shape, string,
 } from 'prop-types';
 import React, { createElement } from 'react';
 
@@ -16,7 +16,7 @@ const ItemList = ({ template, value = {} }) => (
 );
 
 ItemList.propTypes = {
-  template: node,
+  template: oneOfType([func, node]),
   value: oneOfType([string, shape({})]).isRequired,
 };
 

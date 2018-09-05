@@ -22,40 +22,41 @@ const CONTRIBUTORS = {
 };
 
 const RATING = { caption: 'valoraciones', count: 12, value: 4.5 };
+const LOREM_TITLE = 'Hello World';
 
 describe('<Heading>', () => {
   it('renders', () => {
-    const tree = renderer.create(<Heading />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {title}', () => {
-    const tree = renderer.create(<Heading title="Hello" />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {rating}', () => {
-    const tree = renderer.create(<Heading title="Hello" rating={RATING} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} rating={RATING} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {breadcrumbs}', () => {
-    const tree = renderer.create(<Heading title="Hello" breadcrumbs={BREADCRUMBS} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} breadcrumbs={BREADCRUMBS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {contributors}', () => {
-    const tree = renderer.create(<Heading title="Hello" contributors={CONTRIBUTORS} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} contributors={CONTRIBUTORS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<Heading title="Hello" color={THEME.COLOR.ACCENT} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} color={THEME.COLOR.ACCENT} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {column}', () => {
-    const tree = renderer.create(<Heading title="Hello" column rating={RATING} contributors={CONTRIBUTORS} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} column rating={RATING} contributors={CONTRIBUTORS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -64,7 +65,7 @@ describe('<Heading>', () => {
       padding: THEME.OFFSET,
       backgroundColor: 'rgba(0,0,0,0.25)',
     };
-    const tree = renderer.create(<Heading title="Hello" style={style} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} style={style} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

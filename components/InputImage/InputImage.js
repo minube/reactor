@@ -1,6 +1,4 @@
-import {
-  arrayOf, bool, func, string,
-} from 'prop-types';
+import { bool, func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
@@ -15,7 +13,7 @@ class InputImage extends PureComponent {
     hint: string,
     label: string,
     onChange: func,
-    value: arrayOf(string),
+    value: string,
   };
 
   static defaultProps = {
@@ -24,11 +22,11 @@ class InputImage extends PureComponent {
     hint: undefined,
     label: undefined,
     onChange() {},
-    value: undefined,
+    value: '',
   };
 
   render() {
-    const { props: { value = '', ...inherit } } = this;
+    const { props: { value, ...inherit } } = this;
     const isValidUrl = value.length > 0;
 
     return (

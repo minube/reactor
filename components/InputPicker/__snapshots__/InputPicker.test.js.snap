@@ -34,7 +34,6 @@ exports[`<InputPicker> renders 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
           false,
@@ -97,12 +96,9 @@ exports[`<InputPicker> when {disabled} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
-          Object {
-            "color": "#cccccc",
-          },
+          undefined,
         ]
       }
     >
@@ -162,7 +158,6 @@ exports[`<InputPicker> when {error} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
           false,
@@ -263,7 +258,6 @@ exports[`<InputPicker> when {hint} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
           false,
@@ -402,7 +396,6 @@ exports[`<InputPicker> when {label} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
           false,
@@ -467,7 +460,6 @@ exports[`<InputPicker> when {style} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
           false,
@@ -528,7 +520,6 @@ exports[`<InputPicker> when {value} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "color": "#4a4a4a",
             "height": 33,
           },
           false,

@@ -42,7 +42,7 @@ const EVENT = () => {};
 
 describe('<Form>', () => {
   it('renders', () => {
-    const tree = renderer.create(<Form />).toJSON();
+    const tree = renderer.create(<Form attributes={{}} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

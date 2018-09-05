@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
@@ -33,7 +33,14 @@ export default StyleSheet.create({
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
     height: UNIT * 3.3,
-    color: COLOR.TEXT,
+    ...Platform.select({
+      web: {
+        color: COLOR.TEXT,
+      },
+      android: {
+        color: COLOR.TEXT,
+      },
+    }),
     // @TODO: How we can set size and weight
     // fontSize: FONT.SIZE.REGULAR,
     // fontWeight: FONT.WEIGHT.REGULAR,
@@ -44,11 +51,21 @@ export default StyleSheet.create({
     // }),
   },
 
-  pickerDisabled: {
-    color: COLOR.BASE,
-  },
+  pickerDisabled: Platform.select({
+    web: {
+      color: COLOR.BASE,
+    },
+    android: {
+      color: COLOR.BASE,
+    },
+  }),
 
-  active: {
-    color: COLOR.ACCENT,
-  },
+  active: Platform.select({
+    web: {
+      color: COLOR.ACCENT,
+    },
+    android: {
+      color: COLOR.ACCENT,
+    },
+  }),
 });

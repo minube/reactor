@@ -20,7 +20,7 @@ const Inputs = {
 
 class Form extends PureComponent {
   static propTypes = {
-    attributes: shape({}).isRequired,
+    attributes: shape({}),
     value: shape({}),
     onChange: func,
     onValid: func,
@@ -28,6 +28,7 @@ class Form extends PureComponent {
   };
 
   static defaultProps = {
+    attributes: {},
     value: undefined,
     title: undefined,
     onChange: undefined,

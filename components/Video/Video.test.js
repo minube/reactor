@@ -3,17 +3,11 @@ import renderer from 'react-test-renderer';
 
 import Video from './Video';
 
-const VIDEO_PLACEHOLDER = 'https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4';
-
+const LOREM_VIDEO = 'https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4';
 
 describe('<Video>', () => {
   it('renders', () => {
-    const tree = renderer.create(<Video />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {source}', () => {
-    const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} />).toJSON();
+    const tree = renderer.create(<Video source={LOREM_VIDEO} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -28,22 +22,22 @@ describe('<Video>', () => {
   });
 
   it('when {autoplay}', () => {
-    const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} autoplay />).toJSON();
+    const tree = renderer.create(<Video source={LOREM_VIDEO} autoplay />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {controls}', () => {
-    const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} controls />).toJSON();
+    const tree = renderer.create(<Video source={LOREM_VIDEO} controls />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {dimensions}', () => {
-    const tree = renderer.create(<Video height={128} source={VIDEO_PLACEHOLDER} width={256} />).toJSON();
+    const tree = renderer.create(<Video height={128} source={LOREM_VIDEO} width={256} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {preload}', () => {
-    const tree = renderer.create(<Video source={VIDEO_PLACEHOLDER} preload />).toJSON();
+    const tree = renderer.create(<Video source={LOREM_VIDEO} preload />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -52,7 +46,7 @@ describe('<Video>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Video style={{ width: 640, height: 400,}} />).toJSON();
+    const tree = renderer.create(<Video source={LOREM_VIDEO} style={{ width: 640, height: 400,}} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

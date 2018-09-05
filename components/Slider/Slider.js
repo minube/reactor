@@ -4,9 +4,10 @@ import {
 import React, { Component } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
+import cardWidth from './modules/cardWidth';
 import styles from './Slider.style';
 
 const { UNIT } = THEME;
@@ -15,23 +16,11 @@ const NEXT = 'next';
 let timeout;
 const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 40 : 16;
 
-const cardWidth = () => {
-  const {
-    TINY, PHONE, SMALL, TABLET, REGULAR,
-  } = LAYOUT.VIEWPORT;
-
-  if (TINY) return UNIT * 13;
-  if (PHONE || SMALL) return UNIT * 15;
-  if (TABLET || REGULAR) return UNIT * 16.8;
-
-  return UNIT * 23.6;
-};
-
 class Slider extends Component {
   static propTypes = {
     caption: string,
     dataSource: arrayOf(shape({})),
-    item: func.isRequired,
+    item: func,
     itemMargin: number,
     itemWidth: number,
     momentum: bool,
@@ -43,6 +32,7 @@ class Slider extends Component {
   static defaultProps = {
     caption: undefined,
     dataSource: [],
+    item() {},
     itemMargin: UNIT,
     itemWidth: undefined,
     momentum: Platform.OS === 'web',

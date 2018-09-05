@@ -6,42 +6,6 @@ exports[`<Link> renders 1`] = `
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-      },
-      false,
-      false,
-      false,
-      false,
-      Object {
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      Object {},
-    ]
-  }
-/>
-`;
-
-exports[`<Link> when {href} 1`] = `
-<Text
-  accessibilityRole="link"
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
   href="http://minube.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -79,6 +43,7 @@ exports[`<Link> when {style} 1`] = `
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
+  href="http://minube.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -119,6 +84,7 @@ exports[`<Link> when {styleHover} 1`] = `
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
+  href="http://minube.com"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={

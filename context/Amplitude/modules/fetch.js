@@ -4,7 +4,7 @@ import PKG from '../../../package.json';
 
 import entropy from './entropy';
 
-const { IS_PRODUCTION, IS_WEB } = ENV;
+const { IS_PRODUCTION, IS_WEB, NODE_ENV } = ENV;
 const {
   browserName, browserVersion,
   deviceManufacturer, deviceModel,
@@ -46,7 +46,7 @@ export default async (key, event = {}, endpoint = ENDPOINT_DEFAULT) => {
       : {},
   };
 
-  if (!IS_PRODUCTION) console.info(`⚡️ProviderAmplitude:${endpoint}`, props); // eslint-disable-line
+  if (!IS_PRODUCTION && !NODE_ENV) console.info(`⚡️ProviderAmplitude:${endpoint}`, props); // eslint-disable-line
 
   fetch(`https://api.amplitude.com/${endpoint}`, {
     headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' },

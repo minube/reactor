@@ -8,27 +8,22 @@ const STYLE = { borderRadius: 5, width: 128, height: 128 };
 
 describe('<Avatar>', () => {
   it('renders', () => {
-    const tree = renderer.create(<Avatar />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {image}', () => {
     const tree = renderer.create(<Avatar image={LOREM_AVATAR} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {small}', () => {
-    const tree = renderer.create(<Avatar small />).toJSON();
+    const tree = renderer.create(<Avatar image={LOREM_AVATAR} small />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {large}', () => {
-    const tree = renderer.create(<Avatar large />).toJSON();
+    const tree = renderer.create(<Avatar image={LOREM_AVATAR} large />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Avatar style={STYLE} />).toJSON();
+    const tree = renderer.create(<Avatar image={LOREM_AVATAR} style={STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

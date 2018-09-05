@@ -45,7 +45,7 @@ exports[`<Video> renders 1`] = `
       height=\\"100%\\"
       playsinline
       preload=\\"true\\"
-      src=\\"undefined\\"
+      src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
       style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
@@ -558,86 +558,6 @@ exports[`<Video> when {source} (youtube) 1`] = `
 </View>
 `;
 
-exports[`<Video> when {source} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignContent": "center",
-        "alignItems": "center",
-        "alignSelf": "center",
-        "justifyContent": "center",
-        "overflow": "hidden",
-      },
-      Object {
-        "height": 180,
-        "maxHeight": 180,
-        "maxWidth": 320,
-        "width": 320,
-      },
-      undefined,
-    ]
-  }
->
-  <View
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <RCTWebView
-      allowsInlineMediaPlayback={true}
-      mediaPlaybackRequiresUserAction={false}
-      messagingEnabled={false}
-      onLoadingError={[Function]}
-      onLoadingFinish={[Function]}
-      onLoadingStart={[Function]}
-      onMessage={[Function]}
-      scalesPageToFit={false}
-      scrollEnabled={false}
-      source={
-        Object {
-          "html": "<video
-         
-      height=\\"100%\\"
-      playsinline
-      preload=\\"true\\"
-      src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
-      webkit-playsinline
-      width=\\"100%\\"
-    />",
-        }
-      }
-      style={
-        Array [
-          Object {
-            "flex": 1,
-          },
-          Object {
-            "backgroundColor": "#ffffff",
-          },
-          Array [
-            Object {
-              "backgroundColor": "#CDD2D4",
-              "flex": 1,
-              "overflow": "hidden",
-            },
-            Object {
-              "height": 180,
-              "maxHeight": 180,
-              "maxWidth": 320,
-              "width": 320,
-            },
-          ],
-        ]
-      }
-    />
-  </View>
-</View>
-`;
-
 exports[`<Video> when {style} 1`] = `
 <View
   style={
@@ -686,7 +606,7 @@ exports[`<Video> when {style} 1`] = `
       height=\\"100%\\"
       playsinline
       preload=\\"true\\"
-      src=\\"undefined\\"
+      src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
       style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"

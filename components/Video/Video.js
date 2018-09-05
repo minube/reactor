@@ -9,6 +9,25 @@ import { embedUrl } from './modules';
 import styles from './Video.style';
 
 class Video extends Component {
+  static propTypes = {
+    autoPlay: bool,
+    controls: bool,
+    height: number,
+    onLoad: func,
+    preload: bool,
+    source: string.isRequired,
+    width: number,
+  };
+
+  static defaultProps = {
+    autoPlay: false,
+    controls: false,
+    height: 180,
+    onLoad() {},
+    preload: false,
+    width: 320,
+  };
+
   state = {
     ready: false,
   }
@@ -80,24 +99,5 @@ class Video extends Component {
     );
   }
 }
-
-Video.propTypes = {
-  autoPlay: bool,
-  controls: bool,
-  height: number,
-  onLoad: func,
-  preload: bool,
-  source: string.isRequired,
-  width: number,
-};
-
-Video.defaultProps = {
-  autoPlay: false,
-  controls: false,
-  height: 180,
-  onLoad() {},
-  preload: false,
-  width: 320,
-};
 
 export default Video;

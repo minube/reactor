@@ -151,17 +151,20 @@ exports[`<Share> renders 1`] = `
 exports[`<Share> when {accentColor} 1`] = `
 <share
   accentColor="red"
+  uri="http://soyjavi.com"
 />
 `;
 
 exports[`<Share> when {caption} 1`] = `
 <share
   caption="Hello world"
+  uri="http://soyjavi.com"
 />
 `;
 
 exports[`<Share> when {title} 1`] = `
 <share
   title="Press me"
+  uri="http://soyjavi.com"
 />
 `;
