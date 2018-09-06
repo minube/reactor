@@ -10,7 +10,7 @@ import {
 import PKG from '../../package.json';
 
 const { IS_PRODUCTION, IS_WEB, IS_SERVER } = ENV;
-const { Provider, Consumer: ConsumerAmplitude } = createContext();
+const { Provider, Consumer: ConsumerAmplitude } = createContext('reactor:amplitude');
 const STORE_EVENTS = `${PKG.name}:events`;
 const MINUBE_USER_ID = 'mn_user_id';
 let eventId = 1;
