@@ -6,15 +6,20 @@ import React from 'react';
 import SHAPE from '../common/shape';
 import { ConsumerAmplitude, ProviderAmplitude } from './Amplitude';
 import { ConsumerL10N, ProviderL10N } from './L10N';
+import { ConsumerTheme, ProviderTheme } from './Theme';
 
 const Consumer = ({ children }) => (
-  <ConsumerAmplitude>
-    { amplitude => (
-      <ConsumerL10N>
-        { l10n => children({ ...amplitude, ...l10n }) }
-      </ConsumerL10N>
+  <ConsumerTheme>
+    { theme => (
+      <ConsumerAmplitude>
+        { amplitude => (
+          <ConsumerL10N>
+            { l10n => children({ ...amplitude, ...l10n, ...theme }) }
+          </ConsumerL10N>
+        )}
+      </ConsumerAmplitude>
     )}
-  </ConsumerAmplitude>
+  </ConsumerTheme>
 );
 
 Consumer.propTypes = {
@@ -22,24 +27,28 @@ Consumer.propTypes = {
 };
 
 const Provider = ({
-  amplitudeKey, children, session, ...l10n
+  amplitudeKey, children, session, theme, ...l10n
 }) => (
-  <ProviderAmplitude key={amplitudeKey} session={session}>
-    <ProviderL10N {...l10n}>
-      {children}
-    </ProviderL10N>
-  </ProviderAmplitude>
+  <ProviderTheme style={theme || { COLOR: { PRIMARY: 'pink' } }}>
+    <ProviderAmplitude key={amplitudeKey} session={session}>
+      <ProviderL10N {...l10n}>
+        {children}
+      </ProviderL10N>
+    </ProviderAmplitude>
+  </ProviderTheme>
 );
 
 Provider.propTypes = {
   amplitudeKey: string,
   children: node.isRequired,
   session: shape(SHAPE.SESSION),
+  theme: shape({}),
 };
 
 Provider.defaultProps = {
   amplitudeKey: undefined,
   session: undefined,
+  theme: undefined,
 };
 
 export {
