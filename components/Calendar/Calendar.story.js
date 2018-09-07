@@ -7,8 +7,8 @@ import { date, text, boolean, color, object } from '@storybook/addon-knobs/react
 import { LayoutView, Price } from '../';
 import Calendar from './Calendar';
 
+
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', width: '100%' };
-const NULL = () => {};
 const TODAY = new Date();
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);

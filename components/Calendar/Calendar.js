@@ -23,7 +23,7 @@ class Calendar extends PureComponent {
     disabledPast: bool,
     locale: shape({}),
     onChange: func,
-    value: oneOfType([date, arrayOf(String)]),
+    value: oneOfType([date, arrayOf(date)]),
   };
 
   static defaultProps = {
