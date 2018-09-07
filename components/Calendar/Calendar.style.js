@@ -6,10 +6,22 @@ const { COLOR, OFFSET, UNIT } = THEME;
 const DAY_SIZE = UNIT * 3.6;
 
 export default StyleSheet.create({
+  activity: {
+    position: 'absolute',
+    zIndex: 1,
+  },
+
+  busy: {
+    opacity: 0.1,
+  },
+
   container: {
     backgroundColor: COLOR.WHITE,
     paddingHorizontal: OFFSET,
     paddingVertical: OFFSET / 2,
+    alignItems: 'center',
+    alignContent: 'center',
+    justifyContent: 'center',
   },
 
   day: {

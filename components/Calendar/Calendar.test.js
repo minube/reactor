@@ -24,6 +24,11 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+   it('when {busy}', () => {
+    const tree = renderer.create(<Calendar busy />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {locale}', () => {
     const tree = renderer.create(<Calendar locale={LOCALE} />).toJSON();
     expect(tree).toMatchSnapshot();

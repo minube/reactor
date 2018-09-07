@@ -4,6 +4,7 @@ import {
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
+import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
 import styles from './Calendar.style';
 
@@ -19,6 +20,7 @@ const WEEKS = 6;
 
 class Calendar extends PureComponent {
   static propTypes = {
+    busy: bool,
     disabledDates: arrayOf(date),
     disabledPast: bool,
     locale: shape({}),
@@ -27,6 +29,7 @@ class Calendar extends PureComponent {
   };
 
   static defaultProps = {
+    busy: false,
     disabledDates: [],
     disabledPast: false,
     locale: L10N_DEFAULT,
@@ -96,7 +99,7 @@ class Calendar extends PureComponent {
     const {
       _onNext, _onPress, _onPrevious,
       props: {
-        locale: { dayNames, months }, onChange, ...inherit
+        busy, locale: { dayNames, months }, onChange, ...inherit
       },
       state,
     } = this;
@@ -108,17 +111,20 @@ class Calendar extends PureComponent {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        <Selector {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
-        <DayNames locale={dayNames} />
-        { [...Array(WEEKS)].map((week, index) => (
-          <Week
-            {...state}
-            {...inherit}
-            key={index}
-            startDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
-            onPress={_onPress}
-          />
-        ))}
+        { busy && <Activity size="large" style={styles.activity} /> }
+        <View style={busy && styles.busy}>
+          <Selector {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
+          <DayNames locale={dayNames} />
+          { [...Array(WEEKS)].map((week, index) => (
+            <Week
+              {...state}
+              {...inherit}
+              key={index}
+              startDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
+              onPress={!busy ? _onPress : undefined}
+            />
+          ))}
+        </View>
       </View>
     );
   }

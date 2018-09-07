@@ -25,6 +25,9 @@ storiesOf('☑️ Calendar', module)
   .addWithJSX('default', () => (
     <Calendar />
   ))
+  .addWithJSX('busy', () => (
+    <Calendar busy />
+  ))
   .addWithJSX('locale', () => (
     <Calendar locale={LOCALE} />
   ))
@@ -45,6 +48,9 @@ storiesOf('☑️ Calendar', module)
   ))
   .addWithJSX('🏀 Playground', () => (
     <Calendar
+      busy={boolean('busy', false)}
+      disabledPast={boolean('disabledPast', false)}
+      locale={object('locale', LOCALE)}
       // value={date('value', TOMORROW)}
       onChange={action('Calendar.onChange()')}
       style={object('style', STYLE)}
