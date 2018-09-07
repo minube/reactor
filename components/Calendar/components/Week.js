@@ -1,6 +1,6 @@
 
 import {
-  arrayOf, bool, date, func, shape,
+  arrayOf, bool, func, shape,
 } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
@@ -13,6 +13,7 @@ const onPress = ({
   day, tsDay, tsStart, tsEnd, onSelect, range, value,
 }) => {
   if (!range) onSelect(day);
+  else if (tsDay < tsStart) onSelect([day, value[0]]);
   else if (!tsStart || tsEnd > tsStart) onSelect([day]);
   else if (tsDay > tsStart) onSelect([value[0], day]);
 };
@@ -52,7 +53,12 @@ const Week = ({
         return (
           <Touchable
             key={day.toString()}
-            onPress={!isDisabled ? () => onPress({ day, tsDay, tsStart, tsEnd, ...inherit }) : undefined}
+            onPress={!isDisabled
+              ? () => onPress({
+                day, tsDay, tsStart, tsEnd, ...inherit,
+              })
+              : undefined
+            }
             style={[
               styles.day,
               isToday && styles.today,
@@ -77,15 +83,15 @@ const Week = ({
 };
 
 Week.propTypes = {
-  disabledDates: arrayOf(date).isRequired,
+  disabledDates: arrayOf(shape).isRequired,
   disabledPast: bool.isRequired,
   onSelect: func,
   firstDate: shape({}),
 };
 
 Week.defaultProps = {
-  onSelect() {},
   firstDate: undefined,
+  onSelect() {},
 };
 
 export default Week;

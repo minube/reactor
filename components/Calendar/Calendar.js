@@ -1,5 +1,5 @@
 import {
-  arrayOf, bool, date, func, oneOfType, shape,
+  arrayOf, bool, func, oneOfType, shape,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
@@ -15,18 +15,18 @@ const L10N_DEFAULT = {
     'July', 'August', 'September', 'October', 'November', 'December',
   ],
 };
-const WEEKS = 6;
+const WEEKS = Array.from(Array(6).keys());
 
 class Calendar extends PureComponent {
   static propTypes = {
     busy: bool,
-    disabledDates: arrayOf(date),
+    disabledDates: arrayOf(shape),
     disabledPast: bool,
     locale: shape({}),
     onChange: func,
     onSelect: func,
     range: bool,
-    value: oneOfType([date, arrayOf(date)]),
+    value: oneOfType([shape, arrayOf(shape)]),
   };
 
   static defaultProps = {
@@ -117,12 +117,12 @@ class Calendar extends PureComponent {
         <View style={busy && styles.busy}>
           <Selector {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
           <DayNames locale={dayNames} />
-          { [...Array(WEEKS)].map((week, index) => (
+          { WEEKS.map(weekIndex => (
             <Week
               {...props}
               {...state}
-              key={index}
-              firstDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
+              key={weekNumber + weekIndex}
+              firstDate={new Date(state.year, 0, 1 + ((weekNumber + weekIndex) - 1) * 7)}
               onSelect={!busy ? onSelect : undefined}
             />
           ))}

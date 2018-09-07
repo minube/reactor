@@ -26610,7 +26610,7 @@ exports[`<Calendar> when {style} 1`] = `
 </View>
 `;
 
-exports[`<Calendar> when {value} (range) 1`] = `
+exports[`<Calendar> when {value} & {range} 1`] = `
 <View
   style={
     Array [

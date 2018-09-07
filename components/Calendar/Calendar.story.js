@@ -50,10 +50,10 @@ storiesOf('☑️ Calendar', module)
   .addWithJSX('locale', () => (
     <Calendar locale={LOCALE} />
   ))
-  .addWithJSX('value (tomorrow)', () => (
+  .addWithJSX('value', () => (
     <Calendar value={TOMORROW} />
   ))
-  .addWithJSX('range (3 days)', () => (
+  .addWithJSX('range', () => (
     <Calendar range value={[YESTERDAY, TOMORROW]} />
   ))
   .addWithJSX('disabledDates', () => (

@@ -40,7 +40,7 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {value} (range)', () => {
+  it('when {value} & {range}', () => {
     const tree = renderer.create(<Calendar range value={[YESTERDAY, TOMORROW]} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
