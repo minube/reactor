@@ -7,6 +7,7 @@ import Calendar from './Calendar';
 // } from './Calendar.story';
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', width: '100%' };
 const TODAY = new Date(1980, 10, 4);
+const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
@@ -36,6 +37,11 @@ describe('<Calendar>', () => {
 
   it('when {value}', () => {
     const tree = renderer.create(<Calendar value={TOMORROW} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {value} (range)', () => {
+    const tree = renderer.create(<Calendar range value={[YESTERDAY, TOMORROW]} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

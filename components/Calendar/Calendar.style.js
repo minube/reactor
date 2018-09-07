@@ -26,7 +26,6 @@ export default StyleSheet.create({
 
   day: {
     alignItems: 'center',
-    borderRadius: DAY_SIZE / 2,
     height: DAY_SIZE,
     justifyContent: 'center',
     width: DAY_SIZE,
@@ -50,10 +49,22 @@ export default StyleSheet.create({
   },
 
   selected: {
+    borderRadius: 0,
     backgroundColor: 'grey',
+  },
+
+  selectedStart: {
+    borderTopLeftRadius: DAY_SIZE / 2,
+    borderBottomLeftRadius: DAY_SIZE / 2,
+  },
+
+  selectedEnd: {
+    borderTopRightRadius: DAY_SIZE / 2,
+    borderBottomRightRadius: DAY_SIZE / 2,
   },
 
   today: {
     backgroundColor: COLOR.PRIMARY,
+    borderRadius: DAY_SIZE / 2,
   },
 });

@@ -25,6 +25,7 @@ class Calendar extends PureComponent {
     locale: shape({}),
     onChange: func,
     onSelect: func,
+    range: bool,
     value: oneOfType([date, arrayOf(date)]),
   };
 
@@ -35,13 +36,16 @@ class Calendar extends PureComponent {
     locale: L10N_DEFAULT,
     onChange() {},
     onSelect() {},
+    range: false,
     value: undefined,
   };
 
   constructor(props) {
     super(props);
+
     const today = new Date();
     today.setHours(0, 0, 0, 0);
+
     let { value = new Date() } = props;
     if (Array.isArray(value)) [value] = value;
 
@@ -49,7 +53,6 @@ class Calendar extends PureComponent {
       month: value.getMonth(),
       year: value.getFullYear(),
       today,
-      selected: value,
     };
   }
 
@@ -62,7 +65,6 @@ class Calendar extends PureComponent {
     this.setState({
       month: value.getMonth(),
       year: value.getFullYear(),
-      selected: value,
     });
   }
 
@@ -108,8 +110,6 @@ class Calendar extends PureComponent {
 
     const startDate = new Date(state.year, state.month);
     const weekNumber = Math.ceil((((startDate - new Date(state.year, 0, 1)) / 8.64e7)) / 7);
-    // const dayStart = startDate.getUTCDay();
-    // const daysMonth = new Date(year, month + 1, 0).getDate();
 
     return (
       <View style={[styles.container, props.style]}>
@@ -122,8 +122,8 @@ class Calendar extends PureComponent {
               {...props}
               {...state}
               key={index}
-              startDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
-              onPress={!busy ? onSelect : undefined}
+              firstDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
+              onSelect={!busy ? onSelect : undefined}
             />
           ))}
         </View>

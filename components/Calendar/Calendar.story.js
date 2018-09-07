@@ -10,6 +10,7 @@ import Calendar from './Calendar';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', width: '100%' };
 const TODAY = new Date();
+const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
@@ -24,7 +25,7 @@ const LOCALE = {
 class CalendarHOC extends PureComponent {
   constructor(props) {
     super(props);
-    this.state = { value: TOMORROW };
+    this.state = { value: props.value };
   }
 
   _onSelect = (value) => {
@@ -52,6 +53,9 @@ storiesOf('☑️ Calendar', module)
   .addWithJSX('value (tomorrow)', () => (
     <Calendar value={TOMORROW} />
   ))
+  .addWithJSX('range (3 days)', () => (
+    <Calendar range value={[YESTERDAY, TOMORROW]} />
+  ))
   .addWithJSX('disabledDates', () => (
     <Calendar disabledDates={[IN_7_DAYS, IN_10_DAYS]} />
   ))
@@ -60,6 +64,9 @@ storiesOf('☑️ Calendar', module)
   ))
   .addWithJSX('⚡ onSelect', () => (
     <CalendarHOC onSelect={action('Calendar.onSelect()')} />
+  ))
+  .addWithJSX('⚡ onSelect (range)', () => (
+    <CalendarHOC range onSelect={action('Calendar.onSelect()')} />
   ))
   .addWithJSX('⚡ onChange', () => (
     <Calendar onChange={action('Calendar.onChange()')} />
@@ -75,6 +82,7 @@ storiesOf('☑️ Calendar', module)
       // value={date('value', TOMORROW)}
       onChange={action('Calendar.onChange()')}
       onSelect={action('Calendar.onSelect()')}
+      range={boolean('range', false)}
       style={object('style', STYLE)}
     />
   ));
