@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
@@ -21,6 +21,24 @@ const LOCALE = {
   ],
 };
 
+class CalendarHOC extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = { value: TOMORROW };
+  }
+
+  _onSelect = (value) => {
+    const { props: { onSelect } } = this;
+    onSelect(value);
+    this.setState({ value });
+  }
+
+  render() {
+    const { _onSelect, props, state: { value } } = this;
+    return <Calendar {...props} value={value} onSelect={_onSelect} />
+  }
+}
+
 storiesOf('☑️ Calendar', module)
   .addWithJSX('default', () => (
     <Calendar />
@@ -40,6 +58,9 @@ storiesOf('☑️ Calendar', module)
   .addWithJSX('disabledPast', () => (
     <Calendar disabledPast />
   ))
+  .addWithJSX('⚡ onSelect', () => (
+    <CalendarHOC onSelect={action('Calendar.onSelect()')} />
+  ))
   .addWithJSX('⚡ onChange', () => (
     <Calendar onChange={action('Calendar.onChange()')} />
   ))
@@ -47,12 +68,13 @@ storiesOf('☑️ Calendar', module)
     <Calendar style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
-    <Calendar
+    <CalendarHOC
       busy={boolean('busy', false)}
       disabledPast={boolean('disabledPast', false)}
       locale={object('locale', LOCALE)}
       // value={date('value', TOMORROW)}
       onChange={action('Calendar.onChange()')}
+      onSelect={action('Calendar.onSelect()')}
       style={object('style', STYLE)}
     />
   ));

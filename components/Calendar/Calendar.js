@@ -15,7 +15,6 @@ const L10N_DEFAULT = {
     'July', 'August', 'September', 'October', 'November', 'December',
   ],
 };
-
 const WEEKS = 6;
 
 class Calendar extends PureComponent {
@@ -25,6 +24,7 @@ class Calendar extends PureComponent {
     disabledPast: bool,
     locale: shape({}),
     onChange: func,
+    onSelect: func,
     value: oneOfType([date, arrayOf(date)]),
   };
 
@@ -33,7 +33,8 @@ class Calendar extends PureComponent {
     disabledDates: [],
     disabledPast: false,
     locale: L10N_DEFAULT,
-    onChange: undefined,
+    onChange() {},
+    onSelect() {},
     value: undefined,
   };
 
@@ -66,6 +67,7 @@ class Calendar extends PureComponent {
   }
 
   _onPrevious = () => {
+    const { _onChange } = this;
     let { state: { month, year } } = this;
 
     if (month === 0) {
@@ -73,11 +75,11 @@ class Calendar extends PureComponent {
       year -= 1;
     }
     month -= 1;
-
-    this.setState({ month, year });
+    _onChange(month, year);
   }
 
   _onNext = () => {
+    const { _onChange } = this;
     let { state: { month, year } } = this;
 
     if (month === 11) {
@@ -85,21 +87,21 @@ class Calendar extends PureComponent {
       year += 1;
     }
     month += 1;
-    this.setState({ month, year });
+    _onChange(month, year);
   }
 
-  _onPress = (selected) => {
+  _onChange = (month, year) => {
     const { props: { onChange } } = this;
 
-    if (onChange) onChange(selected);
-    this.setState({ selected });
+    onChange(month, year);
+    this.setState({ month, year });
   }
 
   render() {
     const {
-      _onNext, _onPress, _onPrevious,
+      _onNext, _onPrevious,
       props: {
-        busy, locale: { dayNames, months }, onChange, ...inherit
+        busy, locale: { dayNames, months }, onSelect, ...props
       },
       state,
     } = this;
@@ -110,18 +112,18 @@ class Calendar extends PureComponent {
     // const daysMonth = new Date(year, month + 1, 0).getDate();
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, props.style]}>
         { busy && <Activity size="large" style={styles.activity} /> }
         <View style={busy && styles.busy}>
           <Selector {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
           <DayNames locale={dayNames} />
           { [...Array(WEEKS)].map((week, index) => (
             <Week
+              {...props}
               {...state}
-              {...inherit}
               key={index}
               startDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
-              onPress={!busy ? _onPress : undefined}
+              onPress={!busy ? onSelect : undefined}
             />
           ))}
         </View>
