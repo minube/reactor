@@ -1,5 +1,5 @@
 import {
-  arrayOf, func, number, string,
+  arrayOf, func, string,
 } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
@@ -9,7 +9,7 @@ import Touchable from '../../Touchable';
 import styles from '../Calendar.style';
 
 const Selector = ({
-  locale = [], onPrevious, onNext, month, year,
+  locale = [], onPrevious, onNext, ...state
 }) => (
   <View style={styles.row}>
     <Touchable onPress={onPrevious} style={styles.day}>
@@ -18,7 +18,7 @@ const Selector = ({
       </Text>
     </Touchable>
     <Text bold>
-      {`${locale[month]} ${year}`}
+      {`${locale[state.month]} ${state.year}`}
     </Text>
     <Touchable onPress={onNext} style={styles.day}>
       <Text large>
@@ -29,8 +29,6 @@ const Selector = ({
 );
 
 Selector.propTypes = {
-  month: number.isRequired,
-  year: number.isRequired,
   locale: arrayOf(string).isRequired,
   onPrevious: func.isRequired,
   onNext: func.isRequired,

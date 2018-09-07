@@ -1,5 +1,5 @@
 import {
-  arrayOf, bool, func, oneOfType, shape, string,
+  arrayOf, bool, date, func, oneOfType, shape,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
@@ -19,14 +19,16 @@ const WEEKS = 6;
 
 class Calendar extends PureComponent {
   static propTypes = {
-    disablePast: bool,
+    disabledDates: arrayOf(date),
+    disabledPast: bool,
     locale: shape({}),
     onChange: func,
-    value: oneOfType([string, arrayOf(String)]),
+    value: oneOfType([date, arrayOf(String)]),
   };
 
   static defaultProps = {
-    disablePast: false,
+    disabledDates: [],
+    disabledPast: false,
     locale: L10N_DEFAULT,
     onChange: undefined,
     value: undefined,
@@ -86,14 +88,16 @@ class Calendar extends PureComponent {
   _onPress = (selected) => {
     const { props: { onChange } } = this;
 
-    // onChange(selected);
+    if (onChange) onChange(selected);
     this.setState({ selected });
   }
 
   render() {
     const {
       _onNext, _onPress, _onPrevious,
-      props: { locale: { dayNames, months }, onChange, ...inherit },
+      props: {
+        locale: { dayNames, months }, onChange, ...inherit
+      },
       state,
     } = this;
 
@@ -102,15 +106,15 @@ class Calendar extends PureComponent {
     // const dayStart = startDate.getUTCDay();
     // const daysMonth = new Date(year, month + 1, 0).getDate();
 
-    console.log('selected', state.selected);
-
     return (
       <View style={[styles.container, inherit.style]}>
-        <Selector {...this} {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
+        <Selector {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
         <DayNames locale={dayNames} />
         { [...Array(WEEKS)].map((week, index) => (
           <Week
             {...state}
+            {...inherit}
+            key={index}
             startDate={new Date(state.year, 0, 1 + ((weekNumber + index) - 1) * 7)}
             onPress={_onPress}
           />
