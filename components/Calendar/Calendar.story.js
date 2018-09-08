@@ -15,8 +15,8 @@ const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate()
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
 const LOCALE = {
-  dayNames: ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa', 'Do'],
-  months: [
+  DAY_NAMES: ['Lu', 'Ma', 'Mi', 'Ju', 'Vi', 'Sa', 'Do'],
+  MONTHS: [
     'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
     'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Agosto',
   ],
@@ -40,7 +40,7 @@ class CalendarHOC extends PureComponent {
   }
 }
 
-storiesOf('☑️ Calendar', module)
+storiesOf('✅ Calendar', module)
   .addWithJSX('default', () => (
     <Calendar />
   ))

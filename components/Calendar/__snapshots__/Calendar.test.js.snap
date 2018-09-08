@@ -1587,10 +1587,7 @@ exports[`<Calendar> renders 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            Object {
-              "backgroundColor": "#10c0bc",
-              "borderRadius": 18,
-            },
+            false,
             false,
             false,
             false,
@@ -1608,9 +1605,7 @@ exports[`<Calendar> renders 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -1628,9 +1623,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#ffffff",
-              },
+              Object {},
             ]
           }
         >
@@ -1684,7 +1677,10 @@ exports[`<Calendar> renders 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            false,
+            Object {
+              "backgroundColor": "#10c0bc",
+              "borderRadius": 18,
+            },
             false,
             false,
             false,
@@ -1702,7 +1698,9 @@ exports[`<Calendar> renders 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -1720,7 +1718,9 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#ffffff",
+              },
             ]
           }
         >
@@ -6039,10 +6039,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            Object {
-              "backgroundColor": "#10c0bc",
-              "borderRadius": 18,
-            },
+            false,
             false,
             false,
             false,
@@ -6060,9 +6057,7 @@ exports[`<Calendar> when {busy} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -6080,9 +6075,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#ffffff",
-              },
+              Object {},
             ]
           }
         >
@@ -6136,7 +6129,10 @@ exports[`<Calendar> when {busy} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            false,
+            Object {
+              "backgroundColor": "#10c0bc",
+              "borderRadius": 18,
+            },
             false,
             false,
             false,
@@ -6154,7 +6150,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -6172,7 +6170,9 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#ffffff",
+              },
             ]
           }
         >
@@ -10472,10 +10472,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            Object {
-              "backgroundColor": "#10c0bc",
-              "borderRadius": 18,
-            },
+            false,
             false,
             false,
             false,
@@ -10493,9 +10490,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -10513,9 +10508,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#ffffff",
-              },
+              Object {},
             ]
           }
         >
@@ -10569,7 +10562,10 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            false,
+            Object {
+              "backgroundColor": "#10c0bc",
+              "borderRadius": 18,
+            },
             false,
             false,
             false,
@@ -10587,7 +10583,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -10605,7 +10603,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#ffffff",
+              },
             ]
           }
         >
@@ -14879,6 +14879,96 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "width": 36,
+            },
+            false,
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              Object {
+                "color": "#9b9b9b",
+              },
+              false,
+              false,
+              Object {},
+            ]
+          }
+        >
+          7
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -14939,96 +15029,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               Object {
                 "color": "#ffffff",
               },
-            ]
-          }
-        >
-          7
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "width": 36,
-            },
-            false,
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {},
             ]
           }
         >
@@ -19328,10 +19328,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            Object {
-              "backgroundColor": "#10c0bc",
-              "borderRadius": 18,
-            },
+            false,
             false,
             false,
             false,
@@ -19349,9 +19346,7 @@ exports[`<Calendar> when {locale} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -19369,9 +19364,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#ffffff",
-              },
+              Object {},
             ]
           }
         >
@@ -19425,7 +19418,10 @@ exports[`<Calendar> when {locale} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            false,
+            Object {
+              "backgroundColor": "#10c0bc",
+              "borderRadius": 18,
+            },
             false,
             false,
             false,
@@ -19443,7 +19439,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -19461,7 +19459,9 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#ffffff",
+              },
             ]
           }
         >
@@ -23764,10 +23764,7 @@ exports[`<Calendar> when {style} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            Object {
-              "backgroundColor": "#10c0bc",
-              "borderRadius": 18,
-            },
+            false,
             false,
             false,
             false,
@@ -23785,9 +23782,7 @@ exports[`<Calendar> when {style} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -23805,9 +23800,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#ffffff",
-              },
+              Object {},
             ]
           }
         >
@@ -23861,7 +23854,10 @@ exports[`<Calendar> when {style} 1`] = `
               "justifyContent": "center",
               "width": 36,
             },
-            false,
+            Object {
+              "backgroundColor": "#10c0bc",
+              "borderRadius": 18,
+            },
             false,
             false,
             false,
@@ -23879,7 +23875,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -23897,7 +23895,9 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#ffffff",
+              },
             ]
           }
         >

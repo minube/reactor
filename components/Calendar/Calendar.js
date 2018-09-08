@@ -6,34 +6,28 @@ import { View } from 'react-native';
 
 import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
+import { decomposeDate, LOCALE } from './modules';
 import styles from './Calendar.style';
 
-const L10N_DEFAULT = {
-  dayNames: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-  months: [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December',
-  ],
-};
-const WEEKS = Array.from(Array(6).keys());
+const VISIBLE_WEEKS = Array.from(Array(6).keys());
 
 class Calendar extends PureComponent {
   static propTypes = {
     busy: bool,
-    disabledDates: arrayOf(shape),
+    disabledDates: arrayOf(shape()),
     disabledPast: bool,
-    locale: shape({}),
+    locale: shape(),
     onChange: func,
     onSelect: func,
     range: bool,
-    value: oneOfType([shape, arrayOf(shape)]),
+    value: oneOfType([shape(), arrayOf(shape())]),
   };
 
   static defaultProps = {
     busy: false,
     disabledDates: [],
     disabledPast: false,
-    locale: L10N_DEFAULT,
+    locale: LOCALE,
     onChange() {},
     onSelect() {},
     range: false,
@@ -46,26 +40,15 @@ class Calendar extends PureComponent {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
 
-    let { value = new Date() } = props;
-    if (Array.isArray(value)) [value] = value;
-
     this.state = {
-      month: value.getMonth(),
-      year: value.getFullYear(),
       today,
+      ...decomposeDate(props.value || today),
     };
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentWillReceiveProps({ value }) {
     const { props } = this;
-    let { value } = nextProps;
-
-    if (value === props.value) return;
-    if (Array.isArray(value)) [value] = value;
-    this.setState({
-      month: value.getMonth(),
-      year: value.getFullYear(),
-    });
+    if (value && value !== props.value) this.setState({ ...decomposeDate(value) });
   }
 
   _onPrevious = () => {
@@ -103,7 +86,7 @@ class Calendar extends PureComponent {
     const {
       _onNext, _onPrevious,
       props: {
-        busy, locale: { dayNames, months }, onSelect, ...props
+        busy, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
       },
       state,
     } = this;
@@ -115,9 +98,9 @@ class Calendar extends PureComponent {
       <View style={[styles.container, props.style]}>
         { busy && <Activity size="large" style={styles.activity} /> }
         <View style={busy && styles.busy}>
-          <Selector {...state} locale={months} onNext={_onNext} onPrevious={_onPrevious} />
-          <DayNames locale={dayNames} />
-          { WEEKS.map(weekIndex => (
+          <Selector {...state} locale={MONTHS} onNext={_onNext} onPrevious={_onPrevious} />
+          <DayNames locale={DAY_NAMES} />
+          { VISIBLE_WEEKS.map(weekIndex => (
             <Week
               {...props}
               {...state}

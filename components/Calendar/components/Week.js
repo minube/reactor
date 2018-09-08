@@ -83,10 +83,10 @@ const Week = ({
 };
 
 Week.propTypes = {
-  disabledDates: arrayOf(shape).isRequired,
+  disabledDates: arrayOf(shape()).isRequired,
   disabledPast: bool.isRequired,
   onSelect: func,
-  firstDate: shape({}),
+  firstDate: shape(),
 };
 
 Week.defaultProps = {
