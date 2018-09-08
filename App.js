@@ -4,6 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import { STYLE, THEME } from './common';
 import {
   Button,
+  Calendar,
   ListingCard,
   Text,
   Video,
@@ -77,6 +78,7 @@ export default class App extends Component {
             <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
             <Slider dataSource={this.state.dataSource} item={ItemListingCard} navigation momentum />
 
+            <Calendar />
             <Text>{LIPSUM}</Text>
             <Text>{LIPSUM}</Text>
             <Text>{LIPSUM}</Text>

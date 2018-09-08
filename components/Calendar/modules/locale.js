@@ -1,7 +1,7 @@
 export default {
-  DAY_NAMES: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+  DAY_NAMES: ['mo', 'tu', 'we', 'th', 'fr', 'sa', 'su'],
   MONTHS: [
-    'January', 'February', 'March', 'April', 'May', 'June',
-    'July', 'August', 'September', 'October', 'November', 'December',
+    'january', 'february', 'march', 'april', 'may', 'june',
+    'july', 'august', 'september', 'october', 'november', 'december',
   ],
 };

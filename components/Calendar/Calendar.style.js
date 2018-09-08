@@ -3,12 +3,20 @@ import { StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const { COLOR, OFFSET, UNIT } = THEME;
-const DAY_SIZE = UNIT * 3.6;
+const BOX_HEIGHT = UNIT * 3.6;
 
 export default StyleSheet.create({
   activity: {
+    alignSelf: 'center',
     position: 'absolute',
     zIndex: 1,
+  },
+
+  box: {
+    alignItems: 'center',
+    height: BOX_HEIGHT,
+    justifyContent: 'center',
+    minWidth: BOX_HEIGHT,
   },
 
   busy: {
@@ -18,23 +26,21 @@ export default StyleSheet.create({
   container: {
     backgroundColor: COLOR.WHITE,
     paddingHorizontal: OFFSET,
-    paddingVertical: OFFSET / 2,
-    alignItems: 'center',
-    alignContent: 'center',
+    paddingVertical: UNIT,
     justifyContent: 'center',
   },
 
   day: {
-    alignItems: 'center',
-    height: DAY_SIZE,
-    justifyContent: 'center',
-    width: DAY_SIZE,
+    flex: 1,
   },
 
   dayName: {
     paddingVertical: UNIT / 2,
     textAlign: 'center',
-    width: UNIT * 3.6,
+  },
+
+  disabled: {
+    color: COLOR.CONTENT,
   },
 
   highlight: {
@@ -43,28 +49,30 @@ export default StyleSheet.create({
 
   row: {
     ...STYLE.ROW,
-    alignItems: 'center',
-    alignContent: 'center',
     justifyContent: 'center',
+  },
+
+  month: {
+    flex: 1,
+    textAlign: 'center',
   },
 
   selected: {
     borderRadius: 0,
-    backgroundColor: 'grey',
+    backgroundColor: COLOR.PRIMARY,
   },
 
   selectedStart: {
-    borderTopLeftRadius: DAY_SIZE / 2,
-    borderBottomLeftRadius: DAY_SIZE / 2,
+    borderTopLeftRadius: BOX_HEIGHT / 2,
+    borderBottomLeftRadius: BOX_HEIGHT / 2,
   },
 
   selectedEnd: {
-    borderTopRightRadius: DAY_SIZE / 2,
-    borderBottomRightRadius: DAY_SIZE / 2,
+    borderTopRightRadius: BOX_HEIGHT / 2,
+    borderBottomRightRadius: BOX_HEIGHT / 2,
   },
 
   today: {
-    backgroundColor: COLOR.PRIMARY,
-    borderRadius: DAY_SIZE / 2,
+    color: COLOR.PRIMARY,
   },
 });

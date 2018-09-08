@@ -44,7 +44,6 @@ const Week = ({
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
         const isSelected = tsDay >= tsStart && tsDay <= tsEnd;
-        const highlight = isToday || isSelected;
 
         let isDisabled = false;
         if (disabledPast) isDisabled = tsDay < tsToday;
@@ -60,8 +59,8 @@ const Week = ({
               : undefined
             }
             style={[
+              styles.box,
               styles.day,
-              isToday && styles.today,
               isSelected && styles.selected,
               isSelected && tsDay === tsStart && styles.selectedStart,
               isSelected && tsDay === tsEnd && styles.selectedEnd,
@@ -69,9 +68,12 @@ const Week = ({
           >
             <Text
               small
-              lighten={day.getMonth() !== month || isDisabled}
-              semibold={isToday}
-              style={highlight ? styles.highlight : undefined}
+              semibold={isToday || isSelected}
+              style={[
+                isToday && styles.today,
+                (day.getMonth() !== month || isDisabled) && styles.disabled,
+                isSelected && styles.highlight,
+              ]}
             >
               {day.getDate()}
             </Text>
