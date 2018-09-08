@@ -8,7 +8,7 @@ exports[`<Calendar> renders 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -24,6 +24,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -240,6 +241,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -276,7 +278,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -317,7 +319,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -358,7 +360,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -399,7 +401,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -440,7 +442,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -481,7 +483,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -522,7 +524,7 @@ exports[`<Calendar> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -538,6 +540,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -1203,6 +1206,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -1862,6 +1866,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -2517,6 +2522,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -3172,6 +3178,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -3827,6 +3834,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -4501,7 +4509,7 @@ exports[`<Calendar> when {busy} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -4537,6 +4545,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -4753,6 +4762,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -4789,7 +4799,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -4830,7 +4840,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -4871,7 +4881,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -4912,7 +4922,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -4953,7 +4963,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -4994,7 +5004,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -5035,7 +5045,7 @@ exports[`<Calendar> when {busy} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -5051,6 +5061,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -5716,6 +5727,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -6375,6 +6387,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -7030,6 +7043,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -7685,6 +7699,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -8340,6 +8355,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -9014,7 +9030,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -9030,6 +9046,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -9246,6 +9263,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -9282,7 +9300,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9323,7 +9341,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9364,7 +9382,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9405,7 +9423,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9446,7 +9464,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9487,7 +9505,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9528,7 +9546,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -9544,6 +9562,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -10209,6 +10228,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -10868,6 +10888,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -11523,6 +11544,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -12178,6 +12200,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -12833,6 +12856,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -13507,7 +13531,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -13523,6 +13547,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -13739,6 +13764,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -13775,7 +13801,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -13816,7 +13842,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -13857,7 +13883,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -13898,7 +13924,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -13939,7 +13965,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -13980,7 +14006,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -14021,7 +14047,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -14037,6 +14063,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -14692,6 +14719,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -15351,6 +15379,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -16006,6 +16035,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -16661,6 +16691,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -17316,6 +17347,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -17990,7 +18022,7 @@ exports[`<Calendar> when {locale} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -18006,6 +18038,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -18222,6 +18255,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -18258,7 +18292,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18299,7 +18333,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18340,7 +18374,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18381,7 +18415,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18422,7 +18456,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18463,7 +18497,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18504,7 +18538,7 @@ exports[`<Calendar> when {locale} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -18520,6 +18554,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -19185,6 +19220,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -19844,6 +19880,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -20499,6 +20536,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -21154,6 +21192,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -21809,6 +21848,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -22483,7 +22523,7 @@ exports[`<Calendar> when {style} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -22502,6 +22542,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -22718,6 +22759,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -22754,7 +22796,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -22795,7 +22837,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -22836,7 +22878,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -22877,7 +22919,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -22918,7 +22960,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -22959,7 +23001,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -23000,7 +23042,7 @@ exports[`<Calendar> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -23016,6 +23058,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -23681,6 +23724,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -24340,6 +24384,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -24995,6 +25040,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -25650,6 +25696,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -26305,6 +26352,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -26979,7 +27027,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -26995,6 +27043,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -27211,6 +27260,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -27247,7 +27297,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27288,7 +27338,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27329,7 +27379,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27370,7 +27420,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27411,7 +27461,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27452,7 +27502,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27493,7 +27543,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -27509,6 +27559,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -28182,6 +28233,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -28854,6 +28906,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -29509,6 +29562,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -30164,6 +30218,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -30821,6 +30876,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -31495,7 +31551,7 @@ exports[`<Calendar> when {value} 1`] = `
         "backgroundColor": "#ffffff",
         "justifyContent": "center",
         "paddingHorizontal": 16,
-        "paddingVertical": 10,
+        "paddingVertical": 8,
       },
       undefined,
     ]
@@ -31511,6 +31567,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -31727,6 +31784,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -31763,7 +31821,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -31804,7 +31862,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -31845,7 +31903,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -31886,7 +31944,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -31927,7 +31985,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -31968,7 +32026,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -32009,7 +32067,7 @@ exports[`<Calendar> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingVertical": 5,
+              "marginTop": 10,
               "textAlign": "center",
             },
           ]
@@ -32025,6 +32083,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -32688,6 +32747,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -33356,6 +33416,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -34011,6 +34072,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -34666,6 +34728,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >
@@ -35323,6 +35386,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
+          "marginVertical": 1,
         }
       }
     >

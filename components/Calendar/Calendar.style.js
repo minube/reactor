@@ -26,7 +26,7 @@ export default StyleSheet.create({
   container: {
     backgroundColor: COLOR.WHITE,
     paddingHorizontal: OFFSET,
-    paddingVertical: UNIT,
+    paddingVertical: OFFSET / 2,
     justifyContent: 'center',
   },
 
@@ -35,7 +35,7 @@ export default StyleSheet.create({
   },
 
   dayName: {
-    paddingVertical: UNIT / 2,
+    marginTop: UNIT,
     textAlign: 'center',
   },
 
@@ -50,6 +50,7 @@ export default StyleSheet.create({
   row: {
     ...STYLE.ROW,
     justifyContent: 'center',
+    marginVertical: UNIT / 10,
   },
 
   month: {
