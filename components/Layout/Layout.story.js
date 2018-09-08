@@ -8,14 +8,14 @@ import { LAYOUT } from '../../common';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Text from '../Text';
 
-storiesOf('🛠 Layout', module)
+storiesOf('☑️ Layout', module)
   .addWithJSX('default', () => (
     <LayoutView />
   ))
   .addWithJSX('⚡ onLayout (WEB)', () => (
     <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
-  .addWithJSX('🛠 <LayoutConsumer>', () => (
+  .addWithJSX('☑️ <LayoutConsumer>', () => (
     <LayoutView>
       <Text bold large>{'<LayoutConsumer />'}</Text>
       <LayoutConsumer>

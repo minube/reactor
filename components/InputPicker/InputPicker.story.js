@@ -8,7 +8,7 @@ import InputPicker from './InputPicker';
 const DATASOURCE = ['one', 'two', 'three', 'four', 'five'];
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
-storiesOf('🛠 InputPicker', module)
+storiesOf('☑️ InputPicker', module)
   .addWithJSX('default', () => (
     <InputPicker />
   ))

@@ -24,7 +24,7 @@ const CONTRIBUTORS = {
 
 const RATING = { caption: 'valoraciones', count: 12, value: 4.5 };
 
-storiesOf('🛠 Heading', module)
+storiesOf('☑️ Heading', module)
   .addWithJSX('default', () => (
     <Heading title="Actividades en España" />
   ))
