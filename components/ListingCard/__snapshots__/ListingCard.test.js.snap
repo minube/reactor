@@ -596,9 +596,12 @@ exports[`<ListingCard> when {children} 1`] = `
                 "alignContent": "center",
                 "alignItems": "center",
                 "borderRadius": 3,
+                "justifyContent": "center",
+              },
+              Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "center",
               },
               Object {
                 "height": 45,
@@ -627,7 +630,18 @@ exports[`<ListingCard> when {children} 1`] = `
             ]
           }
         >
-          <View>
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}

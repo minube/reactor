@@ -27,9 +27,12 @@ exports[`<Button> renders 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -54,7 +57,18 @@ exports[`<Button> renders 1`] = `
       ]
     }
   >
-    <View />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    />
   </View>
   <View
     style={
@@ -115,9 +129,12 @@ exports[`<Button> when {accent} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -140,7 +157,18 @@ exports[`<Button> when {accent} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -239,9 +267,12 @@ exports[`<Button> when {activity} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -279,9 +310,16 @@ exports[`<Button> when {activity} 1`] = `
     />
     <View
       style={
-        Object {
-          "marginLeft": 10,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          Object {
+            "marginLeft": 10,
+          },
+        ]
       }
     >
       <Text
@@ -382,9 +420,12 @@ exports[`<Button> when {children} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -407,7 +448,18 @@ exports[`<Button> when {children} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <View
         style={
           Object {
@@ -557,9 +609,12 @@ exports[`<Button> when {color} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -582,7 +637,18 @@ exports[`<Button> when {color} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -681,9 +747,12 @@ exports[`<Button> when {contained} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -706,7 +775,18 @@ exports[`<Button> when {contained} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -805,9 +885,12 @@ exports[`<Button> when {disabled} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -834,7 +917,18 @@ exports[`<Button> when {disabled} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -933,9 +1027,12 @@ exports[`<Button> when {icon} & {title} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -979,9 +1076,16 @@ exports[`<Button> when {icon} & {title} 1`] = `
     />
     <View
       style={
-        Object {
-          "marginLeft": 10,
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          Object {
+            "marginLeft": 10,
+          },
+        ]
       }
     >
       <Text
@@ -1082,9 +1186,12 @@ exports[`<Button> when {icon} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1128,7 +1235,18 @@ exports[`<Button> when {icon} 1`] = `
         ]
       }
     />
-    <View />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    />
   </View>
   <View
     style={
@@ -1189,9 +1307,12 @@ exports[`<Button> when {outlined} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1216,7 +1337,18 @@ exports[`<Button> when {outlined} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -1315,9 +1447,12 @@ exports[`<Button> when {primary} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1340,7 +1475,18 @@ exports[`<Button> when {primary} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -1439,9 +1585,12 @@ exports[`<Button> when {responsive} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1468,7 +1617,18 @@ exports[`<Button> when {responsive} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -1570,9 +1730,12 @@ exports[`<Button> when {rounded} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1597,7 +1760,18 @@ exports[`<Button> when {rounded} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -1698,9 +1872,12 @@ exports[`<Button> when {small} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1727,7 +1904,18 @@ exports[`<Button> when {small} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -1828,9 +2016,12 @@ exports[`<Button> when {style} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1853,7 +2044,18 @@ exports[`<Button> when {style} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}
@@ -1952,9 +2154,12 @@ exports[`<Button> when {title} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
+          "justifyContent": "center",
+        },
+        Object {
+          "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "justifyContent": "center",
         },
         Object {
           "height": 45,
@@ -1977,7 +2182,18 @@ exports[`<Button> when {title} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    >
       <Text
         accessible={true}
         allowFontScaling={true}

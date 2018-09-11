@@ -326,9 +326,12 @@ exports[`<Dialog> when {highlight} 1`] = `
                 "alignContent": "center",
                 "alignItems": "center",
                 "borderRadius": 3,
+                "justifyContent": "center",
+              },
+              Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "center",
               },
               Object {
                 "height": 45,
@@ -370,7 +373,18 @@ exports[`<Dialog> when {highlight} 1`] = `
               ]
             }
           />
-          <View />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          />
         </View>
         <View
           style={
@@ -543,9 +557,12 @@ exports[`<Dialog> when {onClose} 1`] = `
                 "alignContent": "center",
                 "alignItems": "center",
                 "borderRadius": 3,
+                "justifyContent": "center",
+              },
+              Object {
+                "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
-                "justifyContent": "center",
               },
               Object {
                 "height": 45,
@@ -587,7 +604,18 @@ exports[`<Dialog> when {onClose} 1`] = `
               ]
             }
           />
-          <View />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          />
         </View>
         <View
           style={

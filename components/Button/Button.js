@@ -28,6 +28,7 @@ const Button = ({
     <View
       style={[
         styles.container,
+        styles.row,
         STYLE.BUTTON_REGULAR,
         // -- Layout
         small && STYLE.BUTTON_SMALL,
@@ -47,7 +48,7 @@ const Button = ({
     >
       { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
       { icon && !activity && <Icon value={icon} /> }
-      <View style={(activity || icon) && (title || children) && styles.textMarginLeft}>
+      <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
         { title
           && (
           <Text

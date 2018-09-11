@@ -32,9 +32,12 @@ exports[`<Share> renders 1`] = `
             "alignContent": "center",
             "alignItems": "center",
             "borderRadius": 3,
+            "justifyContent": "center",
+          },
+          Object {
+            "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "justifyContent": "center",
           },
           Object {
             "height": 45,
@@ -78,9 +81,16 @@ exports[`<Share> renders 1`] = `
       />
       <View
         style={
-          Object {
-            "marginLeft": 10,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "marginLeft": 10,
+            },
+          ]
         }
       >
         <Text
