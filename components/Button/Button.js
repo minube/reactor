@@ -47,23 +47,24 @@ const Button = ({
     >
       { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
       { icon && !activity && <Icon value={icon} /> }
-      { title
-        && (
-        <Text
-          semibold
-          color={isSolid ? WHITE : color || TEXT_LIGHTEN}
-          style={[
-            styles.textNoPointerEvent,
-            small // eslint-disable-line
-              ? styles.textSmall
-              : responsive ? LAYOUT.STYLE.TEXT.SMALL : styles.text,
-            (activity || icon) && styles.textMarginLeft,
-          ]}
-        >
-          {title}
-        </Text>
-        ) }
-      { children }
+      <View style={(activity || icon) && (title || children) && styles.textMarginLeft}>
+        { title
+          && (
+          <Text
+            semibold
+            color={isSolid ? WHITE : color || TEXT_LIGHTEN}
+            style={[
+              styles.textNoPointerEvent,
+              small // eslint-disable-line
+                ? styles.textSmall
+                : responsive ? LAYOUT.STYLE.TEXT.SMALL : styles.text,
+            ]}
+          >
+            {title}
+          </Text>
+          ) }
+        { children }
+      </View>
     </View>
   </Touchable>
 );

@@ -1417,6 +1417,7 @@ exports[`<Slider> when {navigation} 1`] = `
             ]
           }
         />
+        <View />
       </View>
       <View
         style={
@@ -1542,6 +1543,7 @@ exports[`<Slider> when {navigation} 1`] = `
             ]
           }
         />
+        <View />
       </View>
       <View
         style={
