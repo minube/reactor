@@ -37,6 +37,7 @@ export default StyleSheet.create({
 
   content: {
     flex: 1,
+    maxHeight: Platform.OS === 'web' ? '100vh' : '100%',
   },
 
   title: {
