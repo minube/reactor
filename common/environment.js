@@ -17,6 +17,7 @@ export default {
 
   IS_PRODUCTION,
   IS_DEVELOPMENT: !IS_PRODUCTION,
+  IS_TEST: NODE_ENV === 'test',
 
   NODE_ENV,
   REACT_APP_ENV,
