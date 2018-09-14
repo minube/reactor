@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { STYLE, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, OFFSET, UNIT,
+  BORDER_RADIUS, COLOR, FONT, OFFSET,
 } = THEME;
 
 export default StyleSheet.create({
@@ -21,11 +21,9 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
 
-  button: {
-    position: 'absolute',
-    right: -UNIT / 2,
-    top: 0,
-    zIndex: 1,
+  children: {
+    paddingHorizontal: OFFSET,
+    paddingBottom: OFFSET,
   },
 
   frame: {
@@ -35,19 +33,14 @@ export default StyleSheet.create({
     display: Platform.OS === 'web' ? 'block' : undefined,
   },
 
-  content: {
+  header: {
+    ...STYLE.ROW,
+    justifyContent: 'flex-end',
+  },
+
+  safeArea: {
     flex: 1,
     maxHeight: Platform.OS === 'web' ? '100vh' : '100%',
-  },
-
-  title: {
-    fontSize: FONT.SIZE.LARGE,
-    padding: OFFSET,
-  },
-
-  children: {
-    paddingHorizontal: OFFSET,
-    paddingBottom: OFFSET,
   },
 
   scroll: {
@@ -55,5 +48,11 @@ export default StyleSheet.create({
     borderBottomWidth: 1,
     borderTopColor: COLOR.BORDER,
     borderTopWidth: 1,
+  },
+
+  title: {
+    fontSize: FONT.SIZE.LARGE,
+    flex: 1,
+    padding: OFFSET,
   },
 });
