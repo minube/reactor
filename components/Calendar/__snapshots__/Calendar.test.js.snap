@@ -1996,9 +1996,7 @@ exports[`<Calendar> renders 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -2016,9 +2014,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -2276,7 +2272,9 @@ exports[`<Calendar> renders 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -2294,7 +2292,9 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -6517,9 +6517,7 @@ exports[`<Calendar> when {busy} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -6537,9 +6535,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -6797,7 +6793,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -6815,7 +6813,9 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -11018,9 +11018,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -11038,9 +11036,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -11298,7 +11294,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -11316,7 +11314,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -15473,14 +15473,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
-        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15509,9 +15507,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -15530,7 +15526,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": "#10c0bc",
+                "color": "#CDD2D4",
               },
             ]
           }
@@ -15569,14 +15565,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
-        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15623,7 +15617,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#CDD2D4",
+              },
             ]
           }
         >
@@ -15661,14 +15657,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
-        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15715,7 +15709,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#CDD2D4",
+              },
             ]
           }
         >
@@ -15789,7 +15785,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -15807,7 +15805,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -20010,9 +20010,7 @@ exports[`<Calendar> when {locale} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -20030,9 +20028,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -20290,7 +20286,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -20308,7 +20306,9 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -24514,9 +24514,7 @@ exports[`<Calendar> when {style} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -24534,9 +24532,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -24794,7 +24790,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -24812,7 +24810,9 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
