@@ -4,7 +4,6 @@ import { storiesOf } from '@storybook/react';
 import { boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Motion from './Motion';
-import MotionPreset from './MotionPreset';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 32 };
 const STYLE_VIEW = {
@@ -13,9 +12,7 @@ const STYLE_VIEW = {
   backgroundColor: 'pink',
 };
 
-const PROPERTIES = ['top', 'left', 'right', 'bottom', 'opacity', 'scale', 'translateX', 'translateY'];
-
-const timeline = [
+const TIMELINE = [
   { property: 'opacity', value: 0.75 },
   { property: 'scale', value: 0.5 },
   { property: 'left', value: 128 },
@@ -23,14 +20,14 @@ const timeline = [
 
 storiesOf('✅ Motion', module)
   .addWithJSX('default', () => (
-    <Motion timeline={timeline}>
+    <Motion timeline={TIMELINE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
   .addWithJSX('preset', () => (
-    <MotionPreset visible={boolean('visible', false)}>
+    <Motion preset="fade" visible={boolean('visible', false)}>
       <View style={STYLE_VIEW} />
-    </MotionPreset>
+    </Motion>
   ))
   .addWithJSX('style', () => (
     <Motion timeline={timeline} style={STYLE}>
@@ -43,9 +40,11 @@ storiesOf('✅ Motion', module)
       disabled={boolean('disabled', false)}
       duration={number('duration', 500)}
       style={object('style', STYLE)}
-      timeline={object('timeline', timeline)}
+      preset={select('preset', [undefined, 'fade', 'pop'], undefined)}
+      timeline={object('timeline', TIMELINE)}
       type={select('type', ['spring', 'timing'], 'spring')}
       useNativeDriver={boolean('useNativeDriver', true)}
+      visible={boolean('visible', true)}
     >
       <View style={STYLE_VIEW} />
     </Motion>

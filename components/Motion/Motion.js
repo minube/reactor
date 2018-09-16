@@ -1,11 +1,18 @@
 import {
-  arrayOf, bool, node, shape, string, number,
+  arrayOf, bool, node, number, oneOf, shape, string,
 } from 'prop-types';
 import { createElement, PureComponent } from 'react';
-import { Animated, Platform, View as ViewNative } from 'react-native';
+import { Animated, View } from 'react-native';
 
-import { SHAPE } from '../../common';
-import buildStyle from './modules/buildStyle';
+import { buildStyle, PRESETS } from './modules';
+import { ENV, SHAPE } from '../../common';
+
+
+const { IS_WEB } = ENV;
+const presetVisibility = (preset, visible) => {
+  const { IN, OUT } = PRESETS[preset.toUpperCase()] || PRESETS.POP;
+  return visible ? IN : OUT;
+};
 
 class Motion extends PureComponent {
   static propTypes = {
@@ -13,9 +20,11 @@ class Motion extends PureComponent {
     delay: number,
     disabled: bool,
     duration: number,
+    preset: oneOf(['fade', 'pop']),
     timeline: arrayOf(shape(SHAPE.MOTION)),
     type: string,
     useNativeDriver: bool,
+    visible: bool,
   };
 
   static defaultProps = {
@@ -23,35 +32,49 @@ class Motion extends PureComponent {
     delay: 0,
     disabled: false,
     duration: 500,
+    preset: undefined,
     timeline: undefined,
     type: 'spring',
-    useNativeDriver: Platform.OS === 'web',
+    useNativeDriver: IS_WEB,
+    visible: false,
   };
 
   constructor(props) {
     super(props);
+    const {
+      preset, timeline = [], useNativeDriver, visible,
+    } = props;
+    const state = {
+      timeline,
+    };
 
-    const { useNativeDriver, timeline = [] } = props;
-    const state = {};
+    if (preset) state.timeline = presetVisibility(preset, visible);
 
-    if (!props.useNativeDriver) {
-      timeline.forEach((key) => {
-        state[key.property] = new Animated.Value(useNativeDriver ? 0 : key.value);
+    if (!useNativeDriver) {
+      state.timeline.forEach(({ property, value }) => {
+        state[property] = new Animated.Value(value);
       });
     }
 
     this.state = { ...state };
   }
 
-  componentWillReceiveProps({ disabled = this.props.disabled, useNativeDriver = this.props.useNativeDriver, ...nextProps }) { // eslint-disable-line
-    if (disabled || useNativeDriver) return;
+  componentWillReceiveProps(nextProps) {
     const { props, state = {} } = this;
     const {
-      delay = props.delay, duration = props.duration, timeline = props.timeline, type = props.type,
-    } = nextProps;
+      delay, disabled, duration, preset, timeline = [], type, useNativeDriver, visible,
+    } = { ...props, ...nextProps };
 
-    const motions = timeline.map(key => (
-      Animated[type](state[key.property], { toValue: key.value, delay, duration }).start()));
+    state.timeline = timeline;
+    if (preset) {
+      state.timeline = presetVisibility(preset, visible);
+      this.setState(state);
+    }
+
+    if (disabled || useNativeDriver) return;
+
+    const motions = state.timeline.map(({ property, value: toValue }) => (
+      Animated[type](state[property], { toValue, delay, duration }).start()));
     Animated.parallel(motions).start();
   }
 
@@ -64,7 +87,7 @@ class Motion extends PureComponent {
     if (inherit.pointerEvents) props.pointerEvents = inherit.pointerEvents;
 
     return createElement(
-      !disabled && useNativeDriver ? ViewNative : Animated.View,
+      !disabled && useNativeDriver ? View : Animated.View,
       props,
       children,
     );
