@@ -2,7 +2,7 @@ import { func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import { ENV, LAYOUT, THEME } from '../../common';
+import { ENV, THEME } from '../../common';
 import Button from '../Button';
 import Dialog from '../Dialog';
 import Icon from '../Icon';
@@ -91,7 +91,7 @@ class Share extends PureComponent {
             title={inherit.title}
             visible={visible}
             onClose={_onCancel}
-            style={[styles.dialog, LAYOUT.STYLE.SHARE.DIALOG]}
+            style={styles.dialog}
           >
             <Text lighten small>
               {caption}

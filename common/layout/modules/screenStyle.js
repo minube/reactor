@@ -32,10 +32,6 @@ export default (width = 360) => {
       })(),
     },
 
-    SHARE: {
-      DIALOG: (() => (TINY || PHONE || SMALL ? STYLE.SHARE_MOBILE : {}))(),
-    },
-
     TEXT: {
       TINY: (() => (REGULAR || LARGE ? STYLE.TEXT_TINY : STYLE.TEXT_GNOME))(),
       SMALL: (() => (REGULAR || LARGE ? STYLE.TEXT_SMALL : STYLE.TEXT_TINY))(),
