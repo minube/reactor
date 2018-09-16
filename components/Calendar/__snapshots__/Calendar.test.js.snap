@@ -147,7 +147,7 @@ exports[`<Calendar> renders 1`] = `
           ]
         }
       >
-        september 2018
+        april 1980
       </Text>
       <View
         accessible={true}
@@ -544,6 +544,194 @@ exports[`<Calendar> renders 1`] = `
         }
       }
     >
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          25
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          26
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
       <View
         accessible={true}
         onLayout={[Function]}
@@ -1014,6 +1202,18 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -1198,18 +1398,6 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -1670,6 +1858,18 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -1854,18 +2054,6 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -1904,7 +2092,9 @@ exports[`<Calendar> renders 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -1922,7 +2112,9 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -2272,9 +2464,7 @@ exports[`<Calendar> renders 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -2292,9 +2482,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -2330,6 +2518,18 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -2514,18 +2714,6 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -2986,6 +3174,18 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -3170,18 +3370,6 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -3642,6 +3830,18 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -3826,18 +4026,6 @@ exports[`<Calendar> renders 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -4277,194 +4465,6 @@ exports[`<Calendar> renders 1`] = `
           }
         >
           5
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          6
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          7
         </Text>
         <View
           style={
@@ -4668,7 +4668,7 @@ exports[`<Calendar> when {busy} 1`] = `
           ]
         }
       >
-        september 2018
+        april 1980
       </Text>
       <View
         accessible={true}
@@ -5065,6 +5065,194 @@ exports[`<Calendar> when {busy} 1`] = `
         }
       }
     >
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          25
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          26
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
       <View
         accessible={true}
         onLayout={[Function]}
@@ -5535,6 +5723,18 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -5719,18 +5919,6 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -6191,6 +6379,18 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -6375,18 +6575,6 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -6425,7 +6613,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -6443,7 +6633,9 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -6793,9 +6985,7 @@ exports[`<Calendar> when {busy} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -6813,9 +7003,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -6851,6 +7039,18 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -7035,18 +7235,6 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -7507,6 +7695,18 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -7691,18 +7891,6 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -8163,6 +8351,18 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -8347,18 +8547,6 @@ exports[`<Calendar> when {busy} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -8798,194 +8986,6 @@ exports[`<Calendar> when {busy} 1`] = `
           }
         >
           5
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          6
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          7
         </Text>
         <View
           style={
@@ -9169,7 +9169,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           ]
         }
       >
-        september 2018
+        april 1980
       </Text>
       <View
         accessible={true}
@@ -9566,6 +9566,194 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         }
       }
     >
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          25
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          26
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
       <View
         accessible={true}
         onLayout={[Function]}
@@ -10036,6 +10224,18 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -10220,18 +10420,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -10692,6 +10880,18 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -10876,18 +11076,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -10926,7 +11114,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -10944,7 +11134,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -11294,9 +11486,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -11314,9 +11504,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -11352,6 +11540,18 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -11536,18 +11736,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -12008,6 +12196,18 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -12192,18 +12392,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -12664,6 +12852,18 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -12848,18 +13048,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -13299,194 +13487,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           }
         >
           5
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          6
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          7
         </Text>
         <View
           style={
@@ -13670,7 +13670,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           ]
         }
       >
-        september 2018
+        april 1980
       </Text>
       <View
         accessible={true}
@@ -14067,6 +14067,190 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         }
       }
     >
+      <View
+        accessible={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          25
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          26
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
       <View
         accessible={true}
         onResponderGrant={[Function]}
@@ -14527,6 +14711,18 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onResponderGrant={[Function]}
@@ -14711,18 +14907,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onResponderGrant={[Function]}
@@ -15183,6 +15367,18 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onResponderGrant={[Function]}
@@ -15367,26 +15563,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15415,7 +15601,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -15434,7 +15622,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": "#CDD2D4",
+                "color": "#10c0bc",
               },
             ]
           }
@@ -15473,12 +15661,14 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15525,9 +15715,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#CDD2D4",
-              },
+              Object {},
             ]
           }
         >
@@ -15565,12 +15753,14 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15617,9 +15807,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#CDD2D4",
-              },
+              Object {},
             ]
           }
         >
@@ -15657,12 +15845,14 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
       <View
         accessible={true}
+        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
           Array [
             Object {
@@ -15709,9 +15899,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#CDD2D4",
-              },
+              Object {},
             ]
           }
         >
@@ -15785,9 +15973,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -15805,9 +15991,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -15843,6 +16027,18 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -16027,18 +16223,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -16499,6 +16683,18 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -16683,18 +16879,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -17155,6 +17339,18 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -17339,18 +17535,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -17821,194 +18005,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           />
         </View>
       </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          6
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          7
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
     </View>
   </View>
 </View>
@@ -18161,7 +18157,7 @@ exports[`<Calendar> when {locale} 1`] = `
           ]
         }
       >
-        septiembre 2018
+        abril 1980
       </Text>
       <View
         accessible={true}
@@ -18620,6 +18616,194 @@ exports[`<Calendar> when {locale} 1`] = `
             ]
           }
         >
+          25
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          26
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
           27
         </Text>
         <View
@@ -19028,6 +19212,18 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -19212,18 +19408,6 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -19684,6 +19868,18 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -19868,18 +20064,6 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -19918,7 +20102,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -19936,7 +20122,9 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -20286,9 +20474,7 @@ exports[`<Calendar> when {locale} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -20306,9 +20492,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -20344,6 +20528,18 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -20528,18 +20724,6 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -21000,6 +21184,18 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -21184,18 +21380,6 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -21656,6 +21840,18 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -21840,18 +22036,6 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -22322,194 +22506,6 @@ exports[`<Calendar> when {locale} 1`] = `
           />
         </View>
       </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          6
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          7
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
     </View>
   </View>
 </View>
@@ -22665,7 +22661,7 @@ exports[`<Calendar> when {style} 1`] = `
           ]
         }
       >
-        september 2018
+        april 1980
       </Text>
       <View
         accessible={true}
@@ -23124,6 +23120,194 @@ exports[`<Calendar> when {style} 1`] = `
             ]
           }
         >
+          25
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
+          26
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ffffff",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "flex": 1,
+            },
+            false,
+            false,
+            false,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              Object {
+                "fontSize": 14,
+                "lineHeight": 16.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#CDD2D4",
+              },
+            ]
+          }
+        >
           27
         </Text>
         <View
@@ -23532,6 +23716,18 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -23716,18 +23912,6 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -24188,6 +24372,18 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -24372,18 +24568,6 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -24422,7 +24606,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              false,
+              Object {
+                "fontWeight": "600",
+              },
               false,
               false,
               Object {
@@ -24440,7 +24626,9 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               false,
-              Object {},
+              Object {
+                "color": "#10c0bc",
+              },
             ]
           }
         >
@@ -24790,9 +24978,7 @@ exports[`<Calendar> when {style} 1`] = `
                 "fontFamily": undefined,
               },
               false,
-              Object {
-                "fontWeight": "600",
-              },
+              false,
               false,
               false,
               Object {
@@ -24810,9 +24996,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               false,
-              Object {
-                "color": "#10c0bc",
-              },
+              Object {},
             ]
           }
         >
@@ -24848,6 +25032,18 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -25032,18 +25228,6 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -25504,6 +25688,18 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -25688,18 +25884,6 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -26160,6 +26344,18 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "marginVertical": 1,
+        }
+      }
+    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -26344,18 +26540,6 @@ exports[`<Calendar> when {style} 1`] = `
           />
         </View>
       </View>
-    </View>
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-          "marginVertical": 1,
-        }
-      }
-    >
       <View
         accessible={true}
         onLayout={[Function]}
@@ -26795,194 +26979,6 @@ exports[`<Calendar> when {style} 1`] = `
           }
         >
           5
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          6
-        </Text>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "height": 36,
-              "justifyContent": "center",
-              "minWidth": 36,
-            },
-            Object {
-              "flex": 1,
-            },
-            false,
-            false,
-            false,
-          ]
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              Object {
-                "fontSize": 14,
-                "lineHeight": 16.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#CDD2D4",
-              },
-            ]
-          }
-        >
-          7
         </Text>
         <View
           style={

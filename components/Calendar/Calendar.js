@@ -4,6 +4,7 @@ import {
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
+import { ENV } from '../../common';
 import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, LOCALE } from './modules';
@@ -37,7 +38,7 @@ class Calendar extends PureComponent {
   constructor(props) {
     super(props);
 
-    const today = new Date();
+    const today = !ENV.IS_TEST ? new Date() : new Date(1980, 3, 10);
     today.setHours(0, 0, 0, 0);
 
     this.state = {
