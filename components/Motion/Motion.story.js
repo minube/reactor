@@ -4,6 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Motion from './Motion';
+import MotionPreset from './MotionPreset';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 32 };
 const STYLE_VIEW = {
@@ -25,6 +26,11 @@ storiesOf('✅ Motion', module)
     <Motion timeline={timeline}>
       <View style={STYLE_VIEW} />
     </Motion>
+  ))
+  .addWithJSX('preset', () => (
+    <MotionPreset visible={boolean('visible', false)}>
+      <View style={STYLE_VIEW} />
+    </MotionPreset>
   ))
   .addWithJSX('style', () => (
     <Motion timeline={timeline} style={STYLE}>
