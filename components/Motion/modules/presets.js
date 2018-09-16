@@ -12,11 +12,11 @@ export default {
 
   POP: {
     IN: [
-      { property: 'scale', value: 1 },
+      { property: 'opacity', value: 1 },
       { property: 'scale', value: 1 },
     ],
     OUT: [
-      { property: 'scale', value: 0 },
+      { property: 'opacity', value: 0 },
       { property: 'scale', value: 0 },
     ],
   },
