@@ -21,11 +21,9 @@ exports[`<Viewport> renders 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
@@ -68,11 +66,9 @@ exports[`<Viewport> when {backward} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
@@ -115,11 +111,9 @@ exports[`<Viewport> when {children} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
@@ -170,11 +164,9 @@ exports[`<Viewport> when {onScroll} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
@@ -219,11 +211,9 @@ exports[`<Viewport> when {style} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
@@ -266,11 +256,9 @@ exports[`<Viewport> when {styleContent} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
@@ -315,11 +303,9 @@ exports[`<Viewport> when {visible} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Array [
-        Object {
-          "flex": 1,
-        },
-      ]
+      Object {
+        "flex": 1,
+      }
     }
   >
     <RCTScrollView
