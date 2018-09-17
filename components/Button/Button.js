@@ -4,14 +4,14 @@ import {
 import React from 'react';
 import { View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { LAYOUT, THEMEv2 } from '../../common';
 import Activity from '../Activity';
 import Icon from '../Icon';
 import Text from '../Text';
 import Touchable from '../Touchable';
-import styles from './Button.style';
+import styles, { REGULAR_SIZE } from './Button.style';
 
-const { BUTTON, COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
+const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEMEv2;
 
 const Button = ({
   accent, activity, children, color, contained, disabled, icon, onPress, outlined,
@@ -20,7 +20,7 @@ const Button = ({
   ...inherit
 }) => (
   <Touchable
-    containerBorderRadius={rounded ? BUTTON.HEIGHT / 2 : undefined}
+    containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
     disabled={disabled || !onPress}
     onPress={onPress}
     rippleColor={isSolid ? undefined : color}
@@ -29,10 +29,10 @@ const Button = ({
     <View
       style={[
         styles.container,
-        STYLE.BUTTON_REGULAR,
+        styles.regular,
         // -- Layout
-        small && STYLE.BUTTON_SMALL,
-        !small && responsive && LAYOUT.STYLE.BUTTON.CONTAINER,
+        small && styles.small,
+        responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
         rounded && styles.rounded,
         ((!title && !children) || (!contained && !outlined)) && styles.squared,
 

@@ -1,10 +1,8 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { THEMEv2 } from '../../common';
 
-const {
-  COLOR, FONT,
-} = THEME;
+const { COLOR, FONT } = THEMEv2;
 
 export default StyleSheet.create({
   accent: {

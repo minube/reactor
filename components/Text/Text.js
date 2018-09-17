@@ -2,10 +2,10 @@ import { bool, number, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { LAYOUT, THEMEv2 } from '../../common';
 import styles from './Text.style';
 
-const { FONT } = THEME;
+const { FONT } = THEMEv2;
 
 const Text = ({
   lighter, semibold, bold, italic,

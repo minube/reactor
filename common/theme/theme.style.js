@@ -3,22 +3,9 @@ import { Platform } from 'react-native';
 const UNIT = 10;
 
 export default {
-  AVATAR: {
-    SMALL: UNIT * 2,
-    REGULAR: UNIT * 4,
-    LARGE: UNIT * 6,
-  },
-
   BORDER_RADIUS: UNIT * 0.3,
 
-  BUTTON: {
-    FLOATING_HEIGHT: UNIT * 6,
-    HEIGHT: UNIT * 4.5,
-    SMALL_HEIGHT: UNIT * 3,
-  },
-
   COLOR: {
-    // -- Theme
     PRIMARY: '#10c0bc',
     ACCENT: '#f69a37',
     // -- Text
@@ -59,10 +46,6 @@ export default {
       SEMIBOLD: '600',
       BOLD: 'bold',
     },
-  },
-
-  INPUT: {
-    HEIGHT: UNIT * 4.4,
   },
 
   OFFSET: UNIT * 1.6,

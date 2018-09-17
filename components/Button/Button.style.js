@@ -1,10 +1,14 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { STYLE, THEMEv2 } from '../../common';
 
 const {
-  BORDER_RADIUS, BUTTON, COLOR, FONT, UNIT,
-} = THEME;
+  BORDER_RADIUS, COLOR, FONT, UNIT,
+} = THEMEv2;
+
+const REGULAR_SIZE = UNIT * 4.5;
+
+export { REGULAR_SIZE };
 
 export default StyleSheet.create({
   touchable: {
@@ -19,12 +23,24 @@ export default StyleSheet.create({
     borderRadius: BORDER_RADIUS,
   },
 
+  regular: {
+    minWidth: REGULAR_SIZE,
+    height: REGULAR_SIZE,
+    paddingHorizontal: UNIT * 3,
+  },
+
+  small: {
+    minWidth: UNIT * 3,
+    height: UNIT * 3,
+    paddingHorizontal: UNIT * 1.5,
+  },
+
   squared: {
     paddingHorizontal: 0,
   },
 
   rounded: {
-    borderRadius: BUTTON.HEIGHT / 2,
+    borderRadius: REGULAR_SIZE / 2,
   },
 
   outlined: {

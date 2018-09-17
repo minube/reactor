@@ -1,51 +1,53 @@
-import THEME from '../../theme';
+import STYLE from '../../style';
 import screenType from './screenType';
 
-const { STYLE } = THEME;
+const {
+  cardHeightSmall, cardHeightRegular,
+  cardHeightPortraitTiny, cardHeightPortraitSmall, cardHeightPortraitRegular, cardHeightPortraitDefault,
+  cardWidthTiny, cardWidthSmall, cardWidthRegular, cardWidthDefault,
+  textGnome, textTiny, textSmall, textRegular, textLarge, textSubtitle, textTitle,
+} = STYLE;
 
 export default (width = 360) => {
   const {
     TINY, PHONE, TABLET, SMALL, REGULAR, LARGE,
   } = screenType(width);
+  const DEFAULT = REGULAR || LARGE;
 
   return {
-    BUTTON: {
-      CONTAINER: (() => (REGULAR || LARGE ? STYLE.BUTTON_REGULAR : STYLE.BUTTON_SMALL))(),
-    },
-
     CARD: {
-      HEIGHT: REGULAR || LARGE ? STYLE.CARD_HEIGHT_REGULAR : STYLE.CARD_HEIGHT_SMALL,
+      HEIGHT: DEFAULT ? cardHeightRegular : cardHeightSmall,
       PORTRAIT: (() => {
-        if (TINY) return STYLE.CARD_HEIGHT_PORTRAIT_TINY;
-        if (PHONE || SMALL) return STYLE.CARD_HEIGHT_PORTRAIT_SMALL;
-        if (TABLET || REGULAR) return STYLE.CARD_HEIGHT_PORTRAIT_REGULAR;
+        if (TINY) return cardHeightPortraitTiny;
+        if (PHONE || SMALL) return cardHeightPortraitSmall;
+        if (TABLET || REGULAR) return cardHeightPortraitRegular;
 
-        return STYLE.CARD_HEIGHT_PORTRAIT_DEFAULT;
+        return cardHeightPortraitDefault;
       })(),
 
       WIDTH: (() => {
-        if (TINY) return STYLE.CARD_WIDTH_TINY;
-        if (PHONE || SMALL) return STYLE.CARD_WIDTH_SMALL;
-        if (TABLET || REGULAR) return STYLE.CARD_WIDTH_REGULAR;
+        if (TINY) return cardWidthTiny;
+        if (PHONE || SMALL) return cardWidthSmall;
+        if (TABLET || REGULAR) return cardWidthRegular;
 
-        return STYLE.CARD_WIDTH_DEFAULT;
+        return cardWidthDefault;
       })(),
     },
 
     TEXT: {
-      TINY: (() => (REGULAR || LARGE ? STYLE.TEXT_TINY : STYLE.TEXT_GNOME))(),
-      SMALL: (() => (REGULAR || LARGE ? STYLE.TEXT_SMALL : STYLE.TEXT_TINY))(),
-      REGULAR: (() => (REGULAR || LARGE ? STYLE.TEXT_REGULAR : STYLE.TEXT_SMALL))(),
-      LARGE: (() => (REGULAR || LARGE ? STYLE.TEXT_LARGE : STYLE.TEXT_REGULAR))(),
+      TINY: (() => (DEFAULT ? textTiny : textGnome))(),
+      SMALL: (() => (DEFAULT ? textSmall : textTiny))(),
+      REGULAR: (() => (DEFAULT ? textRegular : textSmall))(),
+      LARGE: (() => (DEFAULT ? textLarge : textRegular))(),
       SUBTITLE: (() => {
-        if (TINY || PHONE || TABLET) return STYLE.TEXT_REGULAR;
-        if (SMALL || REGULAR) return STYLE.TEXT_LARGE;
-        return STYLE.TEXT_SUBTITLE;
+        if (TINY || PHONE || TABLET) return textRegular;
+        if (SMALL || REGULAR) return textLarge;
+        return textSubtitle;
       })(),
       TITLE: (() => {
-        if (TINY || PHONE || TABLET) return STYLE.TEXT_LARGE;
-        if (SMALL || REGULAR) return STYLE.TEXT_SUBTITLE;
-        return STYLE.TEXT_TITLE;
+        if (TINY || PHONE || TABLET) return textLarge;
+        if (SMALL || REGULAR) return textSubtitle;
+        return textTitle;
       })(),
     },
   };
