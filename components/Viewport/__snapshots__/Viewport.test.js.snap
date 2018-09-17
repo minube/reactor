@@ -21,9 +21,58 @@ exports[`<Viewport> renders 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Object {
-        "flex": 1,
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "padding": 16,
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
       }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {backward} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": -64,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
     }
   >
     <RCTScrollView
@@ -66,9 +115,11 @@ exports[`<Viewport> when {children} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
     }
   >
     <RCTScrollView
@@ -98,51 +149,6 @@ exports[`<Viewport> when {children} 1`] = `
 </View>
 `;
 
-exports[`<Viewport> when {onBack} 1`] = `
-<View
-  style={
-    Object {
-      "backgroundColor": "#F5F5F6",
-      "height": 1334,
-      "left": 0,
-      "overflow": "hidden",
-      "position": "absolute",
-      "top": 0,
-      "transform": Array [
-        Object {
-          "translateX": 0,
-        },
-      ],
-      "width": 750,
-    }
-  }
->
-  <RCTSafeAreaView
-    style={
-      Object {
-        "flex": 1,
-      }
-    }
-  >
-    <RCTScrollView
-      style={
-        Array [
-          Object {
-            "height": "100%",
-            "padding": 16,
-            "width": "100%",
-            "zIndex": 0,
-          },
-          Array [],
-        ]
-      }
-    >
-      <View />
-    </RCTScrollView>
-  </RCTSafeAreaView>
-</View>
-`;
-
 exports[`<Viewport> when {onScroll} 1`] = `
 <View
   style={
@@ -164,14 +170,16 @@ exports[`<Viewport> when {onScroll} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
     }
   >
     <RCTScrollView
       onScroll={[Function]}
-      scrollEventThrottle={16}
+      scrollEventThrottle={32}
       style={
         Array [
           Object {
@@ -211,9 +219,11 @@ exports[`<Viewport> when {style} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
     }
   >
     <RCTScrollView
@@ -256,9 +266,11 @@ exports[`<Viewport> when {styleContent} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
     }
   >
     <RCTScrollView
@@ -303,9 +315,11 @@ exports[`<Viewport> when {visible} 1`] = `
 >
   <RCTSafeAreaView
     style={
-      Object {
-        "flex": 1,
-      }
+      Array [
+        Object {
+          "flex": 1,
+        },
+      ]
     }
   >
     <RCTScrollView

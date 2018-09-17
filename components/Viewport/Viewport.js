@@ -13,6 +13,7 @@ const { IS_NATIVE } = ENV;
 
 class Viewport extends PureComponent {
   static propTypes = {
+    backward: bool,
     children: node,
     onScroll: func,
     scroll: bool,
@@ -21,6 +22,7 @@ class Viewport extends PureComponent {
   };
 
   static defaultProps = {
+    backward: false,
     children: undefined,
     onScroll: undefined,
     scroll: true,
@@ -42,7 +44,7 @@ class Viewport extends PureComponent {
     const {
       _onScroll,
       props: {
-        children, onScroll, scroll, styleContent, visible, ...inherit
+        backward, children, onScroll, scroll, styleContent, visible, ...inherit
       },
       state: { height, width },
     } = this;
@@ -51,14 +53,15 @@ class Viewport extends PureComponent {
       <Motion
         duration={MOTION.DURATION}
         style={[styles.container, { height, width }, inherit.style]}
-        timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
-        type="timing"
+        timeline={backward && visible
+          ? [{ property: 'translateX', value: -64 }]
+          : [{ property: 'translateX', value: visible ? 0 : width }]}
       >
         <SafeAreaView style={styles.safeArea}>
           { createElement(
             scroll ? ScrollView : View,
             {
-              ...(scroll && onScroll ? { onScroll: _onScroll, scrollEventThrottle: 16 } : {}),
+              ...(scroll && onScroll ? { onScroll: _onScroll, scrollEventThrottle: 32 } : {}),
               style: [styles.content, styleContent],
             },
             children,

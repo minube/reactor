@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
@@ -6,6 +6,7 @@ import { boolean, object } from '@storybook/addon-knobs/react';
 
 import Viewport from './Viewport';
 import { THEME } from '../../common';
+import Button from '../Button';
 
 const styleLayout = {
   width: 375,
@@ -37,9 +38,46 @@ const CHILDREN =
     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
   </Text>;
 
+class ViewportHOC extends Component {
+  state = {
+    visible: false,
+  };
+
+  render() {
+    const { state: { visible } } = this;
+
+    return (
+      <View style={styleLayout}>
+        <Viewport style={[styleLayout]} backward={visible}>
+          <Text>viewport.1</Text>
+          <Button onPress={() => this.setState({ visible: !visible })} title="viewport.2" />
+        </Viewport>
+        <Viewport
+          active={boolean('active', false)}
+          onBack={action('Viewport.onBack()')}
+          onScroll={action('Viewport.onScroll()')}
+          scroll={boolean('scroll', true)}
+          style={[styleLayout]}
+          styleContent={object('style', styleContent, 'viewport-style')}
+          visible={boolean('visible', visible)}
+        >
+          <Button onPress={() => this.setState({ visible: !visible })} title="back" />
+          {CHILDREN}
+        </Viewport>
+      </View>
+    );
+  }
+}
+
 storiesOf('☑️ Viewport', module)
   .addWithJSX('default', () => (
     <Viewport>{CHILDREN}</Viewport>
+  ))
+  .addWithJSX('visible (false)', () => (
+    <Viewport visible={false}>{CHILDREN}</Viewport>
+  ))
+  .addWithJSX('backward', () => (
+    <Viewport backward>{CHILDREN}</Viewport>
   ))
   .addWithJSX('scroll (false)', () => (
     <Viewport scroll={false}>{CHILDREN}</Viewport>
@@ -51,21 +89,5 @@ storiesOf('☑️ Viewport', module)
     <Viewport style={style} styleContent={styleContent}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <View style={styleLayout}>
-      <Viewport style={StyleSheet.flatten([style, styleLayout])} visible>
-        <Text>viewport.1</Text>
-      </Viewport>
-      <Viewport
-        onBack={action('Viewport.onBack()')}
-        onScroll={action('Viewport.onScroll()')}
-        scroll={boolean('scroll', true)}
-        style={[style, styleLayout]}
-        styleContent={object('style', styleContent, 'viewport-style')}
-        visible={boolean('visible', true)}
-      >
-        {CHILDREN}
-      </Viewport>
-    </View>
+    <ViewportHOC />
   ))
-
-
