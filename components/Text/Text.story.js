@@ -41,8 +41,8 @@ storiesOf('✅ Text', module)
   .addWithJSX('primary', () => (
     <Text primary>Hello World</Text>
   ))
-  .addWithJSX('accent', () => (
-    <Text accent>Hello World</Text>
+  .addWithJSX('secondary', () => (
+    <Text secondary>Hello World</Text>
   ))
   .addWithJSX('lighten', () => (
     <Text lighten>Hello World</Text>
@@ -70,7 +70,7 @@ storiesOf('✅ Text', module)
       large={boolean('large', false)}
       subtitle={boolean('subtitle', false)}
       title={boolean('title', false)}
-      accent={boolean('accent', false)}
+      secondary={boolean('secondary', false)}
       lighten={boolean('lighten', false)}
       primary={boolean('primary', false)}
       numberOfLines={number('numberOfLines', 1)}

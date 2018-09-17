@@ -44,7 +44,7 @@ exports[`<InputImage> renders 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",
@@ -110,7 +110,7 @@ exports[`<InputImage> when {disabled} 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",
@@ -121,8 +121,8 @@ exports[`<InputImage> when {disabled} 1`] = `
             "width": "100%",
           },
           Object {
-            "backgroundColor": "#f4f4f4",
-            "color": "#cccccc",
+            "backgroundColor": "#F5F5F6",
+            "color": "#e0e0e0",
           },
           false,
           false,
@@ -179,7 +179,7 @@ exports[`<InputImage> when {error} 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",
@@ -287,7 +287,7 @@ exports[`<InputImage> when {hint} 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",
@@ -431,7 +431,7 @@ exports[`<InputImage> when {label} 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",
@@ -500,7 +500,7 @@ exports[`<InputImage> when {style} 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",
@@ -541,11 +541,11 @@ exports[`<InputImage> when {value} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#f4f4f4",
+          "backgroundColor": "#F5F5F6",
           "justifyContent": "center",
         },
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
           "borderRadius": 3,
           "height": 60,
           "width": 60,
@@ -562,7 +562,7 @@ exports[`<InputImage> when {value} 1`] = `
       }
       style={
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
           "borderRadius": 3,
           "height": 60,
           "width": 60,
@@ -617,7 +617,7 @@ exports[`<InputImage> when {value} 1`] = `
         Array [
           Object {
             "backgroundColor": "#ffffff",
-            "borderColor": "#dbdbdb",
+            "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
             "color": "#4a4a4a",

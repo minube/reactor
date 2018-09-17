@@ -388,7 +388,7 @@ exports[`<Heading> when {color} 1`] = `
           false,
           false,
           Object {
-            "color": "#f69a37",
+            "color": "#424242",
             "fontSize": 30,
             "lineHeight": 39,
             "marginRight": 10,
@@ -501,7 +501,7 @@ exports[`<Heading> when {column} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -538,7 +538,7 @@ exports[`<Heading> when {column} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -575,7 +575,7 @@ exports[`<Heading> when {column} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -612,7 +612,7 @@ exports[`<Heading> when {column} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -649,7 +649,7 @@ exports[`<Heading> when {column} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -841,7 +841,7 @@ exports[`<Heading> when {column} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -911,7 +911,7 @@ exports[`<Heading> when {column} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -981,7 +981,7 @@ exports[`<Heading> when {column} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1224,7 +1224,7 @@ exports[`<Heading> when {contributors} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1294,7 +1294,7 @@ exports[`<Heading> when {contributors} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1364,7 +1364,7 @@ exports[`<Heading> when {contributors} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1530,7 +1530,7 @@ exports[`<Heading> when {rating} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -1567,7 +1567,7 @@ exports[`<Heading> when {rating} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -1604,7 +1604,7 @@ exports[`<Heading> when {rating} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -1641,7 +1641,7 @@ exports[`<Heading> when {rating} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {
@@ -1678,7 +1678,7 @@ exports[`<Heading> when {rating} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {

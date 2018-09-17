@@ -14,8 +14,8 @@ import styles, { REGULAR_SIZE } from './Button.style';
 const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
-  accent, activity, children, color, contained, disabled, icon, onPress, outlined,
-  primary, responsive, rounded, small, title,
+  activity, children, color, contained, disabled, icon, onPress, outlined,
+  primary, responsive, rounded, secondary, small, title,
   isSolid = contained && !outlined, // eslint-disable-line
   ...inherit
 }) => (
@@ -37,9 +37,9 @@ const Button = ({
         ((!title && !children) || (!contained && !outlined)) && styles.squared,
 
         // -- Color
-        (isSolid && !primary && !accent) && { backgroundColor: color || TEXT_LIGHTEN },
+        (isSolid && !primary && !secondary) && { backgroundColor: color || TEXT_LIGHTEN },
         isSolid && primary && styles.primary,
-        isSolid && accent && styles.accent,
+        isSolid && secondary && styles.secondary,
         isSolid && disabled && { backgroundColor: TEXT_LIGHTEN },
         outlined && styles.outlined,
         outlined && { borderColor: color || TEXT_LIGHTEN },
@@ -70,7 +70,6 @@ const Button = ({
 );
 
 Button.propTypes = {
-  accent: bool,
   activity: bool,
   children: node,
   contained: bool,
@@ -82,12 +81,12 @@ Button.propTypes = {
   primary: bool,
   responsive: bool,
   rounded: bool,
+  secondary: bool,
   small: bool,
   title: string,
 };
 
 Button.defaultProps = {
-  accent: false,
   activity: false,
   children: undefined,
   contained: true,
@@ -99,6 +98,7 @@ Button.defaultProps = {
   primary: false,
   responsive: false,
   rounded: false,
+  secondary: false,
   small: false,
   title: undefined,
 };

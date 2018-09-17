@@ -6,23 +6,21 @@ export default {
   BORDER_RADIUS: UNIT * 0.3,
 
   COLOR: {
-    PRIMARY: '#10c0bc',
-    ACCENT: '#f69a37',
+    // Theme
+    BACKGROUND: '#F5F5F6',
+    BASE: '#e0e0e0',
+    PRIMARY: '#bdbdbd',
+    SECONDARY: '#424242',
     // -- Text
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#9b9b9b',
-    // -- Backgrounds
-    BACKGROUND: '#f4f4f4',
-    BORDER: '#dbdbdb',
-    CONTENT: '#CDD2D4',
-    TRANSPARENT: 'transparent',
     // -- Notifications
     ALERT: '#FBB049',
     ERROR: '#ef5160',
     SUCCESS: '#84BD4B',
     WARNING: '#FDCD48',
-    // -- Base
-    BASE: '#cccccc',
+    // -- Helpers
+    TRANSPARENT: 'transparent',
     BLACK: '#000000',
     WHITE: '#ffffff',
   },

@@ -9,7 +9,7 @@ const { FONT } = THEME;
 
 const Text = ({
   lighter, semibold, bold, italic,
-  primary, accent, lighten, color,
+  primary, secondary, lighten, color,
   tiny, small, large, subtitle, title,
   numberOfLines,
   ...inherit
@@ -34,7 +34,7 @@ const Text = ({
       // -- color
       lighten && styles.lighten,
       primary && styles.primary,
-      accent && styles.accent,
+      secondary && styles.secondary,
       // -- flatten
       StyleSheet.flatten([
         inherit.style,
@@ -49,7 +49,6 @@ const Text = ({
 );
 
 Text.propTypes = {
-  accent: bool,
   bold: bool,
   color: string,
   italic: bool,
@@ -58,6 +57,7 @@ Text.propTypes = {
   lighter: bool,
   numberOfLines: number,
   primary: bool,
+  secondary: bool,
   semibold: bool,
   small: bool,
   subtitle: bool,
@@ -66,7 +66,6 @@ Text.propTypes = {
 };
 
 Text.defaultProps = {
-  accent: false,
   bold: false,
   color: undefined,
   italic: false,
@@ -75,6 +74,7 @@ Text.defaultProps = {
   lighter: false,
   numberOfLines: undefined,
   primary: false,
+  secondary: false,
   semibold: false,
   small: false,
   subtitle: false,

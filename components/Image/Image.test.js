@@ -50,7 +50,7 @@ describe('<Image>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Image style={{ backgroundColor: THEME.COLOR.ACCENT }} />).toJSON();
+    const tree = renderer.create(<Image style={{ backgroundColor: THEME.COLOR.SECONDARY }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

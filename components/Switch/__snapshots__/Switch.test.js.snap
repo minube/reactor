@@ -16,8 +16,8 @@ exports[`<Switch> renders 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#dbdbdb"
+    activeThumbColor="#bdbdbd"
+    activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -54,8 +54,8 @@ exports[`<Switch> when {disabled} 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#dbdbdb"
+    activeThumbColor="#bdbdbd"
+    activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -132,8 +132,8 @@ exports[`<Switch> when {label} 1`] = `
     Hello world
   </Text>
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#dbdbdb"
+    activeThumbColor="#bdbdbd"
+    activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -172,8 +172,8 @@ exports[`<Switch> when {style} 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#dbdbdb"
+    activeThumbColor="#bdbdbd"
+    activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}

@@ -52,7 +52,7 @@ storiesOf('✅ ListingCard', module)
           <Text tiny>desde</Text>
           <Price large value={90} symbol="$" />
         </View>
-        <Text tiny bold accent style={{ width: '50%' }}>
+        <Text tiny bold secondary style={{ width: '50%' }}>
           Mascotas bienvenidas
         </Text>
       </View>

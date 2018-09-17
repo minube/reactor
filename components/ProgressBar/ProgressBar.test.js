@@ -16,12 +16,12 @@ describe('<ProgressBar>', () => {
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<ProgressBar color={THEME.COLOR.ACCENT} />).toJSON();
+    const tree = renderer.create(<ProgressBar color={THEME.COLOR.SECONDARY} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {trackColor}', () => {
-    const tree = renderer.create(<ProgressBar trackColor={THEME.COLOR.ACCENT} />).toJSON();
+    const tree = renderer.create(<ProgressBar trackColor={THEME.COLOR.SECONDARY} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

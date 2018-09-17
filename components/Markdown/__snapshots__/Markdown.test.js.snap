@@ -42,7 +42,7 @@ exports[`<Markdown> including a <Text> property 1`] = `
         false,
         false,
         Object {
-          "color": "#f69a37",
+          "color": "#424242",
         },
         Object {},
       ]
@@ -78,7 +78,7 @@ exports[`<Markdown> including a <Text> property 1`] = `
         false,
         false,
         Object {
-          "color": "#f69a37",
+          "color": "#424242",
         },
         Object {},
       ]

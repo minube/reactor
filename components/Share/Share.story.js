@@ -18,8 +18,8 @@ storiesOf('✅ Share', module)
   .addWithJSX('caption', () => (
     <Share caption={LOREM} />
   ))
-  .addWithJSX('accentColor', () => (
-    <Share accentColor="red" />
+  .addWithJSX('color', () => (
+    <Share color="red" />
   ))
   .addWithJSX('⚡ onCancel (only web)', () => (
     <Share onCancel={action('Share.onCancel()')} />
@@ -35,7 +35,7 @@ storiesOf('✅ Share', module)
       primary
       title={text('title', 'hello')}
       caption={text('caption', LOREM)}
-      accentColor={color('accentColor', LOREM)}
+      color={color('color', LOREM)}
       onCancel={action('Share.onCancel()')}
       onOption={action('Share.onOption()')}
       onPress={action('Share.onPress()')}

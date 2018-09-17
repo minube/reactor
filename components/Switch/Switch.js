@@ -19,7 +19,7 @@ const Switch = ({ label, onChange, ...inherit }) => (
       {...inherit}
       value={inherit.value || false}
       activeThumbColor={COLOR.PRIMARY}
-      activeTrackColor={COLOR.BORDER}
+      activeTrackColor={COLOR.BASE}
       onValueChange={onChange}
       style={styles.switch}
     />

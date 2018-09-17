@@ -48,8 +48,8 @@ export default StyleSheet.create({
   },
 
   // -- Colors
-  accent: {
-    backgroundColor: COLOR.ACCENT,
+  secondary: {
+    backgroundColor: COLOR.SECONDARY,
   },
 
   disabled: {

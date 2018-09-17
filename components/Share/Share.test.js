@@ -23,8 +23,8 @@ describe('<Share>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {accentColor}', () => {
-    const tree = renderer.create(<share uri={LOREM_URI} accentColor="red" />).toJSON();
+  it('when {color}', () => {
+    const tree = renderer.create(<share uri={LOREM_URI} color="red" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

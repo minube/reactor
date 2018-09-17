@@ -35,13 +35,13 @@ describe('<Button>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {accent}', () => {
-    const tree = renderer.create(<Button contained accent title="Press me" />).toJSON();
+  it('when {primary}', () => {
+    const tree = renderer.create(<Button contained primary title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {primary}', () => {
-    const tree = renderer.create(<Button contained primary title="Press me" />).toJSON();
+  it('when {secondary}', () => {
+    const tree = renderer.create(<Button contained secondary title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

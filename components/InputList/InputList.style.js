@@ -12,7 +12,7 @@ export default StyleSheet.create({
 
   content: {
     backgroundColor: COLOR.WHITE,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderTopWidth: 0,
     borderRadius: UNIT / 4,
@@ -42,7 +42,7 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     minHeight: OFFSET * 2,
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
     borderRadius: OFFSET,
     margin: UNIT / 10,
     paddingHorizontal: UNIT,

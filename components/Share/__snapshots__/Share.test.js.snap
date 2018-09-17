@@ -148,9 +148,9 @@ exports[`<Share> renders 1`] = `
 </View>
 `;
 
-exports[`<Share> when {accentColor} 1`] = `
+exports[`<Share> when {color} 1`] = `
 <share
-  accentColor="red"
+  color="red"
   uri="http://soyjavi.com"
 />
 `;

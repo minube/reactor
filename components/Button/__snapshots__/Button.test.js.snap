@@ -86,128 +86,6 @@ exports[`<Button> renders 1`] = `
 </View>
 `;
 
-exports[`<Button> when {accent} 1`] = `
-<View
-  accessible={true}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-        "marginHorizontal": 5,
-      },
-      false,
-      undefined,
-    ]
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "center",
-        },
-        Object {
-          "height": 45,
-          "minWidth": 45,
-          "paddingHorizontal": 30,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "backgroundColor": "#f69a37",
-        },
-        false,
-        false,
-        false,
-        false,
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-          },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
-        ]
-      }
-    >
-      Press me
-    </Text>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-          "borderRadius": 3,
-          "bottom": 0,
-          "left": 0,
-          "overflow": "hidden",
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "height": 0,
-          "opacity": 0,
-          "width": 0,
-          "zIndex": 0,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
 exports[`<Button> when {activity} 1`] = `
 <View
   accessible={true}
@@ -1301,7 +1179,7 @@ exports[`<Button> when {primary} 1`] = `
         false,
         false,
         Object {
-          "backgroundColor": "#10c0bc",
+          "backgroundColor": "#bdbdbd",
         },
         false,
         false,
@@ -1614,6 +1492,128 @@ exports[`<Button> when {rounded} 1`] = `
         Object {
           "borderRadius": 22.5,
         },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#ffffff",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<Button> when {secondary} 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "borderRadius": 3,
+        "marginHorizontal": 5,
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "borderRadius": 3,
+          "display": "flex",
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        Object {
+          "height": 45,
+          "minWidth": 45,
+          "paddingHorizontal": 30,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        Object {
+          "backgroundColor": "#424242",
+        },
+        false,
+        false,
+        false,
+        false,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          Object {
+            "fontWeight": "600",
+          },
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#ffffff",
+            "fontSize": 14,
+          },
+        ]
+      }
+    >
+      Press me
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
       ]
     }
   >

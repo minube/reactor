@@ -13,7 +13,7 @@ export default StyleSheet.create({
 
   input: {
     backgroundColor: COLOR.WHITE,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
     color: COLOR.TEXT,
@@ -44,6 +44,6 @@ export default StyleSheet.create({
   },
 
   active: {
-    color: COLOR.ACCENT,
+    color: COLOR.SECONDARY,
   },
 });

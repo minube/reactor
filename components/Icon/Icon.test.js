@@ -39,7 +39,7 @@ describe('<Icon>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Icon value={ICON_VALUE} style={{ backgroundColor: THEME.COLOR.ACCENT }} />).toJSON();
+    const tree = renderer.create(<Icon value={ICON_VALUE} style={{ backgroundColor: THEME.COLOR.SECONDARY }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

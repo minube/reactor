@@ -33,43 +33,6 @@ exports[`<Text> renders 1`] = `
 />
 `;
 
-exports[`<Text> when {accent} 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-      },
-      false,
-      false,
-      false,
-      false,
-      Object {
-        "fontSize": 16,
-        "lineHeight": 20.8,
-      },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      Object {
-        "color": "#f69a37",
-      },
-      Object {},
-    ]
-  }
->
-  Hello World
-</Text>
-`;
-
 exports[`<Text> when {bold} 1`] = `
 <Text
   accessible={true}
@@ -355,9 +318,46 @@ exports[`<Text> when {primary} 1`] = `
       false,
       false,
       Object {
-        "color": "#10c0bc",
+        "color": "#bdbdbd",
       },
       false,
+      Object {},
+    ]
+  }
+>
+  Hello World
+</Text>
+`;
+
+exports[`<Text> when {secondary} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+      },
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "fontSize": 16,
+        "lineHeight": 20.8,
+      },
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      Object {
+        "color": "#424242",
+      },
       Object {},
     ]
   }

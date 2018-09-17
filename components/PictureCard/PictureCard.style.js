@@ -6,7 +6,7 @@ const { BORDER_RADIUS, COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   content: {
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
   },
 
   borderRadius: {

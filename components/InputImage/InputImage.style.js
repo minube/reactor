@@ -22,6 +22,6 @@ export default StyleSheet.create({
     width: UNIT * 6,
     height: UNIT * 6,
     borderRadius: BORDER_RADIUS,
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
   },
 });

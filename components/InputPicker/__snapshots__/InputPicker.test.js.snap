@@ -16,7 +16,7 @@ exports[`<InputPicker> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -75,7 +75,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -83,7 +83,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
         },
         false,
         Object {
-          "backgroundColor": "#f4f4f4",
+          "backgroundColor": "#F5F5F6",
         },
       ]
     }
@@ -136,7 +136,7 @@ exports[`<InputPicker> when {error} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -237,7 +237,7 @@ exports[`<InputPicker> when {hint} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -374,7 +374,7 @@ exports[`<InputPicker> when {label} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -437,7 +437,7 @@ exports[`<InputPicker> when {style} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -496,7 +496,7 @@ exports[`<InputPicker> when {value} 1`] = `
       Array [
         Object {
           "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,

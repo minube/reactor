@@ -50,9 +50,9 @@ export default StyleSheet.create({
   },
 
   scroll: {
-    borderBottomColor: COLOR.BORDER,
+    borderBottomColor: COLOR.BASE,
     borderBottomWidth: 1,
-    borderTopColor: COLOR.BORDER,
+    borderTopColor: COLOR.BASE,
     borderTopWidth: 1,
   },
 });

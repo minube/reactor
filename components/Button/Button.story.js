@@ -32,8 +32,8 @@ storiesOf('✅ Button', module)
   .addWithJSX('primary', () => (
     <Button primary title="Press me" onPress={NULL} />
   ))
-  .addWithJSX('accent', () => (
-    <Button accent title="Press me" onPress={NULL} />
+  .addWithJSX('secondary', () => (
+    <Button secondary title="Press me" onPress={NULL} />
   ))
   .addWithJSX('activity', () => (
     <Button activity title="Press me" onPress={NULL} />
@@ -66,7 +66,7 @@ storiesOf('✅ Button', module)
   ))
   .addWithJSX('🏀 Playground', () => (
     <Button
-      accent={boolean('accent', false)}
+      secondary={boolean('secondary', false)}
       activity={boolean('activity', false)}
       color={color('color', undefined)}
       contained={boolean('contained', true)}

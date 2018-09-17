@@ -40,7 +40,7 @@ storiesOf('🛠 Heading', module)
   .addWithJSX('color', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
-      color={THEME.COLOR.ACCENT}
+      color={THEME.COLOR.SECONDARY}
       contributors={CONTRIBUTORS}
       title="Actividades en España"
       rating={RATING}

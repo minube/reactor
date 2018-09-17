@@ -31,7 +31,7 @@ describe('<Markdown>', () => {
   });
 
   it('including a <Text> property', () => {
-    const tree = renderer.create(<Markdown accent>Hello *World*</Markdown>).toJSON();
+    const tree = renderer.create(<Markdown secondary>Hello *World*</Markdown>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

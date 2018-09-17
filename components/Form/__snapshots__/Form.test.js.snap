@@ -107,7 +107,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
@@ -224,7 +224,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "paddingRight": 5,
@@ -350,7 +350,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
@@ -437,7 +437,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
@@ -476,11 +476,11 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -497,7 +497,7 @@ exports[`<Form> when {attributes} 1`] = `
             }
             style={
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -592,7 +592,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -668,8 +668,8 @@ exports[`<Form> when {attributes} 1`] = `
           isPublic
         </Text>
         <RCTSwitch
-          activeThumbColor="#10c0bc"
-          activeTrackColor="#dbdbdb"
+          activeThumbColor="#bdbdbd"
+          activeTrackColor="#e0e0e0"
           disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
@@ -701,7 +701,7 @@ exports[`<Form> when {attributes} 1`] = `
               "width": "100%",
             },
             Object {
-              "borderColor": "#dbdbdb",
+              "borderColor": "#e0e0e0",
               "borderRadius": 2.5,
               "borderWidth": 1,
               "marginBottom": 16,
@@ -738,7 +738,7 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               Object {
-                "color": "#10c0bc",
+                "color": "#bdbdbd",
               },
               false,
               Object {
@@ -817,7 +817,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -903,7 +903,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -989,7 +989,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -1141,7 +1141,7 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
@@ -1258,7 +1258,7 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "paddingRight": 5,
@@ -1384,7 +1384,7 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
@@ -1471,7 +1471,7 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
@@ -1510,11 +1510,11 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -1531,7 +1531,7 @@ exports[`<Form> when {data} 1`] = `
             }
             style={
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -1626,7 +1626,7 @@ exports[`<Form> when {data} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -1702,8 +1702,8 @@ exports[`<Form> when {data} 1`] = `
           isPublic
         </Text>
         <RCTSwitch
-          activeThumbColor="#10c0bc"
-          activeTrackColor="#dbdbdb"
+          activeThumbColor="#bdbdbd"
+          activeTrackColor="#e0e0e0"
           disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
@@ -1735,7 +1735,7 @@ exports[`<Form> when {data} 1`] = `
               "width": "100%",
             },
             Object {
-              "borderColor": "#dbdbdb",
+              "borderColor": "#e0e0e0",
               "borderRadius": 2.5,
               "borderWidth": 1,
               "marginBottom": 16,
@@ -1772,7 +1772,7 @@ exports[`<Form> when {data} 1`] = `
               false,
               false,
               Object {
-                "color": "#10c0bc",
+                "color": "#bdbdbd",
               },
               false,
               Object {
@@ -1851,7 +1851,7 @@ exports[`<Form> when {data} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -1937,7 +1937,7 @@ exports[`<Form> when {data} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -2023,7 +2023,7 @@ exports[`<Form> when {data} 1`] = `
               Array [
                 Object {
                   "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
@@ -2208,7 +2208,7 @@ exports[`<Form> when {title} 1`] = `
             false,
             false,
             Object {
-              "color": "#10c0bc",
+              "color": "#bdbdbd",
             },
             false,
             Object {

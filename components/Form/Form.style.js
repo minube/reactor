@@ -17,7 +17,7 @@ export default StyleSheet.create({
   fieldset: {
     paddingTop: UNIT,
     paddingHorizontal: UNIT,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.BASE,
     borderRadius: UNIT / 4,
     borderWidth: 1,
     marginBottom: OFFSET,

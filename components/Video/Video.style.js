@@ -23,6 +23,6 @@ export default StyleSheet.create({
   webView: {
     flex: 1,
     overflow: 'hidden',
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
   },
 });

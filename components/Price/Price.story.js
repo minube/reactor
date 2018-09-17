@@ -35,7 +35,7 @@ storiesOf('✅ Price', module)
     <Price title primary />
   ))
   .addWithJSX('style', () => (
-    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.SMALL, color: THEME.COLOR.ACCENT }} />
+    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.SMALL, color: THEME.COLOR.SECONDARY }} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Price

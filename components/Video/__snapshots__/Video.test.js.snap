@@ -46,7 +46,7 @@ exports[`<Video> renders 1`] = `
       playsinline
       preload=\\"true\\"
       src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      style=\\"object-fit: cover; background: undefined; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
     />",
@@ -62,7 +62,7 @@ exports[`<Video> renders 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -126,7 +126,7 @@ exports[`<Video> when {autoplay} 1`] = `
       playsinline
       preload=\\"true\\"
       src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      style=\\"object-fit: cover; background: undefined; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
     />",
@@ -142,7 +142,7 @@ exports[`<Video> when {autoplay} 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -206,7 +206,7 @@ exports[`<Video> when {controls} 1`] = `
       playsinline
       preload=\\"true\\"
       src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      style=\\"object-fit: cover; background: undefined; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
     />",
@@ -222,7 +222,7 @@ exports[`<Video> when {controls} 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -286,7 +286,7 @@ exports[`<Video> when {dimensions} 1`] = `
       playsinline
       preload=\\"true\\"
       src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      style=\\"object-fit: cover; background: undefined; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
     />",
@@ -302,7 +302,7 @@ exports[`<Video> when {dimensions} 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -366,7 +366,7 @@ exports[`<Video> when {preload} 1`] = `
       playsinline
       preload=\\"true\\"
       src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      style=\\"object-fit: cover; background: undefined; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
     />",
@@ -382,7 +382,7 @@ exports[`<Video> when {preload} 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -461,7 +461,7 @@ exports[`<Video> when {source} (vimeo) 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -540,7 +540,7 @@ exports[`<Video> when {source} (youtube) 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },
@@ -607,7 +607,7 @@ exports[`<Video> when {style} 1`] = `
       playsinline
       preload=\\"true\\"
       src=\\"https://storage.googleapis.com/coverr-main/mp4/Surfers-Paradise.mp4\\"
-      style=\\"object-fit: cover; background: #CDD2D4; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
+      style=\\"object-fit: cover; background: undefined; position: absolute; left: 0; top: 0; margin: 0; padding: 0; overflow: hidden;\\"
       webkit-playsinline
       width=\\"100%\\"
     />",
@@ -623,7 +623,7 @@ exports[`<Video> when {style} 1`] = `
           },
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
               "flex": 1,
               "overflow": "hidden",
             },

@@ -14,7 +14,7 @@ const styleLayout = {
 };
 
 const style = {
-  backgroundColor: THEME.COLOR.CONTENT,
+  backgroundColor: THEME.COLOR.BASE,
   padding: THEME.UNIT,
 };
 

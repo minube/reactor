@@ -12,7 +12,7 @@ export default StyleSheet.create({
   input: {
     backgroundColor: COLOR.WHITE,
     paddingRight: UNIT * 0.5,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
     width: '100%',
@@ -59,10 +59,10 @@ export default StyleSheet.create({
 
   active: Platform.select({
     web: {
-      color: COLOR.ACCENT,
+      color: COLOR.SECONDARY,
     },
     android: {
-      color: COLOR.ACCENT,
+      color: COLOR.SECONDARY,
     },
   }),
 });

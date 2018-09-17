@@ -5,8 +5,8 @@ import { THEME } from '../../common';
 const { COLOR, FONT } = THEME;
 
 export default StyleSheet.create({
-  accent: {
-    color: COLOR.ACCENT,
+  secondary: {
+    color: COLOR.SECONDARY,
   },
 
   lighter: {

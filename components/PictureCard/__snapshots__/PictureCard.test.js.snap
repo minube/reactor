@@ -14,7 +14,7 @@ exports[`<PictureCard> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -33,7 +33,7 @@ exports[`<PictureCard> renders 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -162,7 +162,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -172,7 +172,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
         },
         undefined,
         Object {
-          "backgroundColor": "#10c0bc",
+          "backgroundColor": "#bdbdbd",
         },
       ]
     }
@@ -183,7 +183,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -312,7 +312,7 @@ exports[`<PictureCard> when {caption} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -331,7 +331,7 @@ exports[`<PictureCard> when {caption} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -499,7 +499,7 @@ exports[`<PictureCard> when {image} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -518,7 +518,7 @@ exports[`<PictureCard> when {image} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -647,7 +647,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -666,7 +666,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -795,7 +795,7 @@ exports[`<PictureCard> when {small} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -814,7 +814,7 @@ exports[`<PictureCard> when {small} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -947,7 +947,7 @@ exports[`<PictureCard> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -966,7 +966,7 @@ exports[`<PictureCard> when {style} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -1101,7 +1101,7 @@ exports[`<PictureCard> when {title} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -1120,7 +1120,7 @@ exports[`<PictureCard> when {title} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [

@@ -19,7 +19,7 @@ storiesOf('✅ Markdown', module)
     <Markdown>hello *world*, I'm **javi**.</Markdown>
   ))
   .addWithJSX('including a <Text> property', () => (
-    <Markdown accent>Hello *World*</Markdown>
+    <Markdown secondary>Hello *World*</Markdown>
   ))
   .addWithJSX('style container', () => (
     <Markdown styleContainer={{ width: 192, backgroundColor: THEME.COLOR.PRIMARY, padding: 16 }}>

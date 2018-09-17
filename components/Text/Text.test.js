@@ -55,8 +55,8 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {accent}', () => {
-    const tree = renderer.create(<Text accent>Hello World</Text>).toJSON();
+  it('when {secondary}', () => {
+    const tree = renderer.create(<Text secondary>Hello World</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

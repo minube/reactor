@@ -24,7 +24,7 @@ class Link extends PureComponent {
         {...inherit}
         accessibilityRole="link"
         href={href}
-        color={hover && !inherit.styleHover ? THEME.COLOR.ACCENT : undefined}
+        color={hover && !inherit.styleHover ? THEME.COLOR.SECONDARY : undefined}
         onMouseEnter={() => this.setState({ hover: true })}
         onMouseLeave={() => this.setState({ hover: false })}
         style={[inherit.style, hover && inherit.styleHover]}

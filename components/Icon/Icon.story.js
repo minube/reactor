@@ -30,7 +30,7 @@ storiesOf('✅ Icon', module)
     <Icon size={48} value="closeDark" />
   ))
   .addWithJSX('style', () => (
-    <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} value="closeDark" />
+    <Icon style={{ backgroundColor: THEME.COLOR.SECONDARY }} value="closeDark" />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Icon
