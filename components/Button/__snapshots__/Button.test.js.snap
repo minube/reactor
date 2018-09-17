@@ -27,14 +27,17 @@ exports[`<Button> renders 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -53,7 +56,20 @@ exports[`<Button> renders 1`] = `
         false,
       ]
     }
-  />
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
   <View
     style={
       Array [
@@ -113,14 +129,17 @@ exports[`<Button> when {activity} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -151,44 +170,59 @@ exports[`<Button> when {activity} 1`] = `
       }
       type="small"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
           Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
             "marginLeft": 10,
           },
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+              "marginLeft": 10,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -249,14 +283,17 @@ exports[`<Button> when {children} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -276,91 +313,104 @@ exports[`<Button> when {children} 1`] = `
   >
     <View
       style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-        }
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
       }
     >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <View
         style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-            },
-            false,
-            false,
-            Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 20,
-              "lineHeight": 26,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {},
-          ]
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          }
         }
       >
-        10
-      </Text>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 20,
-              "lineHeight": 26,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "transform": Array [
-                Object {
-                  "scale": 0.8,
-                },
-              ],
-            },
-          ]
-        }
-      >
-        €
-      </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              Object {
+                "fontWeight": "bold",
+              },
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              Object {
+                "fontSize": 20,
+                "lineHeight": 26,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {},
+            ]
+          }
+        >
+          10
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              Object {
+                "fontSize": 20,
+                "lineHeight": 26,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "transform": Array [
+                  Object {
+                    "scale": 0.8,
+                  },
+                ],
+              },
+            ]
+          }
+        >
+          €
+        </Text>
+      </View>
     </View>
   </View>
   <View
@@ -422,14 +472,17 @@ exports[`<Button> when {color} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -447,43 +500,56 @@ exports[`<Button> when {color} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -544,14 +610,17 @@ exports[`<Button> when {contained} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -569,43 +638,56 @@ exports[`<Button> when {contained} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -666,14 +748,17 @@ exports[`<Button> when {disabled} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -695,43 +780,56 @@ exports[`<Button> when {disabled} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -792,14 +890,17 @@ exports[`<Button> when {icon} & {title} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -836,44 +937,59 @@ exports[`<Button> when {icon} & {title} 1`] = `
         ]
       }
     />
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
           Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
             "marginLeft": 10,
           },
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+              "marginLeft": 10,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -934,14 +1050,17 @@ exports[`<Button> when {icon} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -976,6 +1095,18 @@ exports[`<Button> when {icon} 1`] = `
             "width": 20,
           },
           undefined,
+          undefined,
+        ]
+      }
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
           undefined,
         ]
       }
@@ -1040,14 +1171,17 @@ exports[`<Button> when {outlined} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1067,43 +1201,56 @@ exports[`<Button> when {outlined} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#9b9b9b",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#9b9b9b",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1164,14 +1311,17 @@ exports[`<Button> when {primary} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1189,43 +1339,56 @@ exports[`<Button> when {primary} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1286,14 +1449,17 @@ exports[`<Button> when {responsive} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1311,44 +1477,57 @@ exports[`<Button> when {responsive} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-            "lineHeight": 16.8,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+              "lineHeight": 16.8,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1411,14 +1590,17 @@ exports[`<Button> when {rounded} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1438,43 +1620,56 @@ exports[`<Button> when {rounded} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1537,14 +1732,17 @@ exports[`<Button> when {secondary} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1562,43 +1760,56 @@ exports[`<Button> when {secondary} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1659,14 +1870,17 @@ exports[`<Button> when {small} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         Object {
           "height": 30,
@@ -1688,43 +1902,56 @@ exports[`<Button> when {small} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 12,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 12,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1787,14 +2014,17 @@ exports[`<Button> when {style} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1812,43 +2042,56 @@ exports[`<Button> when {style} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1909,14 +2152,17 @@ exports[`<Button> when {title} 1`] = `
           "alignContent": "center",
           "alignItems": "center",
           "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
           "justifyContent": "center",
         },
         Object {
           "height": 45,
           "minWidth": 45,
           "paddingHorizontal": 30,
+        },
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
         },
         false,
         false,
@@ -1934,43 +2180,56 @@ exports[`<Button> when {title} 1`] = `
       ]
     }
   >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
+    <View
       style={
         Array [
           Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
-          false,
-          Object {
-            "fontWeight": "600",
-          },
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "color": "#ffffff",
-            "fontSize": 14,
-          },
+          undefined,
         ]
       }
     >
-      Press me
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+            },
+            false,
+            Object {
+              "fontWeight": "600",
+            },
+            false,
+            false,
+            Object {
+              "fontSize": 16,
+              "lineHeight": 20.8,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            Object {
+              "color": "#ffffff",
+              "fontSize": 14,
+            },
+          ]
+        }
+      >
+        Press me
+      </Text>
+    </View>
   </View>
   <View
     style={

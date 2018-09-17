@@ -2,7 +2,7 @@ import {
   array, bool, func, node, number, object, oneOfType, string,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { ScrollView, View } from 'react-native';
+import { SafeAreaView, ScrollView, View } from 'react-native';
 
 import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
@@ -81,26 +81,25 @@ export default class Dialog extends PureComponent {
           ]}
           timeline={[{ property: 'translateY', value: translateY }]}
         >
-          <View style={styles.content}>
-            { onClose
-              && (
-              <Button
-                contained={false}
-                icon={highlight ? 'close' : 'closeDark'}
-                onPress={onClose}
-                style={styles.button}
-              />
-              ) }
-            { title
-              && (
-              <Text bold style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
-                {title}
-              </Text>
-              ) }
-            <ScrollView onScroll={_onScroll} style={[styles.children, scroll && styles.scroll]}>
+          <SafeAreaView style={styles.safeArea}>
+            <View style={styles.header}>
+              { title && (
+                <Text bold style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
+                  {title}
+                </Text>)}
+              { onClose && (
+                <Button
+                  contained={false}
+                  color={highlight ? undefined : COLOR.TEXT}
+                  icon={highlight ? 'close' : 'closeDark'}
+                  onPress={onClose}
+                  rounded
+                />)}
+            </View>
+            <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
               {children}
             </ScrollView>
-          </View>
+          </SafeAreaView>
         </Motion>
       </Motion>);
   }

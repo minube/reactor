@@ -1367,14 +1367,17 @@ exports[`<Slider> when {navigation} 1`] = `
               "alignContent": "center",
               "alignItems": "center",
               "borderRadius": 3,
-              "display": "flex",
-              "flexDirection": "row",
               "justifyContent": "center",
             },
             Object {
               "height": 45,
               "minWidth": 45,
               "paddingHorizontal": 30,
+            },
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
             },
             Object {
               "height": 30,
@@ -1413,6 +1416,18 @@ exports[`<Slider> when {navigation} 1`] = `
                 "width": 20,
               },
               undefined,
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              },
               undefined,
             ]
           }
@@ -1492,14 +1507,17 @@ exports[`<Slider> when {navigation} 1`] = `
               "alignContent": "center",
               "alignItems": "center",
               "borderRadius": 3,
-              "display": "flex",
-              "flexDirection": "row",
               "justifyContent": "center",
             },
             Object {
               "height": 45,
               "minWidth": 45,
               "paddingHorizontal": 30,
+            },
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
             },
             Object {
               "height": 30,
@@ -1538,6 +1556,18 @@ exports[`<Slider> when {navigation} 1`] = `
                 "width": 20,
               },
               undefined,
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+              },
               undefined,
             ]
           }

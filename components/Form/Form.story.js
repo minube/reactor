@@ -59,7 +59,7 @@ class FormHOC extends Component {
   }
 }
 
-storiesOf('🛠 Form', module)
+storiesOf('☑️ Form', module)
   .addWithJSX('default', () => (
     <Form attributes={{}} />
   ))

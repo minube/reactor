@@ -6,6 +6,7 @@ import Avatar from './Avatar';
 import BoardingPass, { fetch } from './BoardingPass';
 import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
+import Calendar from './Calendar';
 import Dialog from './Dialog';
 import Form from './Form';
 import Heading from './Heading';
@@ -39,6 +40,7 @@ export {
   fetch,
   Breadcrumbs,
   Button,
+  Calendar,
   Dialog,
   Form,
   Heading,

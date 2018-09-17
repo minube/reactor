@@ -21,8 +21,7 @@ const Button = ({
 }) => (
   <Touchable
     containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
-    disabled={disabled || !onPress}
-    onPress={onPress}
+    onPress={disabled ? undefined : onPress}
     rippleColor={isSolid ? undefined : color}
     style={[styles.touchable, rounded && styles.rounded, inherit.style]}
   >
@@ -30,6 +29,7 @@ const Button = ({
       style={[
         styles.container,
         styles.regular,
+        styles.row,
         // -- Layout
         small && styles.small,
         responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
@@ -48,23 +48,25 @@ const Button = ({
     >
       { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
       { icon && !activity && <Icon value={icon} /> }
-      { title
-        && (
-        <Text
-          semibold
-          color={isSolid ? WHITE : color || TEXT_LIGHTEN}
-          style={[
-            styles.textNoPointerEvent,
-            styles.text,
-            small && styles.textSmall,
-            responsive && !small && LAYOUT.TEXT.SMALL,
-            (activity || icon) && styles.textMarginLeft,
-          ]}
-        >
-          {title}
-        </Text>
-        ) }
-      { children }
+      <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
+        { title
+          && (
+          <Text
+            semibold
+            color={isSolid ? WHITE : color || TEXT_LIGHTEN}
+            style={[
+              styles.textNoPointerEvent,
+              styles.text,
+              small && styles.textSmall,
+              responsive && !small && LAYOUT.TEXT.SMALL,
+              (activity || icon) && styles.textMarginLeft,
+            ]}
+          >
+            {title}
+          </Text>
+          ) }
+        { children }
+      </View>
     </View>
   </Touchable>
 );

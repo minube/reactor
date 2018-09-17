@@ -1,3 +1,7 @@
 import buildStyle from './buildStyle';
+import PRESETS from './presets';
 
-export { buildStyle }; // eslint-disable-line
+export {
+  buildStyle,
+  PRESETS,
+};

@@ -596,14 +596,17 @@ exports[`<ListingCard> when {children} 1`] = `
                 "alignContent": "center",
                 "alignItems": "center",
                 "borderRadius": 3,
-                "display": "flex",
-                "flexDirection": "row",
                 "justifyContent": "center",
               },
               Object {
                 "height": 45,
                 "minWidth": 45,
                 "paddingHorizontal": 30,
+              },
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
               },
               Object {
                 "height": 30,
@@ -627,43 +630,56 @@ exports[`<ListingCard> when {children} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
               Array [
                 Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
                 },
-                false,
-                Object {
-                  "fontWeight": "600",
-                },
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#ffffff",
-                  "fontSize": 12,
-                },
+                undefined,
               ]
             }
           >
-            15 Actividades
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                  },
+                  false,
+                  Object {
+                    "fontWeight": "600",
+                  },
+                  false,
+                  false,
+                  Object {
+                    "fontSize": 16,
+                    "lineHeight": 20.8,
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                    "fontSize": 12,
+                  },
+                ]
+              }
+            >
+              15 Actividades
+            </Text>
+          </View>
         </View>
         <View
           style={

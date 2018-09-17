@@ -1,32 +1,33 @@
-import { THEME } from '../../../common';
+import { ENV, THEME } from '../../../common';
 
+const { IS_WEB } = ENV;
 const { MOTION } = THEME;
 const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY'];
 
 export default ({
   props: {
-    delay = 0, duration, timeline = [], useNativeDriver,
+    delay = 0, duration, useNativeDriver,
   } = {},
-  state = {},
+  state: { timeline = [], ...state } = {},
 } = {}) => {
   if (timeline.length === 0) return undefined;
 
   let style = {};
 
-  timeline.forEach((key) => {
-    const v = useNativeDriver ? key.value : state[key.property];
+  timeline.forEach(({ value, property }) => {
+    const newValue = useNativeDriver ? value : state[property];
 
     style = {
       ...style,
       ...(
-        TRANSFORM_PROPERTIES.includes(key.property)
-          ? { transform: [{ [key.property]: v }] }
-          : { [key.property]: v }
+        TRANSFORM_PROPERTIES.includes(property)
+          ? { transform: [{ [property]: newValue }] }
+          : { [property]: newValue }
       ),
     };
   });
 
-  if (useNativeDriver && timeline.length > 0) {
+  if (useNativeDriver && IS_WEB) {
     style = {
       ...style,
       transitionDelay: `${delay}ms`,

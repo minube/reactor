@@ -32,14 +32,17 @@ exports[`<Share> renders 1`] = `
             "alignContent": "center",
             "alignItems": "center",
             "borderRadius": 3,
-            "display": "flex",
-            "flexDirection": "row",
             "justifyContent": "center",
           },
           Object {
             "height": 45,
             "minWidth": 45,
             "paddingHorizontal": 30,
+          },
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
           },
           false,
           false,
@@ -76,44 +79,59 @@ exports[`<Share> renders 1`] = `
           ]
         }
       />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
+      <View
         style={
           Array [
             Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
             },
-            false,
             Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#ffffff",
-              "fontSize": 14,
               "marginLeft": 10,
             },
           ]
         }
       >
-        Share
-      </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+              },
+              false,
+              Object {
+                "fontWeight": "600",
+              },
+              false,
+              false,
+              Object {
+                "fontSize": 16,
+                "lineHeight": 20.8,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              Object {
+                "color": "#ffffff",
+                "fontSize": 14,
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          Share
+        </Text>
+      </View>
     </View>
     <View
       style={
@@ -148,16 +166,16 @@ exports[`<Share> renders 1`] = `
 </View>
 `;
 
-exports[`<Share> when {color} 1`] = `
+exports[`<Share> when {caption} 1`] = `
 <share
-  color="red"
+  caption="Hello world"
   uri="http://soyjavi.com"
 />
 `;
 
-exports[`<Share> when {caption} 1`] = `
+exports[`<Share> when {color} 1`] = `
 <share
-  caption="Hello world"
+  color="red"
   uri="http://soyjavi.com"
 />
 `;

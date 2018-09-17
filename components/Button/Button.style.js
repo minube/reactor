@@ -18,7 +18,6 @@ export default StyleSheet.create({
 
   // -- Layout
   container: {
-    ...LAYOUT.STYLE.ROW,
     ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
   },
@@ -59,6 +58,8 @@ export default StyleSheet.create({
   primary: {
     backgroundColor: COLOR.PRIMARY,
   },
+
+  row: LAYOUT.STYLE.ROW,
 
   // -- Text
   textNoPointerEvent: {

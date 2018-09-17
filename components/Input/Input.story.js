@@ -7,7 +7,7 @@ import Input from './Input';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
-storiesOf('🛠 Input', module)
+storiesOf('☑️ Input', module)
   .addWithJSX('default', () => (
     <Input />
   ))

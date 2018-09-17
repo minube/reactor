@@ -4,11 +4,12 @@ import {
 import React, { createElement, PureComponent } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { ENV, LAYOUT, THEME } from '../../common';
 import Motion from '../Motion';
 import styles from './Viewport.style';
 
 const { MOTION } = THEME;
+const { IS_NATIVE } = ENV;
 
 class Viewport extends PureComponent {
   static propTypes = {
@@ -28,12 +29,8 @@ class Viewport extends PureComponent {
   };
 
   state = {
-    height: LAYOUT.VIEWPORT.H,
-    width: LAYOUT.VIEWPORT.W,
-  }
-
-  _onLayout = ({ nativeEvent: { layout: { height, width } } }) => {
-    this.setState({ height, width });
+    height: IS_NATIVE ? LAYOUT.VIEWPORT.H : '100vh',
+    width: IS_NATIVE ? LAYOUT.VIEWPORT.W : '100vw',
   }
 
   _onScroll = ({ nativeEvent: { contentOffset: { y } } }) => {
@@ -43,7 +40,7 @@ class Viewport extends PureComponent {
 
   render() {
     const {
-      _onLayout, _onScroll,
+      _onScroll,
       props: {
         children, onScroll, scroll, styleContent, visible, ...inherit
       },
@@ -57,7 +54,7 @@ class Viewport extends PureComponent {
         timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
         type="timing"
       >
-        <SafeAreaView onLayout={LAYOUT.VIEWPORT.LANDSCAPE ? _onLayout : undefined} style={styles.safeArea}>
+        <SafeAreaView style={styles.safeArea}>
           { createElement(
             scroll ? ScrollView : View,
             {
