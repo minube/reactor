@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { UNIT } = THEME;
 
@@ -10,7 +10,7 @@ export default StyleSheet.create({
   },
 
   row: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     minHeight: UNIT * 2,
   },
 
@@ -18,12 +18,12 @@ export default StyleSheet.create({
   },
 
   contributors: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     justifyContent: 'flex-end',
     flex: 1,
   },
 
-  avatars: STYLE.ROW,
+  avatars: LAYOUT.STYLE.ROW,
 
   avatar: {
     marginLeft: UNIT / 2,

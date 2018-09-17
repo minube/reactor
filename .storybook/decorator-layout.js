@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../common';
+import { LAYOUT, THEME } from '../common';
 import { LayoutConsumer, LayoutView, Text } from '../components';
 
-const { COLOR: { WHITE }, UNIT, OFFSET } = THEME;
+const { COLOR, UNIT, OFFSET } = THEME;
 
 const styles = StyleSheet.create({
   container: {
@@ -34,17 +34,17 @@ export default (storyFn) => (
     <LayoutConsumer>
     { ({ viewport }) =>
       <View style={styles.info}>
-        <View style={STYLE.ROW}>
-          <Text color={WHITE} bold small>{viewport.PORTRAIT ? 'PORTRAIT ' : 'LANDSCAPE '}</Text>
-          { viewport.IPHONEX && <Text color={WHITE} tiny>IPHONEX</Text> }
-          { viewport.TINY && <Text color={WHITE} tiny>TINY</Text> }
-          { viewport.PHONE && <Text color={WHITE} tiny>PHONE</Text> }
-          { viewport.TABLET && <Text color={WHITE} tiny>TABLET</Text> }
-          { viewport.SMALL && <Text color={WHITE} tiny>SMALL</Text> }
-          { viewport.REGULAR && <Text color={WHITE} tiny>REGULAR</Text> }
-          { viewport.LARGE && <Text color={WHITE} tiny>LARGE</Text> }
+        <View style={LAYOUT.STYLE.ROW}>
+          <Text color={COLOR.WHITE} bold small>{viewport.PORTRAIT ? 'PORTRAIT ' : 'LANDSCAPE '}</Text>
+          { viewport.IPHONEX && <Text color={COLOR.WHITE} tiny>IPHONEX</Text> }
+          { viewport.TINY && <Text color={COLOR.WHITE} tiny>TINY</Text> }
+          { viewport.PHONE && <Text color={COLOR.WHITE} tiny>PHONE</Text> }
+          { viewport.TABLET && <Text color={COLOR.WHITE} tiny>TABLET</Text> }
+          { viewport.SMALL && <Text color={COLOR.WHITE} tiny>SMALL</Text> }
+          { viewport.REGULAR && <Text color={COLOR.WHITE} tiny>REGULAR</Text> }
+          { viewport.LARGE && <Text color={COLOR.WHITE} tiny>LARGE</Text> }
         </View>
-        <Text tiny color={WHITE}>{`${viewport.W} x ${viewport.H}`}</Text>
+        <Text tiny color={COLOR.WHITE}>{`${viewport.W} x ${viewport.H}`}</Text>
       </View>
     }
     </LayoutConsumer>

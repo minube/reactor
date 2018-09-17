@@ -55,9 +55,9 @@ const Button = ({
           color={isSolid ? WHITE : color || TEXT_LIGHTEN}
           style={[
             styles.textNoPointerEvent,
-            small // eslint-disable-line
-              ? styles.textSmall
-              : responsive ? LAYOUT.STYLE.TEXT.SMALL : styles.text,
+            styles.text,
+            small && styles.textSmall,
+            responsive && !small && LAYOUT.TEXT.SMALL,
             (activity || icon) && styles.textMarginLeft,
           ]}
         >

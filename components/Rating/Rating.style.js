@@ -1,11 +1,11 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { FONT, UNIT } = THEME;
 
 export default StyleSheet.create({
-  container: STYLE.ROW,
+  container: LAYOUT.STYLE.ROW,
 
   rate: {
     lineHeight: FONT.SIZE.REGULAR,

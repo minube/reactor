@@ -16,7 +16,7 @@ const ListingCard = ({
 }) => (
   <View style={inherit.styleContainer}>
     <TouchableWithoutFeedback disabled={!onPress} onPress={onPress}>
-      <View style={[styles.container, LAYOUT.STYLE.CARD.WIDTH]}>
+      <View style={[styles.container, LAYOUT.CARD.WIDTH]}>
         <PictureCard {...inherit} styleContainer={null} />
         <View style={styles.content}>
           { category && (

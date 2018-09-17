@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const {
   BORDER_RADIUS, COLOR, FONT, OFFSET, UNIT,
@@ -8,7 +8,7 @@ const {
 
 export default StyleSheet.create({
   container: {
-    ...STYLE.CENTERED,
+    ...LAYOUT.STYLE.CENTERED,
     height: '100%',
     left: 0,
     position: Platform.OS === 'web' ? 'fixed' : 'absolute',
@@ -29,7 +29,7 @@ export default StyleSheet.create({
   },
 
   frame: {
-    ...STYLE.SHADOW,
+    ...LAYOUT.STYLE.SHADOW,
     backgroundColor: COLOR.WHITE,
     borderRadius: BORDER_RADIUS,
     display: Platform.OS === 'web' ? 'block' : undefined,

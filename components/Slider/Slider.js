@@ -56,7 +56,7 @@ class Slider extends Component {
   }
 
   _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
-    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.STYLE.CARD.WIDTH } } = this;
+    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.CARD.WIDTH } } = this;
     const width = (itemWidth + itemMargin);
 
     if (!Number.isInteger(x / width)) {
@@ -68,7 +68,7 @@ class Slider extends Component {
   _onButton = (type) => {
     const {
       _updateScroll,
-      props: { itemMargin, itemWidth = LAYOUT.STYLE.CARD.WIDTH, steps },
+      props: { itemMargin, itemWidth = LAYOUT.CARD.WIDTH, steps },
       state: { x },
     } = this;
     const width = (itemWidth + itemMargin) * steps;

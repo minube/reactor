@@ -21,7 +21,7 @@ const PictureCard = ({
       style={[
         styles.content,
         styles.borderRadius,
-        LAYOUT.STYLE.CARD.WIDTH,
+        LAYOUT.CARD.WIDTH,
         inherit.styleContainer,
         backgroundColor && { backgroundColor },
       ]}
@@ -33,8 +33,8 @@ const PictureCard = ({
         style={[
           styles.borderRadius,
           styles.image,
-          LAYOUT.STYLE.CARD.WIDTH,
-          portrait ? LAYOUT.STYLE.CARD.PORTRAIT : LAYOUT.STYLE.CARD.HEIGHT,
+          LAYOUT.CARD.WIDTH,
+          portrait ? LAYOUT.CARD.PORTRAIT : LAYOUT.CARD.HEIGHT,
           small && styles.small,
           inherit.style,
         ]}
@@ -49,7 +49,7 @@ const PictureCard = ({
               style={[
                 styles.text,
                 styles.title,
-                title.length < SHORT_TITLE && LAYOUT.STYLE.TEXT.SUBTITLE,
+                title.length < SHORT_TITLE && LAYOUT.TEXT.SUBTITLE,
               ]}
             >
               {title}

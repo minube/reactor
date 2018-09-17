@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { STYLE, THEME } from './common';
+import { LAYOUT, THEME } from './common';
 import {
   Button,
   ListingCard,
@@ -36,7 +36,7 @@ const DICTIONARY = {
 
 const styles = StyleSheet.create({
   container: {
-    ...STYLE.CENTERED,
+    ...LAYOUT.STYLE.CENTERED,
     flex: 1,
     padding: UNIT,
     backgroundColor: 'rgba(0,255,0,0.25)',
@@ -61,7 +61,7 @@ export default class App extends Component {
     return (
       <Provider dictionary={DICTIONARY} language="en-EN">
         <View style={styles.container}>
-          <Viewport visible scroll style={STYLE.CENTERED}>
+          <Viewport visible scroll style={LAYOUT.STYLE.CENTERED}>
             <Consumer>
               { ({ l10n }) => (
                 <Fragment>

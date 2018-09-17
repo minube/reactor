@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { COLOR, OFFSET, UNIT } = THEME;
 
@@ -39,7 +39,7 @@ export default StyleSheet.create({
   },
 
   value: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     minHeight: OFFSET * 2,
     backgroundColor: COLOR.CONTENT,
@@ -67,7 +67,7 @@ export default StyleSheet.create({
   },
 
   suggestion: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     paddingHorizontal: UNIT,
     paddingVertical: UNIT / 2,

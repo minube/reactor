@@ -7,23 +7,20 @@ import { boolean, object } from '@storybook/addon-knobs/react';
 import Viewport from './Viewport';
 import { THEME } from '../../common';
 
-const STYLE_LAYOUT = {
+const styleLayout = {
   width: 375,
   height: 667,
   overflow: 'hidden',
 };
 
-const STYLE = {
+const style = {
   backgroundColor: THEME.COLOR.CONTENT,
   padding: THEME.UNIT,
 };
 
-const STYLE_CONTENT = {
+const styleContent = {
   padding: THEME.UNIT,
   backgroundColor: THEME.COLOR.PRIMARY,
-};
-
-const STYLE_NAVIGATION = {
 };
 
 const CHILDREN =
@@ -51,19 +48,19 @@ storiesOf('🚀 Viewport', module)
     <Viewport onScroll={action('Viewport.onScroll()')}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('style', () => (
-    <Viewport style={STYLE} styleContent={STYLE_CONTENT}>{CHILDREN}</Viewport>
+    <Viewport style={style} styleContent={styleContent}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('🏀 Playground', () => (
-    <View style={STYLE_LAYOUT}>
-      <Viewport style={StyleSheet.flatten([STYLE, STYLE_LAYOUT])} visible>
+    <View style={styleLayout}>
+      <Viewport style={StyleSheet.flatten([style, styleLayout])} visible>
         <Text>viewport.1</Text>
       </Viewport>
       <Viewport
         onBack={action('Viewport.onBack()')}
         onScroll={action('Viewport.onScroll()')}
         scroll={boolean('scroll', true)}
-        style={[STYLE, STYLE_LAYOUT]}
-        styleContent={object('style', STYLE_CONTENT, 'viewport-style')}
+        style={[style, styleLayout]}
+        styleContent={object('style', styleContent, 'viewport-style')}
         visible={boolean('visible', true)}
       >
         {CHILDREN}

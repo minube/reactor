@@ -1,5 +1,5 @@
 import { Platform, StyleSheet } from 'react-native';
-import THEME from './theme/theme';
+import THEME from '../../theme';
 
 const { COLOR, FONT, UNIT } = THEME;
 

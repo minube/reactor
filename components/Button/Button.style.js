@@ -1,6 +1,6 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const {
   BORDER_RADIUS, COLOR, FONT, UNIT,
@@ -18,8 +18,8 @@ export default StyleSheet.create({
 
   // -- Layout
   container: {
-    ...STYLE.ROW,
-    ...STYLE.CENTERED,
+    ...LAYOUT.STYLE.ROW,
+    ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
   },
 

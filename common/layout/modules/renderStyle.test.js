@@ -1,8 +1,8 @@
-import screenStyle from './screenStyle';
+import renderStyle from './renderStyle';
 
-describe('screenStyle', () => {
+describe('renderStyle', () => {
   it('default', () => {
-    const style = screenStyle();
+    const style = renderStyle();
     expect(style).toBeDefined();
     expect(Object.keys(style)).toEqual(['CARD', 'TEXT']);
   });

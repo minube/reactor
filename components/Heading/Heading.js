@@ -24,7 +24,7 @@ const Heading = ({
         bold
         title
         color={color}
-        style={[LAYOUT.STYLE.TEXT.TITLE, styles.title]}
+        style={[LAYOUT.TEXT.TITLE, styles.title]}
       >
         {title}
       </Text>

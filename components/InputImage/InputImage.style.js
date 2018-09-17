@@ -1,12 +1,12 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { BORDER_RADIUS, COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     alignItems: 'flex-start',
   },
 

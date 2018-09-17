@@ -25,12 +25,12 @@ const Text = ({
       bold && styles.bold,
       italic && styles.italic,
       // -- size
-      LAYOUT.STYLE.TEXT.REGULAR,
-      tiny && LAYOUT.STYLE.TEXT.TINY,
-      small && LAYOUT.STYLE.TEXT.SMALL,
-      large && LAYOUT.STYLE.TEXT.LARGE,
-      subtitle && LAYOUT.STYLE.TEXT.SUBTITLE,
-      title && LAYOUT.STYLE.TEXT.TITLE,
+      LAYOUT.TEXT.REGULAR,
+      tiny && LAYOUT.TEXT.TINY,
+      small && LAYOUT.TEXT.SMALL,
+      large && LAYOUT.TEXT.LARGE,
+      subtitle && LAYOUT.TEXT.SUBTITLE,
+      title && LAYOUT.TEXT.TITLE,
       // -- color
       lighten && styles.lighten,
       primary && styles.primary,

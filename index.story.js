@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color, object } from '@storybook/addon-knobs/react';
 
-import { STYLE, THEME } from './common';
+import { LAYOUT, THEME } from './common';
 import {
   Button, Dialog, Text, Image,
 } from './components';
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
   },
 
   content: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     marginTop: THEME.OFFSET,
   },
 

@@ -40,7 +40,12 @@ class LayoutView extends PureComponent {
     } = this;
 
     return (
-      <Provider value={{ style: LAYOUT.STYLE, viewport: LAYOUT.VIEWPORT }}>
+      <Provider
+        value={{
+          style: LAYOUT.STYLE,
+          viewport: LAYOUT.VIEWPORT,
+        }}
+      >
         <View
           {...inherit}
           key={key}
