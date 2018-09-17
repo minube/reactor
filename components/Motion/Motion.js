@@ -4,8 +4,10 @@ import {
 import { createElement, PureComponent } from 'react';
 import { Animated, Platform, View as ViewNative } from 'react-native';
 
-import { SHAPE } from '../../common';
+import { SHAPE, THEME } from '../../common';
 import buildStyle from './modules/buildStyle';
+
+const { MOTION } = THEME;
 
 class Motion extends PureComponent {
   static propTypes = {
@@ -22,7 +24,7 @@ class Motion extends PureComponent {
     children: undefined,
     delay: 0,
     disabled: false,
-    duration: 500,
+    duration: MOTION.DURATION,
     timeline: undefined,
     type: 'spring',
     useNativeDriver: Platform.OS === 'web',

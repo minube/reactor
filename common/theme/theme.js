@@ -46,6 +46,13 @@ export default {
     },
   },
 
+  MOTION: {
+    DURATION: 225,
+    EASE: 'cubic-bezier(0.4, 0.0, 0.2, 1)',
+    EASE_IOS: '',
+    EASE_ANDROID: '',
+  },
+
   OFFSET: UNIT * 1.6,
 
   UNIT,

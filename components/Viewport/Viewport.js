@@ -4,11 +4,11 @@ import {
 import React, { createElement, PureComponent } from 'react';
 import { View, SafeAreaView, ScrollView } from 'react-native';
 
-import { LAYOUT } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Motion from '../Motion';
 import styles from './Viewport.style';
 
-const MOTION_DURATION = 500;
+const { MOTION } = THEME;
 
 class Viewport extends PureComponent {
   static propTypes = {
@@ -52,7 +52,7 @@ class Viewport extends PureComponent {
 
     return (
       <Motion
-        duration={MOTION_DURATION / 2}
+        duration={MOTION.DURATION}
         style={[styles.container, { height, width }, inherit.style]}
         timeline={[{ property: 'translateX', value: visible ? 0 : width }]}
         type="timing"

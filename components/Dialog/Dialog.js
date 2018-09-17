@@ -11,8 +11,7 @@ import Text from '../Text';
 import styles from './Dialog.style';
 
 const { IS_WEB } = ENV;
-const { COLOR } = THEME;
-const MOTION_DURATION = 250;
+const { COLOR, MOTION } = THEME;
 
 export default class Dialog extends PureComponent {
   static propTypes = {
@@ -61,14 +60,14 @@ export default class Dialog extends PureComponent {
 
     return (
       <Motion
-        delay={visible ? 0 : MOTION_DURATION}
+        delay={visible ? 0 : MOTION.DURATION}
         pointerEvents={((background || !IS_WEB) && visible) ? 'auto' : 'none'}
         style={[styles.container, background && styles.background, styleContainer]}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
         <Motion
-          delay={visible ? MOTION_DURATION : 0}
-          duration={MOTION_DURATION}
+          delay={visible ? MOTION.DURATION : 0}
+          duration={MOTION.DURATION}
           pointerEvents="auto"
           type="timing"
           style={[
