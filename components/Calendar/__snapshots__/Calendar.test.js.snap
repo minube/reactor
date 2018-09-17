@@ -5,7 +5,7 @@ exports[`<Calendar> renders 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -601,7 +601,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -621,7 +621,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -695,7 +697,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -715,7 +717,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -789,7 +793,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -809,7 +813,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -883,7 +889,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -903,7 +909,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -977,7 +985,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -997,7 +1005,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1071,7 +1081,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -1091,7 +1101,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1165,7 +1177,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -1185,7 +1197,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1289,7 +1303,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1381,7 +1397,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1473,7 +1491,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1565,7 +1585,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1657,7 +1679,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1749,7 +1773,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1841,7 +1867,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -1945,7 +1973,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2037,7 +2067,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2133,7 +2165,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2225,7 +2259,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2317,7 +2353,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2409,7 +2447,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2501,7 +2541,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2605,7 +2647,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2697,7 +2741,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2789,7 +2835,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2881,7 +2929,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -2973,7 +3023,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3065,7 +3117,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3157,7 +3211,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3261,7 +3317,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3353,7 +3411,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3445,7 +3505,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3537,7 +3599,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3629,7 +3693,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3721,7 +3787,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3813,7 +3881,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -3917,7 +3987,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4009,7 +4081,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4083,7 +4157,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -4103,7 +4177,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4177,7 +4253,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -4197,7 +4273,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4271,7 +4349,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -4291,7 +4369,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4365,7 +4445,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -4385,7 +4465,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4459,7 +4541,7 @@ exports[`<Calendar> renders 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -4479,7 +4561,9 @@ exports[`<Calendar> renders 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -4506,7 +4590,7 @@ exports[`<Calendar> when {busy} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -5122,7 +5206,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5142,7 +5226,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5216,7 +5302,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5236,7 +5322,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5310,7 +5398,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5330,7 +5418,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5404,7 +5494,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5424,7 +5514,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5498,7 +5590,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5518,7 +5610,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5592,7 +5686,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5612,7 +5706,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5686,7 +5782,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -5706,7 +5802,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5810,7 +5908,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5902,7 +6002,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -5994,7 +6096,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6086,7 +6190,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6178,7 +6284,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6270,7 +6378,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6362,7 +6472,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6466,7 +6578,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6558,7 +6672,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6654,7 +6770,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6746,7 +6864,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6838,7 +6958,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -6930,7 +7052,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7022,7 +7146,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7126,7 +7252,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7218,7 +7346,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7310,7 +7440,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7402,7 +7534,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7494,7 +7628,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7586,7 +7722,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7678,7 +7816,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7782,7 +7922,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7874,7 +8016,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -7966,7 +8110,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8058,7 +8204,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8150,7 +8298,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8242,7 +8392,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8334,7 +8486,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8438,7 +8592,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8530,7 +8686,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8604,7 +8762,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -8624,7 +8782,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8698,7 +8858,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -8718,7 +8878,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8792,7 +8954,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -8812,7 +8974,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8886,7 +9050,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -8906,7 +9070,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -8980,7 +9146,7 @@ exports[`<Calendar> when {busy} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -9000,7 +9166,9 @@ exports[`<Calendar> when {busy} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -9027,7 +9195,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -9623,7 +9791,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -9643,7 +9811,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -9717,7 +9887,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -9737,7 +9907,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -9811,7 +9983,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -9831,7 +10003,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -9905,7 +10079,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -9925,7 +10099,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -9999,7 +10175,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -10019,7 +10195,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10093,7 +10271,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -10113,7 +10291,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10187,7 +10367,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -10207,7 +10387,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10311,7 +10493,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10403,7 +10587,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10495,7 +10681,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10587,7 +10775,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10679,7 +10869,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10771,7 +10963,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10863,7 +11057,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -10967,7 +11163,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11059,7 +11257,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11155,7 +11355,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11247,7 +11449,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11339,7 +11543,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11431,7 +11637,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11523,7 +11731,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11627,7 +11837,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11719,7 +11931,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11811,7 +12025,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11903,7 +12119,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -11995,7 +12213,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12087,7 +12307,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12179,7 +12401,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12283,7 +12507,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12375,7 +12601,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12467,7 +12695,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12559,7 +12789,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12651,7 +12883,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12743,7 +12977,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12835,7 +13071,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -12939,7 +13177,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13031,7 +13271,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13105,7 +13347,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -13125,7 +13367,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13199,7 +13443,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -13219,7 +13463,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13293,7 +13539,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -13313,7 +13559,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13387,7 +13635,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -13407,7 +13655,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13481,7 +13731,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -13501,7 +13751,9 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -13528,7 +13780,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -14122,7 +14374,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14142,7 +14394,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14214,7 +14468,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14234,7 +14488,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14306,7 +14562,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14326,7 +14582,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14398,7 +14656,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14418,7 +14676,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14490,7 +14750,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14510,7 +14770,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14582,7 +14844,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14602,7 +14864,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14674,7 +14938,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14694,7 +14958,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14778,7 +15044,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14798,7 +15064,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14870,7 +15138,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14890,7 +15158,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -14962,7 +15232,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -14982,7 +15252,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15054,7 +15326,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -15074,7 +15346,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15146,7 +15420,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -15166,7 +15440,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15238,7 +15514,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -15258,7 +15534,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15330,7 +15608,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -15350,7 +15628,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15434,7 +15714,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -15454,7 +15734,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15526,7 +15808,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -15546,7 +15828,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15642,7 +15926,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15734,7 +16020,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15826,7 +16114,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -15918,7 +16208,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16010,7 +16302,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16114,7 +16408,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16206,7 +16502,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16298,7 +16596,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16390,7 +16690,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16482,7 +16784,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16574,7 +16878,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16666,7 +16972,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16770,7 +17078,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16862,7 +17172,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -16954,7 +17266,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17046,7 +17360,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17138,7 +17454,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17230,7 +17548,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17322,7 +17642,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17426,7 +17748,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17518,7 +17842,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17592,7 +17918,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -17612,7 +17938,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17686,7 +18014,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -17706,7 +18034,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17780,7 +18110,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -17800,7 +18130,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17874,7 +18206,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -17894,7 +18226,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -17968,7 +18302,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -17988,7 +18322,9 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -18015,7 +18351,7 @@ exports[`<Calendar> when {locale} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -18611,7 +18947,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -18631,7 +18967,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -18705,7 +19043,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -18725,7 +19063,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -18799,7 +19139,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -18819,7 +19159,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -18893,7 +19235,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -18913,7 +19255,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -18987,7 +19331,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -19007,7 +19351,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19081,7 +19427,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -19101,7 +19447,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19175,7 +19523,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -19195,7 +19543,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19299,7 +19649,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19391,7 +19743,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19483,7 +19837,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19575,7 +19931,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19667,7 +20025,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19759,7 +20119,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19851,7 +20213,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -19955,7 +20319,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20047,7 +20413,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20143,7 +20511,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20235,7 +20605,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20327,7 +20699,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20419,7 +20793,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20511,7 +20887,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20615,7 +20993,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20707,7 +21087,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20799,7 +21181,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20891,7 +21275,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -20983,7 +21369,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21075,7 +21463,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21167,7 +21557,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21271,7 +21663,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21363,7 +21757,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21455,7 +21851,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21547,7 +21945,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21639,7 +22039,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21731,7 +22133,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21823,7 +22227,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -21927,7 +22333,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22019,7 +22427,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22093,7 +22503,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -22113,7 +22523,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22187,7 +22599,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -22207,7 +22619,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22281,7 +22695,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -22301,7 +22715,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22375,7 +22791,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -22395,7 +22811,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22469,7 +22887,7 @@ exports[`<Calendar> when {locale} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -22489,7 +22907,9 @@ exports[`<Calendar> when {locale} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -22516,7 +22936,7 @@ exports[`<Calendar> when {style} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -23115,7 +23535,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23135,7 +23555,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23209,7 +23631,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23229,7 +23651,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23303,7 +23727,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23323,7 +23747,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23397,7 +23823,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23417,7 +23843,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23491,7 +23919,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23511,7 +23939,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23585,7 +24015,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23605,7 +24035,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23679,7 +24111,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -23699,7 +24131,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23803,7 +24237,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23895,7 +24331,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -23987,7 +24425,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24079,7 +24519,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24171,7 +24613,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24263,7 +24707,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24355,7 +24801,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24459,7 +24907,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24551,7 +25001,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24647,7 +25099,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24739,7 +25193,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24831,7 +25287,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -24923,7 +25381,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25015,7 +25475,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25119,7 +25581,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25211,7 +25675,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25303,7 +25769,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25395,7 +25863,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25487,7 +25957,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25579,7 +26051,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25671,7 +26145,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25775,7 +26251,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25867,7 +26345,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -25959,7 +26439,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26051,7 +26533,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26143,7 +26627,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26235,7 +26721,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26327,7 +26815,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26431,7 +26921,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26523,7 +27015,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26597,7 +27091,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -26617,7 +27111,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26691,7 +27187,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -26711,7 +27207,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26785,7 +27283,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -26805,7 +27303,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26879,7 +27379,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -26899,7 +27399,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -26973,7 +27475,7 @@ exports[`<Calendar> when {style} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -26993,7 +27495,9 @@ exports[`<Calendar> when {style} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -27020,7 +27524,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -27616,7 +28120,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -27636,7 +28140,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -27710,7 +28216,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -27730,7 +28236,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -27804,7 +28312,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -27824,7 +28332,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -27898,7 +28408,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -27918,7 +28428,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28010,7 +28522,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28102,7 +28616,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28204,7 +28720,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28315,7 +28833,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28417,7 +28937,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28509,7 +29031,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28601,7 +29125,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28693,7 +29219,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28785,7 +29313,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28877,7 +29407,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -28981,7 +29513,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29073,7 +29607,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29165,7 +29701,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29257,7 +29795,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29349,7 +29889,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29441,7 +29983,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29533,7 +30077,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29637,7 +30183,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29729,7 +30277,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29821,7 +30371,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -29913,7 +30465,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30005,7 +30559,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30097,7 +30653,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30189,7 +30747,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30293,7 +30853,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30385,7 +30947,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30477,7 +31041,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30569,7 +31135,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30661,7 +31229,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30753,7 +31323,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30827,7 +31399,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -30847,7 +31419,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -30933,7 +31507,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -30953,7 +31527,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31027,7 +31603,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -31047,7 +31623,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31121,7 +31699,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -31141,7 +31719,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31215,7 +31795,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -31235,7 +31815,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31309,7 +31891,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -31329,7 +31911,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31403,7 +31987,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -31423,7 +32007,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31497,7 +32083,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -31517,7 +32103,9 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -31544,7 +32132,7 @@ exports[`<Calendar> when {value} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -32140,7 +32728,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -32160,7 +32748,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32234,7 +32824,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -32254,7 +32844,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32328,7 +32920,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -32348,7 +32940,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32422,7 +33016,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -32442,7 +33036,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32534,7 +33130,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32626,7 +33224,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32718,7 +33318,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32822,7 +33424,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -32927,7 +33531,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33019,7 +33625,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33111,7 +33719,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33203,7 +33813,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33295,7 +33907,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33387,7 +34001,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33491,7 +34107,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33583,7 +34201,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33675,7 +34295,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33767,7 +34389,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33859,7 +34483,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -33951,7 +34577,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34043,7 +34671,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34147,7 +34777,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34239,7 +34871,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34331,7 +34965,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34423,7 +35059,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34515,7 +35153,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34607,7 +35247,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34699,7 +35341,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34803,7 +35447,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34895,7 +35541,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -34987,7 +35635,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35079,7 +35729,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35171,7 +35823,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35263,7 +35917,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35337,7 +35993,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35357,7 +36013,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35443,7 +36101,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35463,7 +36121,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35537,7 +36197,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35557,7 +36217,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35631,7 +36293,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35651,7 +36313,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35725,7 +36389,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35745,7 +36409,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35819,7 +36485,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35839,7 +36505,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -35913,7 +36581,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -35933,7 +36601,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >
@@ -36007,7 +36677,7 @@ exports[`<Calendar> when {value} 1`] = `
               false,
               false,
               Object {
-                "color": undefined,
+                "color": "#e0e0e0",
               },
             ]
           }
@@ -36027,7 +36697,9 @@ exports[`<Calendar> when {value} 1`] = `
                 "right": 0,
                 "top": 0,
               },
-              undefined,
+              Object {
+                "borderRadius": 36,
+              },
             ]
           }
         >

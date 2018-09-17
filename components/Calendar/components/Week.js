@@ -7,7 +7,7 @@ import { View } from 'react-native';
 
 import Text from '../../Text';
 import Touchable from '../../Touchable';
-import styles from '../Calendar.style';
+import styles, { BOX_HEIGHT } from '../Calendar.style';
 
 const onPress = ({
   day, tsDay, tsStart, tsEnd, onSelect, range, value,
@@ -51,6 +51,7 @@ const Week = ({
 
         return (
           <Touchable
+            containerBorderRadius={BOX_HEIGHT}
             key={day.toString()}
             onPress={!isDisabled
               ? () => onPress({

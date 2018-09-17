@@ -6,7 +6,7 @@ const { COLOR, OFFSET } = THEME;
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.BACKGROUND,
     left: 0,
     position: 'absolute',
     top: 0,

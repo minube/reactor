@@ -38,7 +38,7 @@ storiesOf('✅ Motion', module)
     <Motion
       delay={number('delay', 0)}
       disabled={boolean('disabled', false)}
-      duration={number('duration', 500)}
+      duration={number('duration', 225)}
       style={object('style', STYLE)}
       preset={select('preset', [undefined, 'fade', 'pop'], undefined)}
       timeline={object('timeline', TIMELINE)}

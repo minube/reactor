@@ -5,6 +5,8 @@ import { LAYOUT, THEME } from '../../common';
 const { COLOR, OFFSET, UNIT } = THEME;
 const BOX_HEIGHT = UNIT * 3.6;
 
+export { BOX_HEIGHT };
+
 export default StyleSheet.create({
   activity: {
     alignSelf: 'center',
@@ -24,7 +26,7 @@ export default StyleSheet.create({
   },
 
   container: {
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.BACKGROUND,
     paddingHorizontal: OFFSET,
     paddingVertical: OFFSET / 2,
     justifyContent: 'center',
@@ -40,7 +42,7 @@ export default StyleSheet.create({
   },
 
   disabled: {
-    color: COLOR.CONTENT,
+    color: COLOR.BASE,
   },
 
   highlight: {

@@ -4,7 +4,7 @@ exports[`<Viewport> renders 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -49,7 +49,7 @@ exports[`<Viewport> when {children} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -102,7 +102,7 @@ exports[`<Viewport> when {onBack} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -147,7 +147,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -194,7 +194,7 @@ exports[`<Viewport> when {style} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 480,
       "left": 0,
       "overflow": "hidden",
@@ -239,7 +239,7 @@ exports[`<Viewport> when {styleContent} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",
@@ -286,7 +286,7 @@ exports[`<Viewport> when {visible} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#ffffff",
+      "backgroundColor": "#F5F5F6",
       "height": 1334,
       "left": 0,
       "overflow": "hidden",

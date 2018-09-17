@@ -23,7 +23,7 @@ exports[`<Dialog> renders 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -102,7 +102,7 @@ exports[`<Dialog> when {background} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -182,7 +182,7 @@ exports[`<Dialog> when {children} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -295,7 +295,7 @@ exports[`<Dialog> when {highlight} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -540,7 +540,7 @@ exports[`<Dialog> when {onClose} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -745,7 +745,7 @@ exports[`<Dialog> when {reverse} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -905,7 +905,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -985,7 +985,7 @@ exports[`<Dialog> when {title} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",
@@ -1105,7 +1105,7 @@ exports[`<Dialog> when {visible} 1`] = `
     pointerEvents="auto"
     style={
       Object {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#F5F5F6",
         "borderRadius": 3,
         "display": undefined,
         "maxHeight": "100%",

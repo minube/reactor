@@ -28,7 +28,7 @@ export default StyleSheet.create({
 
   frame: {
     ...LAYOUT.STYLE.SHADOW,
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.BACKGROUND,
     borderRadius: BORDER_RADIUS,
     display: Platform.OS === 'web' ? 'block' : undefined,
   },
