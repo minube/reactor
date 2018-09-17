@@ -35,7 +35,7 @@ class Motion extends PureComponent {
     duration: MOTION.DURATION,
     preset: undefined,
     timeline: undefined,
-    type: 'spring',
+    type: 'timing',
     useNativeDriver: IS_WEB,
     visible: false,
   };
