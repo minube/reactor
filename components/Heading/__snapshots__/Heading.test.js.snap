@@ -17,7 +17,7 @@ exports[`<Heading> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -69,7 +69,7 @@ exports[`<Heading> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -93,7 +93,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -145,7 +145,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -352,7 +352,7 @@ exports[`<Heading> when {color} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -405,7 +405,7 @@ exports[`<Heading> when {color} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -748,7 +748,7 @@ exports[`<Heading> when {column} 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "minHeight": undefined,
+          "minHeight": 20,
         }
       }
     >
@@ -1068,7 +1068,7 @@ exports[`<Heading> when {contributors} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1120,7 +1120,7 @@ exports[`<Heading> when {contributors} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1451,7 +1451,7 @@ exports[`<Heading> when {rating} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1774,7 +1774,7 @@ exports[`<Heading> when {rating} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -1801,7 +1801,7 @@ exports[`<Heading> when {style} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1853,7 +1853,7 @@ exports[`<Heading> when {style} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -1877,7 +1877,7 @@ exports[`<Heading> when {title} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1929,7 +1929,7 @@ exports[`<Heading> when {title} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />

@@ -4,14 +4,14 @@ import {
 import React from 'react';
 import { View } from 'react-native';
 
-import { LAYOUT, THEMEv2 } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Activity from '../Activity';
 import Icon from '../Icon';
 import Text from '../Text';
 import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
 
-const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEMEv2;
+const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
   accent, activity, children, color, contained, disabled, icon, onPress, outlined,

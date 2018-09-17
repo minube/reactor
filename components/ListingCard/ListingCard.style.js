@@ -2,9 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const {
-  UNIT,
-} = THEME;
+const { UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {

@@ -1,17 +1,54 @@
-import deepMerge from './modules/deepMerge';
-import THEME from './theme.style';
+import { Platform } from 'react-native';
 
-class Theme {
-  constructor(value) {
-    Object.assign(this, value);
-  }
+const UNIT = 10;
 
-  extendTheme(style = {}) {
-    const newTheme = deepMerge(THEME, style);
+export default {
+  BORDER_RADIUS: UNIT * 0.3,
 
-    Object.assign(this, newTheme);
-    return newTheme;
-  }
-}
+  COLOR: {
+    PRIMARY: '#10c0bc',
+    ACCENT: '#f69a37',
+    // -- Text
+    TEXT: '#4a4a4a',
+    TEXT_LIGHTEN: '#9b9b9b',
+    // -- Backgrounds
+    BACKGROUND: '#f4f4f4',
+    BORDER: '#dbdbdb',
+    CONTENT: '#CDD2D4',
+    TRANSPARENT: 'transparent',
+    // -- Notifications
+    ALERT: '#FBB049',
+    ERROR: '#ef5160',
+    SUCCESS: '#84BD4B',
+    WARNING: '#FDCD48',
+    // -- Base
+    BASE: '#cccccc',
+    BLACK: '#000000',
+    WHITE: '#ffffff',
+  },
 
-export default new Theme(THEME);
+  FONT: {
+    FAMILY: Platform.OS === 'web'
+      ? '"Open Sans" , "Montserrat", sans-serif'
+      : undefined, // '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
+    SIZE: {
+      GNOME: UNIT * 1.1,
+      TINY: UNIT * 1.2,
+      SMALL: UNIT * 1.4,
+      REGULAR: UNIT * 1.6,
+      LARGE: UNIT * 2,
+      SUBTITLE: UNIT * 3,
+      TITLE: UNIT * 4.8,
+    },
+    WEIGHT: {
+      LIGHTER: '300',
+      REGULAR: 'normal',
+      SEMIBOLD: '600',
+      BOLD: 'bold',
+    },
+  },
+
+  OFFSET: UNIT * 1.6,
+
+  UNIT,
+};

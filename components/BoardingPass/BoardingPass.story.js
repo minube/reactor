@@ -4,9 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { color, object } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import BoardingPass from './BoardingPass';
-
 
 const children = <Text>Children component...</Text>;
 const Loading = <Text>Loading...</Text>;

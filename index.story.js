@@ -10,8 +10,6 @@ import {
 } from './components';
 import { Consumer, Provider } from './context';
 
-const { COLOR, OFFSET, UNIT } = THEME;
-
 const styles = StyleSheet.create({
   dialog: {
     width: '100%',
@@ -24,19 +22,20 @@ const styles = StyleSheet.create({
 
   content: {
     ...STYLE.ROW,
-    marginTop: OFFSET,
+    marginTop: THEME.OFFSET,
   },
 
   texts: {
     flex: 1,
-    marginHorizontal: UNIT,
+    marginHorizontal: THEME.UNIT,
   },
 
   icon: {
-    height: UNIT * 4,
-    width: UNIT * 4,
+    height: THEME.UNIT * 4,
+    width: THEME.UNIT * 4,
   },
 });
+
 
 storiesOf('🏀 Playground', module)
   .addWithJSX('Dialog: download app', () => (
@@ -58,7 +57,7 @@ storiesOf('🏀 Playground', module)
         </View>
         <Button
           small
-          color={color('color', COLOR.TEXT)}
+          color={color('color', THEME.COLOR.TEXT)}
           onPress={action('Button.onPress()')}
           outlined
           title={text('button', 'Descargar')}
@@ -71,6 +70,7 @@ storiesOf('🏀 Playground', module)
       <Consumer>
         { ({ logEvent }) => (
             <Button
+              primary
               title="Press me"
               onPress={() => logEvent({ type: 'reactor:demo', hello: 'world' })}
             />

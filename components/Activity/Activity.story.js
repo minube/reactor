@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { boolean, color, select } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import Activity from './Activity';
 
 storiesOf('✅ Activity', module)

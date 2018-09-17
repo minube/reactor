@@ -1,7 +1,7 @@
 import { Platform, StyleSheet } from 'react-native';
-import THEMEv2 from './theme/theme';
+import THEME from './theme/theme';
 
-const { COLOR, FONT, UNIT } = THEMEv2;
+const { COLOR, FONT, UNIT } = THEME;
 
 export default {
   CENTERED: {

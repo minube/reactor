@@ -1418,11 +1418,7 @@ exports[`<Button> when {responsive} 1`] = `
           "paddingHorizontal": 30,
         },
         false,
-        Object {
-          "height": 45,
-          "minWidth": 45,
-          "paddingHorizontal": 30,
-        },
+        false,
         false,
         false,
         Object {

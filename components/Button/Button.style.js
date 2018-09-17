@@ -1,10 +1,10 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { STYLE, THEMEv2 } from '../../common';
+import { STYLE, THEME } from '../../common';
 
 const {
   BORDER_RADIUS, COLOR, FONT, UNIT,
-} = THEMEv2;
+} = THEME;
 
 const REGULAR_SIZE = UNIT * 4.5;
 

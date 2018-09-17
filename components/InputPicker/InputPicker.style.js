@@ -2,13 +2,10 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const {
-  COLOR, INPUT_HEIGHT, OFFSET, UNIT,
-} = THEME;
+const { COLOR, OFFSET, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    minHeight: INPUT_HEIGHT,
     marginBottom: OFFSET,
   },
 

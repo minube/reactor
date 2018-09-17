@@ -1,3 +1,6 @@
+
+// THEME.extend({ COLOR: { PRIMARY: 'pink' } } );
+
 import Activity from './Activity';
 import Avatar from './Avatar';
 import BoardingPass, { fetch } from './BoardingPass';

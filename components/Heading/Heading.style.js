@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { STYLE, THEME } from '../../common';
 
-const { AVATAR_SMALL, UNIT } = THEME;
+const { UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -11,7 +11,7 @@ export default StyleSheet.create({
 
   row: {
     ...STYLE.ROW,
-    minHeight: AVATAR_SMALL,
+    minHeight: UNIT * 2,
   },
 
   column: {

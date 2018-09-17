@@ -6,7 +6,6 @@ exports[`<Input> renders 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -54,7 +53,6 @@ exports[`<Input> when {disabled} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -105,7 +103,6 @@ exports[`<Input> when {error} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -195,7 +192,6 @@ exports[`<Input> when {hint} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -282,7 +278,6 @@ exports[`<Input> when {keyboard} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -330,7 +325,6 @@ exports[`<Input> when {label} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -417,7 +411,6 @@ exports[`<Input> when {lines} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -466,7 +459,6 @@ exports[`<Input> when {style} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -518,7 +510,6 @@ exports[`<Input> when {value} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]

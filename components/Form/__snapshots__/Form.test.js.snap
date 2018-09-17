@@ -45,7 +45,6 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "minWidth": "100%",
@@ -174,7 +173,6 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "width": "49%",
@@ -290,7 +288,6 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "width": "49%",
@@ -377,7 +374,6 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "minWidth": "100%",
@@ -528,7 +524,6 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Array [
                 Object {
@@ -624,7 +619,7 @@ exports[`<Form> when {attributes} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": undefined,
+              "height": 44,
               "marginBottom": 16,
             },
             Object {
@@ -760,7 +755,6 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Object {
                 "width": "32%",
@@ -847,7 +841,6 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Object {
                 "width": "32%",
@@ -934,7 +927,6 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Object {
                 "width": "32%",
@@ -1087,7 +1079,6 @@ exports[`<Form> when {data} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "minWidth": "100%",
@@ -1216,7 +1207,6 @@ exports[`<Form> when {data} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "width": "49%",
@@ -1332,7 +1322,6 @@ exports[`<Form> when {data} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "width": "49%",
@@ -1419,7 +1408,6 @@ exports[`<Form> when {data} 1`] = `
           Array [
             Object {
               "marginBottom": 16,
-              "minHeight": undefined,
             },
             Object {
               "minWidth": "100%",
@@ -1570,7 +1558,6 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Array [
                 Object {
@@ -1666,7 +1653,7 @@ exports[`<Form> when {data} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": undefined,
+              "height": 44,
               "marginBottom": 16,
             },
             Object {
@@ -1802,7 +1789,6 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Object {
                 "width": "32%",
@@ -1889,7 +1875,6 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Object {
                 "width": "32%",
@@ -1976,7 +1961,6 @@ exports[`<Form> when {data} 1`] = `
             Array [
               Object {
                 "marginBottom": 16,
-                "minHeight": undefined,
               },
               Object {
                 "width": "32%",

@@ -6,7 +6,6 @@ exports[`<InputPicker> renders 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -66,7 +65,6 @@ exports[`<InputPicker> when {disabled} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -128,7 +126,6 @@ exports[`<InputPicker> when {error} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -230,7 +227,6 @@ exports[`<InputPicker> when {hint} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -329,7 +325,6 @@ exports[`<InputPicker> when {label} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]
@@ -428,7 +423,6 @@ exports[`<InputPicker> when {style} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -492,7 +486,6 @@ exports[`<InputPicker> when {value} 1`] = `
     Array [
       Object {
         "marginBottom": 16,
-        "minHeight": undefined,
       },
       undefined,
     ]

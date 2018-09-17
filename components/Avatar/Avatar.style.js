@@ -2,7 +2,11 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { AVATAR: { REGULAR, SMALL, LARGE } } = THEME;
+const { UNIT } = THEME;
+
+const SMALL = UNIT * 2;
+const REGULAR = UNIT * 4;
+const LARGE = UNIT * 6;
 
 export default StyleSheet.create({
   image: {

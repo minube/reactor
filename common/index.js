@@ -5,7 +5,6 @@ import SHAPE from './shape';
 import serverSideStyle from './serverSideStyle';
 import STYLE from './style';
 import THEME from './theme';
-import THEMEv2 from './theme/theme';
 
 export {
   ENV,
@@ -15,5 +14,4 @@ export {
   serverSideStyle,
   STYLE,
   THEME,
-  THEMEv2,
 };

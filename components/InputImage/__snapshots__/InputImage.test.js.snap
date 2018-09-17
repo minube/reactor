@@ -18,7 +18,6 @@ exports[`<InputImage> renders 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {
@@ -85,7 +84,6 @@ exports[`<InputImage> when {disabled} 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {
@@ -155,7 +153,6 @@ exports[`<InputImage> when {error} 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {
@@ -264,7 +261,6 @@ exports[`<InputImage> when {hint} 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {
@@ -370,7 +366,6 @@ exports[`<InputImage> when {label} 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {
@@ -479,7 +474,6 @@ exports[`<InputImage> when {style} 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {
@@ -595,7 +589,6 @@ exports[`<InputImage> when {value} 1`] = `
       Array [
         Object {
           "marginBottom": 16,
-          "minHeight": undefined,
         },
         Array [
           Object {

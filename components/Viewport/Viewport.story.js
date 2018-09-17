@@ -7,11 +7,6 @@ import { boolean, object } from '@storybook/addon-knobs/react';
 import Viewport from './Viewport';
 import { THEME } from '../../common';
 
-const {
-  BORDER_RADIUS, BUTTON, COLOR, FONT, UNIT,
-} = THEME;
-
-
 const STYLE_LAYOUT = {
   width: 375,
   height: 667,
@@ -19,13 +14,13 @@ const STYLE_LAYOUT = {
 };
 
 const STYLE = {
-  backgroundColor: COLOR.CONTENT,
-  padding: UNIT,
+  backgroundColor: THEME.COLOR.CONTENT,
+  padding: THEME.UNIT,
 };
 
 const STYLE_CONTENT = {
-  padding: UNIT,
-  backgroundColor: COLOR.PRIMARY,
+  padding: THEME.UNIT,
+  backgroundColor: THEME.COLOR.PRIMARY,
 };
 
 const STYLE_NAVIGATION = {

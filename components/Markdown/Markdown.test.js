@@ -1,7 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import { THEME } from '../../common';
 import Markdown from './Markdown';
 
 describe('<Markdown>', () => {
