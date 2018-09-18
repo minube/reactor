@@ -86,7 +86,10 @@ storiesOf('☑️ Viewport', module)
     <Viewport onScroll={action('Viewport.onScroll()')}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('style', () => (
-    <Viewport style={style} styleContent={styleContent}>{CHILDREN}</Viewport>
+    <Viewport style={style}>{CHILDREN}</Viewport>
+  ))
+  .addWithJSX('styleContent', () => (
+    <Viewport styleContent={styleContent}>{CHILDREN}</Viewport>
   ))
   .addWithJSX('🏀 Playground', () => (
     <ViewportHOC />
