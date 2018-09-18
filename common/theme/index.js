@@ -2,12 +2,12 @@ import deepMerge from './modules/deepMerge';
 import defaultTheme from './theme';
 
 class Theme {
-  constructor(value) {
-    Object.assign(this, value);
+  constructor(theme) {
+    Object.assign(this, theme);
   }
 
-  extend(style = {}) {
-    const newTheme = deepMerge(defaultTheme, style);
+  extend(theme = {}) {
+    const newTheme = deepMerge(defaultTheme, theme);
 
     Object.assign(this, newTheme);
     return newTheme;
