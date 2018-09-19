@@ -13,7 +13,6 @@ exports[`<Button> renders 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -115,7 +114,6 @@ exports[`<Button> when {activity} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -179,7 +177,7 @@ exports[`<Button> when {activity} 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "marginLeft": 10,
+            "marginLeft": 5,
           },
         ]
       }
@@ -215,7 +213,7 @@ exports[`<Button> when {activity} 1`] = `
             Object {
               "color": "#ffffff",
               "fontSize": 14,
-              "marginLeft": 10,
+              "marginLeft": 5,
             },
           ]
         }
@@ -269,7 +267,6 @@ exports[`<Button> when {children} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -458,7 +455,6 @@ exports[`<Button> when {color} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -596,7 +592,6 @@ exports[`<Button> when {contained} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -734,7 +729,6 @@ exports[`<Button> when {disabled} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -876,7 +870,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -946,7 +939,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
             "flexDirection": "row",
           },
           Object {
-            "marginLeft": 10,
+            "marginLeft": 5,
           },
         ]
       }
@@ -982,7 +975,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
             Object {
               "color": "#ffffff",
               "fontSize": 14,
-              "marginLeft": 10,
+              "marginLeft": 5,
             },
           ]
         }
@@ -1036,7 +1029,6 @@ exports[`<Button> when {icon} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -1157,7 +1149,6 @@ exports[`<Button> when {outlined} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -1297,7 +1288,6 @@ exports[`<Button> when {primary} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -1435,7 +1425,6 @@ exports[`<Button> when {responsive} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -1574,7 +1563,6 @@ exports[`<Button> when {rounded} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       Object {
         "borderRadius": 22.5,
@@ -1718,7 +1706,6 @@ exports[`<Button> when {secondary} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -1856,7 +1843,6 @@ exports[`<Button> when {small} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,
@@ -1998,7 +1984,6 @@ exports[`<Button> when {style} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       Object {
@@ -2138,7 +2123,6 @@ exports[`<Button> when {title} 1`] = `
     Array [
       Object {
         "borderRadius": 3,
-        "marginHorizontal": 5,
       },
       false,
       undefined,

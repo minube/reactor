@@ -577,7 +577,6 @@ exports[`<ListingCard> when {children} 1`] = `
           Array [
             Object {
               "borderRadius": 3,
-              "marginHorizontal": 5,
             },
             Object {
               "borderRadius": 22.5,

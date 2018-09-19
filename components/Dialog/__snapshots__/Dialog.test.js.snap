@@ -387,7 +387,6 @@ exports[`<Dialog> when {highlight} 1`] = `
             Array [
               Object {
                 "borderRadius": 3,
-                "marginHorizontal": 5,
               },
               Object {
                 "borderRadius": 22.5,
@@ -593,7 +592,6 @@ exports[`<Dialog> when {onClose} 1`] = `
             Array [
               Object {
                 "borderRadius": 3,
-                "marginHorizontal": 5,
               },
               Object {
                 "borderRadius": 22.5,

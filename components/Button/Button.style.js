@@ -12,7 +12,6 @@ export { REGULAR_SIZE };
 
 export default StyleSheet.create({
   touchable: {
-    marginHorizontal: UNIT / 2,
     borderRadius: BORDER_RADIUS,
   },
 
@@ -79,6 +78,6 @@ export default StyleSheet.create({
   },
 
   textMarginLeft: {
-    marginLeft: UNIT,
+    marginLeft: UNIT / 2,
   },
 });

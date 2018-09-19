@@ -1353,7 +1353,6 @@ exports[`<Slider> when {navigation} 1`] = `
         Array [
           Object {
             "borderRadius": 3,
-            "marginHorizontal": 5,
           },
           false,
           undefined,
@@ -1493,7 +1492,6 @@ exports[`<Slider> when {navigation} 1`] = `
         Array [
           Object {
             "borderRadius": 3,
-            "marginHorizontal": 5,
           },
           false,
           undefined,
