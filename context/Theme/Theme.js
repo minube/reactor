@@ -27,10 +27,10 @@ class ProviderTheme extends PureComponent {
   }
 
   render() {
-    const { props: { children }, state: { theme } } = this;
+    const { props: { children }, state } = this;
 
     return (
-      <Provider value={{ theme }}>
+      <Provider value={state.theme}>
         { children }
       </Provider>
     );

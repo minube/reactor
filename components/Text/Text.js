@@ -3,6 +3,7 @@ import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
+import { ConsumerTheme } from '../../context';
 import styles from './Text.style';
 
 const { FONT } = THEME;
@@ -14,38 +15,44 @@ const Text = ({
   numberOfLines,
   ...inherit
 }) => (
-  <NativeText
-    {...inherit}
-    numberOfLines={numberOfLines}
-    style={[
-      styles.container,
-      // -- appearance
-      lighter && styles.lighter,
-      semibold && styles.semibold,
-      bold && styles.bold,
-      italic && styles.italic,
-      // -- size
-      LAYOUT.TEXT.REGULAR,
-      tiny && LAYOUT.TEXT.TINY,
-      small && LAYOUT.TEXT.SMALL,
-      large && LAYOUT.TEXT.LARGE,
-      subtitle && LAYOUT.TEXT.SUBTITLE,
-      title && LAYOUT.TEXT.TITLE,
-      // -- color
-      lighten && styles.lighten,
-      primary && styles.primary,
-      secondary && styles.secondary,
-      // -- flatten
-      StyleSheet.flatten([
-        inherit.style,
-        color && { color },
-        numberOfLines > 1 && (small || tiny) && {
-          maxHeight: numberOfLines * (small ? FONT.SIZE.SMALL : FONT.SIZE.TINY),
-          overflow: 'hidden',
-        },
-      ]),
-    ]}
-  />
+  <ConsumerTheme>
+    { ({ FONT: { FAMILY } = {} }) => (
+      <NativeText
+        {...inherit}
+        numberOfLines={numberOfLines}
+        style={[
+          styles.container,
+          // -- appearance
+          lighter && styles.lighter,
+          semibold && styles.semibold,
+          bold && styles.bold,
+          italic && styles.italic,
+          // -- size
+          LAYOUT.TEXT.REGULAR,
+          tiny && LAYOUT.TEXT.TINY,
+          small && LAYOUT.TEXT.SMALL,
+          large && LAYOUT.TEXT.LARGE,
+          subtitle && LAYOUT.TEXT.SUBTITLE,
+          title && LAYOUT.TEXT.TITLE,
+          // -- color
+          lighten && styles.lighten,
+          primary && styles.primary,
+          secondary && styles.secondary,
+          // -- flatten
+          StyleSheet.flatten([
+            FAMILY && { fontFamily: FAMILY },
+            inherit.style,
+            color && { color },
+            numberOfLines > 1 && (small || tiny) && {
+              maxHeight: numberOfLines * (small ? FONT.SIZE.SMALL : FONT.SIZE.TINY),
+              overflow: 'hidden',
+            },
+          ]),
+        ]}
+      />
+    )}
+  </ConsumerTheme>
+
 );
 
 Text.propTypes = {
