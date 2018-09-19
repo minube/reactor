@@ -1,7 +1,7 @@
 import { node, shape } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 
-import THEME from '../../common/theme/theme';
+import THEME from '../../common/theme';
 
 const { Provider, Consumer: ConsumerTheme } = createContext('reactor:l10n');
 
@@ -18,23 +18,19 @@ class ProviderTheme extends PureComponent {
 
   constructor(props) {
     super(props);
-    this.state = { style: THEME.extendTheme(props.style) };
+    this.state = { theme: THEME.extend(props.style) };
   }
 
-  extendTheme = (style) => {
-    this.setState({ style: THEME.extendTheme(style) });
+  componentWillReceiveProps({ style: nextStyle }) {
+    const { props: { style } } = this;
+    if (nextStyle !== style) this.setState({ theme: THEME.extend(nextStyle) });
   }
 
   render() {
-    const {
-      extendTheme,
-      props: { children }, state: { style },
-    } = this;
-
-    console.log('<ProviderTheme />', style);
+    const { props: { children }, state: { theme } } = this;
 
     return (
-      <Provider value={{ extendTheme, THEME: { ...style } }}>
+      <Provider value={{ theme }}>
         { children }
       </Provider>
     );
