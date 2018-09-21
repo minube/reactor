@@ -36,7 +36,7 @@ class InputPicker extends PureComponent {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { label && <InputLabel value={label} /> }
+        { (label || (!disabled && (error || hint))) && <InputLabel value={label} error={error} hint={hint} /> }
         <View
           style={[
             styles.input,
@@ -55,7 +55,6 @@ class InputPicker extends PureComponent {
             { dataSource.map(item => <Picker.Item key={item} label={item} value={item} />)}
           </Picker>
         </View>
-        { !disabled && (error || hint) && <InputLabel error={error !== undefined} value={error || hint} /> }
       </View>
     );
   }

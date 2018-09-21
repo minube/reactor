@@ -5,7 +5,7 @@ exports[`<Input> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -52,7 +52,7 @@ exports[`<Input> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -102,12 +102,98 @@ exports[`<Input> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 5,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          Object {
+            "fontSize": 14,
+            "lineHeight": 16.8,
+          },
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+          },
+          false,
+          false,
+          Object {},
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 14.399999999999999,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+          },
+          false,
+          false,
+          Object {
+            "color": "#ef5160",
+          },
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <TextInput
     allowFontScaling={true}
     autoCapitalize="none"
@@ -143,46 +229,6 @@ exports[`<Input> when {error} 1`] = `
     underlineColorAndroid="transparent"
     value=""
   />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "color": "#ef5160",
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -191,12 +237,96 @@ exports[`<Input> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 5,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          Object {
+            "fontSize": 14,
+            "lineHeight": 16.8,
+          },
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+          },
+          false,
+          false,
+          Object {},
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 14.399999999999999,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+          },
+          false,
+          false,
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <TextInput
     allowFontScaling={true}
     autoCapitalize="none"
@@ -230,45 +360,6 @@ exports[`<Input> when {hint} 1`] = `
     underlineColorAndroid="transparent"
     value=""
   />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -277,7 +368,7 @@ exports[`<Input> when {keyboard} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -324,51 +415,61 @@ exports[`<Input> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "marginVertical": 2.5,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 5,
+      }
     }
   >
-    Hello World
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+          },
+          false,
+          false,
+          false,
+          false,
+          Object {
+            "fontSize": 16,
+            "lineHeight": 20.8,
+          },
+          false,
+          Object {
+            "fontSize": 14,
+            "lineHeight": 16.8,
+          },
+          false,
+          false,
+          false,
+          Object {
+            "color": "#9b9b9b",
+          },
+          false,
+          false,
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <TextInput
     allowFontScaling={true}
     autoCapitalize="none"
@@ -410,7 +511,7 @@ exports[`<Input> when {lines} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -458,7 +559,7 @@ exports[`<Input> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -509,7 +610,7 @@ exports[`<Input> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
+        "marginBottom": 10,
       },
       undefined,
     ]

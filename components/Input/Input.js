@@ -49,7 +49,7 @@ class Input extends Component {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { label && <InputLabel value={label} /> }
+        { (label || (!disabled && (error || hint))) && <InputLabel value={label} error={error} hint={hint} /> }
         <TextInput
           {...inherit}
           value={inherit.value || ''}
@@ -72,8 +72,6 @@ class Input extends Component {
             !disabled && error && styles.inputError,
           ]}
         />
-        { !disabled && (error || hint)
-          && <InputLabel error={error !== undefined} value={error || hint} /> }
       </View>
     );
   }

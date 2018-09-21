@@ -6,7 +6,7 @@ const { COLOR, OFFSET, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: OFFSET,
+    marginBottom: UNIT,
     zIndex: 1,
   },
 

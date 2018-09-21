@@ -2,14 +2,14 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { UNIT, OFFSET } = THEME;
+const { UNIT } = THEME;
 
 export default StyleSheet.create({
 
   container: {
     ...LAYOUT.STYLE.ROW,
     height: UNIT * 4.4,
-    marginBottom: OFFSET,
+    marginBottom: UNIT,
   },
 
   label: {

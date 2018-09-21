@@ -2,11 +2,11 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, OFFSET, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: OFFSET,
+    marginBottom: UNIT,
   },
 
   input: {
