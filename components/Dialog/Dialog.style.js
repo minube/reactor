@@ -2,9 +2,7 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const {
-  BORDER_RADIUS, COLOR, FONT, OFFSET,
-} = THEME;
+const { BORDER_RADIUS, COLOR, OFFSET } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -51,7 +49,6 @@ export default StyleSheet.create({
   },
 
   title: {
-    fontSize: FONT.SIZE.LARGE,
     flex: 1,
     padding: OFFSET,
   },

@@ -20,7 +20,7 @@ const Breadcrumbs = ({
           return false;
         }}
         style={[styles.link, inherit.style, color && { color }]}
-        small
+        level={2}
       >
         {`${caption}${index < dataSource.length - 1 ? ' ·' : ''}`}
       </Link>

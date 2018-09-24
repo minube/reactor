@@ -10,11 +10,11 @@ const { COLOR } = THEME;
 
 const InputLabel = ({ error, hint, value }) => (
   <View style={styles.container}>
-    <Text small lighten>
+    <Text level={2} lighten>
       {value}
     </Text>
     { (error || hint) && (
-      <Text color={error ? COLOR.ERROR : undefined} tiny lighten>
+      <Text color={error ? COLOR.ERROR : undefined} level={3} lighten>
         {error || hint}
       </Text>
     )}

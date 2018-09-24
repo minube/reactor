@@ -236,32 +236,28 @@ exports[`<Dialog> when {children} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
+            body={true}
+            caption={false}
             ellipsizeMode="tail"
+            headline={false}
+            level={1}
             style={
               Array [
                 Object {
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                false,
-                false,
                 Object {
                   "fontSize": 16,
-                  "lineHeight": 20.8,
+                  "lineHeight": 30,
                 },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
                 false,
                 Object {},
               ]
             }
+            subtitle={false}
           >
             Hello World
           </Text>
@@ -337,39 +333,35 @@ exports[`<Dialog> when {highlight} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={true}
+          level={6}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "fontWeight": "bold",
+                "fontFamily": undefined,
+                "fontSize": 20,
+                "fontWeight": "700",
+                "letterSpacing": -1.2,
+                "lineHeight": 22,
               },
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "color": "#ffffff",
                 "flex": 1,
-                "fontSize": 20,
                 "padding": 16,
               },
             ]
           }
+          subtitle={false}
         >
           Hello world
         </Text>
@@ -1025,38 +1017,34 @@ exports[`<Dialog> when {title} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={true}
+          level={6}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "fontWeight": "bold",
+                "fontFamily": undefined,
+                "fontSize": 20,
+                "fontWeight": "700",
+                "letterSpacing": -1.2,
+                "lineHeight": 22,
               },
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "flex": 1,
-                "fontSize": 20,
                 "padding": 16,
               },
             ]
           }
+          subtitle={false}
         >
           Hello world
         </Text>

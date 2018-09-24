@@ -13,185 +13,150 @@ exports[`<Rating> renders 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
@@ -211,185 +176,150 @@ exports[`<Rating> when {caption} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
@@ -409,229 +339,183 @@ exports[`<Rating> when {color} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
           "color": "#424242",
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
           "color": "#424242",
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
           "color": "#424242",
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
           "color": "#424242",
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
           "color": "#424242",
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={true}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
      3.5/5
   </Text>
@@ -651,222 +535,178 @@ exports[`<Rating> when {count} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={true}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
      (32)
   </Text>
@@ -886,224 +726,178 @@ exports[`<Rating> when {showValue} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={true}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
      3.5/5
   </Text>
@@ -1123,29 +917,22 @@ exports[`<Rating> when {style} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -1156,35 +943,29 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -1195,35 +976,29 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -1234,35 +1009,29 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -1273,35 +1042,29 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -1312,41 +1075,30 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={true}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
         false,
         Object {
           "color": "orange",
@@ -1355,6 +1107,7 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
      3.5/5
   </Text>
@@ -1374,226 +1127,180 @@ exports[`<Rating> when {textColor} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={true}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
         false,
         Object {
           "color": "#424242",
         },
       ]
     }
+    subtitle={false}
   >
      3.5/5
   </Text>
@@ -1613,224 +1320,178 @@ exports[`<Rating> when {value} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#bdbdbd",
+          "lineHeight": 30,
         },
         false,
         Object {
-          "lineHeight": 16,
           "marginRight": 2.5,
         },
       ]
     }
+    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={true}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
      3.5/5
   </Text>

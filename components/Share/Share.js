@@ -93,7 +93,7 @@ class Share extends PureComponent {
             onClose={_onCancel}
             style={styles.dialog}
           >
-            <Text lighten small>
+            <Text lighten level={2}>
               {caption}
             </Text>
             <View style={styles.options}>

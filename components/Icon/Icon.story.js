@@ -34,7 +34,7 @@ storiesOf('✅ Icon', module)
   ))
   .addWithJSX('🏀 Playground', () => (
     <Icon
-      size={number('size', THEME.FONT.SIZE.LARGE)}
+      size={number('size', 16)}
       color={color('color', THEME.COLOR.TEXT)}
       invert={boolean('invert', false)}
       value={select('value', ['apps', 'close', 'closeDark', 'emailDark', 'left', 'right', 'share'], 'closeDark')}

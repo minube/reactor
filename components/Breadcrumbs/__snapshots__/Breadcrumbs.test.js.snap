@@ -26,8 +26,12 @@ exports[`<Breadcrumbs> when {color} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -36,25 +40,13 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "#bdbdbd",
@@ -62,6 +54,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     Spain ·
   </Text>
@@ -69,8 +62,12 @@ exports[`<Breadcrumbs> when {color} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -79,25 +76,13 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "#bdbdbd",
@@ -105,6 +90,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     Basque Country ·
   </Text>
@@ -112,8 +98,12 @@ exports[`<Breadcrumbs> when {color} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -122,25 +112,13 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "#bdbdbd",
@@ -148,6 +126,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     Bilbao
   </Text>
@@ -168,8 +147,12 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -178,25 +161,13 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "#4a4a4a",
@@ -204,6 +175,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     Spain ·
   </Text>
@@ -211,8 +183,12 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -221,25 +197,13 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "#4a4a4a",
@@ -247,6 +211,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     Basque Country ·
   </Text>
@@ -254,8 +219,12 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -264,25 +233,13 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "#4a4a4a",
@@ -290,6 +247,7 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     Bilbao
   </Text>
@@ -310,8 +268,12 @@ exports[`<Breadcrumbs> when {style} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -320,35 +282,23 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "backgroundColor": "rgba(0,0,0,0.25)",
           "color": "#4a4a4a",
-          "fontSize": 16,
           "marginRight": 4,
           "padding": 16,
         },
       ]
     }
+    subtitle={false}
   >
     Spain ·
   </Text>
@@ -356,8 +306,12 @@ exports[`<Breadcrumbs> when {style} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -366,35 +320,23 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "backgroundColor": "rgba(0,0,0,0.25)",
           "color": "#4a4a4a",
-          "fontSize": 16,
           "marginRight": 4,
           "padding": 16,
         },
       ]
     }
+    subtitle={false}
   >
     Basque Country ·
   </Text>
@@ -402,8 +344,12 @@ exports[`<Breadcrumbs> when {style} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
     href="/"
+    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -412,35 +358,23 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
         Object {
           "fontSize": 14,
-          "lineHeight": 16.8,
+          "lineHeight": 24,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "backgroundColor": "rgba(0,0,0,0.25)",
           "color": "#4a4a4a",
-          "fontSize": 16,
           "marginRight": 4,
           "padding": 16,
         },
       ]
     }
+    subtitle={false}
   >
     Bilbao
   </Text>

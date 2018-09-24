@@ -1,13 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
-
-const { UNIT } = THEME;
+import { LAYOUT } from '../../common';
 
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginBottom: UNIT / 2,
   },
 });

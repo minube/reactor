@@ -19,70 +19,62 @@ exports[`<Markdown> including a <Text> property 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={false}
+    level={1}
+    secondary={true}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#424242",
-        },
         Object {},
       ]
     }
+    subtitle={false}
   >
     Hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={Object {}}
+    level={1}
+    secondary={true}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        Object {
-          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#424242",
-        },
         Object {},
       ]
     }
+    subtitle={false}
   >
     World 
   </Text>
@@ -96,32 +88,28 @@ exports[`<Markdown> renders 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   />
 </View>
 `;
@@ -145,100 +133,90 @@ exports[`<Markdown> when combining * & ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={Object {}}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        Object {
-          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     world, I'm 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={Object {}}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     javi. 
   </Text>
@@ -264,66 +242,60 @@ exports[`<Markdown> when including * 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={Object {}}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        Object {
-          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     world 
   </Text>
@@ -349,66 +321,60 @@ exports[`<Markdown> when including ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={false}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={Object {}}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    italic={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     world 
   </Text>
@@ -422,32 +388,28 @@ exports[`<Markdown> when simple text 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={false}
   >
     Hello World
   </Text>

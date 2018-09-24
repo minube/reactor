@@ -4,7 +4,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, object } from '@storybook/addon-knobs/react';
 
-import { THEME, STYLE } from '../../common';
+import { THEME, LAYOUT } from '../../common';
 import Button from '../Button';
 import Price from '../Price';
 import Text from '../Text';
@@ -47,12 +47,12 @@ storiesOf('✅ ListingCard', module)
       rating={RATING}
       title="Café Les Deux Molins - El café de Amelie con titulo súper largo la"
     >
-      <View style={STYLE.ROW}>
+      <View style={LAYOUT.STYLE.ROW}>
         <View style={{ marginRight: UNIT }}>
-          <Text tiny>desde</Text>
+          <Text caption>desde</Text>
           <Price large value={90} symbol="$" />
         </View>
-        <Text tiny bold secondary style={{ width: '50%' }}>
+        <Text style={{ width: '50%' }}>
           Mascotas bienvenidas
         </Text>
       </View>

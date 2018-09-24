@@ -36,7 +36,7 @@ describe('<Price>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Price style={{ fontSize: THEME.FONT.SIZE.SMALL, color: 'orange' }} value={19.1234} />).toJSON();
+    const tree = renderer.create(<Price style={{ color: 'orange' }} value={19.1234} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

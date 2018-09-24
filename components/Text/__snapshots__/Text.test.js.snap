@@ -4,32 +4,28 @@ exports[`<Text> renders 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 />
 `;
 
@@ -37,34 +33,29 @@ exports[`<Text> when {bold} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  bold={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      Object {
-        "fontWeight": "bold",
-      },
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -74,34 +65,30 @@ exports[`<Text> when {color} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {
         "color": "#ef5160",
       },
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -111,34 +98,29 @@ exports[`<Text> when {italic} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  italic={true}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
-      },
-      false,
-      false,
-      false,
-      Object {
-        "fontStyle": "italic",
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -148,35 +130,29 @@ exports[`<Text> when {large} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  large={true}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      Object {
-        "fontSize": 20,
-        "lineHeight": 26,
-      },
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -186,34 +162,30 @@ exports[`<Text> when {lighten} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
       Object {
         "color": "#9b9b9b",
       },
-      false,
-      false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -223,34 +195,29 @@ exports[`<Text> when {lighter} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
+  lighter={true}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      Object {
-        "fontWeight": "300",
-      },
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -260,33 +227,29 @@ exports[`<Text> when {numberOfLines} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   numberOfLines={2}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -296,34 +259,29 @@ exports[`<Text> when {primary} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
+  primary={true}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
-      },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      Object {
-        "color": "#bdbdbd",
+        "lineHeight": 30,
       },
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -333,34 +291,29 @@ exports[`<Text> when {secondary} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
+  secondary={true}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
       false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      Object {
-        "color": "#424242",
-      },
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -370,34 +323,29 @@ exports[`<Text> when {semibold} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
+  semibold={true}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      Object {
-        "fontWeight": "600",
-      },
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -407,35 +355,29 @@ exports[`<Text> when {small} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
+  small={true}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      Object {
-        "fontSize": 14,
-        "lineHeight": 16.8,
-      },
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -445,35 +387,30 @@ exports[`<Text> when {style} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {
         "color": "orange",
-        "fontSize": 20,
       },
     ]
   }
+  subtitle={false}
 >
   Hello World
 </Text>
@@ -483,35 +420,29 @@ exports[`<Text> when {tiny} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      Object {
-        "fontSize": 12,
-        "lineHeight": 14.399999999999999,
-      },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
+  tiny={true}
 >
   Hello World
 </Text>
@@ -521,35 +452,29 @@ exports[`<Text> when {title} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
+  level={1}
   style={
     Array [
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      Object {
-        "fontSize": 30,
-        "lineHeight": 39,
-      },
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
+  title={true}
 >
   Hello World
 </Text>

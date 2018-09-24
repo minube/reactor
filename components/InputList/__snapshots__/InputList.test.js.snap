@@ -46,7 +46,7 @@ exports[`<InputList> renders 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -109,7 +109,7 @@ exports[`<InputList> when {dataSource} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -172,7 +172,7 @@ exports[`<InputList> when {disabled} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -223,81 +223,66 @@ exports[`<InputList> when {error} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginBottom": 5,
         }
       }
     >
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
             Object {},
           ]
         }
+        subtitle={false}
       />
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={3}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "lineHeight": 17,
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
             Object {
               "color": "#ef5160",
             },
           ]
         }
+        subtitle={false}
       >
         Hello World
       </Text>
@@ -324,7 +309,7 @@ exports[`<InputList> when {error} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -374,79 +359,64 @@ exports[`<InputList> when {hint} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginBottom": 5,
         }
       }
     >
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
             Object {},
           ]
         }
+        subtitle={false}
       />
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={3}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
               "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "lineHeight": 17,
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
             Object {},
           ]
         }
+        subtitle={false}
       >
         Hello World
       </Text>
@@ -473,7 +443,7 @@ exports[`<InputList> when {hint} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -536,7 +506,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -665,34 +635,30 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "marginLeft": 10,
               },
             ]
           }
+          subtitle={false}
         >
           one
         </Text>
@@ -856,34 +822,30 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "marginLeft": 10,
               },
             ]
           }
+          subtitle={false}
         >
           two
         </Text>
@@ -1047,34 +1009,30 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "marginLeft": 10,
               },
             ]
           }
+          subtitle={false}
         >
           three
         </Text>
@@ -1238,34 +1196,30 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "marginLeft": 10,
               },
             ]
           }
+          subtitle={false}
         >
           four
         </Text>
@@ -1429,34 +1383,30 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "marginLeft": 10,
               },
             ]
           }
+          subtitle={false}
         >
           five
         </Text>
@@ -1561,44 +1511,36 @@ exports[`<InputList> when {label} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginBottom": 5,
         }
       }
     >
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
             Object {},
           ]
         }
+        subtitle={false}
       >
         Hello World
       </Text>
@@ -1625,7 +1567,7 @@ exports[`<InputList> when {label} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -1691,7 +1633,7 @@ exports[`<InputList> when {style} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -1754,7 +1696,7 @@ exports[`<InputList> when {value} 1`] = `
             "borderWidth": 1,
             "color": "#4a4a4a",
             "fontSize": 16,
-            "fontWeight": "normal",
+            "fontWeight": "400",
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
             "width": "100%",
@@ -1808,39 +1750,30 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "flex": 1,
             },
           ]
         }
+        subtitle={false}
       >
         one
       </Text>
@@ -1928,39 +1861,30 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "flex": 1,
             },
           ]
         }
+        subtitle={false}
       >
         two
       </Text>
@@ -2048,39 +1972,30 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "flex": 1,
             },
           ]
         }
+        subtitle={false}
       >
         three
       </Text>
@@ -2168,39 +2083,30 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "flex": 1,
             },
           ]
         }
+        subtitle={false}
       >
         four
       </Text>
@@ -2288,39 +2194,30 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={2}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "flex": 1,
             },
           ]
         }
+        subtitle={false}
       >
         five
       </Text>

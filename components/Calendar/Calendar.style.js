@@ -2,7 +2,9 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, OFFSET, UNIT } = THEME;
+const {
+  COLOR, FONT, OFFSET, UNIT,
+} = THEME;
 const BOX_HEIGHT = UNIT * 3.6;
 
 export { BOX_HEIGHT };
@@ -73,6 +75,10 @@ export default StyleSheet.create({
   selectedEnd: {
     borderTopRightRadius: BOX_HEIGHT / 2,
     borderBottomRightRadius: BOX_HEIGHT / 2,
+  },
+
+  textBold: {
+    fontWeight: FONT.WEIGHT.BOLD,
   },
 
   today: {

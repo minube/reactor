@@ -5,8 +5,12 @@ exports[`<Link> renders 1`] = `
   accessibilityRole="link"
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
   href="http://minube.com"
+  level={1}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -14,26 +18,18 @@ exports[`<Link> renders 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
   }
+  subtitle={false}
 />
 `;
 
@@ -42,8 +38,12 @@ exports[`<Link> when {style} 1`] = `
   accessibilityRole="link"
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
   href="http://minube.com"
+  level={1}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -51,29 +51,21 @@ exports[`<Link> when {style} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {
         "fontSize": 20,
-        "fontWeight": "bold",
+        "fontWeight": "700",
       },
     ]
   }
+  subtitle={false}
   visible={true}
 />
 `;
@@ -83,8 +75,12 @@ exports[`<Link> when {styleHover} 1`] = `
   accessibilityRole="link"
   accessible={true}
   allowFontScaling={true}
+  body={true}
+  caption={false}
   ellipsizeMode="tail"
+  headline={false}
   href="http://minube.com"
+  level={1}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -92,22 +88,13 @@ exports[`<Link> when {styleHover} 1`] = `
       Object {
         "color": "#4a4a4a",
         "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
       },
-      false,
-      false,
-      false,
-      false,
       Object {
         "fontSize": 16,
-        "lineHeight": 20.8,
+        "lineHeight": 30,
       },
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
-      false,
       false,
       Object {},
     ]
@@ -115,9 +102,10 @@ exports[`<Link> when {styleHover} 1`] = `
   styleHover={
     Object {
       "fontSize": 20,
-      "fontWeight": "bold",
+      "fontWeight": "700",
     }
   }
+  subtitle={false}
   visible={true}
 />
 `;

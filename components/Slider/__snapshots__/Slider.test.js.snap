@@ -35,37 +35,31 @@ exports[`<Slider> when {caption} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      level={1}
+      small={true}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
-          false,
-          false,
-          false,
-          false,
           Object {
             "fontSize": 16,
-            "lineHeight": 20.8,
+            "lineHeight": 30,
           },
-          false,
-          Object {
-            "fontSize": 14,
-            "lineHeight": 16.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
           false,
           Object {
             "color": "#9b9b9b",
           },
         ]
       }
+      subtitle={false}
     >
       Hello World
     </Text>
@@ -215,43 +209,34 @@ exports[`<Slider> when {dataSource} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -412,43 +397,34 @@ exports[`<Slider> when {dataSource} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -627,43 +603,34 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -824,43 +791,34 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -1040,43 +998,34 @@ exports[`<Slider> when {momentum} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -1237,43 +1186,34 @@ exports[`<Slider> when {momentum} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -1747,43 +1687,34 @@ exports[`<Slider> when {steps} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -1944,43 +1875,34 @@ exports[`<Slider> when {steps} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -2165,43 +2087,34 @@ exports[`<Slider> when {style} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -2362,43 +2275,34 @@ exports[`<Slider> when {style} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  body={true}
+                  caption={false}
                   ellipsizeMode="tail"
+                  headline={true}
+                  level={4}
                   style={
                     Array [
                       Object {
                         "color": "#4a4a4a",
                         "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
                       },
-                      false,
-                      false,
                       Object {
-                        "fontWeight": "bold",
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -2,
+                        "lineHeight": 34,
                       },
-                      false,
-                      Object {
-                        "fontSize": 16,
-                        "lineHeight": 20.8,
-                      },
-                      false,
-                      false,
-                      Object {
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                      },
-                      false,
-                      false,
-                      false,
-                      false,
                       false,
                       Object {
                         "color": "#ffffff",
-                        "fontSize": 20,
-                        "lineHeight": 26,
-                        "marginBottom": 5,
                         "textAlign": "center",
                       },
                     ]
                   }
+                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -2459,37 +2363,30 @@ exports[`<Slider> when {title} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      bold={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      large={true}
+      level={1}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
-          false,
-          false,
-          Object {
-            "fontWeight": "bold",
-          },
-          false,
           Object {
             "fontSize": 16,
-            "lineHeight": 20.8,
+            "lineHeight": 30,
           },
-          false,
-          false,
-          Object {
-            "fontSize": 20,
-            "lineHeight": 26,
-          },
-          false,
-          false,
-          false,
-          false,
           false,
           Object {},
         ]
       }
+      subtitle={false}
     >
       Hello World
     </Text>

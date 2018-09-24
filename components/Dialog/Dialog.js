@@ -84,7 +84,7 @@ export default class Dialog extends PureComponent {
           <SafeAreaView style={styles.safeArea}>
             <View style={styles.header}>
               { title && (
-                <Text bold style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
+                <Text headline level={6} style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
                   {title}
                 </Text>)}
               { onClose && (

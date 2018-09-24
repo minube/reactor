@@ -43,20 +43,12 @@ const PictureCard = ({
         <View>
           { title
             && (
-            <Text
-              bold
-              large
-              style={[
-                styles.text,
-                styles.title,
-                title.length < SHORT_TITLE && LAYOUT.TEXT.SUBTITLE,
-              ]}
-            >
+            <Text headline level={title.length < SHORT_TITLE ? 4 : 5} style={styles.text}>
               {title}
             </Text>
             ) }
           { caption && (
-          <Text tiny style={styles.text}>
+          <Text caption style={styles.text}>
             {caption}
           </Text>
           ) }

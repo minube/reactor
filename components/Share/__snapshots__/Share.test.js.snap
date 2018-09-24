@@ -95,38 +95,34 @@ exports[`<Share> renders 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              Object {
-                "fontWeight": "600",
-              },
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "color": "#ffffff",
-                "fontSize": 14,
+                "fontFamily": undefined,
+                "fontSize": 16,
+                "letterSpacing": -0.4,
                 "marginLeft": 5,
               },
             ]
           }
+          subtitle={false}
         >
           Share
         </Text>

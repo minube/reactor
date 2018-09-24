@@ -11,7 +11,7 @@ const { COLOR } = THEME;
 const Switch = ({ label, onChange, ...inherit }) => (
   <View style={[styles.container, inherit.style]}>
     { label && (
-    <Text small lighten style={styles.label}>
+    <Text level={2} lighten style={styles.label}>
       {label}
     </Text>
     ) }

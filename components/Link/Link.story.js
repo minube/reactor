@@ -15,7 +15,7 @@ storiesOf('✅ Link', module)
   .addWithJSX('style', () => (
     <Link
       href="http://minube.com"
-      style={{ fontSize: THEME.FONT.SIZE.LARGE, fontWeight: THEME.FONT.WEIGHT.BOLD }}
+      style={{ fontSize: 20, fontWeight: THEME.FONT.WEIGHT.BOLD }}
       styleHover={{ color: 'red' }}
     >
       minube.com

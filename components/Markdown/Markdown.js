@@ -6,7 +6,7 @@ import { View } from 'react-native';
 
 import Text from '../Text';
 import { markdown, BOLD, ITALIC } from './modules';
-import style from './Markdown.style';
+import styles from './Markdown.style';
 
 const Markdown = ({
   children, styleContainer, ...inherit
@@ -23,11 +23,16 @@ const Markdown = ({
         </View>
       )
       : (
-        <View style={[style.container, styleContainer]}>
+        <View style={[styles.container, styleContainer]}>
           { sentences.map(({ value, type }, index) => {
             const key = `${type}${index}`;
             return (
-              <Text key={key} {...inherit} bold={type === BOLD} italic={type === ITALIC}>
+              <Text
+                key={key}
+                {...inherit}
+                bold={type === BOLD && styles.bold}
+                italic={type === ITALIC && styles.italic}
+              >
                 {value}
               </Text>
             );

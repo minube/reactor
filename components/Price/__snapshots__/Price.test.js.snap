@@ -13,68 +13,53 @@ exports[`<Price> renders 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={true}
   >
     0
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -85,6 +70,7 @@ exports[`<Price> renders 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     €
   </Text>
@@ -104,31 +90,24 @@ exports[`<Price> when {caption} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    large={true}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -139,74 +118,60 @@ exports[`<Price> when {caption} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     from
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={true}
   >
     0
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -217,6 +182,7 @@ exports[`<Price> when {caption} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     €
   </Text>
@@ -236,68 +202,53 @@ exports[`<Price> when {fixed} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={true}
   >
     19.12
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -308,6 +259,7 @@ exports[`<Price> when {fixed} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     €
   </Text>
@@ -327,75 +279,58 @@ exports[`<Price> when {style} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "orange",
-          "fontSize": 14,
         },
       ]
     }
+    subtitle={true}
   >
     19
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "color": "orange",
-          "fontSize": 14,
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -404,6 +339,7 @@ exports[`<Price> when {style} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     €
   </Text>
@@ -423,31 +359,23 @@ exports[`<Price> when {symbol} (left) 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -458,43 +386,37 @@ exports[`<Price> when {symbol} (left) 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     $
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={true}
   >
     4
   </Text>
@@ -514,68 +436,53 @@ exports[`<Price> when {symbol} (right) 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={true}
   >
     4
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -586,6 +493,7 @@ exports[`<Price> when {symbol} (right) 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     eur
   </Text>
@@ -605,68 +513,53 @@ exports[`<Price> when {value} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    bold={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
         Object {
           "fontSize": 20,
-          "lineHeight": 26,
+          "fontWeight": "600",
+          "lineHeight": 22,
         },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
+    subtitle={true}
   >
     20
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
+    body={true}
+    caption={false}
     ellipsizeMode="tail"
+    headline={false}
+    level={1}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -677,6 +570,7 @@ exports[`<Price> when {value} 1`] = `
         },
       ]
     }
+    subtitle={false}
   >
     €
   </Text>

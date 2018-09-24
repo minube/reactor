@@ -77,7 +77,7 @@ describe('<Text>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Text style={{ fontSize: THEME.FONT.SIZE.LARGE, color: 'orange' }}>Hello World</Text>).toJSON();
+    const tree = renderer.create(<Text style={{ color: 'orange' }}>Hello World</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

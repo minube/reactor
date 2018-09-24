@@ -415,31 +415,23 @@ exports[`<PictureCard> when {caption} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={true}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
               Object {
                 "fontSize": 12,
-                "lineHeight": 14.399999999999999,
+                "lineHeight": 16,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "color": "#ffffff",
@@ -447,6 +439,7 @@ exports[`<PictureCard> when {caption} 1`] = `
               },
             ]
           }
+          subtitle={false}
         >
           Hello world
         </Text>
@@ -1204,41 +1197,34 @@ exports[`<PictureCard> when {title} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={true}
+          level={5}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "fontWeight": "bold",
-              },
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              Object {
-                "fontSize": 20,
+                "fontFamily": undefined,
+                "fontSize": 24,
+                "fontWeight": "700",
+                "letterSpacing": -1.5,
                 "lineHeight": 26,
               },
               false,
-              false,
-              false,
-              false,
-              false,
               Object {
                 "color": "#ffffff",
-                "marginBottom": 5,
                 "textAlign": "center",
               },
             ]
           }
+          subtitle={false}
         >
           Hello world
         </Text>

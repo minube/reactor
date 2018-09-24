@@ -1,7 +1,7 @@
 import { Platform, StyleSheet } from 'react-native';
 import THEME from '../../theme';
 
-const { COLOR, FONT, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 
 export default {
   CENTERED: {
@@ -46,13 +46,5 @@ export default {
     cardWidthSmall: { width: UNIT * 15 },
     cardWidthRegular: { width: UNIT * 16.8 },
     cardWidthDefault: { width: UNIT * 23.6 },
-
-    textGnome: { fontSize: FONT.SIZE.GNOME, lineHeight: FONT.SIZE.GNOME * 1.2 },
-    textTiny: { fontSize: FONT.SIZE.TINY, lineHeight: FONT.SIZE.TINY * 1.2 },
-    textSmall: { fontSize: FONT.SIZE.SMALL, lineHeight: FONT.SIZE.SMALL * 1.2 },
-    textRegular: { fontSize: FONT.SIZE.REGULAR, lineHeight: FONT.SIZE.REGULAR * 1.3 },
-    textLarge: { fontSize: FONT.SIZE.LARGE, lineHeight: FONT.SIZE.LARGE * 1.3 },
-    textSubtitle: { fontSize: FONT.SIZE.SUBTITLE, lineHeight: FONT.SIZE.SUBTITLE * 1.3 },
-    textTitle: { fontSize: FONT.SIZE.TITLE, lineHeight: FONT.SIZE.TITLE * 1.3 },
   }),
 };

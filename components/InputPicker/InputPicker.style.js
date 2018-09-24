@@ -39,7 +39,7 @@ export default StyleSheet.create({
       },
     }),
     // @TODO: How we can set size and weight
-    // fontSize: FONT.SIZE.REGULAR,
+    // fontSize: UNIT * 1.6,
     // fontWeight: FONT.WEIGHT.REGULAR,
     // ...Platform.select({
     //   web: {

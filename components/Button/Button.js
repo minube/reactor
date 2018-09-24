@@ -52,13 +52,11 @@ const Button = ({
         { title
           && (
           <Text
-            semibold
             color={isSolid ? WHITE : color || TEXT_LIGHTEN}
             style={[
-              styles.textNoPointerEvent,
               styles.text,
               small && styles.textSmall,
-              responsive && !small && LAYOUT.TEXT.SMALL,
+              responsive && !small && styles.textSmall,
               (activity || icon) && styles.textMarginLeft,
             ]}
           >

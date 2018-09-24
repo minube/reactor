@@ -138,81 +138,66 @@ exports[`<InputPicker> when {error} 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "justifyContent": "space-between",
-        "marginBottom": 5,
       }
     }
   >
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      level={2}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
           Object {
             "fontSize": 14,
-            "lineHeight": 16.8,
+            "lineHeight": 24,
           },
-          false,
-          false,
-          false,
           Object {
             "color": "#9b9b9b",
           },
-          false,
-          false,
           Object {},
         ]
       }
+      subtitle={false}
     />
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      level={3}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
-            "lineHeight": 14.399999999999999,
+            "lineHeight": 17,
           },
-          false,
-          false,
-          false,
-          false,
           Object {
             "color": "#9b9b9b",
           },
-          false,
-          false,
           Object {
             "color": "#ef5160",
           },
         ]
       }
+      subtitle={false}
     >
       Hello World
     </Text>
@@ -285,79 +270,64 @@ exports[`<InputPicker> when {hint} 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "justifyContent": "space-between",
-        "marginBottom": 5,
       }
     }
   >
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      level={2}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
           Object {
             "fontSize": 14,
-            "lineHeight": 16.8,
+            "lineHeight": 24,
           },
-          false,
-          false,
-          false,
           Object {
             "color": "#9b9b9b",
           },
-          false,
-          false,
           Object {},
         ]
       }
+      subtitle={false}
     />
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      level={3}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
           Object {
             "fontSize": 12,
-            "lineHeight": 14.399999999999999,
+            "lineHeight": 17,
           },
-          false,
-          false,
-          false,
-          false,
           Object {
             "color": "#9b9b9b",
           },
-          false,
-          false,
           Object {},
         ]
       }
+      subtitle={false}
     >
       Hello World
     </Text>
@@ -428,44 +398,36 @@ exports[`<InputPicker> when {label} 1`] = `
         "display": "flex",
         "flexDirection": "row",
         "justifyContent": "space-between",
-        "marginBottom": 5,
       }
     }
   >
     <Text
       accessible={true}
       allowFontScaling={true}
+      body={true}
+      caption={false}
       ellipsizeMode="tail"
+      headline={false}
+      level={2}
       style={
         Array [
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
           },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
           Object {
             "fontSize": 14,
-            "lineHeight": 16.8,
+            "lineHeight": 24,
           },
-          false,
-          false,
-          false,
           Object {
             "color": "#9b9b9b",
           },
-          false,
-          false,
           Object {},
         ]
       }
+      subtitle={false}
     >
       Hello World
     </Text>

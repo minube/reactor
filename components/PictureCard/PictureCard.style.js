@@ -35,8 +35,4 @@ export default StyleSheet.create({
     color: COLOR.WHITE,
     textAlign: 'center',
   },
-
-  title: {
-    marginBottom: UNIT / 2,
-  },
 });

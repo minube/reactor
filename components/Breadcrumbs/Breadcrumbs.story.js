@@ -6,7 +6,7 @@ import { color, object } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import Breadcrumbs from './Breadcrumbs';
 
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: THEME.OFFSET,  fontSize: THEME.FONT.SIZE.REGULAR };
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: THEME.OFFSET };
 
 const dataSource = [
   { caption: 'Spain', href: '/' },

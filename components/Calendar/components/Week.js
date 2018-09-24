@@ -68,10 +68,10 @@ const Week = ({
             ]}
           >
             <Text
-              small
-              semibold={isToday || isSelected}
+              level={3}
               style={[
                 isToday && styles.today,
+                (isToday || isSelected) && styles.textBold,
                 (day.getMonth() !== month || isDisabled) && styles.disabled,
                 isSelected && styles.highlight,
               ]}

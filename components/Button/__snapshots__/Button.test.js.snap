@@ -185,38 +185,34 @@ exports[`<Button> when {activity} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
               "marginLeft": 5,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -332,68 +328,53 @@ exports[`<Button> when {children} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          bold={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              Object {
-                "fontWeight": "bold",
-              },
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
               Object {
                 "fontSize": 20,
-                "lineHeight": 26,
+                "fontWeight": "600",
+                "lineHeight": 22,
               },
-              false,
-              false,
-              false,
-              false,
               false,
               Object {},
             ]
           }
+          subtitle={true}
         >
           10
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
+          body={true}
+          caption={false}
           ellipsizeMode="tail"
+          headline={false}
+          level={1}
           style={
             Array [
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
+                "lineHeight": 30,
               },
-              false,
-              false,
-              Object {
-                "fontSize": 20,
-                "lineHeight": 26,
-              },
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "transform": Array [
@@ -404,6 +385,7 @@ exports[`<Button> when {children} 1`] = `
               },
             ]
           }
+          subtitle={false}
         >
           €
         </Text>
@@ -511,37 +493,33 @@ exports[`<Button> when {color} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -648,37 +626,33 @@ exports[`<Button> when {contained} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -789,37 +763,33 @@ exports[`<Button> when {disabled} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -947,38 +917,34 @@ exports[`<Button> when {icon} & {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
               "marginLeft": 5,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -1207,37 +1173,33 @@ exports[`<Button> when {outlined} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#9b9b9b",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -1344,37 +1306,33 @@ exports[`<Button> when {primary} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -1481,38 +1439,33 @@ exports[`<Button> when {responsive} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
+              "fontFamily": undefined,
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "letterSpacing": -0.3,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -1623,37 +1576,33 @@ exports[`<Button> when {rounded} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -1762,37 +1711,33 @@ exports[`<Button> when {secondary} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -1903,37 +1848,33 @@ exports[`<Button> when {small} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 12,
+              "fontFamily": undefined,
+              "fontSize": 14,
+              "letterSpacing": -0.3,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -2042,37 +1983,33 @@ exports[`<Button> when {style} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>
@@ -2179,37 +2116,33 @@ exports[`<Button> when {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        body={true}
+        caption={false}
         ellipsizeMode="tail"
+        headline={false}
+        level={1}
         style={
           Array [
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            Object {
-              "fontWeight": "600",
-            },
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
+              "lineHeight": 30,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#ffffff",
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "letterSpacing": -0.4,
             },
           ]
         }
+        subtitle={false}
       >
         Press me
       </Text>

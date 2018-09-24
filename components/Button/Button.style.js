@@ -61,7 +61,10 @@ export default StyleSheet.create({
   row: LAYOUT.STYLE.ROW,
 
   // -- Text
-  textNoPointerEvent: {
+  text: {
+    fontFamily: FONT.FAMILY_SECONDARY,
+    fontSize: UNIT * 1.6,
+    letterSpacing: UNIT * -0.04,
     ...Platform.select({
       web: {
         userSelect: 'none',
@@ -69,12 +72,10 @@ export default StyleSheet.create({
     }),
   },
 
-  text: {
-    fontSize: FONT.SIZE.SMALL,
-  },
-
   textSmall: {
-    fontSize: FONT.SIZE.TINY,
+    fontFamily: FONT.FAMILY_SECONDARY,
+    fontSize: UNIT * 1.4,
+    letterSpacing: UNIT * -0.03,
   },
 
   textMarginLeft: {

@@ -6,43 +6,56 @@ import { THEME } from '../../common';
 import Text from './Text';
 
 const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+const style = {
+  backgroundColor: 'rgba(0,255,0,0.25)',
+  padding: 10,
+};
 
 storiesOf('✅ Text', module)
   .addWithJSX('default', () => (
     <Text>Hello World</Text>
   ))
-  .addWithJSX('tiny', () => (
-    <Text tiny>Hello World</Text>
+  .addWithJSX('headline (0)', () => (
+    <Text headline level={0}>Hello World</Text>
   ))
-  .addWithJSX('small', () => (
-    <Text small>Hello World</Text>
+  .addWithJSX('headline (1)', () => (
+    <Text headline level={1}>Hello World</Text>
   ))
-  .addWithJSX('large', () => (
-    <Text large>Hello World</Text>
+  .addWithJSX('headline (2)', () => (
+    <Text headline level={2}>Hello World</Text>
   ))
-  .addWithJSX('subtitle', () => (
-    <Text subtitle>Hello World</Text>
+  .addWithJSX('headline (3)', () => (
+    <Text headline level={3}>Hello World</Text>
   ))
-  .addWithJSX('title', () => (
-    <Text title>Hello World</Text>
+  .addWithJSX('headline (4)', () => (
+    <Text headline level={4}>Hello World</Text>
   ))
-  .addWithJSX('lighter', () => (
-    <Text lighter>Hello World</Text>
+  .addWithJSX('headline (5)', () => (
+    <Text headline level={5}>Hello World</Text>
   ))
-  .addWithJSX('semibold', () => (
-    <Text semibold>Hello World</Text>
+  .addWithJSX('headline (6)', () => (
+    <Text headline level={6}>Hello World</Text>
   ))
-  .addWithJSX('bold', () => (
-    <Text bold>Hello World</Text>
+  .addWithJSX('subtitle (1)', () => (
+    <Text subtitle level={1}>Hello World</Text>
   ))
-  .addWithJSX('italic', () => (
-    <Text italic>Hello World</Text>
+  .addWithJSX('subtitle (2)', () => (
+    <Text subtitle level={2}>Hello World</Text>
   ))
-  .addWithJSX('primary', () => (
-    <Text primary>Hello World</Text>
+  .addWithJSX('subtitle (3)', () => (
+    <Text subtitle level={3}>Hello World</Text>
   ))
-  .addWithJSX('secondary', () => (
-    <Text secondary>Hello World</Text>
+  .addWithJSX('body (1)', () => (
+    <Text body level={1}>Hello World</Text>
+  ))
+  .addWithJSX('body (2)', () => (
+    <Text body level={2}>Hello World</Text>
+  ))
+  .addWithJSX('body (3)', () => (
+    <Text body level={3}>Hello World</Text>
+  ))
+  .addWithJSX('caption', () => (
+    <Text body caption>Hello World</Text>
   ))
   .addWithJSX('lighten', () => (
     <Text lighten>Hello World</Text>
@@ -50,30 +63,18 @@ storiesOf('✅ Text', module)
   .addWithJSX('color', () => (
     <Text color={THEME.COLOR.ERROR}>Hello World</Text>
   ))
-  .addWithJSX('numberOfLines', () => (
-    <LayoutView>
-      <Text small numberOfLines={2}>{LIPSUM}</Text>
-    </LayoutView>
-  ))
   .addWithJSX('style', () => (
-    <Text style={{ backgroundColor: 'blue', color: 'orange' }}>Customized Text</Text>
+    <Text style={style}>Customized Text</Text>
   ))
   .addWithJSX('🏀 Playground', () => (
     <Text
-      lighter={boolean('lighter', false)}
-      semibold={boolean('semibold', false)}
-      bold={boolean('bold', false)}
-      italic={boolean('italic', false)}
-      color={color('color', THEME.COLOR.TEXT)}
-      small={boolean('small', false)}
-      tiny={boolean('tiny', false)}
-      large={boolean('large', false)}
+      headline={boolean('headline', false)}
       subtitle={boolean('subtitle', false)}
-      title={boolean('title', false)}
-      secondary={boolean('secondary', false)}
+      body={boolean('body', true)}
+      caption={boolean('caption', false)}
+      level={number('level', 1)}
+      color={color('color', THEME.COLOR.TEXT)}
       lighten={boolean('lighten', false)}
-      primary={boolean('primary', false)}
-      numberOfLines={number('numberOfLines', 1)}
     >
       {text('content', LIPSUM)}
     </Text>

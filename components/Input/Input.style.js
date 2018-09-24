@@ -15,7 +15,7 @@ export default StyleSheet.create({
     borderWidth: 1,
     borderRadius: UNIT / 4,
     color: COLOR.TEXT,
-    fontSize: FONT.SIZE.REGULAR,
+    fontSize: UNIT * 1.6,
     fontWeight: FONT.WEIGHT.REGULAR,
     paddingVertical: UNIT * 0.75,
     paddingHorizontal: UNIT * 0.5,

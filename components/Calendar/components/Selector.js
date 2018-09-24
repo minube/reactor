@@ -13,15 +13,15 @@ const Selector = ({
 }) => (
   <View style={styles.row}>
     <Touchable onPress={onPrevious} style={styles.box}>
-      <Text large>
+      <Text>
         {'◀'}
       </Text>
     </Touchable>
-    <Text bold style={styles.month}>
+    <Text headline level={6} style={styles.month}>
       {`${locale[state.month]} ${state.year}`}
     </Text>
     <Touchable onPress={onNext} style={styles.box}>
-      <Text large>
+      <Text>
         {'▶'}
       </Text>
     </Touchable>

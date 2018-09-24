@@ -7,7 +7,6 @@ import { Picker, View } from 'react-native';
 import { InputLabel } from '../Input';
 import styles from './InputPicker.style';
 
-
 class InputPicker extends PureComponent {
   static propTypes = {
     dataSource: arrayOf(string),

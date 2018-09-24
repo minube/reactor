@@ -20,18 +20,18 @@ const ListingCard = ({
         <PictureCard {...inherit} styleContainer={null} />
         <View style={styles.content}>
           { category && (
-          <Text lighten tiny>
+          <Text lighten caption>
             {category}
           </Text>
           ) }
           { title && (
-          <Text bold small numberOfLines={1} ellipsizeMode="tail" style={styles.title}>
+          <Text subtitle level={3} numberOfLines={1} ellipsizeMode="tail" style={styles.title}>
             {title}
           </Text>
           ) }
           { rating.value && <Rating {...rating} style={styles.rating} /> }
           { description && (
-          <Text lighten tiny numberOfLines={3} ellipsizeMode="tail">
+          <Text lighten caption numberOfLines={3} ellipsizeMode="tail">
             {description}
           </Text>
           ) }
