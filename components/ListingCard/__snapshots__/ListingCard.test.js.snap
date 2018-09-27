@@ -659,6 +659,7 @@ exports[`<ListingCard> when {children} 1`] = `
                     "color": "#ffffff",
                     "fontFamily": undefined,
                     "fontSize": 14,
+                    "fontWeight": "600",
                     "letterSpacing": -0.3,
                   },
                 ]

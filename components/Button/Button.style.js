@@ -64,6 +64,7 @@ export default StyleSheet.create({
   text: {
     fontFamily: FONT.FAMILY_SECONDARY,
     fontSize: UNIT * 1.6,
+    fontWeight: FONT.WEIGHT.SEMIBOLD,
     letterSpacing: UNIT * -0.04,
     ...Platform.select({
       web: {

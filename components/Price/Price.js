@@ -13,11 +13,9 @@ const Price = ({
 }) => (
   <View style={styles.container}>
     { caption && (
-    <Text headline level={6} style={[styles.minimize, inherit.style]}>
-      {caption}
-    </Text>
-    ) }
-
+      <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
+        {caption}
+      </Text>)}
     { LEFT_SYMBOLS.includes(symbol) && (
       <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
         {symbol}

@@ -3,8 +3,9 @@ import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { number, text } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import Price from './Price';
+
+const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
 
 storiesOf('✅ Price', module)
   .addWithJSX('default', () => (
@@ -29,7 +30,7 @@ storiesOf('✅ Price', module)
     <Price title primary />
   ))
   .addWithJSX('style', () => (
-    <Price style={{ fontWeight: 'bold', fontSize: 20, color: THEME.COLOR.SECONDARY }} />
+    <Price style={STYLE} />
   ))
   .addWithJSX('🏀 Playground', () => (
     <Price
@@ -37,6 +38,7 @@ storiesOf('✅ Price', module)
       fixed={number('fixed', 2)}
       value={number('value', 64)}
       symbol={text('symbol', '€')}
+      style={object('style', STYLE)}
     />
   ));
 

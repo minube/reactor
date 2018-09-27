@@ -117,6 +117,7 @@ exports[`<Share> renders 1`] = `
                 "color": "#ffffff",
                 "fontFamily": undefined,
                 "fontSize": 16,
+                "fontWeight": "600",
                 "letterSpacing": -0.4,
                 "marginLeft": 5,
               },

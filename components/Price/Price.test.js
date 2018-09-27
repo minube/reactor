@@ -4,6 +4,9 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import Price from './Price';
 
+const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
+const VALUE = 19.1234;
+
 describe('<Price>', () => {
   it('renders', () => {
     const tree = renderer.create(<Price />).toJSON();
@@ -16,12 +19,12 @@ describe('<Price>', () => {
   });
 
   it('when {value}', () => {
-    const tree = renderer.create(<Price value={19.95} />).toJSON();
+    const tree = renderer.create(<Price value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {fixed}', () => {
-    const tree = renderer.create(<Price fixed={2} value={19.1234} />).toJSON();
+    const tree = renderer.create(<Price fixed={2} value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -36,7 +39,7 @@ describe('<Price>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Price style={{ color: 'orange' }} value={19.1234} />).toJSON();
+    const tree = renderer.create(<Price style={STYLE} value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

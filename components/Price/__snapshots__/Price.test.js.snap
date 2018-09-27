@@ -319,7 +319,9 @@ exports[`<Price> when {style} 1`] = `
         },
         false,
         Object {
-          "color": "orange",
+          "color": "green",
+          "fontSize": 32,
+          "fontWeight": 800,
         },
       ]
     }
@@ -352,8 +354,9 @@ exports[`<Price> when {style} 1`] = `
         },
         false,
         Object {
-          "color": "orange",
-          "fontWeight": "600",
+          "color": "green",
+          "fontSize": 32,
+          "fontWeight": 800,
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -572,7 +575,7 @@ exports[`<Price> when {value} 1`] = `
     }
     subtitle={false}
   >
-    20
+    19
   </Text>
   <Text
     accessible={true}

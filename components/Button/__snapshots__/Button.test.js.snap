@@ -207,6 +207,7 @@ exports[`<Button> when {activity} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
               "marginLeft": 5,
             },
@@ -329,11 +330,10 @@ exports[`<Button> when {children} 1`] = `
           accessible={true}
           allowFontScaling={true}
           body={true}
-          bold={true}
           caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
+          headline={true}
+          level={6}
           style={
             Array [
               Object {
@@ -343,15 +343,17 @@ exports[`<Button> when {children} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
+                "fontFamily": undefined,
                 "fontSize": 20,
-                "fontWeight": "600",
+                "fontWeight": "700",
+                "letterSpacing": -1.2,
                 "lineHeight": 22,
               },
               false,
               Object {},
             ]
           }
-          subtitle={true}
+          subtitle={false}
         >
           10
         </Text>
@@ -361,8 +363,8 @@ exports[`<Button> when {children} 1`] = `
           body={true}
           caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
+          headline={true}
+          level={6}
           style={
             Array [
               Object {
@@ -372,11 +374,15 @@ exports[`<Button> when {children} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 30,
+                "fontFamily": undefined,
+                "fontSize": 20,
+                "fontWeight": "700",
+                "letterSpacing": -1.2,
+                "lineHeight": 22,
               },
               false,
               Object {
+                "fontWeight": "600",
                 "transform": Array [
                   Object {
                     "scale": 0.8,
@@ -515,6 +521,7 @@ exports[`<Button> when {color} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -648,6 +655,7 @@ exports[`<Button> when {contained} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -785,6 +793,7 @@ exports[`<Button> when {disabled} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -939,6 +948,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
               "marginLeft": 5,
             },
@@ -1195,6 +1205,7 @@ exports[`<Button> when {outlined} 1`] = `
               "color": "#9b9b9b",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -1328,6 +1339,7 @@ exports[`<Button> when {primary} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -1461,6 +1473,7 @@ exports[`<Button> when {responsive} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 14,
+              "fontWeight": "600",
               "letterSpacing": -0.3,
             },
           ]
@@ -1598,6 +1611,7 @@ exports[`<Button> when {rounded} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -1733,6 +1747,7 @@ exports[`<Button> when {secondary} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -1870,6 +1885,7 @@ exports[`<Button> when {small} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 14,
+              "fontWeight": "600",
               "letterSpacing": -0.3,
             },
           ]
@@ -2005,6 +2021,7 @@ exports[`<Button> when {style} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
@@ -2138,6 +2155,7 @@ exports[`<Button> when {title} 1`] = `
               "color": "#ffffff",
               "fontFamily": undefined,
               "fontSize": 16,
+              "fontWeight": "600",
               "letterSpacing": -0.4,
             },
           ]
