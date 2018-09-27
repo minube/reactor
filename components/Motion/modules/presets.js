@@ -10,6 +10,17 @@ export default {
     ],
   },
 
+  FADELEFT: {
+    IN: [
+      { property: 'opacity', value: 1 },
+      { property: 'translateX', value: 0 },
+    ],
+    OUT: [
+      { property: 'opacity', value: 0 },
+      { property: 'translateX', value: 32 },
+    ],
+  },
+
   POP: {
     IN: [
       { property: 'opacity', value: 1 },

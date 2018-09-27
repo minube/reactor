@@ -40,7 +40,7 @@ storiesOf('✅ Motion', module)
       disabled={boolean('disabled', false)}
       duration={number('duration', 225)}
       style={object('style', STYLE)}
-      preset={select('preset', [undefined, 'fade', 'pop'], undefined)}
+      preset={select('preset', [undefined, 'fade', 'fadeleft', 'pop'], undefined)}
       timeline={object('timeline', TIMELINE)}
       type={select('type', ['spring', 'timing'], 'spring')}
       useNativeDriver={boolean('useNativeDriver', true)}

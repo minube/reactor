@@ -1,7 +1,7 @@
 import buildStyle from './buildStyle';
-import PRESETS from './presets';
+import presetVisibility from './presetVisibility';
 
 export {
   buildStyle,
-  PRESETS,
+  presetVisibility,
 };

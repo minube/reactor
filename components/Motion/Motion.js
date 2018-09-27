@@ -5,14 +5,9 @@ import { createElement, PureComponent } from 'react';
 import { Animated, View } from 'react-native';
 
 import { ENV, SHAPE, THEME } from '../../common';
-import { buildStyle, PRESETS } from './modules';
+import { buildStyle, presetVisibility } from './modules';
 
 const { IS_WEB } = ENV;
-const presetVisibility = (preset, visible) => {
-  const { IN, OUT } = PRESETS[preset.toUpperCase()] || PRESETS.POP;
-  return visible ? IN : OUT;
-};
-
 const { MOTION } = THEME;
 
 class Motion extends PureComponent {
@@ -21,7 +16,7 @@ class Motion extends PureComponent {
     delay: number,
     disabled: bool,
     duration: number,
-    preset: oneOf(['fade', 'pop']),
+    preset: oneOf(['fade', 'fadeleft', 'pop']),
     timeline: arrayOf(shape(SHAPE.MOTION)),
     type: string,
     useNativeDriver: bool,
