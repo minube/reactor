@@ -9,32 +9,26 @@ import styles from './Price.style';
 const LEFT_SYMBOLS = ['$'];
 
 const Price = ({
-  caption, fixed, symbol, value,
-  large = value < 1000, // eslint-disable-line
-  ...inherit
+  caption, fixed, symbol, value, ...inherit
 }) => (
   <View style={styles.container}>
     { caption && (
-    <Text large style={[styles.minimize, inherit.style]}>
+    <Text headline level={6} style={[styles.minimize, inherit.style]}>
       {caption}
     </Text>
     ) }
 
-    { LEFT_SYMBOLS.includes(symbol)
-      && (
-      <Text {...inherit} style={[styles.minimize, inherit.style]}>
+    { LEFT_SYMBOLS.includes(symbol) && (
+      <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
         {symbol}
-      </Text>
-      ) }
-    <Text subtitle level={large ? 1 : 2} bold {...inherit} style={inherit.style}>
+      </Text>)}
+    <Text headline level={6} {...inherit} style={inherit.style}>
       {format(value, fixed)}
     </Text>
-    { !LEFT_SYMBOLS.includes(symbol)
-      && (
-      <Text {...inherit} style={[styles.minimize, inherit.style]}>
+    { !LEFT_SYMBOLS.includes(symbol) && (
+      <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
         {symbol}
-      </Text>
-      ) }
+      </Text>)}
   </View>
 );
 

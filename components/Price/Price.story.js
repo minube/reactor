@@ -25,12 +25,6 @@ storiesOf('✅ Price', module)
   .addWithJSX('symbol (right)', () => (
     <Price value={4} symbol="eur" />
   ))
-  .addWithJSX('fontSize auto-adjust', () => (
-    <View>
-      <Price value={32} symbol="$" />
-      <Price value={1024} symbol="$" />
-    </View>
-  ))
   .addWithJSX('inherit <Text> properties', () => (
     <Price title primary />
   ))

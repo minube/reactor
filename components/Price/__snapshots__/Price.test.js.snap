@@ -14,11 +14,10 @@ exports[`<Price> renders 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -28,15 +27,17 @@ exports[`<Price> renders 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
         Object {},
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     0
   </Text>
@@ -46,8 +47,8 @@ exports[`<Price> renders 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -57,11 +58,15 @@ exports[`<Price> renders 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -93,9 +98,8 @@ exports[`<Price> when {caption} 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    large={true}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -105,11 +109,15 @@ exports[`<Price> when {caption} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -126,11 +134,10 @@ exports[`<Price> when {caption} 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -140,15 +147,17 @@ exports[`<Price> when {caption} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
         Object {},
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     0
   </Text>
@@ -158,8 +167,8 @@ exports[`<Price> when {caption} 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -169,11 +178,15 @@ exports[`<Price> when {caption} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -203,11 +216,10 @@ exports[`<Price> when {fixed} 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -217,15 +229,17 @@ exports[`<Price> when {fixed} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
         Object {},
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     19.12
   </Text>
@@ -235,8 +249,8 @@ exports[`<Price> when {fixed} 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -246,11 +260,15 @@ exports[`<Price> when {fixed} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -280,11 +298,10 @@ exports[`<Price> when {style} 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -294,8 +311,10 @@ exports[`<Price> when {style} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
@@ -304,7 +323,7 @@ exports[`<Price> when {style} 1`] = `
         },
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     19
   </Text>
@@ -314,8 +333,8 @@ exports[`<Price> when {style} 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -325,12 +344,16 @@ exports[`<Price> when {style} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
           "color": "orange",
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -362,8 +385,8 @@ exports[`<Price> when {symbol} (left) 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -373,11 +396,15 @@ exports[`<Price> when {symbol} (left) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -394,11 +421,10 @@ exports[`<Price> when {symbol} (left) 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -408,15 +434,17 @@ exports[`<Price> when {symbol} (left) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
         Object {},
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     4
   </Text>
@@ -437,11 +465,10 @@ exports[`<Price> when {symbol} (right) 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -451,15 +478,17 @@ exports[`<Price> when {symbol} (right) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
         Object {},
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     4
   </Text>
@@ -469,8 +498,8 @@ exports[`<Price> when {symbol} (right) 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -480,11 +509,15 @@ exports[`<Price> when {symbol} (right) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -514,11 +547,10 @@ exports[`<Price> when {value} 1`] = `
     accessible={true}
     allowFontScaling={true}
     body={true}
-    bold={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -528,15 +560,17 @@ exports[`<Price> when {value} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 20,
-          "fontWeight": "600",
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
           "lineHeight": 22,
         },
         false,
         Object {},
       ]
     }
-    subtitle={true}
+    subtitle={false}
   >
     20
   </Text>
@@ -546,8 +580,8 @@ exports[`<Price> when {value} 1`] = `
     body={true}
     caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
+    headline={true}
+    level={6}
     style={
       Array [
         Object {
@@ -557,11 +591,15 @@ exports[`<Price> when {value} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 16,
-          "lineHeight": 30,
+          "fontFamily": undefined,
+          "fontSize": 20,
+          "fontWeight": "700",
+          "letterSpacing": -1.2,
+          "lineHeight": 22,
         },
         false,
         Object {
+          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
