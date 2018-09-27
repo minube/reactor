@@ -353,11 +353,7 @@ exports[`<ListingCard> when {category} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -376,7 +372,6 @@ exports[`<ListingCard> when {category} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         Hello world
       </Text>
@@ -637,11 +632,7 @@ exports[`<ListingCard> when {children} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={1}
               style={
                 Array [
                   Object {
@@ -664,7 +655,6 @@ exports[`<ListingCard> when {children} 1`] = `
                   },
                 ]
               }
-              subtitle={false}
             >
               15 Actividades
             </Text>
@@ -883,11 +873,7 @@ exports[`<ListingCard> when {description} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         numberOfLines={3}
         style={
           Array [
@@ -907,7 +893,6 @@ exports[`<ListingCard> when {description} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         Hello world
       </Text>
@@ -1278,11 +1263,7 @@ exports[`<ListingCard> when {rating} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1302,18 +1283,13 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           ★
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1333,18 +1309,13 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           ★
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1364,18 +1335,13 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           ★
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1395,18 +1361,13 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           ★
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1426,18 +1387,13 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           ☆
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={true}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1456,7 +1412,6 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
            (12)
         </Text>
@@ -1826,11 +1781,7 @@ exports[`<ListingCard> when {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={3}
         numberOfLines={1}
         style={
           Array [
@@ -1851,7 +1802,6 @@ exports[`<ListingCard> when {title} 1`] = `
             },
           ]
         }
-        subtitle={true}
       >
         Hello world
       </Text>

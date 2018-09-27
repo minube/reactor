@@ -24,11 +24,7 @@ exports[`<Heading> renders 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -50,7 +46,6 @@ exports[`<Heading> renders 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -92,11 +87,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -118,7 +109,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -146,12 +136,8 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         accessibilityRole="link"
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
         href="/"
-        level={2}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -174,7 +160,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Turismo ·
       </Text>
@@ -182,12 +167,8 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         accessibilityRole="link"
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
         href="/"
-        level={2}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -210,7 +191,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Gran Bretaña ·
       </Text>
@@ -218,12 +198,8 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         accessibilityRole="link"
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
         href="/"
-        level={2}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -246,7 +222,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Inglaterra ·
       </Text>
@@ -254,12 +229,8 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         accessibilityRole="link"
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
         href="/"
-        level={2}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         onPress={[Function]}
@@ -282,7 +253,6 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Londres
       </Text>
@@ -315,11 +285,7 @@ exports[`<Heading> when {color} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -342,7 +308,6 @@ exports[`<Heading> when {color} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -377,11 +342,7 @@ exports[`<Heading> when {column} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -403,7 +364,6 @@ exports[`<Heading> when {column} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -419,11 +379,7 @@ exports[`<Heading> when {column} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -442,18 +398,13 @@ exports[`<Heading> when {column} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -472,18 +423,13 @@ exports[`<Heading> when {column} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -502,18 +448,13 @@ exports[`<Heading> when {column} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -532,18 +473,13 @@ exports[`<Heading> when {column} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -562,18 +498,13 @@ exports[`<Heading> when {column} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ☆
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -590,18 +521,13 @@ exports[`<Heading> when {column} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
          4.5/5
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -618,7 +544,6 @@ exports[`<Heading> when {column} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
          (12 valoraciones)
       </Text>
@@ -640,11 +565,7 @@ exports[`<Heading> when {column} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -661,18 +582,13 @@ exports[`<Heading> when {column} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         128
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -689,7 +605,6 @@ exports[`<Heading> when {column} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
          colaborators
       </Text>
@@ -944,11 +859,7 @@ exports[`<Heading> when {contributors} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -970,7 +881,6 @@ exports[`<Heading> when {contributors} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -999,11 +909,7 @@ exports[`<Heading> when {contributors} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1020,18 +926,13 @@ exports[`<Heading> when {contributors} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         128
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1048,7 +949,6 @@ exports[`<Heading> when {contributors} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
          colaborators
       </Text>
@@ -1303,11 +1203,7 @@ exports[`<Heading> when {rating} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -1329,7 +1225,6 @@ exports[`<Heading> when {rating} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -1345,11 +1240,7 @@ exports[`<Heading> when {rating} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1368,18 +1259,13 @@ exports[`<Heading> when {rating} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1398,18 +1284,13 @@ exports[`<Heading> when {rating} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1428,18 +1309,13 @@ exports[`<Heading> when {rating} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1458,18 +1334,13 @@ exports[`<Heading> when {rating} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ★
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1488,18 +1359,13 @@ exports[`<Heading> when {rating} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         ☆
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1516,18 +1382,13 @@ exports[`<Heading> when {rating} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
          4.5/5
       </Text>
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={true}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1544,7 +1405,6 @@ exports[`<Heading> when {rating} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
          (12 valoraciones)
       </Text>
@@ -1590,11 +1450,7 @@ exports[`<Heading> when {style} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -1616,7 +1472,6 @@ exports[`<Heading> when {style} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -1658,11 +1513,7 @@ exports[`<Heading> when {title} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={true}
-      level={2}
       style={
         Array [
           Object {
@@ -1684,7 +1535,6 @@ exports[`<Heading> when {title} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>

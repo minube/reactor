@@ -13,11 +13,7 @@ exports[`<Rating> renders 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -36,18 +32,13 @@ exports[`<Rating> renders 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -66,18 +57,13 @@ exports[`<Rating> renders 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -96,18 +82,13 @@ exports[`<Rating> renders 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -126,18 +107,13 @@ exports[`<Rating> renders 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -156,7 +132,6 @@ exports[`<Rating> renders 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
@@ -176,11 +151,7 @@ exports[`<Rating> when {caption} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -199,18 +170,13 @@ exports[`<Rating> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -229,18 +195,13 @@ exports[`<Rating> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -259,18 +220,13 @@ exports[`<Rating> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -289,18 +245,13 @@ exports[`<Rating> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -319,7 +270,6 @@ exports[`<Rating> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
@@ -339,11 +289,7 @@ exports[`<Rating> when {color} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -363,18 +309,13 @@ exports[`<Rating> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -394,18 +335,13 @@ exports[`<Rating> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -425,18 +361,13 @@ exports[`<Rating> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -456,18 +387,13 @@ exports[`<Rating> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -487,18 +413,13 @@ exports[`<Rating> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={true}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -515,7 +436,6 @@ exports[`<Rating> when {color} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
      3.5/5
   </Text>
@@ -535,11 +455,7 @@ exports[`<Rating> when {count} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -558,18 +474,13 @@ exports[`<Rating> when {count} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -588,18 +499,13 @@ exports[`<Rating> when {count} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -618,18 +524,13 @@ exports[`<Rating> when {count} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -648,18 +549,13 @@ exports[`<Rating> when {count} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -678,18 +574,13 @@ exports[`<Rating> when {count} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={true}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -706,7 +597,6 @@ exports[`<Rating> when {count} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
      (32)
   </Text>
@@ -726,11 +616,7 @@ exports[`<Rating> when {showValue} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -749,18 +635,13 @@ exports[`<Rating> when {showValue} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -779,18 +660,13 @@ exports[`<Rating> when {showValue} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -809,18 +685,13 @@ exports[`<Rating> when {showValue} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -839,18 +710,13 @@ exports[`<Rating> when {showValue} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -869,18 +735,13 @@ exports[`<Rating> when {showValue} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={true}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -897,7 +758,6 @@ exports[`<Rating> when {showValue} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
      3.5/5
   </Text>
@@ -917,11 +777,7 @@ exports[`<Rating> when {style} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -943,18 +799,13 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -976,18 +827,13 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1009,18 +855,13 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1042,18 +883,13 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1075,18 +911,13 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={true}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1107,7 +938,6 @@ exports[`<Rating> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
      3.5/5
   </Text>
@@ -1127,11 +957,7 @@ exports[`<Rating> when {textColor} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1150,18 +976,13 @@ exports[`<Rating> when {textColor} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1180,18 +1001,13 @@ exports[`<Rating> when {textColor} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1210,18 +1026,13 @@ exports[`<Rating> when {textColor} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1240,18 +1051,13 @@ exports[`<Rating> when {textColor} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1270,18 +1076,13 @@ exports[`<Rating> when {textColor} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={true}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1300,7 +1101,6 @@ exports[`<Rating> when {textColor} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
      3.5/5
   </Text>
@@ -1320,11 +1120,7 @@ exports[`<Rating> when {value} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1343,18 +1139,13 @@ exports[`<Rating> when {value} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1373,18 +1164,13 @@ exports[`<Rating> when {value} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1403,18 +1189,13 @@ exports[`<Rating> when {value} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ★
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1433,18 +1214,13 @@ exports[`<Rating> when {value} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1463,18 +1239,13 @@ exports[`<Rating> when {value} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     ☆
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={true}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -1491,7 +1262,6 @@ exports[`<Rating> when {value} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
      3.5/5
   </Text>

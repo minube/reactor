@@ -52,8 +52,8 @@ storiesOf('🏀 Playground', module)
           style={styles.icon}
         />
         <View style={styles.texts}>
-          <Text small>{text('title', 'Exprime al maximo tu viaje')}</Text>
-          <Text tiny lighten>{text('subtitle', 'Con la app de minube')}</Text>
+          <Text subtitle level={3}>{text('title', 'Exprime al maximo tu viaje')}</Text>
+          <Text level={3} lighten>{text('subtitle', 'Con la app de minube')}</Text>
         </View>
         <Button
           small

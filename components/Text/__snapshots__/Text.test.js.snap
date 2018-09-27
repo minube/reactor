@@ -4,11 +4,7 @@ exports[`<Text> renders 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -25,7 +21,6 @@ exports[`<Text> renders 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 />
 `;
 
@@ -33,12 +28,8 @@ exports[`<Text> when {bold} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
   bold={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -55,7 +46,6 @@ exports[`<Text> when {bold} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -65,11 +55,7 @@ exports[`<Text> when {color} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -88,7 +74,6 @@ exports[`<Text> when {color} 1`] = `
       },
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -98,12 +83,8 @@ exports[`<Text> when {italic} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
   italic={true}
-  level={1}
   style={
     Array [
       Object {
@@ -120,7 +101,6 @@ exports[`<Text> when {italic} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -130,12 +110,8 @@ exports[`<Text> when {large} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
   large={true}
-  level={1}
   style={
     Array [
       Object {
@@ -152,7 +128,6 @@ exports[`<Text> when {large} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -162,11 +137,7 @@ exports[`<Text> when {lighten} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -185,7 +156,6 @@ exports[`<Text> when {lighten} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -195,11 +165,7 @@ exports[`<Text> when {lighter} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   lighter={true}
   style={
     Array [
@@ -217,7 +183,6 @@ exports[`<Text> when {lighter} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -227,11 +192,7 @@ exports[`<Text> when {numberOfLines} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   numberOfLines={2}
   style={
     Array [
@@ -249,7 +210,6 @@ exports[`<Text> when {numberOfLines} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -259,11 +219,7 @@ exports[`<Text> when {primary} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   primary={true}
   style={
     Array [
@@ -281,7 +237,6 @@ exports[`<Text> when {primary} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -291,11 +246,7 @@ exports[`<Text> when {secondary} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   secondary={true}
   style={
     Array [
@@ -313,7 +264,6 @@ exports[`<Text> when {secondary} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -323,11 +273,7 @@ exports[`<Text> when {semibold} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   semibold={true}
   style={
     Array [
@@ -345,7 +291,6 @@ exports[`<Text> when {semibold} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -355,11 +300,7 @@ exports[`<Text> when {small} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   small={true}
   style={
     Array [
@@ -377,7 +318,6 @@ exports[`<Text> when {small} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -387,11 +327,7 @@ exports[`<Text> when {style} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -410,7 +346,6 @@ exports[`<Text> when {style} 1`] = `
       },
     ]
   }
-  subtitle={false}
 >
   Hello World
 </Text>
@@ -420,11 +355,7 @@ exports[`<Text> when {tiny} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -441,7 +372,6 @@ exports[`<Text> when {tiny} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
   tiny={true}
 >
   Hello World
@@ -452,11 +382,7 @@ exports[`<Text> when {title} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
-  level={1}
   style={
     Array [
       Object {
@@ -473,7 +399,6 @@ exports[`<Text> when {title} 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
   title={true}
 >
   Hello World

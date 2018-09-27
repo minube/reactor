@@ -35,11 +35,7 @@ exports[`<Slider> when {caption} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={false}
-      level={1}
       small={true}
       style={
         Array [
@@ -59,7 +55,6 @@ exports[`<Slider> when {caption} 1`] = `
           },
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>
@@ -209,11 +204,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -236,7 +227,6 @@ exports[`<Slider> when {dataSource} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -397,11 +387,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -424,7 +410,6 @@ exports[`<Slider> when {dataSource} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -603,11 +588,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -630,7 +611,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -791,11 +771,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -818,7 +794,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -998,11 +973,7 @@ exports[`<Slider> when {momentum} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -1025,7 +996,6 @@ exports[`<Slider> when {momentum} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -1186,11 +1156,7 @@ exports[`<Slider> when {momentum} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -1213,7 +1179,6 @@ exports[`<Slider> when {momentum} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -1687,11 +1652,7 @@ exports[`<Slider> when {steps} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -1714,7 +1675,6 @@ exports[`<Slider> when {steps} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -1875,11 +1835,7 @@ exports[`<Slider> when {steps} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -1902,7 +1858,6 @@ exports[`<Slider> when {steps} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -2087,11 +2042,7 @@ exports[`<Slider> when {style} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -2114,7 +2065,6 @@ exports[`<Slider> when {style} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 0
                 </Text>
@@ -2275,11 +2225,7 @@ exports[`<Slider> when {style} 1`] = `
                 <Text
                   accessible={true}
                   allowFontScaling={true}
-                  body={true}
-                  caption={false}
                   ellipsizeMode="tail"
-                  headline={true}
-                  level={4}
                   style={
                     Array [
                       Object {
@@ -2302,7 +2248,6 @@ exports[`<Slider> when {style} 1`] = `
                       },
                     ]
                   }
-                  subtitle={false}
                 >
                   Title 1
                 </Text>
@@ -2363,13 +2308,9 @@ exports[`<Slider> when {title} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      body={true}
       bold={true}
-      caption={false}
       ellipsizeMode="tail"
-      headline={false}
       large={true}
-      level={1}
       style={
         Array [
           Object {
@@ -2386,7 +2327,6 @@ exports[`<Slider> when {title} 1`] = `
           Object {},
         ]
       }
-      subtitle={false}
     >
       Hello World
     </Text>

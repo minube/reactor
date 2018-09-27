@@ -415,11 +415,7 @@ exports[`<PictureCard> when {caption} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={true}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -439,7 +435,6 @@ exports[`<PictureCard> when {caption} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Hello world
         </Text>
@@ -1197,11 +1192,7 @@ exports[`<PictureCard> when {title} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={true}
-          level={5}
           style={
             Array [
               Object {
@@ -1224,7 +1215,6 @@ exports[`<PictureCard> when {title} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Hello world
         </Text>

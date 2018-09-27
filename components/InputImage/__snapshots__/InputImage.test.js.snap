@@ -176,11 +176,7 @@ exports[`<InputImage> when {error} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -199,16 +195,11 @@ exports[`<InputImage> when {error} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       />
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={3}
         style={
           Array [
             Object {
@@ -229,7 +220,6 @@ exports[`<InputImage> when {error} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>
@@ -315,11 +305,7 @@ exports[`<InputImage> when {hint} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -338,16 +324,11 @@ exports[`<InputImage> when {hint} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       />
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={3}
         style={
           Array [
             Object {
@@ -366,7 +347,6 @@ exports[`<InputImage> when {hint} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>
@@ -450,11 +430,7 @@ exports[`<InputImage> when {label} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -473,7 +449,6 @@ exports[`<InputImage> when {label} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>

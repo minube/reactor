@@ -229,11 +229,7 @@ exports[`<InputList> when {error} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -252,16 +248,11 @@ exports[`<InputList> when {error} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       />
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={3}
         style={
           Array [
             Object {
@@ -282,7 +273,6 @@ exports[`<InputList> when {error} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>
@@ -365,11 +355,7 @@ exports[`<InputList> when {hint} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -388,16 +374,11 @@ exports[`<InputList> when {hint} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       />
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={3}
         style={
           Array [
             Object {
@@ -416,7 +397,6 @@ exports[`<InputList> when {hint} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>
@@ -635,11 +615,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -658,7 +634,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           one
         </Text>
@@ -822,11 +797,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -845,7 +816,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           two
         </Text>
@@ -1009,11 +979,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1032,7 +998,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           three
         </Text>
@@ -1196,11 +1161,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1219,7 +1180,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           four
         </Text>
@@ -1383,11 +1343,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -1406,7 +1362,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           five
         </Text>
@@ -1517,11 +1472,7 @@ exports[`<InputList> when {label} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -1540,7 +1491,6 @@ exports[`<InputList> when {label} 1`] = `
             Object {},
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>
@@ -1750,11 +1700,7 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -1773,7 +1719,6 @@ exports[`<InputList> when {value} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         one
       </Text>
@@ -1861,11 +1806,7 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -1884,7 +1825,6 @@ exports[`<InputList> when {value} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         two
       </Text>
@@ -1972,11 +1912,7 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -1995,7 +1931,6 @@ exports[`<InputList> when {value} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         three
       </Text>
@@ -2083,11 +2018,7 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -2106,7 +2037,6 @@ exports[`<InputList> when {value} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         four
       </Text>
@@ -2194,11 +2124,7 @@ exports[`<InputList> when {value} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={2}
         style={
           Array [
             Object {
@@ -2217,7 +2143,6 @@ exports[`<InputList> when {value} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         five
       </Text>

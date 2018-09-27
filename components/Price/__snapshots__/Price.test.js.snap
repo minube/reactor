@@ -13,11 +13,7 @@ exports[`<Price> renders 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -37,18 +33,13 @@ exports[`<Price> renders 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     0
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -75,7 +66,6 @@ exports[`<Price> renders 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     €
   </Text>
@@ -95,11 +85,7 @@ exports[`<Price> when {caption} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -126,18 +112,13 @@ exports[`<Price> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     from
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -157,18 +138,13 @@ exports[`<Price> when {caption} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     0
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -195,7 +171,6 @@ exports[`<Price> when {caption} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     €
   </Text>
@@ -215,11 +190,7 @@ exports[`<Price> when {fixed} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -239,18 +210,13 @@ exports[`<Price> when {fixed} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     19.12
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -277,7 +243,6 @@ exports[`<Price> when {fixed} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     €
   </Text>
@@ -297,11 +262,7 @@ exports[`<Price> when {style} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -321,22 +282,17 @@ exports[`<Price> when {style} 1`] = `
         Object {
           "color": "green",
           "fontSize": 32,
-          "fontWeight": 800,
+          "fontWeight": "800",
         },
       ]
     }
-    subtitle={false}
   >
     19
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -356,7 +312,7 @@ exports[`<Price> when {style} 1`] = `
         Object {
           "color": "green",
           "fontSize": 32,
-          "fontWeight": 800,
+          "fontWeight": "800",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -365,7 +321,6 @@ exports[`<Price> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     €
   </Text>
@@ -385,11 +340,7 @@ exports[`<Price> when {symbol} (left) 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -416,18 +367,13 @@ exports[`<Price> when {symbol} (left) 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     $
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -447,7 +393,6 @@ exports[`<Price> when {symbol} (left) 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     4
   </Text>
@@ -467,11 +412,7 @@ exports[`<Price> when {symbol} (right) 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -491,18 +432,13 @@ exports[`<Price> when {symbol} (right) 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     4
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -529,7 +465,6 @@ exports[`<Price> when {symbol} (right) 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     eur
   </Text>
@@ -549,11 +484,7 @@ exports[`<Price> when {value} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -573,18 +504,13 @@ exports[`<Price> when {value} 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     19
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={true}
-    level={6}
     style={
       Array [
         Object {
@@ -611,7 +537,6 @@ exports[`<Price> when {value} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     €
   </Text>

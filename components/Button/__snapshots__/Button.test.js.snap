@@ -185,11 +185,7 @@ exports[`<Button> when {activity} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -213,7 +209,6 @@ exports[`<Button> when {activity} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -329,11 +324,7 @@ exports[`<Button> when {children} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={true}
-          level={6}
           style={
             Array [
               Object {
@@ -353,18 +344,13 @@ exports[`<Button> when {children} 1`] = `
               Object {},
             ]
           }
-          subtitle={false}
         >
           10
         </Text>
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={true}
-          level={6}
           style={
             Array [
               Object {
@@ -391,7 +377,6 @@ exports[`<Button> when {children} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           €
         </Text>
@@ -499,11 +484,7 @@ exports[`<Button> when {color} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -526,7 +507,6 @@ exports[`<Button> when {color} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -633,11 +613,7 @@ exports[`<Button> when {contained} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -660,7 +636,6 @@ exports[`<Button> when {contained} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -771,11 +746,7 @@ exports[`<Button> when {disabled} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -798,7 +769,6 @@ exports[`<Button> when {disabled} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -926,11 +896,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -954,7 +920,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1183,11 +1148,7 @@ exports[`<Button> when {outlined} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1210,7 +1171,6 @@ exports[`<Button> when {outlined} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1317,11 +1277,7 @@ exports[`<Button> when {primary} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1344,7 +1300,6 @@ exports[`<Button> when {primary} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1451,11 +1406,7 @@ exports[`<Button> when {responsive} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1478,7 +1429,6 @@ exports[`<Button> when {responsive} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1589,11 +1539,7 @@ exports[`<Button> when {rounded} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1616,7 +1562,6 @@ exports[`<Button> when {rounded} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1725,11 +1670,7 @@ exports[`<Button> when {secondary} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1752,7 +1693,6 @@ exports[`<Button> when {secondary} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1863,11 +1803,7 @@ exports[`<Button> when {small} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -1890,7 +1826,6 @@ exports[`<Button> when {small} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -1999,11 +1934,7 @@ exports[`<Button> when {style} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -2026,7 +1957,6 @@ exports[`<Button> when {style} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>
@@ -2133,11 +2063,7 @@ exports[`<Button> when {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         style={
           Array [
             Object {
@@ -2160,7 +2086,6 @@ exports[`<Button> when {title} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Press me
       </Text>

@@ -19,13 +19,9 @@ exports[`<Markdown> including a <Text> property 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={false}
-    level={1}
     secondary={true}
     style={
       Array [
@@ -43,20 +39,15 @@ exports[`<Markdown> including a <Text> property 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     Hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={Object {}}
-    level={1}
     secondary={true}
     style={
       Array [
@@ -74,7 +65,6 @@ exports[`<Markdown> including a <Text> property 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     World 
   </Text>
@@ -88,11 +78,7 @@ exports[`<Markdown> renders 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -109,7 +95,6 @@ exports[`<Markdown> renders 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   />
 </View>
 `;
@@ -133,13 +118,9 @@ exports[`<Markdown> when combining * & ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={false}
-    level={1}
     style={
       Array [
         Object {
@@ -156,20 +137,15 @@ exports[`<Markdown> when combining * & ** 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={Object {}}
-    level={1}
     style={
       Array [
         Object {
@@ -186,20 +162,15 @@ exports[`<Markdown> when combining * & ** 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     world, I'm 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={Object {}}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={false}
-    level={1}
     style={
       Array [
         Object {
@@ -216,7 +187,6 @@ exports[`<Markdown> when combining * & ** 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     javi. 
   </Text>
@@ -242,13 +212,9 @@ exports[`<Markdown> when including * 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={false}
-    level={1}
     style={
       Array [
         Object {
@@ -265,20 +231,15 @@ exports[`<Markdown> when including * 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={Object {}}
-    level={1}
     style={
       Array [
         Object {
@@ -295,7 +256,6 @@ exports[`<Markdown> when including * 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     world 
   </Text>
@@ -321,13 +281,9 @@ exports[`<Markdown> when including ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={false}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={false}
-    level={1}
     style={
       Array [
         Object {
@@ -344,20 +300,15 @@ exports[`<Markdown> when including ** 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     hello 
   </Text>
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
     bold={Object {}}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     italic={false}
-    level={1}
     style={
       Array [
         Object {
@@ -374,7 +325,6 @@ exports[`<Markdown> when including ** 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     world 
   </Text>
@@ -388,11 +338,7 @@ exports[`<Markdown> when simple text 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={1}
     style={
       Array [
         Object {
@@ -409,7 +355,6 @@ exports[`<Markdown> when simple text 1`] = `
         Object {},
       ]
     }
-    subtitle={false}
   >
     Hello World
   </Text>

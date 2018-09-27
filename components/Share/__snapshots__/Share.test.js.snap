@@ -95,11 +95,7 @@ exports[`<Share> renders 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           style={
             Array [
               Object {
@@ -123,7 +119,6 @@ exports[`<Share> renders 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Share
         </Text>

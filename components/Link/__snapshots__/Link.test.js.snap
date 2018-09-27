@@ -5,12 +5,8 @@ exports[`<Link> renders 1`] = `
   accessibilityRole="link"
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
   href="http://minube.com"
-  level={1}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -29,7 +25,6 @@ exports[`<Link> renders 1`] = `
       Object {},
     ]
   }
-  subtitle={false}
 />
 `;
 
@@ -38,12 +33,8 @@ exports[`<Link> when {style} 1`] = `
   accessibilityRole="link"
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
   href="http://minube.com"
-  level={1}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -65,7 +56,6 @@ exports[`<Link> when {style} 1`] = `
       },
     ]
   }
-  subtitle={false}
   visible={true}
 />
 `;
@@ -75,12 +65,8 @@ exports[`<Link> when {styleHover} 1`] = `
   accessibilityRole="link"
   accessible={true}
   allowFontScaling={true}
-  body={true}
-  caption={false}
   ellipsizeMode="tail"
-  headline={false}
   href="http://minube.com"
-  level={1}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   style={
@@ -105,7 +91,6 @@ exports[`<Link> when {styleHover} 1`] = `
       "fontWeight": "700",
     }
   }
-  subtitle={false}
   visible={true}
 />
 `;

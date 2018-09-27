@@ -236,11 +236,7 @@ exports[`<Dialog> when {children} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={1}
             style={
               Array [
                 Object {
@@ -257,7 +253,6 @@ exports[`<Dialog> when {children} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             Hello World
           </Text>
@@ -333,11 +328,7 @@ exports[`<Dialog> when {highlight} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={true}
-          level={6}
           style={
             Array [
               Object {
@@ -361,7 +352,6 @@ exports[`<Dialog> when {highlight} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Hello world
         </Text>
@@ -1017,11 +1007,7 @@ exports[`<Dialog> when {title} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={true}
-          level={6}
           style={
             Array [
               Object {
@@ -1044,7 +1030,6 @@ exports[`<Dialog> when {title} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Hello world
         </Text>

@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import Price from './Price';
 
-const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
+const STYLE = { fontWeight: "800", fontSize: 32, color: 'green' }
 const VALUE = 19.1234;
 
 describe('<Price>', () => {

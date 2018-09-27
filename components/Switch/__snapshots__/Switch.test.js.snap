@@ -95,11 +95,7 @@ exports[`<Switch> when {label} 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
-    level={2}
     style={
       Array [
         Object {
@@ -120,7 +116,6 @@ exports[`<Switch> when {label} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Hello world
   </Text>

@@ -26,12 +26,8 @@ exports[`<Breadcrumbs> when {color} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -54,7 +50,6 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Spain ·
   </Text>
@@ -62,12 +57,8 @@ exports[`<Breadcrumbs> when {color} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -90,7 +81,6 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Basque Country ·
   </Text>
@@ -98,12 +88,8 @@ exports[`<Breadcrumbs> when {color} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -126,7 +112,6 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Bilbao
   </Text>
@@ -147,12 +132,8 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -175,7 +156,6 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Spain ·
   </Text>
@@ -183,12 +163,8 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -211,7 +187,6 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Basque Country ·
   </Text>
@@ -219,12 +194,8 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -247,7 +218,6 @@ exports[`<Breadcrumbs> when {dataSource} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Bilbao
   </Text>
@@ -268,12 +238,8 @@ exports[`<Breadcrumbs> when {style} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -298,7 +264,6 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Spain ·
   </Text>
@@ -306,12 +271,8 @@ exports[`<Breadcrumbs> when {style} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -336,7 +297,6 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Basque Country ·
   </Text>
@@ -344,12 +304,8 @@ exports[`<Breadcrumbs> when {style} 1`] = `
     accessibilityRole="link"
     accessible={true}
     allowFontScaling={true}
-    body={true}
-    caption={false}
     ellipsizeMode="tail"
-    headline={false}
     href="/"
-    level={2}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     onPress={[Function]}
@@ -374,7 +330,6 @@ exports[`<Breadcrumbs> when {style} 1`] = `
         },
       ]
     }
-    subtitle={false}
   >
     Bilbao
   </Text>

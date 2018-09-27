@@ -65,11 +65,7 @@ exports[`<Form> when {attributes} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -88,18 +84,13 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             username
           </Text>
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={3}
             style={
               Array [
                 Object {
@@ -120,7 +111,6 @@ exports[`<Form> when {attributes} 1`] = `
                 },
               ]
             }
-            subtitle={false}
           >
             required
           </Text>
@@ -187,11 +177,7 @@ exports[`<Form> when {attributes} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -210,7 +196,6 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             role
           </Text>
@@ -304,11 +289,7 @@ exports[`<Form> when {attributes} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -327,7 +308,6 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             mail
           </Text>
@@ -392,11 +372,7 @@ exports[`<Form> when {attributes} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -415,7 +391,6 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             bio
           </Text>
@@ -549,11 +524,7 @@ exports[`<Form> when {attributes} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -572,7 +543,6 @@ exports[`<Form> when {attributes} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               avatar
             </Text>
@@ -633,11 +603,7 @@ exports[`<Form> when {attributes} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={2}
           style={
             Array [
               Object {
@@ -658,7 +624,6 @@ exports[`<Form> when {attributes} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           isPublic
         </Text>
@@ -709,12 +674,8 @@ exports[`<Form> when {attributes} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
           bold={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           primary={true}
           style={
             Array [
@@ -735,7 +696,6 @@ exports[`<Form> when {attributes} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Social Networks
         </Text>
@@ -764,11 +724,7 @@ exports[`<Form> when {attributes} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -787,7 +743,6 @@ exports[`<Form> when {attributes} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               twitter
             </Text>
@@ -852,11 +807,7 @@ exports[`<Form> when {attributes} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -875,7 +826,6 @@ exports[`<Form> when {attributes} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               facebook
             </Text>
@@ -940,11 +890,7 @@ exports[`<Form> when {attributes} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -963,18 +909,13 @@ exports[`<Form> when {attributes} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               github
             </Text>
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={3}
               style={
                 Array [
                   Object {
@@ -995,7 +936,6 @@ exports[`<Form> when {attributes} 1`] = `
                   },
                 ]
               }
-              subtitle={false}
             >
               required
             </Text>
@@ -1086,11 +1026,7 @@ exports[`<Form> when {data} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -1109,18 +1045,13 @@ exports[`<Form> when {data} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             username
           </Text>
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={3}
             style={
               Array [
                 Object {
@@ -1141,7 +1072,6 @@ exports[`<Form> when {data} 1`] = `
                 },
               ]
             }
-            subtitle={false}
           >
             required
           </Text>
@@ -1208,11 +1138,7 @@ exports[`<Form> when {data} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -1231,7 +1157,6 @@ exports[`<Form> when {data} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             role
           </Text>
@@ -1325,11 +1250,7 @@ exports[`<Form> when {data} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -1348,7 +1269,6 @@ exports[`<Form> when {data} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             mail
           </Text>
@@ -1413,11 +1333,7 @@ exports[`<Form> when {data} 1`] = `
           <Text
             accessible={true}
             allowFontScaling={true}
-            body={true}
-            caption={false}
             ellipsizeMode="tail"
-            headline={false}
-            level={2}
             style={
               Array [
                 Object {
@@ -1436,7 +1352,6 @@ exports[`<Form> when {data} 1`] = `
                 Object {},
               ]
             }
-            subtitle={false}
           >
             bio
           </Text>
@@ -1570,11 +1485,7 @@ exports[`<Form> when {data} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -1593,7 +1504,6 @@ exports[`<Form> when {data} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               avatar
             </Text>
@@ -1654,11 +1564,7 @@ exports[`<Form> when {data} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={2}
           style={
             Array [
               Object {
@@ -1679,7 +1585,6 @@ exports[`<Form> when {data} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           isPublic
         </Text>
@@ -1730,12 +1635,8 @@ exports[`<Form> when {data} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          body={true}
           bold={true}
-          caption={false}
           ellipsizeMode="tail"
-          headline={false}
-          level={1}
           primary={true}
           style={
             Array [
@@ -1756,7 +1657,6 @@ exports[`<Form> when {data} 1`] = `
               },
             ]
           }
-          subtitle={false}
         >
           Social Networks
         </Text>
@@ -1785,11 +1685,7 @@ exports[`<Form> when {data} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -1808,7 +1704,6 @@ exports[`<Form> when {data} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               twitter
             </Text>
@@ -1873,11 +1768,7 @@ exports[`<Form> when {data} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -1896,7 +1787,6 @@ exports[`<Form> when {data} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               facebook
             </Text>
@@ -1961,11 +1851,7 @@ exports[`<Form> when {data} 1`] = `
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={2}
               style={
                 Array [
                   Object {
@@ -1984,18 +1870,13 @@ exports[`<Form> when {data} 1`] = `
                   Object {},
                 ]
               }
-              subtitle={false}
             >
               github
             </Text>
             <Text
               accessible={true}
               allowFontScaling={true}
-              body={true}
-              caption={false}
               ellipsizeMode="tail"
-              headline={false}
-              level={3}
               style={
                 Array [
                   Object {
@@ -2016,7 +1897,6 @@ exports[`<Form> when {data} 1`] = `
                   },
                 ]
               }
-              subtitle={false}
             >
               required
             </Text>
@@ -2158,12 +2038,8 @@ exports[`<Form> when {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        body={true}
         bold={true}
-        caption={false}
         ellipsizeMode="tail"
-        headline={false}
-        level={1}
         primary={true}
         style={
           Array [
@@ -2184,7 +2060,6 @@ exports[`<Form> when {title} 1`] = `
             },
           ]
         }
-        subtitle={false}
       >
         Hello World
       </Text>

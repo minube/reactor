@@ -28,14 +28,20 @@ const determineStyle = ({
   return styles.body1;
 };
 
-const Text = ({ lighten, color, ...inherit }) => (
+const Text = ({
+  lighten, color,
+  body, caption, headline, subtitle, level,
+  ...inherit
+}) => (
   <ConsumerTheme>
     { ({ FONT: { FAMILY } = {} }) => (
       <NativeText
         {...inherit}
         style={[
           styles.container,
-          determineStyle(inherit),
+          determineStyle({
+            body, caption, headline, subtitle, level,
+          }),
           lighten && styles.lighten,
           // -- flatten
           StyleSheet.flatten([
