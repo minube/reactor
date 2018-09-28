@@ -11,18 +11,19 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
 
-const { COLOR: { TEXT_LIGHTEN, WHITE } } = THEME;
+const { COLOR: { PRIMARY, SECONDARY, TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
   activity, children, color, contained, disabled, icon, onPress, outlined,
   primary, responsive, rounded, secondary, small, title,
   isSolid = contained && !outlined, // eslint-disable-line
+  customColor = color || (primary && PRIMARY) || (secondary && SECONDARY) || undefined, // eslint-disable-line
   ...inherit
 }) => (
   <Touchable
     containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
     onPress={disabled ? undefined : onPress}
-    rippleColor={isSolid ? undefined : color}
+    rippleColor={isSolid ? undefined : customColor}
     style={[styles.touchable, rounded && styles.rounded, inherit.style]}
   >
     <View
@@ -42,7 +43,7 @@ const Button = ({
         isSolid && secondary && styles.secondary,
         isSolid && disabled && { backgroundColor: TEXT_LIGHTEN },
         outlined && styles.outlined,
-        outlined && { borderColor: color || TEXT_LIGHTEN },
+        outlined && { borderColor: customColor || TEXT_LIGHTEN },
         disabled && styles.disabled,
       ]}
     >
@@ -52,7 +53,7 @@ const Button = ({
         { title
           && (
           <Text
-            color={isSolid ? WHITE : color || TEXT_LIGHTEN}
+            color={isSolid ? WHITE : customColor || TEXT_LIGHTEN}
             style={[
               styles.text,
               small && styles.textSmall,
