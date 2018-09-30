@@ -25,6 +25,14 @@ export default (width = 360) => {
 
         return STYLE.cardWidthDefault;
       })(),
+
+      SLIDER: (() => {
+        if (TINY) return 130;
+        if (PHONE || SMALL) return 15;
+        if (TABLET || REGULAR) return 168;
+
+        return 236;
+      })(),
     },
   };
 };

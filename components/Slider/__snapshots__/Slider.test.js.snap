@@ -10,7 +10,7 @@ exports[`<Slider> renders 1`] = `
 >
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View />
   </RCTScrollView>
@@ -61,7 +61,7 @@ exports[`<Slider> when {caption} 1`] = `
   </View>
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View />
   </RCTScrollView>
@@ -78,7 +78,7 @@ exports[`<Slider> when {dataSource} 1`] = `
 >
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View>
       <View
@@ -462,7 +462,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
 >
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View>
       <View
@@ -847,7 +847,7 @@ exports[`<Slider> when {momentum} 1`] = `
   <RCTScrollView
     horizontal={true}
     onScroll={[Function]}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View>
       <View
@@ -1509,7 +1509,7 @@ exports[`<Slider> when {navigation} 1`] = `
   </View>
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View />
   </RCTScrollView>
@@ -1526,7 +1526,7 @@ exports[`<Slider> when {steps} 1`] = `
 >
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View>
       <View
@@ -1916,7 +1916,7 @@ exports[`<Slider> when {style} 1`] = `
       }
     }
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View>
       <View
@@ -2333,7 +2333,7 @@ exports[`<Slider> when {title} 1`] = `
   </View>
   <RCTScrollView
     horizontal={true}
-    scrollEventThrottle={16}
+    scrollEventThrottle={40}
   >
     <View />
   </RCTScrollView>
