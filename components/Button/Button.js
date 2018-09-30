@@ -11,7 +11,9 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
 
-const { COLOR: { PRIMARY, SECONDARY, TEXT_LIGHTEN, WHITE } } = THEME;
+const {
+  PRIMARY, SECONDARY, TEXT_LIGHTEN, WHITE,
+} = THEME.COLOR;
 
 const Button = ({
   activity, children, color, contained, disabled, icon, onPress, outlined,

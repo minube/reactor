@@ -32,10 +32,6 @@ export default {
   },
 
   ...StyleSheet.create({
-
-    buttonRegular: { minWidth: UNIT * 4.5, height: UNIT * 4.5, paddingHorizontal: UNIT * 3 },
-    buttonSmall: { minWidth: UNIT * 3, height: UNIT * 3, paddingHorizontal: UNIT * 1.5 },
-
     cardHeightSmall: { height: UNIT * 13.9 },
     cardHeightRegular: { height: UNIT * 19 },
     cardHeightPortraitTiny: { height: UNIT * 17 },
