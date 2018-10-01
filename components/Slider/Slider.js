@@ -1,7 +1,7 @@
 import {
   arrayOf, bool, func, number, shape, string,
 } from 'prop-types';
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import { ScrollView, View } from 'react-native';
 
 import { ENV, LAYOUT, THEME } from '../../common';
@@ -15,7 +15,7 @@ const NEXT = 'next';
 const MOMENTUM_INTERVAL = 40;
 let timeout;
 
-class Slider extends PureComponent {
+class Slider extends Component {
   static propTypes = {
     caption: string,
     dataSource: arrayOf(shape({})),
@@ -48,6 +48,11 @@ class Slider extends PureComponent {
 
   componentWillReceiveProps() {
     this.setState({ x: 0 });
+  }
+
+  shouldComponentUpdate({ dataSource = [] }) {
+    const { props } = this;
+    return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
   }
 
   _onPressButton = (type) => {
