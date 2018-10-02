@@ -15,7 +15,7 @@ const Price = ({
 }) => (
   <View style={styles.container}>
     { caption && (
-    <Text large style={[styles.minimize, inherit.style]}>
+    <Text large {...inherit} style={[styles.minimize, inherit.style]}>
       {caption}
     </Text>
     ) }
