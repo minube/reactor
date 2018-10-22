@@ -52,8 +52,11 @@ const Week = ({
 
         let isDisabled = false;
         if (disabledPast) isDisabled = tsDay < tsToday;
-        else if (tsAvailableDates) isDisabled = !tsAvailableDates.includes(tsDay);
-        else if (tsDisabledDates) isDisabled = tsDisabledDates.includes(tsDay);
+
+        if (!isDisabled) {
+          if (tsAvailableDates) isDisabled = !tsAvailableDates.includes(tsDay);
+          else if (tsDisabledDates) isDisabled = tsDisabledDates.includes(tsDay);
+        }
 
         return (
           <Touchable
