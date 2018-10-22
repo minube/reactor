@@ -15,9 +15,10 @@ const STYLE = {
 const TODAY = new Date();
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
-const DISABLED_DATES = [
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7),
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10),
+const DATES = [
+  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 3),
+  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 4),
+  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 5),
 ];
 
 const LOCALE = {
@@ -62,17 +63,20 @@ storiesOf('✅ Calendar', module)
   .addWithJSX('range', () => (
     <Calendar range value={[YESTERDAY, TOMORROW]} />
   ))
+  .addWithJSX('availableDates', () => (
+    <Calendar availableDates={DATES} />
+  ))
   .addWithJSX('disabledDates', () => (
-    <Calendar disabledDates={DISABLED_DATES} />
+    <Calendar disabledDates={DATES} />
   ))
   .addWithJSX('disabledPast', () => (
     <Calendar disabledPast />
   ))
   .addWithJSX('⚡ onSelect', () => (
-    <CalendarHOC disabledDates={DISABLED_DATES} onSelect={action('Calendar.onSelect()')} />
+    <CalendarHOC disabledDates={DATES} onSelect={action('Calendar.onSelect()')} />
   ))
   .addWithJSX('⚡ onSelect (range)', () => (
-    <CalendarHOC disabledDates={DISABLED_DATES} range onSelect={action('Calendar.onSelect()')} />
+    <CalendarHOC disabledDates={DATES} range onSelect={action('Calendar.onSelect()')} />
   ))
   .addWithJSX('⚡ onChange', () => (
     <Calendar onChange={action('Calendar.onChange()')} />

@@ -45,6 +45,11 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {availableDates}', () => {
+    const tree = renderer.create(<Calendar availableDates={[IN_7_DAYS, IN_10_DAYS]} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {disabledDates}', () => {
     const tree = renderer.create(<Calendar disabledDates={[IN_7_DAYS, IN_10_DAYS]} />).toJSON();
     expect(tree).toMatchSnapshot();

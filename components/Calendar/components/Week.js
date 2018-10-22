@@ -19,20 +19,25 @@ const onPress = ({
 };
 
 const Week = ({
-  disabledDates, disabledPast, firstDate, ...inherit
+  availableDates, disabledDates, disabledPast, firstDate, ...inherit
 }) => {
   const { month, today, value } = inherit;
   const tsToday = today.getTime();
 
   let tsStart;
   let tsEnd;
+  let tsAvailableDates;
+  let tsDisabledDates;
+
+  if (availableDates.length > 0) tsAvailableDates = availableDates.map(d => d.getTime());
+  else if (disabledDates.length > 0) tsDisabledDates = disabledDates.map(d => d.getTime());
+
   if (value) {
     const [start, end] = Array.isArray(value) ? value : [value];
     tsStart = start.getTime();
     tsEnd = end ? end.getTime() : tsStart;
   }
 
-  const tsDisabledDates = disabledDates.map(d => d.getTime());
   const days = [];
   for (let i = 0; i < 7; i += 1) {
     days.push(new Date(firstDate.getFullYear(), firstDate.getMonth(), firstDate.getDate() + i));
@@ -47,7 +52,8 @@ const Week = ({
 
         let isDisabled = false;
         if (disabledPast) isDisabled = tsDay < tsToday;
-        else isDisabled = tsDisabledDates.includes(tsDay);
+        else if (tsAvailableDates) isDisabled = !tsAvailableDates.includes(tsDay);
+        else if (tsDisabledDates) isDisabled = tsDisabledDates.includes(tsDay);
 
         return (
           <Touchable
@@ -86,6 +92,7 @@ const Week = ({
 };
 
 Week.propTypes = {
+  availableDates: arrayOf(shape()).isRequired,
   disabledDates: arrayOf(shape()).isRequired,
   disabledPast: bool.isRequired,
   onSelect: func,
