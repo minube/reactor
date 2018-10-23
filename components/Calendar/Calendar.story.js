@@ -64,7 +64,7 @@ storiesOf('✅ Calendar', module)
     <Calendar range value={[YESTERDAY, TOMORROW]} />
   ))
   .addWithJSX('availableDates', () => (
-    <Calendar availableDates={DATES} />
+    <Calendar value={TOMORROW} availableDates={DATES} />
   ))
   .addWithJSX('disabledDates', () => (
     <Calendar disabledDates={DATES} />

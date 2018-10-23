@@ -71,18 +71,19 @@ const Week = ({
             style={[
               styles.box,
               styles.day,
-              isSelected && styles.selected,
-              isSelected && tsDay === tsStart && styles.selectedStart,
-              isSelected && tsDay === tsEnd && styles.selectedEnd,
+              !isDisabled && isSelected && styles.selected,
+              !isDisabled && isSelected && tsDay === tsStart && styles.selectedStart,
+              !isDisabled && isSelected && tsDay === tsEnd && styles.selectedEnd,
             ]}
           >
             <Text
               level={3}
               style={[
                 isToday && styles.today,
-                (isToday || isSelected) && styles.textBold,
+                isToday && styles.textBold,
+                !isDisabled && isSelected && styles.textBold,
+                !isDisabled && isSelected && styles.highlight,
                 (day.getMonth() !== month || isDisabled) && styles.disabled,
-                isSelected && styles.highlight,
               ]}
             >
               {day.getDate()}
