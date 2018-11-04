@@ -8,31 +8,31 @@ import Price from './Price';
 const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
 
 storiesOf('✅ Price', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Price />
   ))
-  .addWithJSX('caption', () => (
+  .add('caption', () => (
     <Price caption="From" />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Price value={19.95} />
   ))
-  .addWithJSX('fixed', () => (
+  .add('fixed', () => (
     <Price fixed={2} value={19.1234} />
   ))
-  .addWithJSX('symbol (left)', () => (
+  .add('symbol (left)', () => (
     <Price value={4} symbol="$" />
   ))
-  .addWithJSX('symbol (right)', () => (
+  .add('symbol (right)', () => (
     <Price value={4} symbol="eur" />
   ))
-  .addWithJSX('inherit <Text> properties', () => (
+  .add('inherit <Text> properties', () => (
     <Price title primary />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Price style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Price
       caption={text('caption', 'from')}
       fixed={number('fixed', 2)}

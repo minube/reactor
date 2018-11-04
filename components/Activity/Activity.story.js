@@ -5,16 +5,16 @@ import { boolean, color, select } from '@storybook/addon-knobs/react';
 import Activity from './Activity';
 
 storiesOf('✅ Activity', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Activity />
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Activity color="green" />
   ))
-  .addWithJSX('size', () => (
+  .add('size', () => (
     <Activity size="large" />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Activity
       animating={boolean('animating', true)}
       color={color('color', 'green')}

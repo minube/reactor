@@ -11,43 +11,43 @@ const STYLE = { backgroundColor: 'rgba(0,255,0,1)', opacity: 0.75 };
 const STYLE_CONTAINER = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ PictureCard', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <PictureCard />
   ))
-  .addWithJSX('image', () => (
+  .add('image', () => (
     <PictureCard image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('backgroundColor', () => (
+  .add('backgroundColor', () => (
     <PictureCard image={LIPSUM_IMAGE} backgroundColor={THEME.COLOR.PRIMARY} />
   ))
-  .addWithJSX('caption', () => (
+  .add('caption', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <PictureCard image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('caption & title', () => (
+  .add('caption & title', () => (
     <PictureCard caption="{caption}" image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('small', () => (
+  .add('small', () => (
     <PictureCard caption="{caption}" small image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('portrait', () => (
+  .add('portrait', () => (
     <PictureCard caption="{caption}" portrait image={LIPSUM_IMAGE} title="{title}" />
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .add('⚡ onPress', () => (
     <PictureCard image={LIPSUM_IMAGE} onPress={action('PictureCard.onPress()')} />
   ))
-  .addWithJSX('⚡ onLoad', () => (
+  .add('⚡ onLoad', () => (
     <PictureCard image={LIPSUM_IMAGE} onLoad={action('PictureCard.onLoad()')} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <PictureCard image={LIPSUM_IMAGE} style={STYLE} />
   ))
-  .addWithJSX('styleContainer', () => (
+  .add('styleContainer', () => (
     <PictureCard image={LIPSUM_IMAGE} styleContainer={STYLE_CONTAINER} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <PictureCard
       caption={text('caption', 'minube stories')}
       backgroundColor={color('backgroundColor', undefined)}

@@ -17,60 +17,60 @@ const styles = {
 const _onPress = () => {};
 
 storiesOf('✅ Button', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Button />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <Button title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('icon', () => (
+  .add('icon', () => (
     <Button icon="apps" onPress={_onPress} />
   ))
-  .addWithJSX('icon & title', () => (
+  .add('icon & title', () => (
     <Button icon="apps" title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('contained (false)', () => (
+  .add('contained (false)', () => (
     <Button contained={false} title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('outlined', () => (
+  .add('outlined', () => (
     <Button outlined title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('primary', () => (
+  .add('primary', () => (
     <Button primary title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('secondary', () => (
+  .add('secondary', () => (
     <Button secondary title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('activity', () => (
+  .add('activity', () => (
     <Button activity title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('children', () => (
+  .add('children', () => (
     <Button color="red">
       <Price value={10} style={{ color: 'white' }} onPress={_onPress} />
     </Button>
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Button color="red" title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('disabled', () => (
+  .add('disabled', () => (
     <Button disabled title="Press me" />
   ))
-  .addWithJSX('responsive', () => (
+  .add('responsive', () => (
     <Button responsive title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('rounded', () => (
+  .add('rounded', () => (
     <Button rounded title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('small', () => (
+  .add('small', () => (
     <Button small title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .add('⚡ onPress', () => (
     <Button onPress={action('Button.onPress()')} title="Press me" />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Button title="Press me" style={styles.button} onPress={_onPress} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Button
       secondary={boolean('secondary', false)}
       activity={boolean('activity', false)}

@@ -70,27 +70,27 @@ class ViewportHOC extends Component {
 }
 
 storiesOf('☑️ Viewport', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Viewport>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('visible (false)', () => (
+  .add('visible (false)', () => (
     <Viewport visible={false}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('backward', () => (
+  .add('backward', () => (
     <Viewport backward>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('scroll (false)', () => (
+  .add('scroll (false)', () => (
     <Viewport scroll={false}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('⚡ onScroll', () => (
+  .add('⚡ onScroll', () => (
     <Viewport onScroll={action('Viewport.onScroll()')}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Viewport style={style}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('styleContent', () => (
+  .add('styleContent', () => (
     <Viewport styleContent={styleContent}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <ViewportHOC />
   ))

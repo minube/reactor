@@ -14,22 +14,22 @@ const service = 'get';
 const PROPS = { endpoint, service };
 
 storiesOf('✅ BoardingPass', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <BoardingPass>
       {children}
     </BoardingPass>
   ))
-  .addWithJSX('enabled (false)', () => (
+  .add('enabled (false)', () => (
     <BoardingPass enabled={false}>
       {children}
     </BoardingPass>
   ))
-  .addWithJSX('endpoint & method', () => (
+  .add('endpoint & method', () => (
     <BoardingPass {...PROPS}>
       {children}
     </BoardingPass>
   ))
-  .addWithJSX('loading', () => (
+  .add('loading', () => (
     <BoardingPass loading={Loading} {...PROPS}>
       {children}
     </BoardingPass>

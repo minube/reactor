@@ -9,28 +9,28 @@ const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting 
 const STYLE = { borderRadius: 5, width: 128, height: 128 };
 
 storiesOf('✅ Share', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Share />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <Share title="Hello" />
   ))
-  .addWithJSX('caption', () => (
+  .add('caption', () => (
     <Share caption={LOREM} />
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Share color="red" />
   ))
-  .addWithJSX('⚡ onCancel (only web)', () => (
+  .add('⚡ onCancel (only web)', () => (
     <Share onCancel={action('Share.onCancel()')} />
   ))
-  .addWithJSX('⚡ onOption (only web)', () => (
+  .add('⚡ onOption (only web)', () => (
     <Share onOption={action('Share.onOption()')} />
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .add('⚡ onPress', () => (
     <Share onPress={action('Share.onPress()')} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Share
       primary
       title={text('title', 'hello')}

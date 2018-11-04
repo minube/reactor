@@ -44,37 +44,37 @@ class InputListHOC extends Component {
 }
 
 storiesOf('☑️ InputList', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <InputList />
   ))
-  .addWithJSX('disabled', () => (
+  .add('disabled', () => (
     <InputList disabled />
   ))
-  .addWithJSX('error', () => (
+  .add('error', () => (
     <InputList error="Required field" />
   ))
-  .addWithJSX('hint', () => (
+  .add('hint', () => (
     <InputList hint="Optional field" />
   ))
-  .addWithJSX('label', () => (
+  .add('label', () => (
     <InputList label="Numbers" />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <InputList label="Numbers" value="three" value={VALUE} />
   ))
-  .addWithJSX('dataSource', () => (
+  .add('dataSource', () => (
     <InputList label="Numbers" dataSource={DATA_SOURCE} />
   ))
-  .addWithJSX('itemTemplate', () => (
+  .add('itemTemplate', () => (
     <InputList label="Numbers" itemTemplate={item} value={VALUE_COMPLEX} />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <InputList label="Numbers" onChange={action('InputList.onChange()')} title="Press me" value={VALUE} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <InputList label="Numbers" style={STYLE} value={VALUE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <InputListHOC
       dataSource={array('dataSource', DATA_SOURCE)}
       disabled={boolean('disabled', false)}

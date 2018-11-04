@@ -16,30 +16,30 @@ const RATING = { showValue: false, count: 12, value: 4.5 };
 const STYLE_LISTINGCARD = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ ListingCard', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <ListingCard />
   ))
-  .addWithJSX('image', () => (
+  .add('image', () => (
     <ListingCard image={LIPSUM_IMAGE} />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <ListingCard title="Café Les Deux Molins - El café de Amelie con titulo súper largo la" />
   ))
-  .addWithJSX('category', () => (
+  .add('category', () => (
     <ListingCard category="Restaurantes" />
   ))
-  .addWithJSX('description', () => (
+  .add('description', () => (
     <ListingCard description="Es una de esas joyas de Río que no hay que perderse. Se encuentra a caballo entre Lapa y el Barrio de… " />
   ))
-  .addWithJSX('rating', () => (
+  .add('rating', () => (
     <ListingCard rating={RATING} />
   ))
-  .addWithJSX('children', () => (
+  .add('children', () => (
     <ListingCard>
       <Button flat rounded small title="15 Actividades" style={{ alignSelf: 'flex-start', marginHorizontal: 0 }} />
     </ListingCard>
   ))
-  .addWithJSX('complete', () => (
+  .add('complete', () => (
     <ListingCard
       category="Restaurantes"
       description="Es una de esas joyas de Río que no hay que perderse. Se encuentra a caballo entre Lapa y el Barrio de… "
@@ -58,10 +58,10 @@ storiesOf('✅ ListingCard', module)
       </View>
     </ListingCard>
   ))
-  .addWithJSX('styleContainer', () => (
+  .add('styleContainer', () => (
     <ListingCard styleContainer={STYLE_LISTINGCARD} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <ListingCard
       category={text('category', 'category')}
       description={text('description', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,')}

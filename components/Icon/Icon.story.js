@@ -7,32 +7,32 @@ import { THEME } from '../../common';
 import Icon from './Icon';
 
 storiesOf('✅ Icon', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Icon />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Icon value="closeDark" />
   ))
-  .addWithJSX('value (as uri)', () => (
+  .add('value (as uri)', () => (
     <Icon value="https://api.adorable.io/avatars/48/8" />
   ))
-  .addWithJSX('color (only Native)', () => (
+  .add('color (only Native)', () => (
     <withNotes notes="Color is only supported in Native environments">
       <Icon color={THEME.COLOR.ERROR} value="closeDark" />
     </withNotes>
   ))
-  .addWithJSX('invert (only Web)', () => (
+  .add('invert (only Web)', () => (
     <withNotes notes="invert is only supported in web environments">
       <Icon invert value="closeDark" />
     </withNotes>
   ))
-  .addWithJSX('size', () => (
+  .add('size', () => (
     <Icon size={48} value="closeDark" />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Icon style={{ backgroundColor: THEME.COLOR.SECONDARY }} value="closeDark" />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Icon
       size={number('size', 16)}
       color={color('color', THEME.COLOR.TEXT)}

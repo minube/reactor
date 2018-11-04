@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
 
 
 storiesOf('🏀 Playground', module)
-  .addWithJSX('Dialog: download app', () => (
+  .add('Dialog: download app', () => (
     <Dialog
       background={false}
       scroll={false}
@@ -65,7 +65,7 @@ storiesOf('🏀 Playground', module)
       </View>
     </Dialog>
   ))
-  .addWithJSX('Amplitude v3', () => (
+  .add('Amplitude v3', () => (
     <Provider>
       <Consumer>
         { ({ logEvent }) => (

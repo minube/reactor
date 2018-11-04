@@ -60,28 +60,28 @@ class FormHOC extends Component {
 }
 
 storiesOf('☑️ Form', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Form attributes={{}} />
   ))
-  .addWithJSX('attributes', () => (
+  .add('attributes', () => (
     <FormHOC attributes={ATTRIBUTES} style={STORY_STYLE} />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <FormHOC attributes={ATTRIBUTES} value={VALUE} style={STORY_STYLE} />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <FormHOC attributes={ATTRIBUTES} title="Your contact" style={STORY_STYLE} />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <FormHOC attributes={ATTRIBUTES} onChange={action('Form.onChange()')} style={STORY_STYLE}  />
   ))
-  .addWithJSX('⚡ onValid', () => (
+  .add('⚡ onValid', () => (
     <FormHOC attributes={ATTRIBUTES} onValid={action('Form.onValid()')} style={STORY_STYLE}  />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <FormHOC attributes={ATTRIBUTES} style={{...STYLE, ...STORY_STYLE }} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <FormHOC
       attributes={object('attributes', ATTRIBUTES)}
       value={object('value', VALUE)}

@@ -1,7 +1,6 @@
 import { addDecorator, configure, setAddon } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 import { withKnobs } from '@storybook/addon-knobs/react';
-import JSXAddon from 'storybook-addon-jsx';
 import styles from '@sambego/storybook-styles';
 import { setConsoleOptions, withConsole } from '@storybook/addon-console';
 
@@ -16,7 +15,6 @@ addDecorator(styles({
   width: '100%',
 }));
 addDecorator((storyFn, context) => withConsole()(storyFn)(context));
-setAddon(JSXAddon);
 setOptions({
   name: `🚀 reactor ${PKG.version}`,
   url: 'github.com/minube/reactor',

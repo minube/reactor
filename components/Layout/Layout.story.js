@@ -27,23 +27,23 @@ const LayoutInfo = ({ title, viewport }) => (
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
 
 storiesOf('✅ LayoutView', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <LayoutView />
   ))
-  .addWithJSX('⚡ onLayout (WEB)', () => (
+  .add('⚡ onLayout (WEB)', () => (
     <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
-  .addWithJSX('<LayoutConsumer>', () => (
+  .add('<LayoutConsumer>', () => (
     <LayoutView>
       <LayoutConsumer>
         { ({ viewport }) => <LayoutInfo title="<LayoutConsumer />" viewport={viewport} /> }
       </LayoutConsumer>
     </LayoutView>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <LayoutView style={STYLE} />
   ))
-  .addWithJSX('common/LAYOUT', withState({ timestamp: new Date() }, store => (
+  .add('common/LAYOUT', withState({ timestamp: new Date() }, store => (
     <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
       <LayoutInfo viewport={LAYOUT.VIEWPORT} title="common/LAYOUT" />
     </LayoutView>

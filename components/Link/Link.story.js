@@ -6,13 +6,13 @@ import { THEME } from '../../common';
 import Link from './Link';
 
 storiesOf('✅ Link', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Link href="http://minube.com">minube.com</Link>
   ))
-  .addWithJSX('without href', () => (
+  .add('without href', () => (
     <Link>minube.com</Link>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Link
       href="http://minube.com"
       style={{ fontSize: 20, fontWeight: THEME.FONT.WEIGHT.BOLD }}
@@ -21,7 +21,7 @@ storiesOf('✅ Link', module)
       minube.com
     </Link>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Link href={text('href', 'http://minube.com')}>
       {text('title', 'minube.com')}
     </Link>

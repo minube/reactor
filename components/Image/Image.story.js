@@ -16,34 +16,34 @@ const CUSTOM_STYLE = {
 const SOURCE = { uri: IMAGE_PLACEHOLDER };
 
 storiesOf('✅ Image', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Image source={SOURCE} style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('without source', () => (
+  .add('without source', () => (
     <Image style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('small activity', () => (
+  .add('small activity', () => (
     <Image size="small" style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('resizeMode', () => (
+  .add('resizeMode', () => (
     <Image resizeMode="cover" source={SOURCE} style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('responsive', () => (
+  .add('responsive', () => (
     <Image responsive source={{ uri: IMAGE_AKAMAI }} style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('ratio', () => (
+  .add('ratio', () => (
     <Image ratio={10} responsive source={{ uri: IMAGE_AKAMAI }} style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('⚡ onLoad', () => (
+  .add('⚡ onLoad', () => (
     <Image onLoad={action('Image.onLoad()')} source={SOURCE} style={DEFAULT_STYLE} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Image
       source={SOURCE}
       style={CUSTOM_STYLE}
     />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Image
       small={boolean('small', false)}
       ratio={number('ratio', false)}

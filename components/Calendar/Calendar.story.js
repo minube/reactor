@@ -48,43 +48,43 @@ class CalendarHOC extends PureComponent {
 }
 
 storiesOf('✅ Calendar', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Calendar />
   ))
-  .addWithJSX('busy', () => (
+  .add('busy', () => (
     <Calendar busy />
   ))
-  .addWithJSX('locale', () => (
+  .add('locale', () => (
     <Calendar locale={LOCALE} />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Calendar value={TOMORROW} />
   ))
-  .addWithJSX('range', () => (
+  .add('range', () => (
     <Calendar range value={[YESTERDAY, TOMORROW]} />
   ))
-  .addWithJSX('availableDates', () => (
+  .add('availableDates', () => (
     <Calendar value={TOMORROW} availableDates={DATES} />
   ))
-  .addWithJSX('disabledDates', () => (
+  .add('disabledDates', () => (
     <Calendar disabledDates={DATES} />
   ))
-  .addWithJSX('disabledPast', () => (
+  .add('disabledPast', () => (
     <Calendar disabledPast />
   ))
-  .addWithJSX('⚡ onSelect', () => (
+  .add('⚡ onSelect', () => (
     <CalendarHOC disabledDates={DATES} onSelect={action('Calendar.onSelect()')} />
   ))
-  .addWithJSX('⚡ onSelect (range)', () => (
+  .add('⚡ onSelect (range)', () => (
     <CalendarHOC disabledDates={DATES} range onSelect={action('Calendar.onSelect()')} />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <Calendar onChange={action('Calendar.onChange()')} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Calendar style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <CalendarHOC
       busy={boolean('busy', false)}
       disabledPast={boolean('disabledPast', false)}

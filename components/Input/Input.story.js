@@ -8,46 +8,46 @@ import Input from './Input';
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
 storiesOf('☑️ Input', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Input />
   ))
-  .addWithJSX('disabled', () => (
+  .add('disabled', () => (
     <Input disabled />
   ))
-  .addWithJSX('error', () => (
+  .add('error', () => (
     <Input error="Required field" />
   ))
-  .addWithJSX('hint', () => (
+  .add('hint', () => (
     <Input hint="Optional field" />
   ))
-  .addWithJSX('keyboard (numeric)', () => (
+  .add('keyboard (numeric)', () => (
     <Input keyboard="numeric" />
   ))
-  .addWithJSX('label', () => (
+  .add('label', () => (
     <Input label="Username" />
   ))
-  .addWithJSX('lines', () => (
+  .add('lines', () => (
     <Input lines={5} />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Input value="soyjavi.com" />
   ))
-  .addWithJSX('⚡ onBlur', () => (
+  .add('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <Input onChange={action('Input.onChange()')} title="Press me" />
   ))
-  .addWithJSX('⚡ onFocus', () => (
+  .add('⚡ onFocus', () => (
     <Input onFocus={action('Input.onFocus()')} title="Press me" />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Input style={STYLE} />
   ))
-  .addWithJSX('...inherit', () => (
+  .add('...inherit', () => (
     <Input placeholder="placeholder..." />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Input
       disabled={boolean('disabled', false)}
       error={text('error', null)}

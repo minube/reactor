@@ -15,19 +15,19 @@ const dataSource = [
 ];
 
 storiesOf('✅ Breadcrumbs', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Breadcrumbs dataSource={dataSource} />
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Breadcrumbs dataSource={dataSource} color={THEME.COLOR.PRIMARY} />
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .add('⚡ onPress', () => (
     <Breadcrumbs dataSource={dataSource} onPress={action('Breadcrumbs.onPress()')} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Breadcrumbs dataSource={dataSource} style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Breadcrumbs
       dataSource={object('dataSource', dataSource, 'heading-dataSource')}
       color={color('color', THEME.COLOR.TEXT)}

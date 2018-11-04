@@ -19,22 +19,22 @@ const TIMELINE = [
 ];
 
 storiesOf('✅ Motion', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Motion timeline={TIMELINE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('preset', () => (
+  .add('preset', () => (
     <Motion preset="fade" visible={boolean('visible', false)}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Motion timeline={timeline} style={STYLE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Motion
       delay={number('delay', 0)}
       disabled={boolean('disabled', false)}

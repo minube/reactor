@@ -38,13 +38,13 @@ class ThemeHOC extends Component {
 
 
 storiesOf('☑️ contextTheme', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <ThemeHOC />
   ))
-  // .addWithJSX('style', () => (
+  // .add('style', () => (
   //   <ProviderTheme title="Press me" style={styles.button} onPress={_onPress} />
   // ))
-  // .addWithJSX('🏀 Playground', () => (
+  // .add('🏀 Playground', () => (
   //   <ProviderTheme
   //     secondary={boolean('secondary', false)}
   //     activity={boolean('activity', false)}

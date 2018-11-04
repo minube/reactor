@@ -6,31 +6,31 @@ import { THEME } from '../../common';
 import Rating from './Rating';
 
 storiesOf('✅ Rating', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Rating />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Rating value={3.5} />
   ))
-  .addWithJSX('showValue', () => (
+  .add('showValue', () => (
     <Rating value={3.5} showValue />
   ))
-  .addWithJSX('count', () => (
+  .add('count', () => (
     <Rating value={4} count={32} />
   ))
-  .addWithJSX('caption', () => (
+  .add('caption', () => (
     <Rating value={4} count={32} caption="valoraciones" />
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Rating value={4} color={THEME.COLOR.SECONDARY} />
   ))
-  .addWithJSX('textColor', () => (
+  .add('textColor', () => (
     <Rating count={32} value={4} color={THEME.COLOR.SECONDARY} textColor={THEME.COLOR.PRIMARY} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Rating
       color={color('color', THEME.COLOR.TEXT)}
       textColor={color('textColor', THEME.COLOR.TEXT_LIGHTEN)}

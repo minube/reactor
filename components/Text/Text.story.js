@@ -12,61 +12,61 @@ const style = {
 };
 
 storiesOf('✅ Text', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Text>Hello World</Text>
   ))
-  .addWithJSX('headline (0)', () => (
+  .add('headline (0)', () => (
     <Text headline level={0}>Hello World</Text>
   ))
-  .addWithJSX('headline (1)', () => (
+  .add('headline (1)', () => (
     <Text headline level={1}>Hello World</Text>
   ))
-  .addWithJSX('headline (2)', () => (
+  .add('headline (2)', () => (
     <Text headline level={2}>Hello World</Text>
   ))
-  .addWithJSX('headline (3)', () => (
+  .add('headline (3)', () => (
     <Text headline level={3}>Hello World</Text>
   ))
-  .addWithJSX('headline (4)', () => (
+  .add('headline (4)', () => (
     <Text headline level={4}>Hello World</Text>
   ))
-  .addWithJSX('headline (5)', () => (
+  .add('headline (5)', () => (
     <Text headline level={5}>Hello World</Text>
   ))
-  .addWithJSX('headline (6)', () => (
+  .add('headline (6)', () => (
     <Text headline level={6}>Hello World</Text>
   ))
-  .addWithJSX('subtitle (1)', () => (
+  .add('subtitle (1)', () => (
     <Text subtitle level={1}>Hello World</Text>
   ))
-  .addWithJSX('subtitle (2)', () => (
+  .add('subtitle (2)', () => (
     <Text subtitle level={2}>Hello World</Text>
   ))
-  .addWithJSX('subtitle (3)', () => (
+  .add('subtitle (3)', () => (
     <Text subtitle level={3}>Hello World</Text>
   ))
-  .addWithJSX('body (1)', () => (
+  .add('body (1)', () => (
     <Text body level={1}>Hello World</Text>
   ))
-  .addWithJSX('body (2)', () => (
+  .add('body (2)', () => (
     <Text body level={2}>Hello World</Text>
   ))
-  .addWithJSX('body (3)', () => (
+  .add('body (3)', () => (
     <Text body level={3}>Hello World</Text>
   ))
-  .addWithJSX('caption', () => (
+  .add('caption', () => (
     <Text body caption>Hello World</Text>
   ))
-  .addWithJSX('lighten', () => (
+  .add('lighten', () => (
     <Text lighten>Hello World</Text>
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Text color={THEME.COLOR.ERROR}>Hello World</Text>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Text style={style}>Customized Text</Text>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Text
       headline={boolean('headline', false)}
       subtitle={boolean('subtitle', false)}

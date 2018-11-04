@@ -8,25 +8,25 @@ import Switch from './Switch';
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 
 storiesOf('✅ Switch', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Switch />
   ))
-  .addWithJSX('label', () => (
+  .add('label', () => (
     <Switch label="Example of label" />
   ))
-  .addWithJSX('disabled', () => (
+  .add('disabled', () => (
     <Switch disabled label="Example of label" />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Switch value label="Example of label" />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <Switch onChange={action('Switch.onChange()')} value />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Switch style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Switch
       disabled={boolean('disabled', false)}
       label={text('label', 'Example of label')}

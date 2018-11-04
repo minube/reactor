@@ -6,27 +6,27 @@ import { THEME } from '../../common';
 import Markdown from './Markdown';
 
 storiesOf('✅ Markdown', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Markdown>hello world</Markdown>
   ))
-  .addWithJSX('including *', () => (
+  .add('including *', () => (
     <Markdown>hello *world*</Markdown>
   ))
-  .addWithJSX('including **', () => (
+  .add('including **', () => (
     <Markdown>hello **world**.</Markdown>
   ))
-  .addWithJSX('combining * & **', () => (
+  .add('combining * & **', () => (
     <Markdown>hello *world*, I'm **javi**.</Markdown>
   ))
-  .addWithJSX('including a <Text> property', () => (
+  .add('including a <Text> property', () => (
     <Markdown secondary>Hello *World*</Markdown>
   ))
-  .addWithJSX('style container', () => (
+  .add('style container', () => (
     <Markdown styleContainer={{ width: 192, backgroundColor: THEME.COLOR.PRIMARY, padding: 16 }}>
       Lorem Ipsum is **simply dummy** text of the printing and typesetting *industry.*
     </Markdown>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Markdown>
       {text('content', 'Hello World')}
     </Markdown>
