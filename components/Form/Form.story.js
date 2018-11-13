@@ -39,7 +39,7 @@ const VALUE = {
 };
 
 const STORY_STYLE = { minWidth: 320, maxWidth: '50%', maxHeight: '80%' };
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
+const STYLE = { backgroundColor: 'rgba(255,255,255,1)', padding: 20 };
 
 class FormHOC extends Component {
   constructor(props) {
