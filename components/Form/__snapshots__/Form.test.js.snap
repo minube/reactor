@@ -130,10 +130,8 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
+                "borderBottomColor": "#e0e0e0",
+                "borderBottomWidth": 1,
                 "color": "#4a4a4a",
                 "fontSize": 16,
                 "fontWeight": "400",
@@ -204,7 +202,6 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
                 "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -220,9 +217,9 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
                   "borderWidth": 0,
                   "height": 33,
+                  "zIndex": 1,
                 },
                 false,
               ]
@@ -327,10 +324,8 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
+                "borderBottomColor": "#e0e0e0",
+                "borderBottomWidth": 1,
                 "color": "#4a4a4a",
                 "fontSize": 16,
                 "fontWeight": "400",
@@ -411,10 +406,8 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
+                "borderBottomColor": "#e0e0e0",
+                "borderBottomWidth": 1,
                 "color": "#4a4a4a",
                 "fontSize": 16,
                 "fontWeight": "400",
@@ -563,10 +556,8 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -762,10 +753,8 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -845,10 +834,8 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -955,10 +942,8 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -1091,10 +1076,8 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
+                "borderBottomColor": "#e0e0e0",
+                "borderBottomWidth": 1,
                 "color": "#4a4a4a",
                 "fontSize": 16,
                 "fontWeight": "400",
@@ -1165,7 +1148,6 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
                 "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -1181,9 +1163,9 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
                   "borderWidth": 0,
                   "height": 33,
+                  "zIndex": 1,
                 },
                 false,
               ]
@@ -1288,10 +1270,8 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
+                "borderBottomColor": "#e0e0e0",
+                "borderBottomWidth": 1,
                 "color": "#4a4a4a",
                 "fontSize": 16,
                 "fontWeight": "400",
@@ -1372,10 +1352,8 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
+                "borderBottomColor": "#e0e0e0",
+                "borderBottomWidth": 1,
                 "color": "#4a4a4a",
                 "fontSize": 16,
                 "fontWeight": "400",
@@ -1524,10 +1502,8 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -1723,10 +1699,8 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -1806,10 +1780,8 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",
@@ -1916,10 +1888,8 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
+                  "borderBottomColor": "#e0e0e0",
+                  "borderBottomWidth": 1,
                   "color": "#4a4a4a",
                   "fontSize": 16,
                   "fontWeight": "400",

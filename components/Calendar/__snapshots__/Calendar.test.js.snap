@@ -5,7 +5,6 @@ exports[`<Calendar> renders 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -3969,7 +3968,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -7907,7 +7905,6 @@ exports[`<Calendar> when {busy} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -11891,7 +11888,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -15855,7 +15851,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -19805,7 +19800,6 @@ exports[`<Calendar> when {locale} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -23769,7 +23763,6 @@ exports[`<Calendar> when {style} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -27736,7 +27729,6 @@ exports[`<Calendar> when {value} & {range} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -31721,7 +31713,6 @@ exports[`<Calendar> when {value} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#F5F5F6",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
