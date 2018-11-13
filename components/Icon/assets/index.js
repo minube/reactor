@@ -1,3 +1,4 @@
+import accessibility from './accessibility.png';
 import apps from './apps.png';
 import calendar from './calendar.png';
 import clock from './clock.png';
@@ -15,6 +16,7 @@ import share from './share.png';
 import twitter from './twitter.png';
 
 export default {
+  accessibility,
   apps,
   calendar,
   clock,

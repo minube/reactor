@@ -7,6 +7,7 @@ import { THEME } from '../../common';
 import Icon from './Icon';
 
 const ICONS = [
+  'accessibility',
   'apps',
   'calendar',
   'clock',
