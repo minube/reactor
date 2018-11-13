@@ -15,11 +15,11 @@ const { COLOR } = THEME;
 const shareNative = IS_WEB ? undefined : require('react-native').Share.share;
 
 const OPTIONS = [
-  { icon: 'facebookDark', title: 'Facebook', uri: 'https://www.facebook.com/sharer/sharer.php?u=' },
-  { icon: 'twitterDark', title: 'Twitter', uri: 'http://www.twitter.com/share?url=' },
-  { icon: 'emailDark', title: 'Email', uri: 'mailto:?&body=' },
-  { icon: 'linkedinDark', title: 'Linkedin', uri: 'https://www.linkedin.com/shareArticle?mini=true&url=' },
-  { icon: 'googleDark', title: 'Google Plus', uri: 'https://plus.google.com/share?url=' },
+  { icon: 'facebook', title: 'Facebook', uri: 'https://www.facebook.com/sharer/sharer.php?u=' },
+  { icon: 'twitter', title: 'Twitter', uri: 'http://www.twitter.com/share?url=' },
+  { icon: 'email', title: 'Email', uri: 'mailto:?&body=' },
+  { icon: 'linkedin', title: 'Linkedin', uri: 'https://www.linkedin.com/shareArticle?mini=true&url=' },
+  { icon: 'google', title: 'Google Plus', uri: 'https://plus.google.com/share?url=' },
 ];
 
 class Share extends PureComponent {

@@ -1,25 +1,33 @@
 import apps from './apps.png';
+import calendar from './calendar.png';
+import clock from './clock.png';
 import close from './close.png';
-import closeDark from './close_dark.png';
-import emailDark from './email_dark.png';
-import facebookDark from './facebook_dark.png';
-import googleDark from './google_dark.png';
+import closeContrast from './close_contrast.png';
+import done from './done.png';
+import email from './email.png';
+import expand from './expand.png';
+import facebook from './facebook.png';
+import google from './google.png';
 import left from './left.png';
-import linkedinDark from './linkedin_dark.png';
+import linkedin from './linkedin.png';
 import right from './right.png';
 import share from './share.png';
-import twitterDark from './twitter_dark.png';
+import twitter from './twitter.png';
 
 export default {
   apps,
+  calendar,
+  clock,
   close,
-  closeDark,
-  emailDark,
-  facebookDark,
-  googleDark,
+  closeContrast,
+  done,
+  email,
+  expand,
+  facebook,
+  google,
   left,
-  linkedinDark,
+  linkedin,
   right,
   share,
-  twitterDark,
+  twitter,
 };

@@ -52,8 +52,6 @@ storiesOf('✅ Dialog', module)
       reverse={boolean('reverse', false)}
       onClose={action('Dialog.onClose()')}
       onSubmit={action('Dialog.onSubmit()')}
-      style={object('style', STYLE, 'dialog-style')}
-      styleContainer={object('styleContainer', STYLE_CONTAINER, 'dialog-styleContainer')}
       title={text('title', 'Title')}
       visible={boolean('visible', true)}
       style={object('style', STYLE)}

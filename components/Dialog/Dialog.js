@@ -91,7 +91,7 @@ export default class Dialog extends PureComponent {
                 <Button
                   contained={false}
                   color={highlight ? undefined : COLOR.TEXT}
-                  icon={highlight ? 'close' : 'closeDark'}
+                  icon={highlight ? 'closeContrast' : 'close'}
                   onPress={onClose}
                   rounded
                 />)}
