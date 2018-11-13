@@ -28,7 +28,6 @@ export default StyleSheet.create({
   },
 
   container: {
-    backgroundColor: COLOR.BACKGROUND,
     paddingHorizontal: OFFSET,
     paddingVertical: OFFSET / 2,
     justifyContent: 'center',
