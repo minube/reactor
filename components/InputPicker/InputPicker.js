@@ -44,11 +44,11 @@ class InputPicker extends PureComponent {
           ]}
         >
           <Picker
+            mode="dropdown"
             {...inherit}
             enabled={!disabled}
-            mode="dropdown"
             onValueChange={onChange}
-            selectedValue={inherit.value || undefined}
+            selectedValue={inherit.value}
             style={[styles.picker, disabled && styles.pickerDisabled]}
           >
             { dataSource.map(item => <Picker.Item key={item} label={item} value={item} />)}

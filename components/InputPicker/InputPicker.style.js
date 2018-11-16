@@ -7,6 +7,7 @@ const { COLOR, UNIT } = THEME;
 export default StyleSheet.create({
   container: {
     marginBottom: UNIT,
+    overflow: 'hidden',
   },
 
   input: {
@@ -37,15 +38,10 @@ export default StyleSheet.create({
       android: {
         color: COLOR.TEXT,
       },
+      ios: {
+        height: 'auto',
+      },
     }),
-    // @TODO: How we can set size and weight
-    // fontSize: UNIT * 1.6,
-    // fontWeight: FONT.WEIGHT.REGULAR,
-    // ...Platform.select({
-    //   web: {
-    //     fontFamily: FONT.FAMILY,
-    //   },
-    // }),
   },
 
   pickerDisabled: Platform.select({

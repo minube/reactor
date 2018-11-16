@@ -6,6 +6,7 @@ exports[`<InputPicker> renders 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -33,7 +34,7 @@ exports[`<InputPicker> renders 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -65,6 +66,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -94,7 +96,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           undefined,
         ]
@@ -126,6 +128,7 @@ exports[`<InputPicker> when {error} 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -216,7 +219,7 @@ exports[`<InputPicker> when {error} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -248,6 +251,7 @@ exports[`<InputPicker> when {hint} 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -334,7 +338,7 @@ exports[`<InputPicker> when {hint} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -366,6 +370,7 @@ exports[`<InputPicker> when {label} 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -429,7 +434,7 @@ exports[`<InputPicker> when {label} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -461,6 +466,7 @@ exports[`<InputPicker> when {style} 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -492,7 +498,7 @@ exports[`<InputPicker> when {style} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -524,6 +530,7 @@ exports[`<InputPicker> when {value} 1`] = `
     Array [
       Object {
         "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -551,7 +558,7 @@ exports[`<InputPicker> when {value} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
