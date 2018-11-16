@@ -29,8 +29,8 @@ exports[`<Button> renders 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -47,7 +47,6 @@ exports[`<Button> renders 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -130,8 +129,8 @@ exports[`<Button> when {activity} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -146,7 +145,6 @@ exports[`<Button> when {activity} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -204,7 +202,7 @@ exports[`<Button> when {activity} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
               "marginLeft": 5,
             },
           ]
@@ -275,8 +273,8 @@ exports[`<Button> when {children} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -291,7 +289,6 @@ exports[`<Button> when {children} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -444,8 +441,8 @@ exports[`<Button> when {color} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -460,7 +457,6 @@ exports[`<Button> when {color} 1`] = `
         Object {
           "backgroundColor": "red",
         },
-        false,
         false,
         false,
         false,
@@ -503,7 +499,7 @@ exports[`<Button> when {color} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -573,8 +569,8 @@ exports[`<Button> when {contained} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -589,7 +585,6 @@ exports[`<Button> when {contained} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -632,7 +627,7 @@ exports[`<Button> when {contained} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -702,8 +697,8 @@ exports[`<Button> when {disabled} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -719,15 +714,12 @@ exports[`<Button> when {disabled} 1`] = `
           "backgroundColor": "#9b9b9b",
         },
         false,
-        false,
         Object {
-          "backgroundColor": "#9b9b9b",
+          "backgroundColor": "#e0e0e0",
         },
         false,
         false,
-        Object {
-          "opacity": 0.5,
-        },
+        false,
       ]
     }
   >
@@ -765,7 +757,7 @@ exports[`<Button> when {disabled} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -835,8 +827,8 @@ exports[`<Button> when {icon} & {title} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -851,7 +843,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -915,7 +906,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
               "marginLeft": 5,
             },
           ]
@@ -986,8 +977,8 @@ exports[`<Button> when {icon} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1004,7 +995,6 @@ exports[`<Button> when {icon} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -1106,8 +1096,8 @@ exports[`<Button> when {outlined} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1115,7 +1105,6 @@ exports[`<Button> when {outlined} 1`] = `
           "display": "flex",
           "flexDirection": "row",
         },
-        false,
         false,
         false,
         false,
@@ -1167,136 +1156,7 @@ exports[`<Button> when {outlined} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
-            },
-          ]
-        }
-      >
-        Press me
-      </Text>
-    </View>
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-          "borderRadius": 3,
-          "bottom": 0,
-          "left": 0,
-          "overflow": "hidden",
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#ffffff",
-          "height": 0,
-          "opacity": 0,
-          "width": 0,
-          "zIndex": 0,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
-exports[`<Button> when {primary} 1`] = `
-<View
-  accessible={true}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  style={
-    Array [
-      Object {
-        "borderRadius": 3,
-      },
-      false,
-      undefined,
-    ]
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignContent": "center",
-          "alignItems": "center",
-          "borderRadius": 3,
-          "justifyContent": "center",
-        },
-        Object {
-          "height": 45,
-          "minWidth": 45,
-          "paddingHorizontal": 30,
-        },
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "backgroundColor": "#bdbdbd",
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-      ]
-    }
-  >
-    <View
-      style={
-        Array [
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          undefined,
-        ]
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 16,
-              "lineHeight": 30,
-            },
-            false,
-            Object {
-              "color": "#ffffff",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -1366,8 +1226,8 @@ exports[`<Button> when {responsive} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1382,7 +1242,6 @@ exports[`<Button> when {responsive} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -1425,7 +1284,7 @@ exports[`<Button> when {responsive} 1`] = `
               "fontFamily": undefined,
               "fontSize": 14,
               "fontWeight": "600",
-              "letterSpacing": -0.3,
+              "letterSpacing": -0.15,
             },
           ]
         }
@@ -1481,7 +1340,7 @@ exports[`<Button> when {rounded} 1`] = `
         "borderRadius": 3,
       },
       Object {
-        "borderRadius": 22.5,
+        "borderRadius": 22,
       },
       undefined,
     ]
@@ -1497,8 +1356,8 @@ exports[`<Button> when {rounded} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1509,13 +1368,12 @@ exports[`<Button> when {rounded} 1`] = `
         false,
         false,
         Object {
-          "borderRadius": 22.5,
+          "borderRadius": 22,
         },
         false,
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -1558,7 +1416,7 @@ exports[`<Button> when {rounded} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -1581,7 +1439,7 @@ exports[`<Button> when {rounded} 1`] = `
           "top": 0,
         },
         Object {
-          "borderRadius": 22.5,
+          "borderRadius": 22,
         },
       ]
     }
@@ -1601,7 +1459,7 @@ exports[`<Button> when {rounded} 1`] = `
 </View>
 `;
 
-exports[`<Button> when {secondary} 1`] = `
+exports[`<Button> when {shadow} 1`] = `
 <View
   accessible={true}
   onResponderGrant={[Function]}
@@ -1630,8 +1488,8 @@ exports[`<Button> when {secondary} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1643,10 +1501,17 @@ exports[`<Button> when {secondary} 1`] = `
         false,
         false,
         false,
-        false,
-        false,
         Object {
-          "backgroundColor": "#424242",
+          "backgroundColor": "#9b9b9b",
+        },
+        Object {
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.26,
+          "shadowRadius": 5,
         },
         false,
         false,
@@ -1689,7 +1554,7 @@ exports[`<Button> when {secondary} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -1759,8 +1624,8 @@ exports[`<Button> when {small} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1769,9 +1634,9 @@ exports[`<Button> when {small} 1`] = `
           "flexDirection": "row",
         },
         Object {
-          "height": 30,
-          "minWidth": 30,
-          "paddingHorizontal": 15,
+          "height": 28,
+          "minWidth": 28,
+          "paddingHorizontal": 14,
         },
         false,
         false,
@@ -1779,7 +1644,6 @@ exports[`<Button> when {small} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -1822,7 +1686,7 @@ exports[`<Button> when {small} 1`] = `
               "fontFamily": undefined,
               "fontSize": 14,
               "fontWeight": "600",
-              "letterSpacing": -0.3,
+              "letterSpacing": -0.15,
             },
           ]
         }
@@ -1894,8 +1758,8 @@ exports[`<Button> when {style} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -1910,7 +1774,6 @@ exports[`<Button> when {style} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -1953,7 +1816,7 @@ exports[`<Button> when {style} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }
@@ -2023,8 +1886,8 @@ exports[`<Button> when {title} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "height": 45,
-          "minWidth": 45,
+          "height": 44,
+          "minWidth": 44,
           "paddingHorizontal": 30,
         },
         Object {
@@ -2039,7 +1902,6 @@ exports[`<Button> when {title} 1`] = `
         Object {
           "backgroundColor": "#9b9b9b",
         },
-        false,
         false,
         false,
         false,
@@ -2082,7 +1944,7 @@ exports[`<Button> when {title} 1`] = `
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "600",
-              "letterSpacing": -0.4,
+              "letterSpacing": -0.2,
             },
           ]
         }

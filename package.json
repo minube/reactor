@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "devDependencies": {
     "@dump247/storybook-state": "1.5.1",
     "@sambego/storybook-styles": "1.0.0",

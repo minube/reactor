@@ -35,16 +35,6 @@ describe('<Button>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {primary}', () => {
-    const tree = renderer.create(<Button contained primary title="Press me" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {secondary}', () => {
-    const tree = renderer.create(<Button contained secondary title="Press me" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it('when {activity}', () => {
     const tree = renderer.create(<Button activity title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -77,6 +67,11 @@ describe('<Button>', () => {
 
   it('when {small}', () => {
     const tree = renderer.create(<Button small title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {shadow}', () => {
+    const tree = renderer.create(<Button shadow title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

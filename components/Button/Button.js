@@ -11,21 +11,18 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
 
-const {
-  PRIMARY, SECONDARY, TEXT_LIGHTEN, WHITE,
-} = THEME.COLOR;
+const { TEXT_LIGHTEN, WHITE } = THEME.COLOR;
 
 const Button = ({
   activity, children, color, contained, disabled, icon, onPress, outlined,
-  primary, responsive, rounded, secondary, small, title,
+  responsive, rounded, shadow, small, title,
   isSolid = contained && !outlined, // eslint-disable-line
-  customColor = color || (primary && PRIMARY) || (secondary && SECONDARY) || undefined, // eslint-disable-line
   ...inherit
 }) => (
   <Touchable
     containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
     onPress={disabled ? undefined : onPress}
-    rippleColor={isSolid ? undefined : customColor}
+    rippleColor={isSolid ? undefined : color}
     style={[styles.touchable, rounded && styles.rounded, inherit.style]}
   >
     <View
@@ -40,13 +37,12 @@ const Button = ({
         ((!title && !children) || (!contained && !outlined)) && styles.squared,
 
         // -- Color
-        (isSolid && !primary && !secondary) && { backgroundColor: color || TEXT_LIGHTEN },
-        isSolid && primary && styles.primary,
-        isSolid && secondary && styles.secondary,
-        isSolid && disabled && { backgroundColor: TEXT_LIGHTEN },
+        isSolid && { backgroundColor: color || TEXT_LIGHTEN },
+        isSolid && shadow && !disabled && styles.shadow,
+        isSolid && disabled && styles.disabled,
         outlined && styles.outlined,
-        outlined && { borderColor: customColor || TEXT_LIGHTEN },
-        disabled && styles.disabled,
+        outlined && { borderColor: color || TEXT_LIGHTEN },
+        !isSolid && disabled && styles.disabledOpacity,
       ]}
     >
       { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
@@ -55,7 +51,7 @@ const Button = ({
         { title
           && (
           <Text
-            color={isSolid ? WHITE : customColor || TEXT_LIGHTEN}
+            color={isSolid ? WHITE : color || TEXT_LIGHTEN}
             style={[
               styles.text,
               small && styles.textSmall,
@@ -81,10 +77,9 @@ Button.propTypes = {
   icon: string,
   onPress: func,
   outlined: bool,
-  primary: bool,
   responsive: bool,
   rounded: bool,
-  secondary: bool,
+  shadow: bool,
   small: bool,
   title: string,
 };
@@ -98,10 +93,9 @@ Button.defaultProps = {
   icon: undefined,
   onPress: undefined,
   outlined: false,
-  primary: false,
   responsive: false,
   rounded: false,
-  secondary: false,
+  shadow: false,
   small: false,
   title: undefined,
 };

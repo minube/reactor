@@ -6,19 +6,28 @@ const {
   BORDER_RADIUS, COLOR, FONT, UNIT,
 } = THEME;
 
-const REGULAR_SIZE = UNIT * 4.5;
+const REGULAR_SIZE = UNIT * 4.4;
+const SMALL_SIZE = UNIT * 2.8;
 
-export { REGULAR_SIZE };
+export { REGULAR_SIZE, SMALL_SIZE };
 
 export default StyleSheet.create({
-  touchable: {
-    borderRadius: BORDER_RADIUS,
-  },
-
   // -- Layout
   container: {
     ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
+  },
+
+  disabled: {
+    backgroundColor: COLOR.BASE,
+  },
+
+  disabledOpacity: {
+    opacity: 0.5,
+  },
+
+  outlined: {
+    borderWidth: UNIT * 0.1,
   },
 
   regular: {
@@ -27,45 +36,34 @@ export default StyleSheet.create({
     paddingHorizontal: UNIT * 3,
   },
 
+  rounded: {
+    borderRadius: REGULAR_SIZE / 2,
+  },
+
+  row: LAYOUT.STYLE.ROW,
+
   small: {
-    minWidth: UNIT * 3,
-    height: UNIT * 3,
-    paddingHorizontal: UNIT * 1.5,
+    minWidth: SMALL_SIZE,
+    height: SMALL_SIZE,
+    paddingHorizontal: SMALL_SIZE / 2,
   },
 
   squared: {
     paddingHorizontal: 0,
   },
 
-  rounded: {
-    borderRadius: REGULAR_SIZE / 2,
-  },
+  shadow: LAYOUT.STYLE.SHADOW,
 
-  outlined: {
-    borderWidth: UNIT * 0.1,
+  touchable: {
+    borderRadius: BORDER_RADIUS,
   },
-
-  // -- Colors
-  secondary: {
-    backgroundColor: COLOR.SECONDARY,
-  },
-
-  disabled: {
-    opacity: 0.5,
-  },
-
-  primary: {
-    backgroundColor: COLOR.PRIMARY,
-  },
-
-  row: LAYOUT.STYLE.ROW,
 
   // -- Text
   text: {
     fontFamily: FONT.FAMILY_SECONDARY,
-    fontSize: UNIT * 1.6,
     fontWeight: FONT.WEIGHT.SEMIBOLD,
-    letterSpacing: UNIT * -0.04,
+    fontSize: UNIT * 1.6,
+    letterSpacing: parseFloat((UNIT * -0.02).toFixed(2), 10),
     ...Platform.select({
       web: {
         userSelect: 'none',
@@ -74,9 +72,8 @@ export default StyleSheet.create({
   },
 
   textSmall: {
-    fontFamily: FONT.FAMILY_SECONDARY,
     fontSize: UNIT * 1.4,
-    letterSpacing: UNIT * -0.03,
+    letterSpacing: parseFloat((UNIT * -0.015).toFixed(2), 10),
   },
 
   textMarginLeft: {

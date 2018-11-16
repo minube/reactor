@@ -35,12 +35,6 @@ storiesOf('✅ Button', module)
   .add('outlined', () => (
     <Button outlined title="Press me" onPress={_onPress} />
   ))
-  .add('primary', () => (
-    <Button primary title="Press me" onPress={_onPress} />
-  ))
-  .add('secondary', () => (
-    <Button secondary title="Press me" onPress={_onPress} />
-  ))
   .add('activity', () => (
     <Button activity title="Press me" onPress={_onPress} />
   ))
@@ -64,6 +58,9 @@ storiesOf('✅ Button', module)
   .add('small', () => (
     <Button small title="Press me" onPress={_onPress} />
   ))
+  .add('shadow', () => (
+    <Button shadow title="Press me" onPress={_onPress} />
+  ))
   .add('⚡ onPress', () => (
     <Button onPress={action('Button.onPress()')} title="Press me" />
   ))
@@ -72,7 +69,6 @@ storiesOf('✅ Button', module)
   ))
   .add('🏀 Playground', () => (
     <Button
-      secondary={boolean('secondary', false)}
       activity={boolean('activity', false)}
       color={color('color', undefined)}
       contained={boolean('contained', true)}
@@ -80,10 +76,10 @@ storiesOf('✅ Button', module)
       icon={text('icon', undefined)}
       onPress={action('Button.onPress()')}
       outlined={boolean('outlined', false)}
-      primary={boolean('primary', false)}
       responsive={boolean('responsive', false)}
       rounded={boolean('rounded', false)}
       small={boolean('small', false)}
+      shadow={boolean('shadow', false)}
       title={text('title', undefined)}
       style={object('style', styles.button)}
     />
