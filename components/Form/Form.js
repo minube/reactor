@@ -94,14 +94,14 @@ class Form extends PureComponent {
     } = {}, value = props.defaultValue, keyMap,
   }) => {
     const { _onChange } = this;
-    const isIncomplete = required && !value && !props.disabled;
-    if (isIncomplete) this.state.valid = false;
+    const invalid = (required && !props.disabled) && ((!type && value && value.trim().length === 0) || !value);
+    if (invalid) this.state.valid = false;
 
     return createElement(Inputs[type] || Input, {
       key: keyMap,
       label: props.label || field,
       ...props,
-      error: isIncomplete ? 'required' : props.error,
+      error: invalid ? 'required' : props.error,
       value,
       style: styles[style] || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
