@@ -12,6 +12,7 @@ const { COLOR } = THEME;
 
 class Input extends Component {
   static propTypes = {
+    color: string,
     disabled: bool,
     error: string,
     hint: string,
@@ -24,6 +25,7 @@ class Input extends Component {
   };
 
   static defaultProps = {
+    color: undefined,
     disabled: false,
     error: undefined,
     hint: undefined,
@@ -42,7 +44,7 @@ class Input extends Component {
   render() {
     const {
       props: {
-        disabled, error, hint, keyboard, label, lines, onBlur, onChange, onFocus, ...inherit
+        color, disabled, error, hint, keyboard, label, lines, onBlur, onChange, onFocus, ...inherit
       },
       state: { focus },
     } = this;
@@ -68,7 +70,7 @@ class Input extends Component {
           style={[
             styles.input,
             disabled && styles.inputDisabled,
-            !disabled && focus && styles.inputFocus,
+            !disabled && focus && (color ? { borderColor: color } : styles.inputFocus),
             !disabled && error && styles.inputError,
           ]}
         />

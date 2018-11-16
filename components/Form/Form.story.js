@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, object, number, select } from '@storybook/addon-knobs/react';
+import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Form from './Form';
 
@@ -66,6 +66,9 @@ storiesOf('☑️ Form', module)
   .add('attributes', () => (
     <FormHOC attributes={ATTRIBUTES} style={STORY_STYLE} />
   ))
+  .add('color', () => (
+    <FormHOC attributes={ATTRIBUTES} color="green" style={STORY_STYLE} />
+  ))
   .add('value', () => (
     <FormHOC attributes={ATTRIBUTES} value={VALUE} style={STORY_STYLE} />
   ))
@@ -84,6 +87,7 @@ storiesOf('☑️ Form', module)
   .add('🏀 Playground', () => (
     <FormHOC
       attributes={object('attributes', ATTRIBUTES)}
+      color={color('color', undefined)}
       value={object('value', VALUE)}
       title={text('title', null)}
       style={object('style', {...STYLE, ...STORY_STYLE})}

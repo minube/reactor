@@ -983,6 +983,28 @@ exports[`<Form> when {attributes} 1`] = `
 </RCTScrollView>
 `;
 
+exports[`<Form> when {color} 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "justifyContent": "space-between",
+            "width": "100%",
+          },
+          false,
+        ]
+      }
+    />
+  </View>
+</RCTScrollView>
+`;
+
 exports[`<Form> when {data} 1`] = `
 <RCTScrollView>
   <View>

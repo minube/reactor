@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, object, number, select } from '@storybook/addon-knobs/react';
+import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Input from './Input';
 
@@ -10,6 +10,9 @@ const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }
 storiesOf('☑️ Input', module)
   .add('default', () => (
     <Input />
+  ))
+  .add('color', () => (
+    <Input color="green" />
   ))
   .add('disabled', () => (
     <Input disabled />
@@ -49,6 +52,7 @@ storiesOf('☑️ Input', module)
   ))
   .add('🏀 Playground', () => (
     <Input
+      color={color('color', undefined)}
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', null)}

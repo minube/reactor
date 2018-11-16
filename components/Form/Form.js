@@ -21,6 +21,7 @@ const Inputs = {
 class Form extends PureComponent {
   static propTypes = {
     attributes: shape({}),
+    color: string,
     value: shape({}),
     onChange: func,
     onValid: func,
@@ -29,6 +30,7 @@ class Form extends PureComponent {
 
   static defaultProps = {
     attributes: {},
+    color: undefined,
     value: undefined,
     title: undefined,
     onChange: undefined,
@@ -93,13 +95,14 @@ class Form extends PureComponent {
       required, style, type, ...props
     } = {}, value = props.defaultValue, keyMap,
   }) => {
-    const { _onChange } = this;
+    const { _onChange, props: { color } } = this;
     const invalid = (required && !props.disabled) && ((!type && value && value.trim().length === 0) || !value);
     if (invalid) this.state.valid = false;
 
     return createElement(Inputs[type] || Input, {
       key: keyMap,
       label: props.label || field,
+      color,
       ...props,
       error: invalid ? 'required' : props.error,
       value,

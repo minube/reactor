@@ -47,6 +47,53 @@ exports[`<Input> renders 1`] = `
 </View>
 `;
 
+exports[`<Input> when {color} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontSize": 16,
+          "fontWeight": "400",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
 exports[`<Input> when {disabled} 1`] = `
 <View
   style={
