@@ -20,7 +20,8 @@ const determineStyle = ({
   if (subtitle && level === 2) return styles.subtitle2;
   if (subtitle && level === 3) return styles.subtitle3;
 
-  if (caption) return styles.caption;
+  if (caption && level === 1) return styles.caption1;
+  if (caption && level === 2) return styles.caption2;
 
   if (body && level === 2) return styles.body2;
   if (body && level === 3) return styles.body3;

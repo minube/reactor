@@ -425,8 +425,8 @@ exports[`<PictureCard> when {caption} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12,
-                "lineHeight": 16,
+                "fontSize": 14,
+                "lineHeight": 18,
               },
               false,
               Object {
@@ -1205,7 +1205,7 @@ exports[`<PictureCard> when {title} 1`] = `
                 "fontFamily": undefined,
                 "fontSize": 24,
                 "fontWeight": "700",
-                "letterSpacing": -1.5,
+                "letterSpacing": -1,
                 "lineHeight": 26,
               },
               false,

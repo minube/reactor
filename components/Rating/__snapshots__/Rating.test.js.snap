@@ -429,8 +429,8 @@ exports[`<Rating> when {color} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 14,
+          "lineHeight": 18,
         },
         false,
         Object {},
@@ -590,8 +590,8 @@ exports[`<Rating> when {count} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 14,
+          "lineHeight": 18,
         },
         false,
         Object {},
@@ -751,8 +751,8 @@ exports[`<Rating> when {showValue} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 14,
+          "lineHeight": 18,
         },
         false,
         Object {},
@@ -927,8 +927,8 @@ exports[`<Rating> when {style} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 14,
+          "lineHeight": 18,
         },
         false,
         Object {
@@ -1092,8 +1092,8 @@ exports[`<Rating> when {textColor} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 14,
+          "lineHeight": 18,
         },
         false,
         Object {
@@ -1255,8 +1255,8 @@ exports[`<Rating> when {value} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 16,
+          "fontSize": 14,
+          "lineHeight": 18,
         },
         false,
         Object {},

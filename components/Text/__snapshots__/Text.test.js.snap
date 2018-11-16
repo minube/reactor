@@ -24,11 +24,10 @@ exports[`<Text> renders 1`] = `
 />
 `;
 
-exports[`<Text> when {bold} 1`] = `
+exports[`<Text> when {body level:1} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  bold={true}
   ellipsizeMode="tail"
   style={
     Array [
@@ -47,7 +46,111 @@ exports[`<Text> when {bold} 1`] = `
     ]
   }
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {body level:2} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 14,
+        "lineHeight": 24,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {body level:3} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 12,
+        "lineHeight": 17,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {caption level:1} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 14,
+        "lineHeight": 18,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {caption level:2} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 12,
+        "lineHeight": 16,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
@@ -75,16 +178,15 @@ exports[`<Text> when {color} 1`] = `
     ]
   }
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
-exports[`<Text> when {italic} 1`] = `
+exports[`<Text> when {headline level:0} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
-  italic={true}
   style={
     Array [
       Object {
@@ -94,24 +196,26 @@ exports[`<Text> when {italic} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 30,
+        "fontFamily": undefined,
+        "fontSize": 120,
+        "fontWeight": "700",
+        "letterSpacing": -5,
+        "lineHeight": 120,
       },
       false,
       Object {},
     ]
   }
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
-exports[`<Text> when {large} 1`] = `
+exports[`<Text> when {headline level:1} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
   ellipsizeMode="tail"
-  large={true}
   style={
     Array [
       Object {
@@ -121,15 +225,163 @@ exports[`<Text> when {large} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 30,
+        "fontFamily": undefined,
+        "fontSize": 94,
+        "fontWeight": "700",
+        "letterSpacing": -3.92,
+        "lineHeight": 94,
       },
       false,
       Object {},
     ]
   }
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {headline level:2} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 60,
+        "fontWeight": "700",
+        "letterSpacing": -2.5,
+        "lineHeight": 60,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {headline level:3} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 48,
+        "fontWeight": "700",
+        "letterSpacing": -2,
+        "lineHeight": 48,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {headline level:4} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 32,
+        "fontWeight": "700",
+        "letterSpacing": -1.33,
+        "lineHeight": 34,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {headline level:5} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 24,
+        "fontWeight": "700",
+        "letterSpacing": -1,
+        "lineHeight": 26,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {headline level:6} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontFamily": undefined,
+        "fontSize": 20,
+        "fontWeight": "700",
+        "letterSpacing": -0.83,
+        "lineHeight": 22,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
@@ -157,34 +409,7 @@ exports[`<Text> when {lighten} 1`] = `
     ]
   }
 >
-  Hello World
-</Text>
-`;
-
-exports[`<Text> when {lighter} 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  lighter={true}
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
-        "textAlignVertical": "center",
-      },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
-      false,
-      Object {},
-    ]
-  }
->
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
@@ -211,115 +436,7 @@ exports[`<Text> when {numberOfLines} 1`] = `
     ]
   }
 >
-  Hello World
-</Text>
-`;
-
-exports[`<Text> when {primary} 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  primary={true}
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
-        "textAlignVertical": "center",
-      },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
-      false,
-      Object {},
-    ]
-  }
->
-  Hello World
-</Text>
-`;
-
-exports[`<Text> when {secondary} 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  secondary={true}
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
-        "textAlignVertical": "center",
-      },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
-      false,
-      Object {},
-    ]
-  }
->
-  Hello World
-</Text>
-`;
-
-exports[`<Text> when {semibold} 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  semibold={true}
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
-        "textAlignVertical": "center",
-      },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
-      false,
-      Object {},
-    ]
-  }
->
-  Hello World
-</Text>
-`;
-
-exports[`<Text> when {small} 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
-  small={true}
-  style={
-    Array [
-      Object {
-        "color": "#4a4a4a",
-        "fontFamily": undefined,
-        "fontWeight": "400",
-        "textAlignVertical": "center",
-      },
-      Object {
-        "fontSize": 16,
-        "lineHeight": 30,
-      },
-      false,
-      Object {},
-    ]
-  }
->
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
@@ -347,11 +464,38 @@ exports[`<Text> when {style} 1`] = `
     ]
   }
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
-exports[`<Text> when {tiny} 1`] = `
+exports[`<Text> when {subtitle level:1} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 20,
+        "fontWeight": "600",
+        "lineHeight": 22,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+</Text>
+`;
+
+exports[`<Text> when {subtitle level:2} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -366,19 +510,19 @@ exports[`<Text> when {tiny} 1`] = `
       },
       Object {
         "fontSize": 16,
-        "lineHeight": 30,
+        "fontWeight": "600",
+        "lineHeight": 18,
       },
       false,
       Object {},
     ]
   }
-  tiny={true}
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;
 
-exports[`<Text> when {title} 1`] = `
+exports[`<Text> when {subtitle level:3} 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -392,15 +536,15 @@ exports[`<Text> when {title} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
-        "fontSize": 16,
-        "lineHeight": 30,
+        "fontSize": 14,
+        "fontWeight": "600",
+        "lineHeight": 16,
       },
       false,
       Object {},
     ]
   }
-  title={true}
 >
-  Hello World
+  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 </Text>
 `;

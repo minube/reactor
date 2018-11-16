@@ -363,8 +363,8 @@ exports[`<ListingCard> when {category} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
             Object {
               "color": "#9b9b9b",
@@ -884,8 +884,8 @@ exports[`<ListingCard> when {description} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
             Object {
               "color": "#9b9b9b",
@@ -1403,8 +1403,8 @@ exports[`<ListingCard> when {rating} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12,
-                "lineHeight": 16,
+                "fontSize": 14,
+                "lineHeight": 18,
               },
               false,
               Object {

@@ -4,80 +4,106 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import Text from './Text';
 
+const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+
 describe('<Text>', () => {
   it('renders', () => {
     const tree = renderer.create(<Text />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {tiny}', () => {
-    const tree = renderer.create(<Text tiny>Hello World</Text>).toJSON();
+  it('when {headline level:0}', () => {
+    const tree = renderer.create(<Text headline level={0}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {small}', () => {
-    const tree = renderer.create(<Text small>Hello World</Text>).toJSON();
+  it('when {headline level:1}', () => {
+    const tree = renderer.create(<Text headline level={1}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {large}', () => {
-    const tree = renderer.create(<Text large>Hello World</Text>).toJSON();
+  it('when {headline level:2}', () => {
+    const tree = renderer.create(<Text headline level={2}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {title}', () => {
-    const tree = renderer.create(<Text title>Hello World</Text>).toJSON();
+  it('when {headline level:3}', () => {
+    const tree = renderer.create(<Text headline level={3}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {lighter}', () => {
-    const tree = renderer.create(<Text lighter>Hello World</Text>).toJSON();
+  it('when {headline level:4}', () => {
+    const tree = renderer.create(<Text headline level={4}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {semibold}', () => {
-    const tree = renderer.create(<Text semibold>Hello World</Text>).toJSON();
+  it('when {headline level:5}', () => {
+    const tree = renderer.create(<Text headline level={5}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {bold}', () => {
-    const tree = renderer.create(<Text bold>Hello World</Text>).toJSON();
+  it('when {headline level:6}', () => {
+    const tree = renderer.create(<Text headline level={6}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {italic}', () => {
-    const tree = renderer.create(<Text italic>Hello World</Text>).toJSON();
+   it('when {subtitle level:1}', () => {
+    const tree = renderer.create(<Text subtitle level={1}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {primary}', () => {
-    const tree = renderer.create(<Text primary>Hello World</Text>).toJSON();
+  it('when {subtitle level:2}', () => {
+    const tree = renderer.create(<Text subtitle level={2}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {secondary}', () => {
-    const tree = renderer.create(<Text secondary>Hello World</Text>).toJSON();
+  it('when {subtitle level:3}', () => {
+    const tree = renderer.create(<Text subtitle level={3}>{LOREM}</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {body level:1}', () => {
+    const tree = renderer.create(<Text body level={1}>{LOREM}</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {body level:2}', () => {
+    const tree = renderer.create(<Text body level={2}>{LOREM}</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {body level:3}', () => {
+    const tree = renderer.create(<Text body level={3}>{LOREM}</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+   it('when {caption level:1}', () => {
+    const tree = renderer.create(<Text caption level={1}>{LOREM}</Text>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {caption level:2}', () => {
+    const tree = renderer.create(<Text caption level={2}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {lighten}', () => {
-    const tree = renderer.create(<Text lighten>Hello World</Text>).toJSON();
+    const tree = renderer.create(<Text lighten>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-
   it('when {color}', () => {
-    const tree = renderer.create(<Text color={THEME.COLOR.ERROR}>Hello World</Text>).toJSON();
+    const tree = renderer.create(<Text color={THEME.COLOR.ERROR}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {numberOfLines}', () => {
-    const tree = renderer.create(<Text numberOfLines={2}>Hello World</Text>).toJSON();
+    const tree = renderer.create(<Text numberOfLines={2}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Text style={{ color: 'orange' }}>Hello World</Text>).toJSON();
+    const tree = renderer.create(<Text style={{ color: 'orange' }}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

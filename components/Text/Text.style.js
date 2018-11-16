@@ -22,25 +22,25 @@ export default StyleSheet.create({
   },
 
   headline0: {
-    ...HEADLINE, fontSize: UNIT * 12, lineHeight: UNIT * 12, letterSpacing: UNIT * -0.75,
+    ...HEADLINE, fontSize: UNIT * 12, lineHeight: UNIT * 12, letterSpacing: UNIT * -0.5,
   },
   headline1: {
-    ...HEADLINE, fontSize: UNIT * 9.4, lineHeight: UNIT * 9.4, letterSpacing: UNIT * -0.58,
+    ...HEADLINE, fontSize: UNIT * 9.4, lineHeight: UNIT * 9.4, letterSpacing: UNIT * -0.392,
   },
   headline2: {
-    ...HEADLINE, fontSize: UNIT * 6.0, lineHeight: UNIT * 6.0, letterSpacing: UNIT * -0.37,
+    ...HEADLINE, fontSize: UNIT * 6.0, lineHeight: UNIT * 6.0, letterSpacing: UNIT * -0.25,
   },
   headline3: {
-    ...HEADLINE, fontSize: UNIT * 4.8, lineHeight: UNIT * 4.8, letterSpacing: UNIT * -0.3,
+    ...HEADLINE, fontSize: UNIT * 4.8, lineHeight: UNIT * 4.8, letterSpacing: UNIT * -0.2,
   },
   headline4: {
-    ...HEADLINE, fontSize: UNIT * 3.2, lineHeight: UNIT * 3.4, letterSpacing: UNIT * -0.2,
+    ...HEADLINE, fontSize: UNIT * 3.2, lineHeight: UNIT * 3.4, letterSpacing: UNIT * -0.133,
   },
   headline5: {
-    ...HEADLINE, fontSize: UNIT * 2.4, lineHeight: UNIT * 2.6, letterSpacing: UNIT * -0.15,
+    ...HEADLINE, fontSize: UNIT * 2.4, lineHeight: UNIT * 2.6, letterSpacing: UNIT * -0.1,
   },
   headline6: {
-    ...HEADLINE, fontSize: UNIT * 2.0, lineHeight: UNIT * 2.2, letterSpacing: UNIT * -0.12,
+    ...HEADLINE, fontSize: UNIT * 2.0, lineHeight: UNIT * 2.2, letterSpacing: parseFloat((UNIT * -0.083).toFixed(2), 10),
   },
 
   subtitle1: { ...SUBTITLE, fontSize: UNIT * 2.0, lineHeight: UNIT * 2.2 },
@@ -51,7 +51,8 @@ export default StyleSheet.create({
   body2: { fontSize: UNIT * 1.4, lineHeight: UNIT * 2.4 },
   body3: { fontSize: UNIT * 1.2, lineHeight: UNIT * 1.7 },
 
-  caption: { fontSize: UNIT * 1.2, lineHeight: UNIT * 1.6 },
+  caption1: { fontSize: UNIT * 1.4, lineHeight: UNIT * 1.8 },
+  caption2: { fontSize: UNIT * 1.2, lineHeight: UNIT * 1.6 },
 
   lighter: { fontWeight: FONT.WEIGHT.LIGHTER },
 
