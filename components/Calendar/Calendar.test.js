@@ -19,6 +19,11 @@ const LOCALE = {
   ],
 };
 
+const CAPTIONS = [
+  { date: TOMORROW, value: '$10' },
+  { date: IN_7_DAYS, value: '$19' },
+];
+
 describe('<Calendar>', () => {
   it('renders', () => {
     const tree = renderer.create(<Calendar />).toJSON();
@@ -57,6 +62,11 @@ describe('<Calendar>', () => {
 
   it('when {disabledPast}', () => {
     const tree = renderer.create(<Calendar disabledPast />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {captions}', () => {
+    const tree = renderer.create(<Calendar captions={CAPTIONS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

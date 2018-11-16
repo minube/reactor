@@ -16,6 +16,7 @@ class Calendar extends PureComponent {
   static propTypes = {
     availableDates: arrayOf(shape()),
     busy: bool,
+    captions: arrayOf(shape()),
     disabledDates: arrayOf(shape()),
     disabledPast: bool,
     locale: shape(),
@@ -28,6 +29,7 @@ class Calendar extends PureComponent {
   static defaultProps = {
     availableDates: [],
     busy: false,
+    captions: [],
     disabledDates: [],
     disabledPast: false,
     locale: LOCALE,

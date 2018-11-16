@@ -27,7 +27,16 @@ export default StyleSheet.create({
     opacity: 0.1,
   },
 
+  caption: {
+    position: 'absolute',
+    top: (BOX_HEIGHT / 2) + (UNIT / 1.75),
+    lineHeight: UNIT,
+    fontSize: UNIT,
+    opacity: 0.5,
+  },
+
   container: {
+    backgroundColor: COLOR.BACKGROUND,
     paddingHorizontal: OFFSET,
     paddingVertical: OFFSET / 2,
     justifyContent: 'center',
@@ -35,6 +44,7 @@ export default StyleSheet.create({
 
   day: {
     flex: 1,
+    // lineHeight: UNIT,
   },
 
   dayName: {

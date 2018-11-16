@@ -21,15 +21,19 @@ const onPress = ({
 const Week = ({
   availableDates, disabledDates, disabledPast, firstDate, ...inherit
 }) => {
-  const { month, today, value } = inherit;
+  const {
+    captions, month, today, value,
+  } = inherit;
   const tsToday = today.getTime();
 
   let tsStart;
   let tsEnd;
   let tsAvailableDates;
+  let tsCaptionsDates;
   let tsDisabledDates;
 
   if (availableDates.length > 0) tsAvailableDates = availableDates.map(d => d.getTime());
+  else if (captions.length > 0) tsCaptionsDates = captions.map(({ date }) => date.getTime());
   else if (disabledDates.length > 0) tsDisabledDates = disabledDates.map(d => d.getTime());
 
   if (value) {
@@ -49,14 +53,25 @@ const Week = ({
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
         const isSelected = tsDay >= tsStart && tsDay <= tsEnd;
-
         let isDisabled = false;
+        let caption;
+
         if (disabledPast) isDisabled = tsDay < tsToday;
 
         if (!isDisabled) {
           if (tsAvailableDates) isDisabled = !tsAvailableDates.includes(tsDay);
           else if (tsDisabledDates) isDisabled = tsDisabledDates.includes(tsDay);
+
+          if (tsCaptionsDates && tsCaptionsDates.includes(tsDay)) {
+            const item = captions[tsCaptionsDates.indexOf(tsDay)];
+            caption = item.value;
+          }
         }
+
+        const stylesDay = [
+          isToday && styles.today,
+          !isDisabled && isSelected && styles.highlight,
+        ];
 
         return (
           <Touchable
@@ -79,15 +94,18 @@ const Week = ({
             <Text
               level={3}
               style={[
-                isToday && styles.today,
+                ...stylesDay,
                 isToday && styles.textBold,
                 !isDisabled && isSelected && styles.textBold,
-                !isDisabled && isSelected && styles.highlight,
                 (day.getMonth() !== month || isDisabled) && styles.disabled,
               ]}
             >
               {day.getDate()}
             </Text>
+            { caption && (
+              <Text caption style={[...stylesDay, styles.caption]}>
+                {caption}
+              </Text>)}
           </Touchable>
         );
       })}

@@ -20,6 +20,10 @@ const DATES = [
   new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 4),
   new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 5),
 ];
+const CAPTIONS = [
+  { date: DATES[1], value: '$10' },
+  { date: DATES[2], value: '$19' },
+];
 
 const LOCALE = {
   DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
@@ -72,6 +76,9 @@ storiesOf('✅ Calendar', module)
   .add('disabledPast', () => (
     <Calendar disabledPast />
   ))
+  .add('captions', () => (
+    <Calendar captions={CAPTIONS} />
+  ))
   .add('⚡ onSelect', () => (
     <CalendarHOC disabledDates={DATES} onSelect={action('Calendar.onSelect()')} />
   ))
@@ -87,6 +94,7 @@ storiesOf('✅ Calendar', module)
   .add('🏀 Playground', () => (
     <CalendarHOC
       busy={boolean('busy', false)}
+      captions={CAPTIONS}
       disabledPast={boolean('disabledPast', false)}
       locale={object('locale', LOCALE)}
       // value={date('value', TOMORROW)}
