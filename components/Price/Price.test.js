@@ -38,6 +38,11 @@ describe('<Price>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('inject <Text> properties', () => {
+    const tree = renderer.create(<Price headline={false} subtitle level={2} value={4} symbol="eur" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {style}', () => {
     const tree = renderer.create(<Price style={STYLE} value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();

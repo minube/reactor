@@ -26,8 +26,8 @@ storiesOf('✅ Price', module)
   .add('symbol (right)', () => (
     <Price value={4} symbol="eur" />
   ))
-  .add('inherit <Text> properties', () => (
-    <Price title primary />
+  .add('inject <Text> properties', () => (
+    <Price headline={false} subtitle level={2} />
   ))
   .add('style', () => (
     <Price style={STYLE} />

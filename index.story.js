@@ -70,7 +70,6 @@ storiesOf('🏀 Playground', module)
       <Consumer>
         { ({ logEvent }) => (
             <Button
-              primary
               title="Press me"
               onPress={() => logEvent({ type: 'reactor:demo', hello: 'world' })}
             />

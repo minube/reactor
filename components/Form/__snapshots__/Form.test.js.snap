@@ -675,9 +675,7 @@ exports[`<Form> when {attributes} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          bold={true}
           ellipsizeMode="tail"
-          primary={true}
           style={
             Array [
               Object {
@@ -688,7 +686,8 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "lineHeight": 30,
+                "fontWeight": "600",
+                "lineHeight": 18,
               },
               false,
               Object {
@@ -1637,9 +1636,7 @@ exports[`<Form> when {data} 1`] = `
         <Text
           accessible={true}
           allowFontScaling={true}
-          bold={true}
           ellipsizeMode="tail"
-          primary={true}
           style={
             Array [
               Object {
@@ -1650,7 +1647,8 @@ exports[`<Form> when {data} 1`] = `
               },
               Object {
                 "fontSize": 16,
-                "lineHeight": 30,
+                "fontWeight": "600",
+                "lineHeight": 18,
               },
               false,
               Object {
@@ -2040,9 +2038,7 @@ exports[`<Form> when {title} 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
-        bold={true}
         ellipsizeMode="tail"
-        primary={true}
         style={
           Array [
             Object {
@@ -2053,7 +2049,8 @@ exports[`<Form> when {title} 1`] = `
             },
             Object {
               "fontSize": 16,
-              "lineHeight": 30,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
             false,
             Object {

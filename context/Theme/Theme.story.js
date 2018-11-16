@@ -21,12 +21,10 @@ class ThemeHOC extends Component {
   render() {
     const { _onChange, state: { night } } = this;
 
-    console.log('>>>>>', this.state);
-
     return (
       <ProviderTheme style={night ? style : undefined}>
         <Fragment>
-          <Button primary title="Switch Mode" onPress={() => this.setState({ night: !night })} />
+          <Button title="Switch Mode" onPress={() => this.setState({ night: !night })} />
           <Text>
             Hello World
           </Text>

@@ -1274,8 +1274,8 @@ exports[`<Slider> when {navigation} 1`] = `
               "justifyContent": "center",
             },
             Object {
-              "height": 45,
-              "minWidth": 45,
+              "height": 44,
+              "minWidth": 44,
               "paddingHorizontal": 30,
             },
             Object {
@@ -1284,9 +1284,9 @@ exports[`<Slider> when {navigation} 1`] = `
               "flexDirection": "row",
             },
             Object {
-              "height": 30,
-              "minWidth": 30,
-              "paddingHorizontal": 15,
+              "height": 28,
+              "minWidth": 28,
+              "paddingHorizontal": 14,
             },
             false,
             false,
@@ -1296,7 +1296,6 @@ exports[`<Slider> when {navigation} 1`] = `
             Object {
               "backgroundColor": "#9b9b9b",
             },
-            false,
             false,
             false,
             false,
@@ -1413,8 +1412,8 @@ exports[`<Slider> when {navigation} 1`] = `
               "justifyContent": "center",
             },
             Object {
-              "height": 45,
-              "minWidth": 45,
+              "height": 44,
+              "minWidth": 44,
               "paddingHorizontal": 30,
             },
             Object {
@@ -1423,9 +1422,9 @@ exports[`<Slider> when {navigation} 1`] = `
               "flexDirection": "row",
             },
             Object {
-              "height": 30,
-              "minWidth": 30,
-              "paddingHorizontal": 15,
+              "height": 28,
+              "minWidth": 28,
+              "paddingHorizontal": 14,
             },
             false,
             false,
@@ -1435,7 +1434,6 @@ exports[`<Slider> when {navigation} 1`] = `
             Object {
               "backgroundColor": "#9b9b9b",
             },
-            false,
             false,
             false,
             false,

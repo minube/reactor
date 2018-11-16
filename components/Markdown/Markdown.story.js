@@ -18,8 +18,8 @@ storiesOf('✅ Markdown', module)
   .add('combining * & **', () => (
     <Markdown>hello *world*, I'm **javi**.</Markdown>
   ))
-  .add('including a <Text> property', () => (
-    <Markdown secondary>Hello *World*</Markdown>
+  .add('inject a <Text> property', () => (
+    <Markdown subtitle level={2}>Hello *World*</Markdown>
   ))
   .add('style container', () => (
     <Markdown styleContainer={{ width: 192, backgroundColor: THEME.COLOR.PRIMARY, padding: 16 }}>

@@ -32,7 +32,6 @@ storiesOf('✅ Share', module)
   ))
   .add('🏀 Playground', () => (
     <Share
-      primary
       title={text('title', 'hello')}
       caption={text('caption', LOREM)}
       color={color('color', LOREM)}

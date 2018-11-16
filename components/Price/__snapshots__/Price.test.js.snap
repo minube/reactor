@@ -1,5 +1,73 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Price> inject <Text> properties 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 18,
+        },
+        false,
+        Object {},
+      ]
+    }
+  >
+    4
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 18,
+        },
+        false,
+        Object {
+          "fontWeight": "600",
+          "transform": Array [
+            Object {
+              "scale": 0.8,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    eur
+  </Text>
+</View>
+`;
+
 exports[`<Price> renders 1`] = `
 <View
   style={

@@ -62,7 +62,7 @@ class Form extends PureComponent {
     return (
       <View key={key} style={[styles.container, fieldset && styles.fieldset]}>
         { title && (
-        <Text primary bold style={[styles.title, styles.anchor]}>
+        <Text subtitle level={2} style={[styles.title, styles.anchor]}>
           {title}
         </Text>
         ) }

@@ -567,7 +567,7 @@ exports[`<ListingCard> when {children} 1`] = `
               "borderRadius": 3,
             },
             Object {
-              "borderRadius": 22.5,
+              "borderRadius": 22,
             },
             Object {
               "alignSelf": "flex-start",
@@ -586,8 +586,8 @@ exports[`<ListingCard> when {children} 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "height": 45,
-                "minWidth": 45,
+                "height": 44,
+                "minWidth": 44,
                 "paddingHorizontal": 30,
               },
               Object {
@@ -596,19 +596,18 @@ exports[`<ListingCard> when {children} 1`] = `
                 "flexDirection": "row",
               },
               Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
+                "height": 28,
+                "minWidth": 28,
+                "paddingHorizontal": 14,
               },
               false,
               Object {
-                "borderRadius": 22.5,
+                "borderRadius": 22,
               },
               false,
               Object {
                 "backgroundColor": "#9b9b9b",
               },
-              false,
               false,
               false,
               false,
@@ -651,7 +650,7 @@ exports[`<ListingCard> when {children} 1`] = `
                     "fontFamily": undefined,
                     "fontSize": 14,
                     "fontWeight": "600",
-                    "letterSpacing": -0.3,
+                    "letterSpacing": -0.15,
                   },
                 ]
               }
@@ -674,7 +673,7 @@ exports[`<ListingCard> when {children} 1`] = `
                 "top": 0,
               },
               Object {
-                "borderRadius": 22.5,
+                "borderRadius": 22,
               },
             ]
           }

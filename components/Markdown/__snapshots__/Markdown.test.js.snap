@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Markdown> including a <Text> property 1`] = `
+exports[`<Markdown> inject a <Text> property 1`] = `
 <View
   style={
     Array [
@@ -22,7 +22,6 @@ exports[`<Markdown> including a <Text> property 1`] = `
     bold={false}
     ellipsizeMode="tail"
     italic={false}
-    secondary={true}
     style={
       Array [
         Object {
@@ -33,7 +32,8 @@ exports[`<Markdown> including a <Text> property 1`] = `
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 30,
+          "fontWeight": "600",
+          "lineHeight": 18,
         },
         false,
         Object {},
@@ -48,7 +48,6 @@ exports[`<Markdown> including a <Text> property 1`] = `
     bold={false}
     ellipsizeMode="tail"
     italic={Object {}}
-    secondary={true}
     style={
       Array [
         Object {
@@ -59,7 +58,8 @@ exports[`<Markdown> including a <Text> property 1`] = `
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 30,
+          "fontWeight": "600",
+          "lineHeight": 18,
         },
         false,
         Object {},
