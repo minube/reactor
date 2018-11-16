@@ -24,10 +24,10 @@ storiesOf('✅ Button', module)
     <Button title="Press me" onPress={_onPress} />
   ))
   .add('icon', () => (
-    <Button icon="apps" onPress={_onPress} />
+    <Button icon="closeContrast" onPress={_onPress} />
   ))
   .add('icon & title', () => (
-    <Button icon="apps" title="Press me" onPress={_onPress} />
+    <Button icon="closeContrast" title="Press me" onPress={_onPress} />
   ))
   .add('contained (false)', () => (
     <Button contained={false} title="Press me" onPress={_onPress} />

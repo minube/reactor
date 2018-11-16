@@ -7,21 +7,15 @@ import { THEME } from '../../common';
 import Icon from './Icon';
 
 const ICONS = [
-  'accessibility',
-  'apps',
-  'calendar',
-  'clock',
   'close',
   'closeContrast',
-  'done',
   'email',
-  'expand',
   'facebook',
   'google',
   'left',
   'linkedin',
   'right',
-  'share',
+  'shareContrast',
   'twitter',
 ]
 

@@ -63,7 +63,7 @@ exports[`<Share> renders 1`] = `
         resizeMode="contain"
         source={
           Object {
-            "testUri": "../../../components/Icon/assets/share.png",
+            "testUri": "../../../components/Icon/assets/share_contrast.png",
           }
         }
         style={

@@ -84,7 +84,7 @@ class Share extends PureComponent {
 
     return (
       <View pointerEvents="auto">
-        <Button {...inherit} icon="share" onPress={_onPress} />
+        <Button {...inherit} icon="shareContrast" onPress={_onPress} />
         { IS_WEB
           && (
           <Dialog
