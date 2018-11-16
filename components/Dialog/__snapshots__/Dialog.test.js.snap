@@ -20,62 +20,79 @@ exports[`<Dialog> renders 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -99,62 +116,79 @@ exports[`<Dialog> when {background} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -179,86 +213,103 @@ exports[`<Dialog> when {children} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
             style={
               Array [
                 Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
                 },
                 false,
-                Object {},
               ]
             }
           >
-            Hello World
-          </Text>
-        </View>
-      </RCTScrollView>
-    </RCTSafeAreaView>
+            <View>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#4a4a4a",
+                      "fontFamily": undefined,
+                      "fontWeight": "400",
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 16,
+                      "lineHeight": 30,
+                    },
+                    false,
+                    Object {},
+                  ]
+                }
+              >
+                Hello World
+              </Text>
+            </View>
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -283,216 +334,233 @@ exports[`<Dialog> when {highlight} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
-          }
-        }
-      >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "flex": 1,
-                "padding": 16,
-              },
-            ]
-          }
-        >
-          Hello world
-        </Text>
-        <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              Object {
-                "borderRadius": 3,
-              },
-              Object {
-                "borderRadius": 22,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderRadius": 3,
-                  "justifyContent": "center",
-                },
-                Object {
-                  "height": 44,
-                  "minWidth": 44,
-                  "paddingHorizontal": 30,
-                },
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                false,
-                false,
-                Object {
-                  "borderRadius": 22,
-                },
-                Object {
-                  "paddingHorizontal": 0,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-              ]
-            }
-          >
-            <Image
-              resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/close_contrast.png",
-                }
-              }
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  undefined,
-                  undefined,
-                ]
-              }
-            />
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                  },
-                  undefined,
-                ]
-              }
-            />
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                Object {
-                  "borderRadius": 22,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#ffffff",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
-      <RCTScrollView
-        onScroll={[Function]}
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
             },
-            false,
-          ]
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
+          }
         }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 20,
+                    "fontWeight": "700",
+                    "letterSpacing": -0.83,
+                    "lineHeight": 22,
+                  },
+                  false,
+                  Object {
+                    "color": "#ffffff",
+                    "flex": 1,
+                    "padding": 16,
+                  },
+                ]
+              }
+            >
+              Hello world
+            </Text>
+            <View
+              accessible={true}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "borderRadius": 3,
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "height": 44,
+                      "minWidth": 44,
+                      "paddingHorizontal": 30,
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    false,
+                    false,
+                    Object {
+                      "borderRadius": 22,
+                    },
+                    Object {
+                      "paddingHorizontal": 0,
+                    },
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                  ]
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "testUri": "../../../components/Icon/assets/close_contrast.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "height": 20,
+                        "width": 20,
+                      },
+                      undefined,
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "flexDirection": "row",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderRadius": 3,
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 22,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#ffffff",
+                      "height": 0,
+                      "opacity": 0,
+                      "width": 0,
+                      "zIndex": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </View>
+          <RCTScrollView
+            onScroll={[Function]}
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -517,185 +585,202 @@ exports[`<Dialog> when {onClose} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
       >
-        <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
+        <RCTSafeAreaView
           style={
-            Array [
-              Object {
-                "borderRadius": 3,
-              },
-              Object {
-                "borderRadius": 22,
-              },
-              undefined,
-            ]
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
           }
         >
           <View
             style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderRadius": 3,
-                  "justifyContent": "center",
-                },
-                Object {
-                  "height": 44,
-                  "minWidth": 44,
-                  "paddingHorizontal": 30,
-                },
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                false,
-                false,
-                Object {
-                  "borderRadius": 22,
-                },
-                Object {
-                  "paddingHorizontal": 0,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/close.png",
-                }
-              }
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  undefined,
-                  undefined,
-                ]
-              }
-            />
             <View
+              accessible={true}
+              onLayout={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              pointerEvents="box-only"
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
                   },
                   undefined,
                 ]
               }
-            />
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignContent": "center",
+                      "alignItems": "center",
+                      "borderRadius": 3,
+                      "justifyContent": "center",
+                    },
+                    Object {
+                      "height": 44,
+                      "minWidth": 44,
+                      "paddingHorizontal": 30,
+                    },
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    false,
+                    false,
+                    Object {
+                      "borderRadius": 22,
+                    },
+                    Object {
+                      "paddingHorizontal": 0,
+                    },
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                  ]
+                }
+              >
+                <Image
+                  resizeMode="contain"
+                  source={
+                    Object {
+                      "testUri": "../../../components/Icon/assets/close.png",
+                    }
+                  }
+                  style={
+                    Array [
+                      Object {
+                        "backgroundColor": "transparent",
+                        "height": 20,
+                        "width": 20,
+                      },
+                      undefined,
+                      undefined,
+                    ]
+                  }
+                />
+                <View
+                  style={
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "flexDirection": "row",
+                      },
+                      undefined,
+                    ]
+                  }
+                />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "borderRadius": 3,
+                      "bottom": 0,
+                      "left": 0,
+                      "overflow": "hidden",
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    },
+                    Object {
+                      "borderRadius": 22,
+                    },
+                  ]
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "#4a4a4a",
+                      "height": 0,
+                      "opacity": 0,
+                      "width": 0,
+                      "zIndex": 0,
+                    }
+                  }
+                />
+              </View>
+            </View>
           </View>
-          <View
+          <RCTScrollView
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
                 },
-                Object {
-                  "borderRadius": 22,
-                },
+                false,
               ]
             }
           >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#4a4a4a",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
       </View>
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
-      >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+    </View>
   </View>
 </View>
 `;
@@ -720,62 +805,79 @@ exports[`<Dialog> when {reverse} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 0,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 0,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -800,62 +902,79 @@ exports[`<Dialog> when {style} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "rgba(0,255,0,0.25)",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "rgba(0,255,0,0.25)",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -880,62 +999,79 @@ exports[`<Dialog> when {styleContainer} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
@@ -960,93 +1096,110 @@ exports[`<Dialog> when {title} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 1334,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 1334,
+              },
+            ],
           }
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <RCTSafeAreaView
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
-              },
-              false,
-              Object {
-                "flex": 1,
-                "padding": 16,
-              },
-            ]
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
           }
         >
-          Hello world
-        </Text>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 20,
+                    "fontWeight": "700",
+                    "letterSpacing": -0.83,
+                    "lineHeight": 22,
+                  },
+                  false,
+                  Object {
+                    "flex": 1,
+                    "padding": 16,
+                  },
+                ]
+              }
+            >
+              Hello world
+            </Text>
+          </View>
+          <RCTScrollView
+            onScroll={[Function]}
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
       </View>
-      <RCTScrollView
-        onScroll={[Function]}
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
-      >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+    </View>
   </View>
 </View>
 `;
@@ -1071,62 +1224,79 @@ exports[`<Dialog> when {visible} 1`] = `
   }
 >
   <View
-    pointerEvents="auto"
-    style={
-      Object {
-        "backgroundColor": "#F5F5F6",
-        "borderRadius": 3,
-        "display": undefined,
-        "maxHeight": "100%",
-        "maxWidth": "100%",
-        "minWidth": "66%",
-        "shadowColor": "#000000",
-        "shadowOffset": Object {
-          "height": 2,
-          "width": 0,
-        },
-        "shadowOpacity": 0.26,
-        "shadowRadius": 5,
-        "transform": Array [
-          Object {
-            "translateY": 0,
-          },
-        ],
-      }
-    }
+    enabled={true}
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
   >
-    <RCTSafeAreaView
+    <View
       style={
-        Object {
-          "flex": 1,
-          "maxHeight": "100%",
-        }
+        Array [
+          undefined,
+          Object {
+            "bottom": 0,
+          },
+        ]
       }
     >
       <View
+        pointerEvents="auto"
         style={
           Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-            "justifyContent": "flex-end",
+            "backgroundColor": "#F5F5F6",
+            "borderRadius": 3,
+            "display": undefined,
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": "66%",
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.26,
+            "shadowRadius": 5,
+            "transform": Array [
+              Object {
+                "translateY": 0,
+              },
+            ],
           }
         }
-      />
-      <RCTScrollView
-        style={
-          Array [
-            Object {
-              "paddingBottom": 16,
-              "paddingHorizontal": 16,
-            },
-            false,
-          ]
-        }
       >
-        <View />
-      </RCTScrollView>
-    </RCTSafeAreaView>
+        <RCTSafeAreaView
+          style={
+            Object {
+              "flex": 1,
+              "maxHeight": "100%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "flex-end",
+              }
+            }
+          />
+          <RCTScrollView
+            style={
+              Array [
+                Object {
+                  "paddingBottom": 16,
+                  "paddingHorizontal": 16,
+                },
+                false,
+              ]
+            }
+          >
+            <View />
+          </RCTScrollView>
+        </RCTSafeAreaView>
+      </View>
+    </View>
   </View>
 </View>
 `;
