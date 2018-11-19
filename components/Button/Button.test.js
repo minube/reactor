@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
+import { THEME } from '../../common';
 import { Price } from '../';
 import Button from './Button';
 
@@ -47,6 +48,11 @@ describe('<Button>', () => {
 
   it('when {color}', () => {
     const tree = renderer.create(<Button color="red" title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {color} (COLOR.WHITE)', () => {
+    const tree = renderer.create(<Button color={THEME.COLOR.WHITE} title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

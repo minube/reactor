@@ -4,14 +4,14 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color, object } from '@storybook/addon-knobs/react';
 
+import { THEME } from '../../common';
 import { LayoutView, Price } from '../';
 import Button from './Button';
 
 const styles = {
   button: {
-    marginHorizontal: 10,
-    backgroundColor: 'rgba(0,255,0,0.25)',
-    opacity: 0.5,
+    paddingHorizontal: 10,
+    backgroundColor: 'green',
   },
 }
 const _onPress = () => {};
@@ -30,7 +30,7 @@ storiesOf('✅ Button', module)
     <Button icon="closeContrast" title="Press me" onPress={_onPress} />
   ))
   .add('contained (false)', () => (
-    <Button contained={false} title="Press me" onPress={_onPress} />
+    <Button contained title="Press me" onPress={_onPress} />
   ))
   .add('outlined', () => (
     <Button outlined title="Press me" onPress={_onPress} />
@@ -44,7 +44,10 @@ storiesOf('✅ Button', module)
     </Button>
   ))
   .add('color', () => (
-    <Button color="red" title="Press me" onPress={_onPress} />
+    <Button title="Press me" onPress={_onPress} />
+  ))
+  .add('color (COLOR.WHITE)', () => (
+    <Button color={THEME.COLOR.WHITE} title="Press me" onPress={_onPress} />
   ))
   .add('disabled', () => (
     <Button disabled title="Press me" />

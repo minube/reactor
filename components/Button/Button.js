@@ -17,6 +17,9 @@ const Button = ({
   activity, children, color, contained, disabled, icon, onPress, outlined,
   responsive, rounded, shadow, small, title,
   isSolid = contained && !outlined, // eslint-disable-line
+  textColor = isSolid // eslint-disable-line
+    ? color === WHITE ? TEXT_LIGHTEN : WHITE
+    : color || TEXT_LIGHTEN,
   ...inherit
 }) => (
   <Touchable
@@ -45,17 +48,17 @@ const Button = ({
         !isSolid && disabled && styles.disabledOpacity,
       ]}
     >
-      { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
+      { activity && <Activity color={textColor} type="small" /> }
       { icon && !activity && <Icon value={icon} /> }
       <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
         { title
           && (
           <Text
-            color={isSolid ? WHITE : color || TEXT_LIGHTEN}
+            color={textColor}
             style={[
               styles.text,
               small && styles.textSmall,
-              responsive && !small && styles.textSmall,
+              responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.textSmall,
               (activity || icon) && styles.textMarginLeft,
             ]}
           >
