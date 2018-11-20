@@ -331,11 +331,8 @@ exports[`<Button> when {children} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
+                "fontSize": 16,
+                "lineHeight": 30,
               },
               false,
               Object {},
@@ -357,15 +354,11 @@ exports[`<Button> when {children} 1`] = `
                 "textAlignVertical": "center",
               },
               Object {
-                "fontFamily": undefined,
-                "fontSize": 20,
-                "fontWeight": "700",
-                "letterSpacing": -0.83,
-                "lineHeight": 22,
+                "fontSize": 16,
+                "lineHeight": 30,
               },
               false,
               Object {
-                "fontWeight": "600",
                 "transform": Array [
                   Object {
                     "scale": 0.8,

@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
-import { number, text } from '@storybook/addon-knobs/react';
+import { number, text, object } from '@storybook/addon-knobs/react';
 
 import Price from './Price';
 
@@ -11,8 +11,8 @@ storiesOf('✅ Price', module)
   .add('default', () => (
     <Price />
   ))
-  .add('caption', () => (
-    <Price caption="From" />
+  .add('title', () => (
+    <Price title="From" />
   ))
   .add('value', () => (
     <Price value={19.95} />
@@ -34,7 +34,7 @@ storiesOf('✅ Price', module)
   ))
   .add('🏀 Playground', () => (
     <Price
-      caption={text('caption', 'from')}
+      title={text('title', 'from')}
       fixed={number('fixed', 2)}
       value={number('value', 64)}
       symbol={text('symbol', '€')}

@@ -9,36 +9,36 @@ import styles from './Price.style';
 const LEFT_SYMBOLS = ['$'];
 
 const Price = ({
-  caption, fixed, symbol, value, ...inherit
+  title, fixed, symbol, value, ...inherit
 }) => (
   <View style={styles.container}>
-    { caption && (
-      <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
-        {caption}
+    { title && (
+      <Text {...inherit} style={[styles.minimize, inherit.style]}>
+        {title}
       </Text>)}
     { LEFT_SYMBOLS.includes(symbol) && (
-      <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
+      <Text {...inherit} style={[styles.minimize, inherit.style]}>
         {symbol}
       </Text>)}
-    <Text headline level={6} {...inherit} style={inherit.style}>
+    <Text {...inherit} style={inherit.style}>
       {format(value, fixed)}
     </Text>
     { !LEFT_SYMBOLS.includes(symbol) && (
-      <Text headline level={6} {...inherit} style={[styles.minimize, inherit.style]}>
+      <Text {...inherit} style={[styles.minimize, inherit.style]}>
         {symbol}
       </Text>)}
   </View>
 );
 
 Price.propTypes = {
-  caption: string,
+  title: string,
   fixed: number,
   symbol: string,
   value: number,
 };
 
 Price.defaultProps = {
-  caption: undefined,
+  title: undefined,
   fixed: 0,
   symbol: '€',
   value: 0,

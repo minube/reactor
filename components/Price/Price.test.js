@@ -13,8 +13,8 @@ describe('<Price>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {caption}', () => {
-    const tree = renderer.create(<Price caption="from" />).toJSON();
+  it('when {title}', () => {
+    const tree = renderer.create(<Price title="from" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

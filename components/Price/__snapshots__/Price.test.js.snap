@@ -53,7 +53,6 @@ exports[`<Price> inject <Text> properties 1`] = `
         },
         false,
         Object {
-          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -91,11 +90,8 @@ exports[`<Price> renders 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {},
@@ -117,120 +113,11 @@ exports[`<Price> renders 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
-          "fontWeight": "600",
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    €
-  </Text>
-</View>
-`;
-
-exports[`<Price> when {caption} 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "display": "flex",
-      "flexDirection": "row",
-    }
-  }
->
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
-        },
-        false,
-        Object {
-          "fontWeight": "600",
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    from
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
-        },
-        false,
-        Object {},
-      ]
-    }
-  >
-    0
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
-        },
-        false,
-        Object {
-          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -268,11 +155,8 @@ exports[`<Price> when {fixed} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {},
@@ -294,15 +178,11 @@ exports[`<Price> when {fixed} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
-          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -340,11 +220,8 @@ exports[`<Price> when {style} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -370,11 +247,8 @@ exports[`<Price> when {style} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
@@ -418,15 +292,11 @@ exports[`<Price> when {symbol} (left) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
-          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -451,11 +321,8 @@ exports[`<Price> when {symbol} (left) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {},
@@ -490,11 +357,8 @@ exports[`<Price> when {symbol} (right) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {},
@@ -516,15 +380,11 @@ exports[`<Price> when {symbol} (right) 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
-          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
@@ -535,6 +395,100 @@ exports[`<Price> when {symbol} (right) 1`] = `
     }
   >
     eur
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {title} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 30,
+        },
+        false,
+        Object {
+          "transform": Array [
+            Object {
+              "scale": 0.8,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    from
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 30,
+        },
+        false,
+        Object {},
+      ]
+    }
+  >
+    0
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 30,
+        },
+        false,
+        Object {
+          "transform": Array [
+            Object {
+              "scale": 0.8,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    €
   </Text>
 </View>
 `;
@@ -562,11 +516,8 @@ exports[`<Price> when {value} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {},
@@ -588,15 +539,11 @@ exports[`<Price> when {value} 1`] = `
           "textAlignVertical": "center",
         },
         Object {
-          "fontFamily": undefined,
-          "fontSize": 20,
-          "fontWeight": "700",
-          "letterSpacing": -0.83,
-          "lineHeight": 22,
+          "fontSize": 16,
+          "lineHeight": 30,
         },
         false,
         Object {
-          "fontWeight": "600",
           "transform": Array [
             Object {
               "scale": 0.8,
