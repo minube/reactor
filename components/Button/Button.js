@@ -53,7 +53,7 @@ const Button = ({
           { title
             && (
             <Text
-              color={isSolid && color === WHITE ? BASE : (isSolid ? WHITE : color)} // eslint-disable-line
+              color={isSolid && color === WHITE ? TEXT_LIGHTEN : (isSolid ? WHITE : color)} // eslint-disable-line
               style={[
                 styles.text,
                 small && styles.textSmall,

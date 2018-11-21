@@ -24,21 +24,21 @@ const OPTIONS = [
 
 class Share extends PureComponent {
   static propTypes = {
-    color: string,
     caption: string,
     onCancel: func,
     onOption: func,
     onPress: func,
+    optionColor: string,
     title: string,
     uri: string.isRequired,
   };
 
   static defaultProps = {
-    color: COLOR.PRIMARY,
     caption: undefined,
     onCancel() {},
     onOption() {},
     onPress() {},
+    optionColor: undefined,
     title: 'Share',
   };
 
@@ -78,7 +78,7 @@ class Share extends PureComponent {
   render() {
     const {
       _onCancel, _onOption, _onPress,
-      props: { caption, color, ...inherit },
+      props: { caption, optionColor, ...inherit },
       state: { visible },
     } = this;
 
@@ -100,7 +100,7 @@ class Share extends PureComponent {
               { OPTIONS.map(({ title, icon, uri }) => (
                 <Touchable key={title} onPress={() => _onOption(uri)} style={styles.option}>
                   <Icon value={icon} style={styles.icon} />
-                  <Text color={color}>
+                  <Text color={optionColor}>
                     {title}
                   </Text>
                 </Touchable>))}

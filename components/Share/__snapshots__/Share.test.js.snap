@@ -164,9 +164,9 @@ exports[`<Share> when {caption} 1`] = `
 />
 `;
 
-exports[`<Share> when {color} 1`] = `
+exports[`<Share> when {tintColor} 1`] = `
 <share
-  color="red"
+  tintColor="red"
   uri="http://soyjavi.com"
 />
 `;
@@ -174,6 +174,13 @@ exports[`<Share> when {color} 1`] = `
 exports[`<Share> when {title} 1`] = `
 <share
   title="Press me"
+  uri="http://soyjavi.com"
+/>
+`;
+
+exports[`<Share> when devive <Button> 1`] = `
+<share
+  color="red"
   uri="http://soyjavi.com"
 />
 `;

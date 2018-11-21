@@ -23,7 +23,12 @@ describe('<Share>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {color}', () => {
+  it('when {tintColor}', () => {
+    const tree = renderer.create(<share uri={LOREM_URI} tintColor="red" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+   it('when devive <Button>', () => {
     const tree = renderer.create(<share uri={LOREM_URI} color="red" />).toJSON();
     expect(tree).toMatchSnapshot();
   });

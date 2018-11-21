@@ -18,7 +18,10 @@ storiesOf('✅ Share', module)
   .add('caption', () => (
     <Share caption={LOREM} />
   ))
-  .add('color', () => (
+  .add('optionColor', () => (
+    <Share optionColor="red" />
+  ))
+  .add('derive button', () => (
     <Share color="red" />
   ))
   .add('⚡ onCancel (only web)', () => (
