@@ -37,7 +37,7 @@ const Ripple = ({
 );
 
 Ripple.propTypes = {
-  color: string,
+  color: string.isRequired,
   progress: shape({}),
   x: number,
   y: number,
@@ -45,7 +45,6 @@ Ripple.propTypes = {
 };
 
 Ripple.defaultProps = {
-  color: 'rgb(255,255,255)',
   progress: new Animated.Value(0),
   x: 0,
   y: 0,

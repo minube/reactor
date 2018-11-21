@@ -1,5 +1,5 @@
 import {
-  bool, func, node, string,
+  bool, func, node, number, oneOfType, string,
 } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
@@ -11,64 +11,64 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
 
-const { TEXT_LIGHTEN, WHITE } = THEME.COLOR;
+const { COLOR: { BASE, TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
   activity, children, color, contained, disabled, icon, onPress, outlined,
   responsive, rounded, shadow, small, title,
   isSolid = contained && !outlined, // eslint-disable-line
-  textColor = isSolid // eslint-disable-line
-    ? color === WHITE ? TEXT_LIGHTEN : WHITE
-    : color || TEXT_LIGHTEN,
+  rippleColor = isSolid ? undefined : color, // eslint-disable-line
   ...inherit
 }) => (
-  <Touchable
-    containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
-    onPress={disabled ? undefined : onPress}
-    rippleColor={isSolid ? undefined : color}
-    style={[styles.touchable, rounded && styles.rounded, inherit.style]}
-  >
-    <View
-      style={[
-        styles.container,
-        styles.regular,
-        styles.row,
-        // -- Layout
-        small && styles.small,
-        responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
-        rounded && styles.rounded,
-        ((!title && !children) || (!contained && !outlined)) && styles.squared,
-
-        // -- Color
-        isSolid && { backgroundColor: color || TEXT_LIGHTEN },
-        isSolid && shadow && !disabled && styles.shadow,
-        isSolid && disabled && styles.disabled,
-        outlined && styles.outlined,
-        outlined && { borderColor: color || TEXT_LIGHTEN },
-        !isSolid && disabled && styles.disabledOpacity,
-      ]}
+  <View style={inherit.style}>
+    <Touchable
+      containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
+      onPress={disabled ? undefined : onPress}
+      rippleColor={isSolid && color === WHITE ? BASE : rippleColor}
+      style={[styles.touchable, rounded && styles.rounded]}
     >
-      { activity && <Activity color={textColor} type="small" /> }
-      { icon && !activity && <Icon value={icon} /> }
-      <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
-        { title
-          && (
-          <Text
-            color={textColor}
-            style={[
-              styles.text,
-              small && styles.textSmall,
-              responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.textSmall,
-              (activity || icon) && styles.textMarginLeft,
-            ]}
-          >
-            {title}
-          </Text>
-          ) }
-        { children }
+      <View
+        style={[
+          styles.container,
+          styles.regular,
+          styles.row,
+          // -- Layout
+          small && styles.small,
+          responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
+          rounded && styles.rounded,
+          ((!title && !children) || (!contained && !outlined)) && styles.squared,
+
+          // -- Color
+          isSolid && { backgroundColor: color || TEXT_LIGHTEN },
+          isSolid && shadow && !disabled && styles.shadow,
+          isSolid && disabled && styles.disabled,
+          outlined && styles.outlined,
+          outlined && { borderColor: color || TEXT_LIGHTEN },
+          !isSolid && disabled && styles.disabledOpacity,
+        ]}
+      >
+        { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
+        { icon && !activity && <Icon value={icon} /> }
+        <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
+          { title
+            && (
+            <Text
+              color={isSolid && color === WHITE ? BASE : (isSolid ? WHITE : color)} // eslint-disable-line
+              style={[
+                styles.text,
+                small && styles.textSmall,
+                responsive && !small && styles.textSmall,
+                (activity || icon) && styles.textMarginLeft,
+              ]}
+            >
+              {title}
+            </Text>
+            ) }
+          { children }
+        </View>
       </View>
-    </View>
-  </Touchable>
+    </Touchable>
+  </View>
 );
 
 Button.propTypes = {
@@ -77,7 +77,7 @@ Button.propTypes = {
   contained: bool,
   color: string,
   disabled: bool,
-  icon: string,
+  icon: oneOfType([number, string]),
   onPress: func,
   outlined: bool,
   responsive: bool,

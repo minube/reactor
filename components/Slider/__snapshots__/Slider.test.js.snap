@@ -253,7 +253,7 @@ exports[`<Slider> when {dataSource} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -436,7 +436,7 @@ exports[`<Slider> when {dataSource} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -637,7 +637,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -820,7 +820,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -1022,7 +1022,7 @@ exports[`<Slider> when {momentum} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -1205,7 +1205,7 @@ exports[`<Slider> when {momentum} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -1244,126 +1244,127 @@ exports[`<Slider> when {navigation} 1`] = `
       ]
     }
   >
-    <View
-      accessible={true}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
-      style={
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          undefined,
-        ]
-      }
-    >
+    <View>
       <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
           Array [
             Object {
-              "alignContent": "center",
-              "alignItems": "center",
               "borderRadius": 3,
-              "justifyContent": "center",
             },
-            Object {
-              "height": 44,
-              "minWidth": 44,
-              "paddingHorizontal": 30,
-            },
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            Object {
-              "height": 28,
-              "minWidth": 28,
-              "paddingHorizontal": 14,
-            },
-            false,
-            false,
-            Object {
-              "paddingHorizontal": 0,
-            },
-            Object {
-              "backgroundColor": "#9b9b9b",
-            },
-            false,
-            false,
-            false,
-            false,
             false,
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "testUri": "../../../components/Icon/assets/left.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              undefined,
-              undefined,
-            ]
-          }
-        />
         <View
           style={
             Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 44,
+                "minWidth": 44,
+                "paddingHorizontal": 30,
+              },
               Object {
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
               },
+              Object {
+                "height": 28,
+                "minWidth": 28,
+                "paddingHorizontal": 14,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              Object {
+                "backgroundColor": "#9b9b9b",
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/left.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
               undefined,
             ]
           }
-        />
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#e0e0e0",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
             }
-          }
-        />
+          />
+        </View>
       </View>
     </View>
   </View>
@@ -1382,126 +1383,127 @@ exports[`<Slider> when {navigation} 1`] = `
       ]
     }
   >
-    <View
-      accessible={true}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
-      style={
-        Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
-          undefined,
-        ]
-      }
-    >
+    <View>
       <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
         style={
           Array [
             Object {
-              "alignContent": "center",
-              "alignItems": "center",
               "borderRadius": 3,
-              "justifyContent": "center",
             },
-            Object {
-              "height": 44,
-              "minWidth": 44,
-              "paddingHorizontal": 30,
-            },
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-            },
-            Object {
-              "height": 28,
-              "minWidth": 28,
-              "paddingHorizontal": 14,
-            },
-            false,
-            false,
-            Object {
-              "paddingHorizontal": 0,
-            },
-            Object {
-              "backgroundColor": "#9b9b9b",
-            },
-            false,
-            false,
-            false,
-            false,
             false,
           ]
         }
       >
-        <Image
-          resizeMode="contain"
-          source={
-            Object {
-              "testUri": "../../../components/Icon/assets/right.png",
-            }
-          }
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "height": 20,
-                "width": 20,
-              },
-              undefined,
-              undefined,
-            ]
-          }
-        />
         <View
           style={
             Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderRadius": 3,
+                "justifyContent": "center",
+              },
+              Object {
+                "height": 44,
+                "minWidth": 44,
+                "paddingHorizontal": 30,
+              },
               Object {
                 "alignItems": "center",
                 "display": "flex",
                 "flexDirection": "row",
               },
+              Object {
+                "height": 28,
+                "minWidth": 28,
+                "paddingHorizontal": 14,
+              },
+              false,
+              false,
+              Object {
+                "paddingHorizontal": 0,
+              },
+              Object {
+                "backgroundColor": "#9b9b9b",
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+            ]
+          }
+        >
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/right.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          />
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
               undefined,
             ]
           }
-        />
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#ffffff",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#e0e0e0",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
             }
-          }
-        />
+          />
+        </View>
       </View>
     </View>
   </View>
@@ -1699,7 +1701,7 @@ exports[`<Slider> when {steps} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -1882,7 +1884,7 @@ exports[`<Slider> when {steps} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -2089,7 +2091,7 @@ exports[`<Slider> when {style} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,
@@ -2272,7 +2274,7 @@ exports[`<Slider> when {style} 1`] = `
             <View
               style={
                 Object {
-                  "backgroundColor": "#ffffff",
+                  "backgroundColor": "#e0e0e0",
                   "height": 0,
                   "opacity": 0,
                   "width": 0,

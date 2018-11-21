@@ -4,153 +4,154 @@ exports[`<Share> renders 1`] = `
 <View
   pointerEvents="auto"
 >
-  <View
-    accessible={true}
-    onLayout={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
-    pointerEvents="box-only"
-    style={
-      Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
-        undefined,
-      ]
-    }
-  >
+  <View>
     <View
+      accessible={true}
+      onLayout={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      pointerEvents="box-only"
       style={
         Array [
           Object {
-            "alignContent": "center",
-            "alignItems": "center",
             "borderRadius": 3,
-            "justifyContent": "center",
           },
-          Object {
-            "height": 44,
-            "minWidth": 44,
-            "paddingHorizontal": 30,
-          },
-          Object {
-            "alignItems": "center",
-            "display": "flex",
-            "flexDirection": "row",
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "backgroundColor": "#9b9b9b",
-          },
-          false,
-          false,
-          false,
-          false,
           false,
         ]
       }
     >
-      <Image
-        resizeMode="contain"
-        source={
-          Object {
-            "testUri": "../../../components/Icon/assets/share_contrast.png",
-          }
-        }
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "height": 20,
-              "width": 20,
-            },
-            undefined,
-            undefined,
-          ]
-        }
-      />
       <View
         style={
           Array [
+            Object {
+              "alignContent": "center",
+              "alignItems": "center",
+              "borderRadius": 3,
+              "justifyContent": "center",
+            },
+            Object {
+              "height": 44,
+              "minWidth": 44,
+              "paddingHorizontal": 30,
+            },
             Object {
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
             },
+            false,
+            false,
+            false,
+            false,
             Object {
-              "marginLeft": 5,
+              "backgroundColor": "#9b9b9b",
             },
+            false,
+            false,
+            false,
+            false,
+            false,
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/share_contrast.png",
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
               },
               Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {
-                "color": "#ffffff",
-                "fontFamily": undefined,
-                "fontSize": 16,
-                "fontWeight": "600",
-                "letterSpacing": -0.2,
                 "marginLeft": 5,
               },
             ]
           }
         >
-          Share
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 16,
+                  "lineHeight": 30,
+                },
+                false,
+                Object {
+                  "color": "#ffffff",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "600",
+                  "letterSpacing": -0.2,
+                  "marginLeft": 5,
+                },
+              ]
+            }
+          >
+            Share
+          </Text>
+        </View>
       </View>
-    </View>
-    <View
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderRadius": 3,
-            "bottom": 0,
-            "left": 0,
-            "overflow": "hidden",
-            "position": "absolute",
-            "right": 0,
-            "top": 0,
-          },
-          undefined,
-        ]
-      }
-    >
       <View
         style={
-          Object {
-            "backgroundColor": "#ffffff",
-            "height": 0,
-            "opacity": 0,
-            "width": 0,
-            "zIndex": 0,
-          }
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
         }
-      />
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#e0e0e0",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
     </View>
   </View>
 </View>

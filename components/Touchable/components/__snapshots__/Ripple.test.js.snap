@@ -4,7 +4,7 @@ exports[`<Ripple> renders 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "rgb(255,255,255)",
+      "backgroundColor": undefined,
       "borderRadius": 10,
       "height": 20,
       "left": -10,
