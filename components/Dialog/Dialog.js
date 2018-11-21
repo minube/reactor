@@ -3,7 +3,7 @@ import {
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import {
-  KeyboardAvoidingView, Platform, SafeAreaView, ScrollView, View,
+  KeyboardAvoidingView, SafeAreaView, ScrollView, View,
 } from 'react-native';
 
 import { ENV, LAYOUT, THEME } from '../../common';
@@ -12,7 +12,7 @@ import Motion from '../Motion';
 import Text from '../Text';
 import styles from './Dialog.style';
 
-const { IS_WEB } = ENV;
+const { IS_NATIVE } = ENV;
 const { COLOR, MOTION } = THEME;
 
 export default class Dialog extends PureComponent {
@@ -63,28 +63,28 @@ export default class Dialog extends PureComponent {
     return (
       <Motion
         delay={visible ? 0 : MOTION.DURATION}
-        pointerEvents={((background || !IS_WEB) && visible) ? 'auto' : 'none'}
+        pointerEvents={((background || IS_NATIVE) && visible) ? 'auto' : 'none'}
         style={[styles.container, background && styles.background, styleContainer]}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
-        <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'position' : undefined}>
-          <Motion
-            delay={visible ? MOTION.DURATION : 0}
-            duration={MOTION.DURATION}
-            pointerEvents="auto"
-            type="timing"
-            style={[
-              styles.frame,
-              {
-                maxHeight: PORTRAIT ? '100%' : '90%',
-                minWidth: PORTRAIT ? '66%' : '33%',
-                maxWidth: PORTRAIT ? '100%' : '66%',
-              },
-              style,
-            ]}
-            timeline={[{ property: 'translateY', value: translateY }]}
-          >
-            <SafeAreaView style={styles.safeArea}>
+        <Motion
+          delay={visible ? MOTION.DURATION : 0}
+          duration={MOTION.DURATION}
+          pointerEvents="auto"
+          type="timing"
+          style={[
+            styles.frame,
+            {
+              maxHeight: PORTRAIT ? '100%' : '90%',
+              minWidth: PORTRAIT ? '66%' : '33%',
+              maxWidth: PORTRAIT ? '100%' : '66%',
+            },
+            style,
+          ]}
+          timeline={[{ property: 'translateY', value: translateY }]}
+        >
+          <SafeAreaView style={styles.safeArea}>
+            <KeyboardAvoidingView behavior={IS_NATIVE ? 'position' : undefined}>
               <View style={styles.header}>
                 { title && (
                   <Text headline level={6} style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
@@ -102,9 +102,9 @@ export default class Dialog extends PureComponent {
               <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
                 {children}
               </ScrollView>
-            </SafeAreaView>
-          </Motion>
-        </KeyboardAvoidingView>
+            </KeyboardAvoidingView>
+          </SafeAreaView>
+        </Motion>
       </Motion>);
   }
 }
