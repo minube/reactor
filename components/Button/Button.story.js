@@ -40,7 +40,7 @@ storiesOf('✅ Button', module)
   ))
   .add('children', () => (
     <Button color="red">
-      <Price value={10} style={{ color: 'white' }} onPress={_onPress} />
+      <Price headline level={6} color="white" value={19.95} symbol="$" onPress={_onPress} />
     </Button>
   ))
   .add('color', () => (

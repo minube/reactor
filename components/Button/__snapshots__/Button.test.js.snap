@@ -333,15 +333,25 @@ exports[`<Button> when {children} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
+                  "fontFamily": undefined,
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.83,
+                  "lineHeight": 22,
                 },
                 false,
-                Object {},
+                Object {
+                  "color": "white",
+                  "transform": Array [
+                    Object {
+                      "scale": 0.8,
+                    },
+                  ],
+                },
               ]
             }
           >
-            10
+            $
           </Text>
           <Text
             accessible={true}
@@ -356,21 +366,20 @@ exports[`<Button> when {children} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
+                  "fontFamily": undefined,
+                  "fontSize": 20,
+                  "fontWeight": "700",
+                  "letterSpacing": -0.83,
+                  "lineHeight": 22,
                 },
                 false,
                 Object {
-                  "transform": Array [
-                    Object {
-                      "scale": 0.8,
-                    },
-                  ],
+                  "color": "white",
                 },
               ]
             }
           >
-            €
+            19,95
           </Text>
         </View>
       </View>

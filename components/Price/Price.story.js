@@ -6,37 +6,45 @@ import { number, text, object } from '@storybook/addon-knobs/react';
 import Price from './Price';
 
 const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
+const PROPS = { value: 6995.123456 };
 
 storiesOf('✅ Price', module)
   .add('default', () => (
     <Price />
   ))
-  .add('title', () => (
-    <Price title="From" />
-  ))
   .add('value', () => (
-    <Price value={19.95} />
+    <Price {...PROPS} />
   ))
-  .add('fixed', () => (
-    <Price fixed={2} value={19.1234} />
+  .add('locale (es-ES)', () => (
+    <Price {...PROPS} locale="es-ES" />
+  ))
+  .add('fixed (4)', () => (
+    <Price fixed={4} {...PROPS} />
+  ))
+  .add('fixed (0)', () => (
+    <Price fixed={0} {...PROPS} />
   ))
   .add('symbol (left)', () => (
-    <Price value={4} symbol="$" />
+    <Price {...PROPS} symbol="$" />
   ))
   .add('symbol (right)', () => (
-    <Price value={4} symbol="eur" />
+    <Price {...PROPS} symbol="eur" />
+  ))
+  .add('title', () => (
+    <Price {...PROPS} title="From" />
   ))
   .add('inject <Text> properties', () => (
-    <Price headline={false} subtitle level={2} />
+    <Price {...PROPS} headline={false} subtitle level={2}  />
   ))
   .add('style', () => (
-    <Price style={STYLE} />
+    <Price {...PROPS} style={STYLE} />
   ))
   .add('🏀 Playground', () => (
     <Price
+      locale={text('locale', 'es-ES')}
       title={text('title', 'from')}
       fixed={number('fixed', 2)}
-      value={number('value', 64)}
+      value={number('value', PROPS.value)}
       symbol={text('symbol', '€')}
       style={object('style', STYLE)}
     />
