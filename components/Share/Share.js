@@ -2,7 +2,7 @@ import { func, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import { ENV, THEME } from '../../common';
+import { ENV } from '../../common';
 import Button from '../Button';
 import Dialog from '../Dialog';
 import Icon from '../Icon';
@@ -11,7 +11,6 @@ import Touchable from '../Touchable';
 import styles from './Share.style';
 
 const { IS_WEB } = ENV;
-const { COLOR } = THEME;
 const shareNative = IS_WEB ? undefined : require('react-native').Share.share;
 
 const OPTIONS = [
