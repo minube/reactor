@@ -9,6 +9,7 @@
   "globals": {
     "document": true,
     "fetch": true,
+    "navigator": true,
     "webpack": true,
     "window": true
   },

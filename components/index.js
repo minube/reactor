@@ -27,6 +27,7 @@ import ProgressBar from './ProgressBar';
 import Rating from './Rating';
 import Share from './Share';
 import Slider from './Slider';
+import Snackbar from './Snackbar';
 import Switch from './Switch';
 import Text from './Text';
 import Touchable from './Touchable';
@@ -59,10 +60,10 @@ export {
   PictureCard,
   Price,
   ProgressBar,
-
   Rating,
   Share,
   Slider,
+  Snackbar,
   Switch,
   Text,
   Touchable,
