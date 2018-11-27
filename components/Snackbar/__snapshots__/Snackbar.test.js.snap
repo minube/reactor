@@ -37,6 +37,23 @@ exports[`<Snackbar> renders 1`] = `
       enabled={true}
       keyboardVerticalOffset={0}
       onLayout={[Function]}
+      style={
+        Array [
+          Object {
+            "maxHeight": "100%",
+            "maxWidth": "100%",
+            "minWidth": 320,
+          },
+          Object {
+            "backgroundColor": "#000000",
+            "borderRadius": 3,
+            "maxWidth": 512,
+          },
+          Object {
+            "backgroundColor": "transparent",
+          },
+        ]
+      }
     >
       <View
         style={
@@ -54,10 +71,7 @@ exports[`<Snackbar> renders 1`] = `
             Object {
               "backgroundColor": "#000000",
               "borderRadius": 3,
-              "display": undefined,
-              "maxHeight": "100%",
               "maxWidth": 512,
-              "minWidth": 320,
               "shadowColor": "#000000",
               "shadowOffset": Object {
                 "height": 2,

@@ -64,27 +64,30 @@ export default class Dialog extends PureComponent {
       <Motion
         delay={visible ? 0 : MOTION.DURATION}
         pointerEvents={((background || IS_NATIVE) && visible) ? 'auto' : 'none'}
-        style={[styles.container, background && styles.background, styleContainer]}
+        style={styles.container}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
-        <Motion
-          delay={visible ? MOTION.DURATION : 0}
-          duration={MOTION.DURATION}
-          pointerEvents="auto"
-          type="timing"
-          style={[
-            styles.frame,
-            {
-              maxHeight: PORTRAIT ? '100%' : '90%',
-              minWidth: PORTRAIT ? '66%' : '33%',
-              maxWidth: PORTRAIT ? '100%' : '66%',
-            },
-            style,
-          ]}
-          timeline={[{ property: 'translateY', value: translateY }]}
-        >
-          <SafeAreaView style={styles.safeArea}>
-            <KeyboardAvoidingView behavior={IS_NATIVE ? 'position' : undefined}>
+        <SafeAreaView style={[styles.safeArea, background && styles.background, styleContainer]}>
+          <KeyboardAvoidingView
+            behavior={IS_NATIVE ? 'position' : undefined}
+            style={[
+              {
+                maxHeight: PORTRAIT ? '100%' : '90%',
+                minWidth: PORTRAIT ? 320 : '33%',
+                maxWidth: PORTRAIT ? '100%' : '66%',
+              },
+              style,
+              { backgroundColor: COLOR.TRANSPARENT },
+            ]}
+          >
+            <Motion
+              delay={visible ? MOTION.DURATION : 0}
+              duration={MOTION.DURATION}
+              pointerEvents="auto"
+              type="timing"
+              style={[styles.frame, style]}
+              timeline={[{ property: 'translateY', value: translateY }]}
+            >
               <View style={styles.header}>
                 { title && (
                   <Text headline level={6} style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
@@ -102,9 +105,9 @@ export default class Dialog extends PureComponent {
               <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
                 {children}
               </ScrollView>
-            </KeyboardAvoidingView>
-          </SafeAreaView>
-        </Motion>
+            </Motion>
+          </KeyboardAvoidingView>
+        </SafeAreaView>
       </Motion>);
   }
 }

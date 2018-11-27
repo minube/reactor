@@ -25,7 +25,6 @@ export default StyleSheet.create({
     backgroundColor: COLOR.BLACK,
     borderRadius: BORDER_RADIUS,
     maxWidth: UNIT * 51.2,
-    minWidth: UNIT * 32,
   },
 
   dialog: {
