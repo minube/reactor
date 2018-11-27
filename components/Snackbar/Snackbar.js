@@ -2,7 +2,7 @@ import { func, string } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
-import { THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Dialog from '../Dialog';
 import Text from '../Text';
