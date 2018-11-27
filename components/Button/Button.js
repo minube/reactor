@@ -48,7 +48,7 @@ const Button = ({
         ]}
       >
         { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
-        { icon && !activity && <Icon value={icon} /> }
+        { icon && !activity && <Icon value={icon} size={inherit.iconSize} /> }
         <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
           { title
             && (
