@@ -12,7 +12,7 @@ export default (amount = 0, fixed = 2, locale) => {
   let value;
 
   if (IS_WEB && !IS_SERVER && Number.prototype.toLocaleString) {
-    value = parseFloat(amount.toFixed(2)).toLocaleString(locale, {
+    value = parseFloat(amount.toFixed(fixed)).toLocaleString(locale, {
       // style: 'currency',
       // currency: 'THB',
       // currencyDisplay: 'symbol',
