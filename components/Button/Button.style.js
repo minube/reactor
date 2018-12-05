@@ -60,10 +60,9 @@ export default StyleSheet.create({
 
   // -- Text
   text: {
-    fontFamily: FONT.FAMILY_SECONDARY,
-    fontWeight: FONT.WEIGHT.SEMIBOLD,
     fontSize: UNIT * 1.6,
     letterSpacing: parseFloat((UNIT * -0.02).toFixed(2), 10),
+    ...FONT.BUTTON,
     ...Platform.select({
       web: {
         userSelect: 'none',

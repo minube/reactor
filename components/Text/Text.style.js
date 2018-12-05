@@ -2,45 +2,38 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, FONT, UNIT } = THEME;
-
-const HEADLINE = {
-  fontFamily: FONT.FAMILY_SECONDARY,
-  fontWeight: FONT.WEIGHT.BOLD,
-};
-
-const SUBTITLE = {
-  fontWeight: FONT.WEIGHT.SEMIBOLD,
-};
+const { COLOR, FONT: { HEADLINE, SUBTITLE, DEFAULT, CAPTION }, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
+    ...DEFAULT,
     color: COLOR.TEXT,
-    fontFamily: FONT.FAMILY,
-    fontWeight: FONT.WEIGHT.REGULAR,
     textAlignVertical: 'center',
   },
 
   headline0: {
-    ...HEADLINE, fontSize: UNIT * 12, lineHeight: UNIT * 12, letterSpacing: UNIT * -0.5,
+    fontSize: UNIT * 12, lineHeight: UNIT * 12, letterSpacing: UNIT * -0.5, ...HEADLINE,
   },
   headline1: {
-    ...HEADLINE, fontSize: UNIT * 9.4, lineHeight: UNIT * 9.4, letterSpacing: UNIT * -0.392,
+    fontSize: UNIT * 9.4, lineHeight: UNIT * 9.4, letterSpacing: UNIT * -0.392, ...HEADLINE,
   },
   headline2: {
-    ...HEADLINE, fontSize: UNIT * 6.0, lineHeight: UNIT * 6.0, letterSpacing: UNIT * -0.25,
+    fontSize: UNIT * 6.0, lineHeight: UNIT * 6.0, letterSpacing: UNIT * -0.25, ...HEADLINE,
   },
   headline3: {
-    ...HEADLINE, fontSize: UNIT * 4.8, lineHeight: UNIT * 4.8, letterSpacing: UNIT * -0.2,
+    fontSize: UNIT * 4.8, lineHeight: UNIT * 4.8, letterSpacing: UNIT * -0.2, ...HEADLINE,
   },
   headline4: {
-    ...HEADLINE, fontSize: UNIT * 3.2, lineHeight: UNIT * 3.4, letterSpacing: UNIT * -0.133,
+    fontSize: UNIT * 3.2, lineHeight: UNIT * 3.4, letterSpacing: UNIT * -0.133, ...HEADLINE,
   },
   headline5: {
-    ...HEADLINE, fontSize: UNIT * 2.4, lineHeight: UNIT * 2.6, letterSpacing: UNIT * -0.1,
+    fontSize: UNIT * 2.4, lineHeight: UNIT * 2.6, letterSpacing: UNIT * -0.1, ...HEADLINE,
   },
   headline6: {
-    ...HEADLINE, fontSize: UNIT * 2.0, lineHeight: UNIT * 2.2, letterSpacing: parseFloat((UNIT * -0.083).toFixed(2), 10),
+    fontSize: UNIT * 2.0,
+    lineHeight: UNIT * 2.2,
+    letterSpacing: parseFloat((UNIT * -0.083).toFixed(2), 10),
+    ...HEADLINE,
   },
 
   subtitle1: { ...SUBTITLE, fontSize: UNIT * 2.0, lineHeight: UNIT * 2.2 },
@@ -51,14 +44,8 @@ export default StyleSheet.create({
   body2: { fontSize: UNIT * 1.4, lineHeight: UNIT * 2.4 },
   body3: { fontSize: UNIT * 1.2, lineHeight: UNIT * 1.7 },
 
-  caption1: { fontSize: UNIT * 1.4, lineHeight: UNIT * 1.8 },
-  caption2: { fontSize: UNIT * 1.2, lineHeight: UNIT * 1.6 },
-
-  lighter: { fontWeight: FONT.WEIGHT.LIGHTER },
-
-  semibold: { fontWeight: FONT.WEIGHT.SEMIBOLD },
-
-  bold: { fontWeight: FONT.WEIGHT.BOLD },
+  caption1: { ...CAPTION, fontSize: UNIT * 1.4, lineHeight: UNIT * 1.8 },
+  caption2: { ...CAPTION, fontSize: UNIT * 1.2, lineHeight: UNIT * 1.6 },
 
   lighten: { color: COLOR.TEXT_LIGHTEN },
 });

@@ -31,6 +31,7 @@ exports[`<Markdown> inject a <Text> property 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 18,
@@ -57,6 +58,7 @@ exports[`<Markdown> inject a <Text> property 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 18,

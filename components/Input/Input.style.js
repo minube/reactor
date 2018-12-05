@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
@@ -16,16 +16,10 @@ export default StyleSheet.create({
     borderRadius: UNIT / 4,
     color: COLOR.TEXT,
     fontSize: UNIT * 1.6,
-    fontWeight: FONT.WEIGHT.REGULAR,
     paddingVertical: UNIT * 0.75,
     paddingHorizontal: UNIT * 0.5,
     width: '100%',
-    ...Platform.select({
-      web: {
-        fontFamily: FONT.FAMILY,
-        outline: 'none',
-      },
-    }),
+    ...FONT.INPUT,
   },
 
   inputError: {

@@ -1796,6 +1796,7 @@ exports[`<ListingCard> when {title} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 14,
               "fontWeight": "600",
               "lineHeight": 16,

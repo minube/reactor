@@ -23,6 +23,7 @@ exports[`<Price> inject <Text> properties 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 18,
@@ -47,6 +48,7 @@ exports[`<Price> inject <Text> properties 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 16,
           "fontWeight": "600",
           "lineHeight": 18,

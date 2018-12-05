@@ -2,6 +2,14 @@ import { Platform } from 'react-native';
 
 const UNIT = 10;
 
+const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
+const FAMILY_SECONDARY = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
+const WEIGHT = {
+  REGULAR: '400',
+  SEMIBOLD: '600',
+  BOLD: '700',
+};
+
 export default {
   BORDER_RADIUS: UNIT * 0.3,
 
@@ -26,14 +34,29 @@ export default {
   },
 
   FONT: {
-    FAMILY: Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined, // '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif',
-    FAMILY_SECONDARY: Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined,
-    WEIGHT: {
-      LIGHTER: '300',
-      REGULAR: '400',
-      SEMIBOLD: '600',
-      BOLD: '700',
+    FAMILY,
+    DEFAULT: {
+      fontFamily: FAMILY,
+      fontWeight: WEIGHT.REGULAR,
     },
+    HEADLINE: {
+      fontFamily: FAMILY_SECONDARY,
+      fontWeight: WEIGHT.BOLD,
+    },
+    SUBTITLE: {
+      fontFamily: FAMILY,
+      fontWeight: WEIGHT.SEMIBOLD,
+    },
+    CAPTION: {},
+    BUTTON: {
+      fontFamily: FAMILY_SECONDARY,
+      fontWeight: WEIGHT.SEMIBOLD,
+    },
+    INPUT: {
+      fontFamily: FAMILY,
+      fontWeight: WEIGHT.REGULAR,
+    },
+    WEIGHT,
   },
 
   MOTION: {

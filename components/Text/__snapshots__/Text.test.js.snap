@@ -482,6 +482,7 @@ exports[`<Text> when {subtitle level:1} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
+        "fontFamily": undefined,
         "fontSize": 20,
         "fontWeight": "600",
         "lineHeight": 22,
@@ -509,6 +510,7 @@ exports[`<Text> when {subtitle level:2} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
+        "fontFamily": undefined,
         "fontSize": 16,
         "fontWeight": "600",
         "lineHeight": 18,
@@ -536,6 +538,7 @@ exports[`<Text> when {subtitle level:3} 1`] = `
         "textAlignVertical": "center",
       },
       Object {
+        "fontFamily": undefined,
         "fontSize": 14,
         "fontWeight": "600",
         "lineHeight": 16,
