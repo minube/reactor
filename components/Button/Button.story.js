@@ -30,7 +30,7 @@ storiesOf('✅ Button', module)
     <Button icon="closeContrast" title="Press me" onPress={_onPress} />
   ))
   .add('contained (false)', () => (
-    <Button contained title="Press me" onPress={_onPress} />
+    <Button contained={false} color="red" title="Press me" onPress={_onPress} />
   ))
   .add('outlined', () => (
     <Button outlined title="Press me" onPress={_onPress} />
@@ -39,12 +39,12 @@ storiesOf('✅ Button', module)
     <Button activity title="Press me" onPress={_onPress} />
   ))
   .add('children', () => (
-    <Button color="red">
+    <Button>
       <Price headline level={6} color="white" value={19.95} symbol="$" onPress={_onPress} />
     </Button>
   ))
   .add('color', () => (
-    <Button title="Press me" onPress={_onPress} />
+    <Button color="red" title="Press me" onPress={_onPress} />
   ))
   .add('color (COLOR.WHITE)', () => (
     <Button color={THEME.COLOR.WHITE} title="Press me" onPress={_onPress} />
