@@ -9,7 +9,7 @@ const HEADER_JSON = {
   'X-Requested-With': 'XMLHttpRequest',
 };
 const HEADER_FORM = {
-  'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Content-Type': 'application/json', // 'application/x-www-form-urlencoded; charset=UTF-8',
 };
 
 if (typeof global.self === 'undefined') global.self = global;
