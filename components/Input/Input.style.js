@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
@@ -19,6 +19,11 @@ export default StyleSheet.create({
     paddingVertical: UNIT * 0.75,
     paddingHorizontal: UNIT * 0.5,
     width: '100%',
+    ...Platform.select({
+      web: {
+        outline: 'none',
+      },
+    }),
     ...FONT.INPUT,
   },
 
