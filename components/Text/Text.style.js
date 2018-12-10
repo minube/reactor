@@ -2,7 +2,12 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, FONT: { HEADLINE, SUBTITLE, DEFAULT, CAPTION }, UNIT } = THEME;
+const {
+  COLOR, UNIT,
+  FONT: {
+    HEADLINE, SUBTITLE, DEFAULT, CAPTION,
+  },
+} = THEME;
 
 export default StyleSheet.create({
   container: {
