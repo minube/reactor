@@ -5,11 +5,11 @@ const DEFAULT_METHOD = 'GET';
 const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'staging.mapi.minube.com';
 const FORM_METHODS = ['POST'];
 const HEADER_JSON = {
-  'Content-Type': 'application/json',
+  'Content-Type': 'application/json; charset=UTF-8',
   'X-Requested-With': 'XMLHttpRequest',
 };
 const HEADER_FORM = {
-  'Content-Type': 'application/json', // 'application/x-www-form-urlencoded; charset=UTF-8',
+  'Content-Type': 'application/json; charset=UTF-8', // 'application/x-www-form-urlencoded; charset=UTF-8',
 };
 
 if (typeof global.self === 'undefined') global.self = global;
