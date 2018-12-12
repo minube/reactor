@@ -36,7 +36,7 @@ const Button = ({
           small && styles.small,
           responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
           rounded && styles.rounded,
-          ((!title && !children) || (!contained && !outlined)) && styles.squared,
+          (!title && !children) && styles.noPadding,
 
           // -- Color
           isSolid && { backgroundColor: color || TEXT_LIGHTEN },

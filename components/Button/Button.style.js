@@ -48,7 +48,7 @@ export default StyleSheet.create({
     paddingHorizontal: SMALL_SIZE / 2,
   },
 
-  squared: {
+  noPadding: {
     paddingHorizontal: 0,
   },
 

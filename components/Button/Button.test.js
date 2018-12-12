@@ -27,7 +27,7 @@ describe('<Button>', () => {
   });
 
   it('when {contained=false}', () => {
-    const tree = renderer.create(<Button contained={false} color="red" title="Press me" />).toJSON();
+    const tree = renderer.create(<Button contained={false} title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

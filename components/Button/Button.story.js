@@ -30,7 +30,7 @@ storiesOf('✅ Button', module)
     <Button icon="closeContrast" title="Press me" onPress={_onPress} />
   ))
   .add('contained (false)', () => (
-    <Button contained={false} color="red" title="Press me" onPress={_onPress} />
+    <Button contained={false} title="Press me" onPress={_onPress} />
   ))
   .add('outlined', () => (
     <Button outlined title="Press me" onPress={_onPress} />
