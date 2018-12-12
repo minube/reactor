@@ -27,10 +27,10 @@ class Calendar extends PureComponent {
   };
 
   static defaultProps = {
-    availableDates: [],
+    availableDates: undefined,
     busy: false,
-    captions: [],
-    disabledDates: [],
+    captions: undefined,
+    disabledDates: undefined,
     disabledPast: false,
     locale: LOCALE,
     onChange() {},

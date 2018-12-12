@@ -1,7 +1,5 @@
 
-import {
-  arrayOf, bool, func, shape,
-} from 'prop-types';
+import { func, shape } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
@@ -18,11 +16,9 @@ const onPress = ({
   else if (tsDay > tsStart) onSelect([value[0], day]);
 };
 
-const Week = ({
-  availableDates, disabledDates, disabledPast, firstDate, ...inherit
-}) => {
+const Week = ({ firstDate, ...inherit }) => {
   const {
-    captions, month, today, value,
+    availableDates, captions, disabledDates, disabledPast, month, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -32,9 +28,9 @@ const Week = ({
   let tsCaptionsDates;
   let tsDisabledDates;
 
-  if (availableDates.length > 0) tsAvailableDates = availableDates.map(d => d.getTime());
-  else if (captions.length > 0) tsCaptionsDates = captions.map(({ date }) => date.getTime());
-  else if (disabledDates.length > 0) tsDisabledDates = disabledDates.map(d => d.getTime());
+  if (availableDates) tsAvailableDates = availableDates.map(d => d.getTime());
+  else if (captions) tsCaptionsDates = captions.map(({ date }) => date.getTime());
+  else if (disabledDates) tsDisabledDates = disabledDates.map(d => d.getTime());
 
   if (value) {
     const [start, end] = Array.isArray(value) ? value : [value];
@@ -114,11 +110,8 @@ const Week = ({
 };
 
 Week.propTypes = {
-  availableDates: arrayOf(shape()).isRequired,
-  disabledDates: arrayOf(shape()).isRequired,
-  disabledPast: bool.isRequired,
-  onSelect: func,
   firstDate: shape(),
+  onSelect: func,
 };
 
 Week.defaultProps = {
