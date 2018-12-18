@@ -8,7 +8,9 @@ import styles from './Switch.style';
 
 const { COLOR } = THEME;
 
-const Switch = ({ label, onChange, ...inherit }) => (
+const Switch = ({
+  color, label, onChange, ...inherit
+}) => (
   <View style={[styles.container, inherit.style]}>
     { label && (
     <Text level={2} lighten style={styles.label}>
@@ -18,7 +20,7 @@ const Switch = ({ label, onChange, ...inherit }) => (
     <SwitchNative
       {...inherit}
       value={inherit.value || false}
-      activeThumbColor={COLOR.PRIMARY}
+      activeThumbColor={color || COLOR.PRIMARY}
       activeTrackColor={COLOR.BASE}
       onValueChange={onChange}
       style={styles.switch}
@@ -27,11 +29,13 @@ const Switch = ({ label, onChange, ...inherit }) => (
 );
 
 Switch.propTypes = {
+  color: string,
   label: string,
   onChange: func,
 };
 
 Switch.defaultProps = {
+  color: undefined,
   label: undefined,
   onChange: undefined,
 };

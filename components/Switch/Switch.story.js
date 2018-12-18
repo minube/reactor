@@ -1,7 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean, object } from '@storybook/addon-knobs/react';
+import {
+  color, text, boolean, object,
+} from '@storybook/addon-knobs/react';
 
 import Switch from './Switch';
 
@@ -10,6 +12,9 @@ const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 storiesOf('✅ Switch', module)
   .add('default', () => (
     <Switch />
+  ))
+  .add('color', () => (
+    <Switch color="green" />
   ))
   .add('label', () => (
     <Switch label="Example of label" />
@@ -28,6 +33,7 @@ storiesOf('✅ Switch', module)
   ))
   .add('🏀 Playground', () => (
     <Switch
+      color={color('color', undefined)}
       disabled={boolean('disabled', false)}
       label={text('label', 'Example of label')}
       value={boolean('value', true)}

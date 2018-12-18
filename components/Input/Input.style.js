@@ -10,7 +10,7 @@ export default StyleSheet.create({
   },
 
   input: {
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.TRANSPARENT,
     borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,

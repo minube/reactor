@@ -25,7 +25,7 @@ exports[`<Input> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -73,7 +73,7 @@ exports[`<Input> when {color} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -121,7 +121,7 @@ exports[`<Input> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -233,7 +233,7 @@ exports[`<Input> when {error} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -342,7 +342,7 @@ exports[`<Input> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -390,7 +390,7 @@ exports[`<Input> when {keyboard} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -474,7 +474,7 @@ exports[`<Input> when {label} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -523,7 +523,7 @@ exports[`<Input> when {lines} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -575,7 +575,7 @@ exports[`<Input> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -623,7 +623,7 @@ exports[`<Input> when {value} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "transparent",
           "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,

@@ -11,7 +11,7 @@ export default StyleSheet.create({
   },
 
   input: {
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.TRANSPARENT,
     paddingRight: UNIT * 0.5,
     borderColor: COLOR.BASE,
     borderWidth: 1,

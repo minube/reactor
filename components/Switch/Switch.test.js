@@ -9,6 +9,11 @@ describe('<Switch>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {color}', () => {
+    const tree = renderer.create(<Switch color="green" value />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {label}', () => {
     const tree = renderer.create(<Switch label="Hello world" />).toJSON();
     expect(tree).toMatchSnapshot();

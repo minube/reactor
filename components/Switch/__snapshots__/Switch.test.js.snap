@@ -38,6 +38,44 @@ exports[`<Switch> renders 1`] = `
 </View>
 `;
 
+exports[`<Switch> when {color} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 44,
+        "marginBottom": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <RCTSwitch
+    activeThumbColor="green"
+    activeTrackColor="#e0e0e0"
+    disabled={false}
+    onChange={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "height": 31,
+          "width": 51,
+        },
+        Object {
+          "height": 24,
+        },
+      ]
+    }
+    value={true}
+  />
+</View>
+`;
+
 exports[`<Switch> when {disabled} 1`] = `
 <View
   style={

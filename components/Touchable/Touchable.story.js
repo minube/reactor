@@ -32,12 +32,12 @@ storiesOf('✅ Touchable', module)
       <Child />
     </Touchable>
   ))
-  .add('rippleColor (non-android)', () => (
+  .add('rippleColor', () => (
     <Touchable onPress={() => {}} rippleColor="red">
       <Child />
     </Touchable>
   ))
-  .add('containerBorderRadius (non-android)', () => (
+  .add('containerBorderRadius', () => (
     <Touchable onPress={() => {}} containerBorderRadius={48}>
       <Child />
     </Touchable>

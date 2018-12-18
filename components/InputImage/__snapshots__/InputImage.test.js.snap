@@ -43,7 +43,7 @@ exports[`<InputImage> renders 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -110,7 +110,7 @@ exports[`<InputImage> when {disabled} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -241,7 +241,7 @@ exports[`<InputImage> when {error} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -369,7 +369,7 @@ exports[`<InputImage> when {hint} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -472,7 +472,7 @@ exports[`<InputImage> when {label} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -542,7 +542,7 @@ exports[`<InputImage> when {style} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -660,7 +660,7 @@ exports[`<InputImage> when {value} 1`] = `
       style={
         Array [
           Object {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "transparent",
             "borderColor": "#e0e0e0",
             "borderRadius": 2.5,
             "borderWidth": 1,
