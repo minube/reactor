@@ -3,7 +3,7 @@ import {
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import {
-  Animated, Easing, Platform, TouchableNativeFeedback, TouchableWithoutFeedback, View,
+  Animated, Easing, TouchableWithoutFeedback, View,
 } from 'react-native';
 
 import { ENV, THEME } from '../../common';
@@ -142,8 +142,4 @@ class Touchable extends PureComponent {
   }
 }
 
-export default ({ ...inherit }) => (
-  Platform.OS !== 'android'
-    ? <Touchable {...inherit} />
-    : <TouchableNativeFeedback useForeground {...inherit} />
-);
+export default Touchable;
