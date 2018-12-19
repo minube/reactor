@@ -48,6 +48,7 @@ exports[`<Snackbar> renders 1`] = `
             "backgroundColor": "#000000",
             "borderRadius": 3,
             "maxWidth": 512,
+            "minWidth": 300,
           },
           Object {
             "backgroundColor": "transparent",
@@ -72,6 +73,7 @@ exports[`<Snackbar> renders 1`] = `
               "backgroundColor": "#000000",
               "borderRadius": 3,
               "maxWidth": 512,
+              "minWidth": 300,
               "shadowColor": "#000000",
               "shadowOffset": Object {
                 "height": 2,

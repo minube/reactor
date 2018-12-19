@@ -25,7 +25,6 @@ const Snackbar = ({
           contained={false}
           small
           onPress={onPress}
-          style={styles.button}
           title={button.toUpperCase()}
         />)}
     </View>

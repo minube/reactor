@@ -7,10 +7,6 @@ const {
 } = THEME;
 
 export default StyleSheet.create({
-  button: {
-    paddingHorizontal: UNIT,
-  },
-
   caption: {
     color: COLOR.WHITE,
     flex: 1,
@@ -24,6 +20,7 @@ export default StyleSheet.create({
   frame: {
     backgroundColor: COLOR.BLACK,
     borderRadius: BORDER_RADIUS,
+    minWidth: UNIT * 30,
     maxWidth: UNIT * 51.2,
   },
 
