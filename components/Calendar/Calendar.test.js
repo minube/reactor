@@ -15,7 +15,7 @@ const LOCALE = {
   DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
   MONTHS: [
     'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'agosto',
+    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
   ],
 };
 
