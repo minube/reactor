@@ -7,7 +7,7 @@ import { View } from 'react-native';
 import { ENV } from '../../common';
 import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
-import { decomposeDate, LOCALE } from './modules';
+import { decomposeDate, firstDateOfWeek, LOCALE } from './modules';
 import styles from './Calendar.style';
 
 const VISIBLE_WEEKS = Array.from(Array(6).keys());
@@ -110,7 +110,7 @@ class Calendar extends PureComponent {
               {...props}
               {...state}
               key={weekNumber + weekIndex}
-              firstDate={new Date(state.year, 0, 1 + ((weekNumber + weekIndex) - 1) * 7)}
+              firstDate={firstDateOfWeek(weekNumber + weekIndex, state.year)}
               onSelect={!busy ? onSelect : undefined}
             />
           ))}
