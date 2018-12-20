@@ -95,15 +95,22 @@ class Calendar extends PureComponent {
       },
       state,
     } = this;
-
     const startDate = new Date(state.year, state.month);
     const weekNumber = Math.ceil((((startDate - new Date(state.year, 0, 1)) / 8.64e7)) / 7);
+    const disabledPrevious = props.disabledPast
+      && state.today.getFullYear() === state.year
+      && state.today.getMonth() === state.month;
 
     return (
       <View style={[styles.container, props.style]}>
         { busy && <Activity size="large" style={styles.activity} /> }
         <View style={busy && styles.busy}>
-          <Selector {...state} locale={MONTHS} onNext={_onNext} onPrevious={_onPrevious} />
+          <Selector
+            {...state}
+            locale={MONTHS}
+            onNext={_onNext}
+            onPrevious={!disabledPrevious ? _onPrevious : undefined}
+          />
           <DayNames locale={DAY_NAMES} />
           { VISIBLE_WEEKS.map(weekIndex => (
             <Week

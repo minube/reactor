@@ -12,7 +12,7 @@ const Selector = ({
   locale = [], onPrevious, onNext, ...state
 }) => (
   <View style={styles.row}>
-    <Touchable onPress={onPrevious} style={styles.box}>
+    <Touchable onPress={onPrevious} style={[styles.box, !onPrevious && styles.boxDisabled]}>
       <Text>
         {'◀'}
       </Text>
@@ -30,8 +30,12 @@ const Selector = ({
 
 Selector.propTypes = {
   locale: arrayOf(string).isRequired,
-  onPrevious: func.isRequired,
+  onPrevious: func,
   onNext: func.isRequired,
+};
+
+Selector.defaultProps = {
+  onPrevious: undefined,
 };
 
 export default Selector;

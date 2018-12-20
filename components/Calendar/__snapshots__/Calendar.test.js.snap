@@ -39,12 +39,15 @@ exports[`<Calendar> renders 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -4003,12 +4006,15 @@ exports[`<Calendar> when {availableDates} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -7961,12 +7967,15 @@ exports[`<Calendar> when {busy} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -11925,12 +11934,15 @@ exports[`<Calendar> when {captions} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -15889,12 +15901,15 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -19844,21 +19859,24 @@ exports[`<Calendar> when {disabledPast} 1`] = `
     >
       <View
         accessible={true}
-        onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
         onResponderRelease={[Function]}
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            Object {
+              "opacity": 0.1,
+            },
+          ]
         }
       >
         <Text
@@ -23801,12 +23819,15 @@ exports[`<Calendar> when {locale} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -27768,12 +27789,15 @@ exports[`<Calendar> when {style} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -31732,12 +31756,15 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text
@@ -35717,12 +35744,15 @@ exports[`<Calendar> when {value} 1`] = `
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
         style={
-          Object {
-            "alignItems": "center",
-            "height": 36,
-            "justifyContent": "center",
-            "minWidth": 36,
-          }
+          Array [
+            Object {
+              "alignItems": "center",
+              "height": 36,
+              "justifyContent": "center",
+              "minWidth": 36,
+            },
+            false,
+          ]
         }
       >
         <Text

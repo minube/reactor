@@ -23,6 +23,10 @@ export default StyleSheet.create({
     minWidth: BOX_HEIGHT,
   },
 
+  boxDisabled: {
+    opacity: 0.1,
+  },
+
   busy: {
     opacity: 0.1,
   },
