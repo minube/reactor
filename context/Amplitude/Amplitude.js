@@ -36,7 +36,7 @@ class ProviderAmplitude extends PureComponent {
 
   async componentWillMount() {
     const { _syncEvents, props: { key } } = this;
-    let { props: { session = {} } } = this;
+    const { props: { session = {} } } = this;
     let fingerprint;
     let cookie;
 
@@ -46,11 +46,9 @@ class ProviderAmplitude extends PureComponent {
         const { deviceId, sessionId } = await AsyncStore.getItem(AMPLITUDE_DATA) || {};
         const userId = await AsyncStore.getItem(MINUBE_USER_ID);
 
-        session = {
-          device_id: deviceId || session.device_id,
-          session_id: sessionId || session.session_id,
-          user_id: userId || session.user_id,
-        };
+        if (deviceId) session.device_id = deviceId;
+        if (sessionId) session.session_id = sessionId;
+        if (userId) session.user_id = userId;
 
         cookie = getCookie('reactor:request');
       }
