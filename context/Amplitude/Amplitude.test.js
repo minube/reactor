@@ -11,10 +11,10 @@ describe('<ProviderAmplitude>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('dispatch _logEvent', () => {
+  it('dispatch logEvent', () => {
     const renderer = TestRenderer.create(<ProviderAmplitude  />);
 
-    renderer.getInstance()._logEvent('hello');
+    renderer.getInstance().logEvent('hello');
   });
 });
 

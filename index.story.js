@@ -8,7 +8,7 @@ import { LAYOUT, THEME } from './common';
 import {
   Button, Dialog, Text, Image,
 } from './components';
-import { Consumer, Provider } from './context';
+import { ConsumerAmplitude, ProviderAmplitude } from './context';
 
 const styles = StyleSheet.create({
   dialog: {
@@ -66,15 +66,15 @@ storiesOf('🏀 Playground', module)
     </Dialog>
   ))
   .add('Amplitude v3', () => (
-    <Provider>
-      <Consumer>
+    <ProviderAmplitude>
+      <ConsumerAmplitude>
         { ({ logEvent }) => (
             <Button
               title="Press me"
               onPress={() => logEvent({ type: 'reactor:demo', hello: 'world' })}
             />
         )}
-        </Consumer>
-    </Provider>
+        </ConsumerAmplitude>
+    </ProviderAmplitude>
   ));
 
