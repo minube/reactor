@@ -15,6 +15,7 @@ const STYLE = {
 const TODAY = new Date();
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
+const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
 const DATES = [
   new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 3),
   new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 4),
@@ -60,6 +61,9 @@ storiesOf('✅ Calendar', module)
   ))
   .add('locale', () => (
     <Calendar locale={LOCALE} />
+  ))
+  .add('date', () => (
+    <Calendar date={NEXT_MONTH} />
   ))
   .add('value', () => (
     <Calendar value={TOMORROW} />

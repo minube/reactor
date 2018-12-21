@@ -17,6 +17,7 @@ class Calendar extends PureComponent {
     availableDates: arrayOf(shape()),
     busy: bool,
     captions: arrayOf(shape()),
+    date: shape(),
     disabledDates: arrayOf(shape()),
     disabledPast: bool,
     locale: shape(),
@@ -29,6 +30,7 @@ class Calendar extends PureComponent {
   static defaultProps = {
     availableDates: undefined,
     busy: false,
+    date: undefined,
     captions: undefined,
     disabledDates: undefined,
     disabledPast: false,
@@ -41,19 +43,22 @@ class Calendar extends PureComponent {
 
   constructor(props) {
     super(props);
+    const { value, date } = props;
 
     const today = !ENV.IS_TEST ? new Date() : new Date(1980, 3, 10);
     today.setHours(0, 0, 0, 0);
 
     this.state = {
       today,
-      ...decomposeDate(props.value || today),
+      ...decomposeDate(value || date || today),
     };
   }
 
-  componentWillReceiveProps({ value }) {
+  componentWillReceiveProps({ date, value }) {
     const { props } = this;
-    if (value && value !== props.value) this.setState({ ...decomposeDate(value) });
+    if ((value && value !== props.value) || (date && date !== props.date)) {
+      this.setState({ ...decomposeDate(value || date) });
+    }
   }
 
   _onPrevious = () => {

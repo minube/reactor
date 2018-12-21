@@ -11,6 +11,7 @@ const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate(
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
+const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
 const LOCALE = {
   DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
   MONTHS: [
@@ -30,8 +31,13 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-   it('when {busy}', () => {
+  it('when {busy}', () => {
     const tree = renderer.create(<Calendar busy />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {date}', () => {
+    const tree = renderer.create(<Calendar date={NEXT_MONTH} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
