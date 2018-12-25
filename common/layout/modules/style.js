@@ -24,8 +24,8 @@ export default {
   SHADOW: {
     shadowColor: COLOR.BLACK,
     shadowOffset: { height: 2, width: 0 },
-    shadowOpacity: 0.26,
-    shadowRadius: 5,
+    shadowOpacity: 0.33,
+    shadowRadius: 4,
     ...Platform.select({
       android: { elevation: 4 },
     }),

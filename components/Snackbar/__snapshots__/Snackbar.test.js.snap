@@ -79,8 +79,8 @@ exports[`<Snackbar> renders 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 0,

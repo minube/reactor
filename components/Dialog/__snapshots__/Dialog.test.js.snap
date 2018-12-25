@@ -71,8 +71,8 @@ exports[`<Dialog> renders 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -180,8 +180,8 @@ exports[`<Dialog> when {background} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -291,8 +291,8 @@ exports[`<Dialog> when {children} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -426,8 +426,8 @@ exports[`<Dialog> when {highlight} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -525,6 +525,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                       Object {
                         "paddingHorizontal": 0,
                       },
+                      false,
                       false,
                       false,
                       false,
@@ -692,8 +693,8 @@ exports[`<Dialog> when {onClose} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -761,6 +762,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                       Object {
                         "paddingHorizontal": 0,
                       },
+                      false,
                       false,
                       false,
                       false,
@@ -927,8 +929,8 @@ exports[`<Dialog> when {reverse} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 0,
@@ -1040,8 +1042,8 @@ exports[`<Dialog> when {style} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -1153,8 +1155,8 @@ exports[`<Dialog> when {styleContainer} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -1264,8 +1266,8 @@ exports[`<Dialog> when {title} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 1334,
@@ -1406,8 +1408,8 @@ exports[`<Dialog> when {visible} 1`] = `
                 "height": 2,
                 "width": 0,
               },
-              "shadowOpacity": 0.26,
-              "shadowRadius": 5,
+              "shadowOpacity": 0.33,
+              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 0,
