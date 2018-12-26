@@ -24,7 +24,7 @@ const Button = ({
     <Touchable
       containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
       onPress={disabled ? undefined : onPress}
-      rippleColor={isSolid && color === WHITE ? BASE : rippleColor}
+      rippleColor={isSolid && color === WHITE ? BASE : rippleColor || WHITE}
       style={[styles.touchable, rounded && styles.rounded]}
     >
       <View

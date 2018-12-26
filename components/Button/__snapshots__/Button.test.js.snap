@@ -89,7 +89,7 @@ exports[`<Button> renders 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -235,7 +235,7 @@ exports[`<Button> when {activity} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -407,7 +407,7 @@ exports[`<Button> when {children} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -667,7 +667,7 @@ exports[`<Button> when {color} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -794,7 +794,7 @@ exports[`<Button> when {contained=false} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -926,7 +926,7 @@ exports[`<Button> when {disabled} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1078,7 +1078,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1199,7 +1199,7 @@ exports[`<Button> when {icon} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1330,7 +1330,7 @@ exports[`<Button> when {outlined} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1460,7 +1460,7 @@ exports[`<Button> when {responsive} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1596,7 +1596,7 @@ exports[`<Button> when {rounded} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1734,7 +1734,7 @@ exports[`<Button> when {shadow} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -1868,7 +1868,7 @@ exports[`<Button> when {small} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -2004,7 +2004,7 @@ exports[`<Button> when {style} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -2134,7 +2134,7 @@ exports[`<Button> when {title} 1`] = `
       <View
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#ffffff",
             "height": 0,
             "opacity": 0,
             "width": 0,

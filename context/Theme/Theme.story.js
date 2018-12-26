@@ -34,7 +34,6 @@ class ThemeHOC extends Component {
   }
 }
 
-
 storiesOf('☑️ contextTheme', module)
   .add('default', () => (
     <ThemeHOC />
