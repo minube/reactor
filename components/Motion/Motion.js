@@ -7,7 +7,7 @@ import { Animated, View } from 'react-native';
 import { ENV, SHAPE, THEME } from '../../common';
 import { buildStyle, presetVisibility } from './modules';
 
-const { IS_WEB } = ENV;
+const { IS_TEST, IS_WEB } = ENV;
 const { MOTION } = THEME;
 
 class Motion extends PureComponent {
@@ -40,9 +40,7 @@ class Motion extends PureComponent {
     const {
       preset, timeline = [], useNativeDriver, visible,
     } = props;
-    const state = {
-      timeline,
-    };
+    const state = { timeline };
 
     if (preset) state.timeline = presetVisibility(preset, visible);
 
@@ -67,7 +65,7 @@ class Motion extends PureComponent {
       this.setState(state);
     }
 
-    if (disabled || useNativeDriver) return;
+    if (IS_TEST || disabled || useNativeDriver) return;
 
     const motions = state.timeline.map(({ property, value: toValue }) => (
       Animated[type](state[property], { toValue, delay, duration }).start()));
