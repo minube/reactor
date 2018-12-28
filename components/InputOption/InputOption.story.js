@@ -12,7 +12,7 @@ const style = {
 
 const LABEL = 'Lorem Ipsum...';
 
-storiesOf('InputOption', module)
+storiesOf('✅ InputOption', module)
   .add('default', () => (
     <InputOption />
   ))

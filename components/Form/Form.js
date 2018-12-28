@@ -5,6 +5,7 @@ import { ScrollView, View } from 'react-native';
 import Input from '../Input';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
+import InputOption from '../InputOption';
 import InputPicker from '../InputPicker';
 import Text from '../Text';
 import Switch from '../Switch';
@@ -14,6 +15,7 @@ import styles from './Form.style';
 const Inputs = {
   bool: Switch,
   image: InputImage,
+  option: InputOption,
   select: InputPicker,
   list: InputList,
 };

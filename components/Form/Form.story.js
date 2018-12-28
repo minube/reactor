@@ -27,6 +27,7 @@ const ATTRIBUTES = {
     }
   },
   languages: { type: 'list' },
+  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
 };
 
 const VALUE = {

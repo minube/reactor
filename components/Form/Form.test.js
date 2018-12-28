@@ -23,7 +23,9 @@ const ATTRIBUTES = {
       facebook: { style: 'inline3' },
       github: { style: 'inline3', required: true },
     }
-  }
+  },
+  languages: { type: 'list' },
+  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
 };
 
 const DATA = {
