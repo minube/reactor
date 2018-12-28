@@ -1,3 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<LayoutView> renders 1`] = `<View />`;
+exports[`<LayoutView> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<LayoutView> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "height": "100%",
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "rgba(0,255,0,0.25)",
+      },
+    ]
+  }
+/>
+`;

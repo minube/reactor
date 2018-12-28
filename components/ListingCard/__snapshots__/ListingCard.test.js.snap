@@ -34,7 +34,7 @@ exports[`<ListingCard> renders 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -53,7 +53,7 @@ exports[`<ListingCard> renders 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -156,7 +156,7 @@ exports[`<ListingCard> renders 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -211,7 +211,7 @@ exports[`<ListingCard> when {category} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -230,7 +230,7 @@ exports[`<ListingCard> when {category} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -333,7 +333,7 @@ exports[`<ListingCard> when {category} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -359,28 +359,16 @@ exports[`<ListingCard> when {category} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
             Object {},
           ]
         }
@@ -426,7 +414,7 @@ exports[`<ListingCard> when {children} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -445,7 +433,7 @@ exports[`<ListingCard> when {children} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -548,7 +536,7 @@ exports[`<ListingCard> when {children} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -566,67 +554,29 @@ exports[`<ListingCard> when {children} 1`] = `
       }
     >
       <View
-        accessible={true}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
         style={
-          Array [
-            Object {
-              "borderRadius": 3,
-              "marginHorizontal": 5,
-            },
-            Object {
-              "borderRadius": 22.5,
-            },
-            Object {
-              "alignSelf": "flex-start",
-              "marginHorizontal": 0,
-            },
-          ]
+          Object {
+            "alignSelf": "flex-start",
+            "marginHorizontal": 0,
+          }
         }
       >
         <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
           style={
             Array [
               Object {
-                "alignContent": "center",
-                "alignItems": "center",
                 "borderRadius": 3,
-                "justifyContent": "center",
               },
               Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
+                "borderRadius": 22,
               },
-              Object {
-                "height": 45,
-                "minWidth": 45,
-                "paddingHorizontal": 30,
-              },
-              Object {
-                "height": 30,
-                "minWidth": 30,
-                "paddingHorizontal": 15,
-              },
-              false,
-              Object {
-                "borderRadius": 22.5,
-              },
-              false,
-              Object {
-                "backgroundColor": "#9b9b9b",
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
             ]
           }
         >
@@ -634,83 +584,117 @@ exports[`<ListingCard> when {children} 1`] = `
             style={
               Array [
                 Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "borderRadius": 3,
+                  "justifyContent": "center",
+                },
+                Object {
+                  "height": 44,
+                  "minWidth": 44,
+                  "paddingHorizontal": 30,
+                },
+                Object {
                   "alignItems": "center",
                   "display": "flex",
                   "flexDirection": "row",
                 },
-                undefined,
+                Object {
+                  "height": 28,
+                  "minWidth": 28,
+                  "paddingHorizontal": 14,
+                },
+                false,
+                Object {
+                  "borderRadius": 22,
+                },
+                false,
+                Object {
+                  "backgroundColor": "#9b9b9b",
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
               ]
             }
           >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
+            <View
               style={
                 Array [
                   Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
                   },
-                  false,
-                  Object {
-                    "fontWeight": "600",
-                  },
-                  false,
-                  false,
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 20.8,
-                  },
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  Object {
-                    "color": "#ffffff",
-                    "fontSize": 12,
-                  },
+                  undefined,
                 ]
               }
             >
-              15 Actividades
-            </Text>
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "color": "#4a4a4a",
+                      "fontFamily": undefined,
+                      "fontWeight": "400",
+                      "textAlignVertical": "center",
+                    },
+                    Object {
+                      "fontSize": 16,
+                      "lineHeight": 30,
+                    },
+                    false,
+                    Object {
+                      "color": "#ffffff",
+                      "fontFamily": undefined,
+                      "fontSize": 14,
+                      "fontWeight": "600",
+                      "letterSpacing": -0.15,
+                    },
+                  ]
+                }
+              >
+                15 Actividades
+              </Text>
+            </View>
           </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              Object {
-                "borderRadius": 22.5,
-              },
-            ]
-          }
-        >
           <View
             style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 3,
+                  "bottom": 0,
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                Object {
+                  "borderRadius": 22,
+                },
+              ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#ffffff",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -752,7 +736,7 @@ exports[`<ListingCard> when {description} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -771,7 +755,7 @@ exports[`<ListingCard> when {description} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -874,7 +858,7 @@ exports[`<ListingCard> when {description} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -901,32 +885,17 @@ exports[`<ListingCard> when {description} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "color": "#9b9b9b",
             },
-            false,
-            false,
-            Object {
-              "maxHeight": 36,
-              "overflow": "hidden",
-            },
+            Object {},
           ]
         }
       >
@@ -971,7 +940,7 @@ exports[`<ListingCard> when {image} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -990,7 +959,7 @@ exports[`<ListingCard> when {image} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1093,7 +1062,7 @@ exports[`<ListingCard> when {image} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1148,7 +1117,7 @@ exports[`<ListingCard> when {rating} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -1167,7 +1136,7 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1270,7 +1239,7 @@ exports[`<ListingCard> when {rating} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1305,27 +1274,15 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "lineHeight": 30,
               },
               false,
               Object {
-                "lineHeight": 16,
                 "marginBottom": 5,
                 "marginRight": 2.5,
               },
@@ -1343,27 +1300,15 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "lineHeight": 30,
               },
               false,
               Object {
-                "lineHeight": 16,
                 "marginBottom": 5,
                 "marginRight": 2.5,
               },
@@ -1381,27 +1326,15 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "lineHeight": 30,
               },
               false,
               Object {
-                "lineHeight": 16,
                 "marginBottom": 5,
                 "marginRight": 2.5,
               },
@@ -1419,27 +1352,15 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "lineHeight": 30,
               },
               false,
               Object {
-                "lineHeight": 16,
                 "marginBottom": 5,
                 "marginRight": 2.5,
               },
@@ -1457,27 +1378,15 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
               Object {
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "lineHeight": 30,
               },
               false,
               Object {
-                "lineHeight": 16,
                 "marginBottom": 5,
                 "marginRight": 2.5,
               },
@@ -1495,27 +1404,13 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
+                "fontSize": 14,
+                "lineHeight": 18,
               },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
               false,
               Object {
                 "marginBottom": 5,
@@ -1535,7 +1430,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
 <View
   style={
     Object {
-      "backgroundColor": "#10c0bc",
+      "backgroundColor": "#bdbdbd",
       "paddingTop": 10,
     }
   }
@@ -1572,7 +1467,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -1591,7 +1486,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1694,7 +1589,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1749,7 +1644,7 @@ exports[`<ListingCard> when {title} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#CDD2D4",
+              "backgroundColor": "#e0e0e0",
             },
             Object {
               "borderRadius": 3,
@@ -1768,7 +1663,7 @@ exports[`<ListingCard> when {title} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1871,7 +1766,7 @@ exports[`<ListingCard> when {title} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#e0e0e0",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1898,27 +1793,15 @@ exports[`<ListingCard> when {title} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
             Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            Object {
+              "fontFamily": undefined,
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "fontWeight": "600",
+              "lineHeight": 16,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "marginVertical": 5,

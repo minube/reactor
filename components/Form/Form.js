@@ -5,6 +5,7 @@ import { ScrollView, View } from 'react-native';
 import Input from '../Input';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
+import InputOption from '../InputOption';
 import InputPicker from '../InputPicker';
 import Text from '../Text';
 import Switch from '../Switch';
@@ -14,6 +15,7 @@ import styles from './Form.style';
 const Inputs = {
   bool: Switch,
   image: InputImage,
+  option: InputOption,
   select: InputPicker,
   list: InputList,
 };
@@ -21,6 +23,7 @@ const Inputs = {
 class Form extends PureComponent {
   static propTypes = {
     attributes: shape({}),
+    color: string,
     value: shape({}),
     onChange: func,
     onValid: func,
@@ -29,6 +32,7 @@ class Form extends PureComponent {
 
   static defaultProps = {
     attributes: {},
+    color: undefined,
     value: undefined,
     title: undefined,
     onChange: undefined,
@@ -62,7 +66,7 @@ class Form extends PureComponent {
     return (
       <View key={key} style={[styles.container, fieldset && styles.fieldset]}>
         { title && (
-        <Text primary bold style={[styles.title, styles.anchor]}>
+        <Text subtitle level={2} style={[styles.title, styles.anchor]}>
           {title}
         </Text>
         ) }
@@ -93,15 +97,16 @@ class Form extends PureComponent {
       required, style, type, ...props
     } = {}, value = props.defaultValue, keyMap,
   }) => {
-    const { _onChange } = this;
-    const isIncomplete = required && !value && !props.disabled;
-    if (isIncomplete) this.state.valid = false;
+    const { _onChange, props: { color } } = this;
+    const invalid = (required && !props.disabled) && ((!type && value && value.trim().length === 0) || !value);
+    if (invalid) this.state.valid = false;
 
     return createElement(Inputs[type] || Input, {
       key: keyMap,
       label: props.label || field,
+      color,
       ...props,
-      error: isIncomplete ? 'required' : props.error,
+      error: invalid ? 'required' : props.error,
       value,
       style: styles[style] || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),

@@ -1,11 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
-
-const { UNIT } = THEME;
+import { LAYOUT } from '../../common';
 
 export default StyleSheet.create({
-  label: {
-    marginVertical: UNIT / 4,
+  container: {
+    ...LAYOUT.STYLE.ROW,
+    justifyContent: 'space-between',
   },
 });

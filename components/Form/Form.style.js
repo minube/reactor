@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { COLOR, OFFSET, UNIT } = THEME;
 
@@ -17,14 +17,14 @@ export default StyleSheet.create({
   fieldset: {
     paddingTop: UNIT,
     paddingHorizontal: UNIT,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.BASE,
     borderRadius: UNIT / 4,
     borderWidth: 1,
     marginBottom: OFFSET,
   },
 
   row: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     flexDirection: 'column',
   },
 

@@ -6,7 +6,7 @@ exports[`<ProgressBar> renders 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#f4f4f4",
+        "backgroundColor": "#F5F5F6",
         "height": 5,
         "overflow": "hidden",
         "width": "100%",
@@ -19,7 +19,7 @@ exports[`<ProgressBar> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#10c0bc",
+        "backgroundColor": "#bdbdbd",
         "height": "100%",
         "width": 0,
       }
@@ -34,7 +34,7 @@ exports[`<ProgressBar> when {color} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#f4f4f4",
+        "backgroundColor": "#F5F5F6",
         "height": 5,
         "overflow": "hidden",
         "width": "100%",
@@ -47,7 +47,7 @@ exports[`<ProgressBar> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#f69a37",
+        "backgroundColor": "#424242",
         "height": "100%",
         "width": 0,
       }
@@ -62,7 +62,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#f4f4f4",
+        "backgroundColor": "#F5F5F6",
         "height": 5,
         "overflow": "hidden",
         "width": "100%",
@@ -75,7 +75,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#10c0bc",
+        "backgroundColor": "#bdbdbd",
         "height": "100%",
         "width": 0,
       }
@@ -90,7 +90,7 @@ exports[`<ProgressBar> when {style} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#f4f4f4",
+        "backgroundColor": "#F5F5F6",
         "height": 5,
         "overflow": "hidden",
         "width": "100%",
@@ -106,7 +106,7 @@ exports[`<ProgressBar> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#10c0bc",
+        "backgroundColor": "#bdbdbd",
         "height": "100%",
         "width": 0,
       }
@@ -121,14 +121,14 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   style={
     Array [
       Object {
-        "backgroundColor": "#f4f4f4",
+        "backgroundColor": "#F5F5F6",
         "height": 5,
         "overflow": "hidden",
         "width": "100%",
       },
       undefined,
       Object {
-        "backgroundColor": "#f69a37",
+        "backgroundColor": "#424242",
       },
     ]
   }
@@ -136,7 +136,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#10c0bc",
+        "backgroundColor": "#bdbdbd",
         "height": "100%",
         "width": 0,
       }

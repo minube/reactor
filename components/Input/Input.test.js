@@ -44,6 +44,11 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {color}', () => {
+    const tree = renderer.create(<Input color="green" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {style}', () => {
     const tree = renderer.create(<Input style={{ backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }} />).toJSON();
     expect(tree).toMatchSnapshot();

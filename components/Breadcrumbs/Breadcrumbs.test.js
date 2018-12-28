@@ -34,7 +34,6 @@ describe('<Breadcrumbs>', () => {
     const style = {
       padding: THEME.OFFSET,
       backgroundColor: 'rgba(0,0,0,0.25)',
-      fontSize: THEME.FONT.SIZE.REGULAR,
     };
     const tree = renderer.create(<Breadcrumbs dataSource={dataSource} style={style} />).toJSON();
     expect(tree).toMatchSnapshot();

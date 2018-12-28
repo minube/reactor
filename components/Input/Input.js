@@ -12,6 +12,7 @@ const { COLOR } = THEME;
 
 class Input extends Component {
   static propTypes = {
+    color: string,
     disabled: bool,
     error: string,
     hint: string,
@@ -24,6 +25,7 @@ class Input extends Component {
   };
 
   static defaultProps = {
+    color: undefined,
     disabled: false,
     error: undefined,
     hint: undefined,
@@ -42,14 +44,14 @@ class Input extends Component {
   render() {
     const {
       props: {
-        disabled, error, hint, keyboard, label, lines, onBlur, onChange, onFocus, ...inherit
+        color, disabled, error, hint, keyboard, label, lines, onBlur, onChange, onFocus, ...inherit
       },
       state: { focus },
     } = this;
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { label && <InputLabel value={label} /> }
+        { (label || (!disabled && (error || hint))) && <InputLabel value={label} error={error} hint={hint} /> }
         <TextInput
           {...inherit}
           value={inherit.value || ''}
@@ -68,12 +70,10 @@ class Input extends Component {
           style={[
             styles.input,
             disabled && styles.inputDisabled,
-            !disabled && focus && styles.inputFocus,
+            !disabled && focus && (color ? { borderColor: color } : styles.inputFocus),
             !disabled && error && styles.inputError,
           ]}
         />
-        { !disabled && (error || hint)
-          && <InputLabel error={error !== undefined} value={error || hint} /> }
       </View>
     );
   }

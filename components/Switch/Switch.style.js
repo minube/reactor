@@ -1,17 +1,15 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
-const {
-  INPUT_HEIGHT, UNIT, OFFSET,
-} = THEME;
+const { UNIT } = THEME;
 
 export default StyleSheet.create({
 
   container: {
-    ...STYLE.ROW,
-    height: INPUT_HEIGHT,
-    marginBottom: OFFSET,
+    ...LAYOUT.STYLE.ROW,
+    height: UNIT * 4.4,
+    marginBottom: UNIT,
   },
 
   label: {

@@ -10,50 +10,48 @@ const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
 const STYLE_CONTAINER = { backgroundColor: 'rgba(0,255,0,0.25)', height: '50%' };
 
 storiesOf('✅ Dialog', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Dialog  />
   ))
-  .addWithJSX('visible', () => (
+  .add('visible', () => (
     <Dialog visible />
   ))
-  .addWithJSX('background (disabled)', () => (
+  .add('background (disabled)', () => (
     <Dialog background={false} visible />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <Dialog title="Hello world" visible />
   ))
-  .addWithJSX('highlight', () => (
+  .add('highlight', () => (
     <Dialog highlight title="Hello world" visible style={STYLE} />
   ))
-  .addWithJSX('children', () => (
+  .add('children', () => (
     <Dialog title="Hello world" visible>
       <Text>lorem ipsum...</Text>
     </Dialog>
   ))
-  .addWithJSX('reverse', () => (
+  .add('reverse', () => (
     <Dialog reverse visible />
   ))
-  .addWithJSX('⚡ onClose', () => (
+  .add('⚡ onClose', () => (
     <Dialog title="Hello world" onClose={action('Dialog.onClose()')} visible />
   ))
-  .addWithJSX('⚡ onClose + highlight', () => (
+  .add('⚡ onClose + highlight', () => (
     <Dialog title="Hello world" highlight onClose={action('Dialog.onClose()')} visible style={STYLE} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Dialog title="Hello world" style={STYLE} visible />
   ))
-  .addWithJSX('styleContainer', () => (
+  .add('styleContainer', () => (
     <Dialog title="Hello world" styleContainer={STYLE_CONTAINER} visible />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Dialog
       background={boolean('background', true)}
       highlight={boolean('highlight', true)}
       reverse={boolean('reverse', false)}
       onClose={action('Dialog.onClose()')}
       onSubmit={action('Dialog.onSubmit()')}
-      style={object('style', STYLE, 'dialog-style')}
-      styleContainer={object('styleContainer', STYLE_CONTAINER, 'dialog-styleContainer')}
       title={text('title', 'Title')}
       visible={boolean('visible', true)}
       style={object('style', STYLE)}

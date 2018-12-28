@@ -19,28 +19,28 @@ const TIMELINE = [
 ];
 
 storiesOf('✅ Motion', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Motion timeline={TIMELINE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('preset', () => (
+  .add('preset', () => (
     <Motion preset="fade" visible={boolean('visible', false)}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Motion timeline={timeline} style={STYLE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Motion
       delay={number('delay', 0)}
       disabled={boolean('disabled', false)}
-      duration={number('duration', 500)}
+      duration={number('duration', 225)}
       style={object('style', STYLE)}
-      preset={select('preset', [undefined, 'fade', 'pop'], undefined)}
+      preset={select('preset', [undefined, 'fade', 'fadeleft', 'pop'], undefined)}
       timeline={object('timeline', TIMELINE)}
       type={select('type', ['spring', 'timing'], 'spring')}
       useNativeDriver={boolean('useNativeDriver', true)}

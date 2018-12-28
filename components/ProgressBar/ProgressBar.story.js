@@ -6,26 +6,26 @@ import { THEME } from '../../common';
 import ProgressBar from './ProgressBar';
 
 storiesOf('✅ ProgressBar', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <ProgressBar />
   ))
-  .addWithJSX('progress', () => (
+  .add('progress', () => (
     <ProgressBar progress={0.33} />
   ))
-  .addWithJSX('color', () => (
-    <ProgressBar progress={0.5} color={THEME.COLOR.ACCENT} />
+  .add('color', () => (
+    <ProgressBar progress={0.5} color={THEME.COLOR.SECONDARY} />
   ))
-  .addWithJSX('trackColor', () => (
+  .add('trackColor', () => (
     <ProgressBar progress={0.5} trackColor={THEME.COLOR.ERROR} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <ProgressBar progress={0.5} style={{ borderRadius: THEME.OFFSET / 2, height: THEME.OFFSET }} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <ProgressBar
       progress={number('progress', 0.5)}
       indeterminate={boolean('indeterminate', false)}
-      color={color('color', THEME.COLOR.ACCENT)}
+      color={color('color', THEME.COLOR.SECONDARY)}
       trackColor={color('trackColor', THEME.COLOR.BACKGROUND)}
     />
   ));

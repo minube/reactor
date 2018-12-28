@@ -1,14 +1,12 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
-const {
-  AVATAR: { LARGE }, BORDER_RADIUS, COLOR, UNIT,
-} = THEME;
+const { BORDER_RADIUS, COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     alignItems: 'flex-start',
   },
 
@@ -21,9 +19,9 @@ export default StyleSheet.create({
   },
 
   image: {
-    width: LARGE,
-    height: LARGE,
+    width: UNIT * 6,
+    height: UNIT * 6,
     borderRadius: BORDER_RADIUS,
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
   },
 });

@@ -17,7 +17,7 @@ exports[`<Heading> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -30,31 +30,18 @@ exports[`<Heading> renders 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -69,7 +56,7 @@ exports[`<Heading> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -93,7 +80,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -106,31 +93,18 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -145,7 +119,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -172,25 +146,13 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#9b9b9b",
@@ -215,25 +177,13 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#9b9b9b",
@@ -258,25 +208,13 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#9b9b9b",
@@ -301,25 +239,13 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
             Object {
               "fontSize": 14,
-              "lineHeight": 16.8,
+              "lineHeight": 24,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {
               "color": "#9b9b9b",
@@ -352,7 +278,7 @@ exports[`<Heading> when {color} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -365,32 +291,19 @@ exports[`<Heading> when {color} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "color": "#f69a37",
-            "fontSize": 30,
-            "lineHeight": 39,
+            "color": "#424242",
             "marginRight": 10,
           },
         ]
@@ -405,7 +318,7 @@ exports[`<Heading> when {color} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -435,31 +348,18 @@ exports[`<Heading> when {column} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -485,27 +385,15 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -522,27 +410,15 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -559,27 +435,15 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -596,27 +460,15 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -633,27 +485,15 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -670,29 +510,13 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#9b9b9b",
-            },
-            false,
             false,
             Object {},
           ]
@@ -709,27 +533,13 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#9b9b9b",
-            },
-            false,
             false,
             Object {},
           ]
@@ -748,7 +558,7 @@ exports[`<Heading> when {column} 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
-          "minHeight": undefined,
+          "minHeight": 20,
         }
       }
     >
@@ -761,27 +571,13 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {},
           ]
@@ -798,25 +594,13 @@ exports[`<Heading> when {column} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {},
           ]
@@ -841,7 +625,7 @@ exports[`<Heading> when {column} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -911,7 +695,7 @@ exports[`<Heading> when {column} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -981,7 +765,7 @@ exports[`<Heading> when {column} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1068,7 +852,7 @@ exports[`<Heading> when {contributors} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1081,31 +865,18 @@ exports[`<Heading> when {contributors} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -1120,7 +891,7 @@ exports[`<Heading> when {contributors} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1144,27 +915,13 @@ exports[`<Heading> when {contributors} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {},
           ]
@@ -1181,25 +938,13 @@ exports[`<Heading> when {contributors} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
             false,
             Object {},
           ]
@@ -1224,7 +969,7 @@ exports[`<Heading> when {contributors} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1294,7 +1039,7 @@ exports[`<Heading> when {contributors} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1364,7 +1109,7 @@ exports[`<Heading> when {contributors} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Array [
@@ -1451,7 +1196,7 @@ exports[`<Heading> when {rating} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1464,31 +1209,18 @@ exports[`<Heading> when {rating} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -1514,27 +1246,15 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -1551,27 +1271,15 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -1588,27 +1296,15 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -1625,27 +1321,15 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -1662,27 +1346,15 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
-            false,
-            false,
             Object {
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "lineHeight": 30,
             },
             false,
             Object {
-              "lineHeight": 16,
               "marginRight": 2.5,
             },
           ]
@@ -1699,29 +1371,13 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#9b9b9b",
-            },
-            false,
             false,
             Object {},
           ]
@@ -1738,27 +1394,13 @@ exports[`<Heading> when {rating} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
-            },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "fontSize": 16,
-              "lineHeight": 20.8,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 14.399999999999999,
+              "fontSize": 14,
+              "lineHeight": 18,
             },
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#9b9b9b",
-            },
-            false,
             false,
             Object {},
           ]
@@ -1774,7 +1416,7 @@ exports[`<Heading> when {rating} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -1801,7 +1443,7 @@ exports[`<Heading> when {style} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1814,31 +1456,18 @@ exports[`<Heading> when {style} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -1853,7 +1482,7 @@ exports[`<Heading> when {style} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />
@@ -1877,7 +1506,7 @@ exports[`<Heading> when {title} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   >
@@ -1890,31 +1519,18 @@ exports[`<Heading> when {title} 1`] = `
           Object {
             "color": "#4a4a4a",
             "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 60,
+            "fontWeight": "700",
+            "letterSpacing": -2.5,
+            "lineHeight": 60,
           },
           false,
-          false,
           Object {
-            "fontWeight": "bold",
-          },
-          false,
-          Object {
-            "fontSize": 16,
-            "lineHeight": 20.8,
-          },
-          false,
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
-          },
-          false,
-          false,
-          false,
-          Object {
-            "fontSize": 30,
-            "lineHeight": 39,
             "marginRight": 10,
           },
         ]
@@ -1929,7 +1545,7 @@ exports[`<Heading> when {title} 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "minHeight": undefined,
+        "minHeight": 20,
       }
     }
   />

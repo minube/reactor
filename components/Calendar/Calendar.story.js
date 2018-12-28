@@ -15,16 +15,22 @@ const STYLE = {
 const TODAY = new Date();
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
-const DISABLED_DATES = [
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7),
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10),
+const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
+const DATES = [
+  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 3),
+  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 4),
+  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 5),
+];
+const CAPTIONS = [
+  { date: DATES[1], value: '$10' },
+  { date: DATES[2], value: '$19' },
 ];
 
 const LOCALE = {
   DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
   MONTHS: [
     'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'agosto',
+    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
   ],
 };
 
@@ -47,42 +53,52 @@ class CalendarHOC extends PureComponent {
 }
 
 storiesOf('✅ Calendar', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Calendar />
   ))
-  .addWithJSX('busy', () => (
+  .add('busy', () => (
     <Calendar busy />
   ))
-  .addWithJSX('locale', () => (
+  .add('locale', () => (
     <Calendar locale={LOCALE} />
   ))
-  .addWithJSX('value', () => (
+  .add('date', () => (
+    <Calendar date={NEXT_MONTH} />
+  ))
+  .add('value', () => (
     <Calendar value={TOMORROW} />
   ))
-  .addWithJSX('range', () => (
+  .add('range', () => (
     <Calendar range value={[YESTERDAY, TOMORROW]} />
   ))
-  .addWithJSX('disabledDates', () => (
-    <Calendar disabledDates={DISABLED_DATES} />
+  .add('availableDates', () => (
+    <Calendar value={TOMORROW} availableDates={DATES} />
   ))
-  .addWithJSX('disabledPast', () => (
+  .add('disabledDates', () => (
+    <Calendar disabledDates={DATES} />
+  ))
+  .add('disabledPast', () => (
     <Calendar disabledPast />
   ))
-  .addWithJSX('⚡ onSelect', () => (
-    <CalendarHOC disabledDates={DISABLED_DATES} onSelect={action('Calendar.onSelect()')} />
+  .add('captions', () => (
+    <Calendar captions={CAPTIONS} />
   ))
-  .addWithJSX('⚡ onSelect (range)', () => (
-    <CalendarHOC disabledDates={DISABLED_DATES} range onSelect={action('Calendar.onSelect()')} />
+  .add('⚡ onSelect', () => (
+    <CalendarHOC disabledDates={DATES} onSelect={action('Calendar.onSelect()')} />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onSelect (range)', () => (
+    <CalendarHOC disabledDates={DATES} range onSelect={action('Calendar.onSelect()')} />
+  ))
+  .add('⚡ onChange', () => (
     <Calendar onChange={action('Calendar.onChange()')} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Calendar style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <CalendarHOC
       busy={boolean('busy', false)}
+      captions={CAPTIONS}
       disabledPast={boolean('disabledPast', false)}
       locale={object('locale', LOCALE)}
       // value={date('value', TOMORROW)}
@@ -92,4 +108,3 @@ storiesOf('✅ Calendar', module)
       style={object('style', STYLE)}
     />
   ));
-

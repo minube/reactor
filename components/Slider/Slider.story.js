@@ -19,25 +19,25 @@ const ItemPictureCard = ({ data }) => <PictureCard square {...data} />;
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
 
 storiesOf('✅ Slider', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} />
   ))
-  .addWithJSX('navigation', () => (
+  .add('navigation', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} navigation />
   ))
-  .addWithJSX('itemMargin', () => (
+  .add('itemMargin', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} itemMargin={16} />
   ))
-  .addWithJSX('steps (2)', () => (
+  .add('steps (2)', () => (
     <Slider dataSource={dataSource} steps={2} item={ItemListingCard} />
   ))
-  .addWithJSX('momentum', () => (
+  .add('momentum', () => (
     <Slider dataSource={dataSource} momentum item={ItemListingCard} />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <Slider dataSource={dataSource} title="Explora nuevos destinos" item={ItemListingCard} />
   ))
-  .addWithJSX('caption', () => (
+  .add('caption', () => (
     <Slider
       caption="Muy del estilo de Chiang Mai"
       dataSource={dataSource}
@@ -45,10 +45,10 @@ storiesOf('✅ Slider', module)
       item={ItemListingCard}
     />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Slider dataSource={dataSource} item={ItemPictureCard} style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Slider
       caption={text('caption', 'Muy del estilo de Chiang Mai')}
       dataSource={dataSource}

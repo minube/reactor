@@ -1,52 +1,68 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, BUTTON, COLOR, FONT, UNIT,
+  BORDER_RADIUS, COLOR, FONT, UNIT,
 } = THEME;
 
-export default StyleSheet.create({
-  touchable: {
-    marginHorizontal: UNIT / 2,
-    borderRadius: BORDER_RADIUS,
-  },
+const REGULAR_SIZE = UNIT * 4.4;
+const SMALL_SIZE = UNIT * 2.8;
 
+export { REGULAR_SIZE, SMALL_SIZE };
+
+export default StyleSheet.create({
   // -- Layout
   container: {
-    ...STYLE.CENTERED,
+    ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
   },
 
-  squared: {
-    paddingHorizontal: 0,
+  disabled: {
+    backgroundColor: COLOR.BASE,
   },
 
-  rounded: {
-    borderRadius: BUTTON.HEIGHT / 2,
+  disabledOpacity: {
+    opacity: 0.5,
   },
 
   outlined: {
     borderWidth: UNIT * 0.1,
   },
 
-  // -- Colors
-  accent: {
-    backgroundColor: COLOR.ACCENT,
+  regular: {
+    minWidth: REGULAR_SIZE,
+    height: REGULAR_SIZE,
+    paddingHorizontal: UNIT * 3,
   },
 
-  disabled: {
-    opacity: 0.5,
+  rounded: {
+    borderRadius: REGULAR_SIZE / 2,
   },
 
-  primary: {
-    backgroundColor: COLOR.PRIMARY,
+  row: LAYOUT.STYLE.ROW,
+
+  small: {
+    minWidth: SMALL_SIZE,
+    height: SMALL_SIZE,
+    paddingHorizontal: SMALL_SIZE / 2,
   },
 
-  row: STYLE.ROW,
+  noPadding: {
+    paddingHorizontal: 0,
+  },
+
+  shadow: LAYOUT.STYLE.SHADOW,
+
+  touchable: {
+    borderRadius: BORDER_RADIUS,
+  },
 
   // -- Text
-  textNoPointerEvent: {
+  text: {
+    fontSize: UNIT * 1.6,
+    letterSpacing: parseFloat((UNIT * -0.02).toFixed(2), 10),
+    ...FONT.BUTTON,
     ...Platform.select({
       web: {
         userSelect: 'none',
@@ -54,15 +70,12 @@ export default StyleSheet.create({
     }),
   },
 
-  text: {
-    fontSize: FONT.SIZE.SMALL,
-  },
-
   textSmall: {
-    fontSize: FONT.SIZE.TINY,
+    fontSize: UNIT * 1.4,
+    letterSpacing: parseFloat((UNIT * -0.015).toFixed(2), 10),
   },
 
   textMarginLeft: {
-    marginLeft: UNIT,
+    marginLeft: UNIT / 2,
   },
 });

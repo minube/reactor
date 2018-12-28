@@ -1,5 +1,5 @@
 import {
-  bool, func, node, string,
+  bool, func, node, number, oneOfType, string,
 } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
@@ -9,86 +9,86 @@ import Activity from '../Activity';
 import Icon from '../Icon';
 import Text from '../Text';
 import Touchable from '../Touchable';
-import styles from './Button.style';
+import styles, { REGULAR_SIZE } from './Button.style';
 
-const { BUTTON, COLOR: { TEXT_LIGHTEN, WHITE }, STYLE } = THEME;
+const { COLOR: { BASE, TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
-  accent, activity, children, color, contained, disabled, icon, onPress, outlined,
-  primary, responsive, rounded, small, title,
+  activity, children, color, contained, disabled, icon, onPress, outlined,
+  responsive, rounded, shadow, small, title,
   isSolid = contained && !outlined, // eslint-disable-line
+  rippleColor = isSolid ? undefined : color, // eslint-disable-line
   ...inherit
 }) => (
-  <Touchable
-    containerBorderRadius={rounded ? BUTTON.HEIGHT / 2 : undefined}
-    onPress={disabled ? undefined : onPress}
-    rippleColor={isSolid ? undefined : color}
-    style={[styles.touchable, rounded && styles.rounded, inherit.style]}
-  >
-    <View
-      style={[
-        styles.container,
-        styles.row,
-        STYLE.BUTTON_REGULAR,
-        // -- Layout
-        small && STYLE.BUTTON_SMALL,
-        !small && responsive && LAYOUT.STYLE.BUTTON.CONTAINER,
-        rounded && styles.rounded,
-        ((!title && !children) || (!contained && !outlined)) && styles.squared,
-
-        // -- Color
-        (isSolid && !primary && !accent) && { backgroundColor: color || TEXT_LIGHTEN },
-        isSolid && primary && styles.primary,
-        isSolid && accent && styles.accent,
-        isSolid && disabled && { backgroundColor: TEXT_LIGHTEN },
-        outlined && styles.outlined,
-        outlined && { borderColor: color || TEXT_LIGHTEN },
-        disabled && styles.disabled,
-      ]}
+  <View style={inherit.style}>
+    <Touchable
+      containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
+      onPress={disabled ? undefined : onPress}
+      rippleColor={isSolid && color === WHITE ? BASE : rippleColor || WHITE}
+      style={[styles.touchable, rounded && styles.rounded]}
     >
-      { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
-      { icon && !activity && <Icon value={icon} /> }
-      <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
-        { title
-          && (
-          <Text
-            semibold
-            color={isSolid ? WHITE : color || TEXT_LIGHTEN}
-            style={[
-              styles.textNoPointerEvent,
-              small // eslint-disable-line
-                ? styles.textSmall
-                : responsive ? LAYOUT.STYLE.TEXT.SMALL : styles.text,
-            ]}
-          >
-            {title}
-          </Text>
-          ) }
-        { children }
+      <View
+        style={[
+          styles.container,
+          styles.regular,
+          styles.row,
+          // -- Layout
+          small && styles.small,
+          responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
+          rounded && styles.rounded,
+          (!title && !children) && styles.noPadding,
+
+          // -- Color
+          isSolid && { backgroundColor: color || TEXT_LIGHTEN },
+          isSolid && shadow && !disabled && styles.shadow,
+          isSolid && shadow && !disabled && color && { shadowColor: color },
+          isSolid && disabled && styles.disabled,
+          outlined && styles.outlined,
+          outlined && { borderColor: color || TEXT_LIGHTEN },
+          !isSolid && disabled && styles.disabledOpacity,
+        ]}
+      >
+        { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
+        { icon && !activity && <Icon value={icon} size={inherit.iconSize} /> }
+        <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
+          { title
+            && (
+            <Text
+              color={isSolid && color === WHITE ? TEXT_LIGHTEN : (isSolid ? WHITE : color)} // eslint-disable-line
+              style={[
+                styles.text,
+                small && styles.textSmall,
+                responsive && !small && styles.textSmall,
+                (activity || icon) && styles.textMarginLeft,
+              ]}
+            >
+              {title}
+            </Text>
+            ) }
+          { children }
+        </View>
       </View>
-    </View>
-  </Touchable>
+    </Touchable>
+  </View>
 );
 
 Button.propTypes = {
-  accent: bool,
   activity: bool,
   children: node,
   contained: bool,
   color: string,
   disabled: bool,
-  icon: string,
+  icon: oneOfType([number, string]),
   onPress: func,
   outlined: bool,
-  primary: bool,
   responsive: bool,
   rounded: bool,
+  shadow: bool,
   small: bool,
   title: string,
 };
 
 Button.defaultProps = {
-  accent: false,
   activity: false,
   children: undefined,
   contained: true,
@@ -97,9 +97,9 @@ Button.defaultProps = {
   icon: undefined,
   onPress: undefined,
   outlined: false,
-  primary: false,
   responsive: false,
   rounded: false,
+  shadow: false,
   small: false,
   title: undefined,
 };

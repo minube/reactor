@@ -4,15 +4,11 @@ import {
 import { createElement, PureComponent } from 'react';
 import { Animated, View } from 'react-native';
 
-import { buildStyle, PRESETS } from './modules';
-import { ENV, SHAPE } from '../../common';
+import { ENV, SHAPE, THEME } from '../../common';
+import { buildStyle, presetVisibility } from './modules';
 
-
-const { IS_WEB } = ENV;
-const presetVisibility = (preset, visible) => {
-  const { IN, OUT } = PRESETS[preset.toUpperCase()] || PRESETS.POP;
-  return visible ? IN : OUT;
-};
+const { IS_TEST, IS_WEB } = ENV;
+const { MOTION } = THEME;
 
 class Motion extends PureComponent {
   static propTypes = {
@@ -20,7 +16,7 @@ class Motion extends PureComponent {
     delay: number,
     disabled: bool,
     duration: number,
-    preset: oneOf(['fade', 'pop']),
+    preset: oneOf(['fade', 'fadeleft', 'pop']),
     timeline: arrayOf(shape(SHAPE.MOTION)),
     type: string,
     useNativeDriver: bool,
@@ -31,10 +27,10 @@ class Motion extends PureComponent {
     children: undefined,
     delay: 0,
     disabled: false,
-    duration: 500,
+    duration: MOTION.DURATION,
     preset: undefined,
     timeline: undefined,
-    type: 'spring',
+    type: 'timing',
     useNativeDriver: IS_WEB,
     visible: false,
   };
@@ -44,9 +40,7 @@ class Motion extends PureComponent {
     const {
       preset, timeline = [], useNativeDriver, visible,
     } = props;
-    const state = {
-      timeline,
-    };
+    const state = { timeline };
 
     if (preset) state.timeline = presetVisibility(preset, visible);
 
@@ -71,10 +65,11 @@ class Motion extends PureComponent {
       this.setState(state);
     }
 
-    if (disabled || useNativeDriver) return;
+    if (IS_TEST || disabled || useNativeDriver) return;
 
+    const animatedProps = { delay, duration, useNativeDriver: true };
     const motions = state.timeline.map(({ property, value: toValue }) => (
-      Animated[type](state[property], { toValue, delay, duration }).start()));
+      Animated[type](state[property], { toValue, ...animatedProps }).start()));
     Animated.parallel(motions).start();
   }
 

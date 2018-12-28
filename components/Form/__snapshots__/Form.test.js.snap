@@ -44,8 +44,7 @@ exports[`<Form> when {attributes} 1`] = `
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
             },
             Object {
               "minWidth": "100%",
@@ -53,45 +52,69 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          username
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            username
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 12,
+                  "lineHeight": 17,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {
+                  "color": "#ef5160",
+                },
+              ]
+            }
+          >
+            required
+          </Text>
+        </View>
         <TextInput
           allowFontScaling={true}
           autoCapitalize="none"
@@ -107,13 +130,14 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "normal",
+                "fontWeight": "400",
                 "paddingHorizontal": 5,
                 "paddingVertical": 7.5,
                 "width": "100%",
@@ -128,53 +152,13 @@ exports[`<Form> when {attributes} 1`] = `
           underlineColorAndroid="transparent"
           value=""
         />
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "color": "#ef5160",
-                "marginVertical": 2.5,
-              },
-            ]
-          }
-        >
-          required
-        </Text>
       </View>
       <View
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
+              "overflow": "hidden",
             },
             Object {
               "width": "49%",
@@ -182,51 +166,48 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          role
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            role
+          </Text>
+        </View>
         <View
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "paddingRight": 5,
@@ -243,7 +224,7 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "borderWidth": 0,
-                  "height": 33,
+                  "height": "auto",
                 },
                 false,
               ]
@@ -289,8 +270,7 @@ exports[`<Form> when {attributes} 1`] = `
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
             },
             Object {
               "width": "49%",
@@ -298,45 +278,42 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          mail
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            mail
+          </Text>
+        </View>
         <TextInput
           allowFontScaling={true}
           autoCapitalize="none"
@@ -352,13 +329,14 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "normal",
+                "fontWeight": "400",
                 "paddingHorizontal": 5,
                 "paddingVertical": 7.5,
                 "width": "100%",
@@ -376,8 +354,7 @@ exports[`<Form> when {attributes} 1`] = `
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
             },
             Object {
               "minWidth": "100%",
@@ -385,45 +362,42 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          bio
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            bio
+          </Text>
+        </View>
         <TextInput
           allowFontScaling={true}
           autoCapitalize="none"
@@ -440,13 +414,14 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "normal",
+                "fontWeight": "400",
                 "paddingHorizontal": 5,
                 "paddingVertical": 7.5,
                 "width": "100%",
@@ -480,11 +455,11 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -501,7 +476,7 @@ exports[`<Form> when {attributes} 1`] = `
             }
             style={
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -527,8 +502,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Array [
                 Object {
@@ -541,45 +515,42 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            avatar
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              avatar
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -596,13 +567,14 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -624,8 +596,8 @@ exports[`<Form> when {attributes} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": undefined,
-              "marginBottom": 16,
+              "height": 44,
+              "marginBottom": 10,
             },
             Object {
               "minWidth": "100%",
@@ -642,28 +614,16 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
               Object {
                 "fontSize": 14,
-                "lineHeight": 16.8,
+                "lineHeight": 24,
               },
-              false,
-              false,
-              false,
               Object {
                 "color": "#9b9b9b",
               },
-              false,
-              false,
               Object {
                 "marginRight": 10,
               },
@@ -673,8 +633,8 @@ exports[`<Form> when {attributes} 1`] = `
           isPublic
         </Text>
         <RCTSwitch
-          activeThumbColor="#10c0bc"
-          activeTrackColor="#dbdbdb"
+          activeThumbColor="#bdbdbd"
+          activeTrackColor="#e0e0e0"
           disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
@@ -706,7 +666,7 @@ exports[`<Form> when {attributes} 1`] = `
               "width": "100%",
             },
             Object {
-              "borderColor": "#dbdbdb",
+              "borderColor": "#e0e0e0",
               "borderRadius": 2.5,
               "borderWidth": 1,
               "marginBottom": 16,
@@ -725,25 +685,14 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "fontWeight": "bold",
-              },
-              false,
-              Object {
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "fontWeight": "600",
+                "lineHeight": 18,
               },
               false,
               Object {
@@ -759,8 +708,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Object {
                 "width": "32%",
@@ -768,45 +716,42 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            twitter
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              twitter
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -822,13 +767,14 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -846,8 +792,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Object {
                 "width": "32%",
@@ -855,45 +800,42 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            facebook
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              facebook
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -909,13 +851,14 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -933,8 +876,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Object {
                 "width": "32%",
@@ -942,45 +884,69 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            github
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              github
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 17,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {
+                    "color": "#ef5160",
+                  },
+                ]
+              }
+            >
+              required
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -996,13 +962,14 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -1017,49 +984,264 @@ exports[`<Form> when {attributes} 1`] = `
             underlineColorAndroid="transparent"
             value=""
           />
-          <Text
-            accessible={true}
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 10,
+              "zIndex": 1,
+            },
+            Object {
+              "minWidth": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "marginBottom": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              languages
+            </Text>
+          </View>
+          <TextInput
             allowFontScaling={true}
-            ellipsizeMode="tail"
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onSubmitEditing={[Function]}
+            placeholderTextColor="#9b9b9b"
             style={
               Array [
                 Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
                   "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
+                  "fontWeight": "400",
+                  "paddingHorizontal": 5,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
                 false,
-                Object {
-                  "color": "#ef5160",
-                  "marginVertical": 2.5,
-                },
+                undefined,
               ]
             }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "minWidth": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderColor": "#9b9b9b",
+                "borderRadius": 2,
+                "borderWidth": 2,
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "opacity": 0,
+                "transform": Array [
+                  Object {
+                    "scale": 0,
+                  },
+                ],
+              }
+            }
           >
-            required
-          </Text>
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 12,
+                    "width": 12,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 14,
+                "lineHeight": 24,
+              },
+              Object {
+                "color": "#9b9b9b",
+              },
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          ACCEPT, terms & conditions
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#e0e0e0",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
         </View>
       </View>
     </View>
+  </View>
+</RCTScrollView>
+`;
+
+exports[`<Form> when {color} 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "flex-start",
+            "display": "flex",
+            "flexDirection": "row",
+            "flexWrap": "wrap",
+            "justifyContent": "space-between",
+            "width": "100%",
+          },
+          false,
+        ]
+      }
+    />
   </View>
 </RCTScrollView>
 `;
@@ -1086,8 +1268,7 @@ exports[`<Form> when {data} 1`] = `
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
             },
             Object {
               "minWidth": "100%",
@@ -1095,45 +1276,69 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          username
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            username
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 12,
+                  "lineHeight": 17,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {
+                  "color": "#ef5160",
+                },
+              ]
+            }
+          >
+            required
+          </Text>
+        </View>
         <TextInput
           allowFontScaling={true}
           autoCapitalize="none"
@@ -1149,13 +1354,14 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "normal",
+                "fontWeight": "400",
                 "paddingHorizontal": 5,
                 "paddingVertical": 7.5,
                 "width": "100%",
@@ -1170,53 +1376,13 @@ exports[`<Form> when {data} 1`] = `
           underlineColorAndroid="transparent"
           value=""
         />
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "color": "#ef5160",
-                "marginVertical": 2.5,
-              },
-            ]
-          }
-        >
-          required
-        </Text>
       </View>
       <View
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
+              "overflow": "hidden",
             },
             Object {
               "width": "49%",
@@ -1224,51 +1390,48 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          role
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            role
+          </Text>
+        </View>
         <View
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "paddingRight": 5,
@@ -1285,7 +1448,7 @@ exports[`<Form> when {data} 1`] = `
                 Object {
                   "backgroundColor": "transparent",
                   "borderWidth": 0,
-                  "height": 33,
+                  "height": "auto",
                 },
                 false,
               ]
@@ -1331,8 +1494,7 @@ exports[`<Form> when {data} 1`] = `
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
             },
             Object {
               "width": "49%",
@@ -1340,45 +1502,42 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          mail
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            mail
+          </Text>
+        </View>
         <TextInput
           allowFontScaling={true}
           autoCapitalize="none"
@@ -1394,13 +1553,14 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "normal",
+                "fontWeight": "400",
                 "paddingHorizontal": 5,
                 "paddingVertical": 7.5,
                 "width": "100%",
@@ -1418,8 +1578,7 @@ exports[`<Form> when {data} 1`] = `
         style={
           Array [
             Object {
-              "marginBottom": 16,
-              "minHeight": undefined,
+              "marginBottom": 10,
             },
             Object {
               "minWidth": "100%",
@@ -1427,45 +1586,42 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <View
           style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#9b9b9b",
-              },
-              false,
-              false,
-              Object {
-                "marginVertical": 2.5,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
           }
         >
-          bio
-        </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            bio
+          </Text>
+        </View>
         <TextInput
           allowFontScaling={true}
           autoCapitalize="none"
@@ -1482,13 +1638,14 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#ffffff",
-                "borderColor": "#dbdbdb",
+                "backgroundColor": "transparent",
+                "borderColor": "#e0e0e0",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
                 "color": "#4a4a4a",
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "fontWeight": "normal",
+                "fontWeight": "400",
                 "paddingHorizontal": 5,
                 "paddingVertical": 7.5,
                 "width": "100%",
@@ -1522,11 +1679,11 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#f4f4f4",
+                "backgroundColor": "#F5F5F6",
                 "justifyContent": "center",
               },
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -1543,7 +1700,7 @@ exports[`<Form> when {data} 1`] = `
             }
             style={
               Object {
-                "backgroundColor": "#CDD2D4",
+                "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
                 "height": 60,
                 "width": 60,
@@ -1569,8 +1726,7 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Array [
                 Object {
@@ -1583,45 +1739,42 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            avatar
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              avatar
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -1638,13 +1791,14 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -1666,8 +1820,8 @@ exports[`<Form> when {data} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": undefined,
-              "marginBottom": 16,
+              "height": 44,
+              "marginBottom": 10,
             },
             Object {
               "minWidth": "100%",
@@ -1684,28 +1838,16 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
               Object {
                 "fontSize": 14,
-                "lineHeight": 16.8,
+                "lineHeight": 24,
               },
-              false,
-              false,
-              false,
               Object {
                 "color": "#9b9b9b",
               },
-              false,
-              false,
               Object {
                 "marginRight": 10,
               },
@@ -1715,8 +1857,8 @@ exports[`<Form> when {data} 1`] = `
           isPublic
         </Text>
         <RCTSwitch
-          activeThumbColor="#10c0bc"
-          activeTrackColor="#dbdbdb"
+          activeThumbColor="#bdbdbd"
+          activeTrackColor="#e0e0e0"
           disabled={false}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
@@ -1748,7 +1890,7 @@ exports[`<Form> when {data} 1`] = `
               "width": "100%",
             },
             Object {
-              "borderColor": "#dbdbdb",
+              "borderColor": "#e0e0e0",
               "borderRadius": 2.5,
               "borderWidth": 1,
               "marginBottom": 16,
@@ -1767,25 +1909,14 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "fontWeight": "bold",
-              },
-              false,
-              Object {
+                "fontFamily": undefined,
                 "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "color": "#10c0bc",
+                "fontWeight": "600",
+                "lineHeight": 18,
               },
               false,
               Object {
@@ -1801,8 +1932,7 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Object {
                 "width": "32%",
@@ -1810,45 +1940,42 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            twitter
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              twitter
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -1864,13 +1991,14 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -1888,8 +2016,7 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Object {
                 "width": "32%",
@@ -1897,45 +2024,42 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            facebook
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              facebook
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -1951,13 +2075,14 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -1975,8 +2100,7 @@ exports[`<Form> when {data} 1`] = `
           style={
             Array [
               Object {
-                "marginBottom": 16,
-                "minHeight": undefined,
+                "marginBottom": 10,
               },
               Object {
                 "width": "32%",
@@ -1984,45 +2108,69 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
+          <View
             style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
-                },
-                false,
-                false,
-                Object {
-                  "marginVertical": 2.5,
-                },
-              ]
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
             }
           >
-            github
-          </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              github
+            </Text>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 12,
+                    "lineHeight": 17,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {
+                    "color": "#ef5160",
+                  },
+                ]
+              }
+            >
+              required
+            </Text>
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
@@ -2038,13 +2186,14 @@ exports[`<Form> when {data} 1`] = `
             style={
               Array [
                 Object {
-                  "backgroundColor": "#ffffff",
-                  "borderColor": "#dbdbdb",
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
                   "color": "#4a4a4a",
+                  "fontFamily": undefined,
                   "fontSize": 16,
-                  "fontWeight": "normal",
+                  "fontWeight": "400",
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
                   "width": "100%",
@@ -2059,46 +2208,239 @@ exports[`<Form> when {data} 1`] = `
             underlineColorAndroid="transparent"
             value=""
           />
-          <Text
-            accessible={true}
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 10,
+              "zIndex": 1,
+            },
+            Object {
+              "minWidth": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "marginBottom": 0,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontSize": 14,
+                    "lineHeight": 24,
+                  },
+                  Object {
+                    "color": "#9b9b9b",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              languages
+            </Text>
+          </View>
+          <TextInput
             allowFontScaling={true}
-            ellipsizeMode="tail"
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            onSubmitEditing={[Function]}
+            placeholderTextColor="#9b9b9b"
             style={
               Array [
                 Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
                   "fontSize": 16,
-                  "lineHeight": 20.8,
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 14.399999999999999,
-                },
-                false,
-                false,
-                false,
-                false,
-                Object {
-                  "color": "#9b9b9b",
+                  "fontWeight": "400",
+                  "paddingHorizontal": 5,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
                 false,
-                Object {
-                  "color": "#ef5160",
-                  "marginVertical": 2.5,
-                },
+                undefined,
               ]
             }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        accessible={true}
+        onLayout={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        pointerEvents="box-only"
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "minWidth": "100%",
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "borderColor": "#9b9b9b",
+                "borderRadius": 2,
+                "borderWidth": 2,
+                "height": 20,
+                "justifyContent": "center",
+                "width": 20,
+              },
+              false,
+              false,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "opacity": 0,
+                "transform": Array [
+                  Object {
+                    "scale": 0,
+                  },
+                ],
+              }
+            }
           >
-            required
-          </Text>
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 12,
+                    "width": 12,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 14,
+                "lineHeight": 24,
+              },
+              Object {
+                "color": "#9b9b9b",
+              },
+              Object {
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          ACCEPT, terms & conditions
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#e0e0e0",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
         </View>
       </View>
     </View>
@@ -2206,25 +2548,14 @@ exports[`<Form> when {title} 1`] = `
             Object {
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
             },
-            false,
-            false,
             Object {
-              "fontWeight": "bold",
-            },
-            false,
-            Object {
+              "fontFamily": undefined,
               "fontSize": 16,
-              "lineHeight": 20.8,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            Object {
-              "color": "#10c0bc",
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
             false,
             Object {

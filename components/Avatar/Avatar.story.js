@@ -8,19 +8,19 @@ const LOREM_AVATAR = 'https://api.adorable.io/avatars/128/8';
 const STYLE = { borderRadius: 5, width: 128, height: 128 };
 
 storiesOf('✅ Avatar', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Avatar image={LOREM_AVATAR} />
   ))
-  .addWithJSX('small', () => (
+  .add('small', () => (
     <Avatar small image={LOREM_AVATAR} />
   ))
-  .addWithJSX('large', () => (
+  .add('large', () => (
     <Avatar large image={LOREM_AVATAR} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Avatar image={LOREM_AVATAR} style={STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Avatar
       image={text('image', LOREM_AVATAR)}
       small={boolean('small', false)}

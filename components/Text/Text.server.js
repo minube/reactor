@@ -6,14 +6,13 @@ const { COLOR } = THEME;
 const STYLE = { color: COLOR.TEXT, marginTop: 0, marginBottom: 0 };
 
 export default ({
-  children, color, title, subtitle, large, small, style, tiny,
+  children, color, headline, subtitle, caption, level = 1, style,
 }) => {
   let tag = 'p';
 
-  if (title) tag = 'h1';
-  else if (subtitle) tag = 'h2';
-  else if (large) tag = 'h3';
-  else if (small || tiny) tag = 'small';
+  if (headline) tag = `h${level}`;
+  else if (subtitle) tag = 'strong';
+  else if (caption) tag = 'small';
 
   return createElement(tag, {
     style: { ...STYLE, ...serverSideStyle(style), color },

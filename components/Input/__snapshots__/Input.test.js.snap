@@ -5,8 +5,7 @@ exports[`<Input> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -26,13 +25,62 @@ exports[`<Input> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+</View>
+`;
+
+exports[`<Input> when {color} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="none"
+    autoCorrect={false}
+    blurOnSubmit={true}
+    editable={true}
+    keyboardType="default"
+    multiline={false}
+    onBlur={[Function]}
+    onFocus={[Function]}
+    placeholderTextColor="#9b9b9b"
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -53,8 +101,7 @@ exports[`<Input> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -74,20 +121,21 @@ exports[`<Input> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
         },
         Object {
-          "backgroundColor": "#f4f4f4",
-          "color": "#cccccc",
+          "backgroundColor": "#F5F5F6",
+          "color": "#e0e0e0",
         },
         false,
         false,
@@ -104,13 +152,73 @@ exports[`<Input> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 17,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {
+            "color": "#ef5160",
+          },
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <TextInput
     allowFontScaling={true}
     autoCapitalize="none"
@@ -125,13 +233,14 @@ exports[`<Input> when {error} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -146,46 +255,6 @@ exports[`<Input> when {error} 1`] = `
     underlineColorAndroid="transparent"
     value=""
   />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "color": "#ef5160",
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -194,13 +263,71 @@ exports[`<Input> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 17,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <TextInput
     allowFontScaling={true}
     autoCapitalize="none"
@@ -215,13 +342,14 @@ exports[`<Input> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -234,45 +362,6 @@ exports[`<Input> when {hint} 1`] = `
     underlineColorAndroid="transparent"
     value=""
   />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -281,8 +370,7 @@ exports[`<Input> when {keyboard} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -302,13 +390,14 @@ exports[`<Input> when {keyboard} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -329,52 +418,48 @@ exports[`<Input> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "marginVertical": 2.5,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
     }
   >
-    Hello World
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <TextInput
     allowFontScaling={true}
     autoCapitalize="none"
@@ -389,13 +474,14 @@ exports[`<Input> when {label} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -416,8 +502,7 @@ exports[`<Input> when {lines} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -438,13 +523,14 @@ exports[`<Input> when {lines} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -465,8 +551,7 @@ exports[`<Input> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -490,13 +575,14 @@ exports[`<Input> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",
@@ -517,8 +603,7 @@ exports[`<Input> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
       },
       undefined,
     ]
@@ -538,13 +623,14 @@ exports[`<Input> when {value} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "color": "#4a4a4a",
+          "fontFamily": undefined,
           "fontSize": 16,
-          "fontWeight": "normal",
+          "fontWeight": "400",
           "paddingHorizontal": 5,
           "paddingVertical": 7.5,
           "width": "100%",

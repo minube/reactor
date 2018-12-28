@@ -1,7 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import { THEME } from '../../common';
 import Markdown from './Markdown';
 
 describe('<Markdown>', () => {
@@ -25,14 +24,13 @@ describe('<Markdown>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-
   it('when combining * & **', () => {
     const tree = renderer.create(<Markdown>hello *world*, I'm **javi**.</Markdown>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('including a <Text> property', () => {
-    const tree = renderer.create(<Markdown accent>Hello *World*</Markdown>).toJSON();
+  it('inject a <Text> property', () => {
+    const tree = renderer.create(<Markdown subtitle level={2}>Hello *World*</Markdown>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

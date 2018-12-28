@@ -14,7 +14,7 @@ exports[`<PictureCard> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -33,7 +33,7 @@ exports[`<PictureCard> renders 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -136,7 +136,7 @@ exports[`<PictureCard> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -162,7 +162,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -172,7 +172,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
         },
         undefined,
         Object {
-          "backgroundColor": "#10c0bc",
+          "backgroundColor": "#bdbdbd",
         },
       ]
     }
@@ -183,7 +183,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -286,7 +286,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -312,7 +312,7 @@ exports[`<PictureCard> when {caption} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -331,7 +331,7 @@ exports[`<PictureCard> when {caption} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -421,25 +421,13 @@ exports[`<PictureCard> when {caption} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-              },
-              false,
-              false,
-              false,
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
               Object {
-                "fontSize": 12,
-                "lineHeight": 14.399999999999999,
+                "fontSize": 14,
+                "lineHeight": 18,
               },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
               false,
               Object {
                 "color": "#ffffff",
@@ -473,7 +461,7 @@ exports[`<PictureCard> when {caption} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -499,7 +487,7 @@ exports[`<PictureCard> when {image} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -518,7 +506,7 @@ exports[`<PictureCard> when {image} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -621,7 +609,7 @@ exports[`<PictureCard> when {image} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -647,7 +635,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -666,7 +654,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -769,7 +757,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -795,7 +783,7 @@ exports[`<PictureCard> when {small} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -814,7 +802,7 @@ exports[`<PictureCard> when {small} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -921,7 +909,7 @@ exports[`<PictureCard> when {small} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -947,7 +935,7 @@ exports[`<PictureCard> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -966,7 +954,7 @@ exports[`<PictureCard> when {style} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -1075,7 +1063,7 @@ exports[`<PictureCard> when {style} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -1101,7 +1089,7 @@ exports[`<PictureCard> when {title} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#CDD2D4",
+          "backgroundColor": "#e0e0e0",
         },
         Object {
           "borderRadius": 3,
@@ -1120,7 +1108,7 @@ exports[`<PictureCard> when {title} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#f4f4f4",
+            "backgroundColor": "#F5F5F6",
             "justifyContent": "center",
           },
           Array [
@@ -1210,31 +1198,19 @@ exports[`<PictureCard> when {title} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "fontWeight": "bold",
-              },
-              false,
-              Object {
-                "fontSize": 16,
-                "lineHeight": 20.8,
-              },
-              false,
-              false,
-              Object {
-                "fontSize": 20,
+                "fontFamily": undefined,
+                "fontSize": 24,
+                "fontWeight": "700",
+                "letterSpacing": -1,
                 "lineHeight": 26,
               },
               false,
-              false,
-              false,
-              false,
-              false,
               Object {
                 "color": "#ffffff",
-                "marginBottom": 5,
                 "textAlign": "center",
               },
             ]
@@ -1265,7 +1241,7 @@ exports[`<PictureCard> when {title} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#ffffff",
+          "backgroundColor": "#e0e0e0",
           "height": 0,
           "opacity": 0,
           "width": 0,

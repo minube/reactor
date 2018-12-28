@@ -1,13 +1,11 @@
 
-import {
-  arrayOf, bool, func, shape,
-} from 'prop-types';
+import { func, shape } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
 
 import Text from '../../Text';
 import Touchable from '../../Touchable';
-import styles from '../Calendar.style';
+import styles, { BOX_HEIGHT } from '../Calendar.style';
 
 const onPress = ({
   day, tsDay, tsStart, tsEnd, onSelect, range, value,
@@ -18,21 +16,28 @@ const onPress = ({
   else if (tsDay > tsStart) onSelect([value[0], day]);
 };
 
-const Week = ({
-  disabledDates, disabledPast, firstDate, ...inherit
-}) => {
-  const { month, today, value } = inherit;
+const Week = ({ firstDate, ...inherit }) => {
+  const {
+    availableDates, captions, disabledDates, disabledPast, month, today, value,
+  } = inherit;
   const tsToday = today.getTime();
 
   let tsStart;
   let tsEnd;
+  let tsAvailableDates;
+  let tsCaptionsDates;
+  let tsDisabledDates;
+
+  if (availableDates) tsAvailableDates = availableDates.map(d => d.getTime());
+  else if (captions) tsCaptionsDates = captions.map(({ date }) => date.getTime());
+  else if (disabledDates) tsDisabledDates = disabledDates.map(d => d.getTime());
+
   if (value) {
     const [start, end] = Array.isArray(value) ? value : [value];
     tsStart = start.getTime();
     tsEnd = end ? end.getTime() : tsStart;
   }
 
-  const tsDisabledDates = disabledDates.map(d => d.getTime());
   const days = [];
   for (let i = 0; i < 7; i += 1) {
     days.push(new Date(firstDate.getFullYear(), firstDate.getMonth(), firstDate.getDate() + i));
@@ -44,13 +49,29 @@ const Week = ({
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
         const isSelected = tsDay >= tsStart && tsDay <= tsEnd;
-
         let isDisabled = false;
+        let caption;
+
         if (disabledPast) isDisabled = tsDay < tsToday;
-        else isDisabled = tsDisabledDates.includes(tsDay);
+
+        if (!isDisabled) {
+          if (tsAvailableDates) isDisabled = !tsAvailableDates.includes(tsDay);
+          else if (tsDisabledDates) isDisabled = tsDisabledDates.includes(tsDay);
+
+          if (tsCaptionsDates && tsCaptionsDates.includes(tsDay)) {
+            const item = captions[tsCaptionsDates.indexOf(tsDay)];
+            caption = item.value;
+          }
+        }
+
+        const stylesDay = [
+          isToday && styles.today,
+          !isDisabled && isSelected && styles.highlight,
+        ];
 
         return (
           <Touchable
+            containerBorderRadius={BOX_HEIGHT}
             key={day.toString()}
             onPress={!isDisabled
               ? () => onPress({
@@ -61,22 +82,26 @@ const Week = ({
             style={[
               styles.box,
               styles.day,
-              isSelected && styles.selected,
-              isSelected && tsDay === tsStart && styles.selectedStart,
-              isSelected && tsDay === tsEnd && styles.selectedEnd,
+              !isDisabled && isSelected && styles.selected,
+              !isDisabled && isSelected && tsDay === tsStart && styles.selectedStart,
+              !isDisabled && isSelected && tsDay === tsEnd && styles.selectedEnd,
             ]}
           >
             <Text
-              small
-              semibold={isToday || isSelected}
+              level={3}
               style={[
-                isToday && styles.today,
+                ...stylesDay,
+                isToday && styles.textBold,
+                !isDisabled && isSelected && styles.textBold,
                 (day.getMonth() !== month || isDisabled) && styles.disabled,
-                isSelected && styles.highlight,
               ]}
             >
               {day.getDate()}
             </Text>
+            { caption && (
+              <Text caption style={[...stylesDay, styles.caption]}>
+                {caption}
+              </Text>)}
           </Touchable>
         );
       })}
@@ -85,10 +110,8 @@ const Week = ({
 };
 
 Week.propTypes = {
-  disabledDates: arrayOf(shape()).isRequired,
-  disabledPast: bool.isRequired,
-  onSelect: func,
   firstDate: shape(),
+  onSelect: func,
 };
 
 Week.defaultProps = {

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Markdown> including a <Text> property 1`] = `
+exports[`<Markdown> inject a <Text> property 1`] = `
 <View
   style={
     Array [
@@ -19,31 +19,24 @@ exports[`<Markdown> including a <Text> property 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={false}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
+          "fontFamily": undefined,
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "600",
+          "lineHeight": 18,
         },
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#f69a37",
-        },
         Object {},
       ]
     }
@@ -53,33 +46,24 @@ exports[`<Markdown> including a <Text> property 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={Object {}}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        Object {
-          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "600",
+          "lineHeight": 18,
         },
         false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#f69a37",
-        },
         Object {},
       ]
     }
@@ -102,22 +86,13 @@ exports[`<Markdown> renders 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -145,28 +120,21 @@ exports[`<Markdown> when combining * & ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={false}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -177,30 +145,21 @@ exports[`<Markdown> when combining * & ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={Object {}}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        Object {
-          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -211,30 +170,21 @@ exports[`<Markdown> when combining * & ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={Object {}}
     ellipsizeMode="tail"
+    italic={false}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -264,28 +214,21 @@ exports[`<Markdown> when including * 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={false}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -296,30 +239,21 @@ exports[`<Markdown> when including * 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={Object {}}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        Object {
-          "fontStyle": "italic",
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -349,28 +283,21 @@ exports[`<Markdown> when including ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={false}
     ellipsizeMode="tail"
+    italic={false}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -381,30 +308,21 @@ exports[`<Markdown> when including ** 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    bold={Object {}}
     ellipsizeMode="tail"
+    italic={false}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -428,22 +346,13 @@ exports[`<Markdown> when simple text 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]

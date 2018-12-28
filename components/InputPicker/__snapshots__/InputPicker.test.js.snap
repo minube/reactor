@@ -5,8 +5,8 @@ exports[`<InputPicker> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -16,8 +16,8 @@ exports[`<InputPicker> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -34,7 +34,7 @@ exports[`<InputPicker> renders 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -65,8 +65,8 @@ exports[`<InputPicker> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -76,8 +76,8 @@ exports[`<InputPicker> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -85,7 +85,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
         },
         false,
         Object {
-          "backgroundColor": "#f4f4f4",
+          "backgroundColor": "#F5F5F6",
         },
       ]
     }
@@ -96,7 +96,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           undefined,
         ]
@@ -127,8 +127,8 @@ exports[`<InputPicker> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -136,10 +136,71 @@ exports[`<InputPicker> when {error} 1`] = `
 >
   <View
     style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 17,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {
+            "color": "#ef5160",
+          },
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
+  <View
+    style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -158,7 +219,7 @@ exports[`<InputPicker> when {error} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -181,46 +242,6 @@ exports[`<InputPicker> when {error} 1`] = `
       />
     </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "color": "#ef5160",
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -229,8 +250,8 @@ exports[`<InputPicker> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -238,10 +259,69 @@ exports[`<InputPicker> when {hint} 1`] = `
 >
   <View
     style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 17,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
+  <View
+    style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -258,7 +338,7 @@ exports[`<InputPicker> when {hint} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -281,45 +361,6 @@ exports[`<InputPicker> when {hint} 1`] = `
       />
     </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -328,58 +369,55 @@ exports[`<InputPicker> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "marginVertical": 2.5,
-        },
-      ]
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
     }
   >
-    Hello World
-  </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
+  </View>
   <View
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -396,7 +434,7 @@ exports[`<InputPicker> when {label} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -427,8 +465,8 @@ exports[`<InputPicker> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -442,8 +480,8 @@ exports[`<InputPicker> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -460,7 +498,7 @@ exports[`<InputPicker> when {style} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -491,8 +529,8 @@ exports[`<InputPicker> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 10,
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -502,8 +540,8 @@ exports[`<InputPicker> when {value} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#e0e0e0",
           "borderRadius": 2.5,
           "borderWidth": 1,
           "paddingRight": 5,
@@ -520,7 +558,7 @@ exports[`<InputPicker> when {value} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]

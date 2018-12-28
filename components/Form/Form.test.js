@@ -23,7 +23,9 @@ const ATTRIBUTES = {
       facebook: { style: 'inline3' },
       github: { style: 'inline3', required: true },
     }
-  }
+  },
+  languages: { type: 'list' },
+  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
 };
 
 const DATA = {
@@ -48,6 +50,11 @@ describe('<Form>', () => {
 
   it('when {attributes}', () => {
     const tree = renderer.create(<Form attributes={ATTRIBUTES} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {color}', () => {
+    const tree = renderer.create(<Form color="green" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

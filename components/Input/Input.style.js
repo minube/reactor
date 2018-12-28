@@ -2,33 +2,29 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const {
-  COLOR, FONT, INPUT_HEIGHT, OFFSET, UNIT,
-} = THEME;
+const { COLOR, FONT, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    minHeight: INPUT_HEIGHT,
-    marginBottom: OFFSET,
+    marginBottom: UNIT,
   },
 
   input: {
-    backgroundColor: COLOR.WHITE,
-    borderColor: COLOR.BORDER,
+    backgroundColor: COLOR.TRANSPARENT,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
     color: COLOR.TEXT,
-    fontSize: FONT.SIZE.REGULAR,
-    fontWeight: FONT.WEIGHT.REGULAR,
+    fontSize: UNIT * 1.6,
     paddingVertical: UNIT * 0.75,
     paddingHorizontal: UNIT * 0.5,
     width: '100%',
     ...Platform.select({
       web: {
-        fontFamily: FONT.FAMILY,
         outline: 'none',
       },
     }),
+    ...FONT.INPUT,
   },
 
   inputError: {
@@ -45,6 +41,6 @@ export default StyleSheet.create({
   },
 
   active: {
-    color: COLOR.ACCENT,
+    color: COLOR.SECONDARY,
   },
 });

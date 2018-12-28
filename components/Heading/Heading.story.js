@@ -25,28 +25,28 @@ const CONTRIBUTORS = {
 const RATING = { caption: 'valoraciones', count: 12, value: 4.5 };
 
 storiesOf('☑️ Heading', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Heading title="Actividades en España" />
   ))
-  .addWithJSX('rating', () => (
+  .add('rating', () => (
     <Heading title="Actividades en España" rating={RATING} />
   ))
-  .addWithJSX('breadcrumbs', () => (
+  .add('breadcrumbs', () => (
     <Heading title="Actividades en España" breadcrumbs={BREADCRUMBS} />
   ))
-  .addWithJSX('contributors', () => (
+  .add('contributors', () => (
     <Heading contributors={CONTRIBUTORS} title="Actividades en España" />
   ))
-  .addWithJSX('color', () => (
+  .add('color', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
-      color={THEME.COLOR.ACCENT}
+      color={THEME.COLOR.SECONDARY}
       contributors={CONTRIBUTORS}
       title="Actividades en España"
       rating={RATING}
     />
   ))
-  .addWithJSX('column', () => (
+  .add('column', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
       contributors={CONTRIBUTORS}
@@ -55,7 +55,7 @@ storiesOf('☑️ Heading', module)
       column
     />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Heading
       color={THEME.COLOR.WHITE}
       column
@@ -67,7 +67,7 @@ storiesOf('☑️ Heading', module)
       title="British Museum"
     />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Heading
       breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
       color={color('color', THEME.COLOR.TEXT)}

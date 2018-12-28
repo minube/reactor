@@ -4,13 +4,11 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color, object } from '@storybook/addon-knobs/react';
 
-import { STYLE, THEME } from './common';
+import { LAYOUT, THEME } from './common';
 import {
   Button, Dialog, Text, Image,
 } from './components';
-import { Consumer, Provider } from './context';
-
-const { COLOR, OFFSET, UNIT } = THEME;
+import { ConsumerAmplitude, ProviderAmplitude } from './context';
 
 const styles = StyleSheet.create({
   dialog: {
@@ -23,23 +21,24 @@ const styles = StyleSheet.create({
   },
 
   content: {
-    ...STYLE.ROW,
-    marginTop: OFFSET,
+    ...LAYOUT.STYLE.ROW,
+    marginTop: THEME.OFFSET,
   },
 
   texts: {
     flex: 1,
-    marginHorizontal: UNIT,
+    marginHorizontal: THEME.UNIT,
   },
 
   icon: {
-    height: UNIT * 4,
-    width: UNIT * 4,
+    height: THEME.UNIT * 4,
+    width: THEME.UNIT * 4,
   },
 });
 
+
 storiesOf('🏀 Playground', module)
-  .addWithJSX('Dialog: download app', () => (
+  .add('Dialog: download app', () => (
     <Dialog
       background={false}
       scroll={false}
@@ -53,12 +52,12 @@ storiesOf('🏀 Playground', module)
           style={styles.icon}
         />
         <View style={styles.texts}>
-          <Text small>{text('title', 'Exprime al maximo tu viaje')}</Text>
-          <Text tiny lighten>{text('subtitle', 'Con la app de minube')}</Text>
+          <Text subtitle level={3}>{text('title', 'Exprime al maximo tu viaje')}</Text>
+          <Text level={3} lighten>{text('subtitle', 'Con la app de minube')}</Text>
         </View>
         <Button
           small
-          color={color('color', COLOR.TEXT)}
+          color={color('color', THEME.COLOR.TEXT)}
           onPress={action('Button.onPress()')}
           outlined
           title={text('button', 'Descargar')}
@@ -66,16 +65,16 @@ storiesOf('🏀 Playground', module)
       </View>
     </Dialog>
   ))
-  .addWithJSX('Amplitude v3', () => (
-    <Provider>
-      <Consumer>
+  .add('Amplitude v3', () => (
+    <ProviderAmplitude>
+      <ConsumerAmplitude>
         { ({ logEvent }) => (
             <Button
               title="Press me"
               onPress={() => logEvent({ type: 'reactor:demo', hello: 'world' })}
             />
         )}
-        </Consumer>
-    </Provider>
+        </ConsumerAmplitude>
+    </ProviderAmplitude>
   ));
 

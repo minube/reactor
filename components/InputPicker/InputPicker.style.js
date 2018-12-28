@@ -2,20 +2,18 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const {
-  COLOR, INPUT_HEIGHT, OFFSET, UNIT,
-} = THEME;
+const { COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    minHeight: INPUT_HEIGHT,
-    marginBottom: OFFSET,
+    marginBottom: UNIT,
+    overflow: 'hidden',
   },
 
   input: {
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.TRANSPARENT,
     paddingRight: UNIT * 0.5,
-    borderColor: COLOR.BORDER,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
     width: '100%',
@@ -40,15 +38,10 @@ export default StyleSheet.create({
       android: {
         color: COLOR.TEXT,
       },
+      ios: {
+        height: 'auto',
+      },
     }),
-    // @TODO: How we can set size and weight
-    // fontSize: FONT.SIZE.REGULAR,
-    // fontWeight: FONT.WEIGHT.REGULAR,
-    // ...Platform.select({
-    //   web: {
-    //     fontFamily: FONT.FAMILY,
-    //   },
-    // }),
   },
 
   pickerDisabled: Platform.select({
@@ -62,10 +55,10 @@ export default StyleSheet.create({
 
   active: Platform.select({
     web: {
-      color: COLOR.ACCENT,
+      color: COLOR.SECONDARY,
     },
     android: {
-      color: COLOR.ACCENT,
+      color: COLOR.SECONDARY,
     },
   }),
 });

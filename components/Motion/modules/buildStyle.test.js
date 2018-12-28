@@ -24,11 +24,10 @@ describe('layout()', () => {
   it('using native driver', () => {
     const style = buildStyle({ props, state });
     expect(Object.keys(style).length).toEqual(3);
-
     // expect(style.transitionDelay).toEqual('100ms');
     // expect(style.transitionDuration).toEqual('1000ms');
     // expect(style.transitionProperty).toEqual('opacity, transform, left');
-    // expect(style.transitionTimingFunction).toEqual(undefined);
+    // expect(style.transitionTimingFunction).toEqual('cubic-bezier(0.4, 0.0, 0.2, 1)');
     expect(style.opacity).toEqual(0.75);
     expect(style.transform).toEqual([{"scale": 0.5}]);
     expect(style.left).toEqual(128);

@@ -1,9 +1,13 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, OFFSET, UNIT } = THEME;
+const {
+  COLOR, FONT, OFFSET, UNIT,
+} = THEME;
 const BOX_HEIGHT = UNIT * 3.6;
+
+export { BOX_HEIGHT };
 
 export default StyleSheet.create({
   activity: {
@@ -19,12 +23,24 @@ export default StyleSheet.create({
     minWidth: BOX_HEIGHT,
   },
 
+  boxDisabled: {
+    opacity: 0.1,
+  },
+
   busy: {
     opacity: 0.1,
   },
 
+  caption: {
+    position: 'absolute',
+    top: (BOX_HEIGHT / 2) + (UNIT / 1.75),
+    lineHeight: UNIT,
+    fontSize: UNIT,
+    opacity: 0.5,
+  },
+
   container: {
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.BACKGROUND,
     paddingHorizontal: OFFSET,
     paddingVertical: OFFSET / 2,
     justifyContent: 'center',
@@ -32,6 +48,7 @@ export default StyleSheet.create({
 
   day: {
     flex: 1,
+    // lineHeight: UNIT,
   },
 
   dayName: {
@@ -40,7 +57,7 @@ export default StyleSheet.create({
   },
 
   disabled: {
-    color: COLOR.CONTENT,
+    color: COLOR.BASE,
   },
 
   highlight: {
@@ -48,7 +65,7 @@ export default StyleSheet.create({
   },
 
   row: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     justifyContent: 'center',
     marginVertical: UNIT / 10,
   },
@@ -71,6 +88,10 @@ export default StyleSheet.create({
   selectedEnd: {
     borderTopRightRadius: BOX_HEIGHT / 2,
     borderBottomRightRadius: BOX_HEIGHT / 2,
+  },
+
+  textBold: {
+    fontWeight: FONT.WEIGHT.BOLD,
   },
 
   today: {

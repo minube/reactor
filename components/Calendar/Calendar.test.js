@@ -11,13 +11,19 @@ const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate(
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
+const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
 const LOCALE = {
   DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
   MONTHS: [
     'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'agosto',
+    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
   ],
 };
+
+const CAPTIONS = [
+  { date: TOMORROW, value: '$10' },
+  { date: IN_7_DAYS, value: '$19' },
+];
 
 describe('<Calendar>', () => {
   it('renders', () => {
@@ -25,8 +31,13 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-   it('when {busy}', () => {
+  it('when {busy}', () => {
     const tree = renderer.create(<Calendar busy />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {date}', () => {
+    const tree = renderer.create(<Calendar date={NEXT_MONTH} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -45,6 +56,11 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {availableDates}', () => {
+    const tree = renderer.create(<Calendar availableDates={[IN_7_DAYS, IN_10_DAYS]} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {disabledDates}', () => {
     const tree = renderer.create(<Calendar disabledDates={[IN_7_DAYS, IN_10_DAYS]} />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -52,6 +68,11 @@ describe('<Calendar>', () => {
 
   it('when {disabledPast}', () => {
     const tree = renderer.create(<Calendar disabledPast />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {captions}', () => {
+    const tree = renderer.create(<Calendar captions={CAPTIONS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

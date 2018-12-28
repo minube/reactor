@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, object, number, select } from '@storybook/addon-knobs/react';
+import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Form from './Form';
 
@@ -27,6 +27,7 @@ const ATTRIBUTES = {
     }
   },
   languages: { type: 'list' },
+  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
 };
 
 const VALUE = {
@@ -39,7 +40,7 @@ const VALUE = {
 };
 
 const STORY_STYLE = { minWidth: 320, maxWidth: '50%', maxHeight: '80%' };
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
+const STYLE = { backgroundColor: 'rgba(255,255,255,1)', padding: 20 };
 
 class FormHOC extends Component {
   constructor(props) {
@@ -60,30 +61,34 @@ class FormHOC extends Component {
 }
 
 storiesOf('☑️ Form', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Form attributes={{}} />
   ))
-  .addWithJSX('attributes', () => (
+  .add('attributes', () => (
     <FormHOC attributes={ATTRIBUTES} style={STORY_STYLE} />
   ))
-  .addWithJSX('value', () => (
+  .add('color', () => (
+    <FormHOC attributes={ATTRIBUTES} color="green" style={STORY_STYLE} />
+  ))
+  .add('value', () => (
     <FormHOC attributes={ATTRIBUTES} value={VALUE} style={STORY_STYLE} />
   ))
-  .addWithJSX('title', () => (
+  .add('title', () => (
     <FormHOC attributes={ATTRIBUTES} title="Your contact" style={STORY_STYLE} />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <FormHOC attributes={ATTRIBUTES} onChange={action('Form.onChange()')} style={STORY_STYLE}  />
   ))
-  .addWithJSX('⚡ onValid', () => (
+  .add('⚡ onValid', () => (
     <FormHOC attributes={ATTRIBUTES} onValid={action('Form.onValid()')} style={STORY_STYLE}  />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <FormHOC attributes={ATTRIBUTES} style={{...STYLE, ...STORY_STYLE }} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <FormHOC
       attributes={object('attributes', ATTRIBUTES)}
+      color={color('color', undefined)}
       value={object('value', VALUE)}
       title={text('title', null)}
       style={object('style', {...STYLE, ...STORY_STYLE})}

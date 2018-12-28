@@ -1,13 +1,12 @@
-import { ENV } from '../../../common';
+import { ENV, THEME } from '../../../common';
 
 const { IS_WEB } = ENV;
-const SPRING = 'spring';
-const SPRING_BEZIER = 'cubic-bezier(0.175, 0.885, 0.160, 1.105)';
+const { MOTION } = THEME;
 const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY'];
 
 export default ({
   props: {
-    delay = 0, duration, type, useNativeDriver,
+    delay = 0, duration, useNativeDriver,
   } = {},
   state: { timeline = [], ...state } = {},
 } = {}) => {
@@ -34,7 +33,7 @@ export default ({
       transitionDelay: `${delay}ms`,
       transitionDuration: `${duration}ms`,
       transitionProperty: Object.keys(style).join(', '),
-      transitionTimingFunction: type === SPRING ? SPRING_BEZIER : undefined,
+      transitionTimingFunction: MOTION.EASE,
     };
   }
 

@@ -2,7 +2,9 @@ import {
   array, bool, func, node, number, object, oneOfType, string,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { SafeAreaView, ScrollView, View } from 'react-native';
+import {
+  KeyboardAvoidingView, SafeAreaView, ScrollView, View,
+} from 'react-native';
 
 import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
@@ -10,9 +12,8 @@ import Motion from '../Motion';
 import Text from '../Text';
 import styles from './Dialog.style';
 
-const { IS_WEB } = ENV;
-const { COLOR } = THEME;
-const MOTION_DURATION = 250;
+const { IS_NATIVE } = ENV;
+const { COLOR, MOTION } = THEME;
 
 export default class Dialog extends PureComponent {
   static propTypes = {
@@ -61,47 +62,52 @@ export default class Dialog extends PureComponent {
 
     return (
       <Motion
-        delay={visible ? 0 : MOTION_DURATION}
-        pointerEvents={((background || !IS_WEB) && visible) ? 'auto' : 'none'}
-        style={[styles.container, background && styles.background, styleContainer]}
+        delay={visible ? 0 : MOTION.DURATION}
+        pointerEvents={((background || IS_NATIVE) && visible) ? 'auto' : 'none'}
+        style={styles.container}
         timeline={[{ property: 'opacity', value: visible ? 1 : 0 }]}
       >
-        <Motion
-          delay={visible ? MOTION_DURATION : 0}
-          duration={MOTION_DURATION}
-          pointerEvents="auto"
-          type="timing"
-          style={[
-            styles.frame,
-            {
-              maxHeight: PORTRAIT ? '100%' : '90%',
-              minWidth: PORTRAIT ? '66%' : '33%',
-              maxWidth: PORTRAIT ? '100%' : '66%',
-            },
-            style,
-          ]}
-          timeline={[{ property: 'translateY', value: translateY }]}
-        >
-          <SafeAreaView style={styles.safeArea}>
-            <View style={styles.header}>
-              { title && (
-                <Text bold style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
-                  {title}
-                </Text>)}
-              { onClose && (
-                <Button
-                  contained={false}
-                  color={highlight ? undefined : COLOR.TEXT}
-                  icon={highlight ? 'close' : 'closeDark'}
-                  onPress={onClose}
-                  rounded
-                />)}
-            </View>
-            <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
-              {children}
-            </ScrollView>
-          </SafeAreaView>
-        </Motion>
+        <SafeAreaView style={[styles.safeArea, background && styles.background, styleContainer]}>
+          <KeyboardAvoidingView
+            behavior={IS_NATIVE ? 'position' : undefined}
+            style={[
+              {
+                maxHeight: PORTRAIT ? '100%' : '90%',
+                minWidth: PORTRAIT ? 320 : '33%',
+                maxWidth: PORTRAIT ? '100%' : '66%',
+              },
+              style,
+              { backgroundColor: COLOR.TRANSPARENT },
+            ]}
+          >
+            <Motion
+              delay={visible ? MOTION.DURATION : 0}
+              duration={MOTION.DURATION}
+              pointerEvents="auto"
+              type="timing"
+              style={[styles.frame, style]}
+              timeline={[{ property: 'translateY', value: translateY }]}
+            >
+              <View style={styles.header}>
+                { title && (
+                  <Text headline level={6} style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
+                    {title}
+                  </Text>)}
+                { onClose && (
+                  <Button
+                    contained={false}
+                    color={highlight ? undefined : COLOR.TEXT}
+                    icon={highlight ? 'closeContrast' : 'close'}
+                    onPress={onClose}
+                    rounded
+                  />)}
+              </View>
+              <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
+                {children}
+              </ScrollView>
+            </Motion>
+          </KeyboardAvoidingView>
+        </SafeAreaView>
       </Motion>);
   }
 }

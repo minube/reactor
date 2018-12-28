@@ -1,54 +1,58 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, object, number, select } from '@storybook/addon-knobs/react';
+import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Input from './Input';
 
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
 storiesOf('☑️ Input', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Input />
   ))
-  .addWithJSX('disabled', () => (
+  .add('color', () => (
+    <Input color="green" />
+  ))
+  .add('disabled', () => (
     <Input disabled />
   ))
-  .addWithJSX('error', () => (
+  .add('error', () => (
     <Input error="Required field" />
   ))
-  .addWithJSX('hint', () => (
+  .add('hint', () => (
     <Input hint="Optional field" />
   ))
-  .addWithJSX('keyboard (numeric)', () => (
+  .add('keyboard (numeric)', () => (
     <Input keyboard="numeric" />
   ))
-  .addWithJSX('label', () => (
+  .add('label', () => (
     <Input label="Username" />
   ))
-  .addWithJSX('lines', () => (
+  .add('lines', () => (
     <Input lines={5} />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <Input value="soyjavi.com" />
   ))
-  .addWithJSX('⚡ onBlur', () => (
+  .add('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <Input onChange={action('Input.onChange()')} title="Press me" />
   ))
-  .addWithJSX('⚡ onFocus', () => (
+  .add('⚡ onFocus', () => (
     <Input onFocus={action('Input.onFocus()')} title="Press me" />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Input style={STYLE} />
   ))
-  .addWithJSX('...inherit', () => (
+  .add('...inherit', () => (
     <Input placeholder="placeholder..." />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Input
+      color={color('color', undefined)}
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', null)}
