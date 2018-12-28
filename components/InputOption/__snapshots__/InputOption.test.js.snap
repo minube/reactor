@@ -3,14 +3,12 @@
 exports[`<InputOption> inherity:style 1`] = `
 <View
   accessible={true}
-  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
   style={
     Array [
       Object {
@@ -116,14 +114,12 @@ exports[`<InputOption> inherity:style 1`] = `
 exports[`<InputOption> label 1`] = `
 <View
   accessible={true}
-  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
   style={
     Array [
       Object {
@@ -253,14 +249,12 @@ exports[`<InputOption> label 1`] = `
 exports[`<InputOption> renders 1`] = `
 <View
   accessible={true}
-  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
   style={
     Array [
       Object {
@@ -363,14 +357,12 @@ exports[`<InputOption> renders 1`] = `
 exports[`<InputOption> rounded (false) 1`] = `
 <View
   accessible={true}
-  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
   style={
     Array [
       Object {
@@ -471,14 +463,12 @@ exports[`<InputOption> rounded (false) 1`] = `
 exports[`<InputOption> selected 1`] = `
 <View
   accessible={true}
-  onLayout={[Function]}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents="box-only"
   style={
     Array [
       Object {

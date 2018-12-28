@@ -11,7 +11,7 @@ import styles from './InputOption.style';
 const InputOption = ({
   label, onChange, rounded, selected, ...inherit
 }) => (
-  <Touchable onPress={() => onChange(!selected)} style={[styles.container, inherit.style]}>
+  <Touchable onPress={onChange ? () => onChange(!selected) : undefined} style={[styles.container, inherit.style]}>
     <Fragment>
       <View style={[styles.option, rounded && styles.rounded, selected && styles.selected]}>
         <Motion preset="pop" visible={selected}>
