@@ -1,5 +1,6 @@
 import close from './close.png';
 import closeContrast from './close_contrast.png';
+import doneContrast from './done_contrast.png';
 import email from './email.png';
 import facebook from './facebook.png';
 import google from './google.png';
@@ -12,6 +13,7 @@ import twitter from './twitter.png';
 export default {
   close,
   closeContrast,
+  doneContrast,
   email,
   facebook,
   google,

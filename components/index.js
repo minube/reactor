@@ -1,6 +1,3 @@
-
-// THEME.extend({ COLOR: { PRIMARY: 'pink' } } );
-
 import Activity from './Activity';
 import Avatar from './Avatar';
 import BoardingPass, { fetch } from './BoardingPass';
@@ -15,6 +12,7 @@ import Image from './Image';
 import Input from './Input';
 import InputImage from './InputImage';
 import InputList from './InputList';
+import InputOption from './InputOption';
 import InputPicker from './InputPicker';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
@@ -50,6 +48,7 @@ export {
   Input,
   InputImage,
   InputList,
+  InputOption,
   InputPicker,
   LayoutView,
   LayoutConsumer,
