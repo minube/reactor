@@ -2,8 +2,10 @@ import { number, shape, string } from 'prop-types';
 import React from 'react';
 import { Animated } from 'react-native';
 
+import { THEME } from '../../../common';
 import styles from './Ripple.style';
 
+const { COLOR } = THEME;
 const DEFAULTS = {
   OPACITY: 0.3,
   RADIUS: 10,
@@ -37,7 +39,7 @@ const Ripple = ({
 );
 
 Ripple.propTypes = {
-  color: string.isRequired,
+  color: string,
   progress: shape({}),
   x: number,
   y: number,
@@ -45,6 +47,7 @@ Ripple.propTypes = {
 };
 
 Ripple.defaultProps = {
+  color: COLOR.BASE,
   progress: new Animated.Value(0),
   x: 0,
   y: 0,

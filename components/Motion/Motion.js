@@ -67,8 +67,9 @@ class Motion extends PureComponent {
 
     if (IS_TEST || disabled || useNativeDriver) return;
 
+    const animatedProps = { delay, duration, useNativeDriver: true };
     const motions = state.timeline.map(({ property, value: toValue }) => (
-      Animated[type](state[property], { toValue, delay, duration }).start()));
+      Animated[type](state[property], { toValue, ...animatedProps }).start()));
     Animated.parallel(motions).start();
   }
 
