@@ -35,6 +35,7 @@ export default {
 
   FONT: {
     FAMILY,
+    FAMILY_SECONDARY,
     DEFAULT: {
       fontFamily: FAMILY,
       fontWeight: WEIGHT.REGULAR,
