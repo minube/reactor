@@ -2,6 +2,7 @@ import { func, shape, string } from 'prop-types';
 import React, { createElement, PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
+import { LAYOUT } from '../../common';
 import Input from '../Input';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
@@ -98,6 +99,7 @@ class Form extends PureComponent {
     } = {}, value = props.defaultValue, keyMap,
   }) => {
     const { _onChange, props: { color } } = this;
+    const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
     const invalid = (required && !props.disabled) && ((!type && value && value.trim().length === 0) || !value);
     if (invalid) this.state.valid = false;
 
@@ -108,7 +110,7 @@ class Form extends PureComponent {
       ...props,
       error: invalid ? 'required' : props.error,
       value,
-      style: styles[style] || styles.anchor,
+      style: !REGULAR && !LARGE ? styles.anchor : styles[style] || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
     });
   }
