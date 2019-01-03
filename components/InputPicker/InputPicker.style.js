@@ -30,7 +30,7 @@ export default StyleSheet.create({
   picker: {
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
-    height: UNIT * 3.3,
+    height: UNIT * 3.7,
     ...Platform.select({
       web: {
         color: COLOR.TEXT,

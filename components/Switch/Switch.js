@@ -3,7 +3,7 @@ import React from 'react';
 import { Switch as SwitchNative, View } from 'react-native';
 
 import { THEME } from '../../common';
-import Text from '../Text';
+import InputLabel from '../Input/InputLabel';
 import styles from './Switch.style';
 
 const { COLOR } = THEME;
@@ -12,11 +12,6 @@ const Switch = ({
   color, label, onChange, ...inherit
 }) => (
   <View style={[styles.container, inherit.style]}>
-    { label && (
-    <Text level={2} lighten style={styles.label}>
-      {label}
-    </Text>
-    ) }
     <SwitchNative
       {...inherit}
       value={inherit.value || false}
@@ -25,6 +20,7 @@ const Switch = ({
       onValueChange={onChange}
       style={styles.switch}
     />
+    { label && <InputLabel value={label} /> }
   </View>
 );
 

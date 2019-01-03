@@ -14,6 +14,7 @@ exports[`<Form> renders 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -36,6 +37,7 @@ exports[`<Form> when {attributes} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -594,9 +596,10 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "alignSelf": "flex-end",
               "display": "flex",
               "flexDirection": "row",
-              "height": 44,
+              "height": 39,
               "marginBottom": 10,
             },
             Object {
@@ -605,33 +608,6 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 14,
-                "lineHeight": 24,
-              },
-              Object {
-                "color": "#9b9b9b",
-              },
-              Object {
-                "marginRight": 10,
-              },
-            ]
-          }
-        >
-          isPublic
-        </Text>
         <RCTSwitch
           activeThumbColor="#bdbdbd"
           activeTrackColor="#e0e0e0"
@@ -648,11 +624,48 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "height": 24,
+                "marginRight": 10,
               },
             ]
           }
           value={false}
         />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            isPublic
+          </Text>
+        </View>
       </View>
       <View
         style={
@@ -665,11 +678,12 @@ exports[`<Form> when {attributes} 1`] = `
               "justifyContent": "space-between",
               "width": "100%",
             },
+            undefined,
             Object {
               "borderColor": "#e0e0e0",
               "borderRadius": 2.5,
               "borderWidth": 1,
-              "marginBottom": 16,
+              "marginBottom": 10,
               "paddingHorizontal": 10,
               "paddingTop": 10,
             },
@@ -690,12 +704,13 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "fontFamily": undefined,
-                "fontSize": 16,
+                "fontSize": 14,
                 "fontWeight": "600",
-                "lineHeight": 18,
+                "lineHeight": 16,
               },
               false,
               Object {
+                "color": "#bdbdbd",
                 "marginBottom": 10,
                 "minWidth": "100%",
               },
@@ -1238,6 +1253,7 @@ exports[`<Form> when {color} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -1260,6 +1276,7 @@ exports[`<Form> when {data} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -1818,9 +1835,10 @@ exports[`<Form> when {data} 1`] = `
           Array [
             Object {
               "alignItems": "center",
+              "alignSelf": "flex-end",
               "display": "flex",
               "flexDirection": "row",
-              "height": 44,
+              "height": 39,
               "marginBottom": 10,
             },
             Object {
@@ -1829,33 +1847,6 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
-          style={
-            Array [
-              Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
-              },
-              Object {
-                "fontSize": 14,
-                "lineHeight": 24,
-              },
-              Object {
-                "color": "#9b9b9b",
-              },
-              Object {
-                "marginRight": 10,
-              },
-            ]
-          }
-        >
-          isPublic
-        </Text>
         <RCTSwitch
           activeThumbColor="#bdbdbd"
           activeTrackColor="#e0e0e0"
@@ -1872,11 +1863,48 @@ exports[`<Form> when {data} 1`] = `
               },
               Object {
                 "height": 24,
+                "marginRight": 10,
               },
             ]
           }
           value={false}
         />
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "justifyContent": "space-between",
+            }
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 14,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "#9b9b9b",
+                },
+                Object {},
+              ]
+            }
+          >
+            isPublic
+          </Text>
+        </View>
       </View>
       <View
         style={
@@ -1889,11 +1917,12 @@ exports[`<Form> when {data} 1`] = `
               "justifyContent": "space-between",
               "width": "100%",
             },
+            undefined,
             Object {
               "borderColor": "#e0e0e0",
               "borderRadius": 2.5,
               "borderWidth": 1,
-              "marginBottom": 16,
+              "marginBottom": 10,
               "paddingHorizontal": 10,
               "paddingTop": 10,
             },
@@ -1914,12 +1943,13 @@ exports[`<Form> when {data} 1`] = `
               },
               Object {
                 "fontFamily": undefined,
-                "fontSize": 16,
+                "fontSize": 14,
                 "fontWeight": "600",
-                "lineHeight": 18,
+                "lineHeight": 16,
               },
               false,
               Object {
+                "color": "#bdbdbd",
                 "marginBottom": 10,
                 "minWidth": "100%",
               },
@@ -2462,6 +2492,7 @@ exports[`<Form> when {onChange} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -2484,6 +2515,7 @@ exports[`<Form> when {onValid} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -2513,6 +2545,7 @@ exports[`<Form> when {style} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -2535,6 +2568,7 @@ exports[`<Form> when {title} 1`] = `
             "justifyContent": "space-between",
             "width": "100%",
           },
+          undefined,
           false,
         ]
       }
@@ -2553,12 +2587,13 @@ exports[`<Form> when {title} 1`] = `
             },
             Object {
               "fontFamily": undefined,
-              "fontSize": 16,
+              "fontSize": 14,
               "fontWeight": "600",
-              "lineHeight": 18,
+              "lineHeight": 16,
             },
             false,
             Object {
+              "color": "#bdbdbd",
               "marginBottom": 10,
               "minWidth": "100%",
             },

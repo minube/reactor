@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, OFFSET, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -20,7 +20,7 @@ export default StyleSheet.create({
     borderColor: COLOR.BASE,
     borderRadius: UNIT / 4,
     borderWidth: 1,
-    marginBottom: OFFSET,
+    marginBottom: UNIT,
   },
 
   row: {

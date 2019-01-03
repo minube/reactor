@@ -6,9 +6,10 @@ exports[`<Switch> renders 1`] = `
     Array [
       Object {
         "alignItems": "center",
+        "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 44,
+        "height": 39,
         "marginBottom": 10,
       },
       undefined,
@@ -30,6 +31,7 @@ exports[`<Switch> renders 1`] = `
         },
         Object {
           "height": 24,
+          "marginRight": 10,
         },
       ]
     }
@@ -44,9 +46,10 @@ exports[`<Switch> when {color} 1`] = `
     Array [
       Object {
         "alignItems": "center",
+        "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 44,
+        "height": 39,
         "marginBottom": 10,
       },
       undefined,
@@ -68,6 +71,7 @@ exports[`<Switch> when {color} 1`] = `
         },
         Object {
           "height": 24,
+          "marginRight": 10,
         },
       ]
     }
@@ -82,9 +86,10 @@ exports[`<Switch> when {disabled} 1`] = `
     Array [
       Object {
         "alignItems": "center",
+        "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 44,
+        "height": 39,
         "marginBottom": 10,
       },
       undefined,
@@ -106,6 +111,7 @@ exports[`<Switch> when {disabled} 1`] = `
         },
         Object {
           "height": 24,
+          "marginRight": 10,
         },
       ]
     }
@@ -121,42 +127,16 @@ exports[`<Switch> when {label} 1`] = `
     Array [
       Object {
         "alignItems": "center",
+        "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 44,
+        "height": 39,
         "marginBottom": 10,
       },
       undefined,
     ]
   }
 >
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-          "fontWeight": "400",
-          "textAlignVertical": "center",
-        },
-        Object {
-          "fontSize": 14,
-          "lineHeight": 24,
-        },
-        Object {
-          "color": "#9b9b9b",
-        },
-        Object {
-          "marginRight": 10,
-        },
-      ]
-    }
-  >
-    Hello world
-  </Text>
   <RCTSwitch
     activeThumbColor="#bdbdbd"
     activeTrackColor="#e0e0e0"
@@ -172,11 +152,48 @@ exports[`<Switch> when {label} 1`] = `
         },
         Object {
           "height": 24,
+          "marginRight": 10,
         },
       ]
     }
     value={false}
   />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 14,
+            "lineHeight": 24,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    >
+      Hello world
+    </Text>
+  </View>
 </View>
 `;
 
@@ -186,9 +203,10 @@ exports[`<Switch> when {style} 1`] = `
     Array [
       Object {
         "alignItems": "center",
+        "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 44,
+        "height": 39,
         "marginBottom": 10,
       },
       Object {
@@ -212,6 +230,7 @@ exports[`<Switch> when {style} 1`] = `
         },
         Object {
           "height": 24,
+          "marginRight": 10,
         },
       ]
     }

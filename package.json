@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "reusable presentational components",
-  "version": "0.9.40",
+  "version": "0.9.41",
   "private": true,
   "devDependencies": {
     "@dump247/storybook-state": "1.5.1",

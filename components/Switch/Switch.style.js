@@ -5,18 +5,15 @@ import { LAYOUT, THEME } from '../../common';
 const { UNIT } = THEME;
 
 export default StyleSheet.create({
-
   container: {
     ...LAYOUT.STYLE.ROW,
-    height: UNIT * 4.4,
+    height: UNIT * 3.9,
     marginBottom: UNIT,
-  },
-
-  label: {
-    marginRight: UNIT,
+    alignSelf: 'flex-end',
   },
 
   switch: {
     height: UNIT * 2.4,
+    marginRight: UNIT,
   },
 });
