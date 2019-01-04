@@ -76,7 +76,6 @@ export default class Dialog extends PureComponent {
                 minWidth: PORTRAIT ? 320 : '33%',
                 maxWidth: PORTRAIT ? '100%' : '66%',
               },
-              style,
               { backgroundColor: COLOR.TRANSPARENT },
             ]}
           >
@@ -85,26 +84,33 @@ export default class Dialog extends PureComponent {
               duration={MOTION.DURATION}
               pointerEvents="auto"
               type="timing"
-              style={[styles.frame, style]}
               timeline={[{ property: 'translateY', value: translateY }]}
             >
-              <View style={styles.header}>
-                { title && (
-                  <Text headline level={6} style={styles.title} color={highlight ? COLOR.WHITE : undefined}>
-                    {title}
-                  </Text>)}
-                { onClose && (
-                  <Button
-                    contained={false}
-                    color={highlight ? undefined : COLOR.TEXT}
-                    icon={highlight ? 'closeContrast' : 'close'}
-                    onPress={onClose}
-                    rounded
-                  />)}
+              <View style={[styles.frame, style]}>
+                <View style={styles.header}>
+                  { title && (
+                    <Text
+                      color={highlight ? COLOR.WHITE : undefined}
+                      headline
+                      level={6}
+                      _numberOfLines={1}
+                      style={styles.title}
+                    >
+                      {title}
+                    </Text>)}
+                  { onClose && (
+                    <Button
+                      contained={false}
+                      color={highlight ? undefined : COLOR.TEXT}
+                      icon={highlight ? 'closeContrast' : 'close'}
+                      onPress={onClose}
+                      rounded
+                    />)}
+                </View>
+                <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
+                  {children}
+                </ScrollView>
               </View>
-              <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
-                {children}
-              </ScrollView>
             </Motion>
           </KeyboardAvoidingView>
         </SafeAreaView>

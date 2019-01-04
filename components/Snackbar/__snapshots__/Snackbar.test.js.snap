@@ -45,12 +45,6 @@ exports[`<Snackbar> renders 1`] = `
             "minWidth": 320,
           },
           Object {
-            "backgroundColor": "#000000",
-            "borderRadius": 3,
-            "maxWidth": 512,
-            "minWidth": 300,
-          },
-          Object {
             "backgroundColor": "transparent",
           },
         ]
@@ -70,17 +64,6 @@ exports[`<Snackbar> renders 1`] = `
           pointerEvents="auto"
           style={
             Object {
-              "backgroundColor": "#000000",
-              "borderRadius": 3,
-              "maxWidth": 512,
-              "minWidth": 300,
-              "shadowColor": "#000000",
-              "shadowOffset": Object {
-                "height": 2,
-                "width": 0,
-              },
-              "shadowOpacity": 0.33,
-              "shadowRadius": 4,
               "transform": Array [
                 Object {
                   "translateY": 0,
@@ -91,63 +74,87 @@ exports[`<Snackbar> renders 1`] = `
         >
           <View
             style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "flex-end",
-              }
-            }
-          />
-          <RCTScrollView
-            style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "backgroundColor": "#F5F5F6",
+                  "borderRadius": 3,
+                  "shadowColor": "#000000",
+                  "shadowOffset": Object {
+                    "height": 2,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0.33,
+                  "shadowRadius": 4,
                 },
-                false,
+                Object {
+                  "backgroundColor": "#000000",
+                  "borderRadius": 3,
+                  "maxWidth": 512,
+                  "minWidth": 300,
+                },
               ]
             }
           >
-            <View>
-              <View
-                style={
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginTop": 16,
-                  }
+            <View
+              style={
+                Object {
+                  "alignItems": "flex-start",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "justifyContent": "flex-end",
                 }
-              >
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
+              }
+            />
+            <RCTScrollView
+              style={
+                Array [
+                  Object {
+                    "paddingBottom": 16,
+                    "paddingHorizontal": 16,
+                  },
+                  false,
+                ]
+              }
+            >
+              <View>
+                <View
                   style={
-                    Array [
-                      Object {
-                        "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
-                        "textAlignVertical": "center",
-                      },
-                      Object {
-                        "fontSize": 14,
-                        "lineHeight": 24,
-                      },
-                      false,
-                      Object {
-                        "color": "#ffffff",
-                        "flex": 1,
-                      },
-                    ]
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                      "marginTop": 16,
+                    }
                   }
-                />
+                >
+                  <Text
+                    accessible={true}
+                    allowFontScaling={true}
+                    ellipsizeMode="tail"
+                    style={
+                      Array [
+                        Object {
+                          "color": "#4a4a4a",
+                          "fontFamily": undefined,
+                          "fontWeight": "400",
+                          "textAlignVertical": "center",
+                        },
+                        Object {
+                          "fontSize": 14,
+                          "lineHeight": 24,
+                        },
+                        false,
+                        Object {
+                          "color": "#ffffff",
+                          "flex": 1,
+                        },
+                      ]
+                    }
+                  />
+                </View>
               </View>
-            </View>
-          </RCTScrollView>
+            </RCTScrollView>
+          </View>
         </View>
       </View>
     </View>

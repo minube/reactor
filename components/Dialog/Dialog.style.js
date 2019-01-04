@@ -32,6 +32,7 @@ export default StyleSheet.create({
 
   header: {
     ...LAYOUT.STYLE.ROW,
+    alignItems: 'flex-start',
     justifyContent: 'flex-end',
   },
 
