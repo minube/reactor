@@ -5,6 +5,7 @@ import React, { PureComponent } from 'react';
 import { Picker, View } from 'react-native';
 
 import { InputLabel } from '../Input';
+import Text from '../Text';
 import styles from './InputPicker.style';
 
 class InputPicker extends PureComponent {
@@ -35,7 +36,7 @@ class InputPicker extends PureComponent {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { (label || (!disabled && (error || hint))) && <InputLabel value={label} error={error} hint={hint} /> }
+        { (label || (!disabled && error)) && <InputLabel value={label} error={error} /> }
         <View
           style={[
             styles.input,
@@ -54,6 +55,10 @@ class InputPicker extends PureComponent {
             { dataSource.map(item => <Picker.Item key={item} label={item} value={item} />)}
           </Picker>
         </View>
+        { hint && (
+          <Text caption level={2} lighten>
+            {hint}
+          </Text>)}
       </View>
     );
   }

@@ -20,7 +20,7 @@ const Snackbar = ({
       </Text>
       { button && (
         <Button
-          color={COLOR.SECONDARY}
+          color={COLOR.PRIMARY}
           {...inherit}
           contained={false}
           small

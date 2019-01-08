@@ -14,7 +14,13 @@ const ATTRIBUTES = {
     dataSource: ['frontend', 'backend', 'fullstack'],
     style: 'inline2',
   },
-  mail: { keyboard: 'url', placeholder: 'Your email...', style: 'inline2' },
+  mail: {
+    keyboard: 'url',
+    placeholder: 'Your email...',
+    required: true,
+    style: 'inline2',
+    hint: 'we will not send you spam.'
+  },
   bio: { lines: 4 },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   isPublic: { type: 'bool' },

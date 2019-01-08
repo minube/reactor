@@ -112,7 +112,7 @@ class Form extends PureComponent {
       label: props.label || field,
       color,
       ...props,
-      error: invalid ? 'required' : props.error,
+      error: invalid ? ' ' : props.error,
       value,
       style: (REGULAR || LARGE ? styles[style] : undefined) || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),

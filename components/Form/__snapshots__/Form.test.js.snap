@@ -61,6 +61,7 @@ exports[`<Form> when {attributes} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -77,8 +78,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -103,18 +106,16 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 Object {
                   "fontSize": 12,
-                  "lineHeight": 17,
+                  "lineHeight": 16,
                 },
-                Object {
-                  "color": "#9b9b9b",
-                },
+                false,
                 Object {
                   "color": "#ef5160",
                 },
               ]
             }
           >
-            required
+             
           </Text>
         </View>
         <TextInput
@@ -175,6 +176,7 @@ exports[`<Form> when {attributes} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -191,8 +193,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -287,6 +291,7 @@ exports[`<Form> when {attributes} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -303,8 +308,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -314,6 +321,31 @@ exports[`<Form> when {attributes} 1`] = `
             }
           >
             mail
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 12,
+                  "lineHeight": 16,
+                },
+                false,
+                Object {
+                  "color": "#ef5160",
+                },
+              ]
+            }
+          >
+             
           </Text>
         </View>
         <TextInput
@@ -327,6 +359,7 @@ exports[`<Form> when {attributes} 1`] = `
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
+          placeholder="Your email..."
           placeholderTextColor="#9b9b9b"
           style={
             Array [
@@ -345,12 +378,39 @@ exports[`<Form> when {attributes} 1`] = `
               },
               false,
               false,
-              undefined,
+              Object {
+                "borderColor": "#ef5160",
+              },
             ]
           }
           underlineColorAndroid="transparent"
           value=""
         />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#9b9b9b",
+              },
+              Object {},
+            ]
+          }
+        >
+          we will not send you spam.
+        </Text>
       </View>
       <View
         style={
@@ -371,6 +431,7 @@ exports[`<Form> when {attributes} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -387,8 +448,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -524,6 +587,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -540,8 +604,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -637,6 +703,7 @@ exports[`<Form> when {attributes} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -653,8 +720,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -738,6 +807,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -754,8 +824,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -822,6 +894,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -838,8 +911,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -906,6 +981,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -922,8 +998,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -948,18 +1026,16 @@ exports[`<Form> when {attributes} 1`] = `
                   },
                   Object {
                     "fontSize": 12,
-                    "lineHeight": 17,
+                    "lineHeight": 16,
                   },
-                  Object {
-                    "color": "#9b9b9b",
-                  },
+                  false,
                   Object {
                     "color": "#ef5160",
                   },
                 ]
               }
             >
-              required
+               
             </Text>
           </View>
           <TextInput
@@ -1033,6 +1109,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -1049,8 +1126,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -1300,6 +1379,7 @@ exports[`<Form> when {data} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -1316,8 +1396,10 @@ exports[`<Form> when {data} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -1342,18 +1424,16 @@ exports[`<Form> when {data} 1`] = `
                 },
                 Object {
                   "fontSize": 12,
-                  "lineHeight": 17,
+                  "lineHeight": 16,
                 },
-                Object {
-                  "color": "#9b9b9b",
-                },
+                false,
                 Object {
                   "color": "#ef5160",
                 },
               ]
             }
           >
-            required
+             
           </Text>
         </View>
         <TextInput
@@ -1414,6 +1494,7 @@ exports[`<Form> when {data} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -1430,8 +1511,10 @@ exports[`<Form> when {data} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -1526,6 +1609,7 @@ exports[`<Form> when {data} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -1542,8 +1626,10 @@ exports[`<Form> when {data} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -1553,6 +1639,31 @@ exports[`<Form> when {data} 1`] = `
             }
           >
             mail
+          </Text>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontSize": 12,
+                  "lineHeight": 16,
+                },
+                false,
+                Object {
+                  "color": "#ef5160",
+                },
+              ]
+            }
+          >
+             
           </Text>
         </View>
         <TextInput
@@ -1566,6 +1677,7 @@ exports[`<Form> when {data} 1`] = `
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
+          placeholder="Your email..."
           placeholderTextColor="#9b9b9b"
           style={
             Array [
@@ -1584,12 +1696,39 @@ exports[`<Form> when {data} 1`] = `
               },
               false,
               false,
-              undefined,
+              Object {
+                "borderColor": "#ef5160",
+              },
             ]
           }
           underlineColorAndroid="transparent"
           value=""
         />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#9b9b9b",
+              },
+              Object {},
+            ]
+          }
+        >
+          we will not send you spam.
+        </Text>
       </View>
       <View
         style={
@@ -1610,6 +1749,7 @@ exports[`<Form> when {data} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -1626,8 +1766,10 @@ exports[`<Form> when {data} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -1763,6 +1905,7 @@ exports[`<Form> when {data} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -1779,8 +1922,10 @@ exports[`<Form> when {data} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -1876,6 +2021,7 @@ exports[`<Form> when {data} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "justifyContent": "space-between",
+              "marginBottom": 2.5,
             }
           }
         >
@@ -1892,8 +2038,10 @@ exports[`<Form> when {data} 1`] = `
                   "textAlignVertical": "center",
                 },
                 Object {
+                  "fontFamily": undefined,
                   "fontSize": 14,
-                  "lineHeight": 24,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
                 Object {
                   "color": "#9b9b9b",
@@ -1977,6 +2125,7 @@ exports[`<Form> when {data} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -1993,8 +2142,10 @@ exports[`<Form> when {data} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -2061,6 +2212,7 @@ exports[`<Form> when {data} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -2077,8 +2229,10 @@ exports[`<Form> when {data} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -2145,6 +2299,7 @@ exports[`<Form> when {data} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -2161,8 +2316,10 @@ exports[`<Form> when {data} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",
@@ -2187,18 +2344,16 @@ exports[`<Form> when {data} 1`] = `
                   },
                   Object {
                     "fontSize": 12,
-                    "lineHeight": 17,
+                    "lineHeight": 16,
                   },
-                  Object {
-                    "color": "#9b9b9b",
-                  },
+                  false,
                   Object {
                     "color": "#ef5160",
                   },
                 ]
               }
             >
-              required
+               
             </Text>
           </View>
           <TextInput
@@ -2272,6 +2427,7 @@ exports[`<Form> when {data} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
                 "justifyContent": "space-between",
+                "marginBottom": 2.5,
               }
             }
           >
@@ -2288,8 +2444,10 @@ exports[`<Form> when {data} 1`] = `
                     "textAlignVertical": "center",
                   },
                   Object {
+                    "fontFamily": undefined,
                     "fontSize": 14,
-                    "lineHeight": 24,
+                    "fontWeight": "600",
+                    "lineHeight": 16,
                   },
                   Object {
                     "color": "#9b9b9b",

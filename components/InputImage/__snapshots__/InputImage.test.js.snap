@@ -172,6 +172,7 @@ exports[`<InputImage> when {error} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 2.5,
         }
       }
     >
@@ -188,8 +189,10 @@ exports[`<InputImage> when {error} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 14,
-              "lineHeight": 24,
+              "fontWeight": "600",
+              "lineHeight": 16,
             },
             Object {
               "color": "#9b9b9b",
@@ -212,11 +215,9 @@ exports[`<InputImage> when {error} 1`] = `
             },
             Object {
               "fontSize": 12,
-              "lineHeight": 17,
+              "lineHeight": 16,
             },
-            Object {
-              "color": "#9b9b9b",
-            },
+            false,
             Object {
               "color": "#ef5160",
             },
@@ -295,65 +296,6 @@ exports[`<InputImage> when {hint} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-        }
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 14,
-              "lineHeight": 24,
-            },
-            Object {
-              "color": "#9b9b9b",
-            },
-            Object {},
-          ]
-        }
-      />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-              "lineHeight": 17,
-            },
-            Object {
-              "color": "#9b9b9b",
-            },
-            Object {},
-          ]
-        }
-      >
-        Hello World
-      </Text>
-    </View>
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -389,6 +331,31 @@ exports[`<InputImage> when {hint} 1`] = `
       underlineColorAndroid="transparent"
       value=""
     />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontWeight": "400",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "fontSize": 12,
+            "lineHeight": 16,
+          },
+          Object {
+            "color": "#9b9b9b",
+          },
+          Object {},
+        ]
+      }
+    >
+      Hello World
+    </Text>
   </View>
 </View>
 `;
@@ -428,6 +395,7 @@ exports[`<InputImage> when {label} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 2.5,
         }
       }
     >
@@ -444,8 +412,10 @@ exports[`<InputImage> when {label} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 14,
-              "lineHeight": 24,
+              "fontWeight": "600",
+              "lineHeight": 16,
             },
             Object {
               "color": "#9b9b9b",

@@ -8,14 +8,14 @@ import styles from './InputLabel.style';
 
 const { COLOR } = THEME;
 
-const InputLabel = ({ error, hint, value }) => (
+const InputLabel = ({ error, value }) => (
   <View style={styles.container}>
-    <Text level={2} lighten>
+    <Text subtitle level={3} lighten>
       {value}
     </Text>
-    { (error || hint) && (
-      <Text color={error ? COLOR.ERROR : undefined} level={3} lighten>
-        {error || hint}
+    { error && (
+      <Text caption color={COLOR.ERROR} level={2}>
+        {error}
       </Text>
     )}
   </View>
@@ -23,13 +23,11 @@ const InputLabel = ({ error, hint, value }) => (
 
 InputLabel.propTypes = {
   error: string,
-  hint: string,
   value: string,
 };
 
 InputLabel.defaultProps = {
   error: undefined,
-  hint: undefined,
   value: undefined,
 };
 
