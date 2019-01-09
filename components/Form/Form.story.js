@@ -15,7 +15,7 @@ const ATTRIBUTES = {
     style: 'inline2',
   },
   mail: {
-    keyboard: 'url',
+    keyboard: 'email-address',
     placeholder: 'Your email...',
     required: true,
     style: 'inline2',
