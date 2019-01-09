@@ -10,10 +10,11 @@ import InputOption from '../InputOption';
 import InputPicker from '../InputPicker';
 import Text from '../Text';
 import Switch from '../Switch';
-import set from './modules/set';
+import { isValidEmail, set } from './modules';
 import styles from './Form.style';
 
 const { COLOR } = THEME;
+const KEYBOARD_EMAIL = 'email-address';
 
 const Inputs = {
   bool: Switch,
@@ -104,7 +105,14 @@ class Form extends PureComponent {
   }) => {
     const { _onChange, props: { color } } = this;
     const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
-    const invalid = (required && !props.disabled) && ((!type && value && value.trim().length === 0) || !value);
+    let error = ' ';
+    let invalid = (required && !props.disabled)
+      && ((!type && value && value.trim().length === 0) || !value);
+
+    if (props.keyboard === KEYBOARD_EMAIL && !isValidEmail(value)) {
+      error = '!';
+      invalid = true;
+    }
     if (invalid) this.state.valid = false;
 
     return createElement(Inputs[type] || Input, {
@@ -112,7 +120,7 @@ class Form extends PureComponent {
       label: props.label || field,
       color,
       ...props,
-      error: invalid ? ' ' : props.error,
+      error: invalid ? error : props.error,
       value,
       style: (REGULAR || LARGE ? styles[style] : undefined) || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
