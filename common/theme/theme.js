@@ -21,7 +21,7 @@ export default {
     SECONDARY: '#424242',
     // -- Text
     TEXT: '#4a4a4a',
-    TEXT_LIGHTEN: '#9b9b9b',
+    TEXT_LIGHTEN: '#707070',
     // -- Notifications
     ALERT: '#FBB049',
     ERROR: '#ef5160',
