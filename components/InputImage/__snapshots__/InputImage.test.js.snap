@@ -39,7 +39,7 @@ exports[`<InputImage> renders 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -106,7 +106,7 @@ exports[`<InputImage> when {disabled} 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -195,7 +195,7 @@ exports[`<InputImage> when {error} 1`] = `
               "lineHeight": 16,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {},
           ]
@@ -219,7 +219,7 @@ exports[`<InputImage> when {error} 1`] = `
             },
             false,
             Object {
-              "color": "#ef5160",
+              "color": "#d33c44",
             },
           ]
         }
@@ -238,7 +238,7 @@ exports[`<InputImage> when {error} 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -257,7 +257,7 @@ exports[`<InputImage> when {error} 1`] = `
           false,
           false,
           Object {
-            "borderColor": "#ef5160",
+            "borderColor": "#d33c44",
           },
         ]
       }
@@ -307,7 +307,7 @@ exports[`<InputImage> when {hint} 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -348,7 +348,7 @@ exports[`<InputImage> when {hint} 1`] = `
             "lineHeight": 16,
           },
           Object {
-            "color": "#9b9b9b",
+            "color": "#707070",
           },
           Object {},
         ]
@@ -418,7 +418,7 @@ exports[`<InputImage> when {label} 1`] = `
               "lineHeight": 16,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {},
           ]
@@ -438,7 +438,7 @@ exports[`<InputImage> when {label} 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -508,7 +508,7 @@ exports[`<InputImage> when {style} 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -626,7 +626,7 @@ exports[`<InputImage> when {value} 1`] = `
       onBlur={[Function]}
       onChangeText={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {

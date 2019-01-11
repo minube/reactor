@@ -49,7 +49,7 @@ exports[`<Image> when {color} (only Native) 1`] = `
   }
 >
   <Image
-    color="#ef5160"
+    color="#d33c44"
     onLoad={[Function]}
   />
   <ActivityIndicator
@@ -267,7 +267,7 @@ exports[`<Image> when {style} 1`] = `
         "justifyContent": "center",
       },
       Object {
-        "backgroundColor": "#424242",
+        "backgroundColor": "#a66ecc",
       },
     ]
   }
@@ -276,7 +276,7 @@ exports[`<Image> when {style} 1`] = `
     onLoad={[Function]}
     style={
       Object {
-        "backgroundColor": "#424242",
+        "backgroundColor": "#a66ecc",
       }
     }
   />

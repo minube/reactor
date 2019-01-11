@@ -304,7 +304,7 @@ exports[`<Rating> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#424242",
+          "color": "#a66ecc",
           "marginRight": 2.5,
         },
       ]
@@ -330,7 +330,7 @@ exports[`<Rating> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#424242",
+          "color": "#a66ecc",
           "marginRight": 2.5,
         },
       ]
@@ -356,7 +356,7 @@ exports[`<Rating> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#424242",
+          "color": "#a66ecc",
           "marginRight": 2.5,
         },
       ]
@@ -382,7 +382,7 @@ exports[`<Rating> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#424242",
+          "color": "#a66ecc",
           "marginRight": 2.5,
         },
       ]
@@ -408,7 +408,7 @@ exports[`<Rating> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#424242",
+          "color": "#a66ecc",
           "marginRight": 2.5,
         },
       ]
@@ -1097,7 +1097,7 @@ exports[`<Rating> when {textColor} 1`] = `
         },
         false,
         Object {
-          "color": "#424242",
+          "color": "#a66ecc",
         },
       ]
     }

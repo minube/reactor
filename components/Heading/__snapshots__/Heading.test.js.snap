@@ -155,7 +155,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
             false,
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
               "marginRight": 4,
             },
           ]
@@ -186,7 +186,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
             false,
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
               "marginRight": 4,
             },
           ]
@@ -217,7 +217,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
             false,
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
               "marginRight": 4,
             },
           ]
@@ -248,7 +248,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
             },
             false,
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
               "marginRight": 4,
             },
           ]
@@ -303,7 +303,7 @@ exports[`<Heading> when {color} 1`] = `
           },
           false,
           Object {
-            "color": "#424242",
+            "color": "#a66ecc",
             "marginRight": 10,
           },
         ]

@@ -17,14 +17,16 @@ export default {
     // Theme
     BACKGROUND: '#F5F5F6',
     BASE: '#e0e0e0',
-    PRIMARY: '#bdbdbd',
-    SECONDARY: '#424242',
+
+    PRIMARY: '#10c0bc',
+    SECONDARY: '#a66ecc',
+
     // -- Text
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#707070',
     // -- Notifications
     ALERT: '#FBB049',
-    ERROR: '#ef5160',
+    ERROR: '#d33c44',
     SUCCESS: '#84BD4B',
     WARNING: '#FDCD48',
     // -- Helpers

@@ -84,7 +84,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -110,7 +110,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 false,
                 Object {
-                  "color": "#ef5160",
+                  "color": "#d33c44",
                 },
               ]
             }
@@ -129,7 +129,7 @@ exports[`<Form> when {attributes} 1`] = `
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
-          placeholderTextColor="#9b9b9b"
+          placeholderTextColor="#707070"
           style={
             Array [
               Object {
@@ -148,7 +148,7 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               Object {
-                "borderColor": "#ef5160",
+                "borderColor": "#d33c44",
               },
             ]
           }
@@ -199,7 +199,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -314,7 +314,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -340,7 +340,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 false,
                 Object {
-                  "color": "#ef5160",
+                  "color": "#d33c44",
                 },
               ]
             }
@@ -354,13 +354,13 @@ exports[`<Form> when {attributes} 1`] = `
           autoCorrect={false}
           blurOnSubmit={true}
           editable={true}
-          keyboardType="url"
+          keyboardType="email-address"
           multiline={false}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
           placeholder="Your email..."
-          placeholderTextColor="#9b9b9b"
+          placeholderTextColor="#707070"
           style={
             Array [
               Object {
@@ -379,7 +379,7 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               Object {
-                "borderColor": "#ef5160",
+                "borderColor": "#d33c44",
               },
             ]
           }
@@ -403,7 +403,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "lineHeight": 16,
               },
               Object {
-                "color": "#9b9b9b",
+                "color": "#707070",
               },
               Object {},
             ]
@@ -454,7 +454,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -475,7 +475,7 @@ exports[`<Form> when {attributes} 1`] = `
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
-          placeholderTextColor="#9b9b9b"
+          placeholderTextColor="#707070"
           style={
             Array [
               Object {
@@ -610,7 +610,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -631,7 +631,7 @@ exports[`<Form> when {attributes} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -675,7 +675,7 @@ exports[`<Form> when {attributes} 1`] = `
         }
       >
         <RCTSwitch
-          activeThumbColor="#bdbdbd"
+          activeThumbColor="#10c0bc"
           activeTrackColor="#e0e0e0"
           disabled={false}
           onChange={[Function]}
@@ -726,7 +726,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -779,7 +779,7 @@ exports[`<Form> when {attributes} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "marginBottom": 10,
                 "minWidth": "100%",
               },
@@ -830,7 +830,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -850,7 +850,7 @@ exports[`<Form> when {attributes} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -917,7 +917,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -937,7 +937,7 @@ exports[`<Form> when {attributes} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -1004,7 +1004,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -1030,7 +1030,7 @@ exports[`<Form> when {attributes} 1`] = `
                   },
                   false,
                   Object {
-                    "color": "#ef5160",
+                    "color": "#d33c44",
                   },
                 ]
               }
@@ -1049,7 +1049,7 @@ exports[`<Form> when {attributes} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -1068,7 +1068,7 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 false,
                 Object {
-                  "borderColor": "#ef5160",
+                  "borderColor": "#d33c44",
                 },
               ]
             }
@@ -1132,7 +1132,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -1153,7 +1153,7 @@ exports[`<Form> when {attributes} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             onSubmitEditing={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -1208,7 +1208,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "borderColor": "#9b9b9b",
+                "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
                 "height": 20,
@@ -1273,7 +1273,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "lineHeight": 24,
               },
               Object {
-                "color": "#9b9b9b",
+                "color": "#707070",
               },
               Object {
                 "marginLeft": 10,
@@ -1402,7 +1402,7 @@ exports[`<Form> when {data} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -1428,7 +1428,7 @@ exports[`<Form> when {data} 1`] = `
                 },
                 false,
                 Object {
-                  "color": "#ef5160",
+                  "color": "#d33c44",
                 },
               ]
             }
@@ -1447,7 +1447,7 @@ exports[`<Form> when {data} 1`] = `
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
-          placeholderTextColor="#9b9b9b"
+          placeholderTextColor="#707070"
           style={
             Array [
               Object {
@@ -1466,7 +1466,7 @@ exports[`<Form> when {data} 1`] = `
               false,
               false,
               Object {
-                "borderColor": "#ef5160",
+                "borderColor": "#d33c44",
               },
             ]
           }
@@ -1517,7 +1517,7 @@ exports[`<Form> when {data} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -1632,7 +1632,7 @@ exports[`<Form> when {data} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -1658,7 +1658,7 @@ exports[`<Form> when {data} 1`] = `
                 },
                 false,
                 Object {
-                  "color": "#ef5160",
+                  "color": "#d33c44",
                 },
               ]
             }
@@ -1672,13 +1672,13 @@ exports[`<Form> when {data} 1`] = `
           autoCorrect={false}
           blurOnSubmit={true}
           editable={true}
-          keyboardType="url"
+          keyboardType="email-address"
           multiline={false}
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
           placeholder="Your email..."
-          placeholderTextColor="#9b9b9b"
+          placeholderTextColor="#707070"
           style={
             Array [
               Object {
@@ -1697,7 +1697,7 @@ exports[`<Form> when {data} 1`] = `
               false,
               false,
               Object {
-                "borderColor": "#ef5160",
+                "borderColor": "#d33c44",
               },
             ]
           }
@@ -1721,7 +1721,7 @@ exports[`<Form> when {data} 1`] = `
                 "lineHeight": 16,
               },
               Object {
-                "color": "#9b9b9b",
+                "color": "#707070",
               },
               Object {},
             ]
@@ -1772,7 +1772,7 @@ exports[`<Form> when {data} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -1793,7 +1793,7 @@ exports[`<Form> when {data} 1`] = `
           onBlur={[Function]}
           onChangeText={[Function]}
           onFocus={[Function]}
-          placeholderTextColor="#9b9b9b"
+          placeholderTextColor="#707070"
           style={
             Array [
               Object {
@@ -1928,7 +1928,7 @@ exports[`<Form> when {data} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -1949,7 +1949,7 @@ exports[`<Form> when {data} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -1993,7 +1993,7 @@ exports[`<Form> when {data} 1`] = `
         }
       >
         <RCTSwitch
-          activeThumbColor="#bdbdbd"
+          activeThumbColor="#10c0bc"
           activeTrackColor="#e0e0e0"
           disabled={false}
           onChange={[Function]}
@@ -2044,7 +2044,7 @@ exports[`<Form> when {data} 1`] = `
                   "lineHeight": 16,
                 },
                 Object {
-                  "color": "#9b9b9b",
+                  "color": "#707070",
                 },
                 Object {},
               ]
@@ -2097,7 +2097,7 @@ exports[`<Form> when {data} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "marginBottom": 10,
                 "minWidth": "100%",
               },
@@ -2148,7 +2148,7 @@ exports[`<Form> when {data} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -2168,7 +2168,7 @@ exports[`<Form> when {data} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -2235,7 +2235,7 @@ exports[`<Form> when {data} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -2255,7 +2255,7 @@ exports[`<Form> when {data} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -2322,7 +2322,7 @@ exports[`<Form> when {data} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -2348,7 +2348,7 @@ exports[`<Form> when {data} 1`] = `
                   },
                   false,
                   Object {
-                    "color": "#ef5160",
+                    "color": "#d33c44",
                   },
                 ]
               }
@@ -2367,7 +2367,7 @@ exports[`<Form> when {data} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -2386,7 +2386,7 @@ exports[`<Form> when {data} 1`] = `
                 false,
                 false,
                 Object {
-                  "borderColor": "#ef5160",
+                  "borderColor": "#d33c44",
                 },
               ]
             }
@@ -2450,7 +2450,7 @@ exports[`<Form> when {data} 1`] = `
                     "lineHeight": 16,
                   },
                   Object {
-                    "color": "#9b9b9b",
+                    "color": "#707070",
                   },
                   Object {},
                 ]
@@ -2471,7 +2471,7 @@ exports[`<Form> when {data} 1`] = `
             onChangeText={[Function]}
             onFocus={[Function]}
             onSubmitEditing={[Function]}
-            placeholderTextColor="#9b9b9b"
+            placeholderTextColor="#707070"
             style={
               Array [
                 Object {
@@ -2526,7 +2526,7 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "borderColor": "#9b9b9b",
+                "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
                 "height": 20,
@@ -2591,7 +2591,7 @@ exports[`<Form> when {data} 1`] = `
                 "lineHeight": 24,
               },
               Object {
-                "color": "#9b9b9b",
+                "color": "#707070",
               },
               Object {
                 "marginLeft": 10,
@@ -2751,7 +2751,7 @@ exports[`<Form> when {title} 1`] = `
             },
             false,
             Object {
-              "color": "#bdbdbd",
+              "color": "#10c0bc",
               "marginBottom": 10,
               "minWidth": "100%",
             },

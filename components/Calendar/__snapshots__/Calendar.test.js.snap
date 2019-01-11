@@ -233,7 +233,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -262,7 +262,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -291,7 +291,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -320,7 +320,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -349,7 +349,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -378,7 +378,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -407,7 +407,7 @@ exports[`<Calendar> renders 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -1910,7 +1910,7 @@ exports[`<Calendar> renders 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -4200,7 +4200,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -4229,7 +4229,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -4258,7 +4258,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -4287,7 +4287,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -4316,7 +4316,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -4345,7 +4345,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -4374,7 +4374,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8161,7 +8161,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8190,7 +8190,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8219,7 +8219,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8248,7 +8248,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8277,7 +8277,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8306,7 +8306,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -8335,7 +8335,7 @@ exports[`<Calendar> when {busy} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -9838,7 +9838,7 @@ exports[`<Calendar> when {busy} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -12128,7 +12128,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -12157,7 +12157,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -12186,7 +12186,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -12215,7 +12215,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -12244,7 +12244,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -12273,7 +12273,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -12302,7 +12302,7 @@ exports[`<Calendar> when {captions} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -13805,7 +13805,7 @@ exports[`<Calendar> when {captions} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -16095,7 +16095,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -16124,7 +16124,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -16153,7 +16153,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -16182,7 +16182,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -16211,7 +16211,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -16240,7 +16240,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -16269,7 +16269,7 @@ exports[`<Calendar> when {date} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20057,7 +20057,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20086,7 +20086,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20115,7 +20115,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20144,7 +20144,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20173,7 +20173,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20202,7 +20202,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -20231,7 +20231,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -21734,7 +21734,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -24024,7 +24024,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -24053,7 +24053,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -24082,7 +24082,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -24111,7 +24111,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -24140,7 +24140,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -24169,7 +24169,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -24198,7 +24198,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -25685,7 +25685,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -27975,7 +27975,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -28004,7 +28004,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -28033,7 +28033,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -28062,7 +28062,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -28091,7 +28091,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -28120,7 +28120,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -28149,7 +28149,7 @@ exports[`<Calendar> when {locale} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -29652,7 +29652,7 @@ exports[`<Calendar> when {locale} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -31945,7 +31945,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -31974,7 +31974,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -32003,7 +32003,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -32032,7 +32032,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -32061,7 +32061,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -32090,7 +32090,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -32119,7 +32119,7 @@ exports[`<Calendar> when {style} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -33622,7 +33622,7 @@ exports[`<Calendar> when {style} 1`] = `
               },
               false,
               Object {
-                "color": "#bdbdbd",
+                "color": "#10c0bc",
                 "fontWeight": "700",
               },
             ]
@@ -35912,7 +35912,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -35941,7 +35941,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -35970,7 +35970,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -35999,7 +35999,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -36028,7 +36028,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -36057,7 +36057,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -36086,7 +36086,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -36728,7 +36728,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "flex": 1,
             },
             Object {
-              "backgroundColor": "#bdbdbd",
+              "backgroundColor": "#10c0bc",
               "borderRadius": 0,
             },
             Object {
@@ -36819,7 +36819,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "flex": 1,
             },
             Object {
-              "backgroundColor": "#bdbdbd",
+              "backgroundColor": "#10c0bc",
               "borderRadius": 0,
             },
             false,
@@ -36907,7 +36907,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "flex": 1,
             },
             Object {
-              "backgroundColor": "#bdbdbd",
+              "backgroundColor": "#10c0bc",
               "borderRadius": 0,
             },
             false,
@@ -39900,7 +39900,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -39929,7 +39929,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -39958,7 +39958,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -39987,7 +39987,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -40016,7 +40016,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -40045,7 +40045,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -40074,7 +40074,7 @@ exports[`<Calendar> when {value} 1`] = `
               "lineHeight": 18,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {
               "flex": 1,
@@ -40880,7 +40880,7 @@ exports[`<Calendar> when {value} 1`] = `
               "flex": 1,
             },
             Object {
-              "backgroundColor": "#bdbdbd",
+              "backgroundColor": "#10c0bc",
               "borderRadius": 0,
             },
             Object {

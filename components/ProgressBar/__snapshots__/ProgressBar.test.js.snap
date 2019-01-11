@@ -19,7 +19,7 @@ exports[`<ProgressBar> renders 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#bdbdbd",
+        "backgroundColor": "#10c0bc",
         "height": "100%",
         "width": 0,
       }
@@ -47,7 +47,7 @@ exports[`<ProgressBar> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#424242",
+        "backgroundColor": "#a66ecc",
         "height": "100%",
         "width": 0,
       }
@@ -75,7 +75,7 @@ exports[`<ProgressBar> when {progress} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#bdbdbd",
+        "backgroundColor": "#10c0bc",
         "height": "100%",
         "width": 0,
       }
@@ -106,7 +106,7 @@ exports[`<ProgressBar> when {style} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#bdbdbd",
+        "backgroundColor": "#10c0bc",
         "height": "100%",
         "width": 0,
       }
@@ -128,7 +128,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
       },
       undefined,
       Object {
-        "backgroundColor": "#424242",
+        "backgroundColor": "#a66ecc",
       },
     ]
   }
@@ -136,7 +136,7 @@ exports[`<ProgressBar> when {trackColor} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#bdbdbd",
+        "backgroundColor": "#10c0bc",
         "height": "100%",
         "width": 0,
       }

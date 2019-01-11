@@ -45,7 +45,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#bdbdbd",
+          "color": "#10c0bc",
           "marginRight": 4,
         },
       ]
@@ -76,7 +76,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#bdbdbd",
+          "color": "#10c0bc",
           "marginRight": 4,
         },
       ]
@@ -107,7 +107,7 @@ exports[`<Breadcrumbs> when {color} 1`] = `
         },
         false,
         Object {
-          "color": "#bdbdbd",
+          "color": "#10c0bc",
           "marginRight": 4,
         },
       ]

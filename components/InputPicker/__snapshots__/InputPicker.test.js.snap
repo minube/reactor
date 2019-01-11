@@ -164,7 +164,7 @@ exports[`<InputPicker> when {error} 1`] = `
             "lineHeight": 16,
           },
           Object {
-            "color": "#9b9b9b",
+            "color": "#707070",
           },
           Object {},
         ]
@@ -188,7 +188,7 @@ exports[`<InputPicker> when {error} 1`] = `
           },
           false,
           Object {
-            "color": "#ef5160",
+            "color": "#d33c44",
           },
         ]
       }
@@ -208,7 +208,7 @@ exports[`<InputPicker> when {error} 1`] = `
           "width": "100%",
         },
         Object {
-          "borderColor": "#ef5160",
+          "borderColor": "#d33c44",
         },
         false,
       ]
@@ -320,7 +320,7 @@ exports[`<InputPicker> when {hint} 1`] = `
           "lineHeight": 16,
         },
         Object {
-          "color": "#9b9b9b",
+          "color": "#707070",
         },
         Object {},
       ]
@@ -373,7 +373,7 @@ exports[`<InputPicker> when {label} 1`] = `
             "lineHeight": 16,
           },
           Object {
-            "color": "#9b9b9b",
+            "color": "#707070",
           },
           Object {},
         ]

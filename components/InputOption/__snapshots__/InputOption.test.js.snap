@@ -29,7 +29,7 @@ exports[`<InputOption> inherity:style 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "borderColor": "#9b9b9b",
+          "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
           "height": 20,
@@ -137,7 +137,7 @@ exports[`<InputOption> label 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "borderColor": "#9b9b9b",
+          "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
           "height": 20,
@@ -204,7 +204,7 @@ exports[`<InputOption> label 1`] = `
           "lineHeight": 24,
         },
         Object {
-          "color": "#9b9b9b",
+          "color": "#707070",
         },
         Object {
           "marginLeft": 10,
@@ -272,7 +272,7 @@ exports[`<InputOption> renders 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "borderColor": "#9b9b9b",
+          "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
           "height": 20,
@@ -380,7 +380,7 @@ exports[`<InputOption> rounded (false) 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "borderColor": "#9b9b9b",
+          "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
           "height": 20,
@@ -486,7 +486,7 @@ exports[`<InputOption> selected 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "borderColor": "#9b9b9b",
+          "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
           "height": 20,
@@ -497,8 +497,8 @@ exports[`<InputOption> selected 1`] = `
           "borderRadius": 10,
         },
         Object {
-          "backgroundColor": "#bdbdbd",
-          "borderColor": "#bdbdbd",
+          "backgroundColor": "#10c0bc",
+          "borderColor": "#10c0bc",
         },
       ]
     }

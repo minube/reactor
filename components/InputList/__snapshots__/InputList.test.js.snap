@@ -36,7 +36,7 @@ exports[`<InputList> renders 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -100,7 +100,7 @@ exports[`<InputList> when {dataSource} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -164,7 +164,7 @@ exports[`<InputList> when {disabled} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -249,7 +249,7 @@ exports[`<InputList> when {error} 1`] = `
               "lineHeight": 16,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {},
           ]
@@ -273,7 +273,7 @@ exports[`<InputList> when {error} 1`] = `
             },
             false,
             Object {
-              "color": "#ef5160",
+              "color": "#d33c44",
             },
           ]
         }
@@ -293,7 +293,7 @@ exports[`<InputList> when {error} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -312,7 +312,7 @@ exports[`<InputList> when {error} 1`] = `
           false,
           false,
           Object {
-            "borderColor": "#ef5160",
+            "borderColor": "#d33c44",
           },
         ]
       }
@@ -359,7 +359,7 @@ exports[`<InputList> when {hint} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -400,7 +400,7 @@ exports[`<InputList> when {hint} 1`] = `
             "lineHeight": 16,
           },
           Object {
-            "color": "#9b9b9b",
+            "color": "#707070",
           },
           Object {},
         ]
@@ -448,7 +448,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -1462,7 +1462,7 @@ exports[`<InputList> when {label} 1`] = `
               "lineHeight": 16,
             },
             Object {
-              "color": "#9b9b9b",
+              "color": "#707070",
             },
             Object {},
           ]
@@ -1483,7 +1483,7 @@ exports[`<InputList> when {label} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -1550,7 +1550,7 @@ exports[`<InputList> when {style} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {
@@ -1614,7 +1614,7 @@ exports[`<InputList> when {value} 1`] = `
       onChangeText={[Function]}
       onFocus={[Function]}
       onSubmitEditing={[Function]}
-      placeholderTextColor="#9b9b9b"
+      placeholderTextColor="#707070"
       style={
         Array [
           Object {

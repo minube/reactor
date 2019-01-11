@@ -45,7 +45,7 @@ exports[`<Button> renders 1`] = `
             "paddingHorizontal": 0,
           },
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -145,7 +145,7 @@ exports[`<Button> when {activity} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -291,7 +291,7 @@ exports[`<Button> when {children} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -504,7 +504,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
               },
               false,
               Object {
-                "color": "#9b9b9b",
+                "color": "#707070",
                 "fontFamily": undefined,
                 "fontSize": 16,
                 "fontWeight": "600",
@@ -850,7 +850,7 @@ exports[`<Button> when {disabled} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -982,7 +982,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -1136,7 +1136,7 @@ exports[`<Button> when {icon} 1`] = `
             "paddingHorizontal": 0,
           },
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -1262,7 +1262,7 @@ exports[`<Button> when {outlined} 1`] = `
             "borderWidth": 1,
           },
           Object {
-            "borderColor": "#9b9b9b",
+            "borderColor": "#707070",
           },
           false,
         ]
@@ -1386,7 +1386,7 @@ exports[`<Button> when {responsive} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -1520,7 +1520,7 @@ exports[`<Button> when {rounded} 1`] = `
           },
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -1652,7 +1652,7 @@ exports[`<Button> when {shadow} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           Object {
             "shadowColor": "#000000",
@@ -1794,7 +1794,7 @@ exports[`<Button> when {small} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -1930,7 +1930,7 @@ exports[`<Button> when {style} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,
@@ -2060,7 +2060,7 @@ exports[`<Button> when {title} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#9b9b9b",
+            "backgroundColor": "#707070",
           },
           false,
           false,

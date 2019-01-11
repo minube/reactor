@@ -173,7 +173,7 @@ exports[`<Text> when {color} 1`] = `
       },
       false,
       Object {
-        "color": "#ef5160",
+        "color": "#d33c44",
       },
     ]
   }
@@ -403,7 +403,7 @@ exports[`<Text> when {lighten} 1`] = `
         "lineHeight": 30,
       },
       Object {
-        "color": "#9b9b9b",
+        "color": "#707070",
       },
       Object {},
     ]

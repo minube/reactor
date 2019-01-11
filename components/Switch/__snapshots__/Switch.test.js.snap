@@ -17,7 +17,7 @@ exports[`<Switch> renders 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#bdbdbd"
+    activeThumbColor="#10c0bc"
     activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
@@ -97,7 +97,7 @@ exports[`<Switch> when {disabled} 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#bdbdbd"
+    activeThumbColor="#10c0bc"
     activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
@@ -138,7 +138,7 @@ exports[`<Switch> when {label} 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#bdbdbd"
+    activeThumbColor="#10c0bc"
     activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
@@ -188,7 +188,7 @@ exports[`<Switch> when {label} 1`] = `
             "lineHeight": 16,
           },
           Object {
-            "color": "#9b9b9b",
+            "color": "#707070",
           },
           Object {},
         ]
@@ -219,7 +219,7 @@ exports[`<Switch> when {style} 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#bdbdbd"
+    activeThumbColor="#10c0bc"
     activeTrackColor="#e0e0e0"
     disabled={false}
     onChange={[Function]}
