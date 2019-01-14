@@ -482,10 +482,10 @@ exports[`<Dialog> when {highlight} 1`] = `
               }
             >
               <Text
-                _numberOfLines={1}
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                numberOfLines={1}
                 style={
                   Array [
                     Object {
@@ -1368,10 +1368,10 @@ exports[`<Dialog> when {title} 1`] = `
               }
             >
               <Text
-                _numberOfLines={1}
                 accessible={true}
                 allowFontScaling={true}
                 ellipsizeMode="tail"
+                numberOfLines={1}
                 style={
                   Array [
                     Object {

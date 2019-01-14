@@ -93,7 +93,7 @@ export default class Dialog extends PureComponent {
                       color={highlight ? COLOR.WHITE : undefined}
                       headline
                       level={6}
-                      _numberOfLines={1}
+                      numberOfLines={1}
                       style={styles.title}
                     >
                       {title}
