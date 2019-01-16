@@ -24,42 +24,45 @@ exports[`<InputList> renders 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
 </View>
 `;
@@ -88,42 +91,45 @@ exports[`<InputList> when {dataSource} 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
 </View>
 `;
@@ -152,45 +158,48 @@ exports[`<InputList> when {disabled} 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={false}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          Object {
-            "backgroundColor": "#F5F5F6",
-            "color": "#e0e0e0",
-          },
-          false,
-          false,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={false}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            Object {
+              "backgroundColor": "#F5F5F6",
+              "color": "#e0e0e0",
+            },
+            false,
+            false,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
 </View>
 `;
@@ -219,106 +228,74 @@ exports[`<InputList> when {error} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "marginBottom": 2.5,
-        }
-      }
-    >
-      <Text
-        accessible={true}
+    <View>
+      <TextInput
         allowFontScaling={true}
-        ellipsizeMode="tail"
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
         style={
           Array [
             Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
               "color": "#4a4a4a",
               "fontFamily": undefined,
+              "fontSize": 16,
               "fontWeight": "400",
-              "textAlignVertical": "center",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            Object {
+              "borderColor": "#d33c44",
+            },
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/close_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
             },
             Object {
-              "fontFamily": undefined,
-              "fontSize": 14,
-              "fontWeight": "600",
-              "lineHeight": 16,
+              "backgroundColor": "#d33c44",
+              "borderRadius": 10,
+              "height": 18,
+              "position": "absolute",
+              "right": 10,
+              "top": 13,
+              "width": 18,
             },
-            Object {
-              "color": "#707070",
-            },
-            Object {},
+            undefined,
           ]
         }
       />
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontSize": 12,
-              "lineHeight": 16,
-            },
-            false,
-            Object {
-              "color": "#d33c44",
-            },
-          ]
-        }
-      >
-        Hello World
-      </Text>
     </View>
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          Object {
-            "borderColor": "#d33c44",
-          },
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
   </View>
 </View>
 `;
@@ -347,42 +324,45 @@ exports[`<InputList> when {hint} 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
     <Text
       accessible={true}
       allowFontScaling={true}
@@ -402,7 +382,9 @@ exports[`<InputList> when {hint} 1`] = `
           Object {
             "color": "#707070",
           },
-          Object {},
+          Object {
+            "marginTop": 2.5,
+          },
         ]
       }
     >
@@ -436,42 +418,45 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
   <View
     style={
@@ -1432,81 +1417,74 @@ exports[`<InputList> when {label} 1`] = `
       ]
     }
   >
-    <View
-      style={
-        Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "marginBottom": 2.5,
-        }
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontFamily": undefined,
-              "fontSize": 14,
-              "fontWeight": "600",
-              "lineHeight": 16,
-            },
-            Object {
-              "color": "#707070",
-            },
-            Object {},
-          ]
-        }
-      >
-        Hello World
-      </Text>
-    </View>
-    <TextInput
+    <Text
+      accessible={true}
       allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
+      ellipsizeMode="tail"
       style={
         Array [
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
             "color": "#4a4a4a",
             "fontFamily": undefined,
-            "fontSize": 16,
             "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
+            "textAlignVertical": "center",
           },
-          false,
-          false,
-          undefined,
+          Object {
+            "fontFamily": undefined,
+            "fontSize": 14,
+            "fontWeight": "600",
+            "lineHeight": 16,
+          },
+          Object {
+            "color": "#707070",
+          },
+          Object {
+            "marginBottom": 2.5,
+          },
         ]
       }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    >
+      Hello World
+    </Text>
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
 </View>
 `;
@@ -1538,42 +1516,45 @@ exports[`<InputList> when {style} 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
 </View>
 `;
@@ -1602,42 +1583,45 @@ exports[`<InputList> when {value} 1`] = `
       ]
     }
   >
-    <TextInput
-      allowFontScaling={true}
-      autoCapitalize="none"
-      autoCorrect={false}
-      blurOnSubmit={true}
-      editable={true}
-      keyboardType="default"
-      multiline={false}
-      onBlur={[Function]}
-      onChangeText={[Function]}
-      onFocus={[Function]}
-      onSubmitEditing={[Function]}
-      placeholderTextColor="#707070"
-      style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "paddingHorizontal": 5,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
-      }
-      underlineColorAndroid="transparent"
-      value=""
-    />
+    <View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        onSubmitEditing={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderColor": "#e0e0e0",
+              "borderRadius": 2.5,
+              "borderWidth": 1,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 44,
+              "paddingHorizontal": 10,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            false,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
   </View>
   <View
     style={

@@ -43,7 +43,7 @@ class InputListHOC extends Component {
   }
 }
 
-storiesOf('☑️ InputList', module)
+storiesOf('✅ InputList', module)
   .add('default', () => (
     <InputList />
   ))

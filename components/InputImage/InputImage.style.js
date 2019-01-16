@@ -19,8 +19,8 @@ export default StyleSheet.create({
   },
 
   image: {
-    width: UNIT * 6,
-    height: UNIT * 6,
+    width: UNIT * 6.3,
+    height: UNIT * 6.3,
     borderRadius: BORDER_RADIUS,
     backgroundColor: COLOR.BASE,
   },

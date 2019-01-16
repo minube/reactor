@@ -20,7 +20,10 @@ const Switch = ({
       onValueChange={onChange}
       style={styles.switch}
     />
-    { label && <InputLabel value={label} /> }
+    { label && (
+      <InputLabel>
+        {label}
+      </InputLabel>)}
   </View>
 );
 

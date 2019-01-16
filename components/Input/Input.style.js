@@ -4,9 +4,22 @@ import { THEME } from '../../common';
 
 const { COLOR, FONT, UNIT } = THEME;
 
+const INPUT_HEIGHT = UNIT * 4.4;
+const ERROR_SIZE = UNIT * 1.8;
+
 export default StyleSheet.create({
   container: {
     marginBottom: UNIT,
+  },
+
+  error: {
+    backgroundColor: COLOR.ERROR,
+    borderRadius: UNIT,
+    height: ERROR_SIZE,
+    position: 'absolute',
+    right: UNIT,
+    top: (INPUT_HEIGHT / 2) - (ERROR_SIZE / 2),
+    width: ERROR_SIZE,
   },
 
   input: {
@@ -16,8 +29,9 @@ export default StyleSheet.create({
     borderRadius: UNIT / 4,
     color: COLOR.TEXT,
     fontSize: UNIT * 1.6,
+    minHeight: INPUT_HEIGHT,
+    paddingHorizontal: UNIT,
     paddingVertical: UNIT * 0.75,
-    paddingHorizontal: UNIT * 0.5,
     width: '100%',
     ...Platform.select({
       web: {
@@ -25,6 +39,10 @@ export default StyleSheet.create({
       },
     }),
     ...FONT.INPUT,
+  },
+
+  multiline: {
+    paddingVertical: UNIT * 0.5,
   },
 
   inputError: {
