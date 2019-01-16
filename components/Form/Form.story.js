@@ -6,11 +6,11 @@ import { color, text, boolean, object, number, select } from '@storybook/addon-k
 import Form from './Form';
 
 const ATTRIBUTES = {
-  username: { required: true },
+  username: { required: true, defaultValue: 'a' },
   role: {
     required: true,
     type: 'select',
-    defaultValue: 'fullstack',
+    defaultValue: 'backend',
     dataSource: ['frontend', 'backend', 'fullstack'],
     style: 'inline2',
   },

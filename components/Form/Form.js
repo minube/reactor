@@ -2,7 +2,7 @@ import { func, shape, string } from 'prop-types';
 import React, { createElement, PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { LAYOUT } from '../../common';
 import Input from '../Input';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
@@ -10,10 +10,9 @@ import InputOption from '../InputOption';
 import InputPicker from '../InputPicker';
 import Text from '../Text';
 import Switch from '../Switch';
-import { isValidEmail, set } from './modules';
+import { consolidate, isValidEmail, set } from './modules';
 import styles from './Form.style';
 
-const { COLOR } = THEME;
 const KEYBOARD_EMAIL = 'email-address';
 
 const Inputs = {
@@ -47,6 +46,14 @@ class Form extends PureComponent {
     valid: true,
   };
 
+  componentWillMount() {
+    consolidate(this.props);
+  }
+
+  componentWillReceiveProps(nextProps) {
+    consolidate(nextProps);
+  }
+
   componentWillUpdate() {
     this.state.valid = true;
   }
@@ -71,7 +78,7 @@ class Form extends PureComponent {
     return (
       <View key={key} style={[styles.container, style, fieldset && styles.fieldset]}>
         { title && (
-        <Text subtitle level={3} color={COLOR.PRIMARY} style={[styles.title, styles.anchor]}>
+        <Text headline level={6} style={[styles.title, styles.anchor]}>
           {title}
         </Text>
         ) }
@@ -110,7 +117,7 @@ class Form extends PureComponent {
       && ((!type && value && value.trim().length === 0) || !value);
 
     if (props.keyboard === KEYBOARD_EMAIL && !isValidEmail(value)) {
-      error = '!';
+      error = 'Invalid email';
       invalid = true;
     }
     if (invalid) this.state.valid = false;

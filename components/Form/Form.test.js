@@ -8,7 +8,7 @@ const ATTRIBUTES = {
   role: {
     required: true,
     type: 'select',
-    defaultValue: 'fullstack',
+    defaultValue: 'backend',
     dataSource: ['frontend', 'backend', 'fullstack'],
     style: 'inline2',
   },

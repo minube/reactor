@@ -54,107 +54,102 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            username
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                false,
-                Object {
-                  "color": "#d33c44",
-                },
-              ]
-            }
-          >
-             
-          </Text>
-        </View>
-        <TextInput
+        <Text
+          accessible={true}
           allowFontScaling={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          blurOnSubmit={true}
-          editable={true}
-          keyboardType="default"
-          multiline={false}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          placeholderTextColor="#707070"
+          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontSize": 16,
                 "fontWeight": "400",
-                "paddingHorizontal": 5,
-                "paddingVertical": 7.5,
-                "width": "100%",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "borderColor": "#d33c44",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
               },
             ]
           }
-          underlineColorAndroid="transparent"
-          value=""
-        />
+        >
+          username
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                Object {
+                  "borderColor": "#d33c44",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/close_contrast.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "backgroundColor": "#d33c44",
+                  "borderRadius": 10,
+                  "height": 18,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": 13,
+                  "width": 18,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
       </View>
       <View
         style={
@@ -169,45 +164,35 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <View
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
+            ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            role
-          </Text>
-        </View>
+          role
+        </Text>
         <View
           style={
             Array [
@@ -259,7 +244,7 @@ exports[`<Form> when {attributes} 1`] = `
               onChange={[Function]}
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
-              selectedIndex={2}
+              selectedIndex={1}
               style={
                 Array [
                   Object {
@@ -284,108 +269,103 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            mail
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                false,
-                Object {
-                  "color": "#d33c44",
-                },
-              ]
-            }
-          >
-             
-          </Text>
-        </View>
-        <TextInput
+        <Text
+          accessible={true}
           allowFontScaling={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          blurOnSubmit={true}
-          editable={true}
-          keyboardType="email-address"
-          multiline={false}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          placeholder="Your email..."
-          placeholderTextColor="#707070"
+          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontSize": 16,
                 "fontWeight": "400",
-                "paddingHorizontal": 5,
-                "paddingVertical": 7.5,
-                "width": "100%",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "borderColor": "#d33c44",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
               },
             ]
           }
-          underlineColorAndroid="transparent"
-          value=""
-        />
+        >
+          mail
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="email-address"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Your email..."
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                Object {
+                  "borderColor": "#d33c44",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/close_contrast.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "backgroundColor": "#d33c44",
+                  "borderRadius": 10,
+                  "height": 18,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": 13,
+                  "width": 18,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
         <Text
           accessible={true}
           allowFontScaling={true}
@@ -405,7 +385,9 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#707070",
               },
-              Object {},
+              Object {
+                "marginTop": 2.5,
+              },
             ]
           }
         >
@@ -424,81 +406,74 @@ exports[`<Form> when {attributes} 1`] = `
           ]
         }
       >
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            bio
-          </Text>
-        </View>
-        <TextInput
+        <Text
+          accessible={true}
           allowFontScaling={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          blurOnSubmit={true}
-          editable={true}
-          keyboardType="default"
-          multiline={true}
-          numberOfLines={4}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          placeholderTextColor="#707070"
+          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontSize": 16,
                 "fontWeight": "400",
-                "paddingHorizontal": 5,
-                "paddingVertical": 7.5,
-                "width": "100%",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              undefined,
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
             ]
           }
-          underlineColorAndroid="transparent"
-          value=""
-        />
+        >
+          bio
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="default"
+            multiline={true}
+            numberOfLines={4}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
       </View>
       <View
         style={
@@ -526,8 +501,8 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
-                "height": 60,
-                "width": 60,
+                "height": 63,
+                "width": 63,
               },
             ]
           }
@@ -543,8 +518,8 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
-                "height": 60,
-                "width": 60,
+                "height": 63,
+                "width": 63,
               }
             }
           />
@@ -580,81 +555,74 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              avatar
-            </Text>
-          </View>
-          <TextInput
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                undefined,
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
               ]
             }
-            underlineColorAndroid="transparent"
-            value="http://soyjavi.com/assets/images/soyjavi.jpg"
-          />
+          >
+            avatar
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value="http://soyjavi.com/assets/images/soyjavi.jpg"
+            />
+          </View>
         </View>
       </View>
       <View
@@ -696,45 +664,35 @@ exports[`<Form> when {attributes} 1`] = `
           }
           value={false}
         />
-        <View
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
+            ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            isPublic
-          </Text>
-        </View>
+          isPublic
+        </Text>
       </View>
       <View
         style={
@@ -773,13 +731,13 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
+                "fontSize": 20,
+                "fontWeight": "700",
+                "letterSpacing": -0.83,
+                "lineHeight": 22,
               },
               false,
               Object {
-                "color": "#10c0bc",
                 "marginBottom": 10,
                 "minWidth": "100%",
               },
@@ -800,281 +758,262 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              twitter
-            </Text>
-          </View>
-          <TextInput
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                undefined,
-              ]
-            }
-            underlineColorAndroid="transparent"
-            value=""
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": 10,
-              },
-              Object {
-                "width": "32%",
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              facebook
-            </Text>
-          </View>
-          <TextInput
-            allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
-            style={
-              Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
-                  "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
-                  "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
-                false,
-                false,
-                undefined,
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
               ]
             }
-            underlineColorAndroid="transparent"
-            value=""
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": 10,
-              },
-              Object {
-                "width": "32%",
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
           >
-            <Text
-              accessible={true}
+            twitter
+          </Text>
+          <View>
+            <TextInput
               allowFontScaling={true}
-              ellipsizeMode="tail"
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
               style={
                 Array [
                   Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
+                    "fontSize": 16,
                     "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              github
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
-                  Object {
-                    "color": "#d33c44",
-                  },
+                  false,
+                  undefined,
                 ]
               }
-            >
-               
-            </Text>
+              underlineColorAndroid="transparent"
+              value=""
+            />
           </View>
-          <TextInput
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "width": "32%",
+              },
+            ]
+          }
+        >
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
                 Object {
-                  "borderColor": "#d33c44",
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
                 },
               ]
             }
-            underlineColorAndroid="transparent"
-            value=""
-          />
+          >
+            facebook
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "width": "32%",
+              },
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
+              ]
+            }
+          >
+            github
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  Object {
+                    "borderColor": "#d33c44",
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/close_contrast.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "backgroundColor": "#d33c44",
+                    "borderRadius": 10,
+                    "height": 18,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 13,
+                    "width": 18,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -1102,81 +1041,74 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              languages
-            </Text>
-          </View>
-          <TextInput
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            onSubmitEditing={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                undefined,
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
               ]
             }
-            underlineColorAndroid="transparent"
-            value=""
-          />
+          >
+            languages
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              onSubmitEditing={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
         </View>
       </View>
       <View
@@ -1372,107 +1304,102 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            username
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                false,
-                Object {
-                  "color": "#d33c44",
-                },
-              ]
-            }
-          >
-             
-          </Text>
-        </View>
-        <TextInput
+        <Text
+          accessible={true}
           allowFontScaling={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          blurOnSubmit={true}
-          editable={true}
-          keyboardType="default"
-          multiline={false}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          placeholderTextColor="#707070"
+          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontSize": 16,
                 "fontWeight": "400",
-                "paddingHorizontal": 5,
-                "paddingVertical": 7.5,
-                "width": "100%",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "borderColor": "#d33c44",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
               },
             ]
           }
-          underlineColorAndroid="transparent"
-          value=""
-        />
+        >
+          username
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                Object {
+                  "borderColor": "#d33c44",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/close_contrast.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "backgroundColor": "#d33c44",
+                  "borderRadius": 10,
+                  "height": 18,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": 13,
+                  "width": 18,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
       </View>
       <View
         style={
@@ -1487,45 +1414,35 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <View
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
+            ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            role
-          </Text>
-        </View>
+          role
+        </Text>
         <View
           style={
             Array [
@@ -1577,7 +1494,7 @@ exports[`<Form> when {data} 1`] = `
               onChange={[Function]}
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
-              selectedIndex={2}
+              selectedIndex={1}
               style={
                 Array [
                   Object {
@@ -1602,108 +1519,103 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            mail
-          </Text>
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 12,
-                  "lineHeight": 16,
-                },
-                false,
-                Object {
-                  "color": "#d33c44",
-                },
-              ]
-            }
-          >
-             
-          </Text>
-        </View>
-        <TextInput
+        <Text
+          accessible={true}
           allowFontScaling={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          blurOnSubmit={true}
-          editable={true}
-          keyboardType="email-address"
-          multiline={false}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          placeholder="Your email..."
-          placeholderTextColor="#707070"
+          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontSize": 16,
                 "fontWeight": "400",
-                "paddingHorizontal": 5,
-                "paddingVertical": 7.5,
-                "width": "100%",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
               Object {
-                "borderColor": "#d33c44",
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
               },
             ]
           }
-          underlineColorAndroid="transparent"
-          value=""
-        />
+        >
+          mail
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="email-address"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Your email..."
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                Object {
+                  "borderColor": "#d33c44",
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/close_contrast.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "backgroundColor": "#d33c44",
+                  "borderRadius": 10,
+                  "height": 18,
+                  "position": "absolute",
+                  "right": 10,
+                  "top": 13,
+                  "width": 18,
+                },
+                undefined,
+              ]
+            }
+          />
+        </View>
         <Text
           accessible={true}
           allowFontScaling={true}
@@ -1723,7 +1635,9 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "color": "#707070",
               },
-              Object {},
+              Object {
+                "marginTop": 2.5,
+              },
             ]
           }
         >
@@ -1742,81 +1656,74 @@ exports[`<Form> when {data} 1`] = `
           ]
         }
       >
-        <View
-          style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            bio
-          </Text>
-        </View>
-        <TextInput
+        <Text
+          accessible={true}
           allowFontScaling={true}
-          autoCapitalize="none"
-          autoCorrect={false}
-          blurOnSubmit={true}
-          editable={true}
-          keyboardType="default"
-          multiline={true}
-          numberOfLines={4}
-          onBlur={[Function]}
-          onChangeText={[Function]}
-          onFocus={[Function]}
-          placeholderTextColor="#707070"
+          ellipsizeMode="tail"
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
-                "borderColor": "#e0e0e0",
-                "borderRadius": 2.5,
-                "borderWidth": 1,
                 "color": "#4a4a4a",
                 "fontFamily": undefined,
-                "fontSize": 16,
                 "fontWeight": "400",
-                "paddingHorizontal": 5,
-                "paddingVertical": 7.5,
-                "width": "100%",
+                "textAlignVertical": "center",
               },
-              false,
-              false,
-              undefined,
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
             ]
           }
-          underlineColorAndroid="transparent"
-          value=""
-        />
+        >
+          bio
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboardType="default"
+            multiline={true}
+            numberOfLines={4}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
       </View>
       <View
         style={
@@ -1844,8 +1751,8 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
-                "height": 60,
-                "width": 60,
+                "height": 63,
+                "width": 63,
               },
             ]
           }
@@ -1861,8 +1768,8 @@ exports[`<Form> when {data} 1`] = `
               Object {
                 "backgroundColor": "#e0e0e0",
                 "borderRadius": 3,
-                "height": 60,
-                "width": 60,
+                "height": 63,
+                "width": 63,
               }
             }
           />
@@ -1898,81 +1805,74 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              avatar
-            </Text>
-          </View>
-          <TextInput
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                undefined,
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
               ]
             }
-            underlineColorAndroid="transparent"
-            value="http://soyjavi.com/assets/images/soyjavi.jpg"
-          />
+          >
+            avatar
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value="http://soyjavi.com/assets/images/soyjavi.jpg"
+            />
+          </View>
         </View>
       </View>
       <View
@@ -2014,45 +1914,35 @@ exports[`<Form> when {data} 1`] = `
           }
           value={false}
         />
-        <View
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
           style={
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "justifyContent": "space-between",
-              "marginBottom": 2.5,
-            }
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
+            ]
           }
         >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontFamily": undefined,
-                  "fontSize": 14,
-                  "fontWeight": "600",
-                  "lineHeight": 16,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {},
-              ]
-            }
-          >
-            isPublic
-          </Text>
-        </View>
+          isPublic
+        </Text>
       </View>
       <View
         style={
@@ -2091,13 +1981,13 @@ exports[`<Form> when {data} 1`] = `
               },
               Object {
                 "fontFamily": undefined,
-                "fontSize": 14,
-                "fontWeight": "600",
-                "lineHeight": 16,
+                "fontSize": 20,
+                "fontWeight": "700",
+                "letterSpacing": -0.83,
+                "lineHeight": 22,
               },
               false,
               Object {
-                "color": "#10c0bc",
                 "marginBottom": 10,
                 "minWidth": "100%",
               },
@@ -2118,281 +2008,262 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              twitter
-            </Text>
-          </View>
-          <TextInput
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                undefined,
-              ]
-            }
-            underlineColorAndroid="transparent"
-            value=""
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": 10,
-              },
-              Object {
-                "width": "32%",
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              facebook
-            </Text>
-          </View>
-          <TextInput
-            allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
-            style={
-              Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
-                  "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
-                  "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
                 },
-                false,
-                false,
-                undefined,
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
               ]
             }
-            underlineColorAndroid="transparent"
-            value=""
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "marginBottom": 10,
-              },
-              Object {
-                "width": "32%",
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
           >
-            <Text
-              accessible={true}
+            twitter
+          </Text>
+          <View>
+            <TextInput
               allowFontScaling={true}
-              ellipsizeMode="tail"
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
               style={
                 Array [
                   Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
                     "color": "#4a4a4a",
                     "fontFamily": undefined,
+                    "fontSize": 16,
                     "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              github
-            </Text>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 12,
-                    "lineHeight": 16,
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
-                  Object {
-                    "color": "#d33c44",
-                  },
+                  false,
+                  undefined,
                 ]
               }
-            >
-               
-            </Text>
+              underlineColorAndroid="transparent"
+              value=""
+            />
           </View>
-          <TextInput
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "width": "32%",
+              },
+            ]
+          }
+        >
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
                 Object {
-                  "borderColor": "#d33c44",
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
                 },
               ]
             }
-            underlineColorAndroid="transparent"
-            value=""
-          />
+          >
+            facebook
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "width": "32%",
+              },
+            ]
+          }
+        >
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Array [
+                Object {
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontWeight": "400",
+                  "textAlignVertical": "center",
+                },
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
+              ]
+            }
+          >
+            github
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  Object {
+                    "borderColor": "#d33c44",
+                  },
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/close_contrast.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "backgroundColor": "#d33c44",
+                    "borderRadius": 10,
+                    "height": 18,
+                    "position": "absolute",
+                    "right": 10,
+                    "top": 13,
+                    "width": 18,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
         </View>
       </View>
       <View
@@ -2420,81 +2291,74 @@ exports[`<Form> when {data} 1`] = `
             ]
           }
         >
-          <View
-            style={
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "justifyContent": "space-between",
-                "marginBottom": 2.5,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 14,
-                    "fontWeight": "600",
-                    "lineHeight": 16,
-                  },
-                  Object {
-                    "color": "#707070",
-                  },
-                  Object {},
-                ]
-              }
-            >
-              languages
-            </Text>
-          </View>
-          <TextInput
+          <Text
+            accessible={true}
             allowFontScaling={true}
-            autoCapitalize="none"
-            autoCorrect={false}
-            blurOnSubmit={true}
-            editable={true}
-            keyboardType="default"
-            multiline={false}
-            onBlur={[Function]}
-            onChangeText={[Function]}
-            onFocus={[Function]}
-            onSubmitEditing={[Function]}
-            placeholderTextColor="#707070"
+            ellipsizeMode="tail"
             style={
               Array [
                 Object {
-                  "backgroundColor": "transparent",
-                  "borderColor": "#e0e0e0",
-                  "borderRadius": 2.5,
-                  "borderWidth": 1,
                   "color": "#4a4a4a",
                   "fontFamily": undefined,
-                  "fontSize": 16,
                   "fontWeight": "400",
-                  "paddingHorizontal": 5,
-                  "paddingVertical": 7.5,
-                  "width": "100%",
+                  "textAlignVertical": "center",
                 },
-                false,
-                false,
-                undefined,
+                Object {
+                  "fontFamily": undefined,
+                  "fontSize": 14,
+                  "fontWeight": "600",
+                  "lineHeight": 16,
+                },
+                Object {
+                  "color": "#707070",
+                },
+                Object {
+                  "marginBottom": 2.5,
+                },
               ]
             }
-            underlineColorAndroid="transparent"
-            value=""
-          />
+          >
+            languages
+          </Text>
+          <View>
+            <TextInput
+              allowFontScaling={true}
+              autoCapitalize="none"
+              autoCorrect={false}
+              blurOnSubmit={true}
+              editable={true}
+              keyboardType="default"
+              multiline={false}
+              onBlur={[Function]}
+              onChangeText={[Function]}
+              onFocus={[Function]}
+              onSubmitEditing={[Function]}
+              placeholderTextColor="#707070"
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderColor": "#e0e0e0",
+                    "borderRadius": 2.5,
+                    "borderWidth": 1,
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "minHeight": 44,
+                    "paddingHorizontal": 10,
+                    "paddingVertical": 7.5,
+                    "width": "100%",
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+              underlineColorAndroid="transparent"
+              value=""
+            />
+          </View>
         </View>
       </View>
       <View
@@ -2745,13 +2609,13 @@ exports[`<Form> when {title} 1`] = `
             },
             Object {
               "fontFamily": undefined,
-              "fontSize": 14,
-              "fontWeight": "600",
-              "lineHeight": 16,
+              "fontSize": 20,
+              "fontWeight": "700",
+              "letterSpacing": -0.83,
+              "lineHeight": 22,
             },
             false,
             Object {
-              "color": "#10c0bc",
               "marginBottom": 10,
               "minWidth": "100%",
             },
