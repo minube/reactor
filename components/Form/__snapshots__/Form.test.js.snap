@@ -370,6 +370,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -387,6 +388,7 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "marginTop": 2.5,
+                "maxWidth": "100%",
               },
             ]
           }
@@ -1620,6 +1622,7 @@ exports[`<Form> when {data} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -1637,6 +1640,7 @@ exports[`<Form> when {data} 1`] = `
               },
               Object {
                 "marginTop": 2.5,
+                "maxWidth": "100%",
               },
             ]
           }

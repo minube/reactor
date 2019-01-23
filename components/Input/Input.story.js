@@ -21,7 +21,7 @@ storiesOf('✅ Input', module)
     <Input error="Required field" />
   ))
   .add('hint', () => (
-    <Input hint="Optional field" />
+    <Input hint="Optional fieldOptional fieldOptional fieldOptional fieldOptional fieldOptional field" />
   ))
   .add('keyboard (numeric)', () => (
     <Input keyboard="numeric" />

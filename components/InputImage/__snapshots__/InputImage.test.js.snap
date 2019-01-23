@@ -312,6 +312,7 @@ exports[`<InputImage> when {hint} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
+      numberOfLines={2}
       style={
         Array [
           Object {
@@ -329,6 +330,7 @@ exports[`<InputImage> when {hint} 1`] = `
           },
           Object {
             "marginTop": 2.5,
+            "maxWidth": "100%",
           },
         ]
       }
