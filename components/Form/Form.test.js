@@ -19,6 +19,11 @@ const ATTRIBUTES = {
     style: 'inline2',
     hint: 'we will not send you spam.'
   },
+  phone: {
+    keyboard: 'phone-pad',
+    placeholder: 'Your phone...',
+    style: 'inline2',
+  },
   bio: { lines: 4 },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   isPublic: { type: 'bool' },

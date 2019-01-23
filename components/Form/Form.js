@@ -10,10 +10,15 @@ import InputOption from '../InputOption';
 import InputPicker from '../InputPicker';
 import Text from '../Text';
 import Switch from '../Switch';
-import { consolidate, isValidEmail, set } from './modules';
+import {
+  consolidate, isValidEmail, isValidPhone, set,
+} from './modules';
 import styles from './Form.style';
 
-const KEYBOARD_EMAIL = 'email-address';
+const KEYBOARDS = {
+  'email-address': isValidEmail,
+  'phone-pad': isValidPhone,
+};
 
 const Inputs = {
   bool: Switch,
@@ -116,9 +121,11 @@ class Form extends PureComponent {
     let invalid = (required && !props.disabled)
       && ((!type && value && value.trim().length === 0) || !value);
 
-    if (props.keyboard === KEYBOARD_EMAIL && !isValidEmail(value)) {
-      error = 'Invalid email';
-      invalid = true;
+    if (Object.keys(KEYBOARDS).includes(props.keyboard)) {
+      if (!KEYBOARDS[props.keyboard](value)) {
+        error = 'error';
+        invalid = true;
+      }
     }
     if (invalid) this.state.valid = false;
 
