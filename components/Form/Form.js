@@ -122,7 +122,7 @@ class Form extends PureComponent {
       && ((!type && value && value.trim().length === 0) || !value);
 
     if (Object.keys(KEYBOARDS).includes(props.keyboard)) {
-      if (!KEYBOARDS[props.keyboard](value)) {
+      if (!KEYBOARDS[props.keyboard](value, props)) {
         error = 'error';
         invalid = true;
       }

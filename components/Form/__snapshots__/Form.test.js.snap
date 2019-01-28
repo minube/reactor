@@ -450,7 +450,7 @@ exports[`<Form> when {attributes} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholder="Your phone..."
+            placeholder="000 000 000"
             placeholderTextColor="#707070"
             style={
               Array [
@@ -477,6 +477,117 @@ exports[`<Form> when {attributes} 1`] = `
             value=""
           />
         </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 10,
+            },
+            Object {
+              "width": "49%",
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
+            ]
+          }
+        >
+          phoneCountryCode
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            countryCode={true}
+            editable={true}
+            keyboardType="phone-pad"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="+00 000 000 000"
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginTop": 2.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          Using property countryCode
+        </Text>
       </View>
       <View
         style={
@@ -1784,7 +1895,7 @@ exports[`<Form> when {data} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholder="Your phone..."
+            placeholder="000 000 000"
             placeholderTextColor="#707070"
             style={
               Array [
@@ -1811,6 +1922,117 @@ exports[`<Form> when {data} 1`] = `
             value=""
           />
         </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 10,
+            },
+            Object {
+              "width": "49%",
+            },
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginBottom": 2.5,
+              },
+            ]
+          }
+        >
+          phoneCountryCode
+        </Text>
+        <View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            countryCode={true}
+            editable={true}
+            keyboardType="phone-pad"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="+00 000 000 000"
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderColor": "#e0e0e0",
+                  "borderRadius": 2.5,
+                  "borderWidth": 1,
+                  "color": "#4a4a4a",
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 44,
+                  "paddingHorizontal": 10,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                false,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 12,
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "marginTop": 2.5,
+                "maxWidth": "100%",
+              },
+            ]
+          }
+        >
+          Using property countryCode
+        </Text>
       </View>
       <View
         style={

@@ -21,7 +21,14 @@ const ATTRIBUTES = {
   },
   phone: {
     keyboard: 'phone-pad',
-    placeholder: 'Your phone...',
+    placeholder: '000 000 000',
+    style: 'inline2',
+  },
+  phoneCountryCode: {
+    countryCode: true,
+    keyboard: 'phone-pad',
+    placeholder: '+00 000 000 000',
+    hint: 'Using property countryCode',
     style: 'inline2',
   },
   bio: { lines: 4 },
