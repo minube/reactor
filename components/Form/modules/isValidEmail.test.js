@@ -21,6 +21,9 @@ describe('Components:Form:modules:isValidEmail', () => {
 
     value = isValidEmail('a@.com');
     expect(value).toEqual(false);
+
+    value = isValidEmail('a@a.a');
+    expect(value).toEqual(false);
   });
 
   it('using an correct value', () => {
