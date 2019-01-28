@@ -156,6 +156,7 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "marginBottom": 10,
+              "maxWidth": "100%",
               "overflow": "hidden",
             },
             Object {
@@ -1489,6 +1490,7 @@ exports[`<Form> when {data} 1`] = `
           Array [
             Object {
               "marginBottom": 10,
+              "maxWidth": "100%",
               "overflow": "hidden",
             },
             Object {

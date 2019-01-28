@@ -7,6 +7,7 @@ const { COLOR, UNIT } = THEME;
 export default StyleSheet.create({
   container: {
     marginBottom: UNIT,
+    maxWidth: '100%',
     overflow: 'hidden',
   },
 
