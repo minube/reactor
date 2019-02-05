@@ -2,13 +2,20 @@
 
 exports[`<InputOption> inherity:style 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -22,6 +29,7 @@ exports[`<InputOption> inherity:style 1`] = `
       },
     ]
   }
+  testID={undefined}
 >
   <View
     style={
@@ -44,6 +52,7 @@ exports[`<InputOption> inherity:style 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "opacity": 0,
@@ -97,6 +106,7 @@ exports[`<InputOption> inherity:style 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -113,13 +123,20 @@ exports[`<InputOption> inherity:style 1`] = `
 
 exports[`<InputOption> label 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -130,6 +147,7 @@ exports[`<InputOption> label 1`] = `
       undefined,
     ]
   }
+  testID={undefined}
 >
   <View
     style={
@@ -152,6 +170,7 @@ exports[`<InputOption> label 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "opacity": 0,
@@ -232,6 +251,7 @@ exports[`<InputOption> label 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -248,13 +268,20 @@ exports[`<InputOption> label 1`] = `
 
 exports[`<InputOption> renders 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -265,6 +292,7 @@ exports[`<InputOption> renders 1`] = `
       undefined,
     ]
   }
+  testID={undefined}
 >
   <View
     style={
@@ -287,6 +315,7 @@ exports[`<InputOption> renders 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "opacity": 0,
@@ -340,6 +369,7 @@ exports[`<InputOption> renders 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -356,13 +386,20 @@ exports[`<InputOption> renders 1`] = `
 
 exports[`<InputOption> rounded (false) 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -373,6 +410,7 @@ exports[`<InputOption> rounded (false) 1`] = `
       undefined,
     ]
   }
+  testID={undefined}
 >
   <View
     style={
@@ -393,6 +431,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "opacity": 0,
@@ -446,6 +485,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -462,13 +502,20 @@ exports[`<InputOption> rounded (false) 1`] = `
 
 exports[`<InputOption> selected 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
   style={
     Array [
       Object {
@@ -479,6 +526,7 @@ exports[`<InputOption> selected 1`] = `
       undefined,
     ]
   }
+  testID={undefined}
 >
   <View
     style={
@@ -504,6 +552,7 @@ exports[`<InputOption> selected 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "opacity": 1,
@@ -557,6 +606,7 @@ exports[`<InputOption> selected 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",

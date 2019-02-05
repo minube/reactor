@@ -16,6 +16,7 @@ exports[`<Image> renders 1`] = `
 >
   <Image
     onLoad={[Function]}
+    source={undefined}
   />
   <ActivityIndicator
     animating={true}
@@ -51,6 +52,7 @@ exports[`<Image> when {color} (only Native) 1`] = `
   <Image
     color="#d33c44"
     onLoad={[Function]}
+    source={undefined}
   />
   <ActivityIndicator
     animating={true}
@@ -86,6 +88,7 @@ exports[`<Image> when {invert} (only Web) 1`] = `
   <Image
     invert={true}
     onLoad={[Function]}
+    source={undefined}
   />
   <ActivityIndicator
     animating={true}
@@ -199,6 +202,7 @@ exports[`<Image> when {size} 1`] = `
   <Image
     onLoad={[Function]}
     size={48}
+    source={undefined}
   />
   <ActivityIndicator
     animating={true}
@@ -274,6 +278,7 @@ exports[`<Image> when {style} 1`] = `
 >
   <Image
     onLoad={[Function]}
+    source={undefined}
     style={
       Object {
         "backgroundColor": "#a66ecc",

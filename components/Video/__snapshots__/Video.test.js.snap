@@ -30,12 +30,19 @@ exports[`<Video> renders 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -110,12 +117,19 @@ exports[`<Video> when {autoplay} 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -190,12 +204,19 @@ exports[`<Video> when {controls} 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -270,12 +291,19 @@ exports[`<Video> when {dimensions} 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -350,12 +378,19 @@ exports[`<Video> when {preload} 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -430,12 +465,19 @@ exports[`<Video> when {source} (vimeo) 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -509,12 +551,19 @@ exports[`<Video> when {source} (youtube) 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={
@@ -591,12 +640,19 @@ exports[`<Video> when {style} 1`] = `
   >
     <RCTWebView
       allowsInlineMediaPlayback={true}
+      automaticallyAdjustContentInsets={undefined}
+      bounces={undefined}
+      contentInset={undefined}
+      dataDetectorTypes={undefined}
+      decelerationRate={undefined}
+      injectedJavaScript={undefined}
       mediaPlaybackRequiresUserAction={false}
       messagingEnabled={false}
       onLoadingError={[Function]}
       onLoadingFinish={[Function]}
       onLoadingStart={[Function]}
       onMessage={[Function]}
+      onShouldStartLoadWithRequest={undefined}
       scalesPageToFit={false}
       scrollEnabled={false}
       source={

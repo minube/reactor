@@ -2,13 +2,22 @@
 
 exports[`<Touchable> renders 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
+  style={undefined}
+  testID={undefined}
 >
   <View />
   <View
@@ -29,6 +38,7 @@ exports[`<Touchable> renders 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -45,13 +55,22 @@ exports[`<Touchable> renders 1`] = `
 
 exports[`<Touchable> when {children} 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
+  style={undefined}
+  testID={undefined}
 >
   <Text
     accessible={true}
@@ -78,6 +97,7 @@ exports[`<Touchable> when {children} 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -94,13 +114,22 @@ exports[`<Touchable> when {children} 1`] = `
 
 exports[`<Touchable> when {containerBorderRadius} 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
+  style={undefined}
+  testID={undefined}
 >
   <View
     style={
@@ -122,6 +151,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",
@@ -138,13 +168,22 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
 
 exports[`<Touchable> when {rippleColor} 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
+  style={undefined}
+  testID={undefined}
 >
   <View
     style={
@@ -164,6 +203,7 @@ exports[`<Touchable> when {rippleColor} 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "rgba(0,255,0,0.25)",
@@ -180,18 +220,26 @@ exports[`<Touchable> when {rippleColor} 1`] = `
 
 exports[`<Touchable> when {style} 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
   accessible={true}
+  hitSlop={undefined}
+  nativeID={undefined}
+  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents={undefined}
   style={
     Object {
       "backgroundColor": "rgba(0,255,0,0.25)",
     }
   }
+  testID={undefined}
 >
   <View
     style={
@@ -211,6 +259,7 @@ exports[`<Touchable> when {style} 1`] = `
     }
   >
     <View
+      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#e0e0e0",

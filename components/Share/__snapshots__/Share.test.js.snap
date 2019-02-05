@@ -4,9 +4,16 @@ exports[`<Share> renders 1`] = `
 <View
   pointerEvents="auto"
 >
-  <View>
+  <View
+    style={undefined}
+  >
     <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
       accessible={true}
+      hitSlop={undefined}
+      nativeID={undefined}
       onLayout={[Function]}
       onResponderGrant={[Function]}
       onResponderMove={[Function]}
@@ -23,6 +30,7 @@ exports[`<Share> renders 1`] = `
           false,
         ]
       }
+      testID={undefined}
     >
       <View
         style={
@@ -142,6 +150,7 @@ exports[`<Share> renders 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           style={
             Object {
               "backgroundColor": "#ffffff",

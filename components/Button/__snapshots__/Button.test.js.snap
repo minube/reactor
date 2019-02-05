@@ -1,15 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Button> renders 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -18,6 +27,7 @@ exports[`<Button> renders 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -87,6 +97,7 @@ exports[`<Button> renders 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -103,15 +114,24 @@ exports[`<Button> renders 1`] = `
 `;
 
 exports[`<Button> when {activity} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -120,6 +140,7 @@ exports[`<Button> when {activity} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -233,6 +254,7 @@ exports[`<Button> when {activity} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -249,15 +271,24 @@ exports[`<Button> when {activity} 1`] = `
 `;
 
 exports[`<Button> when {children} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -266,6 +297,7 @@ exports[`<Button> when {children} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -405,6 +437,7 @@ exports[`<Button> when {children} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -421,15 +454,24 @@ exports[`<Button> when {children} 1`] = `
 `;
 
 exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -438,6 +480,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -535,6 +578,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#e0e0e0",
@@ -551,15 +595,24 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
 `;
 
 exports[`<Button> when {color} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -568,6 +621,7 @@ exports[`<Button> when {color} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -665,6 +719,7 @@ exports[`<Button> when {color} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -681,15 +736,24 @@ exports[`<Button> when {color} 1`] = `
 `;
 
 exports[`<Button> when {contained=false} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -698,6 +762,7 @@ exports[`<Button> when {contained=false} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -792,6 +857,7 @@ exports[`<Button> when {contained=false} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -808,15 +874,24 @@ exports[`<Button> when {contained=false} 1`] = `
 `;
 
 exports[`<Button> when {disabled} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -825,6 +900,7 @@ exports[`<Button> when {disabled} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -924,6 +1000,7 @@ exports[`<Button> when {disabled} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -940,15 +1017,24 @@ exports[`<Button> when {disabled} 1`] = `
 `;
 
 exports[`<Button> when {icon} & {title} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -957,6 +1043,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1076,6 +1163,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1092,15 +1180,24 @@ exports[`<Button> when {icon} & {title} 1`] = `
 `;
 
 exports[`<Button> when {icon} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1109,6 +1206,7 @@ exports[`<Button> when {icon} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1197,6 +1295,7 @@ exports[`<Button> when {icon} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1213,15 +1312,24 @@ exports[`<Button> when {icon} 1`] = `
 `;
 
 exports[`<Button> when {outlined} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1230,6 +1338,7 @@ exports[`<Button> when {outlined} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1328,6 +1437,7 @@ exports[`<Button> when {outlined} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1344,15 +1454,24 @@ exports[`<Button> when {outlined} 1`] = `
 `;
 
 exports[`<Button> when {responsive} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1361,6 +1480,7 @@ exports[`<Button> when {responsive} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1458,6 +1578,7 @@ exports[`<Button> when {responsive} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1474,15 +1595,24 @@ exports[`<Button> when {responsive} 1`] = `
 `;
 
 exports[`<Button> when {rounded} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1493,6 +1623,7 @@ exports[`<Button> when {rounded} 1`] = `
         },
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1594,6 +1725,7 @@ exports[`<Button> when {rounded} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1610,15 +1742,24 @@ exports[`<Button> when {rounded} 1`] = `
 `;
 
 exports[`<Button> when {shadow} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1627,6 +1768,7 @@ exports[`<Button> when {shadow} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1732,6 +1874,7 @@ exports[`<Button> when {shadow} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1748,15 +1891,24 @@ exports[`<Button> when {shadow} 1`] = `
 `;
 
 exports[`<Button> when {small} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1765,6 +1917,7 @@ exports[`<Button> when {small} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -1866,6 +2019,7 @@ exports[`<Button> when {small} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -1890,13 +2044,20 @@ exports[`<Button> when {style} 1`] = `
   }
 >
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -1905,6 +2066,7 @@ exports[`<Button> when {style} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -2002,6 +2164,7 @@ exports[`<Button> when {style} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",
@@ -2018,15 +2181,24 @@ exports[`<Button> when {style} 1`] = `
 `;
 
 exports[`<Button> when {title} 1`] = `
-<View>
+<View
+  style={undefined}
+>
   <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
     accessible={true}
+    hitSlop={undefined}
+    nativeID={undefined}
+    onLayout={undefined}
     onResponderGrant={[Function]}
     onResponderMove={[Function]}
     onResponderRelease={[Function]}
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents={undefined}
     style={
       Array [
         Object {
@@ -2035,6 +2207,7 @@ exports[`<Button> when {title} 1`] = `
         false,
       ]
     }
+    testID={undefined}
   >
     <View
       style={
@@ -2132,6 +2305,7 @@ exports[`<Button> when {title} 1`] = `
       }
     >
       <View
+        collapsable={undefined}
         style={
           Object {
             "backgroundColor": "#ffffff",

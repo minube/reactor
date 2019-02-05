@@ -2,6 +2,7 @@
 
 exports[`<Snackbar> renders 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="auto"
   style={
     Object {
@@ -61,6 +62,7 @@ exports[`<Snackbar> renders 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -106,6 +108,7 @@ exports[`<Snackbar> renders 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {

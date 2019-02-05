@@ -2,6 +2,7 @@
 
 exports[`<Viewport> renders 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",
@@ -46,6 +47,7 @@ exports[`<Viewport> renders 1`] = `
 
 exports[`<Viewport> when {backward} 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",
@@ -90,6 +92,7 @@ exports[`<Viewport> when {backward} 1`] = `
 
 exports[`<Viewport> when {children} 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",
@@ -142,6 +145,7 @@ exports[`<Viewport> when {children} 1`] = `
 
 exports[`<Viewport> when {onScroll} 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",
@@ -188,6 +192,7 @@ exports[`<Viewport> when {onScroll} 1`] = `
 
 exports[`<Viewport> when {style} 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",
@@ -232,6 +237,7 @@ exports[`<Viewport> when {style} 1`] = `
 
 exports[`<Viewport> when {styleContent} 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",
@@ -278,6 +284,7 @@ exports[`<Viewport> when {styleContent} 1`] = `
 
 exports[`<Viewport> when {visible} 1`] = `
 <View
+  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#F5F5F6",

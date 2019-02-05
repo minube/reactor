@@ -2,6 +2,7 @@
 
 exports[`<Dialog> renders 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -60,6 +61,7 @@ exports[`<Dialog> renders 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -100,6 +102,7 @@ exports[`<Dialog> renders 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -122,6 +125,7 @@ exports[`<Dialog> renders 1`] = `
 
 exports[`<Dialog> when {background} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -178,6 +182,7 @@ exports[`<Dialog> when {background} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -218,6 +223,7 @@ exports[`<Dialog> when {background} 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -240,6 +246,7 @@ exports[`<Dialog> when {background} 1`] = `
 
 exports[`<Dialog> when {children} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -298,6 +305,7 @@ exports[`<Dialog> when {children} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -338,6 +346,7 @@ exports[`<Dialog> when {children} 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -384,6 +393,7 @@ exports[`<Dialog> when {children} 1`] = `
 
 exports[`<Dialog> when {highlight} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -442,6 +452,7 @@ exports[`<Dialog> when {highlight} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -512,9 +523,16 @@ exports[`<Dialog> when {highlight} 1`] = `
               >
                 Hello world
               </Text>
-              <View>
+              <View
+                style={undefined}
+              >
                 <View
+                  accessibilityComponentType={undefined}
+                  accessibilityLabel={undefined}
+                  accessibilityTraits={undefined}
                   accessible={true}
+                  hitSlop={undefined}
+                  nativeID={undefined}
                   onLayout={[Function]}
                   onResponderGrant={[Function]}
                   onResponderMove={[Function]}
@@ -533,6 +551,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                       },
                     ]
                   }
+                  testID={undefined}
                 >
                   <View
                     style={
@@ -623,6 +642,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                     }
                   >
                     <View
+                      collapsable={undefined}
                       style={
                         Object {
                           "backgroundColor": "#ffffff",
@@ -661,6 +681,7 @@ exports[`<Dialog> when {highlight} 1`] = `
 
 exports[`<Dialog> when {onClose} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -719,6 +740,7 @@ exports[`<Dialog> when {onClose} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -758,9 +780,16 @@ exports[`<Dialog> when {onClose} 1`] = `
                 }
               }
             >
-              <View>
+              <View
+                style={undefined}
+              >
                 <View
+                  accessibilityComponentType={undefined}
+                  accessibilityLabel={undefined}
+                  accessibilityTraits={undefined}
                   accessible={true}
+                  hitSlop={undefined}
+                  nativeID={undefined}
                   onLayout={[Function]}
                   onResponderGrant={[Function]}
                   onResponderMove={[Function]}
@@ -779,6 +808,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                       },
                     ]
                   }
+                  testID={undefined}
                 >
                   <View
                     style={
@@ -869,6 +899,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                     }
                   >
                     <View
+                      collapsable={undefined}
                       style={
                         Object {
                           "backgroundColor": "#4a4a4a",
@@ -884,6 +915,7 @@ exports[`<Dialog> when {onClose} 1`] = `
               </View>
             </View>
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -906,6 +938,7 @@ exports[`<Dialog> when {onClose} 1`] = `
 
 exports[`<Dialog> when {reverse} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="auto"
   style={
     Object {
@@ -964,6 +997,7 @@ exports[`<Dialog> when {reverse} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -1004,6 +1038,7 @@ exports[`<Dialog> when {reverse} 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -1026,6 +1061,7 @@ exports[`<Dialog> when {reverse} 1`] = `
 
 exports[`<Dialog> when {style} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -1084,6 +1120,7 @@ exports[`<Dialog> when {style} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -1126,6 +1163,7 @@ exports[`<Dialog> when {style} 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -1148,6 +1186,7 @@ exports[`<Dialog> when {style} 1`] = `
 
 exports[`<Dialog> when {styleContainer} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -1208,6 +1247,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -1248,6 +1288,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
@@ -1270,6 +1311,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
 
 exports[`<Dialog> when {title} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="none"
   style={
     Object {
@@ -1328,6 +1370,7 @@ exports[`<Dialog> when {title} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -1422,6 +1465,7 @@ exports[`<Dialog> when {title} 1`] = `
 
 exports[`<Dialog> when {visible} 1`] = `
 <View
+  collapsable={undefined}
   pointerEvents="auto"
   style={
     Object {
@@ -1480,6 +1524,7 @@ exports[`<Dialog> when {visible} 1`] = `
         }
       >
         <View
+          collapsable={undefined}
           pointerEvents="auto"
           style={
             Object {
@@ -1520,6 +1565,7 @@ exports[`<Dialog> when {visible} 1`] = `
               }
             />
             <RCTScrollView
+              onScroll={undefined}
               style={
                 Array [
                   Object {
