@@ -76,8 +76,11 @@ export default StyleSheet.create({
   },
 
   selected: {
-    borderRadius: 0,
+    borderRadius: BOX_HEIGHT / 2,
     backgroundColor: COLOR.PRIMARY,
+    minWidth: BOX_HEIGHT / 1.1,
+    paddingVertical: OFFSET / 2,
+    textAlign: 'center',
   },
 
   selectedStart: {
