@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import Form from './Form';
 
 const ATTRIBUTES = {
-  username: { required: true },
+  username: { required: true, defaultValue: 'soyjavi', icon: 'twitter' },
   role: {
     required: true,
     type: 'select',

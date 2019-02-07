@@ -117,7 +117,7 @@ class Form extends PureComponent {
   }) => {
     const { _onChange, props: { color } } = this;
     const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
-    let error = ' ';
+    let error;
     let invalid = (required && !props.disabled)
       && ((!type && value && value.trim().length === 0) || !value);
 
@@ -134,7 +134,8 @@ class Form extends PureComponent {
       label: props.label || field,
       color,
       ...props,
-      error: invalid ? error : props.error,
+      error: error || props.error,
+      required: required && (value === undefined || value.trim().length === 0),
       value,
       style: (REGULAR || LARGE ? styles[style] : undefined) || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
