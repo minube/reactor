@@ -7,5 +7,6 @@ const { UNIT } = THEME;
 export default StyleSheet.create({
   container: {
     marginBottom: UNIT / 4,
+    marginLeft: UNIT,
   },
 });
