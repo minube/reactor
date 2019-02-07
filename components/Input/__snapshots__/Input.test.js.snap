@@ -11,7 +11,24 @@ exports[`<Input> renders 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -24,25 +41,18 @@ exports[`<Input> renders 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -62,7 +72,24 @@ exports[`<Input> when {color} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -75,25 +102,18 @@ exports[`<Input> when {color} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -113,7 +133,27 @@ exports[`<Input> when {disabled} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        Object {
+          "backgroundColor": "#F5F5F6",
+          "color": "#e0e0e0",
+        },
+        false,
+        false,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -126,28 +166,18 @@ exports[`<Input> when {disabled} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          Object {
-            "backgroundColor": "#F5F5F6",
-            "color": "#e0e0e0",
-          },
-          false,
-          false,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -167,7 +197,26 @@ exports[`<Input> when {error} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        Object {
+          "borderColor": "#d33c44",
+        },
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -180,27 +229,18 @@ exports[`<Input> when {error} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          Object {
-            "borderColor": "#d33c44",
-          },
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -209,7 +249,7 @@ exports[`<Input> when {error} 1`] = `
       resizeMode="contain"
       source={
         Object {
-          "testUri": "../../../components/Icon/assets/close_contrast.png",
+          "testUri": "../../../components/Icon/assets/error.png",
         }
       }
       style={
@@ -220,13 +260,9 @@ exports[`<Input> when {error} 1`] = `
             "width": 20,
           },
           Object {
-            "backgroundColor": "#d33c44",
-            "borderRadius": 10,
-            "height": 18,
-            "position": "absolute",
-            "right": 10,
-            "top": 13,
-            "width": 18,
+            "height": 20,
+            "marginHorizontal": 5,
+            "width": 20,
           },
           undefined,
         ]
@@ -247,7 +283,24 @@ exports[`<Input> when {hint} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -260,25 +313,18 @@ exports[`<Input> when {hint} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -305,14 +351,99 @@ exports[`<Input> when {hint} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginTop": 2.5,
+          "marginTop": 4,
           "maxWidth": "100%",
+          "paddingLeft": 10,
         },
       ]
     }
   >
     Hello World
   </Text>
+</View>
+`;
+
+exports[`<Input> when {icon} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../components/Icon/assets/email.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "height": 20,
+            "marginHorizontal": 5,
+            "width": 20,
+          },
+          undefined,
+        ]
+      }
+    />
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      blurOnSubmit={true}
+      editable={true}
+      keyboardType="default"
+      multiline={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#707070"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+  </View>
 </View>
 `;
 
@@ -327,7 +458,24 @@ exports[`<Input> when {keyboard} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -340,25 +488,18 @@ exports[`<Input> when {keyboard} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -400,14 +541,32 @@ exports[`<Input> when {label} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginBottom": 2.5,
+          "marginBottom": 6,
+          "marginLeft": 10,
         },
       ]
     }
   >
     Hello World
   </Text>
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -420,25 +579,18 @@ exports[`<Input> when {label} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -458,7 +610,24 @@ exports[`<Input> when {lines} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -472,28 +641,105 @@ exports[`<Input> when {lines} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
+    />
+  </View>
+</View>
+`;
+
+exports[`<Input> when {required} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      blurOnSubmit={true}
+      editable={true}
+      keyboardType="default"
+      multiline={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#707070"
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <Image
+      resizeMode="contain"
+      source={
+        Object {
+          "testUri": "../../../components/Icon/assets/error_outline.png",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "height": 20,
+            "marginHorizontal": 5,
+            "width": 20,
+          },
+          undefined,
+        ]
+      }
     />
   </View>
 </View>
@@ -514,7 +760,24 @@ exports[`<Input> when {style} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -527,25 +790,18 @@ exports[`<Input> when {style} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value=""
@@ -565,7 +821,24 @@ exports[`<Input> when {value} 1`] = `
     ]
   }
 >
-  <View>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#e0e0e0",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 5,
+        },
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
     <TextInput
       allowFontScaling={true}
       autoCapitalize="none"
@@ -578,25 +851,18 @@ exports[`<Input> when {value} 1`] = `
       onFocus={[Function]}
       placeholderTextColor="#707070"
       style={
-        Array [
-          Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#e0e0e0",
-            "borderRadius": 2.5,
-            "borderWidth": 1,
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontSize": 16,
-            "fontWeight": "400",
-            "minHeight": 44,
-            "paddingHorizontal": 10,
-            "paddingVertical": 7.5,
-            "width": "100%",
-          },
-          false,
-          false,
-          undefined,
-        ]
+        Object {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "400",
+          "minHeight": 44,
+          "paddingHorizontal": 5,
+          "paddingVertical": 7.5,
+          "width": "100%",
+        }
       }
       underlineColorAndroid="transparent"
       value="soyjavi"

@@ -180,7 +180,8 @@ exports[`<Switch> when {label} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginBottom": 2.5,
+          "marginBottom": 6,
+          "marginLeft": 10,
         },
       ]
     }

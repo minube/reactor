@@ -24,7 +24,24 @@ exports[`<InputList> renders 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -39,25 +56,18 @@ exports[`<InputList> renders 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -91,7 +101,24 @@ exports[`<InputList> when {dataSource} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -106,25 +133,18 @@ exports[`<InputList> when {dataSource} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -158,7 +178,27 @@ exports[`<InputList> when {disabled} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          Object {
+            "backgroundColor": "#F5F5F6",
+            "color": "#e0e0e0",
+          },
+          false,
+          false,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -173,28 +213,18 @@ exports[`<InputList> when {disabled} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            Object {
-              "backgroundColor": "#F5F5F6",
-              "color": "#e0e0e0",
-            },
-            false,
-            false,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -228,7 +258,26 @@ exports[`<InputList> when {error} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          Object {
+            "borderColor": "#d33c44",
+          },
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -243,27 +292,18 @@ exports[`<InputList> when {error} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            Object {
-              "borderColor": "#d33c44",
-            },
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -272,7 +312,7 @@ exports[`<InputList> when {error} 1`] = `
         resizeMode="contain"
         source={
           Object {
-            "testUri": "../../../components/Icon/assets/close_contrast.png",
+            "testUri": "../../../components/Icon/assets/error.png",
           }
         }
         style={
@@ -283,13 +323,9 @@ exports[`<InputList> when {error} 1`] = `
               "width": 20,
             },
             Object {
-              "backgroundColor": "#d33c44",
-              "borderRadius": 10,
-              "height": 18,
-              "position": "absolute",
-              "right": 10,
-              "top": 13,
-              "width": 18,
+              "height": 20,
+              "marginHorizontal": 5,
+              "width": 20,
             },
             undefined,
           ]
@@ -324,7 +360,24 @@ exports[`<InputList> when {hint} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -339,25 +392,18 @@ exports[`<InputList> when {hint} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -384,8 +430,9 @@ exports[`<InputList> when {hint} 1`] = `
             "color": "#707070",
           },
           Object {
-            "marginTop": 2.5,
+            "marginTop": 4,
             "maxWidth": "100%",
+            "paddingLeft": 10,
           },
         ]
       }
@@ -420,7 +467,24 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -435,25 +499,18 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -1441,14 +1498,32 @@ exports[`<InputList> when {label} 1`] = `
             "color": "#707070",
           },
           Object {
-            "marginBottom": 2.5,
+            "marginBottom": 6,
+            "marginLeft": 10,
           },
         ]
       }
     >
       Hello World
     </Text>
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -1463,25 +1538,18 @@ exports[`<InputList> when {label} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -1518,7 +1586,24 @@ exports[`<InputList> when {style} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -1533,25 +1618,18 @@ exports[`<InputList> when {style} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""
@@ -1585,7 +1663,24 @@ exports[`<InputList> when {value} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -1600,25 +1695,18 @@ exports[`<InputList> when {value} 1`] = `
         onSubmitEditing={[Function]}
         placeholderTextColor="#707070"
         style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
-              "paddingVertical": 7.5,
-              "width": "100%",
-            },
-            false,
-            false,
-            undefined,
-          ]
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 44,
+            "paddingHorizontal": 5,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          }
         }
         underlineColorAndroid="transparent"
         value=""

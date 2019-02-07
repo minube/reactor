@@ -6,7 +6,7 @@ const { UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginTop: UNIT / 4,
+    marginTop: UNIT * 0.4,
     paddingLeft: UNIT,
     maxWidth: '100%',
   },

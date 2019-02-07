@@ -23,6 +23,9 @@ storiesOf('✅ Input', module)
   .add('hint', () => (
     <Input hint="Optional fieldOptional fieldOptional fieldOptional fieldOptional fieldOptional field" />
   ))
+  .add('icon', () => (
+    <Input icon="email" />
+  ))
   .add('keyboard (numeric)', () => (
     <Input keyboard="numeric" />
   ))
@@ -31,6 +34,9 @@ storiesOf('✅ Input', module)
   ))
   .add('lines', () => (
     <Input lines={5} />
+  ))
+  .add('required', () => (
+    <Input required />
   ))
   .add('value', () => (
     <Input value="soyjavi.com" />
@@ -59,6 +65,7 @@ storiesOf('✅ Input', module)
       keyboard={select('type', ['default', 'numeric', 'email-address', 'phone-pad'], 'default')}
       label={text('label', null)}
       lines={number('lines', 1)}
+      required={boolean('required', false)}
       value={text('value', null)}
       style={object('style', STYLE)}
     />

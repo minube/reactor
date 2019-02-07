@@ -27,6 +27,9 @@ storiesOf('✅ InputImage', module)
   .add('value', () => (
     <InputImage value="three" value={VALUE} />
   ))
+  .add('required', () => (
+    <InputImage required />
+  ))
   .add('⚡ onChange', () => (
     <InputImage onChange={action('InputImage.onChange()')} title="Press me" value={VALUE} />
   ))
@@ -39,6 +42,7 @@ storiesOf('✅ InputImage', module)
       error={text('error', null)}
       hint={text('hint', null)}
       label={text('label', null)}
+      required={boolean('required', false)}
       value={text('value', VALUE)}
       style={object('style', STYLE)}
     />

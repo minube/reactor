@@ -24,6 +24,11 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {icon}', () => {
+    const tree = renderer.create(<Input icon="email" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {keyboard}', () => {
     const tree = renderer.create(<Input keyboard="numeric" />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -36,6 +41,11 @@ describe('<Input>', () => {
 
   it('when {lines}', () => {
     const tree = renderer.create(<Input lines={5} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {required}', () => {
+    const tree = renderer.create(<Input required />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
