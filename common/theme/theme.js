@@ -16,8 +16,7 @@ export default {
   COLOR: {
     // Theme
     BACKGROUND: '#F5F5F6',
-    BASE: '#e0e0e0',
-
+    BASE: '#cdd2d4',
     PRIMARY: '#10c0bc',
     SECONDARY: '#a66ecc',
 
@@ -30,6 +29,7 @@ export default {
     SUCCESS: '#84BD4B',
     WARNING: '#FDCD48',
     // -- Helpers
+    DISABLED: '#f4f4f4',
     TRANSPARENT: 'transparent',
     BLACK: '#000000',
     WHITE: '#ffffff',
