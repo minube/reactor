@@ -20,8 +20,8 @@ describe('<InputOption>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('selected', () => {
-    const tree = renderer.create(<InputOption selected />).toJSON();
+  it('value', () => {
+    const tree = renderer.create(<InputOption value />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

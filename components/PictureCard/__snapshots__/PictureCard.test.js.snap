@@ -23,7 +23,7 @@ exports[`<PictureCard> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -146,7 +146,7 @@ exports[`<PictureCard> renders 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -181,7 +181,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -306,7 +306,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -341,7 +341,7 @@ exports[`<PictureCard> when {caption} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -491,7 +491,7 @@ exports[`<PictureCard> when {caption} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -526,7 +526,7 @@ exports[`<PictureCard> when {image} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -649,7 +649,7 @@ exports[`<PictureCard> when {image} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -684,7 +684,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -807,7 +807,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -842,7 +842,7 @@ exports[`<PictureCard> when {small} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -969,7 +969,7 @@ exports[`<PictureCard> when {small} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -1004,7 +1004,7 @@ exports[`<PictureCard> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -1133,7 +1133,7 @@ exports[`<PictureCard> when {style} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -1168,7 +1168,7 @@ exports[`<PictureCard> when {title} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
         },
         Object {
           "borderRadius": 3,
@@ -1321,7 +1321,7 @@ exports[`<PictureCard> when {title} 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,

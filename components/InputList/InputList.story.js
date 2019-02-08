@@ -62,6 +62,9 @@ storiesOf('✅ InputList', module)
   .add('value', () => (
     <InputList label="Numbers" value="three" value={VALUE} />
   ))
+  .add('required', () => (
+    <InputList required />
+  ))
   .add('dataSource', () => (
     <InputList label="Numbers" dataSource={DATA_SOURCE} />
   ))
@@ -81,6 +84,7 @@ storiesOf('✅ InputList', module)
       error={text('error', null)}
       hint={text('hint', null)}
       label={text('label', "numbers")}
+      required={boolean('required', false)}
       value={array('value', VALUE)}
       style={object('style', STYLE)}
     />

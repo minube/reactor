@@ -22,6 +22,7 @@ exports[`<InputOption> inherity:style 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 22,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -79,8 +80,8 @@ exports[`<InputOption> inherity:style 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -109,7 +110,7 @@ exports[`<InputOption> inherity:style 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -143,6 +144,7 @@ exports[`<InputOption> label 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -197,8 +199,8 @@ exports[`<InputOption> label 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -219,13 +221,16 @@ exports[`<InputOption> label 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 14,
-          "lineHeight": 24,
+          "fontWeight": "600",
+          "lineHeight": 16,
         },
         Object {
           "color": "#707070",
         },
         Object {
+          "marginBottom": 0,
           "marginLeft": 10,
         },
       ]
@@ -254,7 +259,7 @@ exports[`<InputOption> label 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -288,6 +293,7 @@ exports[`<InputOption> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -342,8 +348,8 @@ exports[`<InputOption> renders 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -372,7 +378,7 @@ exports[`<InputOption> renders 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -406,6 +412,7 @@ exports[`<InputOption> rounded (false) 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -458,8 +465,8 @@ exports[`<InputOption> rounded (false) 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -488,7 +495,7 @@ exports[`<InputOption> rounded (false) 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -500,7 +507,7 @@ exports[`<InputOption> rounded (false) 1`] = `
 </View>
 `;
 
-exports[`<InputOption> selected 1`] = `
+exports[`<InputOption> value 1`] = `
 <View
   accessibilityComponentType={undefined}
   accessibilityLabel={undefined}
@@ -522,6 +529,7 @@ exports[`<InputOption> selected 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -579,8 +587,8 @@ exports[`<InputOption> selected 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -609,7 +617,7 @@ exports[`<InputOption> selected 1`] = `
       collapsable={undefined}
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,

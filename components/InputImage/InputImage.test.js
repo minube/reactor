@@ -32,6 +32,11 @@ describe('<InputImage>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {required}', () => {
+    const tree = renderer.create(<InputImage required />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {value}', () => {
     const tree = renderer.create(<InputImage value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();

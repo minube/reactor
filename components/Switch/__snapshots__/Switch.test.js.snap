@@ -9,16 +9,16 @@ exports[`<Switch> renders 1`] = `
         "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 39,
-        "marginBottom": 10,
+        "height": 44,
+        "marginBottom": 22,
       },
       undefined,
     ]
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#e0e0e0"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#10c0bc"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -31,11 +31,12 @@ exports[`<Switch> renders 1`] = `
           "width": 51,
         },
         Object {
-          "height": 24,
-          "marginRight": 10,
+          "height": 28,
         },
       ]
     }
+    thumbColor="#ffffff"
+    trackColor="#cdd2d4"
     value={false}
   />
 </View>
@@ -50,16 +51,16 @@ exports[`<Switch> when {color} 1`] = `
         "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 39,
-        "marginBottom": 10,
+        "height": 44,
+        "marginBottom": 22,
       },
       undefined,
     ]
   }
 >
   <RCTSwitch
-    activeThumbColor="green"
-    activeTrackColor="#e0e0e0"
+    activeThumbColor="#ffffff"
+    activeTrackColor="green"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -72,11 +73,12 @@ exports[`<Switch> when {color} 1`] = `
           "width": 51,
         },
         Object {
-          "height": 24,
-          "marginRight": 10,
+          "height": 28,
         },
       ]
     }
+    thumbColor="#ffffff"
+    trackColor="#cdd2d4"
     value={true}
   />
 </View>
@@ -91,16 +93,16 @@ exports[`<Switch> when {disabled} 1`] = `
         "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 39,
-        "marginBottom": 10,
+        "height": 44,
+        "marginBottom": 22,
       },
       undefined,
     ]
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#e0e0e0"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#10c0bc"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -113,11 +115,12 @@ exports[`<Switch> when {disabled} 1`] = `
           "width": 51,
         },
         Object {
-          "height": 24,
-          "marginRight": 10,
+          "height": 28,
         },
       ]
     }
+    thumbColor="#ffffff"
+    trackColor="#cdd2d4"
     value={false}
     visible={true}
   />
@@ -133,16 +136,16 @@ exports[`<Switch> when {label} 1`] = `
         "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 39,
-        "marginBottom": 10,
+        "height": 44,
+        "marginBottom": 22,
       },
       undefined,
     ]
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#e0e0e0"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#10c0bc"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -155,11 +158,12 @@ exports[`<Switch> when {label} 1`] = `
           "width": 51,
         },
         Object {
-          "height": 24,
-          "marginRight": 10,
+          "height": 28,
         },
       ]
     }
+    thumbColor="#ffffff"
+    trackColor="#cdd2d4"
     value={false}
   />
   <Text
@@ -184,7 +188,8 @@ exports[`<Switch> when {label} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginBottom": 2.5,
+          "marginBottom": 0,
+          "marginLeft": 10,
         },
       ]
     }
@@ -203,8 +208,8 @@ exports[`<Switch> when {style} 1`] = `
         "alignSelf": "flex-end",
         "display": "flex",
         "flexDirection": "row",
-        "height": 39,
-        "marginBottom": 10,
+        "height": 44,
+        "marginBottom": 22,
       },
       Object {
         "backgroundColor": "orange",
@@ -213,8 +218,8 @@ exports[`<Switch> when {style} 1`] = `
   }
 >
   <RCTSwitch
-    activeThumbColor="#10c0bc"
-    activeTrackColor="#e0e0e0"
+    activeThumbColor="#ffffff"
+    activeTrackColor="#10c0bc"
     disabled={false}
     onChange={[Function]}
     onResponderTerminationRequest={[Function]}
@@ -227,11 +232,12 @@ exports[`<Switch> when {style} 1`] = `
           "width": 51,
         },
         Object {
-          "height": 24,
-          "marginRight": 10,
+          "height": 28,
         },
       ]
     }
+    thumbColor="#ffffff"
+    trackColor="#cdd2d4"
     value={false}
   />
 </View>

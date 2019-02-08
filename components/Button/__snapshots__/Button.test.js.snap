@@ -581,7 +581,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
         collapsable={undefined}
         style={
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#cdd2d4",
             "height": 0,
             "opacity": 0,
             "width": 0,
@@ -931,7 +931,7 @@ exports[`<Button> when {disabled} 1`] = `
           false,
           false,
           Object {
-            "backgroundColor": "#e0e0e0",
+            "backgroundColor": "#cdd2d4",
           },
           false,
           false,

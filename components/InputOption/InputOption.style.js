@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
@@ -7,20 +7,19 @@ const { COLOR, UNIT } = THEME;
 const SIZE = UNIT * 2;
 
 export default StyleSheet.create({
-  container: LAYOUT.STYLE.ROW,
+  container: {
+    ...LAYOUT.STYLE.ROW,
+    marginBottom: UNIT * 2.2,
+  },
 
   icon: {
-    height: SIZE * 0.6,
-    width: SIZE * 0.6,
+    height: SIZE * 0.7,
+    width: SIZE * 0.7,
   },
 
   label: {
+    marginBottom: 0,
     marginLeft: UNIT,
-    ...Platform.select({
-      web: {
-        userSelect: 'none',
-      },
-    }),
   },
 
   option: {

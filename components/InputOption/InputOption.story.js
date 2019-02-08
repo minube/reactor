@@ -19,8 +19,8 @@ storiesOf('✅ InputOption', module)
   .add('label', () => (
     <InputOption label={LABEL} />
   ))
-  .add('selected', () => (
-    <InputOption selected />
+  .add('value', () => (
+    <InputOption value />
   ))
   .add('rounded (false)', () => (
     <InputOption rounded={false} />
@@ -34,7 +34,7 @@ storiesOf('✅ InputOption', module)
   .add('🏀 Playground', () => (
     <InputOption
       label={text('label', LABEL)}
-      selected={boolean('selected', true)}
+      value={boolean('value', true)}
       rounded={boolean('rounded', true)}
       onChange={action('InputOption.onChange()')}
       style={object('style', style)}

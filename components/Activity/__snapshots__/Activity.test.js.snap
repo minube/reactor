@@ -3,7 +3,7 @@
 exports[`<Activity> renders 1`] = `
 <ActivityIndicator
   animating={true}
-  color="#e0e0e0"
+  color="#cdd2d4"
   hidesWhenStopped={true}
   size="small"
   style={
@@ -33,7 +33,7 @@ exports[`<Activity> when {color} 1`] = `
 exports[`<Activity> when {size} 1`] = `
 <ActivityIndicator
   animating={true}
-  color="#e0e0e0"
+  color="#cdd2d4"
   hidesWhenStopped={true}
   size="large"
   style={

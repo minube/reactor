@@ -18,12 +18,14 @@ class Input extends Component {
     disabled: bool,
     error: string,
     hint: string,
+    icon: string,
     keyboard: string,
     label: string,
     lines: number,
     onBlur: func,
     onChange: func,
     onFocus: func,
+    required: bool,
   };
 
   static defaultProps = {
@@ -31,12 +33,14 @@ class Input extends Component {
     disabled: false,
     error: undefined,
     hint: undefined,
+    icon: undefined,
     keyboard: 'default',
     label: undefined,
     lines: undefined,
     onBlur: undefined,
     onChange: undefined,
     onFocus: undefined,
+    required: false,
   };
 
   state = {
@@ -46,7 +50,7 @@ class Input extends Component {
   render() {
     const {
       props: {
-        color, disabled, error, hint, keyboard, label, lines, onBlur, onChange, onFocus, ...inherit
+        color, disabled, error, hint, icon, keyboard, label, lines, onBlur, onChange, onFocus, required, ...inherit
       },
       state: { focus },
     } = this;
@@ -54,10 +58,18 @@ class Input extends Component {
     return (
       <View style={[styles.container, inherit.style]}>
         { label && (
-          <InputLabel>
+          <InputLabel focus={focus} error={error}>
             {label}
           </InputLabel>)}
-        <View>
+        <View
+          style={[
+            styles.content,
+            disabled && styles.disabled,
+            !disabled && focus && (color ? { borderColor: color } : styles.focus),
+            !disabled && error && styles.error,
+          ]}
+        >
+          { icon && <Icon value={icon} style={styles.icon} />}
           <TextInput
             {...inherit}
             value={inherit.value || ''}
@@ -73,14 +85,9 @@ class Input extends Component {
             onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
             placeholderTextColor={COLOR.TEXT_LIGHTEN}
             underlineColorAndroid="transparent"
-            style={[
-              styles.input,
-              disabled && styles.inputDisabled,
-              !disabled && focus && (color ? { borderColor: color } : styles.inputFocus),
-              !disabled && error && styles.inputError,
-            ]}
+            style={[styles.input, disabled && styles.inputDisabled]}
           />
-          { error && <Icon value="closeContrast" style={styles.error} />}
+          { (error || required) && <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} /> }
         </View>
         { hint && (
           <InputHint>

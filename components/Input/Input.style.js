@@ -1,36 +1,50 @@
 import { Platform, StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { COLOR, FONT, UNIT } = THEME;
 
-const INPUT_HEIGHT = UNIT * 4.4;
-const ERROR_SIZE = UNIT * 1.8;
+const ICON_SIZE = UNIT * 2;
+const INPUT_HEIGHT = UNIT * 4.2;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: UNIT,
+    marginBottom: UNIT * 2.2,
+  },
+
+  content: {
+    ...LAYOUT.STYLE.ROW,
+    paddingHorizontal: UNIT / 2,
+    borderColor: COLOR.BASE,
+    borderWidth: 1,
+    borderRadius: UNIT / 4,
+  },
+
+  disabled: {
+    backgroundColor: COLOR.DISABLED,
   },
 
   error: {
-    backgroundColor: COLOR.ERROR,
-    borderRadius: UNIT,
-    height: ERROR_SIZE,
-    position: 'absolute',
-    right: UNIT,
-    top: (INPUT_HEIGHT / 2) - (ERROR_SIZE / 2),
-    width: ERROR_SIZE,
+    borderColor: COLOR.ERROR,
+  },
+
+  focus: {
+    borderColor: COLOR.PRIMARY,
+  },
+
+  icon: {
+    marginHorizontal: UNIT / 2,
+    height: ICON_SIZE,
+    width: ICON_SIZE,
   },
 
   input: {
     backgroundColor: COLOR.TRANSPARENT,
-    borderColor: COLOR.BASE,
-    borderWidth: 1,
-    borderRadius: UNIT / 4,
+    borderWidth: 0,
     color: COLOR.TEXT,
     fontSize: UNIT * 1.6,
     minHeight: INPUT_HEIGHT,
-    paddingHorizontal: UNIT,
+    paddingHorizontal: UNIT / 2,
     paddingVertical: UNIT * 0.75,
     width: '100%',
     ...Platform.select({
@@ -41,24 +55,11 @@ export default StyleSheet.create({
     ...FONT.INPUT,
   },
 
+  inputDisabled: {
+    color: COLOR.TEXT_LIGHTEN,
+  },
+
   multiline: {
     paddingVertical: UNIT * 0.5,
-  },
-
-  inputError: {
-    borderColor: COLOR.ERROR,
-  },
-
-  inputFocus: {
-    borderColor: COLOR.PRIMARY,
-  },
-
-  inputDisabled: {
-    color: COLOR.BASE,
-    backgroundColor: COLOR.BACKGROUND,
-  },
-
-  active: {
-    color: COLOR.SECONDARY,
   },
 });
