@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const { COLOR, UNIT } = THEME;
-const INPUT_HEIGHT = UNIT * 4.4;
+const INPUT_HEIGHT = UNIT * 4.2;
 
 export default StyleSheet.create({
   container: {

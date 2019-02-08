@@ -5,11 +5,11 @@ import { LAYOUT, THEME } from '../../common';
 const { COLOR, FONT, UNIT } = THEME;
 
 const ICON_SIZE = UNIT * 2;
-const INPUT_HEIGHT = UNIT * 4.4;
+const INPUT_HEIGHT = UNIT * 4.2;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: UNIT,
+    marginBottom: UNIT * 2.4,
   },
 
   content: {
@@ -20,8 +20,16 @@ export default StyleSheet.create({
     borderRadius: UNIT / 4,
   },
 
-  active: {
-    color: COLOR.SECONDARY,
+  disabled: {
+    backgroundColor: COLOR.DISABLED,
+  },
+
+  error: {
+    borderColor: COLOR.ERROR,
+  },
+
+  focus: {
+    borderColor: COLOR.PRIMARY,
   },
 
   icon: {
@@ -47,22 +55,11 @@ export default StyleSheet.create({
     ...FONT.INPUT,
   },
 
+  inputDisabled: {
+    color: COLOR.TEXT_LIGHTEN,
+  },
+
   multiline: {
     paddingVertical: UNIT * 0.5,
   },
-
-  inputError: {
-    borderColor: COLOR.ERROR,
-  },
-
-  inputFocus: {
-    borderColor: COLOR.PRIMARY,
-  },
-
-  inputDisabled: {
-    color: COLOR.BASE,
-    backgroundColor: COLOR.BACKGROUND,
-  },
-
-
 });

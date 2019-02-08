@@ -61,12 +61,14 @@ class Input extends Component {
           <InputLabel focus={focus} error={error}>
             {label}
           </InputLabel>)}
-        <View style={[
-          styles.content,
-          disabled && styles.inputDisabled,
-          !disabled && focus && (color ? { borderColor: color } : styles.inputFocus),
-          !disabled && error && styles.inputError,
-        ]}>
+        <View
+          style={[
+            styles.content,
+            disabled && styles.disabled,
+            !disabled && focus && (color ? { borderColor: color } : styles.focus),
+            !disabled && error && styles.error,
+          ]}
+        >
           { icon && <Icon value={icon} style={styles.icon} />}
           <TextInput
             {...inherit}
@@ -83,7 +85,7 @@ class Input extends Component {
             onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
             placeholderTextColor={COLOR.TEXT_LIGHTEN}
             underlineColorAndroid="transparent"
-            style={styles.input}
+            style={[styles.input, disabled && styles.inputDisabled]}
           />
           { (error || required) && <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} /> }
         </View>

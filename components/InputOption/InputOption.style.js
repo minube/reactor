@@ -9,7 +9,7 @@ const SIZE = UNIT * 2;
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
-    marginBottom: UNIT * 2.4,
+    marginBottom: UNIT * 2, // @TODO: This is a issue in current Design System
   },
 
   icon: {

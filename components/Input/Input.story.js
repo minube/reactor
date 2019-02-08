@@ -14,12 +14,7 @@ storiesOf('✅ Input', module)
   .add('color', () => (
     <Input color="green" />
   ))
-  .add('disabled', () => (
-    <Input disabled />
-  ))
-  .add('error', () => (
-    <Input error="Required field" />
-  ))
+
   .add('hint', () => (
     <Input hint="Optional fieldOptional fieldOptional fieldOptional fieldOptional fieldOptional field" />
   ))
@@ -40,6 +35,12 @@ storiesOf('✅ Input', module)
   ))
   .add('value', () => (
     <Input value="soyjavi.com" />
+  ))
+  .add('disabled', () => (
+    <Input disabled value="soyjavi.com" />
+  ))
+  .add('error', () => (
+    <Input error="Required field" value="soyjavi.com" />
   ))
   .add('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />

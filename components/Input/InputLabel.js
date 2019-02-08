@@ -13,7 +13,7 @@ const InputLabel = ({ focus, error, ...inherit }) => {
   if (focus) color = COLOR.PRIMARY;
   if (error) color = COLOR.ERROR;
 
-  return <Text {...inherit} color={color} subtitle level={3} lighten style={styles.container} />;
+  return <Text {...inherit} color={color} subtitle level={3} lighten style={[styles.container, inherit.style]} />;
 };
 
 InputLabel.propTypes = {

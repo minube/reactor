@@ -31,8 +31,15 @@ const ATTRIBUTES = {
   },
   bio: { lines: 4 },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
-  twitter: { icon: 'twitter', style: 'inline2' },
-  isPublic: { type: 'bool', style: 'inline2' },
+  twitter: { icon: 'twitter', style: 'inline3' },
+  isPublic: { type: 'bool', style: 'inline3' },
+  isPrivate: { type: 'bool', style: 'inline3' },
+
+  isOption1: { type: 'option', label: 'Option' },
+  isOption2: { type: 'option', label: 'Option 2' },
+  isOption3: { type: 'option', label: 'Option 3' },
+  isOptionRounded: { type: 'option', rounded: false, label: 'Checkbox' },
+
   social: {
     title: 'Social Networks',
     attributes: {
@@ -47,6 +54,7 @@ const ATTRIBUTES = {
 
 const VALUE = {
   username: 'soyjavi',
+  isPublic: true,
   social: {
     twitter: 'soyjavi',
     facebook: '😅',
