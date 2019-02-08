@@ -15,7 +15,7 @@ exports[`<InputOption> inherity:style 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 20,
+        "marginBottom": 22,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -127,7 +127,7 @@ exports[`<InputOption> label 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 20,
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -202,13 +202,16 @@ exports[`<InputOption> label 1`] = `
           "textAlignVertical": "center",
         },
         Object {
+          "fontFamily": undefined,
           "fontSize": 14,
-          "lineHeight": 24,
+          "fontWeight": "600",
+          "lineHeight": 16,
         },
         Object {
           "color": "#707070",
         },
         Object {
+          "marginBottom": 0,
           "marginLeft": 10,
         },
       ]
@@ -263,7 +266,7 @@ exports[`<InputOption> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 20,
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -372,7 +375,7 @@ exports[`<InputOption> rounded (false) 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 20,
+        "marginBottom": 22,
       },
       undefined,
     ]
@@ -479,7 +482,7 @@ exports[`<InputOption> value 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 20,
+        "marginBottom": 22,
       },
       undefined,
     ]

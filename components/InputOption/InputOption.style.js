@@ -1,4 +1,4 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
@@ -9,7 +9,7 @@ const SIZE = UNIT * 2;
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
-    marginBottom: UNIT * 2, // @TODO: This is a issue in current Design System
+    marginBottom: UNIT * 2.2,
   },
 
   icon: {
@@ -18,12 +18,8 @@ export default StyleSheet.create({
   },
 
   label: {
+    marginBottom: 0,
     marginLeft: UNIT,
-    ...Platform.select({
-      web: {
-        userSelect: 'none',
-      },
-    }),
   },
 
   option: {

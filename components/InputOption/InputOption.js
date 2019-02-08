@@ -3,8 +3,8 @@ import React, { Fragment } from 'react';
 import { View } from 'react-native';
 
 import Icon from '../Icon';
+import InputLabel from '../Input/InputLabel';
 import Motion from '../Motion';
-import Text from '../Text';
 import Touchable from '../Touchable';
 import styles from './InputOption.style';
 
@@ -19,9 +19,9 @@ const InputOption = ({
         </Motion>
       </View>
       { label && (
-        <Text level={2} lighten style={styles.label}>
+        <InputLabel style={styles.label}>
           {label}
-        </Text>)}
+        </InputLabel>)}
     </Fragment>
   </Touchable>
 );
