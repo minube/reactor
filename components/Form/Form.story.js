@@ -4,61 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
 
 import Form from './Form';
-
-const ATTRIBUTES = {
-  username: { required: true, defaultValue: 'soyjavi', icon: 'twitter' },
-  role: {
-    required: true,
-    type: 'select',
-    defaultValue: 'backend',
-    dataSource: ['frontend', 'backend', 'fullstack'],
-    style: 'inline2',
-  },
-  mail: {
-    keyboard: 'email-address',
-    placeholder: 'Your email...',
-    required: true,
-    style: 'inline2',
-    hint: 'we will not send you spam.'
-  },
-  phone: {
-    keyboard: 'phone-pad',
-    placeholder: '000 000 000',
-    style: 'inline2',
-  },
-  phoneCountryCode: {
-    countryCode: true,
-    keyboard: 'phone-pad',
-    placeholder: '+00 000 000 000',
-    hint: 'Using property countryCode',
-    style: 'inline2',
-  },
-  bio: { lines: 4 },
-  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
-  isPublic: { type: 'bool' },
-  social: {
-    title: 'Social Networks',
-    attributes: {
-      twitter: { style: 'inline3' },
-      facebook: { style: 'inline3' },
-      github: { style: 'inline3', required: true },
-    }
-  },
-  languages: { type: 'list' },
-  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
-};
-
-const VALUE = {
-  username: 'soyjavi',
-  social: {
-    twitter: 'soyjavi',
-    facebook: '😅',
-  },
-  languages: [ 'JavaScript', 'CoffeeScript', 'C++']
-};
+import { ATTRIBUTES, VALUE, STYLE } from './Form.mocks';
 
 const STORY_STYLE = { minWidth: 320, maxWidth: '50%', maxHeight: '80%' };
-const STYLE = { backgroundColor: 'rgba(255,255,255,1)', padding: 20 };
 
 class FormHOC extends Component {
   constructor(props) {
