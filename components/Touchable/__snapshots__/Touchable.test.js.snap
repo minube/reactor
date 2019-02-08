@@ -31,7 +31,7 @@ exports[`<Touchable> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -80,7 +80,7 @@ exports[`<Touchable> when {children} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -124,7 +124,7 @@ exports[`<Touchable> when {containerBorderRadius} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -213,7 +213,7 @@ exports[`<Touchable> when {style} 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
