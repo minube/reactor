@@ -3,17 +3,19 @@ import { Platform, StyleSheet } from 'react-native';
 import { THEME } from '../../common';
 
 const { COLOR, UNIT } = THEME;
+const INPUT_HEIGHT = UNIT * 4.4;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: UNIT,
+    marginBottom: UNIT * 2.4,
     maxWidth: '100%',
     overflow: 'hidden',
   },
 
   input: {
     backgroundColor: COLOR.TRANSPARENT,
-    paddingRight: UNIT * 0.5,
+    paddingRight: UNIT,
+    paddingLeft: UNIT / 2,
     borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
@@ -25,13 +27,13 @@ export default StyleSheet.create({
   },
 
   inputDisabled: {
-    backgroundColor: COLOR.BACKGROUND,
+    backgroundColor: COLOR.DISABLED,
   },
 
   picker: {
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
-    height: UNIT * 4.2,
+    height: INPUT_HEIGHT,
     ...Platform.select({
       web: {
         color: COLOR.TEXT,
@@ -47,19 +49,10 @@ export default StyleSheet.create({
 
   pickerDisabled: Platform.select({
     web: {
-      color: COLOR.BASE,
+      color: COLOR.TEXT_LIGHTEN,
     },
     android: {
-      color: COLOR.BASE,
-    },
-  }),
-
-  active: Platform.select({
-    web: {
-      color: COLOR.SECONDARY,
-    },
-    android: {
-      color: COLOR.SECONDARY,
+      color: COLOR.TEXT_LIGHTEN,
     },
   }),
 });
