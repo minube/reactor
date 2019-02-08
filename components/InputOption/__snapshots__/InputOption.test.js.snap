@@ -15,6 +15,7 @@ exports[`<InputOption> inherity:style 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 20,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -70,8 +71,8 @@ exports[`<InputOption> inherity:style 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -99,7 +100,7 @@ exports[`<InputOption> inherity:style 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -126,6 +127,7 @@ exports[`<InputOption> label 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -178,8 +180,8 @@ exports[`<InputOption> label 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -234,7 +236,7 @@ exports[`<InputOption> label 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -261,6 +263,7 @@ exports[`<InputOption> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -313,8 +316,8 @@ exports[`<InputOption> renders 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -342,7 +345,7 @@ exports[`<InputOption> renders 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -369,6 +372,7 @@ exports[`<InputOption> rounded (false) 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -419,8 +423,8 @@ exports[`<InputOption> rounded (false) 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -448,7 +452,7 @@ exports[`<InputOption> rounded (false) 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,
@@ -460,7 +464,7 @@ exports[`<InputOption> rounded (false) 1`] = `
 </View>
 `;
 
-exports[`<InputOption> selected 1`] = `
+exports[`<InputOption> value 1`] = `
 <View
   accessible={true}
   onResponderGrant={[Function]}
@@ -475,6 +479,7 @@ exports[`<InputOption> selected 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -530,8 +535,8 @@ exports[`<InputOption> selected 1`] = `
               "width": 20,
             },
             Object {
-              "height": 12,
-              "width": 12,
+              "height": 14,
+              "width": 14,
             },
             undefined,
           ]
@@ -559,7 +564,7 @@ exports[`<InputOption> selected 1`] = `
     <View
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "height": 0,
           "opacity": 0,
           "width": 0,

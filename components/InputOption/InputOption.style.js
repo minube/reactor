@@ -7,11 +7,14 @@ const { COLOR, UNIT } = THEME;
 const SIZE = UNIT * 2;
 
 export default StyleSheet.create({
-  container: LAYOUT.STYLE.ROW,
+  container: {
+    ...LAYOUT.STYLE.ROW,
+    marginBottom: UNIT * 2, // @TODO: This is a issue in current Design System
+  },
 
   icon: {
-    height: SIZE * 0.6,
-    width: SIZE * 0.6,
+    height: SIZE * 0.7,
+    width: SIZE * 0.7,
   },
 
   label: {

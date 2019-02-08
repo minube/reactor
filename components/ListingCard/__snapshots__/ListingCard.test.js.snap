@@ -34,7 +34,7 @@ exports[`<ListingCard> renders 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -156,7 +156,7 @@ exports[`<ListingCard> renders 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -211,7 +211,7 @@ exports[`<ListingCard> when {category} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -333,7 +333,7 @@ exports[`<ListingCard> when {category} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -414,7 +414,7 @@ exports[`<ListingCard> when {children} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -536,7 +536,7 @@ exports[`<ListingCard> when {children} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -736,7 +736,7 @@ exports[`<ListingCard> when {description} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -858,7 +858,7 @@ exports[`<ListingCard> when {description} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -940,7 +940,7 @@ exports[`<ListingCard> when {image} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -1062,7 +1062,7 @@ exports[`<ListingCard> when {image} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1117,7 +1117,7 @@ exports[`<ListingCard> when {rating} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -1239,7 +1239,7 @@ exports[`<ListingCard> when {rating} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1467,7 +1467,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -1589,7 +1589,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,
@@ -1644,7 +1644,7 @@ exports[`<ListingCard> when {title} 1`] = `
         style={
           Array [
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
             },
             Object {
               "borderRadius": 3,
@@ -1766,7 +1766,7 @@ exports[`<ListingCard> when {title} 1`] = `
         <View
           style={
             Object {
-              "backgroundColor": "#e0e0e0",
+              "backgroundColor": "#cdd2d4",
               "height": 0,
               "opacity": 0,
               "width": 0,

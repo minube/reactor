@@ -5,7 +5,7 @@ exports[`<InputPicker> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -18,10 +18,11 @@ exports[`<InputPicker> renders 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -66,7 +67,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -79,15 +80,16 @@ exports[`<InputPicker> when {disabled} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         false,
         Object {
-          "backgroundColor": "#F5F5F6",
+          "backgroundColor": "#f4f4f4",
         },
       ]
     }
@@ -129,7 +131,7 @@ exports[`<InputPicker> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -142,10 +144,11 @@ exports[`<InputPicker> when {error} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         Object {
@@ -192,7 +195,7 @@ exports[`<InputPicker> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -205,10 +208,11 @@ exports[`<InputPicker> when {hint} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -266,8 +270,9 @@ exports[`<InputPicker> when {hint} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginTop": 2.5,
+          "marginTop": 4,
           "maxWidth": "100%",
+          "paddingLeft": 10,
         },
       ]
     }
@@ -282,7 +287,7 @@ exports[`<InputPicker> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -312,7 +317,8 @@ exports[`<InputPicker> when {label} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginBottom": 2.5,
+          "marginBottom": 6,
+          "marginLeft": 10,
         },
       ]
     }
@@ -324,10 +330,11 @@ exports[`<InputPicker> when {label} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -372,7 +379,7 @@ exports[`<InputPicker> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -389,10 +396,11 @@ exports[`<InputPicker> when {style} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -437,7 +445,7 @@ exports[`<InputPicker> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 10,
+        "marginBottom": 24,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -450,10 +458,11 @@ exports[`<InputPicker> when {value} 1`] = `
       Array [
         Object {
           "backgroundColor": "transparent",
-          "borderColor": "#e0e0e0",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,

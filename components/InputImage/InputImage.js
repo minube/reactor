@@ -1,4 +1,4 @@
-import { bool, func, string } from 'prop-types';
+import { string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
@@ -8,20 +8,10 @@ import styles from './InputImage.style';
 
 class InputImage extends PureComponent {
   static propTypes = {
-    disabled: bool,
-    error: string,
-    hint: string,
-    label: string,
-    onChange: func,
     value: string,
   };
 
   static defaultProps = {
-    disabled: false,
-    error: undefined,
-    hint: undefined,
-    label: undefined,
-    onChange() {},
     value: '',
   };
 

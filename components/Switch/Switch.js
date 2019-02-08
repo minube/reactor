@@ -14,14 +14,16 @@ const Switch = ({
   <View style={[styles.container, inherit.style]}>
     <SwitchNative
       {...inherit}
-      value={inherit.value || false}
-      activeThumbColor={color || COLOR.PRIMARY}
-      activeTrackColor={COLOR.BASE}
+      activeThumbColor={COLOR.WHITE}
+      activeTrackColor={color || COLOR.PRIMARY}
       onValueChange={onChange}
       style={styles.switch}
+      trackColor={COLOR.BASE}
+      thumbColor={COLOR.WHITE}
+      value={inherit.value || false}
     />
     { label && (
-      <InputLabel>
+      <InputLabel style={styles.label}>
         {label}
       </InputLabel>)}
   </View>

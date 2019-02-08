@@ -9,12 +9,12 @@ import Touchable from '../Touchable';
 import styles from './InputOption.style';
 
 const InputOption = ({
-  label, onChange, rounded, selected, ...inherit
+  label, onChange, rounded, value, ...inherit
 }) => (
-  <Touchable onPress={onChange ? () => onChange(!selected) : undefined} style={[styles.container, inherit.style]}>
+  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, inherit.style]}>
     <Fragment>
-      <View style={[styles.option, rounded && styles.rounded, selected && styles.selected]}>
-        <Motion preset="pop" visible={selected}>
+      <View style={[styles.option, rounded && styles.rounded, value && styles.selected]}>
+        <Motion preset="pop" visible={value}>
           <Icon value="doneContrast" reverse style={styles.icon} />
         </Motion>
       </View>
@@ -30,14 +30,14 @@ InputOption.propTypes = {
   label: string,
   onChange: func,
   rounded: bool,
-  selected: bool,
+  value: bool,
 };
 
 InputOption.defaultProps = {
   label: undefined,
   onChange: undefined,
   rounded: true,
-  selected: false,
+  value: false,
 };
 
 export default InputOption;

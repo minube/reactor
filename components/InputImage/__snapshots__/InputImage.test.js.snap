@@ -5,7 +5,7 @@ exports[`<InputImage> renders 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -17,7 +17,7 @@ exports[`<InputImage> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -28,7 +28,24 @@ exports[`<InputImage> renders 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -38,28 +55,23 @@ exports[`<InputImage> renders 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             false,
-            false,
-            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -75,7 +87,7 @@ exports[`<InputImage> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -87,7 +99,7 @@ exports[`<InputImage> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -98,7 +110,26 @@ exports[`<InputImage> when {disabled} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          Object {
+            "backgroundColor": "#f4f4f4",
+          },
+          false,
+          false,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -108,31 +139,25 @@ exports[`<InputImage> when {disabled} 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             Object {
-              "backgroundColor": "#F5F5F6",
-              "color": "#e0e0e0",
+              "color": "#707070",
             },
-            false,
-            false,
           ]
         }
         underlineColorAndroid="transparent"
@@ -148,7 +173,7 @@ exports[`<InputImage> when {error} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -160,7 +185,7 @@ exports[`<InputImage> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -171,7 +196,26 @@ exports[`<InputImage> when {error} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          Object {
+            "borderColor": "#d33c44",
+          },
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -181,30 +225,23 @@ exports[`<InputImage> when {error} 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             false,
-            false,
-            Object {
-              "borderColor": "#d33c44",
-            },
           ]
         }
         underlineColorAndroid="transparent"
@@ -214,7 +251,7 @@ exports[`<InputImage> when {error} 1`] = `
         resizeMode="contain"
         source={
           Object {
-            "testUri": "../../../components/Icon/assets/close_contrast.png",
+            "testUri": "../../../components/Icon/assets/error.png",
           }
         }
         style={
@@ -225,13 +262,9 @@ exports[`<InputImage> when {error} 1`] = `
               "width": 20,
             },
             Object {
-              "backgroundColor": "#d33c44",
-              "borderRadius": 10,
-              "height": 18,
-              "position": "absolute",
-              "right": 10,
-              "top": 13,
-              "width": 18,
+              "height": 20,
+              "marginHorizontal": 5,
+              "width": 20,
             },
             undefined,
           ]
@@ -247,7 +280,7 @@ exports[`<InputImage> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -259,7 +292,7 @@ exports[`<InputImage> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -270,7 +303,24 @@ exports[`<InputImage> when {hint} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -280,28 +330,23 @@ exports[`<InputImage> when {hint} 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             false,
-            false,
-            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -329,8 +374,9 @@ exports[`<InputImage> when {hint} 1`] = `
             "color": "#707070",
           },
           Object {
-            "marginTop": 2.5,
+            "marginTop": 4,
             "maxWidth": "100%",
+            "paddingLeft": 10,
           },
         ]
       }
@@ -346,7 +392,7 @@ exports[`<InputImage> when {label} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -358,7 +404,7 @@ exports[`<InputImage> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -391,14 +437,32 @@ exports[`<InputImage> when {label} 1`] = `
             "color": "#707070",
           },
           Object {
-            "marginBottom": 2.5,
+            "marginBottom": 6,
+            "marginLeft": 10,
           },
         ]
       }
     >
       Hello World
     </Text>
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -408,32 +472,132 @@ exports[`<InputImage> when {label} 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             false,
-            false,
-            undefined,
           ]
         }
         underlineColorAndroid="transparent"
         value=""
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputImage> when {required} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 24,
+        },
+        Array [
+          Object {
+            "flex": 1,
+          },
+          false,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 42,
+              "paddingHorizontal": 5,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/error_outline.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 20,
+              "marginHorizontal": 5,
+              "width": 20,
+            },
+            undefined,
+          ]
+        }
       />
     </View>
   </View>
@@ -445,7 +609,7 @@ exports[`<InputImage> when {style} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -460,7 +624,7 @@ exports[`<InputImage> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -471,7 +635,24 @@ exports[`<InputImage> when {style} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -481,28 +662,23 @@ exports[`<InputImage> when {style} 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             false,
-            false,
-            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -518,7 +694,7 @@ exports[`<InputImage> when {value} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "flex-start",
+        "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -536,10 +712,11 @@ exports[`<InputImage> when {value} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "borderRadius": 3,
-          "height": 63,
-          "width": 63,
+          "height": 44,
+          "marginBottom": 1,
+          "width": 44,
         },
       ]
     }
@@ -553,10 +730,11 @@ exports[`<InputImage> when {value} 1`] = `
       }
       style={
         Object {
-          "backgroundColor": "#e0e0e0",
+          "backgroundColor": "#cdd2d4",
           "borderRadius": 3,
-          "height": 63,
-          "width": 63,
+          "height": 44,
+          "marginBottom": 1,
+          "width": 44,
         }
       }
     />
@@ -579,7 +757,7 @@ exports[`<InputImage> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 10,
+          "marginBottom": 24,
         },
         Array [
           Object {
@@ -592,7 +770,24 @@ exports[`<InputImage> when {value} 1`] = `
       ]
     }
   >
-    <View>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 5,
+          },
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
       <TextInput
         allowFontScaling={true}
         autoCapitalize="none"
@@ -602,28 +797,23 @@ exports[`<InputImage> when {value} 1`] = `
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
-        onChangeText={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#707070"
         style={
           Array [
             Object {
               "backgroundColor": "transparent",
-              "borderColor": "#e0e0e0",
-              "borderRadius": 2.5,
-              "borderWidth": 1,
+              "borderWidth": 0,
               "color": "#4a4a4a",
               "fontFamily": undefined,
               "fontSize": 16,
               "fontWeight": "400",
-              "minHeight": 44,
-              "paddingHorizontal": 10,
+              "minHeight": 42,
+              "paddingHorizontal": 5,
               "paddingVertical": 7.5,
               "width": "100%",
             },
             false,
-            false,
-            undefined,
           ]
         }
         underlineColorAndroid="transparent"

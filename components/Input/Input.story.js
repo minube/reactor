@@ -14,14 +14,12 @@ storiesOf('✅ Input', module)
   .add('color', () => (
     <Input color="green" />
   ))
-  .add('disabled', () => (
-    <Input disabled />
-  ))
-  .add('error', () => (
-    <Input error="Required field" />
-  ))
+
   .add('hint', () => (
     <Input hint="Optional fieldOptional fieldOptional fieldOptional fieldOptional fieldOptional field" />
+  ))
+  .add('icon', () => (
+    <Input icon="email" />
   ))
   .add('keyboard (numeric)', () => (
     <Input keyboard="numeric" />
@@ -32,8 +30,17 @@ storiesOf('✅ Input', module)
   .add('lines', () => (
     <Input lines={5} />
   ))
+  .add('required', () => (
+    <Input required />
+  ))
   .add('value', () => (
     <Input value="soyjavi.com" />
+  ))
+  .add('disabled', () => (
+    <Input disabled value="soyjavi.com" />
+  ))
+  .add('error', () => (
+    <Input error="Required field" value="soyjavi.com" />
   ))
   .add('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />
@@ -59,6 +66,7 @@ storiesOf('✅ Input', module)
       keyboard={select('type', ['default', 'numeric', 'email-address', 'phone-pad'], 'default')}
       label={text('label', null)}
       lines={number('lines', 1)}
+      required={boolean('required', false)}
       value={text('value', null)}
       style={object('style', STYLE)}
     />

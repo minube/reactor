@@ -2,61 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import Form from './Form';
-
-const ATTRIBUTES = {
-  username: { required: true },
-  role: {
-    required: true,
-    type: 'select',
-    defaultValue: 'backend',
-    dataSource: ['frontend', 'backend', 'fullstack'],
-    style: 'inline2',
-  },
-  mail: {
-    keyboard: 'email-address',
-    placeholder: 'Your email...',
-    required: true,
-    style: 'inline2',
-    hint: 'we will not send you spam.'
-  },
-  phone: {
-    keyboard: 'phone-pad',
-    placeholder: '000 000 000',
-    style: 'inline2',
-  },
-  phoneCountryCode: {
-    countryCode: true,
-    keyboard: 'phone-pad',
-    placeholder: '+00 000 000 000',
-    hint: 'Using property countryCode',
-    style: 'inline2',
-  },
-  bio: { lines: 4 },
-  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
-  isPublic: { type: 'bool' },
-  social: {
-    title: 'Social Networks',
-    attributes: {
-      twitter: { style: 'inline3' },
-      facebook: { style: 'inline3' },
-      github: { style: 'inline3', required: true },
-    }
-  },
-  languages: { type: 'list' },
-  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
-};
-
-const DATA = {
-  username: 'soyjavi',
-  mail: 'hello@soyjavi.com',
-  social: {
-    twitter: 'soyjavi',
-    facebook: '😅',
-  }
-};
-
-const STORY_STYLE = { maxWidth: '50%', maxHeight: '80%' };
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
+import { ATTRIBUTES, VALUE, STYLE } from './Form.mocks';
 
 const EVENT = () => {};
 
@@ -76,8 +22,8 @@ describe('<Form>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {data}', () => {
-    const tree = renderer.create(<Form attributes={ATTRIBUTES} data={DATA} />).toJSON();
+  it('when {value}', () => {
+    const tree = renderer.create(<Form attributes={ATTRIBUTES} value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
