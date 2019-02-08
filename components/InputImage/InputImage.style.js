@@ -5,10 +5,7 @@ import { LAYOUT, THEME } from '../../common';
 const { BORDER_RADIUS, COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
-  container: {
-    ...LAYOUT.STYLE.ROW,
-    alignItems: 'flex-start',
-  },
+  container: LAYOUT.STYLE.ROW,
 
   input: {
     flex: 1,
@@ -19,9 +16,10 @@ export default StyleSheet.create({
   },
 
   image: {
-    width: UNIT * 6.3,
-    height: UNIT * 6.3,
+    width: UNIT * 4.6,
+    height: UNIT * 4.6,
     borderRadius: BORDER_RADIUS,
     backgroundColor: COLOR.BASE,
+    marginBottom: UNIT * 0.1,
   },
 });
