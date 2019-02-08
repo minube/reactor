@@ -7,7 +7,7 @@ const INPUT_HEIGHT = UNIT * 4.2;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: UNIT * 2.4,
+    marginBottom: UNIT * 2.2,
     maxWidth: '100%',
     overflow: 'hidden',
   },

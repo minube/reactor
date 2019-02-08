@@ -5,7 +5,7 @@ exports[`<InputPicker> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -67,7 +67,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -131,7 +131,7 @@ exports[`<InputPicker> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -195,7 +195,7 @@ exports[`<InputPicker> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -287,7 +287,7 @@ exports[`<InputPicker> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -379,7 +379,7 @@ exports[`<InputPicker> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },
@@ -445,7 +445,7 @@ exports[`<InputPicker> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "maxWidth": "100%",
         "overflow": "hidden",
       },

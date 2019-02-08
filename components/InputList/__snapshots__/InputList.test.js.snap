@@ -5,7 +5,7 @@ exports[`<InputList> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -16,7 +16,7 @@ exports[`<InputList> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -85,7 +85,7 @@ exports[`<InputList> when {dataSource} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -96,7 +96,7 @@ exports[`<InputList> when {dataSource} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -165,7 +165,7 @@ exports[`<InputList> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -176,7 +176,7 @@ exports[`<InputList> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -249,7 +249,7 @@ exports[`<InputList> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -260,7 +260,7 @@ exports[`<InputList> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -354,7 +354,7 @@ exports[`<InputList> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -365,7 +365,7 @@ exports[`<InputList> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -464,7 +464,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -475,7 +475,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -1476,7 +1476,7 @@ exports[`<InputList> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -1487,7 +1487,7 @@ exports[`<InputList> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -1586,7 +1586,7 @@ exports[`<InputList> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       Object {
@@ -1600,7 +1600,7 @@ exports[`<InputList> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,
@@ -1669,7 +1669,7 @@ exports[`<InputList> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 24,
+        "marginBottom": 22,
         "zIndex": 1,
       },
       undefined,
@@ -1680,7 +1680,7 @@ exports[`<InputList> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Object {
           "marginBottom": 0,

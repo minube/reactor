@@ -17,7 +17,7 @@ exports[`<InputImage> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -99,7 +99,7 @@ exports[`<InputImage> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -185,7 +185,7 @@ exports[`<InputImage> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -292,7 +292,7 @@ exports[`<InputImage> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -404,7 +404,7 @@ exports[`<InputImage> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -516,7 +516,7 @@ exports[`<InputImage> when {required} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -624,7 +624,7 @@ exports[`<InputImage> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {
@@ -757,7 +757,7 @@ exports[`<InputImage> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 24,
+          "marginBottom": 22,
         },
         Array [
           Object {

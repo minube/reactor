@@ -20,7 +20,7 @@ export default StyleSheet.create({
     borderColor: COLOR.BASE,
     borderRadius: UNIT / 4,
     borderWidth: 1,
-    marginBottom: UNIT * 2.4,
+    marginBottom: UNIT * 2.2,
   },
 
   row: {

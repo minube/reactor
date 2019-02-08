@@ -9,7 +9,7 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     alignSelf: 'flex-end',
     height: UNIT * 4.4,
-    marginBottom: UNIT * 2.4,
+    marginBottom: UNIT * 2.2,
   },
 
   label: {
