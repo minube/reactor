@@ -42,11 +42,11 @@ export default StyleSheet.create({
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
     color: COLOR.TEXT,
+    flex: 1,
     fontSize: UNIT * 1.6,
     minHeight: INPUT_HEIGHT,
     paddingHorizontal: UNIT / 2,
     paddingVertical: UNIT * 0.75,
-    width: '100%',
     ...Platform.select({
       web: {
         outline: 'none',
