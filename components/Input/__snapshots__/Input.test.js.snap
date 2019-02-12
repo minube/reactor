@@ -53,6 +53,7 @@ exports[`<Input> renders 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -117,6 +118,7 @@ exports[`<Input> when {color} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -183,6 +185,7 @@ exports[`<Input> when {disabled} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           Object {
             "color": "#707070",
@@ -251,6 +254,7 @@ exports[`<Input> when {error} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -338,6 +342,7 @@ exports[`<Input> when {hint} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -455,6 +460,7 @@ exports[`<Input> when {icon} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -519,6 +525,7 @@ exports[`<Input> when {keyboard} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -613,6 +620,7 @@ exports[`<Input> when {label} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -678,6 +686,7 @@ exports[`<Input> when {lines} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -742,6 +751,7 @@ exports[`<Input> when {required} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -833,6 +843,7 @@ exports[`<Input> when {style} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]
@@ -897,6 +908,7 @@ exports[`<Input> when {value} 1`] = `
             "minHeight": 42,
             "paddingHorizontal": 5,
             "paddingVertical": 7.5,
+            "width": "100%",
           },
           false,
         ]

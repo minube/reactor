@@ -75,6 +75,7 @@ export default class Dialog extends PureComponent {
                 maxHeight: PORTRAIT ? '100%' : '90%',
                 minWidth: PORTRAIT ? 320 : '33%',
                 maxWidth: PORTRAIT ? '100%' : '66%',
+                position: 'absolute',
               },
               { backgroundColor: COLOR.TRANSPARENT },
             ]}

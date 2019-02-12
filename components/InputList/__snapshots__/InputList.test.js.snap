@@ -68,6 +68,7 @@ exports[`<InputList> renders 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -148,6 +149,7 @@ exports[`<InputList> when {dataSource} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -230,6 +232,7 @@ exports[`<InputList> when {disabled} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             Object {
               "color": "#707070",
@@ -314,6 +317,7 @@ exports[`<InputList> when {error} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -417,6 +421,7 @@ exports[`<InputList> when {hint} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -527,6 +532,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -1569,6 +1575,7 @@ exports[`<InputList> when {label} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -1652,6 +1659,7 @@ exports[`<InputList> when {style} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -1732,6 +1740,7 @@ exports[`<InputList> when {value} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]

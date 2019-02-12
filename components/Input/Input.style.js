@@ -47,6 +47,7 @@ export default StyleSheet.create({
     minHeight: INPUT_HEIGHT,
     paddingHorizontal: UNIT / 2,
     paddingVertical: UNIT * 0.75,
+    width: '100%',
     ...Platform.select({
       web: {
         outline: 'none',

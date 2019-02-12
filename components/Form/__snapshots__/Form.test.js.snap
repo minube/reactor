@@ -153,6 +153,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 Object {
                   "color": "#707070",
@@ -273,6 +274,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -477,6 +479,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -625,6 +628,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -721,6 +725,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -846,6 +851,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -1011,6 +1017,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -1129,6 +1136,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -1998,6 +2006,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -2115,6 +2124,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -2209,6 +2219,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -2341,6 +2352,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -2776,6 +2788,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 Object {
                   "color": "#707070",
@@ -2896,6 +2909,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -3100,6 +3114,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -3248,6 +3263,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -3344,6 +3360,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -3469,6 +3486,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -3634,6 +3652,7 @@ exports[`<Form> when {value} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -3752,6 +3771,7 @@ exports[`<Form> when {value} 1`] = `
                   "minHeight": 42,
                   "paddingHorizontal": 5,
                   "paddingVertical": 7.5,
+                  "width": "100%",
                 },
                 false,
               ]
@@ -4621,6 +4641,7 @@ exports[`<Form> when {value} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -4738,6 +4759,7 @@ exports[`<Form> when {value} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -4832,6 +4854,7 @@ exports[`<Form> when {value} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
@@ -4964,6 +4987,7 @@ exports[`<Form> when {value} 1`] = `
                     "minHeight": 42,
                     "paddingHorizontal": 5,
                     "paddingVertical": 7.5,
+                    "width": "100%",
                   },
                   false,
                 ]
