@@ -14,6 +14,7 @@ import InputImage from './InputImage';
 import InputList from './InputList';
 import InputOption from './InputOption';
 import InputPicker from './InputPicker';
+import InputSelect from './InputSelect';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
 import ListingCard from './ListingCard';
@@ -50,6 +51,7 @@ export {
   InputList,
   InputOption,
   InputPicker,
+  InputSelect,
   LayoutView,
   LayoutConsumer,
   Link,
