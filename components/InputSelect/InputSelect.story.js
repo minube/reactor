@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
 import { text, boolean, number, object, select } from '@storybook/addon-knobs/react';
@@ -21,42 +21,66 @@ const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }
 const LABEL = 'Username';
 const HINT = 'Optional field';
 
+class HOC extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { value: props.value };
+  }
+
+  componentWillReceiveProps({ value }) {
+    this.setState({ value });
+  }
+
+  _onChange = (value) => {
+    const { props: { onChange } } = this;
+    ;
+    this.setState({ value });
+    if (onChange) onChange(value);
+  }
+
+  render() {
+    const { _onChange, props, state: { value } } = this;
+
+    return <InputSelect {...props} value={value} onChange={_onChange} />
+  }
+}
+
 storiesOf('✅ InputSelect', module)
   .add('default', () => (
-    <InputSelect />
+    <HOC />
   ))
   .add('datasource', () => (
-    <InputSelect datasource dataSource={DATASOURCE} />
+    <HOC datasource dataSource={DATASOURCE} />
   ))
   .add('disabled', () => (
-    <InputSelect disabled dataSource={DATASOURCE} />
+    <HOC disabled dataSource={DATASOURCE} />
   ))
   .add('error', () => (
-    <InputSelect error="Required field" dataSource={DATASOURCE} />
+    <HOC error="Required field" dataSource={DATASOURCE} />
   ))
   .add('hint', () => (
-    <InputSelect hint={HINT} dataSource={DATASOURCE} />
+    <HOC hint={HINT} dataSource={DATASOURCE} />
   ))
   .add('label', () => (
-    <InputSelect label={LABEL} dataSource={DATASOURCE} />
+    <HOC label={LABEL} dataSource={DATASOURCE} />
   ))
   .add('value', () => (
-    <InputSelect value="three" dataSource={DATASOURCE} />
+    <HOC value={3} dataSource={DATASOURCE} />
   ))
   .add('⚡ onChange', () => (
-    <InputSelect onChange={action('InputSelect.onChange()')} title="Press me" dataSource={DATASOURCE} />
+    <HOC onChange={action('InputSelect.onChange()')} title="Press me" dataSource={DATASOURCE} />
   ))
   .add('style', () => (
-    <InputSelect style={STYLE} dataSource={DATASOURCE} />
+    <HOC style={STYLE} dataSource={DATASOURCE} />
   ))
   .add('🏀 Playground', () => (
-    <InputSelect
+    <HOC
       dataSource={object('dataSource', DATASOURCE)}
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', HINT)}
       label={text('label', LABEL)}
-      value={text('value', null)}
+      value={number('value', 3)}
       style={object('style', STYLE)}
     />
   ))

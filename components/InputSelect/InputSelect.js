@@ -4,7 +4,9 @@ import {
 import React, { PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
+import Button from '../Button';
 import { InputHint, InputLabel } from '../Input';
+import Motion from '../Motion';
 import Item from './InputSelectItem';
 import styles from './InputSelect.style';
 
@@ -54,25 +56,24 @@ class InputSelect extends PureComponent {
       state: { active },
     } = this;
     const selectedValue = inherit.value || 0;
+    const event = !disabled && dataSource.length > 1 ? _onToggleDataSource : undefined;
 
     return (
-      <View style={[styles.container, styles.content, inherit.style]}>
+      <View style={[styles.container, inherit.style]}>
         { label && (
           <InputLabel error={error}>
             {label}
           </InputLabel>)}
-        <View
-          style={[
-            styles.input,
-            !disabled && error && styles.inputError,
-            disabled && styles.inputDisabled,
-          ]}
+
+        <Motion
+          style={[styles.button, label && styles.marginLabel]}
+          timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
         >
-          <Template
-            {...dataSource[selectedValue]}
-            onPress={_onToggleDataSource}
-            selected
-          />
+          <Button contained={false} icon="expand" onPress={event} />
+        </Motion>
+
+        <View style={[styles.content, !disabled && error && styles.error, disabled && styles.disabled]}>
+          <Template {...dataSource[selectedValue]} disabled={disabled} onPress={event} selected />
         </View>
         { hint && (
           <InputHint>
@@ -80,11 +81,11 @@ class InputSelect extends PureComponent {
           </InputHint>)}
 
         { active && (
-          <ScrollView style={[styles.dataSource, styles.content]}>
-            { dataSource.map((value, index) => (
+          <ScrollView style={[styles.dataSource, styles.content, label && styles.marginLabel]}>
+            { dataSource.map((item, index) => (
               <Template
-                key={value.title}
-                {...value}
+                key={item.title}
+                {...item}
                 onPress={() => _onItem(index)}
                 selected={index === selectedValue}
               />

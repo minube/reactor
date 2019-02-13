@@ -13,6 +13,7 @@ const { COLOR } = THEME;
 class Template extends PureComponent {
   static propTypes = {
     caption: string,
+    disabled: bool,
     onPress: func,
     selected: bool,
     title: string.isRequired,
@@ -20,13 +21,14 @@ class Template extends PureComponent {
 
   static defaultProps = {
     caption: undefined,
+    disabled: undefined,
     onPress: undefined,
     selected: false,
   };
 
   render() {
     const {
-      caption, title, onPress, selected,
+      caption, disabled, title, onPress, selected,
     } = this.props;
 
     return (
@@ -34,7 +36,7 @@ class Template extends PureComponent {
         <View style={styles.container}>
           <InputOption value={selected} style={{ marginBottom: 0 }} />
           <View style={styles.texts}>
-            <Text level={2}>
+            <Text lighten={disabled} style={styles.title}>
               {title}
             </Text>
             { caption && (
