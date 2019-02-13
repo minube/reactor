@@ -2,6 +2,7 @@ import close from './close.png';
 import closeContrast from './close_contrast.png';
 import doneContrast from './done_contrast.png';
 import email from './email.png';
+import expand from './expand.png';
 import error from './error.png';
 import errorOutline from './error_outline.png';
 import facebook from './facebook.png';
@@ -19,6 +20,7 @@ export default {
   email,
   error,
   errorOutline,
+  expand,
   facebook,
   google,
   left,
