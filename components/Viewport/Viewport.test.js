@@ -17,11 +17,6 @@ describe('<Viewport>', () => {
     expect(renderer).toMatchSnapshot();
   });
 
-  it('when {onBack}', () => {
-    const renderer = TestRenderer.create(<Viewport onBack={() => {}} />).toJSON();
-    expect(renderer).toMatchSnapshot();
-  });
-
   it('when {onScroll}', () => {
     const renderer = TestRenderer.create(<Viewport onScroll={() => {}} />).toJSON();
     expect(renderer).toMatchSnapshot();
@@ -39,6 +34,11 @@ describe('<Viewport>', () => {
 
   it('when {visible}', () => {
     const renderer = TestRenderer.create(<Viewport visible />).toJSON();
+    expect(renderer).toMatchSnapshot();
+  });
+
+  it('when {backward}', () => {
+    const renderer = TestRenderer.create(<Viewport backward visible />).toJSON();
     expect(renderer).toMatchSnapshot();
   });
 });

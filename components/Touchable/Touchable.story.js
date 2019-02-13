@@ -19,35 +19,35 @@ const Child = () => (
 );
 
 storiesOf('✅ Touchable', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Touchable />
   ))
-  .addWithJSX('children', () => (
+  .add('children', () => (
     <Touchable>
       <Child />
     </Touchable>
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .add('⚡ onPress', () => (
     <Touchable onPress={action('Touchable.onPress()')}>
       <Child />
     </Touchable>
   ))
-  .addWithJSX('rippleColor (non-android)', () => (
+  .add('rippleColor', () => (
     <Touchable onPress={() => {}} rippleColor="red">
       <Child />
     </Touchable>
   ))
-  .addWithJSX('containerBorderRadius (non-android)', () => (
+  .add('containerBorderRadius', () => (
     <Touchable onPress={() => {}} containerBorderRadius={48}>
       <Child />
     </Touchable>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Touchable onPress={() => {}} style={STYLE}>
       <Child />
     </Touchable>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Touchable
       onPress={action('Touchable.onPress()')}
       rippleColor={color('rippleColor', undefined)}

@@ -15,7 +15,7 @@ export default {
 
   MOTION: {
     property: string,
-    value: number,
+    value: oneOfType([number, string]),
   },
 
   SESSION: {

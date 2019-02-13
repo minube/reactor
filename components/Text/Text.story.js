@@ -5,76 +5,85 @@ import { text, color, boolean, number } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import Text from './Text';
 
+const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
 const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+const style = {
+  backgroundColor: 'rgba(0,255,0,0.25)',
+  padding: 10,
+};
 
 storiesOf('✅ Text', module)
-  .addWithJSX('default', () => (
-    <Text>Hello World</Text>
+  .add('default', () => (
+    <Text>{LIPSUM}</Text>
   ))
-  .addWithJSX('tiny', () => (
-    <Text tiny>Hello World</Text>
+  .add('headline (0)', () => (
+    <Text headline level={0}>{LOREM}</Text>
   ))
-  .addWithJSX('small', () => (
-    <Text small>Hello World</Text>
+  .add('headline (1)', () => (
+    <Text headline level={1}>{LOREM}</Text>
   ))
-  .addWithJSX('large', () => (
-    <Text large>Hello World</Text>
+  .add('headline (2)', () => (
+    <Text headline level={2}>{LOREM}</Text>
   ))
-  .addWithJSX('subtitle', () => (
-    <Text subtitle>Hello World</Text>
+  .add('headline (3)', () => (
+    <Text headline level={3}>{LOREM}</Text>
   ))
-  .addWithJSX('title', () => (
-    <Text title>Hello World</Text>
+  .add('headline (4)', () => (
+    <Text headline level={4}>{LOREM}</Text>
   ))
-  .addWithJSX('lighter', () => (
-    <Text lighter>Hello World</Text>
+  .add('headline (5)', () => (
+    <Text headline level={5}>{LOREM}</Text>
   ))
-  .addWithJSX('semibold', () => (
-    <Text semibold>Hello World</Text>
+  .add('headline (6)', () => (
+    <Text headline level={6}>{LOREM}</Text>
   ))
-  .addWithJSX('bold', () => (
-    <Text bold>Hello World</Text>
+  .add('subtitle (1)', () => (
+    <Text subtitle level={1}>{LIPSUM}</Text>
   ))
-  .addWithJSX('italic', () => (
-    <Text italic>Hello World</Text>
+  .add('subtitle (2)', () => (
+    <Text subtitle level={2}>{LIPSUM}</Text>
   ))
-  .addWithJSX('primary', () => (
-    <Text primary>Hello World</Text>
+  .add('subtitle (3)', () => (
+    <Text subtitle level={3}>{LIPSUM}</Text>
   ))
-  .addWithJSX('accent', () => (
-    <Text accent>Hello World</Text>
+  .add('body (1)', () => (
+    <Text body level={1}>{LIPSUM}</Text>
   ))
-  .addWithJSX('lighten', () => (
-    <Text lighten>Hello World</Text>
+  .add('body (2)', () => (
+    <Text body level={2}>{LIPSUM}</Text>
   ))
-  .addWithJSX('color', () => (
-    <Text color={THEME.COLOR.ERROR}>Hello World</Text>
+  .add('body (3)', () => (
+    <Text body level={3}>{LIPSUM}</Text>
   ))
-  .addWithJSX('numberOfLines', () => (
-    <LayoutView>
-      <Text small numberOfLines={2}>{LIPSUM}</Text>
-    </LayoutView>
+  .add('caption (1)', () => (
+    <Text body caption level={1}>{LIPSUM}</Text>
   ))
-  .addWithJSX('style', () => (
-    <Text style={{ backgroundColor: 'blue', color: 'orange' }}>Customized Text</Text>
+  .add('caption (2)', () => (
+    <Text body caption level={2}>{LIPSUM}</Text>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('lighten', () => (
+    <Text lighten>{LIPSUM}</Text>
+  ))
+  .add('color', () => (
+    <Text color={THEME.COLOR.ERROR}>{LIPSUM}</Text>
+  ))
+  .add('numberOfLines', () => (
+    <Text numberOfLines={1}>{LIPSUM}</Text>
+  ))
+  .add('style', () => (
+    <Text style={style}>Customized Text</Text>
+  ))
+  .add('🏀 Playground', () => (
     <Text
-      lighter={boolean('lighter', false)}
-      semibold={boolean('semibold', false)}
-      bold={boolean('bold', false)}
-      italic={boolean('italic', false)}
-      color={color('color', THEME.COLOR.TEXT)}
-      small={boolean('small', false)}
-      tiny={boolean('tiny', false)}
-      large={boolean('large', false)}
+      headline={boolean('headline', false)}
       subtitle={boolean('subtitle', false)}
-      title={boolean('title', false)}
-      accent={boolean('accent', false)}
+      body={boolean('body', true)}
+      caption={boolean('caption', false)}
+      level={number('level', 1)}
       lighten={boolean('lighten', false)}
-      primary={boolean('primary', false)}
+      color={color('color', THEME.COLOR.TEXT)}
       numberOfLines={number('numberOfLines', 1)}
     >
-      {text('content', LIPSUM)}
+      {text('content', LOREM)}
     </Text>
   ));

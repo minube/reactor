@@ -11,37 +11,37 @@ const VIDEO_STYLE = {
 };
 
 storiesOf('✅ Video', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Video />
   ))
-  .addWithJSX('source', () => (
+  .add('source', () => (
     <Video source={VIDEO_PLACEHOLDER} />
   ))
-  .addWithJSX('youtube source', () => (
+  .add('youtube source', () => (
     <Video source="https://www.youtube.com/watch?v=cx4MxQcD8Fk" />
   ))
-  .addWithJSX('vimeo source', () => (
+  .add('vimeo source', () => (
     <Video source="https://vimeo.com/225434434" />
   ))
-  .addWithJSX('autoPlay', () => (
+  .add('autoPlay', () => (
     <Video autoPlay source={VIDEO_PLACEHOLDER} />
   ))
-  .addWithJSX('controls', () => (
+  .add('controls', () => (
     <Video controls source={VIDEO_PLACEHOLDER} />
   ))
-  .addWithJSX('dimensions', () => (
+  .add('dimensions', () => (
     <Video height={128} source={VIDEO_PLACEHOLDER} width={256} />
   ))
-  .addWithJSX('preload', () => (
+  .add('preload', () => (
     <Video preload source={VIDEO_PLACEHOLDER} />
   ))
-  .addWithJSX('⚡ onLoad (only web)', () => (
+  .add('⚡ onLoad (only web)', () => (
     <Video source={VIDEO_PLACEHOLDER} onLoad={action('Video.onLoad()')} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Video source={VIDEO_PLACEHOLDER} style={VIDEO_STYLE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Video
       autoplay={boolean('autoplay', true)}
       controls={boolean('controls', false)}

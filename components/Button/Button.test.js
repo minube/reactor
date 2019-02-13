@@ -1,6 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
+import { THEME } from '../../common';
 import { Price } from '../';
 import Button from './Button';
 
@@ -16,32 +17,22 @@ describe('<Button>', () => {
   });
 
   it('when {icon}', () => {
-    const tree = renderer.create(<Button icon="apps" />).toJSON();
+    const tree = renderer.create(<Button icon="closeContrast" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {icon} & {title}', () => {
-    const tree = renderer.create(<Button icon="apps" title="Press me" />).toJSON();
+    const tree = renderer.create(<Button icon="closeContrast" title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {contained}', () => {
-    const tree = renderer.create(<Button contained title="Press me" />).toJSON();
+  it('when {contained=false}', () => {
+    const tree = renderer.create(<Button contained={false} title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {outlined}', () => {
     const tree = renderer.create(<Button outlined title="Press me" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {accent}', () => {
-    const tree = renderer.create(<Button contained accent title="Press me" />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {primary}', () => {
-    const tree = renderer.create(<Button contained primary title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -51,12 +42,21 @@ describe('<Button>', () => {
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Button><Price value={10} /></Button>).toJSON();
+    const tree = renderer.create(
+      <Button>
+        <Price headline level={6} color="white" value={19.95} symbol="$" />
+      </Button>
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {color}', () => {
     const tree = renderer.create(<Button color="red" title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {color} (COLOR.WHITE)', () => {
+    const tree = renderer.create(<Button color={THEME.COLOR.WHITE} title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -77,6 +77,11 @@ describe('<Button>', () => {
 
   it('when {small}', () => {
     const tree = renderer.create(<Button small title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {shadow}', () => {
+    const tree = renderer.create(<Button shadow title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

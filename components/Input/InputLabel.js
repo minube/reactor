@@ -7,18 +7,24 @@ import styles from './InputLabel.style';
 
 const { COLOR } = THEME;
 
-const InputLabel = ({ error, value }) => (
-  <Text color={error ? COLOR.ERROR : undefined} tiny lighten style={styles.label}>
-    {value}
-  </Text>
-);
+const InputLabel = ({ color, focus, error, ...inherit }) => {
+  let textColor;
+
+  if (focus) textColor = color;
+  if (error) textColor = COLOR.ERROR;
+
+  return <Text {...inherit} color={textColor} subtitle level={3} lighten style={[styles.container, inherit.style]} />;
+};
 
 InputLabel.propTypes = {
+  color: string,
+  focus: bool,
   error: bool,
-  value: string.isRequired,
 };
 
 InputLabel.defaultProps = {
+  color: COLOR.PRIMARY,
+  focus: false,
   error: false,
 };
 

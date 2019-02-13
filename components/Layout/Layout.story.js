@@ -8,47 +8,44 @@ import { LAYOUT } from '../../common';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Text from '../Text';
 
-storiesOf('🛠 Layout', module)
-  .addWithJSX('default', () => (
+const LayoutInfo = ({ title, viewport }) => (
+  <View style={{ alignSelf: 'center', marginTop: '33vh' }}>
+    <Text headline level={5}>{title}</Text>
+    <Text headline level={6}>{`${viewport.W} x ${viewport.H}`}</Text>
+    { viewport.PORTRAIT && <Text level={3} lighten>PORTRAIT</Text> }
+    { viewport.LANDSCAPE && <Text level={3} lighten>LANDSCAPE</Text> }
+    { viewport.IPHONEX && <Text level={3} lighten>IPHONEX</Text> }
+    { viewport.TINY && <Text level={3} lighten>TINY</Text> }
+    { viewport.PHONE && <Text level={3} lighten>PHONE</Text> }
+    { viewport.TABLET && <Text level={3} lighten>TABLET</Text> }
+    { viewport.SMALL && <Text level={3} lighten>SMALL</Text> }
+    { viewport.REGULAR && <Text level={3} lighten>REGULAR</Text> }
+    { viewport.LARGE && <Text level={3} lighten>LARGE</Text> }
+  </View>
+);
+
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
+
+storiesOf('✅ LayoutView', module)
+  .add('default', () => (
     <LayoutView />
   ))
-  .addWithJSX('⚡ onLayout (WEB)', () => (
+  .add('⚡ onLayout (WEB)', () => (
     <LayoutView onLayout={action('LayoutView.onLayout()')} />
   ))
-  .addWithJSX('🛠 <LayoutConsumer>', () => (
+  .add('<LayoutConsumer>', () => (
     <LayoutView>
-      <Text bold large>{'<LayoutConsumer />'}</Text>
       <LayoutConsumer>
-        { ({ viewport }) =>
-          <View>
-            <Text small>{`${viewport.W} x ${viewport.H}`}</Text>
-            { viewport.PORTRAIT && <Text tiny>PORTRAIT</Text> }
-            { viewport.LANDSCAPE && <Text tiny>LANDSCAPE</Text> }
-            { viewport.IPHONEX && <Text tiny>IPHONEX</Text> }
-            { viewport.TINY && <Text tiny>TINY</Text> }
-            { viewport.PHONE && <Text tiny>PHONE</Text> }
-            { viewport.TABLET && <Text tiny>TABLET</Text> }
-            { viewport.SMALL && <Text tiny>SMALL</Text> }
-            { viewport.REGULAR && <Text tiny>REGULAR</Text> }
-            { viewport.LARGE && <Text tiny>LARGE</Text> }
-          </View>
-        }
+        { ({ viewport }) => <LayoutInfo title="<LayoutConsumer />" viewport={viewport} /> }
       </LayoutConsumer>
     </LayoutView>
   ))
-  .addWithJSX('common/LAYOUT', withState({ timestamp: new Date() }, store => (
+  .add('style', () => (
+    <LayoutView style={STYLE} />
+  ))
+  .add('common/LAYOUT', withState({ timestamp: new Date() }, store => (
     <LayoutView {...store.state} onLayout={() => store.set({ timestamp: new Date() })}>
-      <Text bold large>common/LAYOUT</Text>
-      <Text small>{`${LAYOUT.VIEWPORT.W} x ${LAYOUT.VIEWPORT.H}`}</Text>
-      { LAYOUT.VIEWPORT.PORTRAIT && <Text tiny>PORTRAIT</Text> }
-      { LAYOUT.VIEWPORT.LANDSCAPE && <Text tiny>LANDSCAPE</Text> }
-      { LAYOUT.VIEWPORT.IPHONEX && <Text tiny>IPHONEX</Text> }
-      { LAYOUT.VIEWPORT.TINY && <Text tiny>TINY</Text> }
-      { LAYOUT.VIEWPORT.PHONE && <Text tiny>PHONE</Text> }
-      { LAYOUT.VIEWPORT.TABLET && <Text tiny>TABLET</Text> }
-      { LAYOUT.VIEWPORT.SMALL && <Text tiny>SMALL</Text> }
-      { LAYOUT.VIEWPORT.REGULAR && <Text tiny>REGULAR</Text> }
-      { LAYOUT.VIEWPORT.LARGE && <Text tiny>LARGE</Text> }
+      <LayoutInfo viewport={LAYOUT.VIEWPORT} title="common/LAYOUT" />
     </LayoutView>
   )));
 

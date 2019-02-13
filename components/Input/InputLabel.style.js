@@ -5,7 +5,8 @@ import { THEME } from '../../common';
 const { UNIT } = THEME;
 
 export default StyleSheet.create({
-  label: {
-    marginVertical: UNIT / 4,
+  container: {
+    marginBottom: UNIT * 0.6,
+    marginLeft: UNIT,
   },
 });

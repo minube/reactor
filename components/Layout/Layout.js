@@ -1,6 +1,7 @@
 import { func, node } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { View } from 'react-native';
+import styles from './Layout.style';
 
 import { ENV, LAYOUT } from '../../common';
 
@@ -45,6 +46,7 @@ class LayoutView extends PureComponent {
           {...inherit}
           key={key}
           onLayout={IS_WEB && !IS_SERVER && !IS_MOBILE_WEB ? _onLayout : undefined}
+          style={[styles.container, inherit.style]}
         >
           {children}
         </View>

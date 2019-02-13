@@ -1,18 +1,18 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { COLOR, OFFSET, UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: OFFSET,
+    marginBottom: UNIT * 2.2,
     zIndex: 1,
   },
 
   content: {
-    backgroundColor: COLOR.WHITE,
-    borderColor: COLOR.BORDER,
+    backgroundColor: COLOR.TRANSPARENT,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderTopWidth: 0,
     borderRadius: UNIT / 4,
@@ -39,10 +39,10 @@ export default StyleSheet.create({
   },
 
   value: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     minHeight: OFFSET * 2,
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
     borderRadius: OFFSET,
     margin: UNIT / 10,
     paddingHorizontal: UNIT,
@@ -67,7 +67,7 @@ export default StyleSheet.create({
   },
 
   suggestion: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     paddingHorizontal: UNIT,
     paddingVertical: UNIT / 2,

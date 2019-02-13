@@ -1,10 +1,15 @@
 {
   "extends": "airbnb",
   "parser": "babel-eslint",
-  "env": { "jest": true },
+  "env": {
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
   "globals": {
     "document": true,
     "fetch": true,
+    "navigator": true,
     "webpack": true,
     "window": true
   },

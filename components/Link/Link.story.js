@@ -2,26 +2,25 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { text } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import Link from './Link';
 
 storiesOf('✅ Link', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Link href="http://minube.com">minube.com</Link>
   ))
-  .addWithJSX('without href', () => (
+  .add('without href', () => (
     <Link>minube.com</Link>
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <Link
       href="http://minube.com"
-      style={{ fontSize: THEME.FONT.SIZE.LARGE, fontWeight: THEME.FONT.WEIGHT.BOLD }}
+      style={{ fontSize: 20, fontWeight: '700' }}
       styleHover={{ color: 'red' }}
     >
       minube.com
     </Link>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Link href={text('href', 'http://minube.com')}>
       {text('title', 'minube.com')}
     </Link>

@@ -1,9 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import { StyleSheet, View } from 'react-native';
 
-import { STYLE, THEME } from './common';
+import { LAYOUT, THEME } from './common';
 import {
   Button,
+  Calendar,
   ListingCard,
   Text,
   Video,
@@ -16,12 +17,12 @@ import PKG from './package.json';
 
 if (typeof global.self === 'undefined') global.self = global;
 
+const { UNIT } = THEME;
 const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
 const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
 const youtube = 'https://www.youtube.com/cx4MxQcD8Fk'; // eslint-disable-line
 const vimeo = 'https://player.vimeo.com/video/225434434'; // eslint-disable-line
-
-const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." // eslint-disable-line
 
 const DICTIONARY = {
   'es-ES': {
@@ -35,9 +36,9 @@ const DICTIONARY = {
 
 const styles = StyleSheet.create({
   container: {
-    ...STYLE.CENTERED,
+    ...LAYOUT.STYLE.CENTERED,
     flex: 1,
-    padding: THEME.UNIT,
+    padding: UNIT,
     backgroundColor: 'rgba(0,255,0,0.25)',
   },
 });
@@ -55,18 +56,24 @@ export default class App extends Component {
   }
 
   render() {
-    const { state: { viewport } } = this;
+    const { state: { dataSource, viewport } } = this;
 
     return (
       <Provider dictionary={DICTIONARY} language="en-EN">
         <View style={styles.container}>
-          <Viewport visible scroll style={STYLE.CENTERED}>
+          <Viewport visible scroll style={LAYOUT.STYLE.CENTERED}>
             <Consumer>
               { ({ l10n }) => (
                 <Fragment>
-                  <Text bold large>{PKG.name}</Text>
-                  <Text bold tiny>{PKG.version}</Text>
-                  <Text bold tiny>{`l10n: ${l10n.GREETINGS}`}</Text>
+                  <Text headline level={5}>
+                    {PKG.name}
+                  </Text>
+                  <Text>
+                    {PKG.version}
+                  </Text>
+                  <Text>
+                    {`l10n: ${l10n.GREETINGS}`}
+                  </Text>
                 </Fragment>
               )}
             </Consumer>
@@ -74,14 +81,25 @@ export default class App extends Component {
               uri="http://soyjavi.com"
               title="Share"
             />
-            <Button title="Second viewport" onPress={() => this.setState({ viewport: true })}/>
-            <Slider dataSource={this.state.dataSource} item={ItemListingCard} navigation momentum />
+            <Button title="Second viewport" onPress={() => this.setState({ viewport: true })} />
+            <Slider dataSource={dataSource} item={ItemListingCard} navigation momentum />
 
-            <Text>{LIPSUM}</Text>
-            <Text>{LIPSUM}</Text>
-            <Text>{LIPSUM}</Text>
-            <Text>{LIPSUM}</Text>
-            <Text>{LIPSUM}</Text>
+            <Calendar />
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
           </Viewport>
 
           <Viewport
@@ -89,7 +107,6 @@ export default class App extends Component {
             onBack={() => this.setState({ viewport: false })}
             style={{ backgroundColor: 'red' }}
           >
-
             <Video
               autoPlay
               loop
@@ -98,7 +115,7 @@ export default class App extends Component {
               source={video}
               onLoad={() => console.log('onload')}
             />
-            <Button title="Back" onPress={() => this.setState({ viewport: false })}/>
+            <Button title="Back" onPress={() => this.setState({ viewport: false })} />
           </Viewport>
         </View>
       </Provider>

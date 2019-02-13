@@ -16,7 +16,17 @@ exports[`<Motion> when {children} 1`] = `
 
 exports[`<Motion> when {delay} 1`] = `
 <View
-  style={Object {}}
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
 />
 `;
 
@@ -26,15 +36,66 @@ exports[`<Motion> when {disabled} 1`] = `
 />
 `;
 
-exports[`<Motion> when {property} 1`] = `
+exports[`<Motion> when {duration} 1`] = `
 <View
-  style={Object {}}
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {preset} 1`] = `
+<View
+  style={
+    Object {
+      "opacity": 1,
+      "transform": Array [
+        Object {
+          "translateY": 0,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {timeline} 1`] = `
+<View
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
 />
 `;
 
 exports[`<Motion> when {type} 1`] = `
 <View
-  style={Object {}}
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
 />
 `;
 
@@ -43,14 +104,16 @@ exports[`<Motion> when {useNativeDriver} 1`] = `
   style={
     Array [
       undefined,
-      undefined,
+      Object {
+        "left": 128,
+        "opacity": 0.75,
+        "transform": Array [
+          Object {
+            "scale": 0.5,
+          },
+        ],
+      },
     ]
   }
-/>
-`;
-
-exports[`<Motion> when {value} 1`] = `
-<View
-  style={Object {}}
 />
 `;

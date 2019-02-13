@@ -4,69 +4,74 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { text, boolean, color, object } from '@storybook/addon-knobs/react';
 
+import { THEME } from '../../common';
 import { LayoutView, Price } from '../';
 import Button from './Button';
 
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', margin: 10 };
-const NULL = () => {};
+const styles = {
+  button: {
+    paddingHorizontal: 10,
+    backgroundColor: 'green',
+  },
+}
+const _onPress = () => {};
 
 storiesOf('✅ Button', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Button />
   ))
-  .addWithJSX('title', () => (
-    <Button title="Press me" onPress={NULL} />
+  .add('title', () => (
+    <Button title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('icon', () => (
-    <Button icon="apps" onPress={NULL} />
+  .add('icon', () => (
+    <Button icon="closeContrast" onPress={_onPress} />
   ))
-  .addWithJSX('icon & title', () => (
-    <Button icon="apps" title="Press me" onPress={NULL} />
+  .add('icon & title', () => (
+    <Button icon="closeContrast" title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('contained (false)', () => (
-    <Button contained={false} title="Press me" onPress={NULL} />
+  .add('contained (false)', () => (
+    <Button contained={false} title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('outlined', () => (
-    <Button outlined title="Press me" onPress={NULL} />
+  .add('outlined', () => (
+    <Button outlined title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('primary', () => (
-    <Button primary title="Press me" onPress={NULL} />
+  .add('activity', () => (
+    <Button activity title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('accent', () => (
-    <Button accent title="Press me" onPress={NULL} />
-  ))
-  .addWithJSX('activity', () => (
-    <Button activity title="Press me" onPress={NULL} />
-  ))
-  .addWithJSX('children', () => (
-    <Button color="red">
-      <Price value={10} style={{ color: 'white' }} onPress={NULL} />
+  .add('children', () => (
+    <Button>
+      <Price headline level={6} color="white" value={19.95} symbol="$" onPress={_onPress} />
     </Button>
   ))
-  .addWithJSX('color', () => (
-    <Button color="red" title="Press me" onPress={NULL} />
+  .add('color', () => (
+    <Button color="red" title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('disabled', () => (
+  .add('color (COLOR.WHITE)', () => (
+    <Button color={THEME.COLOR.WHITE} title="Press me" onPress={_onPress} />
+  ))
+  .add('disabled', () => (
     <Button disabled title="Press me" />
   ))
-  .addWithJSX('responsive', () => (
-    <Button responsive title="Press me" onPress={NULL} />
+  .add('responsive', () => (
+    <Button responsive title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('rounded', () => (
-    <Button rounded title="Press me" onPress={NULL} />
+  .add('rounded', () => (
+    <Button rounded title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('small', () => (
-    <Button small title="Press me" onPress={NULL} />
+  .add('small', () => (
+    <Button small title="Press me" onPress={_onPress} />
   ))
-  .addWithJSX('⚡ onPress', () => (
+  .add('shadow', () => (
+    <Button shadow title="Press me" onPress={_onPress} />
+  ))
+  .add('⚡ onPress', () => (
     <Button onPress={action('Button.onPress()')} title="Press me" />
   ))
-  .addWithJSX('style', () => (
-    <Button title="Press me" style={STYLE} onPress={NULL} />
+  .add('style', () => (
+    <Button title="Press me" style={styles.button} onPress={_onPress} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Button
-      accent={boolean('accent', false)}
       activity={boolean('activity', false)}
       color={color('color', undefined)}
       contained={boolean('contained', true)}
@@ -74,12 +79,12 @@ storiesOf('✅ Button', module)
       icon={text('icon', undefined)}
       onPress={action('Button.onPress()')}
       outlined={boolean('outlined', false)}
-      primary={boolean('primary', false)}
       responsive={boolean('responsive', false)}
       rounded={boolean('rounded', false)}
       small={boolean('small', false)}
+      shadow={boolean('shadow', false)}
       title={text('title', undefined)}
-      style={object('style', STYLE)}
+      style={object('style', styles.button)}
     />
   ));
 

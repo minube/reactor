@@ -5,8 +5,9 @@ exports[`<InputPicker> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -16,11 +17,12 @@ exports[`<InputPicker> renders 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -34,7 +36,7 @@ exports[`<InputPicker> renders 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -65,8 +67,9 @@ exports[`<InputPicker> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -76,11 +79,12 @@ exports[`<InputPicker> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         false,
@@ -96,7 +100,7 @@ exports[`<InputPicker> when {disabled} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           undefined,
         ]
@@ -127,8 +131,9 @@ exports[`<InputPicker> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -138,15 +143,16 @@ exports[`<InputPicker> when {error} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         Object {
-          "borderColor": "#ef5160",
+          "borderColor": "#d33c44",
         },
         false,
       ]
@@ -158,7 +164,7 @@ exports[`<InputPicker> when {error} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -181,46 +187,6 @@ exports[`<InputPicker> when {error} 1`] = `
       />
     </View>
   </View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "#9b9b9b",
-        },
-        false,
-        false,
-        Object {
-          "color": "#ef5160",
-          "marginVertical": 2.5,
-        },
-      ]
-    }
-  >
-    Hello World
-  </Text>
 </View>
 `;
 
@@ -229,8 +195,9 @@ exports[`<InputPicker> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -240,11 +207,12 @@ exports[`<InputPicker> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -258,7 +226,7 @@ exports[`<InputPicker> when {hint} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -285,35 +253,26 @@ exports[`<InputPicker> when {hint} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={2}
     style={
       Array [
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
           "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
         Object {
-          "color": "#9b9b9b",
+          "color": "#707070",
         },
-        false,
-        false,
         Object {
-          "marginVertical": 2.5,
+          "marginTop": 4,
+          "maxWidth": "100%",
+          "paddingLeft": 10,
         },
       ]
     }
@@ -328,8 +287,9 @@ exports[`<InputPicker> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -344,30 +304,21 @@ exports[`<InputPicker> when {label} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
         Object {
-          "fontSize": 12,
-          "lineHeight": 14.399999999999999,
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 16,
         },
-        false,
-        false,
-        false,
-        false,
         Object {
-          "color": "#9b9b9b",
+          "color": "#707070",
         },
-        false,
-        false,
         Object {
-          "marginVertical": 2.5,
+          "marginBottom": 6,
+          "marginLeft": 10,
         },
       ]
     }
@@ -378,11 +329,12 @@ exports[`<InputPicker> when {label} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -396,7 +348,7 @@ exports[`<InputPicker> when {label} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -427,8 +379,9 @@ exports[`<InputPicker> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -442,11 +395,12 @@ exports[`<InputPicker> when {style} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -460,7 +414,7 @@ exports[`<InputPicker> when {style} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]
@@ -491,8 +445,9 @@ exports[`<InputPicker> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 16,
-        "minHeight": undefined,
+        "marginBottom": 22,
+        "maxWidth": "100%",
+        "overflow": "hidden",
       },
       undefined,
     ]
@@ -502,11 +457,12 @@ exports[`<InputPicker> when {value} 1`] = `
     style={
       Array [
         Object {
-          "backgroundColor": "#ffffff",
-          "borderColor": "#dbdbdb",
+          "backgroundColor": "transparent",
+          "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
-          "paddingRight": 5,
+          "paddingLeft": 5,
+          "paddingRight": 10,
           "width": "100%",
         },
         undefined,
@@ -520,7 +476,7 @@ exports[`<InputPicker> when {value} 1`] = `
           Object {
             "backgroundColor": "transparent",
             "borderWidth": 0,
-            "height": 33,
+            "height": "auto",
           },
           false,
         ]

@@ -5,7 +5,7 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import Icon from '../Icon';
-import Input, { InputLabel } from '../Input';
+import Input from '../Input';
 import Touchable from '../Touchable';
 import ItemList from './components/ItemList';
 import filterDataSource from './modules/filterDataSource';
@@ -89,7 +89,7 @@ class InputList extends PureComponent {
     const {
       _onInputSubmit, _onInputChange, _onSelectItem, _onRemoveItem,
       props: {
-        dataSource, dataSourceField, hint, itemTemplate, onChange, value = [], ...inherit
+        dataSource, dataSourceField, itemTemplate, onChange, value = [], ...inherit
       },
       state: { inputValue, suggestions = [] },
     } = this;
@@ -143,7 +143,6 @@ class InputList extends PureComponent {
             })}
           </View>
         )}
-        { !disabled && hint && <InputLabel value={hint} /> }
       </View>
     );
   }

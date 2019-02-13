@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { COLOR, OFFSET, UNIT } = THEME;
 
@@ -17,7 +17,7 @@ export default StyleSheet.create({
   },
 
   option: {
-    ...STYLE.ROW,
+    ...LAYOUT.STYLE.ROW,
     paddingVertical: OFFSET,
     borderBottomColor: COLOR.BACKGROUND,
     borderBottomWidth: 1,

@@ -2,84 +2,78 @@ import { bool, number, string } from 'prop-types';
 import React from 'react';
 import { StyleSheet, Text as NativeText } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { ConsumerTheme } from '../../context';
 import styles from './Text.style';
 
-const { FONT } = THEME;
+const determineStyle = ({
+  body, caption, headline, subtitle, level,
+}) => {
+  if (headline && level === 0) return styles.headline0;
+  if (headline && level === 1) return styles.headline1;
+  if (headline && level === 2) return styles.headline2;
+  if (headline && level === 3) return styles.headline3;
+  if (headline && level === 4) return styles.headline4;
+  if (headline && level === 5) return styles.headline5;
+  if (headline && level === 6) return styles.headline6;
+
+  if (subtitle && level === 1) return styles.subtitle1;
+  if (subtitle && level === 2) return styles.subtitle2;
+  if (subtitle && level === 3) return styles.subtitle3;
+
+  if (caption && level === 1) return styles.caption1;
+  if (caption && level === 2) return styles.caption2;
+
+  if (body && level === 2) return styles.body2;
+  if (body && level === 3) return styles.body3;
+
+  return styles.body1;
+};
 
 const Text = ({
-  lighter, semibold, bold, italic,
-  primary, accent, lighten, color,
-  tiny, small, large, subtitle, title,
-  numberOfLines,
+  lighten, color,
+  body, caption, headline, subtitle, level,
   ...inherit
 }) => (
-  <NativeText
-    {...inherit}
-    numberOfLines={numberOfLines}
-    style={[
-      styles.container,
-      // -- appearance
-      lighter && styles.lighter,
-      semibold && styles.semibold,
-      bold && styles.bold,
-      italic && styles.italic,
-      // -- size
-      LAYOUT.STYLE.TEXT.REGULAR,
-      tiny && LAYOUT.STYLE.TEXT.TINY,
-      small && LAYOUT.STYLE.TEXT.SMALL,
-      large && LAYOUT.STYLE.TEXT.LARGE,
-      subtitle && LAYOUT.STYLE.TEXT.SUBTITLE,
-      title && LAYOUT.STYLE.TEXT.TITLE,
-      // -- color
-      lighten && styles.lighten,
-      primary && styles.primary,
-      accent && styles.accent,
-      // -- flatten
-      StyleSheet.flatten([
-        inherit.style,
-        color && { color },
-        numberOfLines > 1 && (small || tiny) && {
-          maxHeight: numberOfLines * (small ? FONT.SIZE.SMALL : FONT.SIZE.TINY),
-          overflow: 'hidden',
-        },
-      ]),
-    ]}
-  />
+  <ConsumerTheme>
+    { ({ FONT: { FAMILY } = {} }) => (
+      <NativeText
+        {...inherit}
+        style={[
+          styles.container,
+          determineStyle({
+            body, caption, headline, subtitle, level,
+          }),
+          lighten && styles.lighten,
+          // -- flatten
+          StyleSheet.flatten([
+            FAMILY && { fontFamily: FAMILY },
+            inherit.style,
+            color && { color },
+          ]),
+        ]}
+      />
+    )}
+  </ConsumerTheme>
 );
 
 Text.propTypes = {
-  accent: bool,
-  bold: bool,
+  body: bool,
+  caption: bool,
   color: string,
-  italic: bool,
-  large: bool,
-  lighten: bool,
-  lighter: bool,
-  numberOfLines: number,
-  primary: bool,
-  semibold: bool,
-  small: bool,
+  headline: bool,
   subtitle: bool,
-  tiny: bool,
-  title: bool,
+  lighten: bool,
+  level: number,
 };
 
 Text.defaultProps = {
-  accent: false,
-  bold: false,
+  body: true,
+  caption: false,
   color: undefined,
-  italic: false,
-  large: false,
-  lighten: false,
-  lighter: false,
-  numberOfLines: undefined,
-  primary: false,
-  semibold: false,
-  small: false,
+  headline: false,
   subtitle: false,
-  tiny: false,
-  title: false,
+  lighten: false,
+  level: 1,
 };
 
 export default Text;

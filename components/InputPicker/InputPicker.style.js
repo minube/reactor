@@ -2,20 +2,21 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const {
-  COLOR, INPUT_HEIGHT, OFFSET, UNIT,
-} = THEME;
+const { COLOR, UNIT } = THEME;
+const INPUT_HEIGHT = UNIT * 4.2;
 
 export default StyleSheet.create({
   container: {
-    minHeight: INPUT_HEIGHT,
-    marginBottom: OFFSET,
+    marginBottom: UNIT * 2.2,
+    maxWidth: '100%',
+    overflow: 'hidden',
   },
 
   input: {
-    backgroundColor: COLOR.WHITE,
-    paddingRight: UNIT * 0.5,
-    borderColor: COLOR.BORDER,
+    backgroundColor: COLOR.TRANSPARENT,
+    paddingRight: UNIT,
+    paddingLeft: UNIT / 2,
+    borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
     width: '100%',
@@ -26,13 +27,13 @@ export default StyleSheet.create({
   },
 
   inputDisabled: {
-    backgroundColor: COLOR.BACKGROUND,
+    backgroundColor: COLOR.DISABLED,
   },
 
   picker: {
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
-    height: UNIT * 3.3,
+    height: INPUT_HEIGHT,
     ...Platform.select({
       web: {
         color: COLOR.TEXT,
@@ -40,32 +41,18 @@ export default StyleSheet.create({
       android: {
         color: COLOR.TEXT,
       },
+      ios: {
+        height: 'auto',
+      },
     }),
-    // @TODO: How we can set size and weight
-    // fontSize: FONT.SIZE.REGULAR,
-    // fontWeight: FONT.WEIGHT.REGULAR,
-    // ...Platform.select({
-    //   web: {
-    //     fontFamily: FONT.FAMILY,
-    //   },
-    // }),
   },
 
   pickerDisabled: Platform.select({
     web: {
-      color: COLOR.BASE,
+      color: COLOR.TEXT_LIGHTEN,
     },
     android: {
-      color: COLOR.BASE,
-    },
-  }),
-
-  active: Platform.select({
-    web: {
-      color: COLOR.ACCENT,
-    },
-    android: {
-      color: COLOR.ACCENT,
+      color: COLOR.TEXT_LIGHTEN,
     },
   }),
 });

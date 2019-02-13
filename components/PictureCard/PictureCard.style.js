@@ -1,14 +1,12 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
-const {
-  BORDER_RADIUS, COLOR, UNIT,
-} = THEME;
+const { BORDER_RADIUS, COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
   content: {
-    backgroundColor: COLOR.CONTENT,
+    backgroundColor: COLOR.BASE,
   },
 
   borderRadius: {
@@ -20,7 +18,7 @@ export default StyleSheet.create({
   },
 
   info: {
-    ...STYLE.CENTERED,
+    ...LAYOUT.STYLE.CENTERED,
     position: 'absolute',
     left: 0,
     height: '100%',
@@ -36,9 +34,5 @@ export default StyleSheet.create({
   text: {
     color: COLOR.WHITE,
     textAlign: 'center',
-  },
-
-  title: {
-    marginBottom: UNIT / 2,
   },
 });

@@ -2,41 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import Form from './Form';
-
-const ATTRIBUTES = {
-  username: { required: true },
-  role: {
-    required: true,
-    type: 'select',
-    defaultValue: 'fullstack',
-    dataSource: ['frontend', 'backend', 'fullstack'],
-    style: 'inline2',
-  },
-  mail: { keyboard: 'url', style: 'inline2' },
-  bio: { lines: 4 },
-  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
-  isPublic: { type: 'bool' },
-  social: {
-    title: 'Social Networks',
-    attributes: {
-      twitter: { style: 'inline3' },
-      facebook: { style: 'inline3' },
-      github: { style: 'inline3', required: true },
-    }
-  }
-};
-
-const DATA = {
-  username: 'soyjavi',
-  mail: 'hello@soyjavi.com',
-  social: {
-    twitter: 'soyjavi',
-    facebook: '😅',
-  }
-};
-
-const STORY_STYLE = { maxWidth: '50%', maxHeight: '80%' };
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 20 };
+import { ATTRIBUTES, VALUE, STYLE } from './Form.mocks';
 
 const EVENT = () => {};
 
@@ -51,8 +17,13 @@ describe('<Form>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {data}', () => {
-    const tree = renderer.create(<Form attributes={ATTRIBUTES} data={DATA} />).toJSON();
+  it('when {color}', () => {
+    const tree = renderer.create(<Form color="green" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {value}', () => {
+    const tree = renderer.create(<Form attributes={ATTRIBUTES} value={VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

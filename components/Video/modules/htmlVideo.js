@@ -1,7 +1,7 @@
 import { THEME } from '../../../common';
 import embedUrl from './embedUrl';
 
-const { COLOR: { CONTENT } } = THEME;
+const { COLOR } = THEME;
 
 export default ({
   autoPlay, controls, height, loop, source, muted, width,
@@ -16,7 +16,7 @@ export default ({
       playsinline
       preload="true"
       src="${source}"
-      style="object-fit: cover; background: ${CONTENT}; ${css}"
+      style="object-fit: cover; background: ${COLOR.BASE}; ${css}"
       webkit-playsinline
       width="100%"
     />`

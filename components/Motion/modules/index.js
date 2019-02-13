@@ -1,3 +1,7 @@
 import buildStyle from './buildStyle';
+import presetVisibility from './presetVisibility';
 
-export { buildStyle }; // eslint-disable-line
+export {
+  buildStyle,
+  presetVisibility,
+};

@@ -12,34 +12,39 @@ const STYLE_VIEW = {
   backgroundColor: 'pink',
 };
 
-const PROPERTIES = ['top', 'left', 'right', 'bottom', 'opacity', 'scale', 'translateX', 'translateY'];
-
-const timeline = [
+const TIMELINE = [
   { property: 'opacity', value: 0.75 },
   { property: 'scale', value: 0.5 },
   { property: 'left', value: 128 },
 ];
 
 storiesOf('✅ Motion', module)
-  .addWithJSX('default', () => (
-    <Motion timeline={timeline}>
+  .add('default', () => (
+    <Motion timeline={TIMELINE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('style', () => (
+  .add('preset', () => (
+    <Motion preset="fade" visible={boolean('visible', false)}>
+      <View style={STYLE_VIEW} />
+    </Motion>
+  ))
+  .add('style', () => (
     <Motion timeline={timeline} style={STYLE}>
       <View style={STYLE_VIEW} />
     </Motion>
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Motion
       delay={number('delay', 0)}
       disabled={boolean('disabled', false)}
-      duration={number('duration', 500)}
+      duration={number('duration', 225)}
       style={object('style', STYLE)}
-      timeline={object('timeline', timeline)}
+      preset={select('preset', [undefined, 'fade', 'fadeleft', 'pop'], undefined)}
+      timeline={object('timeline', TIMELINE)}
       type={select('type', ['spring', 'timing'], 'spring')}
       useNativeDriver={boolean('useNativeDriver', true)}
+      visible={boolean('visible', true)}
     >
       <View style={STYLE_VIEW} />
     </Motion>

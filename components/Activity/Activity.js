@@ -9,7 +9,7 @@ const { COLOR, UNIT } = THEME;
 export default ({ ...inherit }) => (
   <ActivityIndicator
     {...inherit}
-    color={inherit.color || COLOR.BORDER}
+    color={inherit.color || COLOR.BASE}
     style={[
       inherit.style,
       IS_SERVER && { maxHeight: UNIT, maxWidth: UNIT },

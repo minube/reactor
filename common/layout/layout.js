@@ -1,6 +1,8 @@
 import { Dimensions, Platform } from 'react-native';
 
-import { screenStyle, screenType, userAgentScreenSize } from './modules';
+import {
+  renderStyle, screenType, style, userAgentScreenSize,
+} from './modules';
 
 class Layout {
   constructor() {
@@ -9,13 +11,22 @@ class Layout {
       Layout.instance = this;
       this.height = height || 640;
       this.width = width || 360;
-      this.style = screenStyle(width);
+      this.style = renderStyle(width);
     }
     return Layout.instance;
   }
 
-  get STYLE() {
-    return this.style;
+  get CARD() {
+    return this.style.CARD;
+  }
+
+  get TEXT() {
+    return this.style.TEXT;
+  }
+
+  get STYLE() { // eslint-disable-line
+    return style;
+    // return this.style;
   }
 
   get VIEWPORT() {
@@ -47,8 +58,10 @@ class Layout {
 
     this.height = height;
     this.width = width;
-    this.style = screenStyle(width);
+    this.style = renderStyle(width);
   }
+
+  // extendStyle() {}
 }
 
 export default new Layout();

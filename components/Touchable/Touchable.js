@@ -3,14 +3,15 @@ import {
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import {
-  Animated, Easing, Platform, TouchableNativeFeedback, TouchableWithoutFeedback, View,
+  Animated, Easing, TouchableWithoutFeedback, View,
 } from 'react-native';
 
-import { ENV } from '../../common';
+import { ENV, THEME } from '../../common';
 
 import Ripple from './components/Ripple';
 import styles from './Touchable.style';
 
+const { COLOR } = THEME;
 const { IS_NATIVE } = ENV;
 const ANIMATION = {
   toValue: 1,
@@ -33,7 +34,7 @@ class Touchable extends PureComponent {
     children: undefined,
     containerBorderRadius: undefined,
     onPress: undefined,
-    rippleColor: undefined,
+    rippleColor: COLOR.BASE,
   };
 
   state = {
@@ -141,8 +142,4 @@ class Touchable extends PureComponent {
   }
 }
 
-export default ({ ...inherit }) => (
-  Platform.OS !== 'android'
-    ? <Touchable {...inherit} />
-    : <TouchableNativeFeedback useForeground {...inherit} />
-);
+export default Touchable;

@@ -1,10 +1,21 @@
 import { node, shape, string } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 
-const Context = createContext();
-const { Provider, Consumer: ConsumerL10N } = Context;
+const { Provider, Consumer: ConsumerL10N } = createContext('reactor:l10n');
 
 class ProviderL10N extends PureComponent {
+  static propTypes = {
+    children: node,
+    dictionary: shape({}),
+    language: string,
+  };
+
+  static defaultProps = {
+    children: undefined,
+    dictionary: {},
+    language: 'en-EN',
+  };
+
   render() {
     const { props: { children, dictionary, language } } = this;
 
@@ -15,17 +26,5 @@ class ProviderL10N extends PureComponent {
     );
   }
 }
-
-ProviderL10N.propTypes = {
-  children: node,
-  dictionary: shape({}),
-  language: string,
-};
-
-ProviderL10N.defaultProps = {
-  children: undefined,
-  dictionary: {},
-  language: 'en-EN',
-};
 
 export { ConsumerL10N, ProviderL10N };

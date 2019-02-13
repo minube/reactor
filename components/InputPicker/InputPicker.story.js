@@ -8,35 +8,35 @@ import InputPicker from './InputPicker';
 const DATASOURCE = ['one', 'two', 'three', 'four', 'five'];
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
 
-storiesOf('🛠 InputPicker', module)
-  .addWithJSX('default', () => (
+storiesOf('✅ InputPicker', module)
+  .add('default', () => (
     <InputPicker />
   ))
-  .addWithJSX('datasource', () => (
+  .add('datasource', () => (
     <InputPicker datasource dataSource={DATASOURCE} />
   ))
-  .addWithJSX('disabled', () => (
+  .add('disabled', () => (
     <InputPicker disabled dataSource={DATASOURCE} />
   ))
-  .addWithJSX('error', () => (
+  .add('error', () => (
     <InputPicker error="Required field" dataSource={DATASOURCE} />
   ))
-  .addWithJSX('hint', () => (
+  .add('hint', () => (
     <InputPicker hint="Optional field" dataSource={DATASOURCE} />
   ))
-  .addWithJSX('label', () => (
+  .add('label', () => (
     <InputPicker label="Username" dataSource={DATASOURCE} />
   ))
-  .addWithJSX('value', () => (
+  .add('value', () => (
     <InputPicker value="three" dataSource={DATASOURCE} />
   ))
-  .addWithJSX('⚡ onChange', () => (
+  .add('⚡ onChange', () => (
     <InputPicker onChange={action('InputPicker.onChange()')} title="Press me" dataSource={DATASOURCE} />
   ))
-  .addWithJSX('style', () => (
+  .add('style', () => (
     <InputPicker style={STYLE} dataSource={DATASOURCE} />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <InputPicker
       dataSource={object('dataSource', DATASOURCE)}
       disabled={boolean('disabled', false)}

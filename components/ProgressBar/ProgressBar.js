@@ -26,6 +26,7 @@ class ProgressBar extends PureComponent {
         ]}
       >
         <Motion
+          duration={inherit.duration}
           style={[styles.progress, inherit.color && { backgroundColor: inherit.color }]}
           timeline={[{ property: 'width', value: progress * layoutWidth }]}
           type="timing"

@@ -39,7 +39,7 @@ exports[`<Icon> when {color} (only Native) 1`] = `
       },
       undefined,
       Object {
-        "tintColor": "#ef5160",
+        "tintColor": "#d33c44",
       },
     ]
   }
@@ -109,7 +109,7 @@ exports[`<Icon> when {style} 1`] = `
         "width": 20,
       },
       Object {
-        "backgroundColor": "#f69a37",
+        "backgroundColor": "#a66ecc",
       },
       undefined,
     ]

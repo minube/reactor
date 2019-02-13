@@ -1,5 +1,74 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Price> inject <Text> properties 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 18,
+        },
+        false,
+        Object {},
+      ]
+    }
+  >
+    6.995,12
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontFamily": undefined,
+          "fontSize": 16,
+          "fontWeight": "600",
+          "lineHeight": 18,
+        },
+        false,
+        Object {
+          "transform": Array [
+            Object {
+              "scale": 0.8,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    eur
+  </Text>
+</View>
+`;
+
 exports[`<Price> renders 1`] = `
 <View
   style={
@@ -19,27 +88,13 @@ exports[`<Price> renders 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
@@ -47,51 +102,10 @@ exports[`<Price> renders 1`] = `
   >
     0
   </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    €
-  </Text>
 </View>
 `;
 
-exports[`<Price> when {caption} 1`] = `
+exports[`<Price> when {fixed} (0) 1`] = `
 <View
   style={
     Object {
@@ -110,120 +124,24 @@ exports[`<Price> when {caption} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    from
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
   >
-    0
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    €
+    6.995
   </Text>
 </View>
 `;
 
-exports[`<Price> when {fixed} 1`] = `
+exports[`<Price> when {fixed} (4) 1`] = `
 <View
   style={
     Object {
@@ -242,34 +160,33 @@ exports[`<Price> when {fixed} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
   >
-    19.12
+    6.995,1235
   </Text>
+</View>
+`;
+
+exports[`<Price> when {locale} (es-ES) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
   <Text
     accessible={true}
     allowFontScaling={true}
@@ -279,37 +196,19 @@ exports[`<Price> when {fixed} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
         false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
+        Object {},
       ]
     }
   >
-    €
+    6.995,12
   </Text>
 </View>
 `;
@@ -333,79 +232,23 @@ exports[`<Price> when {style} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
         false,
-        false,
         Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "orange",
-          "fontSize": 14,
+          "color": "green",
+          "fontSize": 32,
+          "fontWeight": "800",
         },
       ]
     }
   >
-    19
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "color": "orange",
-          "fontSize": 14,
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    €
+    6.995,12
   </Text>
 </View>
 `;
@@ -429,25 +272,13 @@ exports[`<Price> when {symbol} (left) 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -470,33 +301,19 @@ exports[`<Price> when {symbol} (left) 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
   >
-    4
+    6.995,12
   </Text>
 </View>
 `;
@@ -520,33 +337,19 @@ exports[`<Price> when {symbol} (right) 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
   >
-    4
+    6.995,12
   </Text>
   <Text
     accessible={true}
@@ -557,25 +360,13 @@ exports[`<Price> when {symbol} (right) 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        false,
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {
           "transform": Array [
@@ -588,6 +379,71 @@ exports[`<Price> when {symbol} (right) 1`] = `
     }
   >
     eur
+  </Text>
+</View>
+`;
+
+exports[`<Price> when {title} 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 30,
+        },
+        false,
+        Object {
+          "transform": Array [
+            Object {
+              "scale": 0.8,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    from
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 30,
+        },
+        false,
+        Object {},
+      ]
+    }
+  >
+    6.995,12
   </Text>
 </View>
 `;
@@ -611,74 +467,19 @@ exports[`<Price> when {value} 1`] = `
         Object {
           "color": "#4a4a4a",
           "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
         },
-        false,
-        false,
-        Object {
-          "fontWeight": "bold",
-        },
-        false,
         Object {
           "fontSize": 16,
-          "lineHeight": 20.8,
+          "lineHeight": 30,
         },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
         false,
         Object {},
       ]
     }
   >
-    20
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
-    style={
-      Array [
-        Object {
-          "color": "#4a4a4a",
-          "fontFamily": undefined,
-        },
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "fontSize": 16,
-          "lineHeight": 20.8,
-        },
-        false,
-        false,
-        Object {
-          "fontSize": 20,
-          "lineHeight": 26,
-        },
-        false,
-        false,
-        false,
-        false,
-        false,
-        Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
-        },
-      ]
-    }
-  >
-    €
+    6.995,12
   </Text>
 </View>
 `;

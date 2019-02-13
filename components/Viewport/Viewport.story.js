@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
@@ -6,29 +6,22 @@ import { boolean, object } from '@storybook/addon-knobs/react';
 
 import Viewport from './Viewport';
 import { THEME } from '../../common';
+import Button from '../Button';
 
-const {
-  BORDER_RADIUS, BUTTON, COLOR, FONT, UNIT,
-} = THEME;
-
-
-const STYLE_LAYOUT = {
+const styleLayout = {
   width: 375,
   height: 667,
   overflow: 'hidden',
 };
 
-const STYLE = {
-  backgroundColor: COLOR.CONTENT,
-  padding: UNIT,
+const style = {
+  backgroundColor: THEME.COLOR.BASE,
+  padding: THEME.UNIT,
 };
 
-const STYLE_CONTENT = {
-  padding: UNIT,
-  backgroundColor: COLOR.PRIMARY,
-};
-
-const STYLE_NAVIGATION = {
+const styleContent = {
+  padding: THEME.UNIT,
+  backgroundColor: THEME.COLOR.PRIMARY,
 };
 
 const CHILDREN =
@@ -45,35 +38,59 @@ const CHILDREN =
     Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
   </Text>;
 
-storiesOf('🚀 Viewport', module)
-  .addWithJSX('default', () => (
+class ViewportHOC extends Component {
+  state = {
+    visible: false,
+  };
+
+  render() {
+    const { state: { visible } } = this;
+
+    return (
+      <View style={styleLayout}>
+        <Viewport style={[styleLayout]} backward={visible}>
+          <Text>viewport.1</Text>
+          <Button onPress={() => this.setState({ visible: !visible })} title="viewport.2" />
+        </Viewport>
+        <Viewport
+          active={boolean('active', false)}
+          onBack={action('Viewport.onBack()')}
+          onScroll={action('Viewport.onScroll()')}
+          scroll={boolean('scroll', true)}
+          style={[styleLayout]}
+          styleContent={object('style', styleContent, 'viewport-style')}
+          visible={boolean('visible', visible)}
+        >
+          <Button onPress={() => this.setState({ visible: !visible })} title="back" />
+          {CHILDREN}
+        </Viewport>
+      </View>
+    );
+  }
+}
+
+storiesOf('☑️ Viewport', module)
+  .add('default', () => (
     <Viewport>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('scroll (false)', () => (
+  .add('visible (false)', () => (
+    <Viewport visible={false}>{CHILDREN}</Viewport>
+  ))
+  .add('backward', () => (
+    <Viewport backward>{CHILDREN}</Viewport>
+  ))
+  .add('scroll (false)', () => (
     <Viewport scroll={false}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('⚡ onScroll', () => (
+  .add('⚡ onScroll', () => (
     <Viewport onScroll={action('Viewport.onScroll()')}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('style', () => (
-    <Viewport style={STYLE} styleContent={STYLE_CONTENT}>{CHILDREN}</Viewport>
+  .add('style', () => (
+    <Viewport style={style}>{CHILDREN}</Viewport>
   ))
-  .addWithJSX('🏀 Playground', () => (
-    <View style={STYLE_LAYOUT}>
-      <Viewport style={StyleSheet.flatten([STYLE, STYLE_LAYOUT])} visible>
-        <Text>viewport.1</Text>
-      </Viewport>
-      <Viewport
-        onBack={action('Viewport.onBack()')}
-        onScroll={action('Viewport.onScroll()')}
-        scroll={boolean('scroll', true)}
-        style={[STYLE, STYLE_LAYOUT]}
-        styleContent={object('style', STYLE_CONTENT, 'viewport-style')}
-        visible={boolean('visible', true)}
-      >
-        {CHILDREN}
-      </Viewport>
-    </View>
+  .add('styleContent', () => (
+    <Viewport styleContent={styleContent}>{CHILDREN}</Viewport>
   ))
-
-
+  .add('🏀 Playground', () => (
+    <ViewportHOC />
+  ))

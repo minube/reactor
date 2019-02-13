@@ -1,48 +1,52 @@
 import React, { Fragment } from 'react';
 import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
-import { number, text } from '@storybook/addon-knobs/react';
+import { number, text, object } from '@storybook/addon-knobs/react';
 
-import { THEME } from '../../common';
 import Price from './Price';
 
+const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
+const PROPS = { value: 6995.123456 };
+
 storiesOf('✅ Price', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Price />
   ))
-  .addWithJSX('caption', () => (
-    <Price caption="From" />
+  .add('value', () => (
+    <Price {...PROPS} />
   ))
-  .addWithJSX('value', () => (
-    <Price value={19.95} />
+  .add('locale (es-ES)', () => (
+    <Price {...PROPS} locale="es-ES" />
   ))
-  .addWithJSX('fixed', () => (
-    <Price fixed={2} value={19.1234} />
+  .add('fixed (4)', () => (
+    <Price fixed={4} {...PROPS} />
   ))
-  .addWithJSX('symbol (left)', () => (
-    <Price value={4} symbol="$" />
+  .add('fixed (0)', () => (
+    <Price fixed={0} {...PROPS} />
   ))
-  .addWithJSX('symbol (right)', () => (
-    <Price value={4} symbol="eur" />
+  .add('symbol (left)', () => (
+    <Price {...PROPS} symbol="$" />
   ))
-  .addWithJSX('fontSize auto-adjust', () => (
-    <View>
-      <Price value={32} symbol="$" />
-      <Price value={1024} symbol="$" />
-    </View>
+  .add('symbol (right)', () => (
+    <Price {...PROPS} symbol="eur" />
   ))
-  .addWithJSX('inherit <Text> properties', () => (
-    <Price title primary />
+  .add('title', () => (
+    <Price {...PROPS} title="From" />
   ))
-  .addWithJSX('style', () => (
-    <Price style={{ fontWeight: 'bold', fontSize: THEME.FONT.SIZE.SMALL, color: THEME.COLOR.ACCENT }} />
+  .add('inject <Text> properties', () => (
+    <Price {...PROPS} headline={false} subtitle level={2}  />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('style', () => (
+    <Price {...PROPS} style={STYLE} />
+  ))
+  .add('🏀 Playground', () => (
     <Price
-      caption={text('caption', 'from')}
+      locale={text('locale', 'es-ES')}
+      title={text('title', 'from')}
       fixed={number('fixed', 2)}
-      value={number('value', 64)}
+      value={number('value', PROPS.value)}
       symbol={text('symbol', '€')}
+      style={object('style', STYLE)}
     />
   ));
 

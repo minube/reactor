@@ -10,9 +10,10 @@ import {
 import PKG from '../../package.json';
 
 const { IS_PRODUCTION, IS_WEB, IS_SERVER } = ENV;
-const { Provider, Consumer: ConsumerAmplitude } = createContext();
+const { Provider, Consumer: ConsumerAmplitude } = createContext('reactor:amplitude');
 const STORE_EVENTS = `${PKG.name}:events`;
 const MINUBE_USER_ID = 'mn_user_id';
+const AMPLITUDE_DATA = 'mn_amplitude_data';
 let eventId = 1;
 
 class ProviderAmplitude extends PureComponent {
@@ -35,19 +36,29 @@ class ProviderAmplitude extends PureComponent {
 
   async componentWillMount() {
     const { _syncEvents, props: { key } } = this;
-    let { props: { session = {} } } = this;
+    const { props: { session = {} } } = this;
     let fingerprint;
     let cookie;
 
     if (!IS_SERVER) {
       fingerprint = await new Fingerprint();
       if (IS_WEB) {
+        const { deviceId, sessionId } = await AsyncStore.getItem(AMPLITUDE_DATA) || {};
+        const userId = await AsyncStore.getItem(MINUBE_USER_ID);
+
+        if (deviceId) session.device_id = deviceId;
+        if (sessionId) session.session_id = sessionId;
+        if (userId) session.user_id = userId;
+
         cookie = getCookie('reactor:request');
-        session = { ...session, user_id: await AsyncStore.getItem(MINUBE_USER_ID) };
       }
       await fetch(
         key,
-        { ...fingerprint, ...session, userProperties: cookie ? JSON.parse(cookie) : cookie },
+        {
+          ...fingerprint,
+          ...session,
+          userProperties: cookie ? JSON.parse(cookie) : cookie,
+        },
         'identify',
       );
     }
@@ -82,7 +93,7 @@ class ProviderAmplitude extends PureComponent {
     await AsyncStore.setItem(STORE_EVENTS, [...events, event]);
   }
 
-  _logEvent = ({ type, ...props } = {}) => {
+  logEvent = ({ type, ...props } = {}) => {
     if (IS_SERVER) return;
 
     const {
@@ -93,7 +104,7 @@ class ProviderAmplitude extends PureComponent {
 
     const event = {
       ...fingerprint, // uuid & device_id
-      ...session, // user_id && session_id
+      ...session, // user_id && session_id && device_id
       event_id: eventId,
       event_properties: props,
       event_type: type,
@@ -106,10 +117,10 @@ class ProviderAmplitude extends PureComponent {
   }
 
   render() {
-    const { _logEvent, props: { children } } = this;
+    const { logEvent, props: { children } } = this;
 
     return (
-      <Provider value={{ logEvent: _logEvent }}>
+      <Provider value={{ logEvent }}>
         { children }
       </Provider>
     );

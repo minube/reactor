@@ -1,9 +1,11 @@
-import screenStyle from './screenStyle';
+import renderStyle from './renderStyle';
 import screenType from './screenType';
+import style from './style';
 import userAgentScreenSize from './userAgentScreenSize';
 
 export {
-  screenStyle,
+  renderStyle,
   screenType,
+  style,
   userAgentScreenSize,
 };

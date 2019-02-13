@@ -1,24 +1,22 @@
 import { StyleSheet } from 'react-native';
 
-import { STYLE, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
-const {
-  INPUT_HEIGHT, UNIT, OFFSET,
-} = THEME;
+const { UNIT } = THEME;
 
 export default StyleSheet.create({
-
   container: {
-    ...STYLE.ROW,
-    height: INPUT_HEIGHT,
-    marginBottom: OFFSET,
+    ...LAYOUT.STYLE.ROW,
+    alignSelf: 'flex-end',
+    height: UNIT * 4.4,
+    marginBottom: UNIT * 2.2,
   },
 
   label: {
-    marginRight: UNIT,
+    marginBottom: 0,
   },
 
   switch: {
-    height: UNIT * 2.4,
+    height: UNIT * 2.8,
   },
 });

@@ -2,18 +2,18 @@ import {
   arrayOf, bool, func, number, shape, string,
 } from 'prop-types';
 import React, { Component } from 'react';
-import { Platform, ScrollView, View } from 'react-native';
+import { ScrollView, View } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
 
+const { IS_WEB } = ENV;
 const { UNIT } = THEME;
-
 const NEXT = 'next';
+const MOMENTUM_INTERVAL = 40;
 let timeout;
-const MOMENTUM_INTERVAL = Platform.OS === 'web' ? 40 : 16;
 
 class Slider extends Component {
   static propTypes = {
@@ -34,8 +34,8 @@ class Slider extends Component {
     item() {},
     itemMargin: UNIT,
     itemWidth: undefined,
-    momentum: Platform.OS === 'web',
-    navigation: Platform.OS === 'web',
+    momentum: IS_WEB,
+    navigation: IS_WEB,
     steps: 1,
     title: undefined,
   };
@@ -50,30 +50,30 @@ class Slider extends Component {
     this.setState({ x: 0 });
   }
 
-  shouldComponentUpdate({ dataSource = [], itemWidth }) {
+  shouldComponentUpdate({ dataSource = [] }) {
     const { props } = this;
-    return dataSource.length !== props.dataSource.length || itemWidth !== props.itemWidth;
+    return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
   }
 
-  _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
-    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.STYLE.CARD.WIDTH } } = this;
-    const width = (itemWidth + itemMargin);
-
-    if (!Number.isInteger(x / width)) {
-      clearTimeout(timeout);
-      timeout = setTimeout(() => _updateScroll(Math.round(x / width) * width), MOMENTUM_INTERVAL * 3);
-    }
-  }
-
-  _onButton = (type) => {
+  _onPressButton = (type) => {
     const {
       _updateScroll,
-      props: { itemMargin, itemWidth = LAYOUT.STYLE.CARD.WIDTH, steps },
+      props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps },
       state: { x },
     } = this;
     const width = (itemWidth + itemMargin) * steps;
 
     _updateScroll(type === NEXT ? x + width : x - width);
+  }
+
+  _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
+    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER } } = this;
+    const width = (itemWidth + itemMargin);
+
+    if (!Number.isInteger(x / width)) {
+      clearTimeout(timeout);
+      timeout = setTimeout(() => _updateScroll(Math.round(x / width) * width), MOMENTUM_INTERVAL * 2);
+    }
   }
 
   _updateScroll = (x) => {
@@ -83,7 +83,7 @@ class Slider extends Component {
 
   render() {
     const {
-      _onButton, _onScroll,
+      _onPressButton, _onScroll,
       props: {
         caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, title, ...inherit
       },
@@ -92,42 +92,33 @@ class Slider extends Component {
     return (
       <View style={styles.container}>
 
-        { (title || caption)
-          && (
+        { (title || caption) && (
           <View style={styles.header}>
             { title && (
             <Text bold large style={styles.title}>
               {title}
-            </Text>
-            ) }
+            </Text>)}
             { caption && (
             <Text small style={styles.caption}>
               {caption}
-            </Text>
-            ) }
-          </View>
-          ) }
+            </Text>)}
+          </View>)}
 
-        { navigation
-          && (
+        { navigation && (
           <View style={[styles.navigation, styles.previous]}>
-            <Button icon="left" onPress={_onButton} small />
-          </View>
-          ) }
-        { navigation
-          && (
+            <Button icon="left" onPress={_onPressButton} small />
+          </View>)}
+
+        { navigation && (
           <View style={[styles.navigation, styles.next]}>
-            <Button icon="right" onPress={() => _onButton(NEXT)} small />
-          </View>
-          ) }
+            <Button icon="right" onPress={() => _onPressButton(NEXT)} small />
+          </View>)}
 
         <ScrollView
           contentContainerStyle={inherit.style}
           horizontal
           onScroll={momentum ? _onScroll : undefined}
-          ref={(scrollview) => {
-            this.scrollview = scrollview;
-          }}
+          ref={scrollview => this.scrollview = scrollview} // eslint-disable-line
           scrollEventThrottle={MOMENTUM_INTERVAL}
         >
           { dataSource.map((data, index) =>

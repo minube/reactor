@@ -4,7 +4,7 @@ import {
 import React from 'react';
 import { View } from 'react-native';
 
-import { LAYOUT, SHAPE, THEME } from '../../common';
+import { SHAPE, THEME } from '../../common';
 import Breadcrumbs from '../Breadcrumbs';
 import Avatar from '../Avatar';
 import Rating from '../Rating';
@@ -20,12 +20,7 @@ const Heading = ({
 }) => (
   <View style={[styles.container, inherit.style]}>
     <View style={column ? styles.column : styles.row}>
-      <Text
-        bold
-        title
-        color={color}
-        style={[LAYOUT.STYLE.TEXT.TITLE, styles.title]}
-      >
+      <Text headline level={2} color={color} style={styles.title}>
         {title}
       </Text>
       { rating.value && <Rating {...rating} textColor={color} /> }
@@ -36,10 +31,10 @@ const Heading = ({
       { total
         && (
         <View style={column ? styles.row : styles.contributors}>
-          <Text bold color={color} tiny>
+          <Text color={color} caption>
             {total}
           </Text>
-          <Text color={color} tiny>
+          <Text color={color} caption>
             {` ${label}`}
           </Text>
           <View style={[styles.avatars]}>

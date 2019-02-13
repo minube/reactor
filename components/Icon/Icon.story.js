@@ -6,38 +6,51 @@ import { boolean, color, number, select } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import Icon from './Icon';
 
+const ICONS = [
+  'close',
+  'closeContrast',
+  'email',
+  'facebook',
+  'google',
+  'left',
+  'linkedin',
+  'right',
+  'shareContrast',
+  'twitter',
+]
+
 storiesOf('✅ Icon', module)
-  .addWithJSX('default', () => (
+  .add('default', () => (
     <Icon />
   ))
-  .addWithJSX('value', () => (
-    <Icon value="closeDark" />
+  .add('value', () => (
+    <Icon value={ICONS[1]} />
   ))
-  .addWithJSX('value (as uri)', () => (
+  .add('value (as uri)', () => (
     <Icon value="https://api.adorable.io/avatars/48/8" />
   ))
-  .addWithJSX('color (only Native)', () => (
+  .add('color (only Native)', () => (
     <withNotes notes="Color is only supported in Native environments">
-      <Icon color={THEME.COLOR.ERROR} value="closeDark" />
+      <Icon color={THEME.COLOR.ERROR} value={ICONS[1]} />
     </withNotes>
   ))
-  .addWithJSX('invert (only Web)', () => (
+  .add('invert (only Web)', () => (
     <withNotes notes="invert is only supported in web environments">
-      <Icon invert value="closeDark" />
+      <Icon invert value={ICONS[1]} />
     </withNotes>
   ))
-  .addWithJSX('size', () => (
-    <Icon size={48} value="closeDark" />
+  .add('size', () => (
+    <Icon size={48} value={ICONS[1]} />
   ))
-  .addWithJSX('style', () => (
-    <Icon style={{ backgroundColor: THEME.COLOR.ACCENT }} value="closeDark" />
+  .add('style', () => (
+    <Icon style={{ backgroundColor: THEME.COLOR.SECONDARY }} value="closeDark" />
   ))
-  .addWithJSX('🏀 Playground', () => (
+  .add('🏀 Playground', () => (
     <Icon
-      size={number('size', THEME.FONT.SIZE.LARGE)}
+      size={number('size', 16)}
       color={color('color', THEME.COLOR.TEXT)}
       invert={boolean('invert', false)}
-      value={select('value', ['apps', 'close', 'closeDark', 'emailDark', 'left', 'right', 'share'], 'closeDark')}
+      value={select('value', ICONS, 'closeDark')}
     />
   ));
 

@@ -10,4 +10,12 @@ export default StyleSheet.create({
     justifyContent: 'flex-start',
     flexWrap: 'wrap',
   },
+
+  bold: {
+
+  },
+
+  italic: {
+
+  },
 });

@@ -1,5 +1,5 @@
 import { number, string } from 'prop-types';
-import React from 'react';
+import React, { Fragment } from 'react';
 import { View } from 'react-native';
 
 import Text from '../Text';
@@ -7,48 +7,47 @@ import { format } from './modules';
 import styles from './Price.style';
 
 const LEFT_SYMBOLS = ['$'];
+const LOCALE = 'es-ES';
 
 const Price = ({
-  caption, fixed, symbol, value,
-  large = value < 1000, // eslint-disable-line
-  ...inherit
+  locale, fixed, symbol, title, value, ...inherit
 }) => (
   <View style={styles.container}>
-    { caption && (
-    <Text large style={[styles.minimize, inherit.style]}>
-      {caption}
-    </Text>
-    ) }
+    { title && (
+      <Text {...inherit} style={[styles.minimize, inherit.style]}>
+        {title}
+      </Text>)}
 
-    { LEFT_SYMBOLS.includes(symbol)
-      && (
-      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>
-        {symbol}
+    <Fragment>
+      { symbol && LEFT_SYMBOLS.includes(symbol) && (
+        <Text {...inherit} style={[styles.minimize, inherit.style]}>
+          {symbol}
+        </Text>)}
+      <Text {...inherit} style={inherit.style}>
+        {format(value, fixed, locale)}
       </Text>
-      ) }
-    <Text large={large} bold {...inherit} style={inherit.style}>
-      {format(value, fixed)}
-    </Text>
-    { !LEFT_SYMBOLS.includes(symbol)
-      && (
-      <Text large={large} {...inherit} style={[styles.minimize, inherit.style]}>
-        {symbol}
-      </Text>
-      ) }
+      { symbol && !LEFT_SYMBOLS.includes(symbol) && (
+        <Text {...inherit} style={[styles.minimize, inherit.style]}>
+          {symbol}
+        </Text>)}
+    </Fragment>
+
   </View>
 );
 
 Price.propTypes = {
-  caption: string,
   fixed: number,
+  locale: string,
   symbol: string,
+  title: string,
   value: number,
 };
 
 Price.defaultProps = {
-  caption: undefined,
-  fixed: 0,
-  symbol: '€',
+  fixed: 2,
+  locale: typeof navigator !== 'undefined' ? navigator.language : LOCALE,
+  symbol: undefined,
+  title: undefined,
   value: 0,
 };
 
