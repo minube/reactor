@@ -36,7 +36,7 @@ class InputPicker extends PureComponent {
     return (
       <View style={[styles.container, inherit.style]}>
         { label && (
-          <InputLabel>
+          <InputLabel error={error}>
             {label}
           </InputLabel>)}
         <View
