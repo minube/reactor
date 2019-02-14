@@ -6,11 +6,11 @@ import { THEME } from '../../common';
 import Text from '../Text';
 import Touchable from '../Touchable';
 import InputOption from '../InputOption';
-import styles from './InputSelectItem.style';
+import styles from './InputSelectTemplate.style';
 
 const { COLOR } = THEME;
 
-class Template extends PureComponent {
+class InputSelectTemplate extends PureComponent {
   static propTypes = {
     caption: string,
     disabled: bool,
@@ -33,7 +33,7 @@ class Template extends PureComponent {
 
     return (
       <Touchable onPress={onPress} rippleColor={COLOR.PRIMARY}>
-        <View style={styles.container}>
+        <View style={[styles.container, caption && styles.withCaption]}>
           <InputOption value={selected} style={{ marginBottom: 0 }} />
           <View style={styles.texts}>
             <Text lighten={disabled} style={styles.title}>
@@ -50,4 +50,4 @@ class Template extends PureComponent {
   }
 }
 
-export default Template;
+export default InputSelectTemplate;

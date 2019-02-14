@@ -1,19 +1,23 @@
 import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
+import { INPUT_HEIGHT } from '../Input/Input.style';
 
 const { UNIT } = THEME;
-const INPUT_HEIGHT = UNIT * 4.2;
-const ITEM_HEIGHT = UNIT * 5.6;
+const TEMPLATE_HEIGHT = UNIT * 5.6;
+
+export { TEMPLATE_HEIGHT };
 
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
-    minHeight: INPUT_HEIGHT,
     paddingLeft: UNIT,
     paddingRight: UNIT * 4.4,
-    height: ITEM_HEIGHT,
-    // paddingVertical: UNIT,
+    height: INPUT_HEIGHT,
+  },
+
+  withCaption: {
+    height: TEMPLATE_HEIGHT,
   },
 
   texts: {

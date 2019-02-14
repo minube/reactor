@@ -2,10 +2,23 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import InputSelect from './InputSelect';
+import {
+  DATASOURCE, DATASOURCE_WITHOUT_CAPTIONS, ERROR, HINT, LABEL, STYLE,
+} from './InputSelect.mocks';
 
 describe('<InputSelect>', () => {
   it('renders', () => {
     const tree = renderer.create(<InputSelect />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {dataSource}', () => {
+    const tree = renderer.create(<InputSelect dataSource={DATASOURCE} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {dataSource (!captions)}', () => {
+    const tree = renderer.create(<InputSelect dataSource={DATASOURCE_WITHOUT_CAPTIONS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -15,27 +28,27 @@ describe('<InputSelect>', () => {
   });
 
   it('when {error}', () => {
-    const tree = renderer.create(<InputSelect error="Hello World" />).toJSON();
+    const tree = renderer.create(<InputSelect error={ERROR} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {hint}', () => {
-    const tree = renderer.create(<InputSelect hint="Hello World" />).toJSON();
+    const tree = renderer.create(<InputSelect hint={HINT} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {label}', () => {
-    const tree = renderer.create(<InputSelect label="Hello World" />).toJSON();
+    const tree = renderer.create(<InputSelect label={LABEL} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {value}', () => {
-    const tree = renderer.create(<InputSelect value="three" />).toJSON();
+    const tree = renderer.create(<InputSelect value={3} dataSource={DATASOURCE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<InputSelect style={{ backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 }} />).toJSON();
+    const tree = renderer.create(<InputSelect style={STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

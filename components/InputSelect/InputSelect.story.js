@@ -4,22 +4,9 @@ import { storiesOf } from '@storybook/react';
 import { text, boolean, number, object, select } from '@storybook/addon-knobs/react';
 
 import InputSelect from './InputSelect';
-
-const DATASOURCE = [
-  { title: 'one', caption: 'Example of caption' },
-  { title: 'two', caption: 'Example of caption' },
-  { title: 'three', caption: 'Example of caption' },
-  { title: 'four', caption: 'Example of caption' },
-  { title: 'five', caption: 'Example of caption' },
-  { title: 'six', caption: 'Example of caption' },
-  { title: 'seven', caption: 'Example of caption' },
-  { title: 'height', caption: 'Example of caption' },
-  { title: 'nine', caption: 'Example of caption' },
-  { title: 'ten', caption: 'Example of caption' },
-];
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10, width: 256 };
-const LABEL = 'Username';
-const HINT = 'Optional field';
+import {
+  DATASOURCE, DATASOURCE_WITHOUT_CAPTIONS, ERROR, HINT, LABEL, STYLE,
+} from './InputSelect.mocks';
 
 class HOC extends Component {
   constructor(props) {
@@ -49,14 +36,17 @@ storiesOf('✅ InputSelect', module)
   .add('default', () => (
     <HOC />
   ))
-  .add('datasource', () => (
-    <HOC datasource dataSource={DATASOURCE} />
+  .add('dataSource', () => (
+    <HOC dataSource={DATASOURCE} />
+  ))
+  .add('dataSource (!captions)', () => (
+    <HOC dataSource={DATASOURCE_WITHOUT_CAPTIONS} />
   ))
   .add('disabled', () => (
     <HOC disabled dataSource={DATASOURCE} />
   ))
   .add('error', () => (
-    <HOC error="Required field" dataSource={DATASOURCE} />
+    <HOC error={ERROR} dataSource={DATASOURCE} />
   ))
   .add('hint', () => (
     <HOC hint={HINT} dataSource={DATASOURCE} />
