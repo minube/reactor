@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import InputSelect from './InputSelect';
 import {
-  DATASOURCE, DATASOURCE_WITHOUT_CAPTIONS, ERROR, HINT, LABEL, STYLE,
+  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE,
 } from './InputSelect.mocks';
 
 describe('<InputSelect>', () => {
@@ -17,8 +17,8 @@ describe('<InputSelect>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {dataSource (!captions)}', () => {
-    const tree = renderer.create(<InputSelect dataSource={DATASOURCE_WITHOUT_CAPTIONS} />).toJSON();
+  it('when {dataSource (string)}', () => {
+    const tree = renderer.create(<InputSelect dataSource={DATASOURCE_STRING} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

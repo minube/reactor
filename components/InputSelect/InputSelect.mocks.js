@@ -11,17 +11,17 @@ const DATASOURCE = [
   { title: 'ten', caption: 'Example of caption' },
 ];
 
-const DATASOURCE_WITHOUT_CAPTIONS = [
-  { title: 'one' },
-  { title: 'two' },
-  { title: 'three' },
-  { title: 'four' },
-  { title: 'five' },
-  { title: 'six' },
-  { title: 'seven' },
-  { title: 'eight' },
-  { title: 'nine' },
-  { title: 'ten' },
+const DATASOURCE_STRING = [
+  'one',
+  'two',
+  'three',
+  'four',
+  'five',
+  'six',
+  'seven',
+  'eight',
+  'nine',
+  'ten',
 ];
 
 const ERROR = 'Something happened...';
@@ -36,7 +36,7 @@ const STYLE = {
 
 export {
   DATASOURCE,
-  DATASOURCE_WITHOUT_CAPTIONS,
+  DATASOURCE_STRING,
   ERROR,
   HINT,
   LABEL,

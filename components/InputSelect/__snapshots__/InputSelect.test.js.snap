@@ -8,6 +8,7 @@ exports[`<InputSelect> renders 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -17,7 +18,7 @@ exports[`<InputSelect> renders 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -27,231 +28,40 @@ exports[`<InputSelect> renders 1`] = `
     }
   >
     <View
-      accessible={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                false,
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          />
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        false,
-        undefined,
-      ]
-    }
-  >
-    <View />
-  </RCTScrollView>
 </View>
 `;
 
-exports[`<InputSelect> when {dataSource (!captions)} 1`] = `
+exports[`<InputSelect> when {dataSource (string)} 1`] = `
 <View
   style={
     Array [
@@ -259,150 +69,17 @@ exports[`<InputSelect> when {dataSource (!captions)} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
 >
   <View
     style={
-      Object {
-        "position": "absolute",
-        "right": 0,
-        "top": 0,
-        "transform": Array [
-          Object {
-            "rotate": "0deg0",
-          },
-        ],
-        "zIndex": 1,
-      }
-    }
-  >
-    <View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-        style={
-          Array [
-            Object {
-              "borderRadius": 3,
-            },
-            false,
-          ]
-        }
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignContent": "center",
-                "alignItems": "center",
-                "borderRadius": 3,
-                "justifyContent": "center",
-              },
-              Object {
-                "height": 44,
-                "minWidth": 44,
-                "paddingHorizontal": 30,
-              },
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-              },
-              false,
-              false,
-              false,
-              Object {
-                "paddingHorizontal": 0,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-            ]
-          }
-        >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/expand.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
-          <View
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                },
-                undefined,
-              ]
-            }
-          />
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#ffffff",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-    </View>
-  </View>
-  <View
-    style={
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -412,2215 +89,89 @@ exports[`<InputSelect> when {dataSource (!captions)} 1`] = `
     }
   >
     <View
-      accessible={true}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={
+          Array [
+            Object {
+              "label": "one",
+              "textColor": undefined,
+              "value": "one",
+            },
+            Object {
+              "label": "two",
+              "textColor": undefined,
+              "value": "two",
+            },
+            Object {
+              "label": "three",
+              "textColor": undefined,
+              "value": "three",
+            },
+            Object {
+              "label": "four",
+              "textColor": undefined,
+              "value": "four",
+            },
+            Object {
+              "label": "five",
+              "textColor": undefined,
+              "value": "five",
+            },
+            Object {
+              "label": "six",
+              "textColor": undefined,
+              "value": "six",
+            },
+            Object {
+              "label": "seven",
+              "textColor": undefined,
+              "value": "seven",
+            },
+            Object {
+              "label": "eight",
+              "textColor": undefined,
+              "value": "eight",
+            },
+            Object {
+              "label": "nine",
+              "textColor": undefined,
+              "value": "nine",
+            },
+            Object {
+              "label": "ten",
+              "textColor": undefined,
+              "value": "ten",
+            },
+          ]
+        }
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                false,
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          >
-            one
-          </Text>
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        undefined,
-        undefined,
-      ]
-    }
-  >
-    <View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  Object {
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                  },
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 1,
-                    "transform": Array [
-                      Object {
-                        "scale": 1,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              one
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              two
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              three
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              four
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              five
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              six
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              seven
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              eight
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              nine
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-      <View
-        accessible={true}
-        onLayout={[Function]}
-        onResponderGrant={[Function]}
-        onResponderMove={[Function]}
-        onResponderRelease={[Function]}
-        onResponderTerminate={[Function]}
-        onResponderTerminationRequest={[Function]}
-        onStartShouldSetResponder={[Function]}
-        pointerEvents="box-only"
-      >
-        <View
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            style={
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 22,
-                },
-                Object {
-                  "marginBottom": 0,
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontSize": 16,
-                    "lineHeight": 30,
-                  },
-                  false,
-                  Object {
-                    "lineHeight": 20,
-                  },
-                ]
-              }
-            >
-              ten
-            </Text>
-          </View>
-        </View>
-        <View
-          style={
-            Array [
-              Object {
-                "backgroundColor": "transparent",
-                "borderRadius": 3,
-                "bottom": 0,
-                "left": 0,
-                "overflow": "hidden",
-                "position": "absolute",
-                "right": 0,
-                "top": 0,
-              },
-              undefined,
-            ]
-          }
-        >
-          <View
-            style={
-              Object {
-                "backgroundColor": "#10c0bc",
-                "height": 0,
-                "opacity": 0,
-                "width": 0,
-                "zIndex": 0,
-              }
-            }
-          />
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
 </View>
 `;
 
@@ -2632,6 +183,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -2775,7 +327,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -3018,7 +570,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -3026,10 +578,18 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           "backgroundColor": "#ffffff",
           "maxHeight": 210,
           "position": "absolute",
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.33,
+          "shadowRadius": 4,
         },
         Object {
           "display": "none",
         },
+        false,
         Object {
           "maxHeight": 280,
         },
@@ -5304,6 +2864,7 @@ exports[`<InputSelect> when {disabled} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -5313,7 +2874,7 @@ exports[`<InputSelect> when {disabled} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -5325,229 +2886,36 @@ exports[`<InputSelect> when {disabled} 1`] = `
     }
   >
     <View
-      accessible={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          undefined,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                Object {
-                  "color": "#707070",
-                },
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          />
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        false,
-        undefined,
-      ]
-    }
-  >
-    <View />
-  </RCTScrollView>
 </View>
 `;
 
@@ -5559,6 +2927,7 @@ exports[`<InputSelect> when {error} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -5568,7 +2937,7 @@ exports[`<InputSelect> when {error} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -5580,227 +2949,36 @@ exports[`<InputSelect> when {error} 1`] = `
     }
   >
     <View
-      accessible={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                false,
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          />
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        false,
-        undefined,
-      ]
-    }
-  >
-    <View />
-  </RCTScrollView>
 </View>
 `;
 
@@ -5812,6 +2990,7 @@ exports[`<InputSelect> when {hint} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -5821,7 +3000,7 @@ exports[`<InputSelect> when {hint} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -5831,201 +3010,34 @@ exports[`<InputSelect> when {hint} 1`] = `
     }
   >
     <View
-      accessible={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                false,
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          />
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
   <Text
@@ -6058,30 +3070,6 @@ exports[`<InputSelect> when {hint} 1`] = `
   >
     Optional field
   </Text>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        false,
-        undefined,
-      ]
-    }
-  >
-    <View />
-  </RCTScrollView>
 </View>
 `;
 
@@ -6093,6 +3081,7 @@ exports[`<InputSelect> when {label} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -6132,7 +3121,7 @@ exports[`<InputSelect> when {label} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -6142,229 +3131,36 @@ exports[`<InputSelect> when {label} 1`] = `
     }
   >
     <View
-      accessible={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                false,
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          />
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        false,
-        Object {
-          "marginTop": 22,
-        },
-      ]
-    }
-  >
-    <View />
-  </RCTScrollView>
 </View>
 `;
 
@@ -6376,6 +3172,7 @@ exports[`<InputSelect> when {style} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
         "marginRight": 16,
@@ -6390,7 +3187,7 @@ exports[`<InputSelect> when {style} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -6400,227 +3197,36 @@ exports[`<InputSelect> when {style} 1`] = `
     }
   >
     <View
-      accessible={true}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
     >
-      <View
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
+              "height": 216,
             },
             undefined,
           ]
         }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "marginBottom": 22,
-              },
-              Object {
-                "marginBottom": 0,
-              },
-            ]
-          }
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
-              }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
-          <Text
-            accessible={true}
-            allowFontScaling={true}
-            ellipsizeMode="tail"
-            style={
-              Array [
-                Object {
-                  "color": "#4a4a4a",
-                  "fontFamily": undefined,
-                  "fontWeight": "400",
-                  "textAlignVertical": "center",
-                },
-                Object {
-                  "fontSize": 16,
-                  "lineHeight": 30,
-                },
-                false,
-                Object {
-                  "lineHeight": 20,
-                },
-              ]
-            }
-          />
-        </View>
-      </View>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#10c0bc",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
+      />
     </View>
   </View>
-  <RCTScrollView
-    style={
-      Array [
-        Object {
-          "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
-          "borderWidth": 1,
-          "width": "100%",
-        },
-        Object {
-          "backgroundColor": "#ffffff",
-          "maxHeight": 210,
-          "position": "absolute",
-        },
-        Object {
-          "display": "none",
-        },
-        false,
-        undefined,
-      ]
-    }
-  >
-    <View />
-  </RCTScrollView>
 </View>
 `;
 
@@ -6632,6 +3238,7 @@ exports[`<InputSelect> when {value} 1`] = `
         "marginBottom": 22,
         "maxWidth": "100%",
       },
+      false,
       undefined,
     ]
   }
@@ -6775,7 +3382,7 @@ exports[`<InputSelect> when {value} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -7018,7 +3625,7 @@ exports[`<InputSelect> when {value} 1`] = `
       Array [
         Object {
           "borderColor": "#cdd2d4",
-          "borderRadius": 2.5,
+          "borderRadius": 3,
           "borderWidth": 1,
           "width": "100%",
         },
@@ -7026,10 +3633,18 @@ exports[`<InputSelect> when {value} 1`] = `
           "backgroundColor": "#ffffff",
           "maxHeight": 210,
           "position": "absolute",
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.33,
+          "shadowRadius": 4,
         },
         Object {
           "display": "none",
         },
+        false,
         Object {
           "maxHeight": 280,
         },

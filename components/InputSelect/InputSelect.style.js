@@ -1,10 +1,12 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
-const { BORDER_RADIUS, COLOR, UNIT } = THEME;
+const {
+  BORDER_RADIUS, COLOR, FONT, UNIT,
+} = THEME;
 
 export default StyleSheet.create({
   active: {
@@ -60,6 +62,36 @@ export default StyleSheet.create({
   error: {
     borderColor: COLOR.ERROR,
   },
+
+  picker: {
+    // ...FONT.INPUT,
+    backgroundColor: COLOR.TRANSPARENT,
+    borderWidth: 0,
+    // fontSize: UNIT * 1.6,
+    height: INPUT_HEIGHT,
+    marginLeft: UNIT / 2,
+    marginRight: UNIT,
+    ...Platform.select({
+      web: {
+        color: COLOR.TEXT,
+      },
+      android: {
+        color: COLOR.TEXT,
+      },
+      ios: {
+        height: 'auto',
+      },
+    }),
+  },
+
+  pickerDisabled: Platform.select({
+    web: {
+      color: COLOR.TEXT_LIGHTEN,
+    },
+    android: {
+      color: COLOR.TEXT_LIGHTEN,
+    },
+  }),
 
   withLabel: {
     marginTop: UNIT * 2.2,

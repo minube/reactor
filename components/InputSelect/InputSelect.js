@@ -1,9 +1,9 @@
 import {
-  arrayOf, bool, func, number, shape, string,
+  arrayOf, bool, func, number, oneOfType, shape, string,
 } from 'prop-types';
 import React, { createRef, PureComponent } from 'react';
 import { findDOMNode } from 'react-dom';
-import { ScrollView, View } from 'react-native';
+import { Picker, ScrollView, View } from 'react-native';
 
 import { LAYOUT } from '../../common';
 import Button from '../Button';
@@ -16,14 +16,14 @@ import styles from './InputSelect.style';
 
 class InputSelect extends PureComponent {
   static propTypes = {
-    dataSource: arrayOf(shape({})),
+    dataSource: arrayOf(oneOfType([string, shape({})])),
     disabled: bool,
     error: string,
     hint: string,
     label: string,
     onChange: func,
     ItemTemplate: func,
-    value: number,
+    value: oneOfType([string, number]),
   };
 
   static defaultProps = {
@@ -39,12 +39,11 @@ class InputSelect extends PureComponent {
 
   constructor(props) {
     super(props);
+    const { dataSource: [firstValue] = [] } = props;
+
     this.component = createRef();
     this.scrollview = createRef();
-    this.state = {
-      active: false,
-      regular: true,
-    };
+    this.state = { active: false, regular: true, schema: typeof firstValue === 'object' };
   }
 
   _onToggleDataSource = () => {
@@ -75,7 +74,7 @@ class InputSelect extends PureComponent {
       props: {
         dataSource = [], disabled, error, hint, label, onChange, ItemTemplate, value = 0, ...inherit
       },
-      state: { active, regular },
+      state: { active, regular, schema },
     } = this;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
@@ -88,7 +87,7 @@ class InputSelect extends PureComponent {
             {label}
           </InputLabel>)}
 
-        { !disabled && hasDataSource && (
+        { schema && hasDataSource && !disabled && (
           <Motion
             style={[styles.button, caption && styles.buttonWithCaption, label && styles.withLabel]}
             timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
@@ -97,28 +96,42 @@ class InputSelect extends PureComponent {
           </Motion>)}
 
         <View style={[styles.border, !disabled && error && styles.error, disabled && styles.disabled]}>
-          <ItemTemplate {...dataSource[value]} disabled={disabled} onPress={event} selected />
+          { schema
+            ? <ItemTemplate {...dataSource[value]} disabled={disabled} onPress={event} selected />
+            : (
+              <Picker
+                mode="dropdown"
+                {...inherit}
+                enabled={!disabled}
+                onValueChange={onChange}
+                selectedValue={value}
+                style={[styles.picker, disabled && styles.pickerDisabled]}
+              >
+                { dataSource.map(item => <Picker.Item key={item} label={item} value={item} />)}
+              </Picker>)}
         </View>
+
         { hint && (
           <InputHint>
             {hint}
           </InputHint>)}
 
-        <ScrollView
-          ref={this.scrollview}
-          style={[
-            styles.border,
-            styles.dataSource,
-            !active && styles.dataSourceHidden,
-            !regular && styles.dataSourceBottom,
-            caption && styles.dataSourceWithCaption,
-            label && styles.withLabel,
-          ]}
-        >
-          { dataSource.map((item, index) => (
-            <ItemTemplate key={item.title} {...item} onPress={() => _onItem(index)} selected={index === value} />
-          ))}
-        </ScrollView>
+        { schema && (
+          <ScrollView
+            ref={this.scrollview}
+            style={[
+              styles.border,
+              styles.dataSource,
+              !active && styles.dataSourceHidden,
+              !regular && styles.dataSourceBottom,
+              caption && styles.dataSourceWithCaption,
+              label && styles.withLabel,
+            ]}
+          >
+            { dataSource.map((item, index) => (
+              <ItemTemplate key={item.title} {...item} onPress={() => _onItem(index)} selected={index === value} />
+            ))}
+          </ScrollView>)}
       </View>
     );
   }
