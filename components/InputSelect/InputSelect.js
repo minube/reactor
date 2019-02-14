@@ -48,9 +48,11 @@ class InputSelect extends PureComponent {
   }
 
   _onToggleDataSource = () => {
-    const { scrollview, props: { dataSource, value = 0 }, state: { active } } = this;
+    const {
+      component, scrollview, props: { dataSource, value = 0 }, state: { active },
+    } = this;
     const { VIEWPORT: { H } } = LAYOUT;
-    const { y } = findDOMNode(this.component.current).getBoundingClientRect(); // @TODO
+    const { y } = findDOMNode(component.current).getBoundingClientRect(); // @TODO
 
     this.setState({ active: !active, regular: y < (H / 2) }, () => {
       if (!active) {
