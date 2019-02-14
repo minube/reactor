@@ -1,4 +1,4 @@
-import { DATASOURCE } from '../InputSelect/InputSelect.mocks';
+import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks';
 
 const ATTRIBUTES = {
   username: {
@@ -29,12 +29,12 @@ const ATTRIBUTES = {
     required: true,
     type: 'select',
     defaultValue: 'backend',
-    dataSource: ['frontend', 'backend', 'fullstack'],
+    dataSource: DATASOURCE_STRING,
     style: 'inline2',
   },
   roleAdvanced: {
     required: true,
-    type: 'selectAdvanced',
+    type: 'select',
     defaultValue: 1,
     dataSource: DATASOURCE,
     style: 'inline2',

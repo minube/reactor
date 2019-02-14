@@ -7,7 +7,6 @@ import Input from '../Input';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
 import InputOption from '../InputOption';
-import InputPicker from '../InputPicker';
 import InputSelect from '../InputSelect';
 import Text from '../Text';
 import Switch from '../Switch';
@@ -25,8 +24,7 @@ const Inputs = {
   bool: Switch,
   image: InputImage,
   option: InputOption,
-  select: InputPicker,
-  selectAdvanced: InputSelect,
+  select: InputSelect,
   list: InputList,
 };
 
