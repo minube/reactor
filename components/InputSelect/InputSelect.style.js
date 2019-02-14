@@ -41,16 +41,16 @@ export default StyleSheet.create({
     maxHeight: INPUT_HEIGHT * 5,
   },
 
+  dataSourceBottom: {
+    bottom: 0,
+  },
+
   dataSourceHidden: {
     display: 'none',
   },
 
   dataSourceWithCaption: {
     maxHeight: TEMPLATE_HEIGHT * 5,
-  },
-
-  bottom: {
-    bottom: 0,
   },
 
   disabled: {

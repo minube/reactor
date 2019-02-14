@@ -1,8 +1,30 @@
+import { DATASOURCE } from '../InputSelect/InputSelect.mocks';
+
 const ATTRIBUTES = {
   username: {
     disabled: true, required: true, defaultValue: 'soyjavi', icon: 'twitter',
   },
   password: { required: true, defaultValue: 'soyjavi', icon: 'twitter' },
+  mail: {
+    keyboard: 'email-address',
+    placeholder: 'Your email...',
+    required: true,
+    style: 'inline3',
+    hint: 'we will not send you spam.',
+  },
+  phone: {
+    keyboard: 'phone-pad',
+    placeholder: '000 000 000',
+    style: 'inline3',
+  },
+  phoneCountryCode: {
+    countryCode: true,
+    keyboard: 'phone-pad',
+    placeholder: '+00 000 000 000',
+    hint: 'Using property countryCode',
+    style: 'inline3',
+  },
+  bio: { lines: 4 },
   role: {
     required: true,
     type: 'select',
@@ -10,26 +32,13 @@ const ATTRIBUTES = {
     dataSource: ['frontend', 'backend', 'fullstack'],
     style: 'inline2',
   },
-  mail: {
-    keyboard: 'email-address',
-    placeholder: 'Your email...',
+  roleAdvanced: {
     required: true,
-    style: 'inline2',
-    hint: 'we will not send you spam.',
-  },
-  phone: {
-    keyboard: 'phone-pad',
-    placeholder: '000 000 000',
+    type: 'selectAdvanced',
+    defaultValue: 1,
+    dataSource: DATASOURCE,
     style: 'inline2',
   },
-  phoneCountryCode: {
-    countryCode: true,
-    keyboard: 'phone-pad',
-    placeholder: '+00 000 000 000',
-    hint: 'Using property countryCode',
-    style: 'inline2',
-  },
-  bio: { lines: 4 },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   twitter: { icon: 'twitter', style: 'inline3' },
   isPublic: { type: 'bool', style: 'inline3' },

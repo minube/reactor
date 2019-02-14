@@ -2,8 +2,10 @@ import {
   arrayOf, bool, func, number, shape, string,
 } from 'prop-types';
 import React, { createRef, PureComponent } from 'react';
+import { findDOMNode } from 'react-dom';
 import { ScrollView, View } from 'react-native';
 
+import { LAYOUT } from '../../common';
 import Button from '../Button';
 import { InputHint, InputLabel } from '../Input';
 import Motion from '../Motion';
@@ -37,16 +39,20 @@ class InputSelect extends PureComponent {
 
   constructor(props) {
     super(props);
+    this.component = createRef();
     this.scrollview = createRef();
     this.state = {
       active: false,
+      regular: true,
     };
   }
 
   _onToggleDataSource = () => {
     const { scrollview, props: { dataSource, value = 0 }, state: { active } } = this;
+    const { VIEWPORT: { H } } = LAYOUT;
+    const { y } = findDOMNode(this.component.current).getBoundingClientRect(); // @TODO
 
-    this.setState({ active: !active }, () => {
+    this.setState({ active: !active, regular: y < (H / 2) }, () => {
       if (!active) {
         const height = dataSource[0].caption ? TEMPLATE_HEIGHT : INPUT_HEIGHT;
         scrollview.current.scrollTo({ y: (value - 2) * height, animated: false });
@@ -67,14 +73,14 @@ class InputSelect extends PureComponent {
       props: {
         dataSource = [], disabled, error, hint, label, onChange, ItemTemplate, value = 0, ...inherit
       },
-      state: { active },
+      state: { active, regular },
     } = this;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
     const caption = hasDataSource && dataSource[0].caption;
 
     return (
-      <View style={[styles.container, active && styles.active, inherit.style]}>
+      <View ref={this.component} style={[styles.container, active && styles.active, inherit.style]}>
         { label && (
           <InputLabel error={error}>
             {label}
@@ -102,6 +108,7 @@ class InputSelect extends PureComponent {
             styles.border,
             styles.dataSource,
             !active && styles.dataSourceHidden,
+            !regular && styles.dataSourceBottom,
             caption && styles.dataSourceWithCaption,
             label && styles.withLabel,
           ]}
