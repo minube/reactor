@@ -8,6 +8,7 @@ import InputImage from '../InputImage';
 import InputList from '../InputList';
 import InputOption from '../InputOption';
 import InputPicker from '../InputPicker';
+import InputSelect from '../InputSelect';
 import Text from '../Text';
 import Switch from '../Switch';
 import {
@@ -25,6 +26,7 @@ const Inputs = {
   image: InputImage,
   option: InputOption,
   select: InputPicker,
+  selectAdvanced: InputSelect,
   list: InputList,
 };
 
@@ -135,7 +137,7 @@ class Form extends PureComponent {
       color,
       ...props,
       error: error || props.error,
-      required: required && (value === undefined || value.trim().length === 0),
+      required: required && (value === undefined || (!type && value.trim().length === 0)),
       value,
       style: (REGULAR || LARGE ? styles[style] : undefined) || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
