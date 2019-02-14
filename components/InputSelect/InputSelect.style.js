@@ -1,16 +1,20 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
-const { COLOR, UNIT } = THEME;
+const { BORDER_RADIUS, COLOR, UNIT } = THEME;
 
 export default StyleSheet.create({
+  active: {
+    zIndex: 1,
+  },
+
   border: {
     borderColor: COLOR.BASE,
+    borderRadius: BORDER_RADIUS,
     borderWidth: 1,
-    borderRadius: UNIT / 4,
     width: '100%',
   },
 
@@ -31,6 +35,7 @@ export default StyleSheet.create({
   },
 
   dataSource: {
+    ...LAYOUT.STYLE.SHADOW,
     position: 'absolute',
     backgroundColor: COLOR.WHITE,
     maxHeight: INPUT_HEIGHT * 5,

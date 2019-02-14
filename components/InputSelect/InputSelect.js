@@ -74,7 +74,7 @@ class InputSelect extends PureComponent {
     const caption = hasDataSource && dataSource[0].caption;
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, active && styles.active, inherit.style]}>
         { label && (
           <InputLabel error={error}>
             {label}
