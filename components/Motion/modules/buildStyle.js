@@ -2,7 +2,7 @@ import { ENV, THEME } from '../../../common';
 
 const { IS_WEB } = ENV;
 const { MOTION } = THEME;
-const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY'];
+const TRANSFORM_PROPERTIES = ['scale', 'translateX', 'translateY', 'rotate'];
 
 export default ({
   props: {

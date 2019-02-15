@@ -7,6 +7,8 @@ const { COLOR, FONT, UNIT } = THEME;
 const ICON_SIZE = UNIT * 2;
 const INPUT_HEIGHT = UNIT * 4.2;
 
+export { INPUT_HEIGHT };
+
 export default StyleSheet.create({
   container: {
     marginBottom: UNIT * 2.2,
