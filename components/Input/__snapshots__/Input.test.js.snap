@@ -552,6 +552,7 @@ exports[`<Input> when {label} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
+    numberOfLines={1}
     style={
       Array [
         Object {
