@@ -1,3 +1,9 @@
+import React from 'react';
+import { View } from 'react-native';
+
+import Text from '../Text';
+import styles from './InputSelectTemplate.style';
+
 const DATASOURCE = [
   { title: 'one', caption: 'Example of caption' },
   { title: 'two', caption: 'Example of caption' },
@@ -34,6 +40,22 @@ const STYLE = {
   backgroundColor: 'rgba(0,255,0,0.25)', paddingBottom: 32, marginRight: 16, width: 256,
 };
 
+const TEMPLATE = ({
+  caption, disabled, selected, title, ...inherit // eslint-disable-line
+}) => (
+  <View style={[inherit.style, selected && { backgroundColor: '#eee' }]}>
+    <View>
+      <Text headline level={6} lighten={disabled} style={styles.title}>
+        {title}
+      </Text>
+      { caption && (
+        <Text caption level={2} lighten>
+          {caption}
+        </Text>)}
+    </View>
+  </View>
+);
+
 export {
   DATASOURCE,
   DATASOURCE_STRING,
@@ -41,4 +63,5 @@ export {
   HINT,
   LABEL,
   STYLE,
+  TEMPLATE,
 };

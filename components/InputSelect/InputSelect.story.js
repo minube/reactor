@@ -5,7 +5,7 @@ import { text, boolean, number, object, select } from '@storybook/addon-knobs/re
 
 import InputSelect from './InputSelect';
 import {
-  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE,
+  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE,
 } from './InputSelect.mocks';
 
 class HOC extends Component {
@@ -53,6 +53,9 @@ storiesOf('✅ InputSelect', module)
   ))
   .add('label', () => (
     <HOC label={LABEL} dataSource={DATASOURCE} />
+  ))
+  .add('itemTemplate', () => (
+    <HOC label={LABEL} dataSource={DATASOURCE} ItemTemplate={TEMPLATE} />
   ))
   .add('value', () => (
     <HOC value={3} dataSource={DATASOURCE} />

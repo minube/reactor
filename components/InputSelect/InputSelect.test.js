@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import InputSelect from './InputSelect';
 import {
-  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE,
+  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE
 } from './InputSelect.mocks';
 
 describe('<InputSelect>', () => {
@@ -39,6 +39,11 @@ describe('<InputSelect>', () => {
 
   it('when {label}', () => {
     const tree = renderer.create(<InputSelect label={LABEL} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {ItemTemplate}', () => {
+    const tree = renderer.create(<InputSelect label={LABEL} ItemTemplate={TEMPLATE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

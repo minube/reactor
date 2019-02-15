@@ -61,6 +61,97 @@ exports[`<InputSelect> renders 1`] = `
 </View>
 `;
 
+exports[`<InputSelect> when {ItemTemplate} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 22,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 16,
+        },
+        Object {
+          "color": "#707070",
+        },
+        Object {
+          "marginBottom": 6,
+          "marginLeft": 10,
+        },
+      ]
+    }
+  >
+    Username
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "borderColor": "#cdd2d4",
+          "borderRadius": 3,
+          "borderWidth": 1,
+          "width": "100%",
+        },
+        undefined,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "height": "auto",
+            "marginLeft": 5,
+            "marginRight": 10,
+          },
+          false,
+        ]
+      }
+    >
+      <RCTPicker
+        items={Array []}
+        onChange={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        selectedIndex={0}
+        style={
+          Array [
+            Object {
+              "height": 216,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
 exports[`<InputSelect> when {dataSource (string)} 1`] = `
 <View
   style={
@@ -349,19 +440,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
     >
       <View
         style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
-            },
-            Object {
-              "height": 56,
-            },
-          ]
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "height": 56,
+            "paddingLeft": 10,
+            "paddingRight": 44,
+          }
         }
       >
         <View
@@ -382,6 +468,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               },
               Object {
                 "marginBottom": 0,
+                "marginRight": 10,
               },
             ]
           }
@@ -475,13 +562,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             />
           </View>
         </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
+        <View>
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -576,7 +657,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         },
         Object {
           "backgroundColor": "#ffffff",
-          "maxHeight": 210,
+          "maxHeight": 280,
           "position": "absolute",
           "shadowColor": "#000000",
           "shadowOffset": Object {
@@ -590,9 +671,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           "display": "none",
         },
         false,
-        Object {
-          "maxHeight": 280,
-        },
         undefined,
       ]
     }
@@ -611,19 +689,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -644,6 +717,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -737,13 +811,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -839,19 +907,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -872,6 +935,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -962,13 +1026,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1064,19 +1122,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -1097,6 +1150,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -1187,13 +1241,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1289,19 +1337,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -1322,6 +1365,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -1412,13 +1456,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1514,19 +1552,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -1547,6 +1580,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -1637,13 +1671,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1739,19 +1767,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -1772,6 +1795,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -1862,13 +1886,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1964,19 +1982,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -1997,6 +2010,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -2087,13 +2101,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2189,19 +2197,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -2222,6 +2225,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -2312,13 +2316,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2414,19 +2412,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -2447,6 +2440,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -2537,13 +2531,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2639,19 +2627,14 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -2672,6 +2655,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -2762,13 +2746,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -3404,19 +3382,14 @@ exports[`<InputSelect> when {value} 1`] = `
     >
       <View
         style={
-          Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "height": 42,
-              "paddingLeft": 10,
-              "paddingRight": 44,
-            },
-            Object {
-              "height": 56,
-            },
-          ]
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "height": 56,
+            "paddingLeft": 10,
+            "paddingRight": 44,
+          }
         }
       >
         <View
@@ -3437,6 +3410,7 @@ exports[`<InputSelect> when {value} 1`] = `
               },
               Object {
                 "marginBottom": 0,
+                "marginRight": 10,
               },
             ]
           }
@@ -3530,13 +3504,7 @@ exports[`<InputSelect> when {value} 1`] = `
             />
           </View>
         </View>
-        <View
-          style={
-            Object {
-              "marginLeft": 10,
-            }
-          }
-        >
+        <View>
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -3631,7 +3599,7 @@ exports[`<InputSelect> when {value} 1`] = `
         },
         Object {
           "backgroundColor": "#ffffff",
-          "maxHeight": 210,
+          "maxHeight": 280,
           "position": "absolute",
           "shadowColor": "#000000",
           "shadowOffset": Object {
@@ -3645,9 +3613,6 @@ exports[`<InputSelect> when {value} 1`] = `
           "display": "none",
         },
         false,
-        Object {
-          "maxHeight": 280,
-        },
         undefined,
       ]
     }
@@ -3666,19 +3631,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -3699,6 +3659,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -3789,13 +3750,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -3891,19 +3846,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -3924,6 +3874,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -4014,13 +3965,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4116,19 +4061,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -4149,6 +4089,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -4239,13 +4180,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4341,19 +4276,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -4374,6 +4304,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -4467,13 +4398,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4569,19 +4494,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -4602,6 +4522,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -4692,13 +4613,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4794,19 +4709,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -4827,6 +4737,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -4917,13 +4828,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5019,19 +4924,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -5052,6 +4952,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -5142,13 +5043,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5244,19 +5139,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -5277,6 +5167,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -5367,13 +5258,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5469,19 +5354,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -5502,6 +5382,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -5592,13 +5473,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5694,19 +5569,14 @@ exports[`<InputSelect> when {value} 1`] = `
       >
         <View
           style={
-            Array [
-              Object {
-                "alignItems": "center",
-                "display": "flex",
-                "flexDirection": "row",
-                "height": 42,
-                "paddingLeft": 10,
-                "paddingRight": 44,
-              },
-              Object {
-                "height": 56,
-              },
-            ]
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+              "height": 56,
+              "paddingLeft": 10,
+              "paddingRight": 44,
+            }
           }
         >
           <View
@@ -5727,6 +5597,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
+                  "marginRight": 10,
                 },
               ]
             }
@@ -5817,13 +5688,7 @@ exports[`<InputSelect> when {value} 1`] = `
               />
             </View>
           </View>
-          <View
-            style={
-              Object {
-                "marginLeft": 10,
-              }
-            }
-          >
+          <View>
             <Text
               accessible={true}
               allowFontScaling={true}

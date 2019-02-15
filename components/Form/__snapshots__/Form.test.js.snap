@@ -1101,19 +1101,14 @@ exports[`<Form> when {attributes} 1`] = `
           >
             <View
               style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 42,
-                    "paddingLeft": 10,
-                    "paddingRight": 44,
-                  },
-                  Object {
-                    "height": 56,
-                  },
-                ]
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": 56,
+                  "paddingLeft": 10,
+                  "paddingRight": 44,
+                }
               }
             >
               <View
@@ -1134,6 +1129,7 @@ exports[`<Form> when {attributes} 1`] = `
                     },
                     Object {
                       "marginBottom": 0,
+                      "marginRight": 10,
                     },
                   ]
                 }
@@ -1227,13 +1223,7 @@ exports[`<Form> when {attributes} 1`] = `
                   />
                 </View>
               </View>
-              <View
-                style={
-                  Object {
-                    "marginLeft": 10,
-                  }
-                }
-              >
+              <View>
                 <Text
                   accessible={true}
                   allowFontScaling={true}
@@ -1328,7 +1318,7 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "backgroundColor": "#ffffff",
-                "maxHeight": 210,
+                "maxHeight": 280,
                 "position": "absolute",
                 "shadowColor": "#000000",
                 "shadowOffset": Object {
@@ -1342,9 +1332,6 @@ exports[`<Form> when {attributes} 1`] = `
                 "display": "none",
               },
               false,
-              Object {
-                "maxHeight": 280,
-              },
               Object {
                 "marginTop": 22,
               },
@@ -1365,19 +1352,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -1398,6 +1380,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -1488,13 +1471,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -1590,19 +1567,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -1623,6 +1595,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -1716,13 +1689,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -1818,19 +1785,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -1851,6 +1813,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -1941,13 +1904,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -2043,19 +2000,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -2076,6 +2028,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -2166,13 +2119,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -2268,19 +2215,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -2301,6 +2243,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -2391,13 +2334,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -2493,19 +2430,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -2526,6 +2458,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -2616,13 +2549,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -2718,19 +2645,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -2751,6 +2673,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -2841,13 +2764,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -2943,19 +2860,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -2976,6 +2888,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -3066,13 +2979,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -3168,19 +3075,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -3201,6 +3103,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -3291,13 +3194,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -3393,19 +3290,14 @@ exports[`<Form> when {attributes} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -3426,6 +3318,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -3516,13 +3409,7 @@ exports[`<Form> when {attributes} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -6483,19 +6370,14 @@ exports[`<Form> when {value} 1`] = `
           >
             <View
               style={
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "height": 42,
-                    "paddingLeft": 10,
-                    "paddingRight": 44,
-                  },
-                  Object {
-                    "height": 56,
-                  },
-                ]
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "height": 56,
+                  "paddingLeft": 10,
+                  "paddingRight": 44,
+                }
               }
             >
               <View
@@ -6516,6 +6398,7 @@ exports[`<Form> when {value} 1`] = `
                     },
                     Object {
                       "marginBottom": 0,
+                      "marginRight": 10,
                     },
                   ]
                 }
@@ -6609,13 +6492,7 @@ exports[`<Form> when {value} 1`] = `
                   />
                 </View>
               </View>
-              <View
-                style={
-                  Object {
-                    "marginLeft": 10,
-                  }
-                }
-              >
+              <View>
                 <Text
                   accessible={true}
                   allowFontScaling={true}
@@ -6710,7 +6587,7 @@ exports[`<Form> when {value} 1`] = `
               },
               Object {
                 "backgroundColor": "#ffffff",
-                "maxHeight": 210,
+                "maxHeight": 280,
                 "position": "absolute",
                 "shadowColor": "#000000",
                 "shadowOffset": Object {
@@ -6724,9 +6601,6 @@ exports[`<Form> when {value} 1`] = `
                 "display": "none",
               },
               false,
-              Object {
-                "maxHeight": 280,
-              },
               Object {
                 "marginTop": 22,
               },
@@ -6747,19 +6621,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -6780,6 +6649,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -6870,13 +6740,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -6972,19 +6836,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -7005,6 +6864,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -7098,13 +6958,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -7200,19 +7054,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -7233,6 +7082,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -7323,13 +7173,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -7425,19 +7269,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -7458,6 +7297,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -7548,13 +7388,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -7650,19 +7484,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -7683,6 +7512,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -7773,13 +7603,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -7875,19 +7699,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -7908,6 +7727,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -7998,13 +7818,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -8100,19 +7914,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -8133,6 +7942,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -8223,13 +8033,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -8325,19 +8129,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -8358,6 +8157,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -8448,13 +8248,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -8550,19 +8344,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -8583,6 +8372,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -8673,13 +8463,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}
@@ -8775,19 +8559,14 @@ exports[`<Form> when {value} 1`] = `
             >
               <View
                 style={
-                  Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "height": 42,
-                      "paddingLeft": 10,
-                      "paddingRight": 44,
-                    },
-                    Object {
-                      "height": 56,
-                    },
-                  ]
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                    "height": 56,
+                    "paddingLeft": 10,
+                    "paddingRight": 44,
+                  }
                 }
               >
                 <View
@@ -8808,6 +8587,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
+                        "marginRight": 10,
                       },
                     ]
                   }
@@ -8898,13 +8678,7 @@ exports[`<Form> when {value} 1`] = `
                     />
                   </View>
                 </View>
-                <View
-                  style={
-                    Object {
-                      "marginLeft": 10,
-                    }
-                  }
-                >
+                <View>
                   <Text
                     accessible={true}
                     allowFontScaling={true}

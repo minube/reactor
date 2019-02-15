@@ -5,14 +5,17 @@ import React, { createRef, PureComponent } from 'react';
 import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
 
-import { LAYOUT } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import { InputHint, InputLabel } from '../Input';
 import Motion from '../Motion';
+import Touchable from '../Touchable';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import Template from './InputSelectTemplate';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 import styles from './InputSelect.style';
+
+const { COLOR } = THEME;
 
 class InputSelect extends PureComponent {
   static propTypes = {
@@ -89,7 +92,7 @@ class InputSelect extends PureComponent {
 
         { schema && hasDataSource && !disabled && (
           <Motion
-            style={[styles.button, caption && styles.buttonWithCaption, label && styles.withLabel]}
+            style={[styles.button, label && styles.withLabel]}
             timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
           >
             <Button contained={false} icon="expand" onPress={event} />
@@ -97,7 +100,10 @@ class InputSelect extends PureComponent {
 
         <View style={[styles.border, !disabled && error && styles.error, disabled && styles.disabled]}>
           { schema
-            ? <ItemTemplate {...dataSource[value]} disabled={disabled} onPress={event} selected />
+            ? (
+              <Touchable onPress={event} rippleColor={COLOR.PRIMARY}>
+                <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
+              </Touchable>)
             : (
               <Picker
                 mode="dropdown"
@@ -107,7 +113,8 @@ class InputSelect extends PureComponent {
                 selectedValue={value}
                 style={[styles.picker, disabled && styles.pickerDisabled]}
               >
-                { dataSource.map(item => <Picker.Item key={item} label={item} value={item} />)}
+                { dataSource.map(item => (
+                  <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />))}
               </Picker>)}
         </View>
 
@@ -124,12 +131,13 @@ class InputSelect extends PureComponent {
               styles.dataSource,
               !active && styles.dataSourceHidden,
               !regular && styles.dataSourceBottom,
-              caption && styles.dataSourceWithCaption,
               label && styles.withLabel,
             ]}
           >
             { dataSource.map((item, index) => (
-              <ItemTemplate key={item.title} {...item} onPress={() => _onItem(index)} selected={index === value} />
+              <Touchable key={item.title} onPress={() => _onItem(index)} rippleColor={COLOR.PRIMARY}>
+                <ItemTemplate {...item} selected={index === value} style={styles.template} />
+              </Touchable>
             ))}
           </ScrollView>)}
       </View>
