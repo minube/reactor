@@ -48,9 +48,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -58,6 +61,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -171,9 +175,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -181,6 +188,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -290,9 +298,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -300,6 +311,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -439,9 +451,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -449,6 +464,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -535,9 +551,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -545,6 +564,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -662,9 +682,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -672,6 +695,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -760,9 +784,12 @@ exports[`<Form> when {attributes} 1`] = `
               "maxWidth": "100%",
             },
             false,
-            Object {
-              "width": "49%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "49%",
+              },
+            ],
           ]
         }
       >
@@ -770,6 +797,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -903,9 +931,12 @@ exports[`<Form> when {attributes} 1`] = `
               "maxWidth": "100%",
             },
             false,
-            Object {
-              "width": "49%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "49%",
+              },
+            ],
           ]
         }
       >
@@ -913,6 +944,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -3503,9 +3535,12 @@ exports[`<Form> when {attributes} 1`] = `
               "display": "flex",
               "flexDirection": "row",
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -3581,6 +3616,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -3668,9 +3704,12 @@ exports[`<Form> when {attributes} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -3678,6 +3717,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -3791,9 +3831,12 @@ exports[`<Form> when {attributes} 1`] = `
               "height": 44,
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -3824,6 +3867,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -3862,9 +3906,12 @@ exports[`<Form> when {attributes} 1`] = `
               "height": 44,
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -3895,6 +3942,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -3940,9 +3988,12 @@ exports[`<Form> when {attributes} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -4006,6 +4057,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -4080,9 +4132,12 @@ exports[`<Form> when {attributes} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -4146,6 +4201,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -4220,9 +4276,12 @@ exports[`<Form> when {attributes} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -4286,6 +4345,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -4360,9 +4420,12 @@ exports[`<Form> when {attributes} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -4424,6 +4487,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -4491,7 +4555,12 @@ exports[`<Form> when {attributes} 1`] = `
               "justifyContent": "space-between",
               "width": "100%",
             },
-            undefined,
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
             Object {
               "borderColor": "#cdd2d4",
               "borderRadius": 2.5,
@@ -4538,9 +4607,12 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "marginBottom": 22,
               },
-              Object {
-                "width": "32%",
-              },
+              Array [
+                undefined,
+                Object {
+                  "width": "32%",
+                },
+              ],
             ]
           }
         >
@@ -4548,6 +4620,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -4656,9 +4729,12 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "marginBottom": 22,
               },
-              Object {
-                "width": "32%",
-              },
+              Array [
+                undefined,
+                Object {
+                  "width": "32%",
+                },
+              ],
             ]
           }
         >
@@ -4666,6 +4742,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -4774,9 +4851,12 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "marginBottom": 22,
               },
-              Object {
-                "width": "32%",
-              },
+              Array [
+                undefined,
+                Object {
+                  "width": "32%",
+                },
+              ],
             ]
           }
         >
@@ -4784,6 +4864,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -4894,9 +4975,12 @@ exports[`<Form> when {attributes} 1`] = `
               "marginBottom": 22,
               "zIndex": 1,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -4916,6 +5000,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -5015,9 +5100,12 @@ exports[`<Form> when {attributes} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -5079,6 +5167,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -5317,9 +5406,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -5327,6 +5419,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -5440,9 +5533,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -5450,6 +5546,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -5559,9 +5656,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -5569,6 +5669,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -5708,9 +5809,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -5718,6 +5822,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -5804,9 +5909,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -5814,6 +5922,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -5931,9 +6040,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -5941,6 +6053,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -6029,9 +6142,12 @@ exports[`<Form> when {value} 1`] = `
               "maxWidth": "100%",
             },
             false,
-            Object {
-              "width": "49%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "49%",
+              },
+            ],
           ]
         }
       >
@@ -6039,6 +6155,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -6172,9 +6289,12 @@ exports[`<Form> when {value} 1`] = `
               "maxWidth": "100%",
             },
             false,
-            Object {
-              "width": "49%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "49%",
+              },
+            ],
           ]
         }
       >
@@ -6182,6 +6302,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -8772,9 +8893,12 @@ exports[`<Form> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -8850,6 +8974,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -8937,9 +9062,12 @@ exports[`<Form> when {value} 1`] = `
             Object {
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -8947,6 +9075,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9060,9 +9189,12 @@ exports[`<Form> when {value} 1`] = `
               "height": 44,
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -9093,6 +9225,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9131,9 +9264,12 @@ exports[`<Form> when {value} 1`] = `
               "height": 44,
               "marginBottom": 22,
             },
-            Object {
-              "width": "32%",
-            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
           ]
         }
       >
@@ -9164,6 +9300,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9209,9 +9346,12 @@ exports[`<Form> when {value} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -9275,6 +9415,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9349,9 +9490,12 @@ exports[`<Form> when {value} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -9415,6 +9559,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9489,9 +9634,12 @@ exports[`<Form> when {value} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -9555,6 +9703,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9629,9 +9778,12 @@ exports[`<Form> when {value} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -9693,6 +9845,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
@@ -9760,7 +9913,12 @@ exports[`<Form> when {value} 1`] = `
               "justifyContent": "space-between",
               "width": "100%",
             },
-            undefined,
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
             Object {
               "borderColor": "#cdd2d4",
               "borderRadius": 2.5,
@@ -9807,9 +9965,12 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "marginBottom": 22,
               },
-              Object {
-                "width": "32%",
-              },
+              Array [
+                undefined,
+                Object {
+                  "width": "32%",
+                },
+              ],
             ]
           }
         >
@@ -9817,6 +9978,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -9925,9 +10087,12 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "marginBottom": 22,
               },
-              Object {
-                "width": "32%",
-              },
+              Array [
+                undefined,
+                Object {
+                  "width": "32%",
+                },
+              ],
             ]
           }
         >
@@ -9935,6 +10100,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -10043,9 +10209,12 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "marginBottom": 22,
               },
-              Object {
-                "width": "32%",
-              },
+              Array [
+                undefined,
+                Object {
+                  "width": "32%",
+                },
+              ],
             ]
           }
         >
@@ -10053,6 +10222,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -10163,9 +10333,12 @@ exports[`<Form> when {value} 1`] = `
               "marginBottom": 22,
               "zIndex": 1,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -10185,6 +10358,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
+            numberOfLines={1}
             style={
               Array [
                 Object {
@@ -10624,9 +10798,12 @@ exports[`<Form> when {value} 1`] = `
               "flexDirection": "row",
               "marginBottom": 22,
             },
-            Object {
-              "minWidth": "100%",
-            },
+            Array [
+              Object {
+                "minWidth": "100%",
+              },
+              undefined,
+            ],
           ]
         }
       >
@@ -10688,6 +10865,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
+          numberOfLines={1}
           style={
             Array [
               Object {
