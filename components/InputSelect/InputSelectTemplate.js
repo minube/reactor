@@ -1,51 +1,45 @@
-import { bool, func, string } from 'prop-types';
+import { bool, string } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import { THEME } from '../../common';
 import Text from '../Text';
-import Touchable from '../Touchable';
 import InputOption from '../InputOption';
 import styles from './InputSelectTemplate.style';
 
-const { COLOR } = THEME;
-
 class InputSelectTemplate extends PureComponent {
   static propTypes = {
+    active: bool,
     caption: string,
     disabled: bool,
-    onPress: func,
     selected: bool,
     title: string.isRequired,
   };
 
   static defaultProps = {
+    active: false,
     caption: undefined,
     disabled: undefined,
-    onPress: undefined,
     selected: false,
   };
 
   render() {
     const {
-      caption, disabled, title, onPress, selected,
+      active, caption, disabled, title, selected, ...inherit
     } = this.props;
 
     return (
-      <Touchable onPress={onPress} rippleColor={COLOR.PRIMARY}>
-        <View style={[styles.container, caption && styles.withCaption]}>
-          <InputOption value={selected} style={{ marginBottom: 0 }} />
-          <View style={styles.texts}>
-            <Text lighten={disabled} style={styles.title}>
-              {title}
-            </Text>
-            { caption && (
-              <Text caption level={2} lighten>
-                {caption}
-              </Text>)}
-          </View>
+      <View style={inherit.style}>
+        <InputOption value={active || selected} style={styles.inputOption} />
+        <View style={styles.texts}>
+          <Text lighten={disabled} style={styles.title}>
+            {title}
+          </Text>
+          { caption && (
+            <Text caption level={2} lighten>
+              {caption}
+            </Text>)}
         </View>
-      </Touchable>
+      </View>
     );
   }
 }
