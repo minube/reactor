@@ -52,7 +52,7 @@ class ProviderAmplitude extends PureComponent {
       }
       await fetch(
         {
-          ...fingerprint,  // uuid & device_id
+          ...fingerprint, // uuid & device_id
           ...session, // user_id && session_id && device_id
           userProperties: cookie ? JSON.parse(cookie) : cookie,
         },
