@@ -2,7 +2,6 @@ import { func, shape, string } from 'prop-types';
 import React, { createElement, PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
-import { LAYOUT } from '../../common';
 import Input from '../Input';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
@@ -11,7 +10,7 @@ import InputSelect from '../InputSelect';
 import Text from '../Text';
 import Switch from '../Switch';
 import {
-  consolidate, isValidEmail, isValidPhone, set,
+  buildStyle, consolidate, isValidEmail, isValidPhone, set,
 } from './modules';
 import styles from './Form.style';
 
@@ -75,10 +74,9 @@ class Form extends PureComponent {
   }
 
   renderForm = ({
-    attributes = {}, fieldset = false, key, style, title, value = {},
+    attributes = {}, fieldset = false, inline, key, style, title, value = {},
   }) => {
     const { renderField, renderForm } = this;
-    const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
 
     return (
       <View key={key} style={[styles.container, style, fieldset && styles.fieldset]}>
@@ -97,7 +95,7 @@ class Form extends PureComponent {
                 attributes: props.attributes,
                 fieldset: true,
                 key: keyMap,
-                style: REGULAR || LARGE ? styles[props.style] : undefined,
+                style: buildStyle({ inline, style }, styles),
                 title: props.title,
                 value: value[field],
               })
@@ -112,11 +110,10 @@ class Form extends PureComponent {
 
   renderField = ({
     field, props: {
-      required, style, type, ...props
+      inline, required, style, type, ...props
     } = {}, value = props.defaultValue, keyMap,
   }) => {
     const { _onChange, props: { color } } = this;
-    const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
     let error;
     let invalid = (required && !props.disabled)
       && ((!type && value && value.trim().length === 0) || !value);
@@ -137,8 +134,8 @@ class Form extends PureComponent {
       error: error || props.error,
       required: required && (value === undefined || (!type && value.trim().length === 0)),
       value,
-      style: (REGULAR || LARGE ? styles[style] : undefined) || styles.anchor,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
+      style: buildStyle({ inline, style }, styles),
     });
   }
 
