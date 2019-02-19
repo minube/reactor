@@ -81,7 +81,6 @@ class InputSelect extends PureComponent {
     } = this;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
-    const caption = hasDataSource && dataSource[0].caption;
 
     return (
       <View ref={this.component} style={[styles.container, active && styles.active, inherit.style]}>

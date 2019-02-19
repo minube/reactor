@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-import { LAYOUT, THEME } from '../../common';
+import { THEME } from '../../common';
 
 const { UNIT } = THEME;
 const TEMPLATE_HEIGHT = UNIT * 5.6;
