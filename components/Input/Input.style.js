@@ -2,7 +2,9 @@ import { Platform, StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, FONT, UNIT } = THEME;
+const {
+  COLOR, FONT, UNIT, SPACE,
+} = THEME;
 
 const ICON_SIZE = UNIT * 2;
 const INPUT_HEIGHT = UNIT * 4.2;
@@ -11,7 +13,7 @@ export { INPUT_HEIGHT };
 
 export default StyleSheet.create({
   container: {
-    marginBottom: UNIT * 2.2,
+    marginBottom: SPACE.REGULAR,
   },
 
   content: {

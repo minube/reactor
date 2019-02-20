@@ -5,7 +5,7 @@ import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, UNIT,
+  BORDER_RADIUS, COLOR, FONT, UNIT, SPACE,
 } = THEME;
 
 export default StyleSheet.create({
@@ -28,7 +28,7 @@ export default StyleSheet.create({
   },
 
   container: {
-    marginBottom: UNIT * 2.2,
+    marginBottom: SPACE.REGULAR,
     maxWidth: '100%',
   },
 
@@ -96,6 +96,6 @@ export default StyleSheet.create({
   },
 
   withLabel: {
-    marginTop: UNIT * 2.2,
+    marginTop: SPACE.REGULAR,
   },
 });
