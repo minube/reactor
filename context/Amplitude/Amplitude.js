@@ -1,6 +1,7 @@
 import { node, shape } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { NetInfo } from 'react-native';
+import { C } from 'BookingPath/common';
 
 import ENV from '../../common/environment';
 import SHAPE from '../../common/shape';
@@ -9,6 +10,7 @@ import {
 } from './modules';
 import PKG from '../../package.json';
 
+const { EVENTS } = C
 const { IS_WEB, IS_SERVER } = ENV;
 const { Provider, Consumer: ConsumerAmplitude } = createContext('reactor:amplitude');
 const STORE_EVENTS = `${PKG.name}:events`;
@@ -50,14 +52,17 @@ class ProviderAmplitude extends PureComponent {
 
         cookie = getCookie('reactor:request');
       }
-      await fetch(
-        {
-          ...fingerprint, // uuid & device_id
-          ...session, // user_id && session_id && device_id
-          userProperties: cookie ? JSON.parse(cookie) : cookie,
-        },
-        'session',
-      );
+
+      window.addEventListener(EVENTS.ON_COMPONENT_LOADED, (event) => {
+        fetch(
+          {
+            ...fingerprint, // uuid & device_id
+            ...session, // user_id && session_id && device_id
+            userProperties: cookie ? JSON.parse(cookie) : cookie,
+          },
+          'session',
+        );
+      })
     }
 
     this.setState({
