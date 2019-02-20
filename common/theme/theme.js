@@ -72,4 +72,16 @@ export default {
   OFFSET: UNIT * 1.6,
 
   UNIT,
+
+  SPACE: {
+    XS: UNIT * 0.8,
+    S: UNIT * 1.2,
+    MEDIUM: UNIT * 1.6,
+
+    REGULAR: UNIT * 2,
+
+    L: UNIT * 2.8,
+    XL: UNIT * 3.2,
+    XXL: UNIT * 60,
+  },
 };
