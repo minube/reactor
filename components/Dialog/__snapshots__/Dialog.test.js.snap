@@ -550,7 +550,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                         Object {
                           "height": 44,
                           "minWidth": 44,
-                          "paddingHorizontal": 30,
+                          "paddingHorizontal": 28,
                         },
                         Object {
                           "alignItems": "center",
@@ -797,7 +797,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                         Object {
                           "height": 44,
                           "minWidth": 44,
-                          "paddingHorizontal": 30,
+                          "paddingHorizontal": 28,
                         },
                         Object {
                           "alignItems": "center",

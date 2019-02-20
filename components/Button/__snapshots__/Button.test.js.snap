@@ -31,7 +31,7 @@ exports[`<Button> renders 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -133,7 +133,7 @@ exports[`<Button> when {activity} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -279,7 +279,7 @@ exports[`<Button> when {children} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -451,7 +451,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -581,7 +581,7 @@ exports[`<Button> when {color} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -711,7 +711,7 @@ exports[`<Button> when {contained=false} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -838,7 +838,7 @@ exports[`<Button> when {disabled} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -970,7 +970,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1122,7 +1122,7 @@ exports[`<Button> when {icon} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1243,7 +1243,7 @@ exports[`<Button> when {outlined} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1374,7 +1374,7 @@ exports[`<Button> when {responsive} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1506,7 +1506,7 @@ exports[`<Button> when {rounded} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1640,7 +1640,7 @@ exports[`<Button> when {shadow} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1778,7 +1778,7 @@ exports[`<Button> when {small} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -1788,7 +1788,7 @@ exports[`<Button> when {small} 1`] = `
           Object {
             "height": 28,
             "minWidth": 28,
-            "paddingHorizontal": 14,
+            "paddingHorizontal": 12,
           },
           false,
           false,
@@ -1918,7 +1918,7 @@ exports[`<Button> when {style} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",
@@ -2048,7 +2048,7 @@ exports[`<Button> when {title} 1`] = `
           Object {
             "height": 44,
             "minWidth": 44,
-            "paddingHorizontal": 30,
+            "paddingHorizontal": 28,
           },
           Object {
             "alignItems": "center",

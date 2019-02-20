@@ -1019,7 +1019,7 @@ exports[`<Form> when {attributes} 1`] = `
                     Object {
                       "height": 44,
                       "minWidth": 44,
-                      "paddingHorizontal": 30,
+                      "paddingHorizontal": 28,
                     },
                     Object {
                       "alignItems": "center",
@@ -6377,7 +6377,7 @@ exports[`<Form> when {value} 1`] = `
                     Object {
                       "height": 44,
                       "minWidth": 44,
-                      "paddingHorizontal": 30,
+                      "paddingHorizontal": 28,
                     },
                     Object {
                       "alignItems": "center",

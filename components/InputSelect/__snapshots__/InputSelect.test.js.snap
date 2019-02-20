@@ -327,7 +327,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "height": 44,
                 "minWidth": 44,
-                "paddingHorizontal": 30,
+                "paddingHorizontal": 28,
               },
               Object {
                 "alignItems": "center",
@@ -3270,7 +3270,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "height": 44,
                 "minWidth": 44,
-                "paddingHorizontal": 30,
+                "paddingHorizontal": 28,
               },
               Object {
                 "alignItems": "center",
