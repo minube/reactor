@@ -1038,7 +1038,6 @@ exports[`<Form> when {attributes} 1`] = `
                     false,
                     false,
                     false,
-                    false,
                   ]
                 }
               >
@@ -1357,8 +1356,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "height": 2,
                   "width": 0,
                 },
-                "shadowOpacity": 0.33,
-                "shadowRadius": 4,
+                "shadowOpacity": 0.2,
+                "shadowRadius": 8,
               },
               Object {
                 "display": "none",
@@ -6396,7 +6395,6 @@ exports[`<Form> when {value} 1`] = `
                     false,
                     false,
                     false,
-                    false,
                   ]
                 }
               >
@@ -6715,8 +6713,8 @@ exports[`<Form> when {value} 1`] = `
                   "height": 2,
                   "width": 0,
                 },
-                "shadowOpacity": 0.33,
-                "shadowRadius": 4,
+                "shadowOpacity": 0.2,
+                "shadowRadius": 8,
               },
               Object {
                 "display": "none",

@@ -5,7 +5,7 @@ import { INPUT_HEIGHT } from '../Input/Input.style';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, UNIT, SPACE,
+  BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
 } = THEME;
 
 export default StyleSheet.create({
@@ -33,7 +33,7 @@ export default StyleSheet.create({
   },
 
   dataSource: {
-    ...LAYOUT.STYLE.SHADOW,
+    ...ELEVATION.REGULAR,
     position: 'absolute',
     backgroundColor: COLOR.WHITE,
     maxHeight: TEMPLATE_HEIGHT * 5,

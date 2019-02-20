@@ -1301,7 +1301,6 @@ exports[`<Slider> when {navigation} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -1436,7 +1435,6 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "backgroundColor": "#707070",
               },
-              false,
               false,
               false,
               false,
