@@ -21,16 +21,6 @@ export default {
     alignItems: 'center',
   },
 
-  SHADOW: {
-    shadowColor: COLOR.BLACK,
-    shadowOffset: { height: 2, width: 0 },
-    shadowOpacity: 0.33,
-    shadowRadius: 4,
-    ...Platform.select({
-      android: { elevation: 4 },
-    }),
-  },
-
   ...StyleSheet.create({
     cardHeightSmall: { height: UNIT * 13.9 },
     cardHeightRegular: { height: UNIT * 19 },

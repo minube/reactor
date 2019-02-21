@@ -5,7 +5,7 @@ exports[`<Input> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -70,7 +70,7 @@ exports[`<Input> when {color} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -135,7 +135,7 @@ exports[`<Input> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -204,7 +204,7 @@ exports[`<Input> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -294,7 +294,7 @@ exports[`<Input> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -389,7 +389,7 @@ exports[`<Input> when {icon} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -477,7 +477,7 @@ exports[`<Input> when {keyboard} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -542,7 +542,7 @@ exports[`<Input> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -638,7 +638,7 @@ exports[`<Input> when {lines} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -704,7 +704,7 @@ exports[`<Input> when {required} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -792,7 +792,7 @@ exports[`<Input> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -861,7 +861,7 @@ exports[`<Input> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]

@@ -15,7 +15,7 @@ exports[`<InputOption> inherity:style 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
@@ -127,7 +127,7 @@ exports[`<InputOption> label 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -267,7 +267,7 @@ exports[`<InputOption> renders 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -376,7 +376,7 @@ exports[`<InputOption> rounded (false) 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]
@@ -483,7 +483,7 @@ exports[`<InputOption> value 1`] = `
         "alignItems": "center",
         "display": "flex",
         "flexDirection": "row",
-        "marginBottom": 22,
+        "marginBottom": 20,
       },
       undefined,
     ]

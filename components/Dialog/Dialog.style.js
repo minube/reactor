@@ -2,7 +2,9 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME, ENV } from '../../common';
 
-const { BORDER_RADIUS, COLOR, OFFSET } = THEME;
+const {
+  BORDER_RADIUS, COLOR, ELEVATION, OFFSET,
+} = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -25,7 +27,7 @@ export default StyleSheet.create({
   },
 
   frame: {
-    ...LAYOUT.STYLE.SHADOW,
+    ...ELEVATION.LARGE,
     backgroundColor: COLOR.BACKGROUND,
     borderRadius: BORDER_RADIUS,
   },

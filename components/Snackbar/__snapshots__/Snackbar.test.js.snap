@@ -81,11 +81,11 @@ exports[`<Snackbar> renders 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Object {
                   "backgroundColor": "#000000",
