@@ -10,13 +10,13 @@ import {
 import PKG from '../../package.json';
 
 const { IS_WEB, IS_SERVER } = ENV;
-const { Provider, Consumer: ConsumerAmplitude } = createContext('reactor:amplitude');
+const { Provider, Consumer: ConsumerTracking } = createContext('reactor:tracking');
 const STORE_EVENTS = `${PKG.name}:events`;
 const MINUBE_USER_ID = 'mn_user_id';
 const AMPLITUDE_DATA = 'mn_amplitude_data';
 let eventId = 1;
 
-class ProviderAmplitude extends PureComponent {
+class ProviderTracking extends PureComponent {
   static propTypes = {
     children: node,
     session: shape(SHAPE.SESSION),
@@ -90,6 +90,18 @@ class ProviderAmplitude extends PureComponent {
     await AsyncStore.setItem(STORE_EVENTS, [...events, event]);
   }
 
+  session = async () => {
+    // @TODO
+    // await fetch(
+    //   {
+    //     ...fingerprint, // uuid & device_id
+    //     ...session, // user_id && session_id && device_id
+    //     userProperties: cookie ? JSON.parse(cookie) : cookie,
+    //   },
+    //   'session',
+    // );
+  }
+
   logEvent = ({ type, ...props } = {}) => {
     if (IS_SERVER) return;
 
@@ -122,4 +134,4 @@ class ProviderAmplitude extends PureComponent {
   }
 }
 
-export { ConsumerAmplitude, ProviderAmplitude };
+export { ConsumerTracking, ProviderTracking };

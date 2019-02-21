@@ -4,7 +4,7 @@ import { fetch } from '../../../components/BoardingPass';
 
 import entropy from './entropy';
 
-const { IS_PRODUCTION, IS_WEB, NODE_ENV } = ENV;
+const { IS_PRODUCTION, IS_WEB } = ENV;
 const {
   browserName, browserVersion,
   deviceManufacturer, deviceModel,
@@ -36,8 +36,6 @@ export default async (event = {}, method = 'event') => {
       },
     };
   }
-
-  if (!IS_PRODUCTION && !NODE_ENV) console.info(`⚡️ProviderAmplitude:${endpoint}`, props); // eslint-disable-line
 
   fetch({
     method: 'POST',

@@ -1,21 +1,19 @@
-import {
-  func, node, shape, string,
-} from 'prop-types';
+import { func, node, shape } from 'prop-types';
 import React from 'react';
 
 import SHAPE from '../common/shape';
-import { ConsumerAmplitude, ProviderAmplitude } from './Amplitude';
+import { ConsumerTracking, ProviderTracking } from './Tracking';
 import { ConsumerL10N, ProviderL10N } from './L10N';
 import { ConsumerTheme, ProviderTheme } from './Theme';
 
 const Consumer = ({ children }) => (
-  <ConsumerAmplitude>
-    { amplitude => (
+  <ConsumerTracking>
+    { tracking => (
       <ConsumerL10N>
-        { l10n => children({ ...amplitude, ...l10n }) }
+        { l10n => children({ ...tracking, ...l10n }) }
       </ConsumerL10N>
     )}
-  </ConsumerAmplitude>
+  </ConsumerTracking>
 );
 
 Consumer.propTypes = {
@@ -23,24 +21,22 @@ Consumer.propTypes = {
 };
 
 const Provider = ({
-  amplitudeKey, children, session, theme, ...l10n
+  children, session, theme, ...l10n
 }) => (
-  <ProviderAmplitude key={amplitudeKey} session={session}>
+  <ProviderTracking session={session}>
     <ProviderL10N {...l10n}>
       {children}
     </ProviderL10N>
-  </ProviderAmplitude>
+  </ProviderTracking>
 );
 
 Provider.propTypes = {
-  amplitudeKey: string,
   children: node.isRequired,
   session: shape(SHAPE.SESSION),
   theme: shape({}),
 };
 
 Provider.defaultProps = {
-  amplitudeKey: undefined,
   session: undefined,
   theme: undefined,
 };
@@ -49,8 +45,8 @@ export {
   Consumer,
   Provider,
 
-  ConsumerAmplitude,
-  ProviderAmplitude,
+  ConsumerTracking,
+  ProviderTracking,
 
   ConsumerL10N,
   ProviderL10N,
