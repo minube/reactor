@@ -8,7 +8,6 @@ import { LAYOUT, THEME } from './common';
 import {
   Button, Dialog, Text, Image,
 } from './components';
-import { ConsumerTracking, ProviderTracking } from './context';
 
 const styles = StyleSheet.create({
   dialog: {
@@ -64,17 +63,5 @@ storiesOf('🏀 Playground', module)
         />
       </View>
     </Dialog>
-  ))
-  .add('<Tracking />', () => (
-    <ProviderTracking>
-      <ConsumerTracking>
-        { ({ logEvent }) => (
-            <Button
-              title="Press me"
-              onPress={() => logEvent({ type: 'reactor:demo', hello: 'world' })}
-            />
-        )}
-        </ConsumerTracking>
-    </ProviderTracking>
   ));
 

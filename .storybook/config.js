@@ -25,4 +25,5 @@ setConsoleOptions({ panelExclude: [] });
 const stories = require.context('../components', true, /\.story\.js$/);
 stories.playground = require('../index.story.js');
 stories.theme = require('../context/Theme/Theme.story.js');
+stories.theme = require('../context/Tracking/Tracking.story.js');
 configure(() => stories.keys().forEach(stories), module);
