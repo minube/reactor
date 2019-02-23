@@ -1,4 +1,4 @@
-import { node, shape } from 'prop-types';
+import { bool, node, shape } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { NetInfo } from 'react-native';
 
@@ -10,21 +10,23 @@ import {
 import PKG from '../../package.json';
 
 const { IS_WEB, IS_SERVER } = ENV;
-const { Provider, Consumer: ConsumerAmplitude } = createContext('reactor:amplitude');
+const { Provider, Consumer: ConsumerTracking } = createContext('reactor:tracking');
 const STORE_EVENTS = `${PKG.name}:events`;
 const MINUBE_USER_ID = 'mn_user_id';
 const AMPLITUDE_DATA = 'mn_amplitude_data';
 let eventId = 1;
 
-class ProviderAmplitude extends PureComponent {
+class ProviderTracking extends PureComponent {
   static propTypes = {
     children: node,
     session: shape(SHAPE.SESSION),
+    signup: bool,
   };
 
   static defaultProps = {
     children: undefined,
     session: undefined,
+    signup: true,
   };
 
   state = {
@@ -33,10 +35,21 @@ class ProviderAmplitude extends PureComponent {
   };
 
   async componentWillMount() {
-    const { _syncEvents } = this;
-    const { props: { session = {} } } = this;
+    const { _signup, props: { signup } } = this;
+
+    if (signup) _signup();
+  }
+
+  componentWillReceiveProps({ signup }) {
+    const { _signup, props } = this;
+
+    if (signup === true && signup !== props.signup) _signup();
+  }
+
+  _signup = async () => {
+    const { _syncEvents, props: { session = {} } } = this;
+    const cookie = getCookie('reactor:request');
     let fingerprint;
-    let cookie;
 
     if (!IS_SERVER) {
       fingerprint = await new Fingerprint();
@@ -47,17 +60,14 @@ class ProviderAmplitude extends PureComponent {
         if (deviceId) session.device_id = deviceId;
         if (sessionId) session.session_id = sessionId;
         if (userId) session.user_id = userId;
-
-        cookie = getCookie('reactor:request');
       }
-      await fetch(
-        {
-          ...fingerprint, // uuid & device_id
-          ...session, // user_id && session_id && device_id
-          userProperties: cookie ? JSON.parse(cookie) : cookie,
-        },
-        'session',
-      );
+
+      await fetch({
+        ...fingerprint, // uuid & device_id
+        ...session, // user_id && session_id && device_id
+        userProperties: cookie ? JSON.parse(cookie) : cookie,
+      },
+      'session');
     }
 
     this.setState({
@@ -112,14 +122,14 @@ class ProviderAmplitude extends PureComponent {
   }
 
   render() {
-    const { logEvent, props: { children } } = this;
+    const { logEvent, props: { children }, state = {} } = this;
 
     return (
-      <Provider value={{ logEvent }}>
+      <Provider value={{ logEvent, ...state }}>
         { children }
       </Provider>
     );
   }
 }
 
-export { ConsumerAmplitude, ProviderAmplitude };
+export { ConsumerTracking, ProviderTracking };

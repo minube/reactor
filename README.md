@@ -28,7 +28,7 @@ brew install yarn
 brew install watchman
 brew postintall watchman
 
-yarn global add exp@47.4.4
+yarn global add expo-cli
 yarn global add create-react-app
 yarn global add create-react-native-app
 ```

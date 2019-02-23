@@ -1,4 +1,4 @@
-import Fingerprint from './fingerprint';
+import Fingerprint from './Fingerprint';
 
 describe('Fingerprint()', () => {
   it('default', async () => {

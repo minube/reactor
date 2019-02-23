@@ -1,18 +1,18 @@
 import React from 'react';
 import TestRenderer from 'react-test-renderer';
 
-import { ConsumerAmplitude, ProviderAmplitude } from './Amplitude';
+import { ConsumerTracking, ProviderTracking } from './Tracking';
 
 global.fetch = () => {};
 
-describe('<ProviderAmplitude>', () => {
+describe('<ProviderTracking>', () => {
   it('renders', () => {
-    const tree = TestRenderer.create(<ProviderAmplitude />).toJSON();
+    const tree = TestRenderer.create(<ProviderTracking />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('dispatch logEvent', () => {
-    const renderer = TestRenderer.create(<ProviderAmplitude  />);
+    const renderer = TestRenderer.create(<ProviderTracking  />);
 
     renderer.getInstance().logEvent('hello');
   });
