@@ -24,7 +24,8 @@ const InputLabel = ({
       level={3}
       lighten
       style={[styles.container, inherit.style]}
-    />);
+    />
+  );
 };
 
 InputLabel.propTypes = {

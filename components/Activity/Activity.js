@@ -14,4 +14,5 @@ export default ({ ...inherit }) => (
       inherit.style,
       IS_SERVER && { maxHeight: UNIT, maxWidth: UNIT },
     ]}
-  />);
+  />
+);

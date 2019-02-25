@@ -64,4 +64,3 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

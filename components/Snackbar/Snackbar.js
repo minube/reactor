@@ -26,7 +26,8 @@ const Snackbar = ({
           small
           onPress={onPress}
           title={button.toUpperCase()}
-        />)}
+        />
+      )}
     </View>
   </Dialog>
 );

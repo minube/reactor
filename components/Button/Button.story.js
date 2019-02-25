@@ -2,10 +2,12 @@ import React from 'react';
 import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { text, boolean, color, object } from '@storybook/addon-knobs/react';
+import {
+  text, boolean, color, object,
+} from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
-import { LayoutView, Price } from '../';
+import { LayoutView, Price } from '..';
 import Button from './Button';
 
 const styles = {
@@ -13,7 +15,7 @@ const styles = {
     paddingHorizontal: 10,
     backgroundColor: 'green',
   },
-}
+};
 const _onPress = () => {};
 
 storiesOf('✅ Button', module)
@@ -87,4 +89,3 @@ storiesOf('✅ Button', module)
       style={object('style', styles.button)}
     />
   ));
-

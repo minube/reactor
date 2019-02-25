@@ -56,4 +56,3 @@ describe('<Motion>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

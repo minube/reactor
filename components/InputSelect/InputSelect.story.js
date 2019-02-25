@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, number, object, select } from '@storybook/addon-knobs/react';
+import {
+  text, boolean, number, object, select,
+} from '@storybook/addon-knobs/react';
 
 import InputSelect from './InputSelect';
 import {
@@ -20,7 +22,7 @@ class HOC extends Component {
 
   _onChange = (value) => {
     const { props: { onChange } } = this;
-    ;
+
     this.setState({ value });
     if (onChange) onChange(value);
   }
@@ -28,7 +30,7 @@ class HOC extends Component {
   render() {
     const { _onChange, props, state: { value } } = this;
 
-    return <InputSelect {...props} value={value} onChange={_onChange} />
+    return <InputSelect {...props} value={value} onChange={_onChange} />;
   }
 }
 
@@ -76,5 +78,4 @@ storiesOf('✅ InputSelect', module)
       value={number('value', 3)}
       style={object('style', STYLE)}
     />
-  ))
-
+  ));

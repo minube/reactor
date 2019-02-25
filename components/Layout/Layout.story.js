@@ -48,4 +48,3 @@ storiesOf('✅ LayoutView', module)
       <LayoutInfo viewport={LAYOUT.VIEWPORT} title="common/LAYOUT" />
     </LayoutView>
   )));
-

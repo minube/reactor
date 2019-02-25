@@ -45,4 +45,3 @@ describe('<Rating>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

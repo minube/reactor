@@ -69,4 +69,3 @@ describe('<Heading>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

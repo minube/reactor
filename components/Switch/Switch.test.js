@@ -29,4 +29,3 @@ describe('<Switch>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

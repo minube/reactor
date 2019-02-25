@@ -12,7 +12,8 @@ const Rating = ({
     { [...Array(5).keys()].map(rate => (
       <Text {...inherit} color={color} key={rate} style={[styles.rate, inherit.style]}>
         {rate < Math.floor(value) ? '★' : '☆'}
-      </Text>)) }
+      </Text>
+    )) }
     { value > 0 && showValue
       && (
       <Text caption color={textColor} style={inherit.style}>

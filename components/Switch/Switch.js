@@ -25,7 +25,8 @@ const Switch = ({
     { label && (
       <InputLabel style={styles.label}>
         {label}
-      </InputLabel>)}
+      </InputLabel>
+    )}
   </View>
 );
 

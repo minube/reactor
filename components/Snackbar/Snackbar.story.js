@@ -1,11 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { boolean, color, object, text } from '@storybook/addon-knobs/react';
+import {
+  boolean, color, object, text,
+} from '@storybook/addon-knobs/react';
 
 import Snackbar from './Snackbar';
 
-const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.";
+const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.';
 const PROPS = { visible: true };
 
 storiesOf('✅ Snackbar', module)

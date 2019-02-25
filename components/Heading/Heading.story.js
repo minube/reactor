@@ -1,6 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { boolean, color, object, text } from '@storybook/addon-knobs/react';
+import {
+  boolean, color, object, text,
+} from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import Heading from './Heading';
@@ -77,4 +79,3 @@ storiesOf('☑️ Heading', module)
       title={text('title', 'Actividades en España')}
     />
   ));
-

@@ -43,4 +43,3 @@ describe('<Icon>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

@@ -11,7 +11,7 @@ const STYLE_CONTAINER = { backgroundColor: 'rgba(0,255,0,0.25)', height: '50%' }
 
 storiesOf('✅ Dialog', module)
   .add('default', () => (
-    <Dialog  />
+    <Dialog />
   ))
   .add('visible', () => (
     <Dialog visible />

@@ -39,4 +39,3 @@ describe('<Breadcrumbs>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

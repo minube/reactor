@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { View } from 'react-native';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { array, text, boolean, number, object, select } from '@storybook/addon-knobs/react';
+import {
+  array, text, boolean, number, object, select,
+} from '@storybook/addon-knobs/react';
 
 import Avatar from '../Avatar';
 import InputList from './InputList';
@@ -16,7 +18,7 @@ const VALUE_COMPLEX = [
   { avatar: 'https://api.adorable.io/avatars/128/3', name: 'three' },
   { avatar: 'https://api.adorable.io/avatars/128/4', name: 'four' },
   { avatar: 'https://api.adorable.io/avatars/128/5', name: 'five' },
-]
+];
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', maxWidth: 320 };
 const item = ({ avatar, name }) => (
   <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
@@ -39,7 +41,7 @@ class InputListHOC extends Component {
 
   render() {
     const { _onChange, props, state: { value = {} } } = this;
-    return <InputList {...props} value={value} onChange={_onChange} />
+    return <InputList {...props} value={value} onChange={_onChange} />;
   }
 }
 
@@ -83,10 +85,9 @@ storiesOf('✅ InputList', module)
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', null)}
-      label={text('label', "numbers")}
+      label={text('label', 'numbers')}
       required={boolean('required', false)}
       value={array('value', VALUE)}
       style={object('style', STYLE)}
     />
-  ))
-
+  ));

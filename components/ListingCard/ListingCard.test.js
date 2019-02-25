@@ -43,7 +43,8 @@ describe('<ListingCard>', () => {
     const tree = renderer.create(
       <ListingCard>
         <Button flat rounded small title="15 Actividades" style={{ alignSelf: 'flex-start', marginHorizontal: 0 }} />
-      </ListingCard>).toJSON();
+      </ListingCard>,
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -52,4 +53,3 @@ describe('<ListingCard>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

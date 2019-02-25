@@ -1,7 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withNotes } from '@storybook/addon-notes';
-import { boolean, color, number, select } from '@storybook/addon-knobs/react';
+import {
+  boolean, color, number, select,
+} from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import Icon from './Icon';
@@ -17,7 +19,7 @@ const ICONS = [
   'right',
   'shareContrast',
   'twitter',
-]
+];
 
 storiesOf('✅ Icon', module)
   .add('default', () => (
@@ -53,4 +55,3 @@ storiesOf('✅ Icon', module)
       value={select('value', ICONS, 'closeDark')}
     />
   ));
-

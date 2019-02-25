@@ -34,5 +34,3 @@ storiesOf('✅ BoardingPass', module)
       {children}
     </BoardingPass>
   ));
-
-

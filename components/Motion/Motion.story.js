@@ -1,7 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
 import { storiesOf } from '@storybook/react';
-import { boolean, object, number, select } from '@storybook/addon-knobs/react';
+import {
+  boolean, object, number, select,
+} from '@storybook/addon-knobs/react';
 
 import Motion from './Motion';
 

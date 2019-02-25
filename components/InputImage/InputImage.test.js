@@ -47,4 +47,3 @@ describe('<InputImage>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-
