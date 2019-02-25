@@ -1349,7 +1349,6 @@ exports[`<Form> when {attributes} 1`] = `
               },
               Object {
                 "backgroundColor": "#ffffff",
-                "maxHeight": 280,
                 "position": "absolute",
                 "shadowColor": "#000000",
                 "shadowOffset": Object {
@@ -1365,6 +1364,9 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               Object {
                 "marginTop": 20,
+              },
+              Object {
+                "maxHeight": 616,
               },
             ]
           }
@@ -6706,7 +6708,6 @@ exports[`<Form> when {value} 1`] = `
               },
               Object {
                 "backgroundColor": "#ffffff",
-                "maxHeight": 280,
                 "position": "absolute",
                 "shadowColor": "#000000",
                 "shadowOffset": Object {
@@ -6722,6 +6723,9 @@ exports[`<Form> when {value} 1`] = `
               false,
               Object {
                 "marginTop": 20,
+              },
+              Object {
+                "maxHeight": 616,
               },
             ]
           }
