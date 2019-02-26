@@ -49,10 +49,12 @@ export default StyleSheet.create({
   day: {
     flex: 1,
     // lineHeight: UNIT,
+    fontWeight: FONT.WEIGHT.SEMIBOLD,
   },
 
   dayName: {
     marginTop: UNIT,
+    marginBottom: UNIT,
     textAlign: 'center',
   },
 
