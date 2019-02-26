@@ -1,7 +1,7 @@
 {
   "name": "minube-reactor",
   "description": "Reusable presentational components",
-  "version": "0.11.6",
+  "version": "0.11.7",
   "license": "LGPL-3.0",
   "devDependencies": {
     "@babel/cli": "7.0.0",
@@ -46,9 +46,9 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "build": "yarn run build:common && yarn run build:components && yarn run build:context",
-    "build:common": "babel common -d dist/common --ignore '**/*.test.js'",
-    "build:components": "babel components -d dist/components --ignore '**/*.test.js'",
-    "build:context": "babel context -d dist/context --ignore '**/*.test.js'",
+    "build:common": "babel common -d dist/common --copy-files --ignore '**/*.test.js'",
+    "build:components": "babel components -d dist/components --copy-files --ignore '**/*.test.js'",
+    "build:context": "babel context -d dist/context --copy-files --ignore '**/*.test.js'",
     "start": "start-storybook -p 9001 -c .storybook",
     "start:native": "expo start",
     "android": "expo start --android",

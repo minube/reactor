@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    onLoad={[Function]}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {color} (only Native) 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    color="#d33c44"
+    onLoad={[Function]}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {invert} (only Web) 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    invert={true}
+    onLoad={[Function]}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {ratio} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    onLoad={[Function]}
+    source={
+      Object {
+        "uri": "https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg?fit=around|102:76",
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {responsive} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    onLoad={[Function]}
+    source={
+      Object {
+        "uri": "https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg?fit=around|1024:768",
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {size} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    onLoad={[Function]}
+    size={48}
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size={48}
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {source} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    onLoad={[Function]}
+    source={
+      Object {
+        "uri": "https://picsum.photos/320/200/?random",
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<Image> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#F5F5F6",
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "#a66ecc",
+      },
+    ]
+  }
+>
+  <Image
+    onLoad={[Function]}
+    style={
+      Object {
+        "backgroundColor": "#a66ecc",
+      }
+    }
+  />
+  <ActivityIndicator
+    animating={true}
+    color="white"
+    hidesWhenStopped={true}
+    size="large"
+    style={
+      Array [
+        Object {
+          "position": "absolute",
+        },
+        false,
+      ]
+    }
+  />
+</View>
+`;

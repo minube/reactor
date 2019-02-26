@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Motion> renders 1`] = `
+<View
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {children} 1`] = `
+<View
+  style={Object {}}
+>
+  <View />
+</View>
+`;
+
+exports[`<Motion> when {delay} 1`] = `
+<View
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {disabled} 1`] = `
+<View
+  style={Object {}}
+/>
+`;
+
+exports[`<Motion> when {duration} 1`] = `
+<View
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {preset} 1`] = `
+<View
+  style={
+    Object {
+      "opacity": 1,
+      "transform": Array [
+        Object {
+          "translateY": 0,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {timeline} 1`] = `
+<View
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {type} 1`] = `
+<View
+  style={
+    Object {
+      "left": 128,
+      "opacity": 0.75,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
+/>
+`;
+
+exports[`<Motion> when {useNativeDriver} 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "left": 128,
+        "opacity": 0.75,
+        "transform": Array [
+          Object {
+            "scale": 0.5,
+          },
+        ],
+      },
+    ]
+  }
+/>
+`;

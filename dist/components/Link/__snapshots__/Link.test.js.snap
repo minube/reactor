@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Link> renders 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://minube.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 30,
+      },
+      false,
+      Object {},
+    ]
+  }
+/>
+`;
+
+exports[`<Link> when {style} 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://minube.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 30,
+      },
+      false,
+      Object {
+        "fontSize": 20,
+        "fontWeight": "700",
+      },
+    ]
+  }
+  visible={true}
+/>
+`;
+
+exports[`<Link> when {styleHover} 1`] = `
+<Text
+  accessibilityRole="link"
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  href="http://minube.com"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 30,
+      },
+      false,
+      Object {},
+    ]
+  }
+  styleHover={
+    Object {
+      "fontSize": 20,
+      "fontWeight": "700",
+    }
+  }
+  visible={true}
+/>
+`;

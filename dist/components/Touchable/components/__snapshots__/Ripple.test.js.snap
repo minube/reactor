@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ripple> renders 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#cdd2d4",
+      "borderRadius": 10,
+      "height": 20,
+      "left": -10,
+      "opacity": 0.3,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": -10,
+      "transform": Array [
+        Object {
+          "scale": 0.05,
+        },
+      ],
+      "width": 20,
+    }
+  }
+/>
+`;

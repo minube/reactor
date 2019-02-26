@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BoardingPass> renders 1`] = `<View />`;
+
+exports[`<BoardingPass> when {children} 1`] = `<View />`;
+
+exports[`<BoardingPass> when {enabled} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Children component...
+</Text>
+`;
+
+exports[`<BoardingPass> when {loading} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+>
+  Loading...
+</Text>
+`;
