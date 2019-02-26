@@ -1,8 +1,9 @@
+import ENV from '../../../common/environment';
 import deviceEntropy, { connection } from './entropy';
 import AsyncStore from './AsyncStore';
 import UUID from './UUID';
-import PKG from '../../../package.json';
 
+const { PKG } = ENV;
 const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;
 
 export default async () => {
