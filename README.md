@@ -22,7 +22,7 @@ Browser support: Chrome, Firefox, Safari >= 7, IE 10, Edge.
 You just need these packages as global environment:
 
 ```
-node@9.4.0
+node@11.1.0
 
 brew install yarn
 brew install watchman
