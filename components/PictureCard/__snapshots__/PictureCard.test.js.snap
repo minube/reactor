@@ -2,22 +2,13 @@
 
 exports[`<PictureCard> renders 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -143,7 +134,6 @@ exports[`<PictureCard> renders 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -160,22 +150,13 @@ exports[`<PictureCard> renders 1`] = `
 
 exports[`<PictureCard> when {backgroundColor} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -303,7 +284,6 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -320,22 +300,13 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
 
 exports[`<PictureCard> when {caption} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -488,7 +459,6 @@ exports[`<PictureCard> when {caption} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -505,22 +475,13 @@ exports[`<PictureCard> when {caption} 1`] = `
 
 exports[`<PictureCard> when {image} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -646,7 +607,6 @@ exports[`<PictureCard> when {image} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -663,22 +623,13 @@ exports[`<PictureCard> when {image} 1`] = `
 
 exports[`<PictureCard> when {portrait} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -804,7 +755,6 @@ exports[`<PictureCard> when {portrait} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -821,22 +771,13 @@ exports[`<PictureCard> when {portrait} 1`] = `
 
 exports[`<PictureCard> when {small} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -966,7 +907,6 @@ exports[`<PictureCard> when {small} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -983,22 +923,13 @@ exports[`<PictureCard> when {small} 1`] = `
 
 exports[`<PictureCard> when {style} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -1130,7 +1061,6 @@ exports[`<PictureCard> when {style} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",
@@ -1147,22 +1077,13 @@ exports[`<PictureCard> when {style} 1`] = `
 
 exports[`<PictureCard> when {title} 1`] = `
 <View
-  accessibilityComponentType={undefined}
-  accessibilityLabel={undefined}
-  accessibilityTraits={undefined}
   accessible={true}
-  hitSlop={undefined}
-  nativeID={undefined}
-  onLayout={undefined}
   onResponderGrant={[Function]}
   onResponderMove={[Function]}
   onResponderRelease={[Function]}
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
-  pointerEvents={undefined}
-  style={undefined}
-  testID={undefined}
 >
   <View
     style={
@@ -1318,7 +1239,6 @@ exports[`<PictureCard> when {title} 1`] = `
     }
   >
     <View
-      collapsable={undefined}
       style={
         Object {
           "backgroundColor": "#cdd2d4",

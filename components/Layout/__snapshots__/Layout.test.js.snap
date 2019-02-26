@@ -2,7 +2,6 @@
 
 exports[`<LayoutView> renders 1`] = `
 <View
-  onLayout={undefined}
   style={
     Array [
       Object {
@@ -18,7 +17,6 @@ exports[`<LayoutView> renders 1`] = `
 
 exports[`<LayoutView> when {style} 1`] = `
 <View
-  onLayout={undefined}
   style={
     Array [
       Object {

@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Form> renders 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -26,9 +24,7 @@ exports[`<Form> renders 1`] = `
 `;
 
 exports[`<Form> when {attributes} 1`] = `
-<RCTScrollView
-  style={undefined}
->
+<RCTScrollView>
   <View>
     <View
       style={
@@ -144,7 +140,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={false}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -270,7 +265,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -370,7 +364,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="email-address"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -524,7 +517,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="phone-pad"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -626,7 +618,6 @@ exports[`<Form> when {attributes} 1`] = `
             editable={true}
             keyboardType="phone-pad"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -3678,7 +3669,6 @@ exports[`<Form> when {attributes} 1`] = `
               editable={true}
               keyboardType="default"
               multiline={false}
-              numberOfLines={undefined}
               onBlur={[Function]}
               onChangeText={[Function]}
               onFocus={[Function]}
@@ -3923,7 +3913,6 @@ exports[`<Form> when {attributes} 1`] = `
             ],
           ]
         }
-        testID={undefined}
       >
         <RCTSwitch
           activeThumbColor="#ffffff"
@@ -4028,7 +4017,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "opacity": 0,
@@ -4113,7 +4101,6 @@ exports[`<Form> when {attributes} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -9039,7 +9026,6 @@ exports[`<Form> when {value} 1`] = `
               editable={true}
               keyboardType="default"
               multiline={false}
-              numberOfLines={undefined}
               onBlur={[Function]}
               onChangeText={[Function]}
               onFocus={[Function]}
@@ -9163,7 +9149,6 @@ exports[`<Form> when {value} 1`] = `
             editable={true}
             keyboardType="default"
             multiline={false}
-            numberOfLines={undefined}
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
@@ -9215,12 +9200,10 @@ exports[`<Form> when {value} 1`] = `
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
           disabled={false}
-          error={undefined}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           onValueChange={[Function]}
-          required={undefined}
           style={
             Array [
               Object {
@@ -9292,12 +9275,10 @@ exports[`<Form> when {value} 1`] = `
           activeThumbColor="#ffffff"
           activeTrackColor="#10c0bc"
           disabled={false}
-          error={undefined}
           onChange={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
           onValueChange={[Function]}
-          required={undefined}
           style={
             Array [
               Object {
@@ -9346,12 +9327,7 @@ exports[`<Form> when {value} 1`] = `
         </Text>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9376,7 +9352,6 @@ exports[`<Form> when {value} 1`] = `
             ],
           ]
         }
-        testID={undefined}
       >
         <View
           style={
@@ -9399,7 +9374,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "opacity": 0,
@@ -9484,7 +9458,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -9498,12 +9471,7 @@ exports[`<Form> when {value} 1`] = `
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9528,7 +9496,6 @@ exports[`<Form> when {value} 1`] = `
             ],
           ]
         }
-        testID={undefined}
       >
         <View
           style={
@@ -9551,7 +9518,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "opacity": 0,
@@ -9636,7 +9602,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -9650,12 +9615,7 @@ exports[`<Form> when {value} 1`] = `
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9680,7 +9640,6 @@ exports[`<Form> when {value} 1`] = `
             ],
           ]
         }
-        testID={undefined}
       >
         <View
           style={
@@ -9703,7 +9662,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "opacity": 0,
@@ -9788,7 +9746,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -9802,12 +9759,7 @@ exports[`<Form> when {value} 1`] = `
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -9832,7 +9784,6 @@ exports[`<Form> when {value} 1`] = `
             ],
           ]
         }
-        testID={undefined}
       >
         <View
           style={
@@ -9853,7 +9804,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "opacity": 0,
@@ -9938,7 +9888,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -10103,7 +10052,6 @@ exports[`<Form> when {value} 1`] = `
               editable={true}
               keyboardType="default"
               multiline={false}
-              numberOfLines={undefined}
               onBlur={[Function]}
               onChangeText={[Function]}
               onFocus={[Function]}
@@ -10226,7 +10174,6 @@ exports[`<Form> when {value} 1`] = `
               editable={true}
               keyboardType="default"
               multiline={false}
-              numberOfLines={undefined}
               onBlur={[Function]}
               onChangeText={[Function]}
               onFocus={[Function]}
@@ -10326,7 +10273,6 @@ exports[`<Form> when {value} 1`] = `
               editable={true}
               keyboardType="default"
               multiline={false}
-              numberOfLines={undefined}
               onBlur={[Function]}
               onChangeText={[Function]}
               onFocus={[Function]}
@@ -10463,7 +10409,6 @@ exports[`<Form> when {value} 1`] = `
               editable={true}
               keyboardType="default"
               multiline={false}
-              numberOfLines={undefined}
               onBlur={[Function]}
               onChangeText={[Function]}
               onFocus={[Function]}
@@ -10514,7 +10459,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            pointerEvents={undefined}
             style={
               Object {
                 "alignItems": "center",
@@ -10556,12 +10500,7 @@ exports[`<Form> when {value} 1`] = `
               JavaScript
             </Text>
             <View
-              accessibilityComponentType={undefined}
-              accessibilityLabel={undefined}
-              accessibilityTraits={undefined}
               accessible={true}
-              hitSlop={undefined}
-              nativeID={undefined}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -10570,8 +10509,6 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
-              style={undefined}
-              testID={undefined}
             >
               <Image
                 resizeMode="contain"
@@ -10614,7 +10551,6 @@ exports[`<Form> when {value} 1`] = `
                 }
               >
                 <View
-                  collapsable={undefined}
                   style={
                     Object {
                       "backgroundColor": "#cdd2d4",
@@ -10629,7 +10565,6 @@ exports[`<Form> when {value} 1`] = `
             </View>
           </View>
           <View
-            pointerEvents={undefined}
             style={
               Object {
                 "alignItems": "center",
@@ -10671,12 +10606,7 @@ exports[`<Form> when {value} 1`] = `
               CoffeeScript
             </Text>
             <View
-              accessibilityComponentType={undefined}
-              accessibilityLabel={undefined}
-              accessibilityTraits={undefined}
               accessible={true}
-              hitSlop={undefined}
-              nativeID={undefined}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -10685,8 +10615,6 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
-              style={undefined}
-              testID={undefined}
             >
               <Image
                 resizeMode="contain"
@@ -10729,7 +10657,6 @@ exports[`<Form> when {value} 1`] = `
                 }
               >
                 <View
-                  collapsable={undefined}
                   style={
                     Object {
                       "backgroundColor": "#cdd2d4",
@@ -10744,7 +10671,6 @@ exports[`<Form> when {value} 1`] = `
             </View>
           </View>
           <View
-            pointerEvents={undefined}
             style={
               Object {
                 "alignItems": "center",
@@ -10786,12 +10712,7 @@ exports[`<Form> when {value} 1`] = `
               C++
             </Text>
             <View
-              accessibilityComponentType={undefined}
-              accessibilityLabel={undefined}
-              accessibilityTraits={undefined}
               accessible={true}
-              hitSlop={undefined}
-              nativeID={undefined}
               onLayout={[Function]}
               onResponderGrant={[Function]}
               onResponderMove={[Function]}
@@ -10800,8 +10721,6 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
-              style={undefined}
-              testID={undefined}
             >
               <Image
                 resizeMode="contain"
@@ -10844,7 +10763,6 @@ exports[`<Form> when {value} 1`] = `
                 }
               >
                 <View
-                  collapsable={undefined}
                   style={
                     Object {
                       "backgroundColor": "#cdd2d4",
@@ -10861,12 +10779,7 @@ exports[`<Form> when {value} 1`] = `
         </View>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -10891,7 +10804,6 @@ exports[`<Form> when {value} 1`] = `
             ],
           ]
         }
-        testID={undefined}
       >
         <View
           style={
@@ -10912,7 +10824,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "opacity": 0,
@@ -10997,7 +10908,6 @@ exports[`<Form> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",

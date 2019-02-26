@@ -9,6 +9,7 @@ const KEYS =  [
   'IS_DEVELOPMENT',
   'IS_TEST',
   'NODE_ENV',
+  'PKG',
   'REACT_APP_ENV',
 ];
 

@@ -266,7 +266,7 @@ exports[`<Input> when {error} 1`] = `
       resizeMode="contain"
       source={
         Object {
-          "testUri": "../../../components/Icon/assets/error.png",
+          "testUri": "../../../dist/components/Icon/assets/error.png",
         }
       }
       style={
@@ -417,7 +417,7 @@ exports[`<Input> when {icon} 1`] = `
       resizeMode="contain"
       source={
         Object {
-          "testUri": "../../../components/Icon/assets/email.png",
+          "testUri": "../../../dist/components/Icon/assets/email.png",
         }
       }
       style={
@@ -764,7 +764,7 @@ exports[`<Input> when {required} 1`] = `
       resizeMode="contain"
       source={
         Object {
-          "testUri": "../../../components/Icon/assets/error_outline.png",
+          "testUri": "../../../dist/components/Icon/assets/error_outline.png",
         }
       }
       style={

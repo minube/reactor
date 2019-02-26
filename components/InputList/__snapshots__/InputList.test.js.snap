@@ -50,7 +50,6 @@ exports[`<InputList> renders 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -132,7 +131,6 @@ exports[`<InputList> when {dataSource} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -216,7 +214,6 @@ exports[`<InputList> when {disabled} 1`] = `
         editable={false}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -302,7 +299,6 @@ exports[`<InputList> when {error} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -407,7 +403,6 @@ exports[`<InputList> when {hint} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -519,7 +514,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -570,7 +564,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     }
   >
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -688,12 +681,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         </Text>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -702,8 +690,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -746,7 +732,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -761,7 +746,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -879,12 +863,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         </Text>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -893,8 +872,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -937,7 +914,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -952,7 +928,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -1070,12 +1045,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         </Text>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1084,8 +1054,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -1128,7 +1096,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -1143,7 +1110,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -1261,12 +1227,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         </Text>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1275,8 +1236,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -1319,7 +1278,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -1334,7 +1292,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -1452,12 +1409,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         </Text>
       </View>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1466,8 +1418,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -1510,7 +1460,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -1609,7 +1558,6 @@ exports[`<InputList> when {label} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -1694,7 +1642,6 @@ exports[`<InputList> when {style} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -1776,7 +1723,6 @@ exports[`<InputList> when {value} 1`] = `
         editable={true}
         keyboardType="default"
         multiline={false}
-        numberOfLines={undefined}
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
@@ -1827,7 +1773,6 @@ exports[`<InputList> when {value} 1`] = `
     }
   >
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -1869,12 +1814,7 @@ exports[`<InputList> when {value} 1`] = `
         one
       </Text>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1883,8 +1823,6 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -1927,7 +1865,6 @@ exports[`<InputList> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -1942,7 +1879,6 @@ exports[`<InputList> when {value} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -1984,12 +1920,7 @@ exports[`<InputList> when {value} 1`] = `
         two
       </Text>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -1998,8 +1929,6 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -2042,7 +1971,6 @@ exports[`<InputList> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -2057,7 +1985,6 @@ exports[`<InputList> when {value} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -2099,12 +2026,7 @@ exports[`<InputList> when {value} 1`] = `
         three
       </Text>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2113,8 +2035,6 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -2157,7 +2077,6 @@ exports[`<InputList> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -2172,7 +2091,6 @@ exports[`<InputList> when {value} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -2214,12 +2132,7 @@ exports[`<InputList> when {value} 1`] = `
         four
       </Text>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2228,8 +2141,6 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -2272,7 +2183,6 @@ exports[`<InputList> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",
@@ -2287,7 +2197,6 @@ exports[`<InputList> when {value} 1`] = `
       </View>
     </View>
     <View
-      pointerEvents={undefined}
       style={
         Object {
           "alignItems": "center",
@@ -2329,12 +2238,7 @@ exports[`<InputList> when {value} 1`] = `
         five
       </Text>
       <View
-        accessibilityComponentType={undefined}
-        accessibilityLabel={undefined}
-        accessibilityTraits={undefined}
         accessible={true}
-        hitSlop={undefined}
-        nativeID={undefined}
         onLayout={[Function]}
         onResponderGrant={[Function]}
         onResponderMove={[Function]}
@@ -2343,8 +2247,6 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
-        style={undefined}
-        testID={undefined}
       >
         <Image
           resizeMode="contain"
@@ -2387,7 +2289,6 @@ exports[`<InputList> when {value} 1`] = `
           }
         >
           <View
-            collapsable={undefined}
             style={
               Object {
                 "backgroundColor": "#cdd2d4",

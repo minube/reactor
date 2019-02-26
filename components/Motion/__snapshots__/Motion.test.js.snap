@@ -2,14 +2,12 @@
 
 exports[`<Motion> renders 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
 
 exports[`<Motion> when {children} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 >
   <View />
@@ -18,7 +16,6 @@ exports[`<Motion> when {children} 1`] = `
 
 exports[`<Motion> when {delay} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "left": 128,
@@ -35,14 +32,12 @@ exports[`<Motion> when {delay} 1`] = `
 
 exports[`<Motion> when {disabled} 1`] = `
 <View
-  collapsable={undefined}
   style={Object {}}
 />
 `;
 
 exports[`<Motion> when {duration} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "left": 128,
@@ -59,7 +54,6 @@ exports[`<Motion> when {duration} 1`] = `
 
 exports[`<Motion> when {preset} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "opacity": 1,
@@ -75,7 +69,6 @@ exports[`<Motion> when {preset} 1`] = `
 
 exports[`<Motion> when {timeline} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "left": 128,
@@ -92,7 +85,6 @@ exports[`<Motion> when {timeline} 1`] = `
 
 exports[`<Motion> when {type} 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "left": 128,

@@ -2,7 +2,6 @@
 
 exports[`<Ripple> renders 1`] = `
 <View
-  collapsable={undefined}
   style={
     Object {
       "backgroundColor": "#cdd2d4",

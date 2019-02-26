@@ -989,7 +989,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
         resizeMode="contain"
         source={
           Object {
-            "testUri": "../../../components/Icon/assets/close_contrast.png",
+            "testUri": "../../../dist/components/Icon/assets/close_contrast.png",
           }
         }
         style={
@@ -1142,7 +1142,7 @@ exports[`<Button> when {icon} 1`] = `
         resizeMode="contain"
         source={
           Object {
-            "testUri": "../../../components/Icon/assets/close_contrast.png",
+            "testUri": "../../../dist/components/Icon/assets/close_contrast.png",
           }
         }
         style={

@@ -1308,7 +1308,7 @@ exports[`<Slider> when {navigation} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/left.png",
+                "testUri": "../../../dist/components/Icon/assets/left.png",
               }
             }
             style={
@@ -1447,7 +1447,7 @@ exports[`<Slider> when {navigation} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/right.png",
+                "testUri": "../../../dist/components/Icon/assets/right.png",
               }
             }
             style={

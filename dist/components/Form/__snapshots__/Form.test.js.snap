@@ -112,7 +112,7 @@ exports[`<Form> when {attributes} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "testUri": "../../../dist/components/Icon/assets/twitter.png",
               }
             }
             style={
@@ -237,7 +237,7 @@ exports[`<Form> when {attributes} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "testUri": "../../../dist/components/Icon/assets/twitter.png",
               }
             }
             style={
@@ -394,7 +394,7 @@ exports[`<Form> when {attributes} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/error_outline.png",
+                "testUri": "../../../dist/components/Icon/assets/error_outline.png",
               }
             }
             style={
@@ -1045,7 +1045,7 @@ exports[`<Form> when {attributes} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/expand.png",
+                      "testUri": "../../../dist/components/Icon/assets/expand.png",
                     }
                   }
                   style={
@@ -1204,7 +1204,7 @@ exports[`<Form> when {attributes} 1`] = `
                       resizeMode="contain"
                       source={
                         Object {
-                          "testUri": "../../../components/Icon/assets/done_contrast.png",
+                          "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                         }
                       }
                       style={
@@ -1452,7 +1452,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -1670,7 +1670,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -1885,7 +1885,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -2100,7 +2100,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -2315,7 +2315,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -2530,7 +2530,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -2745,7 +2745,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -2960,7 +2960,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -3175,7 +3175,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -3390,7 +3390,7 @@ exports[`<Form> when {attributes} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -3765,7 +3765,7 @@ exports[`<Form> when {attributes} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "testUri": "../../../dist/components/Icon/assets/twitter.png",
               }
             }
             style={
@@ -4032,7 +4032,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -4176,7 +4176,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -4320,7 +4320,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -4462,7 +4462,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -4668,7 +4668,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "testUri": "../../../dist/components/Icon/assets/twitter.png",
                 }
               }
               style={
@@ -4790,7 +4790,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/facebook.png",
+                  "testUri": "../../../dist/components/Icon/assets/facebook.png",
                 }
               }
               style={
@@ -4945,7 +4945,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
+                  "testUri": "../../../dist/components/Icon/assets/error_outline.png",
                 }
               }
               style={
@@ -5142,7 +5142,7 @@ exports[`<Form> when {attributes} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -5469,7 +5469,7 @@ exports[`<Form> when {value} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "testUri": "../../../dist/components/Icon/assets/twitter.png",
               }
             }
             style={
@@ -5594,7 +5594,7 @@ exports[`<Form> when {value} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "testUri": "../../../dist/components/Icon/assets/twitter.png",
               }
             }
             style={
@@ -5751,7 +5751,7 @@ exports[`<Form> when {value} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/error_outline.png",
+                "testUri": "../../../dist/components/Icon/assets/error_outline.png",
               }
             }
             style={
@@ -6402,7 +6402,7 @@ exports[`<Form> when {value} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/expand.png",
+                      "testUri": "../../../dist/components/Icon/assets/expand.png",
                     }
                   }
                   style={
@@ -6561,7 +6561,7 @@ exports[`<Form> when {value} 1`] = `
                       resizeMode="contain"
                       source={
                         Object {
-                          "testUri": "../../../components/Icon/assets/done_contrast.png",
+                          "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                         }
                       }
                       style={
@@ -6809,7 +6809,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -7027,7 +7027,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -7242,7 +7242,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -7457,7 +7457,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -7672,7 +7672,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -7887,7 +7887,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -8102,7 +8102,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -8317,7 +8317,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -8532,7 +8532,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -8747,7 +8747,7 @@ exports[`<Form> when {value} 1`] = `
                         resizeMode="contain"
                         source={
                           Object {
-                            "testUri": "../../../components/Icon/assets/done_contrast.png",
+                            "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                           }
                         }
                         style={
@@ -9122,7 +9122,7 @@ exports[`<Form> when {value} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "testUri": "../../../dist/components/Icon/assets/twitter.png",
               }
             }
             style={
@@ -9389,7 +9389,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -9533,7 +9533,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -9677,7 +9677,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -9819,7 +9819,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={
@@ -10025,7 +10025,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "testUri": "../../../dist/components/Icon/assets/twitter.png",
                 }
               }
               style={
@@ -10147,7 +10147,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/facebook.png",
+                  "testUri": "../../../dist/components/Icon/assets/facebook.png",
                 }
               }
               style={
@@ -10302,7 +10302,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
+                  "testUri": "../../../dist/components/Icon/assets/error_outline.png",
                 }
               }
               style={
@@ -10514,7 +10514,7 @@ exports[`<Form> when {value} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
+                    "testUri": "../../../dist/components/Icon/assets/close.png",
                   }
                 }
                 style={
@@ -10620,7 +10620,7 @@ exports[`<Form> when {value} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
+                    "testUri": "../../../dist/components/Icon/assets/close.png",
                   }
                 }
                 style={
@@ -10726,7 +10726,7 @@ exports[`<Form> when {value} 1`] = `
                 resizeMode="contain"
                 source={
                   Object {
-                    "testUri": "../../../components/Icon/assets/close.png",
+                    "testUri": "../../../dist/components/Icon/assets/close.png",
                   }
                 }
                 style={
@@ -10839,7 +10839,7 @@ exports[`<Form> when {value} 1`] = `
               resizeMode="contain"
               source={
                 Object {
-                  "testUri": "../../../components/Icon/assets/done_contrast.png",
+                  "testUri": "../../../dist/components/Icon/assets/done_contrast.png",
                 }
               }
               style={

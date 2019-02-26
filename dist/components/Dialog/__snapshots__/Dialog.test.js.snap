@@ -578,7 +578,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                       resizeMode="contain"
                       source={
                         Object {
-                          "testUri": "../../../components/Icon/assets/close_contrast.png",
+                          "testUri": "../../../dist/components/Icon/assets/close_contrast.png",
                         }
                       }
                       style={
@@ -824,7 +824,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                       resizeMode="contain"
                       source={
                         Object {
-                          "testUri": "../../../components/Icon/assets/close.png",
+                          "testUri": "../../../dist/components/Icon/assets/close.png",
                         }
                       }
                       style={

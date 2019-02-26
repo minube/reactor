@@ -329,7 +329,7 @@ exports[`<InputList> when {error} 1`] = `
         resizeMode="contain"
         source={
           Object {
-            "testUri": "../../../components/Icon/assets/error.png",
+            "testUri": "../../../dist/components/Icon/assets/error.png",
           }
         }
         style={
@@ -695,7 +695,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -877,7 +877,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -1059,7 +1059,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -1241,7 +1241,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -1423,7 +1423,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -1828,7 +1828,7 @@ exports[`<InputList> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -1934,7 +1934,7 @@ exports[`<InputList> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -2040,7 +2040,7 @@ exports[`<InputList> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -2146,7 +2146,7 @@ exports[`<InputList> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
@@ -2252,7 +2252,7 @@ exports[`<InputList> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "testUri": "../../../components/Icon/assets/close.png",
+              "testUri": "../../../dist/components/Icon/assets/close.png",
             }
           }
           style={
