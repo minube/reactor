@@ -67,6 +67,7 @@ const Week = ({ firstDate, ...inherit }) => {
         const stylesDay = [
           isToday && styles.today,
           !isDisabled && isSelected && styles.highlight,
+          !isDisabled && styles.textSemiBold,
         ];
 
         return (
@@ -87,7 +88,7 @@ const Week = ({ firstDate, ...inherit }) => {
             ]}
           >
             <Text
-              level={3}
+              level={2}
               style={[
                 ...stylesDay,
                 isToday && styles.textBold,

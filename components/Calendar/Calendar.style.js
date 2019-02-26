@@ -57,7 +57,8 @@ export default StyleSheet.create({
   },
 
   disabled: {
-    color: COLOR.BASE,
+    color: COLOR.TEXT_LIGHTEN,
+    fontWeight: FONT.WEIGHT.REGULAR,
   },
 
   highlight: {
@@ -79,7 +80,7 @@ export default StyleSheet.create({
     borderRadius: BOX_HEIGHT / 2,
     backgroundColor: COLOR.PRIMARY,
     minWidth: BOX_HEIGHT / 1.1,
-    paddingVertical: OFFSET / 2,
+    paddingVertical: OFFSET / 4,
     textAlign: 'center',
   },
 
@@ -95,6 +96,10 @@ export default StyleSheet.create({
 
   textBold: {
     fontWeight: FONT.WEIGHT.BOLD,
+  },
+
+  textSemiBold: {
+    fontWeight: FONT.WEIGHT.SEMIBOLD,
   },
 
   today: {
