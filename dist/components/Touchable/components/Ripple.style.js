@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _reactNative=require("react-native");var _common=require("../../../common");var UNIT=_common.THEME.UNIT;var _default=_reactNative.StyleSheet.create({ripple:{width:UNIT*2,height:UNIT*2,borderRadius:UNIT,overflow:'hidden',position:'absolute'}});exports.default=_default;
