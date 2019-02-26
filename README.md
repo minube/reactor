@@ -1,4 +1,4 @@
-# <a href='https://minube.github.io/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='128'></a>
+# <a href='https://minube.github.io/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='64'></a>
 [![version](https://img.shields.io/github/package-json/v/minube/reactor.svg?style=flat-square)](https://github.com/minube/reactor/releases)
 [![Build Status](http://img.shields.io/travis/minube/reactor/master.svg?style=flat-square)](https://travis-ci.org/minube/reactor)
 [![dependencies Status](https://david-dm.org/minube/reactor/status.svg?style=flat-square)](https://david-dm.org/minube/reactor)
