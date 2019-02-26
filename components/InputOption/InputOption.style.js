@@ -2,14 +2,14 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, UNIT } = THEME;
+const { COLOR, UNIT, SPACE } = THEME;
 
 const SIZE = UNIT * 2;
 
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
-    marginBottom: UNIT * 2.2,
+    marginBottom: SPACE.REGULAR,
   },
 
   icon: {

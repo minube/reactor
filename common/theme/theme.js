@@ -1,9 +1,9 @@
 import { Platform } from 'react-native';
 
-const UNIT = 10;
-
+const BLACK = '#000000';
 const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
 const FAMILY_SECONDARY = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
+const UNIT = 10;
 const WEIGHT = {
   REGULAR: '400',
   SEMIBOLD: '600',
@@ -31,8 +31,43 @@ export default {
     // -- Helpers
     DISABLED: '#f4f4f4',
     TRANSPARENT: 'transparent',
-    BLACK: '#000000',
+    BLACK,
     WHITE: '#ffffff',
+  },
+
+  ELEVATION: {
+    // 2p
+    SMALL: {
+      shadowColor: BLACK,
+      shadowOffset: { height: 1, width: 0 },
+      shadowOpacity: 0.20,
+      shadowRadius: 2,
+      ...Platform.select({
+        android: { elevation: 2 },
+      }),
+    },
+
+    // 8p
+    REGULAR: {
+      shadowColor: BLACK,
+      shadowOffset: { height: 2, width: 0 },
+      shadowOpacity: 0.20,
+      shadowRadius: 8,
+      ...Platform.select({
+        android: { elevation: 8 },
+      }),
+    },
+
+    // 20p
+    LARGE: {
+      shadowColor: BLACK,
+      shadowOffset: { height: 4, width: 0 },
+      shadowOpacity: 0.30,
+      shadowRadius: 24,
+      ...Platform.select({
+        android: { elevation: 24 },
+      }),
+    },
   },
 
   FONT: {
@@ -72,4 +107,16 @@ export default {
   OFFSET: UNIT * 1.6,
 
   UNIT,
+
+  SPACE: {
+    XS: UNIT * 0.8,
+    S: UNIT * 1.2,
+    MEDIUM: UNIT * 1.6,
+
+    REGULAR: UNIT * 2,
+
+    L: UNIT * 2.8,
+    XL: UNIT * 3.2,
+    XXL: UNIT * 60,
+  },
 };

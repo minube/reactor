@@ -1,4 +1,4 @@
-# <a href='https://minube.github.io/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='128'></a>
+# <a href='https://minube.github.io/reactor/'><img src='https://i.imgur.com/POE0A6e.png' height='64'></a>
 [![version](https://img.shields.io/github/package-json/v/minube/reactor.svg?style=flat-square)](https://github.com/minube/reactor/releases)
 [![Build Status](http://img.shields.io/travis/minube/reactor/master.svg?style=flat-square)](https://travis-ci.org/minube/reactor)
 [![dependencies Status](https://david-dm.org/minube/reactor/status.svg?style=flat-square)](https://david-dm.org/minube/reactor)
@@ -22,13 +22,13 @@ Browser support: Chrome, Firefox, Safari >= 7, IE 10, Edge.
 You just need these packages as global environment:
 
 ```
-node@9.4.0
+node@11.1.0
 
 brew install yarn
 brew install watchman
 brew postintall watchman
 
-yarn global add exp@47.4.4
+yarn global add expo-cli
 yarn global add create-react-app
 yarn global add create-react-native-app
 ```

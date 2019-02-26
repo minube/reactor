@@ -5,7 +5,7 @@ exports[`<InputList> renders 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -16,7 +16,7 @@ exports[`<InputList> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -69,6 +69,7 @@ exports[`<InputList> renders 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -86,7 +87,7 @@ exports[`<InputList> when {dataSource} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -97,7 +98,7 @@ exports[`<InputList> when {dataSource} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -150,6 +151,7 @@ exports[`<InputList> when {dataSource} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -167,7 +169,7 @@ exports[`<InputList> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -178,7 +180,7 @@ exports[`<InputList> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -233,6 +235,7 @@ exports[`<InputList> when {disabled} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             Object {
               "color": "#707070",
@@ -252,7 +255,7 @@ exports[`<InputList> when {error} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -263,7 +266,7 @@ exports[`<InputList> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -318,6 +321,7 @@ exports[`<InputList> when {error} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -358,7 +362,7 @@ exports[`<InputList> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -369,7 +373,7 @@ exports[`<InputList> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -422,6 +426,7 @@ exports[`<InputList> when {hint} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -469,7 +474,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -480,7 +485,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -533,6 +538,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -1527,7 +1533,7 @@ exports[`<InputList> when {label} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -1538,7 +1544,7 @@ exports[`<InputList> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -1550,6 +1556,7 @@ exports[`<InputList> when {label} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
+      numberOfLines={1}
       style={
         Array [
           Object {
@@ -1621,6 +1628,7 @@ exports[`<InputList> when {label} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -1638,7 +1646,7 @@ exports[`<InputList> when {style} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       Object {
@@ -1652,7 +1660,7 @@ exports[`<InputList> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -1705,6 +1713,7 @@ exports[`<InputList> when {style} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -1722,7 +1731,7 @@ exports[`<InputList> when {value} 1`] = `
   style={
     Array [
       Object {
-        "marginBottom": 22,
+        "marginBottom": 20,
         "zIndex": 1,
       },
       undefined,
@@ -1733,7 +1742,7 @@ exports[`<InputList> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Object {
           "marginBottom": 0,
@@ -1786,6 +1795,7 @@ exports[`<InputList> when {value} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]

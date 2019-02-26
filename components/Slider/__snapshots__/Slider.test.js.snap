@@ -1353,7 +1353,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "height": 44,
                 "minWidth": 44,
-                "paddingHorizontal": 30,
+                "paddingHorizontal": 28,
               },
               Object {
                 "alignItems": "center",
@@ -1363,7 +1363,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "height": 28,
                 "minWidth": 28,
-                "paddingHorizontal": 14,
+                "paddingHorizontal": 12,
               },
               false,
               false,
@@ -1373,7 +1373,6 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "backgroundColor": "#707070",
               },
-              false,
               false,
               false,
               false,
@@ -1502,7 +1501,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "height": 44,
                 "minWidth": 44,
-                "paddingHorizontal": 30,
+                "paddingHorizontal": 28,
               },
               Object {
                 "alignItems": "center",
@@ -1512,7 +1511,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "height": 28,
                 "minWidth": 28,
-                "paddingHorizontal": 14,
+                "paddingHorizontal": 12,
               },
               false,
               false,
@@ -1522,7 +1521,6 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "backgroundColor": "#707070",
               },
-              false,
               false,
               false,
               false,

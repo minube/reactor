@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 import { LAYOUT, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, UNIT,
+  BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
 } = THEME;
 
 const REGULAR_SIZE = UNIT * 4.4;
@@ -33,7 +33,7 @@ export default StyleSheet.create({
   regular: {
     minWidth: REGULAR_SIZE,
     height: REGULAR_SIZE,
-    paddingHorizontal: UNIT * 3,
+    paddingHorizontal: SPACE.L,
   },
 
   rounded: {
@@ -45,14 +45,14 @@ export default StyleSheet.create({
   small: {
     minWidth: SMALL_SIZE,
     height: SMALL_SIZE,
-    paddingHorizontal: SMALL_SIZE / 2,
+    paddingHorizontal: SPACE.S,
   },
 
   noPadding: {
     paddingHorizontal: 0,
   },
 
-  shadow: LAYOUT.STYLE.SHADOW,
+  shadow: ELEVATION.SMALL,
 
   touchable: {
     borderRadius: BORDER_RADIUS,

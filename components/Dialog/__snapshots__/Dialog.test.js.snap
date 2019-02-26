@@ -43,6 +43,7 @@ exports[`<Dialog> renders 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -81,11 +82,11 @@ exports[`<Dialog> renders 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -164,6 +165,7 @@ exports[`<Dialog> when {background} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -202,11 +204,11 @@ exports[`<Dialog> when {background} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -287,6 +289,7 @@ exports[`<Dialog> when {children} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -325,11 +328,11 @@ exports[`<Dialog> when {children} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -434,6 +437,7 @@ exports[`<Dialog> when {highlight} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -472,11 +476,11 @@ exports[`<Dialog> when {highlight} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -565,7 +569,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                         Object {
                           "height": 44,
                           "minWidth": 44,
-                          "paddingHorizontal": 30,
+                          "paddingHorizontal": 28,
                         },
                         Object {
                           "alignItems": "center",
@@ -580,7 +584,6 @@ exports[`<Dialog> when {highlight} 1`] = `
                         Object {
                           "paddingHorizontal": 0,
                         },
-                        false,
                         false,
                         false,
                         false,
@@ -722,6 +725,7 @@ exports[`<Dialog> when {onClose} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -760,11 +764,11 @@ exports[`<Dialog> when {onClose} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -822,7 +826,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                         Object {
                           "height": 44,
                           "minWidth": 44,
-                          "paddingHorizontal": 30,
+                          "paddingHorizontal": 28,
                         },
                         Object {
                           "alignItems": "center",
@@ -837,7 +841,6 @@ exports[`<Dialog> when {onClose} 1`] = `
                         Object {
                           "paddingHorizontal": 0,
                         },
-                        false,
                         false,
                         false,
                         false,
@@ -979,6 +982,7 @@ exports[`<Dialog> when {reverse} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -1017,11 +1021,11 @@ exports[`<Dialog> when {reverse} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -1102,6 +1106,7 @@ exports[`<Dialog> when {style} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -1140,11 +1145,11 @@ exports[`<Dialog> when {style} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Object {
                   "backgroundColor": "rgba(0,255,0,0.25)",
@@ -1229,6 +1234,7 @@ exports[`<Dialog> when {styleContainer} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -1267,11 +1273,11 @@ exports[`<Dialog> when {styleContainer} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -1352,6 +1358,7 @@ exports[`<Dialog> when {title} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -1390,11 +1397,11 @@ exports[`<Dialog> when {title} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]
@@ -1506,6 +1513,7 @@ exports[`<Dialog> when {visible} 1`] = `
             "maxHeight": "100%",
             "maxWidth": "100%",
             "minWidth": 320,
+            "position": "absolute",
           },
           Object {
             "backgroundColor": "transparent",
@@ -1544,11 +1552,11 @@ exports[`<Dialog> when {visible} 1`] = `
                   "borderRadius": 3,
                   "shadowColor": "#000000",
                   "shadowOffset": Object {
-                    "height": 2,
+                    "height": 4,
                     "width": 0,
                   },
-                  "shadowOpacity": 0.33,
-                  "shadowRadius": 4,
+                  "shadowOpacity": 0.3,
+                  "shadowRadius": 24,
                 },
                 Array [],
               ]

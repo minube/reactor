@@ -1,7 +1,7 @@
-import { Platform, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
 import THEME from '../../theme';
 
-const { COLOR, UNIT } = THEME;
+const { UNIT } = THEME;
 
 export default {
   CENTERED: {
@@ -19,16 +19,6 @@ export default {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
-  },
-
-  SHADOW: {
-    shadowColor: COLOR.BLACK,
-    shadowOffset: { height: 2, width: 0 },
-    shadowOpacity: 0.33,
-    shadowRadius: 4,
-    ...Platform.select({
-      android: { elevation: 4 },
-    }),
   },
 
   ...StyleSheet.create({

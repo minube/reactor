@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProgressBar> renders 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5F5F6",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {color} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5F5F6",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#a66ecc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {progress} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5F5F6",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {style} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5F5F6",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      Object {
+        "borderRadius": 8,
+        "height": 16,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<ProgressBar> when {trackColor} 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#F5F5F6",
+        "height": 5,
+        "overflow": "hidden",
+        "width": "100%",
+      },
+      undefined,
+      Object {
+        "backgroundColor": "#a66ecc",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#10c0bc",
+        "height": "100%",
+        "width": 0,
+      }
+    }
+  />
+</View>
+`;

@@ -44,7 +44,7 @@ exports[`<Share> renders 1`] = `
             Object {
               "height": 44,
               "minWidth": 44,
-              "paddingHorizontal": 30,
+              "paddingHorizontal": 28,
             },
             Object {
               "alignItems": "center",
@@ -58,7 +58,6 @@ exports[`<Share> renders 1`] = `
             Object {
               "backgroundColor": "#707070",
             },
-            false,
             false,
             false,
             false,

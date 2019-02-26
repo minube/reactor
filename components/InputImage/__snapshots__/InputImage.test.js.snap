@@ -17,7 +17,7 @@ exports[`<InputImage> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -72,6 +72,7 @@ exports[`<InputImage> renders 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -101,7 +102,7 @@ exports[`<InputImage> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -158,6 +159,7 @@ exports[`<InputImage> when {disabled} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             Object {
               "color": "#707070",
@@ -189,7 +191,7 @@ exports[`<InputImage> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -246,6 +248,7 @@ exports[`<InputImage> when {error} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -298,7 +301,7 @@ exports[`<InputImage> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -353,6 +356,7 @@ exports[`<InputImage> when {hint} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -412,7 +416,7 @@ exports[`<InputImage> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -427,6 +431,7 @@ exports[`<InputImage> when {label} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
+      numberOfLines={1}
       style={
         Array [
           Object {
@@ -497,6 +502,7 @@ exports[`<InputImage> when {label} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -526,7 +532,7 @@ exports[`<InputImage> when {required} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -581,6 +587,7 @@ exports[`<InputImage> when {required} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -636,7 +643,7 @@ exports[`<InputImage> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -691,6 +698,7 @@ exports[`<InputImage> when {style} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
@@ -771,7 +779,7 @@ exports[`<InputImage> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 22,
+          "marginBottom": 20,
         },
         Array [
           Object {
@@ -828,6 +836,7 @@ exports[`<InputImage> when {value} 1`] = `
               "minHeight": 42,
               "paddingHorizontal": 5,
               "paddingVertical": 7.5,
+              "width": "100%",
             },
             false,
           ]
