@@ -657,7 +657,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         },
         Object {
           "backgroundColor": "#ffffff",
-          "maxHeight": 280,
           "position": "absolute",
           "shadowColor": "#000000",
           "shadowOffset": Object {
@@ -672,6 +671,9 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         },
         false,
         undefined,
+        Object {
+          "maxHeight": 616,
+        },
       ]
     }
   >
@@ -3599,7 +3601,6 @@ exports[`<InputSelect> when {value} 1`] = `
         },
         Object {
           "backgroundColor": "#ffffff",
-          "maxHeight": 280,
           "position": "absolute",
           "shadowColor": "#000000",
           "shadowOffset": Object {
@@ -3614,6 +3615,9 @@ exports[`<InputSelect> when {value} 1`] = `
         },
         false,
         undefined,
+        Object {
+          "maxHeight": 616,
+        },
       ]
     }
   >
