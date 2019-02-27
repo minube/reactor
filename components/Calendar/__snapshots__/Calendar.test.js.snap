@@ -229,14 +229,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -258,14 +260,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -287,14 +291,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -316,14 +322,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -345,14 +353,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -374,14 +384,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -403,14 +415,16 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -451,6 +465,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -535,6 +550,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -619,6 +635,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -703,6 +720,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -787,6 +805,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -871,6 +890,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -955,6 +975,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1051,6 +1072,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1135,6 +1157,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1218,6 +1241,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1301,6 +1325,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1384,6 +1409,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1467,6 +1493,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1550,6 +1577,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1645,6 +1673,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1728,6 +1757,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1811,6 +1841,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1894,6 +1925,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -1978,6 +2010,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2061,6 +2094,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2144,6 +2178,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2239,6 +2274,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2322,6 +2358,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2405,6 +2442,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2488,6 +2526,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2571,6 +2610,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2654,6 +2694,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2737,6 +2778,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2832,6 +2874,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2915,6 +2958,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -2998,6 +3042,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3081,6 +3126,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3164,6 +3210,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3247,6 +3294,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3330,6 +3378,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3425,6 +3474,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3508,6 +3558,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3591,6 +3642,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3674,6 +3726,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3758,6 +3811,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3842,6 +3896,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -3926,6 +3981,7 @@ exports[`<Calendar> renders 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4224,14 +4280,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4253,14 +4311,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4282,14 +4342,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4311,14 +4373,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4340,14 +4404,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4369,14 +4435,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4398,14 +4466,16 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -4444,6 +4514,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4526,6 +4597,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4608,6 +4680,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4690,6 +4763,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4772,6 +4846,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4854,6 +4929,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -4936,6 +5012,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5030,6 +5107,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5112,6 +5190,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5194,6 +5273,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5276,6 +5356,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5358,6 +5439,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5440,6 +5522,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5522,6 +5605,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5616,6 +5700,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5698,6 +5783,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5780,6 +5866,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5862,6 +5949,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -5944,6 +6032,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6026,6 +6115,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6108,6 +6198,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6202,6 +6293,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6284,6 +6376,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6366,6 +6459,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6448,6 +6542,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6530,6 +6625,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6612,6 +6708,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6694,6 +6791,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6788,6 +6886,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6870,6 +6969,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -6952,6 +7052,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7034,6 +7135,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7116,6 +7218,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7198,6 +7301,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7280,6 +7384,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7374,6 +7479,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7456,6 +7562,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7538,6 +7645,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7620,6 +7728,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7702,6 +7811,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7784,6 +7894,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -7866,6 +7977,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8184,14 +8296,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8213,14 +8327,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8242,14 +8358,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8271,14 +8389,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8300,14 +8420,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8329,14 +8451,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8358,14 +8482,16 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -8406,6 +8532,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8490,6 +8617,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8574,6 +8702,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8658,6 +8787,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8742,6 +8872,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8826,6 +8957,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -8910,6 +9042,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9006,6 +9139,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9090,6 +9224,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9173,6 +9308,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9256,6 +9392,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9339,6 +9476,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9422,6 +9560,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9505,6 +9644,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9600,6 +9740,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9683,6 +9824,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9766,6 +9908,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9849,6 +9992,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -9933,6 +10077,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10016,6 +10161,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10099,6 +10245,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10194,6 +10341,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10277,6 +10425,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10360,6 +10509,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10443,6 +10593,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10526,6 +10677,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10609,6 +10761,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10692,6 +10845,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10787,6 +10941,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10870,6 +11025,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -10953,6 +11109,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11036,6 +11193,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11119,6 +11277,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11202,6 +11361,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11285,6 +11445,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11380,6 +11541,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11463,6 +11625,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11546,6 +11709,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11629,6 +11793,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11713,6 +11878,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11797,6 +11963,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -11881,6 +12048,7 @@ exports[`<Calendar> when {busy} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12179,14 +12347,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12208,14 +12378,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12237,14 +12409,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12266,14 +12440,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12295,14 +12471,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12324,14 +12502,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12353,14 +12533,16 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -12401,6 +12583,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12485,6 +12668,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12569,6 +12753,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12653,6 +12838,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12737,6 +12923,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12821,6 +13008,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -12905,6 +13093,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13001,6 +13190,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13085,6 +13275,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13168,6 +13359,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13251,6 +13443,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13334,6 +13527,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13417,6 +13611,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13500,6 +13695,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13595,6 +13791,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13678,6 +13875,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13761,6 +13959,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13844,6 +14043,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -13928,6 +14128,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14011,6 +14212,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14094,6 +14296,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14189,6 +14392,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14272,6 +14476,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14355,6 +14560,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14438,6 +14644,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14521,6 +14728,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14604,6 +14812,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14687,6 +14896,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14782,6 +14992,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14865,6 +15076,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -14948,6 +15160,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15031,6 +15244,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15114,6 +15328,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15197,6 +15412,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15280,6 +15496,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15375,6 +15592,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15458,6 +15676,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15541,6 +15760,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15624,6 +15844,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15708,6 +15929,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15792,6 +16014,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -15876,6 +16099,7 @@ exports[`<Calendar> when {captions} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16174,14 +16398,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16203,14 +16429,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16232,14 +16460,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16261,14 +16491,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16290,14 +16522,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16319,14 +16553,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16348,14 +16584,16 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -16396,6 +16634,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16480,6 +16719,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16564,6 +16804,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16648,6 +16889,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16732,6 +16974,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16816,6 +17059,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16900,6 +17144,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -16996,6 +17241,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17079,6 +17325,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17162,6 +17409,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17245,6 +17493,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17328,6 +17577,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17411,6 +17661,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17494,6 +17745,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17589,6 +17841,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17672,6 +17925,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17755,6 +18009,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17838,6 +18093,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -17921,6 +18177,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18004,6 +18261,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18087,6 +18345,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18182,6 +18441,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18265,6 +18525,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18348,6 +18609,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18431,6 +18693,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18514,6 +18777,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18597,6 +18861,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18680,6 +18945,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18775,6 +19041,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18858,6 +19125,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -18941,6 +19209,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19024,6 +19293,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19107,6 +19377,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19190,6 +19461,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19273,6 +19545,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19368,6 +19641,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19451,6 +19725,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19534,6 +19809,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19617,6 +19893,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19701,6 +19978,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19785,6 +20063,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -19869,6 +20148,7 @@ exports[`<Calendar> when {date} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20167,14 +20447,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20196,14 +20478,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20225,14 +20509,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20254,14 +20540,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20283,14 +20571,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20312,14 +20602,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20341,14 +20633,16 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -20389,6 +20683,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20473,6 +20768,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20557,6 +20853,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20641,6 +20938,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20725,6 +21023,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20809,6 +21108,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20893,6 +21193,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -20989,6 +21290,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21073,6 +21375,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21156,6 +21459,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21239,6 +21543,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21322,6 +21627,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21405,6 +21711,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21488,6 +21795,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21583,6 +21891,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21666,6 +21975,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21749,6 +22059,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21832,6 +22143,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21916,6 +22228,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -21999,6 +22312,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22082,6 +22396,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22177,6 +22492,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22260,6 +22576,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22343,6 +22660,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22426,6 +22744,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22509,6 +22828,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22592,6 +22912,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22675,6 +22996,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22770,6 +23092,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22853,6 +23176,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -22936,6 +23260,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23019,6 +23344,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23102,6 +23428,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23185,6 +23512,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23268,6 +23596,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23363,6 +23692,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23446,6 +23776,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23529,6 +23860,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23612,6 +23944,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23696,6 +24029,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23780,6 +24114,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -23864,6 +24199,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24162,14 +24498,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24191,14 +24529,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24220,14 +24560,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24249,14 +24591,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24278,14 +24622,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24307,14 +24653,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24336,14 +24684,16 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -24382,6 +24732,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24464,6 +24815,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24546,6 +24898,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24628,6 +24981,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24710,6 +25064,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24792,6 +25147,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24874,6 +25230,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -24968,6 +25325,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25050,6 +25408,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25132,6 +25491,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25214,6 +25574,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25296,6 +25657,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25378,6 +25740,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25460,6 +25823,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25554,6 +25918,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25636,6 +26001,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25718,6 +26084,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25802,6 +26169,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25886,6 +26254,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -25969,6 +26338,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26052,6 +26422,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26147,6 +26518,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26230,6 +26602,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26313,6 +26686,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26396,6 +26770,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26479,6 +26854,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26562,6 +26938,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26645,6 +27022,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26740,6 +27118,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26823,6 +27202,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26906,6 +27286,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -26989,6 +27370,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27072,6 +27454,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27155,6 +27538,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27238,6 +27622,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27333,6 +27718,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27416,6 +27802,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27499,6 +27886,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27582,6 +27970,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27666,6 +28055,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27750,6 +28140,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -27834,6 +28225,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28132,14 +28524,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28161,14 +28555,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28190,14 +28586,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28219,14 +28617,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28248,14 +28648,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28277,14 +28679,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28306,14 +28710,16 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -28354,6 +28760,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28438,6 +28845,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28522,6 +28930,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28606,6 +29015,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28690,6 +29100,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28774,6 +29185,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28858,6 +29270,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -28954,6 +29367,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29038,6 +29452,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29121,6 +29536,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29204,6 +29620,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29287,6 +29704,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29370,6 +29788,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29453,6 +29872,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29548,6 +29968,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29631,6 +30052,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29714,6 +30136,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29797,6 +30220,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29881,6 +30305,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -29964,6 +30389,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30047,6 +30473,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30142,6 +30569,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30225,6 +30653,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30308,6 +30737,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30391,6 +30821,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30474,6 +30905,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30557,6 +30989,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30640,6 +31073,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30735,6 +31169,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30818,6 +31253,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30901,6 +31337,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -30984,6 +31421,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31067,6 +31505,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31150,6 +31589,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31233,6 +31673,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31328,6 +31769,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31411,6 +31853,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31494,6 +31937,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31577,6 +32021,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31661,6 +32106,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31745,6 +32191,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -31829,6 +32276,7 @@ exports[`<Calendar> when {locale} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32130,14 +32578,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32159,14 +32609,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32188,14 +32640,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32217,14 +32671,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32246,14 +32702,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32275,14 +32733,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32304,14 +32764,16 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -32352,6 +32814,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32436,6 +32899,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32520,6 +32984,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32604,6 +33069,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32688,6 +33154,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32772,6 +33239,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32856,6 +33324,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -32952,6 +33421,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33036,6 +33506,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33119,6 +33590,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33202,6 +33674,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33285,6 +33758,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33368,6 +33842,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33451,6 +33926,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33546,6 +34022,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33629,6 +34106,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33712,6 +34190,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33795,6 +34274,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33879,6 +34359,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -33962,6 +34443,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34045,6 +34527,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34140,6 +34623,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34223,6 +34707,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34306,6 +34791,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34389,6 +34875,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34472,6 +34959,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34555,6 +35043,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34638,6 +35127,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34733,6 +35223,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34816,6 +35307,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34899,6 +35391,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -34982,6 +35475,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35065,6 +35559,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35148,6 +35643,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35231,6 +35727,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35326,6 +35823,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35409,6 +35907,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35492,6 +35991,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35575,6 +36075,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35659,6 +36160,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35743,6 +36245,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -35827,6 +36330,7 @@ exports[`<Calendar> when {style} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36125,14 +36629,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36154,14 +36660,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36183,14 +36691,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36212,14 +36722,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36241,14 +36753,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36270,14 +36784,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36299,14 +36815,16 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -36347,6 +36865,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36431,6 +36950,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36515,6 +37035,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36599,6 +37120,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36683,6 +37205,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36767,6 +37290,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36850,6 +37374,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -36945,6 +37470,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             Object {
               "borderBottomLeftRadius": 18,
@@ -37037,6 +37563,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37126,6 +37653,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             Object {
@@ -37218,6 +37746,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37301,6 +37830,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37384,6 +37914,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37467,6 +37998,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37562,6 +38094,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37645,6 +38178,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37728,6 +38262,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37811,6 +38346,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37894,6 +38430,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -37977,6 +38514,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38060,6 +38598,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38155,6 +38694,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38238,6 +38778,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38321,6 +38862,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38404,6 +38946,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38487,6 +39030,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38570,6 +39114,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38653,6 +39198,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38748,6 +39294,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38831,6 +39378,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38914,6 +39462,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -38997,6 +39546,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39080,6 +39630,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39163,6 +39714,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39246,6 +39798,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39341,6 +39894,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39425,6 +39979,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39509,6 +40064,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39593,6 +40149,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39677,6 +40234,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39761,6 +40319,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -39845,6 +40404,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40143,14 +40703,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40172,14 +40734,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40201,14 +40765,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40230,14 +40796,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40259,14 +40827,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40288,14 +40858,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40317,14 +40889,16 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 14,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
               "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
+              "fontWeight": "600",
+              "marginBottom": 10,
               "marginTop": 10,
               "textAlign": "center",
             },
@@ -40365,6 +40939,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40449,6 +41024,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40533,6 +41109,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40617,6 +41194,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40701,6 +41279,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40785,6 +41364,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40868,6 +41448,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -40963,6 +41544,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41046,6 +41628,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41129,6 +41712,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             Object {
               "borderBottomLeftRadius": 18,
@@ -41224,6 +41808,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41307,6 +41892,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41390,6 +41976,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41473,6 +42060,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41568,6 +42156,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41651,6 +42240,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41734,6 +42324,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41817,6 +42408,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41900,6 +42492,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -41983,6 +42576,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42066,6 +42660,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42161,6 +42756,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42244,6 +42840,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42327,6 +42924,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42410,6 +43008,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42493,6 +43092,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42576,6 +43176,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42659,6 +43260,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42754,6 +43356,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42837,6 +43440,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -42920,6 +43524,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43003,6 +43608,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43086,6 +43692,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43169,6 +43776,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43252,6 +43860,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43347,6 +43956,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43431,6 +44041,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43515,6 +44126,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43599,6 +44211,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43683,6 +44296,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43767,6 +44381,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
@@ -43851,6 +44466,7 @@ exports[`<Calendar> when {value} 1`] = `
             },
             Object {
               "flex": 1,
+              "fontWeight": "600",
             },
             false,
             false,
