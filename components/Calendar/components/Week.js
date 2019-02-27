@@ -93,7 +93,7 @@ const Week = ({ firstDate, ...inherit }) => {
                 ...stylesDay,
                 isToday && styles.textBold,
                 !isDisabled && isSelected && styles.textBold,
-                (day.getMonth() !== month || isDisabled) && styles.disabled,
+                ((day.getMonth() !== month && availableDates.includes(day)) || isDisabled) && styles.disabled,
               ]}
             >
               {day.getDate()}
