@@ -54,7 +54,7 @@ class InputSelect extends PureComponent {
       component, scrollview, props: { dataSource, value = 0 }, state: { active },
     } = this;
     const { VIEWPORT: { H } } = LAYOUT;
-    const { y } = findDOMNode(component.current).getBoundingClientRect(); // @TODO
+    const { y } = findDOMNode(component.current).getBoundingClientRect(); // eslint-disable-line
 
     this.setState({ active: !active, regular: y < (H / 2) }, () => {
       if (!active) {
@@ -79,6 +79,7 @@ class InputSelect extends PureComponent {
       },
       state: { active, regular, schema },
     } = this;
+    const { VIEWPORT: { H } } = LAYOUT;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
 
@@ -87,7 +88,8 @@ class InputSelect extends PureComponent {
         { label && (
           <InputLabel error={error}>
             {label}
-          </InputLabel>)}
+          </InputLabel>
+        )}
 
         { schema && hasDataSource && !disabled && (
           <Motion
@@ -95,14 +97,16 @@ class InputSelect extends PureComponent {
             timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
           >
             <Button contained={false} icon="expand" onPress={event} />
-          </Motion>)}
+          </Motion>
+        )}
 
         <View style={[styles.border, !disabled && error && styles.error, disabled && styles.disabled]}>
           { schema
             ? (
               <Touchable onPress={event} rippleColor={COLOR.PRIMARY}>
                 <ItemTemplate {...dataSource[value]} disabled={disabled} active style={styles.template} />
-              </Touchable>)
+              </Touchable>
+            )
             : (
               <Picker
                 mode="dropdown"
@@ -114,13 +118,15 @@ class InputSelect extends PureComponent {
               >
                 { dataSource.map(item => (
                   <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />))}
-              </Picker>)}
+              </Picker>
+            )}
         </View>
 
         { hint && (
           <InputHint>
             {hint}
-          </InputHint>)}
+          </InputHint>
+        )}
 
         { schema && (
           <ScrollView
@@ -131,6 +137,7 @@ class InputSelect extends PureComponent {
               !active && styles.dataSourceHidden,
               !regular && styles.dataSourceBottom,
               label && styles.withLabel,
+              { maxHeight: Math.floor((H / 2) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
             ]}
           >
             { dataSource.map((item, index) => (
@@ -138,7 +145,8 @@ class InputSelect extends PureComponent {
                 <ItemTemplate {...item} selected={index === value} style={styles.template} />
               </Touchable>
             ))}
-          </ScrollView>)}
+          </ScrollView>
+        )}
       </View>
     );
   }

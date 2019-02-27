@@ -31,4 +31,3 @@ storiesOf('✅ Markdown', module)
       {text('content', 'Hello World')}
     </Markdown>
   ));
-

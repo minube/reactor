@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
-import { Price } from '../';
+import { Price } from '..';
 import Button from './Button';
 
 describe('<Button>', () => {
@@ -45,7 +45,7 @@ describe('<Button>', () => {
     const tree = renderer.create(
       <Button>
         <Price headline level={6} color="white" value={19.95} symbol="$" />
-      </Button>
+      </Button>,
     ).toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -94,4 +94,3 @@ describe('<Button>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

@@ -23,4 +23,3 @@ describe('<Link>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

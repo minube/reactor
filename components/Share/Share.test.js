@@ -28,7 +28,7 @@ describe('<Share>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-   it('when devive <Button>', () => {
+  it('when devive <Button>', () => {
     const tree = renderer.create(<share uri={LOREM_URI} color="red" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -45,4 +45,3 @@ describe('<Share>', () => {
     // @TODO: Test <Share /> {onPress}
   });
 });
-

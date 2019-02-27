@@ -102,7 +102,8 @@ const Week = ({ firstDate, ...inherit }) => {
             { caption && (
               <Text caption style={[...stylesDay, styles.caption]}>
                 {caption}
-              </Text>)}
+              </Text>
+            )}
           </Touchable>
         );
       })}

@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _default=function _default(value){var date=Array.isArray(value)?value[0]:value;return{month:date.getMonth(),year:date.getFullYear()};};exports.default=_default;

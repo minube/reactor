@@ -1,7 +1,9 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { boolean, color, object, text } from '@storybook/addon-knobs/react';
+import {
+  boolean, color, object, text,
+} from '@storybook/addon-knobs/react';
 
 import { THEME } from '../../common';
 import PictureCard from './index';

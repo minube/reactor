@@ -14,7 +14,7 @@ const VALUE_COMPLEX = [
   { avatar: 'https://api.adorable.io/avatars/128/3', name: 'three' },
   { avatar: 'https://api.adorable.io/avatars/128/4', name: 'four' },
   { avatar: 'https://api.adorable.io/avatars/128/5', name: 'five' },
-]
+];
 const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
 const item = ({ avatar, name }) => (
   <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
@@ -69,4 +69,3 @@ describe('<InputList>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

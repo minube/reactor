@@ -1,7 +1,9 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
+import {
+  color, text, boolean, object, number, select,
+} from '@storybook/addon-knobs/react';
 
 import Input from './Input';
 
@@ -70,5 +72,4 @@ storiesOf('✅ Input', module)
       value={text('value', null)}
       style={object('style', STYLE)}
     />
-  ))
-
+  ));

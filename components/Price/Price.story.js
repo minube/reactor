@@ -5,7 +5,7 @@ import { number, text, object } from '@storybook/addon-knobs/react';
 
 import Price from './Price';
 
-const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' }
+const STYLE = { fontWeight: 800, fontSize: 32, color: 'green' };
 const PROPS = { value: 6995.123456 };
 
 storiesOf('✅ Price', module)
@@ -34,7 +34,7 @@ storiesOf('✅ Price', module)
     <Price {...PROPS} title="From" />
   ))
   .add('inject <Text> properties', () => (
-    <Price {...PROPS} headline={false} subtitle level={2}  />
+    <Price {...PROPS} headline={false} subtitle level={2} />
   ))
   .add('style', () => (
     <Price {...PROPS} style={STYLE} />
@@ -49,4 +49,3 @@ storiesOf('✅ Price', module)
       style={object('style', STYLE)}
     />
   ));
-

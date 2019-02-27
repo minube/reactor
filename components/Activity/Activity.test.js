@@ -19,4 +19,3 @@ describe('<Activity>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

@@ -12,9 +12,8 @@ describe('<ProviderTracking>', () => {
   });
 
   it('dispatch logEvent', () => {
-    const renderer = TestRenderer.create(<ProviderTracking  />);
+    const renderer = TestRenderer.create(<ProviderTracking />);
 
     renderer.getInstance().logEvent('hello');
   });
 });
-

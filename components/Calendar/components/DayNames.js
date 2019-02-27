@@ -10,7 +10,8 @@ const DayNames = ({ locale = [] }) => (
     { locale.map(day => (
       <Text key={day} subtitle level={2} style={[styles.day, styles.dayName]}>
         {day}
-      </Text>))}
+      </Text>
+    ))}
   </View>
 );
 

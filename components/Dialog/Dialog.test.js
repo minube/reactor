@@ -60,4 +60,3 @@ describe('<Dialog>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

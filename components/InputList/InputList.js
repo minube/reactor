@@ -115,7 +115,8 @@ class InputList extends PureComponent {
                 style={styles.suggestion}
               >
                 <ItemList template={itemTemplate} value={item} />
-              </Touchable>))}
+              </Touchable>
+            ))}
           </View>
         )}
 

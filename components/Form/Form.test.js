@@ -49,4 +49,3 @@ describe('<Form>', () => {
     // @TODO: Test <Form /> {onClose}
   });
 });
-
