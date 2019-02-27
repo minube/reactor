@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _default={DAY_NAMES:['mo','tu','we','th','fr','sa','su'],MONTHS:['january','february','march','april','may','june','july','august','september','october','november','december']};exports.default=_default;

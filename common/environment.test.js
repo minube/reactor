@@ -9,6 +9,7 @@ const KEYS =  [
   'IS_DEVELOPMENT',
   'IS_TEST',
   'NODE_ENV',
+  'PKG',
   'REACT_APP_ENV',
 ];
 
@@ -24,6 +25,7 @@ describe('environment', () => {
     expect(env.IS_DEVELOPMENT).toEqual(true);
     expect(env.IS_TEST).toEqual(true);
     expect(env.NODE_ENV).toEqual('test');
+    expect(env.PKG).toEqual({ name: 'reactor', version: '0.11' });
     expect(env.REACT_APP_ENV).toEqual('development');
   });
 });

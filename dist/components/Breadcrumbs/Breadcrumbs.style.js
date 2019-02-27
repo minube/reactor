@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _reactNative=require("react-native");var _common=require("../../common");var COLOR=_common.THEME.COLOR,UNIT=_common.THEME.UNIT;var _default=_reactNative.StyleSheet.create({link:{color:COLOR.TEXT,marginRight:UNIT*0.4},container:_common.LAYOUT.STYLE.ROW});exports.default=_default;

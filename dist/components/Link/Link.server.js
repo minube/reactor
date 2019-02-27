@@ -1,1 +1,0 @@
-Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _react=require("react");var _common=require("../../common");var _default=function _default(_ref){var children=_ref.children,href=_ref.href,style=_ref.style;return(0,_react.createElement)('a',{href:href,style:(0,_common.serverSideStyle)(style)},children);};exports.default=_default;
