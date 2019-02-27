@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _default=function _default(key){var cookies="; "+document.cookie;var cookie=cookies.split("; "+key+"=");return cookie.length===2?cookie.pop().split(';').shift():undefined;};exports.default=_default;

@@ -1,7 +1,6 @@
 import { DeviceInfo, Platform } from 'react-native';
 
-import PKG from '../package.json';
-
+const PKG = { name: 'reactor', version: '0.11' };
 const { NODE_ENV, REACT_APP_ENV = 'development' } = process.env;
 const IS_SERVER = typeof window === 'undefined';
 const IS_WEB = Platform.OS === 'web';
@@ -17,11 +16,13 @@ export default {
   IS_SERVER: IS_SERVER && IS_WEB,
   IS_WEB,
   IS_MOBILE_WEB,
-
   IS_PRODUCTION,
   IS_DEVELOPMENT: !IS_PRODUCTION,
   IS_TEST: NODE_ENV === 'test',
 
   NODE_ENV,
+
+  PKG,
+
   REACT_APP_ENV,
 };

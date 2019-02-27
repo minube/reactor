@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _reactNative=require("react-native");var _common=require("../../common");var _default=_reactNative.StyleSheet.create({container:_common.LAYOUT.STYLE.ROW,minimize:{transform:[{scale:0.8}]}});exports.default=_default;

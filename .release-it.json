@@ -3,7 +3,7 @@
   "increment": "patch",
   "requireCleanWorkingDir": true,
   "src": {
-    "beforeStartCommand": "yarn run test && yarn run lint",
+    "beforeStartCommand": "yarn run test && yarn run lint && yarn run build",
     "afterReleaseCommand": "yarn run storybook-to-ghpages",
     "commitMessage": "Release v%s",
     "tagName": "v%s",

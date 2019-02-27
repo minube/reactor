@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Viewport> renders 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {backward} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": -64,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {children} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
+      }
+    >
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+        >
+          Hello World
+        </Text>
+      </View>
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {onScroll} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      onScroll={[Function]}
+      scrollEventThrottle={32}
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 480,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 320,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {styleContent} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Object {
+            "padding": 32,
+          },
+        ]
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;
+
+exports[`<Viewport> when {visible} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#F5F5F6",
+      "height": 1334,
+      "left": 0,
+      "overflow": "hidden",
+      "position": "absolute",
+      "top": 0,
+      "transform": Array [
+        Object {
+          "translateX": 0,
+        },
+      ],
+      "width": 750,
+    }
+  }
+>
+  <RCTSafeAreaView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <RCTScrollView
+      style={
+        Array [
+          Object {
+            "height": "100%",
+            "width": "100%",
+            "zIndex": 0,
+          },
+          Array [],
+        ]
+      }
+    >
+      <View />
+    </RCTScrollView>
+  </RCTSafeAreaView>
+</View>
+`;

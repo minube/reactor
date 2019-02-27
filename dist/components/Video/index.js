@@ -1,0 +1,1 @@
+var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _common=require("../../common");var _Video=_interopRequireDefault(require("./Video"));var Loading=_common.ENV.IS_NATIVE?require('./Video.native').default:_Video.default;var _default=Loading;exports.default=_default;

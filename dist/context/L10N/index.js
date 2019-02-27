@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});Object.defineProperty(exports,"ConsumerL10N",{enumerable:true,get:function get(){return _L10N.ConsumerL10N;}});Object.defineProperty(exports,"ProviderL10N",{enumerable:true,get:function get(){return _L10N.ProviderL10N;}});var _L10N=require("./L10N");

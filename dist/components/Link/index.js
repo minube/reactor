@@ -1,0 +1,1 @@
+var _interopRequireDefault=require("@babel/runtime/helpers/interopRequireDefault");Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _common=require("../../common");var _Link=_interopRequireDefault(require("./Link"));var Loading=_common.ENV.IS_SERVER?require('./Link.server').default:_Link.default;var _default=Loading;exports.default=_default;

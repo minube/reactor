@@ -1,0 +1,1 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.default=void 0;var _default=function _default(userAgent){var width=1024;var height=768;if(/Tablet|iPad/i.test(userAgent)){width=768;height=1024;}else if(/iPhone|Android|Mobile|iPod|Windows Phone|Blackberry/i.test(userAgent)){width=360;height=640;}return{width:width,height:height};};exports.default=_default;
