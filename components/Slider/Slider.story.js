@@ -47,6 +47,11 @@ storiesOf('✅ Slider', module)
       item={ItemListingCard}
     />
   ))
+  .add('children', () => (
+    <Slider>
+      <PictureCard />
+    </Slider>
+  ))
   .add('style', () => (
     <Slider dataSource={dataSource} item={ItemPictureCard} style={STYLE} />
   ))

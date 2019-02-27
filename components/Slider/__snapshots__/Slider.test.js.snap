@@ -68,6 +68,169 @@ exports[`<Slider> when {caption} 1`] = `
 </View>
 `;
 
+exports[`<Slider> when {children} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    horizontal={true}
+    scrollEventThrottle={40}
+  >
+    <View>
+      <View
+        accessible={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#cdd2d4",
+              },
+              Object {
+                "borderRadius": 3,
+              },
+              Object {
+                "width": 168,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "backgroundColor": "#F5F5F6",
+                  "justifyContent": "center",
+                },
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "opacity": 0.8,
+                  },
+                  Object {
+                    "width": 168,
+                  },
+                  Object {
+                    "height": 190,
+                  },
+                  false,
+                  undefined,
+                ],
+              ]
+            }
+          >
+            <Image
+              onLoad={[Function]}
+              resizeMode="center"
+              source={
+                Object {
+                  "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "opacity": 0.8,
+                  },
+                  Object {
+                    "width": 168,
+                  },
+                  Object {
+                    "height": 190,
+                  },
+                  false,
+                  undefined,
+                ]
+              }
+            />
+            <ActivityIndicator
+              animating={true}
+              color="white"
+              hidesWhenStopped={true}
+              size="large"
+              style={
+                Array [
+                  Object {
+                    "position": "absolute",
+                  },
+                  false,
+                ]
+              }
+            />
+          </View>
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignContent": "center",
+                "alignItems": "center",
+                "alignSelf": "center",
+                "height": "100%",
+                "justifyContent": "center",
+                "left": 0,
+                "padding": 10,
+                "position": "absolute",
+                "width": "100%",
+              }
+            }
+          >
+            <View />
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "borderRadius": 3,
+                "bottom": 0,
+                "left": 0,
+                "overflow": "hidden",
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#cdd2d4",
+                "height": 0,
+                "opacity": 0,
+                "width": 0,
+                "zIndex": 0,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
 exports[`<Slider> when {dataSource} 1`] = `
 <View
   style={

@@ -53,6 +53,11 @@ describe('<Slider>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {children}', () => {
+    const tree = renderer.create(<Slider><PictureCard /></Slider>).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {style}', () => {
     const tree = renderer.create(<Slider dataSource={dataSource} item={Item} style={{ backgroundColor: 'orange', padding: 20 }} />).toJSON();
     expect(tree).toMatchSnapshot();

@@ -1,5 +1,5 @@
 import {
-  arrayOf, bool, func, number, shape, string,
+  arrayOf, bool, func, node, number, shape, string,
 } from 'prop-types';
 import React, { Component } from 'react';
 import { ScrollView, View } from 'react-native';
@@ -18,6 +18,7 @@ let timeout;
 class Slider extends Component {
   static propTypes = {
     caption: string,
+    children: node,
     dataSource: arrayOf(shape({})),
     item: func,
     itemMargin: number,
@@ -30,6 +31,7 @@ class Slider extends Component {
 
   static defaultProps = {
     caption: undefined,
+    children: undefined,
     dataSource: [],
     item() {},
     itemMargin: UNIT,
@@ -129,6 +131,7 @@ class Slider extends Component {
           { dataSource.map((data, index) =>
             <View key={index} style={{ marginRight }}><Item data={data} /></View>) // eslint-disable-line
           }
+          { inherit.children }
         </ScrollView>
       </View>
     );
