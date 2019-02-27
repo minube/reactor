@@ -34,4 +34,3 @@ describe('<Touchable>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

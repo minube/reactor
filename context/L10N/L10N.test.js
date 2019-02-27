@@ -11,4 +11,3 @@ describe('<ProviderL10N>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

@@ -102,7 +102,8 @@ class Share extends PureComponent {
                   <Text color={optionColor}>
                     {title}
                   </Text>
-                </Touchable>))}
+                </Touchable>
+              ))}
             </View>
           </Dialog>
           ) }

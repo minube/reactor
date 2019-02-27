@@ -39,4 +39,3 @@ storiesOf('✅ Rating', module)
       value={number('value', 3)}
     />
   ));
-

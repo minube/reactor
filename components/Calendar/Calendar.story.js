@@ -2,9 +2,11 @@ import React, { PureComponent } from 'react';
 import { Text } from 'react-native';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
-import { date, text, boolean, color, object } from '@storybook/addon-knobs/react';
+import {
+  date, text, boolean, color, object,
+} from '@storybook/addon-knobs/react';
 
-import { LayoutView, Price } from '../';
+import { LayoutView, Price } from '..';
 import Calendar from './Calendar';
 
 const STYLE = {
@@ -48,7 +50,7 @@ class CalendarHOC extends PureComponent {
 
   render() {
     const { _onSelect, props, state: { value } } = this;
-    return <Calendar {...props} value={value} onSelect={_onSelect} />
+    return <Calendar {...props} value={value} onSelect={_onSelect} />;
   }
 }
 

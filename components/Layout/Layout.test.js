@@ -20,4 +20,3 @@ describe('<LayoutView>', () => {
     // @TODO: Test <LayoutView /> {onLayout}
   });
 });
-

@@ -46,8 +46,7 @@ describe('<Video>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Video source={LOREM_VIDEO} style={{ width: 640, height: 400,}} />).toJSON();
+    const tree = renderer.create(<Video source={LOREM_VIDEO} style={{ width: 640, height: 400 }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
-

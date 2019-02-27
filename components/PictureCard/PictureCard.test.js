@@ -55,4 +55,3 @@ describe('<PictureCard>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

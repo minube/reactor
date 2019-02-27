@@ -60,7 +60,8 @@ class Input extends Component {
         { label && (
           <InputLabel color={color} focus={focus} error={error}>
             {label}
-          </InputLabel>)}
+          </InputLabel>
+        )}
         <View
           style={[
             styles.content,
@@ -92,7 +93,8 @@ class Input extends Component {
         { hint && (
           <InputHint>
             {hint}
-          </InputHint>)}
+          </InputHint>
+        )}
       </View>
     );
   }

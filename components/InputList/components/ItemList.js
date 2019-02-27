@@ -12,7 +12,8 @@ const ItemList = ({ template, value = {} }) => (
     : (
       <Text level={2} style={styles.text}>
         {typeof value === 'object' ? value.title : value}
-      </Text>)
+      </Text>
+    )
 );
 
 ItemList.propTypes = {

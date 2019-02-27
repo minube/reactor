@@ -37,7 +37,8 @@ class InputSelectTemplate extends PureComponent {
           { caption && (
             <Text caption level={2} lighten>
               {caption}
-            </Text>)}
+            </Text>
+          )}
         </View>
       </View>
     );

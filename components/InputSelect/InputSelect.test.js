@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import InputSelect from './InputSelect';
 import {
-  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE
+  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE,
 } from './InputSelect.mocks';
 
 describe('<InputSelect>', () => {
@@ -57,4 +57,3 @@ describe('<InputSelect>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

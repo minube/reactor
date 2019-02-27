@@ -98,7 +98,8 @@ export default class Dialog extends PureComponent {
                       style={styles.title}
                     >
                       {title}
-                    </Text>)}
+                    </Text>
+                  )}
                   { onClose && (
                     <Button
                       contained={false}
@@ -106,7 +107,8 @@ export default class Dialog extends PureComponent {
                       icon={highlight ? 'closeContrast' : 'close'}
                       onPress={onClose}
                       rounded
-                    />)}
+                    />
+                  )}
                 </View>
                 <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
                   {children}
@@ -115,6 +117,7 @@ export default class Dialog extends PureComponent {
             </Motion>
           </KeyboardAvoidingView>
         </SafeAreaView>
-      </Motion>);
+      </Motion>
+    );
   }
 }

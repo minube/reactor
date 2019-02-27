@@ -58,4 +58,3 @@ describe('<Slider>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

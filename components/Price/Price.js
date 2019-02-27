@@ -16,20 +16,23 @@ const Price = ({
     { title && (
       <Text {...inherit} style={[styles.minimize, inherit.style]}>
         {title}
-      </Text>)}
+      </Text>
+    )}
 
     <Fragment>
       { symbol && LEFT_SYMBOLS.includes(symbol) && (
         <Text {...inherit} style={[styles.minimize, inherit.style]}>
           {symbol}
-        </Text>)}
+        </Text>
+      )}
       <Text {...inherit} style={inherit.style}>
         {format(value, fixed, locale)}
       </Text>
       { symbol && !LEFT_SYMBOLS.includes(symbol) && (
         <Text {...inherit} style={[styles.minimize, inherit.style]}>
           {symbol}
-        </Text>)}
+        </Text>
+      )}
     </Fragment>
 
   </View>

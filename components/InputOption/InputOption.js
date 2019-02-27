@@ -21,7 +21,8 @@ const InputOption = ({
       { label && (
         <InputLabel style={styles.label}>
           {label}
-        </InputLabel>)}
+        </InputLabel>
+      )}
     </Fragment>
   </Touchable>
 );

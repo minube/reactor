@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import Snackbar from './Snackbar';
 
-const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.";
+const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s.';
 const PROPS = { visible: true };
 
 describe('<Snackbar>', () => {
@@ -36,4 +36,3 @@ describe('<Snackbar>', () => {
   //   // @TODO: Test <Snackbar /> {onPress}
   // });
 });
-

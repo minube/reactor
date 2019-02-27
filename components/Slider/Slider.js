@@ -97,22 +97,27 @@ class Slider extends Component {
             { title && (
             <Text bold large style={styles.title}>
               {title}
-            </Text>)}
+            </Text>
+            )}
             { caption && (
             <Text small style={styles.caption}>
               {caption}
-            </Text>)}
-          </View>)}
+            </Text>
+            )}
+          </View>
+        )}
 
         { navigation && (
           <View style={[styles.navigation, styles.previous]}>
             <Button icon="left" onPress={_onPressButton} small />
-          </View>)}
+          </View>
+        )}
 
         { navigation && (
           <View style={[styles.navigation, styles.next]}>
             <Button icon="right" onPress={() => _onPressButton(NEXT)} small />
-          </View>)}
+          </View>
+        )}
 
         <ScrollView
           contentContainerStyle={inherit.style}

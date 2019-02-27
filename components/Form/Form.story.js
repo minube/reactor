@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { action } from '@storybook/addon-actions';
 import { storiesOf } from '@storybook/react';
-import { color, text, boolean, object, number, select } from '@storybook/addon-knobs/react';
+import {
+  color, text, boolean, object, number, select,
+} from '@storybook/addon-knobs/react';
 
 import Form from './Form';
 import { ATTRIBUTES, VALUE, STYLE } from './Form.mocks';
@@ -22,7 +24,7 @@ class FormHOC extends Component {
 
   render() {
     const { _onChange, props, state: { value = {} } } = this;
-    return <Form {...props} value={value} onChange={_onChange} />
+    return <Form {...props} value={value} onChange={_onChange} />;
   }
 }
 
@@ -43,13 +45,13 @@ storiesOf('☑️ Form', module)
     <FormHOC attributes={ATTRIBUTES} title="Your contact" style={STORY_STYLE} />
   ))
   .add('⚡ onChange', () => (
-    <FormHOC attributes={ATTRIBUTES} onChange={action('Form.onChange()')} style={STORY_STYLE}  />
+    <FormHOC attributes={ATTRIBUTES} onChange={action('Form.onChange()')} style={STORY_STYLE} />
   ))
   .add('⚡ onValid', () => (
-    <FormHOC attributes={ATTRIBUTES} onValid={action('Form.onValid()')} style={STORY_STYLE}  />
+    <FormHOC attributes={ATTRIBUTES} onValid={action('Form.onValid()')} style={STORY_STYLE} />
   ))
   .add('style', () => (
-    <FormHOC attributes={ATTRIBUTES} style={{...STYLE, ...STORY_STYLE }} />
+    <FormHOC attributes={ATTRIBUTES} style={{ ...STYLE, ...STORY_STYLE }} />
   ))
   .add('🏀 Playground', () => (
     <FormHOC
@@ -57,7 +59,6 @@ storiesOf('☑️ Form', module)
       color={color('color', undefined)}
       value={object('value', VALUE)}
       title={text('title', null)}
-      style={object('style', {...STYLE, ...STORY_STYLE})}
+      style={object('style', { ...STYLE, ...STORY_STYLE })}
     />
-  ))
-
+  ));

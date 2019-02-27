@@ -34,4 +34,3 @@ describe('<Markdown>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

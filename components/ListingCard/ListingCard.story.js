@@ -72,4 +72,3 @@ storiesOf('✅ ListingCard', module)
       styleContainer={object('styleContainer', STYLE_LISTINGCARD)}
     />
   ));
-

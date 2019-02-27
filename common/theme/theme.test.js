@@ -1,6 +1,6 @@
 import theme from './theme';
 
-const KEYS =  [
+const KEYS = [
   'BORDER_RADIUS',
   'COLOR',
   'ELEVATION',

@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import Text from './Text';
 
-const LOREM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry.";
+const LOREM = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.';
 
 describe('<Text>', () => {
   it('renders', () => {
@@ -47,7 +47,7 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-   it('when {subtitle level:1}', () => {
+  it('when {subtitle level:1}', () => {
     const tree = renderer.create(<Text subtitle level={1}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -77,7 +77,7 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-   it('when {caption level:1}', () => {
+  it('when {caption level:1}', () => {
     const tree = renderer.create(<Text caption level={1}>{LOREM}</Text>).toJSON();
     expect(tree).toMatchSnapshot();
   });
@@ -107,4 +107,3 @@ describe('<Text>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

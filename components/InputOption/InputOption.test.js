@@ -39,4 +39,3 @@ describe('<InputOption>', () => {
     // @TODO: Test <InputOption /> {onChange}
   });
 });
-

@@ -30,4 +30,3 @@ describe('<ProgressBar>', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-

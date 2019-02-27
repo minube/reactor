@@ -79,7 +79,8 @@ class Video extends Component {
               height="100%"
               src={`${embed}&autoplay=${autoPlay ? 1 : 0}`}
               title={embed}
-            />)
+            />
+          )
           : (
             <video
               {...inherit}
@@ -93,7 +94,8 @@ class Video extends Component {
             >
               <source src={source} />
               <track kind="captions" />
-            </video>)
+            </video>
+          )
         }
       </View>
     );

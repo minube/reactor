@@ -1,6 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { text, boolean, number, object } from '@storybook/addon-knobs/react';
+import {
+  text, boolean, number, object,
+} from '@storybook/addon-knobs/react';
 
 import ListingCard from '../ListingCard';
 import PictureCard from '../PictureCard';
@@ -61,4 +63,3 @@ storiesOf('✅ Slider', module)
       style={object('style', STYLE)}
     />
   ));
-

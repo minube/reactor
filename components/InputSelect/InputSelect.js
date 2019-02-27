@@ -54,7 +54,7 @@ class InputSelect extends PureComponent {
       component, scrollview, props: { dataSource, value = 0 }, state: { active },
     } = this;
     const { VIEWPORT: { H } } = LAYOUT;
-    const { y } = findDOMNode(component.current).getBoundingClientRect(); // @TODO
+    const { y } = findDOMNode(component.current).getBoundingClientRect(); // eslint-disable-line
 
     this.setState({ active: !active, regular: y < (H / 2) }, () => {
       if (!active) {

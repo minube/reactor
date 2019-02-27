@@ -41,4 +41,3 @@ storiesOf('✅ Switch', module)
       style={object('style', STYLE)}
     />
   ));
-
