@@ -36,7 +36,6 @@ export default StyleSheet.create({
     ...ELEVATION.REGULAR,
     position: 'absolute',
     backgroundColor: COLOR.WHITE,
-    maxHeight: TEMPLATE_HEIGHT * 5,
   },
 
   dataSourceBottom: {

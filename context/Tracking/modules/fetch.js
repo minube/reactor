@@ -1,10 +1,9 @@
 import ENV from '../../../common/environment';
-import PKG from '../../../package.json';
 import { fetch } from '../../../components/BoardingPass';
 
 import entropy from './entropy';
 
-const { IS_PRODUCTION, IS_WEB } = ENV;
+const { IS_PRODUCTION, IS_WEB, PKG } = ENV;
 const {
   browserName, browserVersion,
   deviceManufacturer, deviceModel,

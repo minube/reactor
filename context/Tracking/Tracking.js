@@ -7,9 +7,8 @@ import SHAPE from '../../common/shape';
 import {
   AsyncStore, fetch, Fingerprint, getCookie,
 } from './modules';
-import PKG from '../../package.json';
 
-const { IS_WEB, IS_SERVER } = ENV;
+const { IS_WEB, IS_SERVER, PKG } = ENV;
 const { Provider, Consumer: ConsumerTracking } = createContext('reactor:tracking');
 const STORE_EVENTS = `${PKG.name}:events`;
 const MINUBE_USER_ID = 'mn_user_id';

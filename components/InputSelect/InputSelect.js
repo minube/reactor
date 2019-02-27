@@ -79,6 +79,7 @@ class InputSelect extends PureComponent {
       },
       state: { active, regular, schema },
     } = this;
+    const { VIEWPORT: { H } } = LAYOUT;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
 
@@ -136,6 +137,7 @@ class InputSelect extends PureComponent {
               !active && styles.dataSourceHidden,
               !regular && styles.dataSourceBottom,
               label && styles.withLabel,
+              { maxHeight: Math.floor((H / 2) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
             ]}
           >
             { dataSource.map((item, index) => (

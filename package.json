@@ -1,8 +1,8 @@
 {
-  "name": "reactor",
-  "description": "reusable presentational components",
-  "license": "GPL-3.0",
-  "version": "0.11.2",
+  "name": "minube-reactor",
+  "description": "Reusable presentational components",
+  "version": "0.11.9",
+  "license": "LGPL-3.0",
   "devDependencies": {
     "@babel/cli": "7.0.0",
     "@babel/core": "7.0.0",
@@ -21,7 +21,7 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
     "babel-plugin-react-native-web": "0.10.0",
-    "eslint": "5.14.1",
+    "eslint": "5.12.0",
     "eslint-config-airbnb": "latest",
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-jsx-a11y": "6.2.1",
@@ -45,12 +45,16 @@
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
+    "build": "yarn run build:common && yarn run build:components && yarn run build:context",
+    "build:common": "babel common -d dist/common --copy-files --ignore '**/*.test.js'",
+    "build:components": "babel components -d dist/components --copy-files --ignore '**/*.test.js'",
+    "build:context": "babel context -d dist/context --copy-files --ignore '**/*.test.js'",
     "start": "start-storybook -p 9001 -c .storybook",
     "start:native": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "test": "jest",
-    "lint": "eslint common/**/*.js components/**/*.js context/**/*.js --quiet",
+    "lint": "eslint *.js",
     "release": "release-it"
   }
 }
