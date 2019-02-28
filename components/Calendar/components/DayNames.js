@@ -8,7 +8,7 @@ import styles from '../Calendar.style';
 const DayNames = ({ locale = [] }) => (
   <View style={styles.row}>
     { locale.map(day => (
-      <Text key={day} caption lighten style={[styles.day, styles.dayName]}>
+      <Text key={day} caption level={2} lighten style={[styles.day, styles.dayName]}>
         {day}
       </Text>
     ))}

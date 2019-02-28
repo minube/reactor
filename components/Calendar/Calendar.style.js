@@ -53,6 +53,7 @@ export default StyleSheet.create({
 
   dayName: {
     marginTop: UNIT,
+    marginBottom: UNIT / 2,
     textAlign: 'center',
   },
 
@@ -62,6 +63,10 @@ export default StyleSheet.create({
 
   highlight: {
     color: COLOR.WHITE,
+  },
+
+  outOfMonth: {
+    opacity: 0.5,
   },
 
   row: {

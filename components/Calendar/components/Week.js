@@ -18,7 +18,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, captions, disabledDates, disabledPast, month, today, value,
+    availableDates, captions, disabledDates, disabledPast, edges, month, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -64,6 +64,7 @@ const Week = ({ firstDate, ...inherit }) => {
           }
         }
 
+        const isOutOfMonth = day.getMonth() !== month;
         const stylesDay = [
           isToday && styles.today,
           !isDisabled && isSelected && styles.highlight,
@@ -88,9 +89,10 @@ const Week = ({ firstDate, ...inherit }) => {
             ]}
           >
             <Text
-              level={3}
+              level={2}
               style={[
                 ...stylesDay,
+                isOutOfMonth && edges && !isDisabled && !isSelected && styles.outOfMonth,
                 isToday && styles.textBold,
                 !isDisabled && isSelected && styles.textBold,
                 isDisabled && styles.disabled,

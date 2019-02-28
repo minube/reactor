@@ -71,6 +71,11 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {edges=false}', () => {
+    const tree = renderer.create(<Calendar edges={false} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {captions}', () => {
     const tree = renderer.create(<Calendar captions={CAPTIONS} />).toJSON();
     expect(tree).toMatchSnapshot();
