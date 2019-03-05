@@ -3,12 +3,12 @@ import React from 'react';
 import { View } from 'react-native';
 
 import Text from '../../Text';
-import styles from '../Calendar.style';
+import styles from './DayNames.style';
 
-const DayNames = ({ locale = [] }) => (
-  <View style={styles.row}>
+const DayNames = ({ locale = [], ...inherit }) => (
+  <View style={styles.container}>
     { locale.map(day => (
-      <Text key={day} caption level={2} lighten style={[styles.day, styles.dayName]}>
+      <Text key={day} caption level={2} lighten style={[styles.box, inherit.range && styles.boxExpand]}>
         {day}
       </Text>
     ))}

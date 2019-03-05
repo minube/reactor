@@ -5,7 +5,7 @@ import { View } from 'react-native';
 
 import Text from '../../Text';
 import Touchable from '../../Touchable';
-import styles, { BOX_HEIGHT } from '../Calendar.style';
+import styles, { BOX_SIZE } from './Week.style';
 
 const onPress = ({
   day, tsDay, tsStart, tsEnd, onSelect, range, value,
@@ -18,7 +18,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, captions, disabledDates, disabledPast, edges, month, today, value,
+    availableDates, captions, disabledDates, disabledPast, edges, month, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -44,7 +44,7 @@ const Week = ({ firstDate, ...inherit }) => {
   }
 
   return (
-    <View style={styles.row}>
+    <View style={styles.container}>
       {days.map((day) => {
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
@@ -64,15 +64,13 @@ const Week = ({ firstDate, ...inherit }) => {
           }
         }
 
+        const isHighlight = !isDisabled && isSelected;
         const isOutOfMonth = day.getMonth() !== month;
-        const stylesDay = [
-          isToday && styles.today,
-          !isDisabled && isSelected && styles.highlight,
-        ];
+        const Container = !isDisabled ? Touchable : View;
 
         return (
-          <Touchable
-            containerBorderRadius={BOX_HEIGHT}
+          <Container
+            containerBorderRadius={BOX_SIZE}
             key={day.toString()}
             onPress={!isDisabled
               ? () => onPress({
@@ -82,30 +80,30 @@ const Week = ({ firstDate, ...inherit }) => {
             }
             style={[
               styles.box,
-              styles.day,
-              !isDisabled && isSelected && styles.selected,
-              !isDisabled && isSelected && tsDay === tsStart && styles.selectedStart,
-              !isDisabled && isSelected && tsDay === tsEnd && styles.selectedEnd,
+              range && styles.boxExpand,
+              isHighlight && styles.boxSelected,
+              isHighlight && tsDay === tsStart && styles.boxSelectedStart,
+              isHighlight && tsDay === tsEnd && styles.boxSelectedEnd,
             ]}
           >
             <Text
-              level={2}
+              subtitle={!isDisabled}
+              level={!isDisabled ? 2 : 1}
               style={[
-                ...stylesDay,
-                isOutOfMonth && edges && !isDisabled && !isSelected && styles.outOfMonth,
-                isToday && styles.textBold,
-                !isDisabled && isSelected && styles.textBold,
-                isDisabled && styles.disabled,
+                isToday && !isHighlight && !isDisabled && styles.textToday,
+                isHighlight && styles.textHighlight,
+                isOutOfMonth && edges && !isDisabled && !isSelected && styles.textOutOfMonth,
+                isDisabled && styles.textDisabled,
               ]}
             >
               {day.getDate()}
             </Text>
-            { caption && (
-              <Text caption style={[...stylesDay, styles.caption]}>
+            { caption && !isDisabled && (
+              <Text caption style={[styles.caption, isHighlight && styles.textHighlight]}>
                 {caption}
               </Text>
             )}
-          </Touchable>
+          </Container>
         );
       })}
     </View>

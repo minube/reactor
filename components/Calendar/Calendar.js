@@ -118,7 +118,7 @@ class Calendar extends PureComponent {
             onNext={_onNext}
             onPrevious={!disabledPrevious ? _onPrevious : undefined}
           />
-          <DayNames locale={DAY_NAMES} />
+          <DayNames {...props} locale={DAY_NAMES} />
           { VISIBLE_WEEKS.map(weekIndex => (
             <Week
               {...props}

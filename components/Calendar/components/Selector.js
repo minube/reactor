@@ -6,21 +6,21 @@ import { View } from 'react-native';
 
 import Text from '../../Text';
 import Touchable from '../../Touchable';
-import styles from '../Calendar.style';
+import styles from './Selector.style';
 
 const Selector = ({
   locale = [], onPrevious, onNext, ...state
 }) => (
-  <View style={styles.row}>
-    <Touchable onPress={onPrevious} style={[styles.box, !onPrevious && styles.boxDisabled]}>
+  <View style={styles.container}>
+    <Touchable onPress={onPrevious} style={[styles.touchable, !onPrevious && styles.touchableDisabled]}>
       <Text>
         {'◀'}
       </Text>
     </Touchable>
-    <Text headline level={6} style={styles.month}>
+    <Text headline level={6} style={styles.value}>
       {`${locale[state.month]} ${state.year}`}
     </Text>
-    <Touchable onPress={onNext} style={styles.box}>
+    <Touchable onPress={onNext} style={styles.touchable}>
       <Text>
         {'▶'}
       </Text>
