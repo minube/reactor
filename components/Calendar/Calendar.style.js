@@ -20,6 +20,5 @@ export default StyleSheet.create({
     paddingHorizontal: OFFSET,
     paddingVertical: OFFSET / 2,
     justifyContent: 'center',
-    width: 400,
   },
 });

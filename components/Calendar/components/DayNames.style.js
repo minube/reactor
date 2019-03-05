@@ -1,18 +1,23 @@
 import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../../common';
+import { BOX_SIZE } from './Week.style';
 
 const { UNIT } = THEME;
 
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
-    justifyContent: 'center',
+    justifyContent: 'space-between',
     marginVertical: UNIT / 2,
   },
 
-  content: {
-    flex: 1,
+  box: {
     textAlign: 'center',
+    minWidth: BOX_SIZE,
+  },
+
+  boxExpand: {
+    flex: 1,
   },
 });
