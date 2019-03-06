@@ -12,7 +12,7 @@ const {
   ...screenProperties
 } = entropy;
 
-export default async (event = {}, method = 'event') => {
+export default async (event = {}, method = 'event', authorization) => {
   const props = {
     device_manufacturer: deviceManufacturer,
     device_model: deviceModel,
@@ -39,6 +39,7 @@ export default async (event = {}, method = 'event') => {
   fetch({
     method: 'POST',
     endpoint: IS_PRODUCTION ? 'api.minube.com' : 'dev.api.minube.com',
+    headers: { authorization },
     secure: true,
     service: `tracking/${method}`,
     body: JSON.stringify(props),

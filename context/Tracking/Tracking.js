@@ -1,4 +1,6 @@
-import { bool, node, shape } from 'prop-types';
+import {
+  bool, node, shape, string,
+} from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { NetInfo } from 'react-native';
 
@@ -46,7 +48,7 @@ class ProviderTracking extends PureComponent {
   }
 
   _signup = async () => {
-    const { _syncEvents, props: { session = {} } } = this;
+    const { _syncEvents, props: { session: { authorization, ...session } = {} } } = this;
     const cookie = getCookie('reactor:request');
     let fingerprint;
 
@@ -66,7 +68,8 @@ class ProviderTracking extends PureComponent {
         ...session, // user_id && session_id && device_id
         userProperties: cookie ? JSON.parse(cookie) : cookie,
       },
-      'session');
+      'session',
+      authorization);
     }
 
     this.setState({
