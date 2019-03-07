@@ -89,6 +89,12 @@ exports[`<Slider> when {children} 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <View
           style={
@@ -259,6 +265,12 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -442,6 +454,12 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -643,6 +661,12 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -826,6 +850,12 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1028,6 +1058,12 @@ exports[`<Slider> when {momentum} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1211,6 +1247,12 @@ exports[`<Slider> when {momentum} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1420,10 +1462,13 @@ exports[`<Slider> when {navigation} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "borderRadius": 3,
-            },
-            false,
+            undefined,
+            Array [
+              Object {
+                "borderRadius": 3,
+              },
+              false,
+            ],
           ]
         }
       >
@@ -1559,10 +1604,13 @@ exports[`<Slider> when {navigation} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "borderRadius": 3,
-            },
-            false,
+            undefined,
+            Array [
+              Object {
+                "borderRadius": 3,
+              },
+              false,
+            ],
           ]
         }
       >
@@ -1707,6 +1755,12 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1890,6 +1944,12 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -2097,6 +2157,12 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -2280,6 +2346,12 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={

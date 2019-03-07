@@ -11,16 +11,19 @@ exports[`<InputOption> inherity:style 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "marginBottom": 20,
-      },
-      Object {
-        "backgroundColor": "rgba(0,255,0,0.25)",
-        "padding": 10,
-      },
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        Object {
+          "backgroundColor": "rgba(0,255,0,0.25)",
+          "padding": 10,
+        },
+      ],
     ]
   }
 >
@@ -123,13 +126,16 @@ exports[`<InputOption> label 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "marginBottom": 20,
-      },
       undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -263,13 +269,16 @@ exports[`<InputOption> renders 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "marginBottom": 20,
-      },
       undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -372,13 +381,16 @@ exports[`<InputOption> rounded (false) 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "marginBottom": 20,
-      },
       undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
     ]
   }
 >
@@ -479,13 +491,16 @@ exports[`<InputOption> value 1`] = `
   onStartShouldSetResponder={[Function]}
   style={
     Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-        "marginBottom": 20,
-      },
       undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
     ]
   }
 >

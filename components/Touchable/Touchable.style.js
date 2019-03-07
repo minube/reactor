@@ -1,11 +1,17 @@
-import { StyleSheet } from 'react-native';
+import { Platform, StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
 const { BORDER_RADIUS, COLOR } = THEME;
 
 export default StyleSheet.create({
-  container: {
+  container: Platform.select({
+    web: {
+      userSelect: 'none',
+    },
+  }),
+
+  ripples: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: 'transparent',
     borderRadius: BORDER_RADIUS,

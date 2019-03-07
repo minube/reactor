@@ -12,10 +12,13 @@ exports[`<Button> renders 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -113,10 +116,13 @@ exports[`<Button> when {activity} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -258,10 +264,13 @@ exports[`<Button> when {children} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -429,10 +438,13 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -558,10 +570,13 @@ exports[`<Button> when {color} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -687,10 +702,13 @@ exports[`<Button> when {contained=false} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -813,10 +831,13 @@ exports[`<Button> when {disabled} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -944,10 +965,13 @@ exports[`<Button> when {icon} & {title} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -1095,10 +1119,13 @@ exports[`<Button> when {icon} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -1215,10 +1242,13 @@ exports[`<Button> when {outlined} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -1345,10 +1375,13 @@ exports[`<Button> when {responsive} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -1474,12 +1507,15 @@ exports[`<Button> when {rounded} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        Object {
-          "borderRadius": 22,
-        },
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          Object {
+            "borderRadius": 22,
+          },
+        ],
       ]
     }
   >
@@ -1609,10 +1645,13 @@ exports[`<Button> when {shadow} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -1746,10 +1785,13 @@ exports[`<Button> when {small} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -1885,10 +1927,13 @@ exports[`<Button> when {style} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >
@@ -2014,10 +2059,13 @@ exports[`<Button> when {title} 1`] = `
     onStartShouldSetResponder={[Function]}
     style={
       Array [
-        Object {
-          "borderRadius": 3,
-        },
-        false,
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+        ],
       ]
     }
   >

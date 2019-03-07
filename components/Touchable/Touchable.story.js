@@ -39,6 +39,11 @@ storiesOf('✅ Touchable', module)
       <Child />
     </Touchable>
   ))
+  .add('rippleDelay', () => (
+    <Touchable onPress={() => {}} rippleColor="red" rippleDelay={200}>
+      <Child />
+    </Touchable>
+  ))
   .add('containerBorderRadius', () => (
     <Touchable onPress={() => {}} containerBorderRadius={48}>
       <Child />

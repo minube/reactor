@@ -29,6 +29,12 @@ exports[`<ListingCard> renders 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -206,6 +212,12 @@ exports[`<ListingCard> when {category} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -409,6 +421,12 @@ exports[`<ListingCard> when {children} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -571,12 +589,15 @@ exports[`<ListingCard> when {children} 1`] = `
           onStartShouldSetResponder={[Function]}
           style={
             Array [
-              Object {
-                "borderRadius": 3,
-              },
-              Object {
-                "borderRadius": 22,
-              },
+              undefined,
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "borderRadius": 22,
+                },
+              ],
             ]
           }
         >
@@ -730,6 +751,12 @@ exports[`<ListingCard> when {description} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -934,6 +961,12 @@ exports[`<ListingCard> when {image} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -1111,6 +1144,12 @@ exports[`<ListingCard> when {rating} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -1461,6 +1500,12 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={
@@ -1638,6 +1683,12 @@ exports[`<ListingCard> when {title} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
     >
       <View
         style={

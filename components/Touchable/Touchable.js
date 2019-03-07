@@ -19,6 +19,8 @@ const ANIMATION = {
   duration: 400,
   useNativeDriver: IS_NATIVE,
 };
+let timeoutId;
+let epicenter;
 
 class Touchable extends PureComponent {
   mounted = false;
@@ -28,6 +30,7 @@ class Touchable extends PureComponent {
     containerBorderRadius: number,
     onPress: func,
     rippleColor: string,
+    rippleDelay: number,
   };
 
   static defaultProps = {
@@ -35,13 +38,15 @@ class Touchable extends PureComponent {
     containerBorderRadius: undefined,
     onPress: undefined,
     rippleColor: COLOR.BASE,
+    rippleDelay: 0,
   };
 
   state = {
-    width: 0,
     height: 0,
-    ripples: [],
     mask: new Animated.Value(0),
+    epicenter: undefined,
+    ripples: [],
+    width: 0,
   };
 
   componentDidMount() {
@@ -66,32 +71,43 @@ class Touchable extends PureComponent {
   _onPressIn = (event) => {
     const {
       onAnimationEnd,
+      props: { rippleDelay },
       state: {
         mask, ripples, width, height,
       },
     } = this;
-
     const { locationX: x, locationY: y } = event.nativeEvent;
-    const w = 0.5 * width;
-    const h = 0.5 * height;
-    const offsetX = Math.abs(w - x);
-    const offsetY = Math.abs(h - y);
-
-    const ripple = {
-      key: (new Date()).getTime(),
-      progress: new Animated.Value(0),
-      range: Math.sqrt(((w + offsetX) ** 2) + ((h + offsetY) ** 2)),
-      x,
-      y,
-    };
+    epicenter = { x, y };
 
     Animated.timing(mask, { ...ANIMATION, delay: ANIMATION.duration / 4, toValue: 0.25 }).start();
-    Animated.timing(ripple.progress, ANIMATION).start(onAnimationEnd);
-    this.setState({ ripples: [...ripples, ripple] });
+    clearTimeout(timeoutId);
+    timeoutId = setTimeout(() => {
+      const w = 0.5 * width;
+      const h = 0.5 * height;
+      const offsetX = Math.abs(w - x);
+      const offsetY = Math.abs(h - y);
+
+      const ripple = {
+        key: (new Date()).getTime(),
+        progress: new Animated.Value(0),
+        range: Math.sqrt(((w + offsetX) ** 2) + ((h + offsetY) ** 2)),
+        x,
+        y,
+      };
+      Animated.timing(ripple.progress, ANIMATION).start(onAnimationEnd);
+      this.setState({ ripples: [...ripples, ripple] });
+    }, rippleDelay);
   }
 
-  _onPressOut = () => {
-    const { state: { mask } } = this;
+  _onPressOut = (event) => {
+    const { props: { rippleDelay }, state: { mask } } = this;
+    const { locationX: x, locationY: y } = event.nativeEvent;
+
+    if (rippleDelay > 0) {
+      const gapX = (epicenter.x / x);
+      const gapY = epicenter.y / y;
+      if (gapX < 0.9 || gapX > 1.1 || gapY < 0.9 || gapY > 1.1) clearTimeout(timeoutId);
+    }
     Animated.timing(mask, { ...ANIMATION, toValue: 0 }).start();
   }
 
@@ -111,8 +127,8 @@ class Touchable extends PureComponent {
         mask, width, height, ripples = [],
       },
     } = this;
-
     let events = {};
+
     if (onPress) {
       events = {
         onLayout: _onLayout,
@@ -124,9 +140,9 @@ class Touchable extends PureComponent {
 
     return (
       <TouchableWithoutFeedback {...events}>
-        <View style={inherit.style} pointerEvents={onPress ? 'box-only' : undefined}>
+        <View style={[styles.container, inherit.style]} pointerEvents={onPress ? 'box-only' : undefined}>
           {children}
-          <View style={[styles.container, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
+          <View style={[styles.ripples, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
             { ripples.map(props => <Ripple color={rippleColor} {...props} />)}
             <Animated.View
               style={[
