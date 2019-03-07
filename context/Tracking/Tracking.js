@@ -34,19 +34,19 @@ class ProviderTracking extends PureComponent {
   };
 
   async componentWillMount() {
-    const { _signup, props: { signup } } = this;
+    const { _signup, props: { session, signup } } = this;
 
-    if (signup) _signup();
+    if (signup) _signup(session);
   }
 
-  componentWillReceiveProps({ signup }) {
+  componentWillReceiveProps({ session, signup }) {
     const { _signup, props } = this;
 
-    if (signup === true && signup !== props.signup) _signup();
+    if (signup === true && signup !== props.signup) _signup(session);
   }
 
-  _signup = async () => {
-    const { _syncEvents, props: { session: { authorization, ...session } = {} } } = this;
+  _signup = async ({ authorization, ...session } = {}) => {
+    const { _syncEvents } = this;
     const cookie = getCookie('reactor:request');
     let fingerprint;
 
