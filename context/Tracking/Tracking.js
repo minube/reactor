@@ -46,7 +46,7 @@ class ProviderTracking extends PureComponent {
   }
 
   _signup = async () => {
-    const { _syncEvents, props: { session = {} } } = this;
+    const { _syncEvents, props: { session: { authorization, ...session } = {} } } = this;
     const cookie = getCookie('reactor:request');
     let fingerprint;
 
@@ -62,6 +62,7 @@ class ProviderTracking extends PureComponent {
       }
 
       await fetch({
+        authorization,
         ...fingerprint, // uuid & device_id
         ...session, // user_id && session_id && device_id
         userProperties: cookie ? JSON.parse(cookie) : cookie,
@@ -103,10 +104,11 @@ class ProviderTracking extends PureComponent {
     if (IS_SERVER) return;
 
     const {
-      _storeEvent, state: { isConnected, fingerprint, session },
+      _storeEvent, props: { session: { authorization } = {} }, state: { isConnected, fingerprint, session },
     } = this;
 
     const event = {
+      authorization,
       ...fingerprint, // uuid & device_id
       ...session, // user_id && session_id && device_id
       event_id: eventId,
