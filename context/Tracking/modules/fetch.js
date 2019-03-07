@@ -12,7 +12,7 @@ const {
   ...screenProperties
 } = entropy;
 
-export default async (event = {}, method = 'event', authorization) => {
+export default async ({ authorization, ...event } = {}, method = 'event') => {
   const props = {
     device_manufacturer: deviceManufacturer,
     device_model: deviceModel,

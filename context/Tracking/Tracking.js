@@ -1,6 +1,4 @@
-import {
-  bool, node, shape, string,
-} from 'prop-types';
+import { bool, node, shape } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { NetInfo } from 'react-native';
 
@@ -64,12 +62,12 @@ class ProviderTracking extends PureComponent {
       }
 
       await fetch({
+        authorization,
         ...fingerprint, // uuid & device_id
         ...session, // user_id && session_id && device_id
         userProperties: cookie ? JSON.parse(cookie) : cookie,
       },
-      'session',
-      authorization);
+      'session');
     }
 
     this.setState({
@@ -106,10 +104,11 @@ class ProviderTracking extends PureComponent {
     if (IS_SERVER) return;
 
     const {
-      _storeEvent, state: { isConnected, fingerprint, session },
+      _storeEvent, props: { session: { authorization } = {} }, state: { isConnected, fingerprint, session },
     } = this;
 
     const event = {
+      authorization,
       ...fingerprint, // uuid & device_id
       ...session, // user_id && session_id && device_id
       event_id: eventId,
