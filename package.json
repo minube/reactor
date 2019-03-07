@@ -4,6 +4,8 @@
   "version": "0.11.16",
   "license": "LGPL-3.0",
   "devDependencies": {
+    "@emotion/core": "^10.0.7",
+    "@emotion/styled": "^10.0.7",
     "@babel/cli": "7.0.0",
     "@babel/core": "7.0.0",
     "@dump247/storybook-state": "latest",
@@ -19,6 +21,7 @@
     "@storybook/react-native": "latest",
     "@storybook/storybook-deployer": "latest",
     "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.5",
     "babel-eslint": "10.0.1",
     "babel-plugin-react-native-web": "0.10.0",
     "eslint": "5.14.1",
@@ -30,6 +33,7 @@
     "jest-fetch-mock": "2.1.1",
     "metro-react-native-babel-preset": "0.52.0",
     "react-native-scripts": "latest",
+    "react-scripts": "latest",
     "react-test-renderer": "16.8.3",
     "release-it": "10.1.0",
     "storybook-addon-jsx": "latest"
