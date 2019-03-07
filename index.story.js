@@ -35,8 +35,8 @@ const styles = StyleSheet.create({
   },
 });
 
-
-storiesOf('🏀 Playground', module)
+// storiesOf('🏀 Playground', module)
+storiesOf('UI|Widgets/Basics/Button', module)
   .add('Dialog: download app', () => (
     <Dialog
       background={false}
