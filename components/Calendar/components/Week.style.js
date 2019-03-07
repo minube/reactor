@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../../common';
 
-const { COLOR, FONT, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 const BOX_SIZE = UNIT * 4;
 
 export { BOX_SIZE };
