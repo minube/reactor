@@ -103,6 +103,12 @@ exports[`<Slider> when {children} 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <View
           style={
@@ -278,6 +284,12 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -461,6 +473,12 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -667,6 +685,12 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -850,6 +874,12 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1059,10 +1089,13 @@ exports[`<Slider> when {navigation} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "borderRadius": 3,
-            },
-            false,
+            undefined,
+            Array [
+              Object {
+                "borderRadius": 3,
+              },
+              false,
+            ],
           ]
         }
       >
@@ -1198,10 +1231,13 @@ exports[`<Slider> when {navigation} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "borderRadius": 3,
-            },
-            false,
+            undefined,
+            Array [
+              Object {
+                "borderRadius": 3,
+              },
+              false,
+            ],
           ]
         }
       >
@@ -1323,7 +1359,7 @@ exports[`<Slider> when {navigation} 1`] = `
 </View>
 `;
 
-exports[`<Slider> when {steps} 1`] = `
+exports[`<Slider> when {snap=false} 1`] = `
 <View
   style={
     Object {
@@ -1332,13 +1368,9 @@ exports[`<Slider> when {steps} 1`] = `
   }
 >
   <RCTScrollView
-    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={false}
     removeClippedSubviews={true}
     showsHorizontalScrollIndicator={false}
-    snapToAlignment="start"
-    snapToInterval={360}
   >
     <View>
       <View
@@ -1356,6 +1388,12 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1539,6 +1577,413 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#cdd2d4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#F5F5F6",
+                    "justifyContent": "center",
+                  },
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                    },
+                    Object {
+                      "opacity": 0.8,
+                    },
+                    Object {
+                      "width": 168,
+                    },
+                    Object {
+                      "height": 190,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "uri": "https://picsum.photos/320/200?image=12",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                    },
+                    Object {
+                      "opacity": 0.8,
+                    },
+                    Object {
+                      "width": 168,
+                    },
+                    Object {
+                      "height": 190,
+                    },
+                    false,
+                    undefined,
+                  ]
+                }
+              />
+              <ActivityIndicator
+                animating={true}
+                color="white"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
+                }
+              />
+            </View>
+            <View
+              pointerEvents="none"
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
+              }
+            >
+              <View>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
+                      },
+                      Object {
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -1.33,
+                        "lineHeight": 34,
+                      },
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  Title 1
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 3,
+                  "bottom": 0,
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#cdd2d4",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
+
+exports[`<Slider> when {steps} 1`] = `
+<View
+  style={
+    Object {
+      "width": "100%",
+    }
+  }
+>
+  <RCTScrollView
+    decelerationRate="fast"
+    horizontal={true}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={360}
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "marginRight": 12,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "#cdd2d4",
+                },
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "width": 168,
+                },
+                undefined,
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "backgroundColor": "#F5F5F6",
+                    "justifyContent": "center",
+                  },
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                    },
+                    Object {
+                      "opacity": 0.8,
+                    },
+                    Object {
+                      "width": 168,
+                    },
+                    Object {
+                      "height": 190,
+                    },
+                    false,
+                    undefined,
+                  ],
+                ]
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                resizeMode="cover"
+                source={
+                  Object {
+                    "uri": "https://picsum.photos/320/200?image=11",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                    },
+                    Object {
+                      "opacity": 0.8,
+                    },
+                    Object {
+                      "width": 168,
+                    },
+                    Object {
+                      "height": 190,
+                    },
+                    false,
+                    undefined,
+                  ]
+                }
+              />
+              <ActivityIndicator
+                animating={true}
+                color="white"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Array [
+                    Object {
+                      "position": "absolute",
+                    },
+                    false,
+                  ]
+                }
+              />
+            </View>
+            <View
+              pointerEvents="none"
+              style={
+                Object {
+                  "alignContent": "center",
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "height": "100%",
+                  "justifyContent": "center",
+                  "left": 0,
+                  "padding": 10,
+                  "position": "absolute",
+                  "width": "100%",
+                }
+              }
+            >
+              <View>
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "color": "#4a4a4a",
+                        "fontFamily": undefined,
+                        "fontWeight": "400",
+                        "textAlignVertical": "center",
+                      },
+                      Object {
+                        "fontFamily": undefined,
+                        "fontSize": 32,
+                        "fontWeight": "700",
+                        "letterSpacing": -1.33,
+                        "lineHeight": 34,
+                      },
+                      false,
+                      Object {
+                        "color": "#ffffff",
+                        "textAlign": "center",
+                      },
+                    ]
+                  }
+                >
+                  Title 0
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderRadius": 3,
+                  "bottom": 0,
+                  "left": 0,
+                  "overflow": "hidden",
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                },
+                undefined,
+              ]
+            }
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "#cdd2d4",
+                  "height": 0,
+                  "opacity": 0,
+                  "width": 0,
+                  "zIndex": 0,
+                }
+              }
+            />
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Object {
+            "marginRight": 12,
+          }
+        }
+      >
+        <View
+          accessible={true}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1751,6 +2196,12 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={
@@ -1934,6 +2385,12 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              undefined,
+              undefined,
+            ]
+          }
         >
           <View
             style={

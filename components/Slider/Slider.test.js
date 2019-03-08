@@ -33,6 +33,11 @@ describe('<Slider>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {snap=false}', () => {
+    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} snap={false} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {steps}', () => {
     const tree = renderer.create(<Slider dataSource={dataSource} item={Item} steps={2} />).toJSON();
     expect(tree).toMatchSnapshot();

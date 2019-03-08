@@ -30,6 +30,9 @@ storiesOf('✅ Slider', module)
   .add('itemMargin', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} itemMargin={16} />
   ))
+  .add('snap=false', () => (
+    <Slider dataSource={dataSource} snap={false} item={ItemListingCard} />
+  ))
   .add('steps (2)', () => (
     <Slider dataSource={dataSource} steps={2} item={ItemListingCard} />
   ))
