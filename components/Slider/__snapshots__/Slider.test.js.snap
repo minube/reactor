@@ -9,11 +9,13 @@ exports[`<Slider> renders 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>
@@ -39,7 +41,6 @@ exports[`<Slider> when {caption} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      small={true}
       style={
         Array [
           Object {
@@ -49,8 +50,8 @@ exports[`<Slider> when {caption} 1`] = `
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 16,
-            "lineHeight": 30,
+            "fontSize": 14,
+            "lineHeight": 18,
           },
           Object {
             "color": "#707070",
@@ -63,11 +64,13 @@ exports[`<Slider> when {caption} 1`] = `
     </Text>
   </View>
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>
@@ -83,11 +86,13 @@ exports[`<Slider> when {children} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View>
       <View
@@ -249,11 +254,13 @@ exports[`<Slider> when {dataSource} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View>
       <View
@@ -636,11 +643,13 @@ exports[`<Slider> when {itemMargin} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={184}
   >
     <View>
       <View
@@ -1301,11 +1310,13 @@ exports[`<Slider> when {navigation} 1`] = `
     </View>
   </View>
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>
@@ -1321,11 +1332,13 @@ exports[`<Slider> when {steps} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={360}
   >
     <View>
       <View
@@ -1714,11 +1727,13 @@ exports[`<Slider> when {style} 1`] = `
         "padding": 20,
       }
     }
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View>
       <View
@@ -2110,9 +2125,7 @@ exports[`<Slider> when {title} 1`] = `
     <Text
       accessible={true}
       allowFontScaling={true}
-      bold={true}
       ellipsizeMode="tail"
-      large={true}
       style={
         Array [
           Object {
@@ -2122,8 +2135,11 @@ exports[`<Slider> when {title} 1`] = `
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 16,
-            "lineHeight": 30,
+            "fontFamily": undefined,
+            "fontSize": 20,
+            "fontWeight": "700",
+            "letterSpacing": -0.83,
+            "lineHeight": 22,
           },
           false,
           Object {},
@@ -2134,11 +2150,13 @@ exports[`<Slider> when {title} 1`] = `
     </Text>
   </View>
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    pagingEnabled={true}
+    pagingEnabled={false}
     removeClippedSubviews={true}
-    scrollEventThrottle={16}
     showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>

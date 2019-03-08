@@ -2,7 +2,7 @@ import {
   arrayOf, bool, func, node, number, shape, string,
 } from 'prop-types';
 import React, { Component } from 'react';
-import { ScrollView, View } from 'react-native';
+import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
@@ -10,6 +10,11 @@ import Text from '../Text';
 import styles from './Slider.style';
 
 const { SPACE } = THEME;
+const DEFAULT_PROPS = {
+  horizontal: true,
+  removeClippedSubviews: true,
+  showsHorizontalScrollIndicator: false,
+};
 const NEXT = 'next';
 
 class Slider extends Component {
@@ -21,6 +26,7 @@ class Slider extends Component {
     itemMargin: number,
     itemWidth: number,
     navigation: bool,
+    snap: bool,
     steps: number,
     title: string,
   };
@@ -33,6 +39,7 @@ class Slider extends Component {
     itemMargin: SPACE.S,
     itemWidth: undefined,
     navigation: false,
+    snap: true,
     steps: 1,
     title: undefined,
   };
@@ -47,10 +54,10 @@ class Slider extends Component {
     this.setState({ x: 0 });
   }
 
-  shouldComponentUpdate({ dataSource = [] }) {
-    const { props } = this;
-    return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
-  }
+  // shouldComponentUpdate({ dataSource = [] }) {
+  //   const { props } = this;
+  //   return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
+  // }
 
   _onPressButton = (type) => {
     const { props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps } } = this;
@@ -67,22 +74,31 @@ class Slider extends Component {
     const {
       _onPressButton,
       props: {
-        caption, dataSource, item: Item, itemMargin: marginRight, navigation, title, ...inherit
+        caption, dataSource, navigation, snap, steps, title, item: Item, itemMargin, itemWidth = LAYOUT.CARD.SLIDER,
+        ...inherit
       },
     } = this;
+    let snapProps = {};
+    if (snap) {
+      snapProps = {
+        decelerationRate: 'fast',
+        pagingEnabled: Platform.OS !== 'ios',
+        snapToInterval: (itemWidth + itemMargin) * steps,
+        snapToAlignment: 'start',
+      };
+    }
 
     return (
       <View style={styles.container}>
-
         { (title || caption) && (
           <View style={styles.header}>
             { title && (
-            <Text bold large style={styles.title}>
+            <Text headline level={6} style={styles.title}>
               {title}
             </Text>
             )}
             { caption && (
-            <Text small lighten>
+            <Text caption lighten>
               {caption}
             </Text>
             )}
@@ -102,16 +118,13 @@ class Slider extends Component {
         )}
 
         <ScrollView
+          {...DEFAULT_PROPS}
+          {...snapProps}
           contentContainerStyle={inherit.style}
-          horizontal
-          pagingEnabled
-          removeClippedSubviews
           ref={scrollview => this.scrollview = scrollview} // eslint-disable-line
-          scrollEventThrottle={16}
-          showsHorizontalScrollIndicator={false}
         >
           { dataSource.map((data, index) =>
-            <View key={index} style={{ marginRight }}><Item data={data} /></View>) // eslint-disable-line
+            <View key={index} style={{ marginRight: itemMargin }}><Item data={data} /></View>) // eslint-disable-line
           }
           { inherit.children }
         </ScrollView>
