@@ -4,16 +4,13 @@ import {
 import React, { Component } from 'react';
 import { ScrollView, View } from 'react-native';
 
-import { ENV, LAYOUT, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
 
-const { IS_WEB } = ENV;
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 const NEXT = 'next';
-const MOMENTUM_INTERVAL = 40;
-let timeout;
 
 class Slider extends Component {
   static propTypes = {
@@ -23,7 +20,6 @@ class Slider extends Component {
     item: func,
     itemMargin: number,
     itemWidth: number,
-    momentum: bool,
     navigation: bool,
     steps: number,
     title: string,
@@ -34,10 +30,9 @@ class Slider extends Component {
     children: undefined,
     dataSource: [],
     item() {},
-    itemMargin: UNIT,
+    itemMargin: SPACE.S,
     itemWidth: undefined,
-    momentum: IS_WEB,
-    navigation: IS_WEB,
+    navigation: false,
     steps: 1,
     title: undefined,
   };
@@ -58,36 +53,21 @@ class Slider extends Component {
   }
 
   _onPressButton = (type) => {
-    const {
-      _updateScroll,
-      props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps },
-      state: { x },
-    } = this;
+    const { props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps } } = this;
     const width = (itemWidth + itemMargin) * steps;
+    let { state: { x } } = this;
 
-    _updateScroll(type === NEXT ? x + width : x - width);
-  }
+    x = type === NEXT ? x + width : x - width;
 
-  _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
-    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER } } = this;
-    const width = (itemWidth + itemMargin);
-
-    if (!Number.isInteger(x / width)) {
-      clearTimeout(timeout);
-      timeout = setTimeout(() => _updateScroll(Math.round(x / width) * width), MOMENTUM_INTERVAL * 2);
-    }
-  }
-
-  _updateScroll = (x) => {
     this.scrollview.scrollTo({ x });
     this.setState({ x });
   }
 
   render() {
     const {
-      _onPressButton, _onScroll,
+      _onPressButton,
       props: {
-        caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, title, ...inherit
+        caption, dataSource, item: Item, itemMargin: marginRight, navigation, title, ...inherit
       },
     } = this;
 
@@ -102,7 +82,7 @@ class Slider extends Component {
             </Text>
             )}
             { caption && (
-            <Text small style={styles.caption}>
+            <Text small lighten>
               {caption}
             </Text>
             )}
@@ -124,9 +104,11 @@ class Slider extends Component {
         <ScrollView
           contentContainerStyle={inherit.style}
           horizontal
-          onScroll={momentum ? _onScroll : undefined}
+          pagingEnabled
+          removeClippedSubviews
           ref={scrollview => this.scrollview = scrollview} // eslint-disable-line
-          scrollEventThrottle={MOMENTUM_INTERVAL}
+          scrollEventThrottle={16}
+          showsHorizontalScrollIndicator={false}
         >
           { dataSource.map((data, index) =>
             <View key={index} style={{ marginRight }}><Item data={data} /></View>) // eslint-disable-line

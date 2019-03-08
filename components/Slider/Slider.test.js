@@ -38,11 +38,6 @@ describe('<Slider>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {momentum}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} momentum />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
   it('when {title}', () => {
     const tree = renderer.create(<Slider title="Hello World" />).toJSON();
     expect(tree).toMatchSnapshot();

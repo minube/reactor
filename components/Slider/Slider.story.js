@@ -33,9 +33,6 @@ storiesOf('✅ Slider', module)
   .add('steps (2)', () => (
     <Slider dataSource={dataSource} steps={2} item={ItemListingCard} />
   ))
-  .add('momentum', () => (
-    <Slider dataSource={dataSource} momentum item={ItemListingCard} />
-  ))
   .add('title', () => (
     <Slider dataSource={dataSource} title="Explora nuevos destinos" item={ItemListingCard} />
   ))
