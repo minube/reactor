@@ -1000,10 +1000,13 @@ exports[`<Form> when {attributes} 1`] = `
               pointerEvents="box-only"
               style={
                 Array [
-                  Object {
-                    "borderRadius": 3,
-                  },
-                  false,
+                  undefined,
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                    },
+                    false,
+                  ],
                 ]
               }
             >
@@ -1129,6 +1132,12 @@ exports[`<Form> when {attributes} 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             pointerEvents="box-only"
+            style={
+              Array [
+                undefined,
+                undefined,
+              ]
+            }
           >
             <View
               style={
@@ -1152,16 +1161,19 @@ exports[`<Form> when {attributes} 1`] = `
                 onStartShouldSetResponder={[Function]}
                 style={
                   Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "marginBottom": 20,
-                    },
-                    Object {
-                      "marginBottom": 0,
-                      "marginRight": 10,
-                    },
+                    undefined,
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "marginBottom": 20,
+                      },
+                      Object {
+                        "marginBottom": 0,
+                        "marginRight": 10,
+                      },
+                    ],
                   ]
                 }
               >
@@ -1382,6 +1394,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -1405,16 +1423,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1597,6 +1618,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -1620,16 +1647,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -1815,6 +1845,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -1838,16 +1874,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -2030,6 +2069,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -2053,16 +2098,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -2245,6 +2293,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -2268,16 +2322,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -2460,6 +2517,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -2483,16 +2546,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -2675,6 +2741,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -2698,16 +2770,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -2890,6 +2965,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -2913,16 +2994,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -3105,6 +3189,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -3128,16 +3218,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -3320,6 +3413,12 @@ exports[`<Form> when {attributes} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -3343,16 +3442,19 @@ exports[`<Form> when {attributes} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -3983,17 +4085,20 @@ exports[`<Form> when {attributes} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -4127,17 +4232,20 @@ exports[`<Form> when {attributes} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -4271,17 +4379,20 @@ exports[`<Form> when {attributes} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -4415,17 +4526,20 @@ exports[`<Form> when {attributes} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -5095,17 +5209,20 @@ exports[`<Form> when {attributes} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -6359,10 +6476,13 @@ exports[`<Form> when {value} 1`] = `
               pointerEvents="box-only"
               style={
                 Array [
-                  Object {
-                    "borderRadius": 3,
-                  },
-                  false,
+                  undefined,
+                  Array [
+                    Object {
+                      "borderRadius": 3,
+                    },
+                    false,
+                  ],
                 ]
               }
             >
@@ -6488,6 +6608,12 @@ exports[`<Form> when {value} 1`] = `
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
             pointerEvents="box-only"
+            style={
+              Array [
+                undefined,
+                undefined,
+              ]
+            }
           >
             <View
               style={
@@ -6511,16 +6637,19 @@ exports[`<Form> when {value} 1`] = `
                 onStartShouldSetResponder={[Function]}
                 style={
                   Array [
-                    Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
-                      "marginBottom": 20,
-                    },
-                    Object {
-                      "marginBottom": 0,
-                      "marginRight": 10,
-                    },
+                    undefined,
+                    Array [
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                        "flexDirection": "row",
+                        "marginBottom": 20,
+                      },
+                      Object {
+                        "marginBottom": 0,
+                        "marginRight": 10,
+                      },
+                    ],
                   ]
                 }
               >
@@ -6741,6 +6870,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -6764,16 +6899,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -6956,6 +7094,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -6979,16 +7123,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -7174,6 +7321,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -7197,16 +7350,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -7389,6 +7545,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -7412,16 +7574,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -7604,6 +7769,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -7627,16 +7798,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -7819,6 +7993,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -7842,16 +8022,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -8034,6 +8217,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -8057,16 +8246,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -8249,6 +8441,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -8272,16 +8470,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -8464,6 +8665,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -8487,16 +8694,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -8679,6 +8889,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <View
                 style={
@@ -8702,16 +8918,19 @@ exports[`<Form> when {value} 1`] = `
                   onStartShouldSetResponder={[Function]}
                   style={
                     Array [
-                      Object {
-                        "alignItems": "center",
-                        "display": "flex",
-                        "flexDirection": "row",
-                        "marginBottom": 20,
-                      },
-                      Object {
-                        "marginBottom": 0,
-                        "marginRight": 10,
-                      },
+                      undefined,
+                      Array [
+                        Object {
+                          "alignItems": "center",
+                          "display": "flex",
+                          "flexDirection": "row",
+                          "marginBottom": 20,
+                        },
+                        Object {
+                          "marginBottom": 0,
+                          "marginRight": 10,
+                        },
+                      ],
                     ]
                   }
                 >
@@ -9342,17 +9561,20 @@ exports[`<Form> when {value} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -9486,17 +9708,20 @@ exports[`<Form> when {value} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -9630,17 +9855,20 @@ exports[`<Form> when {value} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -9774,17 +10002,20 @@ exports[`<Form> when {value} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }
@@ -10513,6 +10744,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <Image
                 resizeMode="contain"
@@ -10619,6 +10856,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <Image
                 resizeMode="contain"
@@ -10725,6 +10968,12 @@ exports[`<Form> when {value} 1`] = `
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
               pointerEvents="box-only"
+              style={
+                Array [
+                  undefined,
+                  undefined,
+                ]
+              }
             >
               <Image
                 resizeMode="contain"
@@ -10794,17 +11043,20 @@ exports[`<Form> when {value} 1`] = `
         pointerEvents="box-only"
         style={
           Array [
-            Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
-              "marginBottom": 20,
-            },
+            undefined,
             Array [
               Object {
-                "minWidth": "100%",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "marginBottom": 20,
               },
-              undefined,
+              Array [
+                Object {
+                  "minWidth": "100%",
+                },
+                undefined,
+              ],
             ],
           ]
         }

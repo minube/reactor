@@ -25,6 +25,11 @@ describe('<Touchable>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {rippleDelay}', () => {
+    const tree = renderer.create(<Touchable rippleDelay={225} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {onPress}', () => {
     // @TODO: Test <Touchable /> {onPress}
   });

@@ -9,6 +9,12 @@ exports[`<PictureCard> renders 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -157,6 +163,12 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -307,6 +319,12 @@ exports[`<PictureCard> when {caption} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -482,6 +500,12 @@ exports[`<PictureCard> when {image} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -630,6 +654,12 @@ exports[`<PictureCard> when {portrait} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -778,6 +808,12 @@ exports[`<PictureCard> when {small} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -930,6 +966,12 @@ exports[`<PictureCard> when {style} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={
@@ -1084,6 +1126,12 @@ exports[`<PictureCard> when {title} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
 >
   <View
     style={

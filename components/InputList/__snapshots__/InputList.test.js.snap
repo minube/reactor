@@ -690,6 +690,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -872,6 +878,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -1054,6 +1066,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -1236,6 +1254,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -1418,6 +1442,12 @@ exports[`<InputList> when {itemTemplate} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -1823,6 +1853,12 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -1929,6 +1965,12 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -2035,6 +2077,12 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -2141,6 +2189,12 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"
@@ -2247,6 +2301,12 @@ exports[`<InputList> when {value} 1`] = `
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
         pointerEvents="box-only"
+        style={
+          Array [
+            undefined,
+            undefined,
+          ]
+        }
       >
         <Image
           resizeMode="contain"

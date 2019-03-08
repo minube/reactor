@@ -17,10 +17,13 @@ exports[`<Share> renders 1`] = `
       pointerEvents="box-only"
       style={
         Array [
-          Object {
-            "borderRadius": 3,
-          },
-          false,
+          undefined,
+          Array [
+            Object {
+              "borderRadius": 3,
+            },
+            false,
+          ],
         ]
       }
     >
