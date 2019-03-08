@@ -39,7 +39,7 @@ export default async ({ authorization, ...event } = {}, method = 'event') => {
   fetch({
     method: 'POST',
     endpoint: IS_PRODUCTION ? 'api.minube.com' : 'dev.api.minube.com',
-    headers: { authorization },
+    headers: authorization ? { authorization } : undefined,
     secure: true,
     service: `tracking/${method}`,
     body: JSON.stringify(props),

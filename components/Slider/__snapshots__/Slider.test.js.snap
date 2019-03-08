@@ -9,8 +9,13 @@ exports[`<Slider> renders 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>
@@ -28,7 +33,7 @@ exports[`<Slider> when {caption} 1`] = `
   <View
     style={
       Object {
-        "marginBottom": 10,
+        "marginBottom": 8,
       }
     }
   >
@@ -36,7 +41,6 @@ exports[`<Slider> when {caption} 1`] = `
       accessible={true}
       allowFontScaling={true}
       ellipsizeMode="tail"
-      small={true}
       style={
         Array [
           Object {
@@ -46,13 +50,13 @@ exports[`<Slider> when {caption} 1`] = `
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 16,
-            "lineHeight": 30,
+            "fontSize": 14,
+            "lineHeight": 18,
           },
-          false,
           Object {
             "color": "#707070",
           },
+          Object {},
         ]
       }
     >
@@ -60,8 +64,13 @@ exports[`<Slider> when {caption} 1`] = `
     </Text>
   </View>
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>
@@ -77,8 +86,13 @@ exports[`<Slider> when {children} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View>
       <View
@@ -240,14 +254,19 @@ exports[`<Slider> when {dataSource} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View>
       <View
         style={
           Object {
-            "marginRight": 10,
+            "marginRight": 12,
           }
         }
       >
@@ -430,7 +449,7 @@ exports[`<Slider> when {dataSource} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 10,
+            "marginRight": 12,
           }
         }
       >
@@ -624,8 +643,13 @@ exports[`<Slider> when {itemMargin} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={184}
   >
     <View>
       <View
@@ -815,391 +839,6 @@ exports[`<Slider> when {itemMargin} 1`] = `
         style={
           Object {
             "marginRight": 16,
-          }
-        }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                },
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "width": 168,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
-                    "justifyContent": "center",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              <Image
-                onLoad={[Function]}
-                resizeMode="cover"
-                source={
-                  Object {
-                    "uri": "https://picsum.photos/320/200?image=12",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ]
-                }
-              />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
-                style={
-                  Array [
-                    Object {
-                      "position": "absolute",
-                    },
-                    false,
-                  ]
-                }
-              />
-            </View>
-            <View
-              pointerEvents="none"
-              style={
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "alignSelf": "center",
-                  "height": "100%",
-                  "justifyContent": "center",
-                  "left": 0,
-                  "padding": 10,
-                  "position": "absolute",
-                  "width": "100%",
-                }
-              }
-            >
-              <View>
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
-                  style={
-                    Array [
-                      Object {
-                        "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
-                        "textAlignVertical": "center",
-                      },
-                      Object {
-                        "fontFamily": undefined,
-                        "fontSize": 32,
-                        "fontWeight": "700",
-                        "letterSpacing": -1.33,
-                        "lineHeight": 34,
-                      },
-                      false,
-                      Object {
-                        "color": "#ffffff",
-                        "textAlign": "center",
-                      },
-                    ]
-                  }
-                >
-                  Title 1
-                </Text>
-              </View>
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
-    </View>
-  </RCTScrollView>
-</View>
-`;
-
-exports[`<Slider> when {momentum} 1`] = `
-<View
-  style={
-    Object {
-      "width": "100%",
-    }
-  }
->
-  <RCTScrollView
-    horizontal={true}
-    onScroll={[Function]}
-    scrollEventThrottle={40}
-  >
-    <View>
-      <View
-        style={
-          Object {
-            "marginRight": 10,
-          }
-        }
-      >
-        <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-        >
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                },
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "width": 168,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
-                    "justifyContent": "center",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ]
-              }
-            >
-              <Image
-                onLoad={[Function]}
-                resizeMode="cover"
-                source={
-                  Object {
-                    "uri": "https://picsum.photos/320/200?image=11",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ]
-                }
-              />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
-                style={
-                  Array [
-                    Object {
-                      "position": "absolute",
-                    },
-                    false,
-                  ]
-                }
-              />
-            </View>
-            <View
-              pointerEvents="none"
-              style={
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "alignSelf": "center",
-                  "height": "100%",
-                  "justifyContent": "center",
-                  "left": 0,
-                  "padding": 10,
-                  "position": "absolute",
-                  "width": "100%",
-                }
-              }
-            >
-              <View>
-                <Text
-                  accessible={true}
-                  allowFontScaling={true}
-                  ellipsizeMode="tail"
-                  style={
-                    Array [
-                      Object {
-                        "color": "#4a4a4a",
-                        "fontFamily": undefined,
-                        "fontWeight": "400",
-                        "textAlignVertical": "center",
-                      },
-                      Object {
-                        "fontFamily": undefined,
-                        "fontSize": 32,
-                        "fontWeight": "700",
-                        "letterSpacing": -1.33,
-                        "lineHeight": 34,
-                      },
-                      false,
-                      Object {
-                        "color": "#ffffff",
-                        "textAlign": "center",
-                      },
-                    ]
-                  }
-                >
-                  Title 0
-                </Text>
-              </View>
-            </View>
-          </View>
-          <View
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
-                undefined,
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
-        </View>
-      </View>
-      <View
-        style={
-          Object {
-            "marginRight": 10,
           }
         }
       >
@@ -1671,8 +1310,13 @@ exports[`<Slider> when {navigation} 1`] = `
     </View>
   </View>
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>
@@ -1688,14 +1332,19 @@ exports[`<Slider> when {steps} 1`] = `
   }
 >
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={360}
   >
     <View>
       <View
         style={
           Object {
-            "marginRight": 10,
+            "marginRight": 12,
           }
         }
       >
@@ -1878,7 +1527,7 @@ exports[`<Slider> when {steps} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 10,
+            "marginRight": 12,
           }
         }
       >
@@ -2078,14 +1727,19 @@ exports[`<Slider> when {style} 1`] = `
         "padding": 20,
       }
     }
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View>
       <View
         style={
           Object {
-            "marginRight": 10,
+            "marginRight": 12,
           }
         }
       >
@@ -2268,7 +1922,7 @@ exports[`<Slider> when {style} 1`] = `
       <View
         style={
           Object {
-            "marginRight": 10,
+            "marginRight": 12,
           }
         }
       >
@@ -2464,16 +2118,14 @@ exports[`<Slider> when {title} 1`] = `
   <View
     style={
       Object {
-        "marginBottom": 10,
+        "marginBottom": 8,
       }
     }
   >
     <Text
       accessible={true}
       allowFontScaling={true}
-      bold={true}
       ellipsizeMode="tail"
-      large={true}
       style={
         Array [
           Object {
@@ -2483,8 +2135,11 @@ exports[`<Slider> when {title} 1`] = `
             "textAlignVertical": "center",
           },
           Object {
-            "fontSize": 16,
-            "lineHeight": 30,
+            "fontFamily": undefined,
+            "fontSize": 20,
+            "fontWeight": "700",
+            "letterSpacing": -0.83,
+            "lineHeight": 22,
           },
           false,
           Object {},
@@ -2495,8 +2150,13 @@ exports[`<Slider> when {title} 1`] = `
     </Text>
   </View>
   <RCTScrollView
+    decelerationRate="fast"
     horizontal={true}
-    scrollEventThrottle={40}
+    pagingEnabled={false}
+    removeClippedSubviews={true}
+    showsHorizontalScrollIndicator={false}
+    snapToAlignment="start"
+    snapToInterval={180}
   >
     <View />
   </RCTScrollView>

@@ -82,7 +82,7 @@ export default class App extends Component {
               title="Share"
             />
             <Button title="Second viewport" onPress={() => this.setState({ viewport: true })} />
-            <Slider dataSource={dataSource} item={ItemListingCard} navigation momentum />
+            <Slider dataSource={dataSource} item={ItemListingCard} navigation steps={2} />
 
             <Calendar />
             <Text>
@@ -122,9 +122,3 @@ export default class App extends Component {
     );
   }
 }
-
-// <Button activity primary rounded title="Touch Me" onPress={() => console.log('Button.onPress')} />
-// <Heading title="Actividades en España" rating={3} />
-// <Switch />
-// <ProgressBar progress={0.5} />
-// <Slider dataSource={this.state.dataSource} item={ItemListingCard} navigation momentum />
