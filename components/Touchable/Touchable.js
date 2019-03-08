@@ -44,7 +44,6 @@ class Touchable extends PureComponent {
   state = {
     height: 0,
     mask: new Animated.Value(0),
-    epicenter: undefined,
     ripples: [],
     width: 0,
   };

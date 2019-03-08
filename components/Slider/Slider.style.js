@@ -2,13 +2,9 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, UNIT, OFFSET } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
-  caption: {
-    color: COLOR.TEXT_LIGHTEN,
-  },
-
   container: {
     width: '100%',
   },
@@ -21,14 +17,14 @@ export default StyleSheet.create({
   },
 
   header: {
-    marginBottom: UNIT,
+    marginBottom: SPACE.XS,
   },
 
   previous: {
-    left: -OFFSET,
+    left: -SPACE.MEDIUM,
   },
 
   next: {
-    right: -OFFSET,
+    right: -SPACE.MEDIUM,
   },
 });

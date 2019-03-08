@@ -33,13 +33,13 @@ describe('<Slider>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {steps}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} steps={2} />).toJSON();
+  it('when {snap=false}', () => {
+    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} snap={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {momentum}', () => {
-    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} momentum />).toJSON();
+  it('when {steps}', () => {
+    const tree = renderer.create(<Slider dataSource={dataSource} item={Item} steps={2} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

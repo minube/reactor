@@ -2,18 +2,20 @@ import {
   arrayOf, bool, func, node, number, shape, string,
 } from 'prop-types';
 import React, { Component } from 'react';
-import { ScrollView, View } from 'react-native';
+import { Platform, ScrollView, View } from 'react-native';
 
-import { ENV, LAYOUT, THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Text from '../Text';
 import styles from './Slider.style';
 
-const { IS_WEB } = ENV;
-const { UNIT } = THEME;
+const { SPACE } = THEME;
+const DEFAULT_PROPS = {
+  horizontal: true,
+  removeClippedSubviews: true,
+  showsHorizontalScrollIndicator: false,
+};
 const NEXT = 'next';
-const MOMENTUM_INTERVAL = 40;
-let timeout;
 
 class Slider extends Component {
   static propTypes = {
@@ -23,8 +25,8 @@ class Slider extends Component {
     item: func,
     itemMargin: number,
     itemWidth: number,
-    momentum: bool,
     navigation: bool,
+    snap: bool,
     steps: number,
     title: string,
   };
@@ -34,10 +36,10 @@ class Slider extends Component {
     children: undefined,
     dataSource: [],
     item() {},
-    itemMargin: UNIT,
+    itemMargin: SPACE.S,
     itemWidth: undefined,
-    momentum: IS_WEB,
-    navigation: IS_WEB,
+    navigation: false,
+    snap: true,
     steps: 1,
     title: undefined,
   };
@@ -52,57 +54,51 @@ class Slider extends Component {
     this.setState({ x: 0 });
   }
 
-  shouldComponentUpdate({ dataSource = [] }) {
-    const { props } = this;
-    return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
-  }
+  // shouldComponentUpdate({ dataSource = [] }) {
+  //   const { props } = this;
+  //   return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
+  // }
 
   _onPressButton = (type) => {
-    const {
-      _updateScroll,
-      props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps },
-      state: { x },
-    } = this;
+    const { props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps } } = this;
     const width = (itemWidth + itemMargin) * steps;
+    let { state: { x } } = this;
 
-    _updateScroll(type === NEXT ? x + width : x - width);
-  }
+    x = type === NEXT ? x + width : x - width;
 
-  _onScroll = ({ nativeEvent: { contentOffset: { x } } }) => {
-    const { _updateScroll, props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER } } = this;
-    const width = (itemWidth + itemMargin);
-
-    if (!Number.isInteger(x / width)) {
-      clearTimeout(timeout);
-      timeout = setTimeout(() => _updateScroll(Math.round(x / width) * width), MOMENTUM_INTERVAL * 2);
-    }
-  }
-
-  _updateScroll = (x) => {
     this.scrollview.scrollTo({ x });
     this.setState({ x });
   }
 
   render() {
     const {
-      _onPressButton, _onScroll,
+      _onPressButton,
       props: {
-        caption, dataSource, item: Item, itemMargin: marginRight, momentum, navigation, title, ...inherit
+        caption, dataSource, navigation, snap, steps, title, item: Item, itemMargin, itemWidth = LAYOUT.CARD.SLIDER,
+        ...inherit
       },
     } = this;
+    let snapProps = {};
+    if (snap) {
+      snapProps = {
+        decelerationRate: 'fast',
+        pagingEnabled: Platform.OS !== 'ios',
+        snapToInterval: (itemWidth + itemMargin) * steps,
+        snapToAlignment: 'start',
+      };
+    }
 
     return (
       <View style={styles.container}>
-
         { (title || caption) && (
           <View style={styles.header}>
             { title && (
-            <Text bold large style={styles.title}>
+            <Text headline level={6} style={styles.title}>
               {title}
             </Text>
             )}
             { caption && (
-            <Text small style={styles.caption}>
+            <Text caption lighten>
               {caption}
             </Text>
             )}
@@ -122,14 +118,13 @@ class Slider extends Component {
         )}
 
         <ScrollView
+          {...DEFAULT_PROPS}
+          {...snapProps}
           contentContainerStyle={inherit.style}
-          horizontal
-          onScroll={momentum ? _onScroll : undefined}
           ref={scrollview => this.scrollview = scrollview} // eslint-disable-line
-          scrollEventThrottle={MOMENTUM_INTERVAL}
         >
           { dataSource.map((data, index) =>
-            <View key={index} style={{ marginRight }}><Item data={data} /></View>) // eslint-disable-line
+            <View key={index} style={{ marginRight: itemMargin }}><Item data={data} /></View>) // eslint-disable-line
           }
           { inherit.children }
         </ScrollView>

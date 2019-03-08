@@ -30,11 +30,11 @@ storiesOf('✅ Slider', module)
   .add('itemMargin', () => (
     <Slider dataSource={dataSource} item={ItemListingCard} itemMargin={16} />
   ))
+  .add('snap=false', () => (
+    <Slider dataSource={dataSource} snap={false} item={ItemListingCard} />
+  ))
   .add('steps (2)', () => (
     <Slider dataSource={dataSource} steps={2} item={ItemListingCard} />
-  ))
-  .add('momentum', () => (
-    <Slider dataSource={dataSource} momentum item={ItemListingCard} />
   ))
   .add('title', () => (
     <Slider dataSource={dataSource} title="Explora nuevos destinos" item={ItemListingCard} />
@@ -61,7 +61,7 @@ storiesOf('✅ Slider', module)
       dataSource={dataSource}
       itemMargin={number('itemMargin', 10)}
       navigation={boolean('navigation', true)}
-      momentum={boolean('momentum', false)}
+      snap={boolean('snap', true)}
       steps={number('steps', 1)}
       title={text('title', 'Explora nuevos destinos')}
       item={ItemPictureCard}
