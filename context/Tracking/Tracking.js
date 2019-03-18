@@ -45,16 +45,15 @@ class ProviderTracking extends PureComponent {
     if (signup === true && signup !== props.signup) _signup(session);
   }
 
-  _signup = async ({ authorization, ...sessionProps } = {}) => {
+  _signup = async ({ authorization, ...session } = {}) => {
     const { _syncEvents } = this;
-    const cookie = getCookie('reactor:request');
-    const session = { ...sessionProps };
+    let cookie;
     let fingerprint;
 
     if (!IS_SERVER) {
       fingerprint = await new Fingerprint();
-
       if (IS_WEB) {
+        cookie = getCookie('reactor:request');
         const { deviceId, sessionId } = await AsyncStore.getItem(AMPLITUDE_DATA) || {};
         const userId = await AsyncStore.getItem(MINUBE_USER_ID);
 

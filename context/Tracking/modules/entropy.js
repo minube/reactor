@@ -32,7 +32,7 @@ const CLIENT_STRINGS = [
   { s: 'OS/2', r: /OS\/2/ },
   { s: 'search bot', r: /(nuhk|Googlebot|Yammybot|Openbot|Slurp|MSNBot|Ask Jeeves\/Teoma|ia_archiver)/ },
 ];
-const { OS } = Platform;
+const { OS, Version } = Platform;
 const { IS_NATIVE, IS_WEB, IS_SERVER } = ENV;
 const { height, width } = Dimensions.get('window');
 const pixelRatio = PixelRatio.get();
@@ -49,6 +49,7 @@ let browserVersion;
 
 if (IS_NATIVE) {
   osName = OS === 'android' ? 'Android' : 'iOS';
+  osVersion = Version;
 } else if (IS_WEB && !IS_SERVER && window && window.navigator) {
   const { appVersion } = window.navigator;
 
