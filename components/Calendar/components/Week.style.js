@@ -67,10 +67,6 @@ export default StyleSheet.create({
     color: COLOR.TEXT_LIGHTEN,
   },
 
-  textToday: {
-    color: COLOR.PRIMARY,
-  },
-
   viewDisabled: {
     alignSelf: 'center',
     borderBottomColor: COLOR.TEXT_LIGHTEN,
