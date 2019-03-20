@@ -98,7 +98,6 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
         },
         Object {
           "marginBottom": 6,
-          "marginLeft": 10,
         },
       ]
     }
@@ -3192,7 +3191,6 @@ exports[`<InputSelect> when {label} 1`] = `
         },
         Object {
           "marginBottom": 6,
-          "marginLeft": 10,
         },
       ]
     }
