@@ -571,7 +571,8 @@ exports[`<Input> when {label} 1`] = `
           "color": "#707070",
         },
         Object {
-          "marginBottom": 6,
+          "color": "#4a4a4a",
+          "marginBottom": 8,
         },
       ]
     }

@@ -80,7 +80,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -206,7 +207,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -328,7 +330,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -480,7 +483,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -579,7 +583,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -709,7 +714,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -810,7 +816,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -956,7 +963,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -3730,7 +3738,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -3830,7 +3839,8 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -3979,6 +3989,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
               },
             ]
@@ -4053,6 +4064,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
               },
             ]
@@ -4170,6 +4182,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -4317,6 +4330,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -4464,6 +4478,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -4609,6 +4624,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -4742,7 +4758,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -4863,7 +4880,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -4984,7 +5002,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -5119,7 +5138,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -5288,6 +5308,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -5540,7 +5561,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -5666,7 +5688,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -5788,7 +5811,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -5940,7 +5964,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -6039,7 +6064,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -6169,7 +6195,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -6270,7 +6297,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -6416,7 +6444,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -9190,7 +9219,8 @@ exports[`<Form> when {value} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -9290,7 +9320,8 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
-                "marginBottom": 6,
+                "color": "#4a4a4a",
+                "marginBottom": 8,
               },
             ]
           }
@@ -9439,6 +9470,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
               },
             ]
@@ -9513,6 +9545,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
               },
             ]
@@ -9630,6 +9663,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -9777,6 +9811,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -9924,6 +9959,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -10069,6 +10105,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
@@ -10202,7 +10239,8 @@ exports[`<Form> when {value} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -10323,7 +10361,8 @@ exports[`<Form> when {value} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -10444,7 +10483,8 @@ exports[`<Form> when {value} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -10579,7 +10619,8 @@ exports[`<Form> when {value} 1`] = `
                   "color": "#707070",
                 },
                 Object {
-                  "marginBottom": 6,
+                  "color": "#4a4a4a",
+                  "marginBottom": 8,
                 },
               ]
             }
@@ -11106,6 +11147,7 @@ exports[`<Form> when {value} 1`] = `
                 "color": "#707070",
               },
               Object {
+                "color": "#4a4a4a",
                 "marginBottom": 0,
                 "marginLeft": 10,
               },
