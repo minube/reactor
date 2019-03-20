@@ -86,6 +86,7 @@ const Week = ({ firstDate, ...inherit }) => {
               isHighlight && tsDay === tsEnd && styles.boxSelectedEnd,
             ]}
           >
+            { isDisabled && <View style={styles.viewDisabled} /> }
             <Text
               subtitle={!isDisabled}
               level={!isDisabled ? 2 : 1}

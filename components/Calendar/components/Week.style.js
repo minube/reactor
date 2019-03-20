@@ -64,4 +64,12 @@ export default StyleSheet.create({
   textToday: {
     color: COLOR.PRIMARY,
   },
+
+  viewDisabled: {
+    alignSelf: 'center',
+    borderBottomColor: COLOR.TEXT_LIGHTEN,
+    borderBottomWidth: 1,
+    position: 'absolute',
+    width: UNIT * 2.4,
+  },
 });
