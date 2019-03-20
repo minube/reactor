@@ -24,6 +24,12 @@ export default StyleSheet.create({
     backgroundColor: COLOR.PRIMARY,
   },
 
+  boxSelectedToday: {
+    borderColor: COLOR.TEXT_LIGHTEN,
+    borderRadius: BOX_SIZE / 2,
+    borderWidth: 1,
+  },
+
   boxSelectedStart: {
     borderTopLeftRadius: BOX_SIZE / 2,
     borderBottomLeftRadius: BOX_SIZE / 2,
