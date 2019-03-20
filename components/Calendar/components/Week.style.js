@@ -25,7 +25,7 @@ export default StyleSheet.create({
   },
 
   boxSelectedToday: {
-    borderColor: COLOR.TEXT_LIGHTEN,
+    borderColor: COLOR.TEXT_LIGHT_GREY,
     borderRadius: BOX_SIZE / 2,
     borderWidth: 1,
   },
@@ -67,11 +67,12 @@ export default StyleSheet.create({
     color: COLOR.TEXT_LIGHTEN,
   },
 
-  viewDisabled: {
+  textStrikethrough: {
     alignSelf: 'center',
-    borderBottomColor: COLOR.TEXT_LIGHTEN,
+    borderBottomColor: COLOR.TEXT_LIGHT_GREY,
     borderBottomWidth: 1,
     position: 'absolute',
     width: UNIT * 2.4,
+    opacity: 0.6,
   },
 });
