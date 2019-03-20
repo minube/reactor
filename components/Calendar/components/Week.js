@@ -84,13 +84,14 @@ const Week = ({ firstDate, ...inherit }) => {
               isHighlight && styles.boxSelected,
               isHighlight && tsDay === tsStart && styles.boxSelectedStart,
               isHighlight && tsDay === tsEnd && styles.boxSelectedEnd,
+              isToday && !isHighlight && styles.boxSelectedToday,
             ]}
           >
+            { isDisabled && <View style={styles.textStrikethrough} /> }
             <Text
               subtitle={!isDisabled}
               level={!isDisabled ? 2 : 1}
               style={[
-                isToday && !isHighlight && !isDisabled && styles.textToday,
                 isHighlight && styles.textHighlight,
                 isOutOfMonth && edges && !isDisabled && !isSelected && styles.textOutOfMonth,
                 isDisabled && styles.textDisabled,
