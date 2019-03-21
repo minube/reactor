@@ -7,17 +7,16 @@ import styles from './Loader.style';
 
 export default class Loader extends PureComponent {
   static propTypes = {
-    small: bool,
+    color: string,
     large: bool,
     text: string,
-    color: string,
+
   };
 
   static defaultProps = {
-    small: false,
+    color: undefined,
     large: false,
     text: undefined,
-    color: undefined,
   };
 
   state = {
@@ -64,15 +63,38 @@ export default class Loader extends PureComponent {
   }
 
   render() {
-    const { props: { text }, state: { dotsOpacities } } = this;
+    const {
+      props: {
+        text, color, large,
+      },
+      state: { dotsOpacities },
+    } = this;
 
     return (
       <View style={styles.container}>
-        { text && <Text headline level={3}>{text}</Text> }
+        { text && (
+          <Text
+            color={color}
+            style={[
+              styles.regular,
+              large && styles.large,
+            ]}
+          >
+            {text}
+          </Text>
+        )}
         { dotsOpacities.map(dotOpacity => (
           <Animated.Text style={[{ opacity: dotOpacity }]}>
-            <Text level={1}>{' '}</Text>
-            <Text headline level={3}>.</Text>
+            <Text>{' '}</Text>
+            <Text
+              color={color}
+              style={[
+                styles.regular,
+                large && styles.large,
+              ]}
+            >
+            .
+            </Text>
           </Animated.Text>
         ))}
       </View>
