@@ -5,7 +5,7 @@ import { boolean, color, text } from '@storybook/addon-knobs/react';
 import Loader from './Loader';
 
 const LOADING = 'Loading';
-const COLOR = 'red'
+const COLOR = 'grey'
 
 storiesOf('🛠 Loader', module)
   .add('default', () => (
@@ -22,8 +22,7 @@ storiesOf('🛠 Loader', module)
   ))
   .add('🏀 Playground', () => (
     <Loader
-      color={color('color', 'grey')}
-      small={boolean('small', false)}
+      color={color('color', COLOR)}
       large={boolean('large', false)}
       text={text('content', LOADING)}
     />

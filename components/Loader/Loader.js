@@ -47,11 +47,12 @@ export default class Loader extends PureComponent {
 
     if (!animationState.animated) return;
     const min = 0;
+    const max = 1;
     let dot = initialDot;
 
     if (dot >= dotsOpacities.length) {
       dot = 0;
-      animationState.targetOpacity = animationState.targetOpacity === min ? 1 : min;
+      animationState.targetOpacity = animationState.targetOpacity === min ? max : min;
     }
 
     const nextDot = dot + 1;
@@ -72,25 +73,24 @@ export default class Loader extends PureComponent {
 
     return (
       <View style={styles.container}>
-        { text && (
+        { text && !large && (
           <Text
             color={color}
             style={[
-              styles.regular,
-              large && styles.large,
+              styles.textRegular,
             ]}
           >
             {text}
           </Text>
         )}
         { dotsOpacities.map(dotOpacity => (
-          <Animated.Text style={[{ opacity: dotOpacity }]}>
+          <Animated.Text key="dot" style={[styles.dot, { opacity: dotOpacity }]}>
             <Text>{' '}</Text>
             <Text
               color={color}
               style={[
-                styles.regular,
-                large && styles.large,
+                styles.dotRegular,
+                large && styles.dotLarge,
               ]}
             >
             .
