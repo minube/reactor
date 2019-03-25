@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: LAYOUT.STYLE.ROW,
@@ -12,6 +12,6 @@ export default StyleSheet.create({
   },
 
   symbol: {
-    marginLeft: UNIT * 0.4,
+    marginLeft: SPACE.XXS,
   },
 });
