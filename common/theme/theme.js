@@ -110,7 +110,7 @@ export default {
   UNIT,
 
   SPACE: {
-    XSS: UNIT * 0.4,
+    XXS: UNIT * 0.4,
     XS: UNIT * 0.8,
     S: UNIT * 1.2,
     MEDIUM: UNIT * 1.6,
