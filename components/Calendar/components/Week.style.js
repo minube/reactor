@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../../common';
 
-const { COLOR, UNIT } = THEME;
+const { COLOR, STRIKETHROUGH, UNIT } = THEME;
 const BOX_SIZE = UNIT * 4;
 
 export { BOX_SIZE };
@@ -68,10 +68,8 @@ export default StyleSheet.create({
   },
 
   textStrikethrough: {
-    alignSelf: 'center',
+    ...STRIKETHROUGH,
     borderBottomColor: COLOR.TEXT_LIGHT_GREY,
-    borderBottomWidth: 1,
-    position: 'absolute',
     width: UNIT * 2.4,
     opacity: 0.6,
   },
