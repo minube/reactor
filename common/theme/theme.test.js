@@ -9,6 +9,7 @@ const KEYS = [
   'OFFSET',
   'UNIT',
   'SPACE',
+  'STRIKETHROUGH',
 ];
 
 describe('theme', () => {
