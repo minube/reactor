@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import {
-  boolean, color, object, select,
+  color, object, select,
 } from '@storybook/addon-knobs/react';
 
 import Activity from './Activity';
