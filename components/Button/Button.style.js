@@ -76,6 +76,6 @@ export default StyleSheet.create({
   },
 
   textMarginLeft: {
-    marginLeft: UNIT / 2,
+    marginLeft: SPACE.XXS,
   },
 });
