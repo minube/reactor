@@ -3,13 +3,13 @@ import { StyleSheet } from 'react-native';
 import { LAYOUT, THEME } from '../../../common';
 import { BOX_SIZE } from './Week.style';
 
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginVertical: UNIT / 2,
+    marginVertical: SPACE.XXS,
   },
 
   box: {

@@ -24,7 +24,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -214,7 +214,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -4155,7 +4155,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -4345,7 +4345,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -4606,7 +4606,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -4663,7 +4662,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -4720,7 +4718,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -4777,7 +4774,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -4834,7 +4830,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -4891,7 +4886,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -4948,7 +4942,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5017,7 +5010,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5074,7 +5066,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5131,7 +5122,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5188,7 +5178,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5245,7 +5234,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5302,7 +5290,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5359,7 +5346,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5428,7 +5414,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5485,7 +5470,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5542,7 +5526,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5603,7 +5586,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5660,7 +5642,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5717,7 +5698,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5774,7 +5754,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5843,7 +5822,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5900,7 +5878,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -5957,7 +5934,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6014,7 +5990,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6071,7 +6046,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6128,7 +6102,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6185,7 +6158,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6254,7 +6226,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6311,7 +6282,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6368,7 +6338,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6425,7 +6394,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6482,7 +6450,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6539,7 +6506,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6596,7 +6562,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6665,7 +6630,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6722,7 +6686,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6779,7 +6742,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6836,7 +6798,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6893,7 +6854,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -6950,7 +6910,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -7007,7 +6966,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -7064,7 +7022,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -7254,7 +7212,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -11195,7 +11153,7 @@ exports[`<Calendar> when {captions} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -11385,7 +11343,7 @@ exports[`<Calendar> when {captions} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -15326,7 +15284,7 @@ exports[`<Calendar> when {date} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -15516,7 +15474,7 @@ exports[`<Calendar> when {date} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -19451,7 +19409,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -19641,7 +19599,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -23582,7 +23540,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -23772,7 +23730,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -24033,7 +23991,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24090,7 +24047,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24147,7 +24103,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24204,7 +24159,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24261,7 +24215,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24318,7 +24271,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24375,7 +24327,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24444,7 +24395,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24501,7 +24451,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24558,7 +24507,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24615,7 +24563,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24672,7 +24619,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24729,7 +24675,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24786,7 +24731,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24855,7 +24799,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24912,7 +24855,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -24969,7 +24911,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               false,
               Object {
                 "color": "#707070",
-                "textDecorationLine": "line-through",
               },
             ]
           }
@@ -27204,7 +27145,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -27394,7 +27335,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -31311,7 +31252,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -31501,7 +31442,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -35445,7 +35386,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -35635,7 +35576,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -39576,7 +39517,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -39766,7 +39707,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >
@@ -43815,7 +43756,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 5,
+          "marginBottom": 4,
         }
       }
     >
@@ -44005,7 +43946,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "marginVertical": 5,
+          "marginVertical": 4,
         }
       }
     >

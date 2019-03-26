@@ -51,12 +51,11 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginVertical: UNIT / 10,
+    marginVertical: UNIT / 10, // @TODO: Design System doesn't have this SPACE
   },
 
   textDisabled: {
     color: COLOR.TEXT_LIGHTEN,
-    textDecorationLine: 'line-through',
   },
 
   textHighlight: {
