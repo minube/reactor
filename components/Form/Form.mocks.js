@@ -9,6 +9,7 @@ const ATTRIBUTES = {
     keyboard: 'email-address',
     placeholder: 'Your email...',
     required: true,
+    requiredIcon: true,
     hint: 'we will not send you spam.',
     inline: 3,
   },
