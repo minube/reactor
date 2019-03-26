@@ -35,7 +35,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     flexWrap: 'wrap',
     alignItems: 'flex-start',
-    padding: UNIT,
+    padding: SPACE.XS,
   },
 
   value: {
