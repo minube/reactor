@@ -14,7 +14,8 @@ export { REGULAR_SIZE, SMALL_SIZE };
 export default StyleSheet.create({
   // -- Layout
   activity: {
-    marginLeft: SPACE.XS,
+    marginLeft: SPACE.XXS,
+    marginTop: SPACE.XXS,
   },
 
   container: {

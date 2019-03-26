@@ -13,13 +13,14 @@ export default StyleSheet.create({
     width: SIZE,
     height: SIZE,
     borderRadius: SIZE / 2,
-    backgroundColor: COLOR.TEXT,
-    marginHorizontal: SIZE / 4,
+    backgroundColor: COLOR.PRIMARY,
+    marginHorizontal: SIZE / 2,
   },
 
   large: {
-    width: SIZE * 2,
-    height: SIZE * 2,
+    width: UNIT,
+    height: UNIT,
     borderRadius: SIZE,
+    marginHorizontal: SIZE / 1.1,
   },
 });
