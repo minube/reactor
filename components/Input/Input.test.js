@@ -49,6 +49,11 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {required} & {requiredIcon}', () => {
+    const tree = renderer.create(<Input required requiredIcon />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {value}', () => {
     const tree = renderer.create(<Input value="soyjavi" />).toJSON();
     expect(tree).toMatchSnapshot();
