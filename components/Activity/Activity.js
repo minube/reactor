@@ -67,9 +67,9 @@ export default class Loader extends PureComponent {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { dotsOpacities.map(dotOpacity => (
+        { dotsOpacities.map((dotOpacity, i) => (
           <Animated.View
-            key="dot"
+            key={i.toString()}
             style={[styles.dot, styles[size], { backgroundColor: color, opacity: dotOpacity }]}
           />
         ))}
