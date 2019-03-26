@@ -7,7 +7,7 @@ import { THEME } from '../../common';
 
 const { COLOR, MOTION: { DURATION } } = THEME;
 
-export default class Loader extends PureComponent {
+export default class Activity extends PureComponent {
   static propTypes = {
     color: string,
     size: string,

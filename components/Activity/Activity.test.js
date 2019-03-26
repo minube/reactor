@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import Activity from './Activity';
 
-describe('<Activity>', () => {
+describe('<Activity>', () => {  
   it('renders', () => {
     const tree = renderer.create(<Activity />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -20,7 +20,7 @@ describe('<Activity>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Activitys style={{ backgroundColor: 'rgba(0,255,0,0.25)' }} />).toJSON();
+    const tree = renderer.create(<Activity style={{ backgroundColor: 'rgba(0,255,0,0.25)' }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
