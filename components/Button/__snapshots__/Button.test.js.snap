@@ -351,11 +351,7 @@ exports[`<Button> when {children} 1`] = `
                 false,
                 Object {
                   "color": "white",
-                  "transform": Array [
-                    Object {
-                      "scale": 0.8,
-                    },
-                  ],
+                  "marginLeft": 4,
                 },
               ]
             }
