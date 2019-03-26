@@ -5,7 +5,7 @@ exports[`<InputImage> renders 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -88,7 +88,7 @@ exports[`<InputImage> when {disabled} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -175,7 +175,7 @@ exports[`<InputImage> when {error} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -283,7 +283,7 @@ exports[`<InputImage> when {hint} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -396,7 +396,7 @@ exports[`<InputImage> when {label} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -510,7 +510,7 @@ exports[`<InputImage> when {required} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -616,7 +616,7 @@ exports[`<InputImage> when {style} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -702,7 +702,7 @@ exports[`<InputImage> when {value} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "display": "flex",
         "flexDirection": "row",
       },
@@ -720,11 +720,7 @@ exports[`<InputImage> when {value} 1`] = `
           "justifyContent": "center",
         },
         Object {
-          "backgroundColor": "#cdd2d4",
-          "borderRadius": 3,
-          "height": 44,
-          "marginBottom": 1,
-          "width": 44,
+          "marginBottom": 20,
         },
       ]
     }
@@ -741,8 +737,12 @@ exports[`<InputImage> when {value} 1`] = `
           "backgroundColor": "#cdd2d4",
           "borderRadius": 3,
           "height": 44,
-          "marginBottom": 1,
           "width": 44,
+        }
+      }
+      styleContainer={
+        Object {
+          "marginBottom": 20,
         }
       }
     />
@@ -772,7 +772,7 @@ exports[`<InputImage> when {value} 1`] = `
             "flex": 1,
           },
           Object {
-            "marginLeft": 10,
+            "marginLeft": 8,
           },
         ],
       ]
