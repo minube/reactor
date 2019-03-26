@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { LAYOUT, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, OFFSET, UNIT,
+  BORDER_RADIUS, COLOR, UNIT, SPACE,
 } = THEME;
 
 export default StyleSheet.create({
@@ -14,7 +14,7 @@ export default StyleSheet.create({
 
   container: {
     ...LAYOUT.STYLE.ROW,
-    marginTop: OFFSET,
+    marginTop: SPACE.MEDIUM,
   },
 
   frame: {
@@ -26,6 +26,6 @@ export default StyleSheet.create({
 
   dialog: {
     justifyContent: 'flex-end',
-    padding: OFFSET,
+    padding: SPACE.MEDIUM,
   },
 });

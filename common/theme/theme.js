@@ -105,7 +105,7 @@ export default {
     EASE_ANDROID: '',
   },
 
-  OFFSET: UNIT * 1.6,
+  OFFSET: UNIT * 1.6, // @TODO: We should remove this property
 
   UNIT,
 

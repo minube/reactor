@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { LAYOUT, THEME, ENV } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, ELEVATION, OFFSET,
+  BORDER_RADIUS, COLOR, ELEVATION, SPACE,
 } = THEME;
 
 export default StyleSheet.create({
@@ -22,8 +22,8 @@ export default StyleSheet.create({
   },
 
   children: {
-    paddingHorizontal: OFFSET,
-    paddingBottom: OFFSET,
+    paddingHorizontal: SPACE.MEDIUM,
+    paddingBottom: SPACE.MEDIUM,
   },
 
   frame: {
@@ -52,6 +52,6 @@ export default StyleSheet.create({
 
   title: {
     flex: 1,
-    padding: OFFSET,
+    padding: SPACE.MEDIUM,
   },
 });

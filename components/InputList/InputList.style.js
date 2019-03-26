@@ -2,9 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const {
-  COLOR, OFFSET, UNIT, SPACE,
-} = THEME;
+const { COLOR, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -43,16 +41,16 @@ export default StyleSheet.create({
   value: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    minHeight: OFFSET * 2,
+    minHeight: UNIT * 3.2,
     backgroundColor: COLOR.BASE,
-    borderRadius: OFFSET,
-    margin: UNIT / 10,
-    paddingHorizontal: UNIT,
-    paddingVertical: UNIT / 2,
+    borderRadius: UNIT * 1.6,
+    margin: SPACE.XXS,
+    paddingHorizontal: SPACE.XS,
+    paddingVertical: SPACE.XXS,
   },
 
   iconClose: {
-    marginLeft: UNIT,
+    marginLeft: SPACE.XS,
     width: UNIT,
     height: UNIT,
   },
@@ -63,7 +61,7 @@ export default StyleSheet.create({
     right: 0,
     borderTopWidth: 1,
     alignSelf: 'flex-start',
-    top: UNIT * 5.4,
+    top: UNIT * 5.4, // @TODO: There is not a SPEC for this
     width: '100%',
     zIndex: 1,
   },
@@ -71,7 +69,7 @@ export default StyleSheet.create({
   suggestion: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    paddingHorizontal: UNIT,
-    paddingVertical: UNIT / 2,
+    paddingHorizontal: SPACE.XS,
+    paddingVertical: SPACE.XXS,
   },
 });

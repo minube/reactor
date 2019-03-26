@@ -6,7 +6,8 @@ import { color, object } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import Breadcrumbs from './Breadcrumbs';
 
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: THEME.OFFSET };
+const { COLOR, SPACE } = THEME;
+const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: SPACE.MEDIUM };
 
 const dataSource = [
   { caption: 'Spain', href: '/' },
@@ -19,7 +20,7 @@ storiesOf('✅ Breadcrumbs', module)
     <Breadcrumbs dataSource={dataSource} />
   ))
   .add('color', () => (
-    <Breadcrumbs dataSource={dataSource} color={THEME.COLOR.PRIMARY} />
+    <Breadcrumbs dataSource={dataSource} color={COLOR.PRIMARY} />
   ))
   .add('⚡ onPress', () => (
     <Breadcrumbs dataSource={dataSource} onPress={action('Breadcrumbs.onPress()')} />
@@ -30,7 +31,7 @@ storiesOf('✅ Breadcrumbs', module)
   .add('🏀 Playground', () => (
     <Breadcrumbs
       dataSource={object('dataSource', dataSource, 'heading-dataSource')}
-      color={color('color', THEME.COLOR.TEXT)}
+      color={color('color', COLOR.TEXT)}
       style={object('style', STYLE)}
     />
   ));

@@ -572,10 +572,10 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -713,7 +713,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -760,10 +760,10 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -901,7 +901,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -948,10 +948,10 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -1089,7 +1089,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -1136,10 +1136,10 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -1277,7 +1277,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -1324,10 +1324,10 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -1465,7 +1465,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -1811,10 +1811,10 @@ exports[`<InputList> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -1876,7 +1876,7 @@ exports[`<InputList> when {value} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -1923,10 +1923,10 @@ exports[`<InputList> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -1988,7 +1988,7 @@ exports[`<InputList> when {value} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -2035,10 +2035,10 @@ exports[`<InputList> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -2100,7 +2100,7 @@ exports[`<InputList> when {value} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -2147,10 +2147,10 @@ exports[`<InputList> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -2212,7 +2212,7 @@ exports[`<InputList> when {value} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,
@@ -2259,10 +2259,10 @@ exports[`<InputList> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
-          "margin": 1,
+          "margin": 4,
           "minHeight": 32,
-          "paddingHorizontal": 10,
-          "paddingVertical": 5,
+          "paddingHorizontal": 8,
+          "paddingVertical": 4,
         }
       }
     >
@@ -2324,7 +2324,7 @@ exports[`<InputList> when {value} 1`] = `
               },
               Object {
                 "height": 10,
-                "marginLeft": 10,
+                "marginLeft": 8,
                 "width": 10,
               },
               undefined,

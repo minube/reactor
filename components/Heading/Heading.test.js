@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import Heading from './Heading';
 
+const { COLOR, SPACE } = THEME;
 const BREADCRUMBS = [
   { caption: 'Turismo', href: '/' },
   { caption: 'Gran Bretaña', href: '/' },
@@ -51,7 +52,7 @@ describe('<Heading>', () => {
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<Heading title={LOREM_TITLE} color={THEME.COLOR.SECONDARY} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} color={COLOR.SECONDARY} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -62,7 +63,7 @@ describe('<Heading>', () => {
 
   it('when {style}', () => {
     const style = {
-      padding: THEME.OFFSET,
+      padding: SPACE.MEDIUM,
       backgroundColor: 'rgba(0,0,0,0.25)',
     };
     const tree = renderer.create(<Heading title={LOREM_TITLE} style={style} />).toJSON();
