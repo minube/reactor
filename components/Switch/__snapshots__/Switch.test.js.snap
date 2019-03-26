@@ -187,6 +187,7 @@ exports[`<Switch> when {label} 1`] = `
         Object {
           "color": "#4a4a4a",
           "marginBottom": 0,
+          "marginLeft": 8,
         },
       ]
     }

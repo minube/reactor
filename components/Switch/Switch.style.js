@@ -13,6 +13,7 @@ export default StyleSheet.create({
   },
 
   label: {
+    marginLeft: SPACE.XS,
     marginBottom: 0,
   },
 
