@@ -17,7 +17,6 @@ import InputSelect from './InputSelect';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
 import ListingCard from './ListingCard';
-import Loader from './Loader';
 import Markdown from './Markdown';
 import Motion from './Motion';
 import PictureCard from './PictureCard';
@@ -55,7 +54,6 @@ export {
   LayoutConsumer,
   Link,
   ListingCard,
-  Loader,
   Markdown,
   Motion,
   PictureCard,

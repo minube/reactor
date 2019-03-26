@@ -18,4 +18,9 @@ describe('<Activity>', () => {
     const tree = renderer.create(<Activity size="large" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
+
+  it('when {style}', () => {
+    const tree = renderer.create(<Activitys style={{ backgroundColor: 'rgba(0,255,0,0.25)' }} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
 });
