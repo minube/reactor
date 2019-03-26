@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { UNIT } = THEME;
+const { UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -26,10 +26,10 @@ export default StyleSheet.create({
   avatars: LAYOUT.STYLE.ROW,
 
   avatar: {
-    marginLeft: UNIT / 2,
+    marginLeft: SPACE.XXS,
   },
 
   title: {
-    marginRight: UNIT,
+    marginRight: SPACE.XS,
   },
 });
