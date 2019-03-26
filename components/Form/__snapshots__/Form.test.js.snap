@@ -5061,29 +5061,6 @@ exports[`<Form> when {attributes} 1`] = `
               underlineColorAndroid="transparent"
               value=""
             />
-            <Image
-              resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
-                }
-              }
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "height": 20,
-                    "marginHorizontal": 5,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
           </View>
         </View>
       </View>
@@ -10541,29 +10518,6 @@ exports[`<Form> when {value} 1`] = `
               }
               underlineColorAndroid="transparent"
               value=""
-            />
-            <Image
-              resizeMode="contain"
-              source={
-                Object {
-                  "testUri": "../../../components/Icon/assets/error_outline.png",
-                }
-              }
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "height": 20,
-                    "marginHorizontal": 5,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
             />
           </View>
         </View>
