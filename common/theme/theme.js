@@ -121,4 +121,11 @@ export default {
     XL: UNIT * 3.2,
     XXL: UNIT * 60,
   },
+
+  STRIKETHROUGH: {
+    alignSelf: 'center',
+    borderBottomWidth: 1,
+    position: 'absolute',
+    width: '100%',
+  },
 };
