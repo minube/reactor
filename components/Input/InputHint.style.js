@@ -2,12 +2,12 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginTop: UNIT * 0.4,
-    paddingLeft: UNIT,
+    marginTop: SPACE.XXS,
+    paddingLeft: 0,
     maxWidth: '100%',
   },
 });
