@@ -24,6 +24,6 @@ export default StyleSheet.create({
   },
 
   icon: {
-    marginRight: UNIT,
+    marginRight: SPACE.XS,
   },
 });
