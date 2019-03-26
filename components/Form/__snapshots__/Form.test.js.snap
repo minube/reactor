@@ -98,7 +98,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               Object {
                 "backgroundColor": "#f4f4f4",
@@ -124,7 +124,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -155,7 +155,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -225,7 +225,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -249,7 +249,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -280,7 +280,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -348,7 +348,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -380,7 +380,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -406,7 +406,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -437,7 +437,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
-                "paddingLeft": 10,
+                "paddingLeft": 0,
               },
             ]
           }
@@ -501,7 +501,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -533,7 +533,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -601,7 +601,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -634,7 +634,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -668,7 +668,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
-                "paddingLeft": 10,
+                "paddingLeft": 0,
               },
             ]
           }
@@ -732,7 +732,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -764,7 +764,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -845,8 +845,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "backgroundColor": "transparent",
                   "borderWidth": 0,
                   "height": "auto",
-                  "marginLeft": 5,
-                  "marginRight": 10,
+                  "marginLeft": 4,
+                  "marginRight": 8,
                 },
                 false,
               ]
@@ -1146,7 +1146,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "display": "flex",
                   "flexDirection": "row",
                   "height": 56,
-                  "paddingLeft": 10,
+                  "paddingLeft": 8,
                   "paddingRight": 44,
                 }
               }
@@ -1171,7 +1171,7 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
-                        "marginRight": 10,
+                        "marginRight": 8,
                       },
                     ],
                   ]
@@ -1408,7 +1408,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -1433,7 +1433,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -1632,7 +1632,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -1657,7 +1657,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -1859,7 +1859,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -1884,7 +1884,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -2083,7 +2083,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -2108,7 +2108,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -2307,7 +2307,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -2332,7 +2332,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -2531,7 +2531,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -2556,7 +2556,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -2755,7 +2755,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -2780,7 +2780,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -2979,7 +2979,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -3004,7 +3004,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -3203,7 +3203,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -3228,7 +3228,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -3427,7 +3427,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -3452,7 +3452,7 @@ exports[`<Form> when {attributes} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -3634,7 +3634,7 @@ exports[`<Form> when {attributes} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
+              "alignItems": "flex-end",
               "display": "flex",
               "flexDirection": "row",
             },
@@ -3657,11 +3657,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "backgroundColor": "#cdd2d4",
-                "borderRadius": 3,
-                "height": 44,
-                "marginBottom": 1,
-                "width": 44,
+                "marginBottom": 20,
               },
             ]
           }
@@ -3678,8 +3674,12 @@ exports[`<Form> when {attributes} 1`] = `
                 "backgroundColor": "#cdd2d4",
                 "borderRadius": 3,
                 "height": 44,
-                "marginBottom": 1,
                 "width": 44,
+              }
+            }
+            styleContainer={
+              Object {
+                "marginBottom": 20,
               }
             }
           />
@@ -3709,7 +3709,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "flex": 1,
                 },
                 Object {
-                  "marginLeft": 10,
+                  "marginLeft": 8,
                 },
               ],
             ]
@@ -3756,7 +3756,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -3788,7 +3788,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -3857,7 +3857,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -3881,7 +3881,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -3911,7 +3911,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -3991,6 +3991,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
+                "marginLeft": 8,
               },
             ]
           }
@@ -4066,6 +4067,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
+                "marginLeft": 8,
               },
             ]
           }
@@ -4184,7 +4186,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -4332,7 +4334,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -4480,7 +4482,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -4626,7 +4628,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -4682,11 +4684,11 @@ exports[`<Form> when {attributes} 1`] = `
             ],
             Object {
               "borderColor": "#cdd2d4",
-              "borderRadius": 2.5,
+              "borderRadius": 3,
               "borderWidth": 1,
               "marginBottom": 20,
-              "paddingHorizontal": 10,
-              "paddingTop": 10,
+              "paddingHorizontal": 20,
+              "paddingTop": 20,
             },
           ]
         }
@@ -4712,7 +4714,7 @@ exports[`<Form> when {attributes} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 10,
+                "marginBottom": 8,
                 "minWidth": "100%",
               },
             ]
@@ -4776,7 +4778,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -4800,7 +4802,7 @@ exports[`<Form> when {attributes} 1`] = `
                   },
                   Object {
                     "height": 20,
-                    "marginHorizontal": 5,
+                    "marginHorizontal": 4,
                     "width": 20,
                   },
                   undefined,
@@ -4830,7 +4832,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -4898,7 +4900,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -4922,7 +4924,7 @@ exports[`<Form> when {attributes} 1`] = `
                   },
                   Object {
                     "height": 20,
-                    "marginHorizontal": 5,
+                    "marginHorizontal": 4,
                     "width": 20,
                   },
                   undefined,
@@ -4952,7 +4954,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -5020,7 +5022,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -5051,7 +5053,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -5077,7 +5079,7 @@ exports[`<Form> when {attributes} 1`] = `
                   },
                   Object {
                     "height": 20,
-                    "marginHorizontal": 5,
+                    "marginHorizontal": 4,
                     "width": 20,
                   },
                   undefined,
@@ -5156,7 +5158,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -5188,7 +5190,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -5310,7 +5312,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -5491,7 +5493,7 @@ exports[`<Form> when {title} 1`] = `
             },
             false,
             Object {
-              "marginBottom": 10,
+              "marginBottom": 8,
               "minWidth": "100%",
             },
           ]
@@ -5579,7 +5581,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               Object {
                 "backgroundColor": "#f4f4f4",
@@ -5605,7 +5607,7 @@ exports[`<Form> when {value} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -5636,7 +5638,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -5706,7 +5708,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -5730,7 +5732,7 @@ exports[`<Form> when {value} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -5761,7 +5763,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -5829,7 +5831,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -5861,7 +5863,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -5887,7 +5889,7 @@ exports[`<Form> when {value} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -5918,7 +5920,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
-                "paddingLeft": 10,
+                "paddingLeft": 0,
               },
             ]
           }
@@ -5982,7 +5984,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -6014,7 +6016,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -6082,7 +6084,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -6115,7 +6117,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -6149,7 +6151,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "marginTop": 4,
                 "maxWidth": "100%",
-                "paddingLeft": 10,
+                "paddingLeft": 0,
               },
             ]
           }
@@ -6213,7 +6215,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -6245,7 +6247,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -6326,8 +6328,8 @@ exports[`<Form> when {value} 1`] = `
                   "backgroundColor": "transparent",
                   "borderWidth": 0,
                   "height": "auto",
-                  "marginLeft": 5,
-                  "marginRight": 10,
+                  "marginLeft": 4,
+                  "marginRight": 8,
                 },
                 false,
               ]
@@ -6627,7 +6629,7 @@ exports[`<Form> when {value} 1`] = `
                   "display": "flex",
                   "flexDirection": "row",
                   "height": 56,
-                  "paddingLeft": 10,
+                  "paddingLeft": 8,
                   "paddingRight": 44,
                 }
               }
@@ -6652,7 +6654,7 @@ exports[`<Form> when {value} 1`] = `
                       },
                       Object {
                         "marginBottom": 0,
-                        "marginRight": 10,
+                        "marginRight": 8,
                       },
                     ],
                   ]
@@ -6889,7 +6891,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -6914,7 +6916,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -7113,7 +7115,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -7138,7 +7140,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -7340,7 +7342,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -7365,7 +7367,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -7564,7 +7566,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -7589,7 +7591,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -7788,7 +7790,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -7813,7 +7815,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -8012,7 +8014,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -8037,7 +8039,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -8236,7 +8238,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -8261,7 +8263,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -8460,7 +8462,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -8485,7 +8487,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -8684,7 +8686,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -8709,7 +8711,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -8908,7 +8910,7 @@ exports[`<Form> when {value} 1`] = `
                     "display": "flex",
                     "flexDirection": "row",
                     "height": 56,
-                    "paddingLeft": 10,
+                    "paddingLeft": 8,
                     "paddingRight": 44,
                   }
                 }
@@ -8933,7 +8935,7 @@ exports[`<Form> when {value} 1`] = `
                         },
                         Object {
                           "marginBottom": 0,
-                          "marginRight": 10,
+                          "marginRight": 8,
                         },
                       ],
                     ]
@@ -9115,7 +9117,7 @@ exports[`<Form> when {value} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
+              "alignItems": "flex-end",
               "display": "flex",
               "flexDirection": "row",
             },
@@ -9138,11 +9140,7 @@ exports[`<Form> when {value} 1`] = `
                 "justifyContent": "center",
               },
               Object {
-                "backgroundColor": "#cdd2d4",
-                "borderRadius": 3,
-                "height": 44,
-                "marginBottom": 1,
-                "width": 44,
+                "marginBottom": 20,
               },
             ]
           }
@@ -9159,8 +9157,12 @@ exports[`<Form> when {value} 1`] = `
                 "backgroundColor": "#cdd2d4",
                 "borderRadius": 3,
                 "height": 44,
-                "marginBottom": 1,
                 "width": 44,
+              }
+            }
+            styleContainer={
+              Object {
+                "marginBottom": 20,
               }
             }
           />
@@ -9190,7 +9192,7 @@ exports[`<Form> when {value} 1`] = `
                   "flex": 1,
                 },
                 Object {
-                  "marginLeft": 10,
+                  "marginLeft": 8,
                 },
               ],
             ]
@@ -9237,7 +9239,7 @@ exports[`<Form> when {value} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -9269,7 +9271,7 @@ exports[`<Form> when {value} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -9338,7 +9340,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderWidth": 1,
                 "display": "flex",
                 "flexDirection": "row",
-                "paddingHorizontal": 5,
+                "paddingHorizontal": 4,
               },
               false,
               false,
@@ -9362,7 +9364,7 @@ exports[`<Form> when {value} 1`] = `
                 },
                 Object {
                   "height": 20,
-                  "marginHorizontal": 5,
+                  "marginHorizontal": 4,
                   "width": 20,
                 },
                 undefined,
@@ -9392,7 +9394,7 @@ exports[`<Form> when {value} 1`] = `
                   "fontSize": 16,
                   "fontWeight": "400",
                   "minHeight": 42,
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                   "paddingVertical": 7.5,
                   "width": "100%",
                 },
@@ -9472,6 +9474,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
+                "marginLeft": 8,
               },
             ]
           }
@@ -9547,6 +9550,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
+                "marginLeft": 8,
               },
             ]
           }
@@ -9665,7 +9669,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -9813,7 +9817,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -9961,7 +9965,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -10107,7 +10111,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
@@ -10163,11 +10167,11 @@ exports[`<Form> when {value} 1`] = `
             ],
             Object {
               "borderColor": "#cdd2d4",
-              "borderRadius": 2.5,
+              "borderRadius": 3,
               "borderWidth": 1,
               "marginBottom": 20,
-              "paddingHorizontal": 10,
-              "paddingTop": 10,
+              "paddingHorizontal": 20,
+              "paddingTop": 20,
             },
           ]
         }
@@ -10193,7 +10197,7 @@ exports[`<Form> when {value} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 10,
+                "marginBottom": 8,
                 "minWidth": "100%",
               },
             ]
@@ -10257,7 +10261,7 @@ exports[`<Form> when {value} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -10281,7 +10285,7 @@ exports[`<Form> when {value} 1`] = `
                   },
                   Object {
                     "height": 20,
-                    "marginHorizontal": 5,
+                    "marginHorizontal": 4,
                     "width": 20,
                   },
                   undefined,
@@ -10311,7 +10315,7 @@ exports[`<Form> when {value} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -10379,7 +10383,7 @@ exports[`<Form> when {value} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -10403,7 +10407,7 @@ exports[`<Form> when {value} 1`] = `
                   },
                   Object {
                     "height": 20,
-                    "marginHorizontal": 5,
+                    "marginHorizontal": 4,
                     "width": 20,
                   },
                   undefined,
@@ -10433,7 +10437,7 @@ exports[`<Form> when {value} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -10501,7 +10505,7 @@ exports[`<Form> when {value} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -10532,7 +10536,7 @@ exports[`<Form> when {value} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -10558,7 +10562,7 @@ exports[`<Form> when {value} 1`] = `
                   },
                   Object {
                     "height": 20,
-                    "marginHorizontal": 5,
+                    "marginHorizontal": 4,
                     "width": 20,
                   },
                   undefined,
@@ -10637,7 +10641,7 @@ exports[`<Form> when {value} 1`] = `
                   "borderWidth": 1,
                   "display": "flex",
                   "flexDirection": "row",
-                  "paddingHorizontal": 5,
+                  "paddingHorizontal": 4,
                 },
                 false,
                 false,
@@ -10669,7 +10673,7 @@ exports[`<Form> when {value} 1`] = `
                     "fontSize": 16,
                     "fontWeight": "400",
                     "minHeight": 42,
-                    "paddingHorizontal": 5,
+                    "paddingHorizontal": 4,
                     "paddingVertical": 7.5,
                     "width": "100%",
                   },
@@ -10695,7 +10699,7 @@ exports[`<Form> when {value} 1`] = `
                 "alignItems": "flex-start",
                 "flexDirection": "row",
                 "flexWrap": "wrap",
-                "padding": 10,
+                "padding": 8,
               },
               undefined,
               false,
@@ -11149,7 +11153,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "color": "#4a4a4a",
                 "marginBottom": 0,
-                "marginLeft": 10,
+                "marginLeft": 8,
               },
             ]
           }
