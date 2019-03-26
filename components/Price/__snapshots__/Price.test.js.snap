@@ -55,11 +55,7 @@ exports[`<Price> inject <Text> properties 1`] = `
         },
         false,
         Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
+          "marginLeft": 4,
         },
       ]
     }
@@ -281,11 +277,7 @@ exports[`<Price> when {symbol} (left) 1`] = `
         },
         false,
         Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
+          "marginLeft": 4,
         },
       ]
     }
@@ -369,11 +361,7 @@ exports[`<Price> when {symbol} (right) 1`] = `
         },
         false,
         Object {
-          "transform": Array [
-            Object {
-              "scale": 0.8,
-            },
-          ],
+          "marginLeft": 4,
         },
       ]
     }

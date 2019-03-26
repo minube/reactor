@@ -23,6 +23,7 @@ export default {
     // -- Text
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#707070',
+    TEXT_LIGHT_GREY: '#9B9B9B',
     // -- Notifications
     ALERT: '#FBB049',
     ERROR: '#d33c44',
@@ -109,6 +110,7 @@ export default {
   UNIT,
 
   SPACE: {
+    XXS: UNIT * 0.4,
     XS: UNIT * 0.8,
     S: UNIT * 1.2,
     MEDIUM: UNIT * 1.6,
@@ -118,5 +120,12 @@ export default {
     L: UNIT * 2.8,
     XL: UNIT * 3.2,
     XXL: UNIT * 60,
+  },
+
+  STRIKETHROUGH: {
+    alignSelf: 'center',
+    borderBottomWidth: 1,
+    position: 'absolute',
+    width: '100%',
   },
 };

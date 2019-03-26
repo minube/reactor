@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../../common';
 
-const { COLOR, UNIT } = THEME;
+const { COLOR, STRIKETHROUGH, UNIT } = THEME;
 const BOX_SIZE = UNIT * 4;
 
 export { BOX_SIZE };
@@ -22,6 +22,12 @@ export default StyleSheet.create({
   boxSelected: {
     borderRadius: 0,
     backgroundColor: COLOR.PRIMARY,
+  },
+
+  boxSelectedToday: {
+    borderColor: COLOR.TEXT_LIGHT_GREY,
+    borderRadius: BOX_SIZE / 2,
+    borderWidth: 1,
   },
 
   boxSelectedStart: {
@@ -61,7 +67,10 @@ export default StyleSheet.create({
     color: COLOR.TEXT_LIGHTEN,
   },
 
-  textToday: {
-    color: COLOR.PRIMARY,
+  textStrikethrough: {
+    ...STRIKETHROUGH,
+    borderBottomColor: COLOR.TEXT_LIGHT_GREY,
+    width: UNIT * 2.4,
+    opacity: 0.6,
   },
 });
