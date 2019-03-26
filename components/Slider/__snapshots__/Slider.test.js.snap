@@ -207,7 +207,7 @@ exports[`<Slider> when {children} 1`] = `
                 "height": "100%",
                 "justifyContent": "center",
                 "left": 0,
-                "padding": 10,
+                "padding": 8,
                 "position": "absolute",
                 "width": "100%",
               }
@@ -388,7 +388,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -577,7 +577,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -789,7 +789,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -978,7 +978,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -1492,7 +1492,7 @@ exports[`<Slider> when {snap=false} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -1681,7 +1681,7 @@ exports[`<Slider> when {snap=false} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -1893,7 +1893,7 @@ exports[`<Slider> when {steps} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -2082,7 +2082,7 @@ exports[`<Slider> when {steps} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -2300,7 +2300,7 @@ exports[`<Slider> when {style} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }
@@ -2489,7 +2489,7 @@ exports[`<Slider> when {style} 1`] = `
                   "height": "100%",
                   "justifyContent": "center",
                   "left": 0,
-                  "padding": 10,
+                  "padding": 8,
                   "position": "absolute",
                   "width": "100%",
                 }

@@ -8,6 +8,7 @@ import Viewport from './Viewport';
 import { THEME } from '../../common';
 import Button from '../Button';
 
+const { COLOR, SPACE } = THEME;
 const styleLayout = {
   width: 375,
   height: 667,
@@ -15,13 +16,13 @@ const styleLayout = {
 };
 
 const style = {
-  backgroundColor: THEME.COLOR.BASE,
-  padding: THEME.UNIT,
+  backgroundColor: COLOR.BASE,
+  padding: SPACE.XS,
 };
 
 const styleContent = {
-  padding: THEME.UNIT,
-  backgroundColor: THEME.COLOR.PRIMARY,
+  padding: SPACE.XS,
+  backgroundColor: COLOR.PRIMARY,
 };
 
 const CHILDREN = (

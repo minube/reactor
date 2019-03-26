@@ -17,7 +17,7 @@ import PKG from './package.json';
 
 if (typeof global.self === 'undefined') global.self = global;
 
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
 const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
 const youtube = 'https://www.youtube.com/cx4MxQcD8Fk'; // eslint-disable-line
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.CENTERED,
     flex: 1,
-    padding: UNIT,
+    padding: SPACE.XS,
     backgroundColor: 'rgba(0,255,0,0.25)',
   },
 });
