@@ -160,19 +160,6 @@ exports[`<Button> when {activity} 1`] = `
         ]
       }
     >
-      <ActivityIndicator
-        animating={true}
-        color="#ffffff"
-        hidesWhenStopped={true}
-        size="small"
-        style={
-          Array [
-            undefined,
-            false,
-          ]
-        }
-        type="small"
-      />
       <View
         style={
           Array [
@@ -181,9 +168,7 @@ exports[`<Button> when {activity} 1`] = `
               "display": "flex",
               "flexDirection": "row",
             },
-            Object {
-              "marginLeft": 4,
-            },
+            undefined,
           ]
         }
       >
@@ -210,13 +195,64 @@ exports[`<Button> when {activity} 1`] = `
                 "fontSize": 16,
                 "fontWeight": "600",
                 "letterSpacing": -0.2,
-                "marginLeft": 4,
               },
             ]
           }
         >
           Press me
         </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            Object {
+              "marginLeft": 4,
+              "marginTop": 4,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "opacity": 0,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "opacity": 0,
+              "width": 6,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#ffffff",
+              "borderRadius": 3,
+              "height": 6,
+              "marginHorizontal": 3,
+              "opacity": 0,
+              "width": 6,
+            }
+          }
+        />
       </View>
     </View>
     <View
@@ -1033,7 +1069,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
               "flexDirection": "row",
             },
             Object {
-              "marginLeft": 4,
+              "marginLeft": 5,
             },
           ]
         }
@@ -1061,7 +1097,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
                 "fontSize": 16,
                 "fontWeight": "600",
                 "letterSpacing": -0.2,
-                "marginLeft": 4,
               },
             ]
           }

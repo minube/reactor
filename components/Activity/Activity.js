@@ -1,18 +1,79 @@
-import React from 'react';
-import { ActivityIndicator } from 'react-native';
+import { string } from 'prop-types';
+import { Animated, View } from 'react-native';
+import React, { PureComponent } from 'react';
+import styles from './Activity.style';
 
-import { ENV, THEME } from '../../common';
+import { THEME } from '../../common';
 
-const { IS_SERVER } = ENV;
-const { COLOR, UNIT } = THEME;
+const { COLOR, MOTION: { DURATION } } = THEME;
 
-export default ({ ...inherit }) => (
-  <ActivityIndicator
-    {...inherit}
-    color={inherit.color || COLOR.BASE}
-    style={[
-      inherit.style,
-      IS_SERVER && { maxHeight: UNIT, maxWidth: UNIT },
-    ]}
-  />
-);
+export default class Activity extends PureComponent {
+  static propTypes = {
+    color: string,
+    size: string,
+  };
+
+  static defaultProps = {
+    color: COLOR.BASE,
+    size: undefined,
+  };
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      dotsOpacities: [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)],
+      duration: DURATION,
+    };
+
+    this.animationState = {
+      targetOpacity: 1,
+      animated: true,
+    };
+  }
+
+  componentDidMount() {
+    const { animate } = this;
+    animate(0);
+  }
+
+  componentWillUnmount() {
+    this.animationState.animated = false;
+  }
+
+  animate = (initialDot) => {
+    const { animate, animationState, state: { dotsOpacities, duration } } = this;
+
+    if (!animationState.animated) return;
+    const min = 0;
+    const max = 1;
+    let dot = initialDot;
+
+    if (dot >= dotsOpacities.length) {
+      dot = 0;
+      animationState.targetOpacity = animationState.targetOpacity === min ? max : min;
+    }
+
+    const nextDot = dot + 1;
+
+    Animated.timing(dotsOpacities[dot], {
+      toValue: animationState.targetOpacity,
+      duration,
+    }).start(() => animate(nextDot));
+  }
+
+  render() {
+    const { props: { color, size, ...inherit }, state: { dotsOpacities } } = this;
+
+    return (
+      <View style={[styles.container, inherit.style]}>
+        { dotsOpacities.map((dotOpacity, i) => (
+          <Animated.View
+            key={i.toString()}
+            style={[styles.dot, styles[size], { backgroundColor: color, opacity: dotOpacity }]}
+          />
+        ))}
+      </View>
+    );
+  }
+}

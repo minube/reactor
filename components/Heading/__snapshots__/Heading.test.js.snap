@@ -674,20 +674,57 @@ exports[`<Heading> when {column} 1`] = `
               ]
             }
           />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
+          <View
             style={
               Array [
                 Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
                   "position": "absolute",
                 },
-                false,
               ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
         </View>
         <View
           style={
@@ -744,20 +781,57 @@ exports[`<Heading> when {column} 1`] = `
               ]
             }
           />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
+          <View
             style={
               Array [
                 Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
                   "position": "absolute",
                 },
-                false,
               ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
         </View>
         <View
           style={
@@ -814,20 +888,57 @@ exports[`<Heading> when {column} 1`] = `
               ]
             }
           />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
+          <View
             style={
               Array [
                 Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
                   "position": "absolute",
                 },
-                false,
               ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>
@@ -1018,20 +1129,57 @@ exports[`<Heading> when {contributors} 1`] = `
               ]
             }
           />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
+          <View
             style={
               Array [
                 Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
                   "position": "absolute",
                 },
-                false,
               ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
         </View>
         <View
           style={
@@ -1088,20 +1236,57 @@ exports[`<Heading> when {contributors} 1`] = `
               ]
             }
           />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
+          <View
             style={
               Array [
                 Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
                   "position": "absolute",
                 },
-                false,
               ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
         </View>
         <View
           style={
@@ -1158,20 +1343,57 @@ exports[`<Heading> when {contributors} 1`] = `
               ]
             }
           />
-          <ActivityIndicator
-            animating={true}
-            color="white"
-            hidesWhenStopped={true}
-            size="large"
+          <View
             style={
               Array [
                 Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                },
+                Object {
                   "position": "absolute",
                 },
-                false,
               ]
             }
-          />
+          >
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+            <View
+              style={
+                Object {
+                  "backgroundColor": "white",
+                  "borderRadius": 6,
+                  "height": 10,
+                  "marginHorizontal": 5.454545454545454,
+                  "opacity": 0,
+                  "width": 10,
+                }
+              }
+            />
+          </View>
         </View>
       </View>
     </View>

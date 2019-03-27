@@ -182,20 +182,57 @@ exports[`<Slider> when {children} 1`] = `
                 ]
               }
             />
-            <ActivityIndicator
-              animating={true}
-              color="white"
-              hidesWhenStopped={true}
-              size="large"
+            <View
               style={
                 Array [
                   Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
                     "position": "absolute",
                   },
-                  false,
                 ]
               }
-            />
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": 6,
+                    "height": 10,
+                    "marginHorizontal": 5.454545454545454,
+                    "opacity": 0,
+                    "width": 10,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": 6,
+                    "height": 10,
+                    "marginHorizontal": 5.454545454545454,
+                    "opacity": 0,
+                    "width": 10,
+                  }
+                }
+              />
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "white",
+                    "borderRadius": 6,
+                    "height": 10,
+                    "marginHorizontal": 5.454545454545454,
+                    "opacity": 0,
+                    "width": 10,
+                  }
+                }
+              />
+            </View>
           </View>
           <View
             pointerEvents="none"
@@ -363,20 +400,57 @@ exports[`<Slider> when {dataSource} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -552,20 +626,57 @@ exports[`<Slider> when {dataSource} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -764,20 +875,57 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -953,20 +1101,57 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -1467,20 +1652,57 @@ exports[`<Slider> when {snap=false} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -1656,20 +1878,57 @@ exports[`<Slider> when {snap=false} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -1868,20 +2127,57 @@ exports[`<Slider> when {steps} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -2057,20 +2353,57 @@ exports[`<Slider> when {steps} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -2275,20 +2608,57 @@ exports[`<Slider> when {style} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
@@ -2464,20 +2834,57 @@ exports[`<Slider> when {style} 1`] = `
                   ]
                 }
               />
-              <ActivityIndicator
-                animating={true}
-                color="white"
-                hidesWhenStopped={true}
-                size="large"
+              <View
                 style={
                   Array [
                     Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    Object {
                       "position": "absolute",
                     },
-                    false,
                   ]
                 }
-              />
+              >
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+                <View
+                  style={
+                    Object {
+                      "backgroundColor": "white",
+                      "borderRadius": 6,
+                      "height": 10,
+                      "marginHorizontal": 5.454545454545454,
+                      "opacity": 0,
+                      "width": 10,
+                    }
+                  }
+                />
+              </View>
             </View>
             <View
               pointerEvents="none"
