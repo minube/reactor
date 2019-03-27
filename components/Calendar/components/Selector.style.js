@@ -23,6 +23,5 @@ export default StyleSheet.create({
   value: {
     flex: 1,
     textAlign: 'center',
-    textTransform: 'capitalize',
   },
 });
