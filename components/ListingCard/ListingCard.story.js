@@ -10,7 +10,7 @@ import Price from '../Price';
 import Text from '../Text';
 import ListingCard from './ListingCard';
 
-const { COLOR, UNIT } = THEME;
+const { COLOR, SPACE } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 const RATING = { showValue: false, count: 12, value: 4.5 };
 const STYLE_LISTINGCARD = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 10 };
@@ -48,7 +48,7 @@ storiesOf('✅ ListingCard', module)
       title="Café Les Deux Molins - El café de Amelie con titulo súper largo la"
     >
       <View style={LAYOUT.STYLE.ROW}>
-        <View style={{ marginRight: UNIT }}>
+        <View style={{ marginRight: SPACE.XS }}>
           <Text caption>desde</Text>
           <Price large value={90} symbol="$" />
         </View>

@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -10,14 +10,14 @@ export default StyleSheet.create({
   },
 
   content: {
-    paddingVertical: UNIT,
+    paddingVertical: SPACE.XS,
   },
 
   rating: {
-    marginBottom: UNIT / 2,
+    marginBottom: SPACE.XXS,
   },
 
   title: {
-    marginVertical: UNIT / 2,
+    marginVertical: SPACE.XXS,
   },
 });

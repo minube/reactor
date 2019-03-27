@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import Breadcrumbs from './Breadcrumbs';
 
+const { COLOR, SPACE } = THEME;
 const dataSource = [
   { caption: 'Spain', href: '/' },
   { caption: 'Basque Country', href: '/' },
@@ -22,7 +23,7 @@ describe('<Breadcrumbs>', () => {
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<Breadcrumbs dataSource={dataSource} color={THEME.COLOR.PRIMARY} />).toJSON();
+    const tree = renderer.create(<Breadcrumbs dataSource={dataSource} color={COLOR.PRIMARY} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -32,7 +33,7 @@ describe('<Breadcrumbs>', () => {
 
   it('when {style}', () => {
     const style = {
-      padding: THEME.OFFSET,
+      padding: SPACE.MEDIUM,
       backgroundColor: 'rgba(0,0,0,0.25)',
     };
     const tree = renderer.create(<Breadcrumbs dataSource={dataSource} style={style} />).toJSON();

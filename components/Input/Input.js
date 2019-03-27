@@ -26,6 +26,7 @@ class Input extends Component {
     onChange: func,
     onFocus: func,
     required: bool,
+    requiredIcon: bool,
   };
 
   static defaultProps = {
@@ -41,6 +42,7 @@ class Input extends Component {
     onChange: undefined,
     onFocus: undefined,
     required: false,
+    requiredIcon: false,
   };
 
   state = {
@@ -50,7 +52,8 @@ class Input extends Component {
   render() {
     const {
       props: {
-        color, disabled, error, hint, icon, keyboard, label, lines, onBlur, onChange, onFocus, required, ...inherit
+        color, disabled, error, hint, icon, keyboard, label, lines, onBlur, onChange, onFocus, required, requiredIcon,
+        ...inherit
       },
       state: { focus },
     } = this;
@@ -88,7 +91,9 @@ class Input extends Component {
             underlineColorAndroid="transparent"
             style={[styles.input, disabled && styles.inputDisabled]}
           />
-          { (error || required) && <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} /> }
+          { (error || (required && requiredIcon)) && (
+            <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} />
+          )}
         </View>
         { hint && (
           <InputHint>

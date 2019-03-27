@@ -7,6 +7,7 @@ import {
 import { THEME } from '../../common';
 import Heading from './Heading';
 
+const { COLOR, SPACE } = THEME;
 const BREADCRUMBS = [
   { caption: 'Turismo', href: '/' },
   { caption: 'Gran Bretaña', href: '/' },
@@ -42,7 +43,7 @@ storiesOf('☑️ Heading', module)
   .add('color', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
-      color={THEME.COLOR.SECONDARY}
+      color={COLOR.SECONDARY}
       contributors={CONTRIBUTORS}
       title="Actividades en España"
       rating={RATING}
@@ -59,11 +60,11 @@ storiesOf('☑️ Heading', module)
   ))
   .add('style', () => (
     <Heading
-      color={THEME.COLOR.WHITE}
+      color={COLOR.WHITE}
       column
       rating={RATING}
       style={{
-        padding: THEME.OFFSET,
+        padding: SPACE.MEDIUM,
         backgroundColor: 'rgba(0,0,0,0.25)',
       }}
       title="British Museum"
@@ -72,7 +73,7 @@ storiesOf('☑️ Heading', module)
   .add('🏀 Playground', () => (
     <Heading
       breadcrumbs={object('breadcrumbs', BREADCRUMBS, 'heading-breadcrumbs')}
-      color={color('color', THEME.COLOR.TEXT)}
+      color={color('color', COLOR.TEXT)}
       column={boolean('column', false)}
       contributors={object('contributors', CONTRIBUTORS, 'heading-contributors')}
       rating={object('rating', RATING, 'heading-rating')}

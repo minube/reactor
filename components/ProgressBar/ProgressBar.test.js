@@ -4,6 +4,8 @@ import renderer from 'react-test-renderer';
 import { THEME } from '../../common';
 import ProgressBar from './ProgressBar';
 
+const { SPACE } = THEME;
+
 describe('<ProgressBar>', () => {
   it('renders', () => {
     const tree = renderer.create(<ProgressBar />).toJSON();
@@ -26,7 +28,7 @@ describe('<ProgressBar>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<ProgressBar style={{ borderRadius: THEME.OFFSET / 2, height: THEME.OFFSET }} />).toJSON();
+    const tree = renderer.create(<ProgressBar style={{ borderRadius: SPACE.XS, height: SPACE.MEDIUM }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

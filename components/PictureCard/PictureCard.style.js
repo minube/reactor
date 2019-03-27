@@ -2,7 +2,9 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { BORDER_RADIUS, COLOR, UNIT } = THEME;
+const {
+  BORDER_RADIUS, COLOR, UNIT, SPACE,
+} = THEME;
 
 export default StyleSheet.create({
   content: {
@@ -23,7 +25,7 @@ export default StyleSheet.create({
     left: 0,
     height: '100%',
     width: '100%',
-    padding: UNIT,
+    padding: SPACE.XS,
     alignSelf: 'center',
   },
 

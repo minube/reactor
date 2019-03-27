@@ -34,8 +34,8 @@ exports[`<InputSelect> renders 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -126,8 +126,8 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -187,8 +187,8 @@ exports[`<InputSelect> when {dataSource (string)} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -454,7 +454,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             "display": "flex",
             "flexDirection": "row",
             "height": 56,
-            "paddingLeft": 10,
+            "paddingLeft": 8,
             "paddingRight": 44,
           }
         }
@@ -479,7 +479,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
-                  "marginRight": 10,
+                  "marginRight": 8,
                 },
               ],
             ]
@@ -714,7 +714,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -739,7 +739,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -941,7 +941,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -966,7 +966,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -1165,7 +1165,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -1190,7 +1190,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -1389,7 +1389,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -1414,7 +1414,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -1613,7 +1613,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -1638,7 +1638,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -1837,7 +1837,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -1862,7 +1862,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -2061,7 +2061,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -2086,7 +2086,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -2285,7 +2285,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -2310,7 +2310,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -2509,7 +2509,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -2534,7 +2534,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -2733,7 +2733,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -2758,7 +2758,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -2974,8 +2974,8 @@ exports[`<InputSelect> when {disabled} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           undefined,
         ]
@@ -3037,8 +3037,8 @@ exports[`<InputSelect> when {error} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -3098,8 +3098,8 @@ exports[`<InputSelect> when {hint} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -3145,7 +3145,7 @@ exports[`<InputSelect> when {hint} 1`] = `
         Object {
           "marginTop": 4,
           "maxWidth": "100%",
-          "paddingLeft": 10,
+          "paddingLeft": 0,
         },
       ]
     }
@@ -3220,8 +3220,8 @@ exports[`<InputSelect> when {label} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -3286,8 +3286,8 @@ exports[`<InputSelect> when {style} 1`] = `
             "backgroundColor": "transparent",
             "borderWidth": 0,
             "height": "auto",
-            "marginLeft": 5,
-            "marginRight": 10,
+            "marginLeft": 4,
+            "marginRight": 8,
           },
           false,
         ]
@@ -3500,7 +3500,7 @@ exports[`<InputSelect> when {value} 1`] = `
             "display": "flex",
             "flexDirection": "row",
             "height": 56,
-            "paddingLeft": 10,
+            "paddingLeft": 8,
             "paddingRight": 44,
           }
         }
@@ -3525,7 +3525,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 Object {
                   "marginBottom": 0,
-                  "marginRight": 10,
+                  "marginRight": 8,
                 },
               ],
             ]
@@ -3760,7 +3760,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -3785,7 +3785,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -3984,7 +3984,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -4009,7 +4009,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -4208,7 +4208,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -4233,7 +4233,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -4432,7 +4432,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -4457,7 +4457,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -4659,7 +4659,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -4684,7 +4684,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -4883,7 +4883,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -4908,7 +4908,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -5107,7 +5107,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -5132,7 +5132,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -5331,7 +5331,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -5356,7 +5356,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -5555,7 +5555,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -5580,7 +5580,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]
@@ -5779,7 +5779,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "display": "flex",
               "flexDirection": "row",
               "height": 56,
-              "paddingLeft": 10,
+              "paddingLeft": 8,
               "paddingRight": 44,
             }
           }
@@ -5804,7 +5804,7 @@ exports[`<InputSelect> when {value} 1`] = `
                   },
                   Object {
                     "marginBottom": 0,
-                    "marginRight": 10,
+                    "marginRight": 8,
                   },
                 ],
               ]

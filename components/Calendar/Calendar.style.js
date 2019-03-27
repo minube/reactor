@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, OFFSET } = THEME;
+const { COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
   activity: {
@@ -17,8 +17,8 @@ export default StyleSheet.create({
 
   container: {
     backgroundColor: COLOR.BACKGROUND,
-    paddingHorizontal: OFFSET,
-    paddingVertical: OFFSET / 2,
+    paddingHorizontal: SPACE.MEDIUM,
+    paddingVertical: SPACE.XS,
     justifyContent: 'center',
   },
 });

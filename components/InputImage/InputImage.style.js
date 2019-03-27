@@ -2,17 +2,22 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { BORDER_RADIUS, COLOR, UNIT } = THEME;
+const {
+  BORDER_RADIUS, COLOR, SPACE, UNIT,
+} = THEME;
 
 export default StyleSheet.create({
-  container: LAYOUT.STYLE.ROW,
+  container: {
+    ...LAYOUT.STYLE.ROW,
+    alignItems: 'flex-end',
+  },
 
   input: {
     flex: 1,
   },
 
   inputMargin: {
-    marginLeft: UNIT,
+    marginLeft: SPACE.XS,
   },
 
   image: {
@@ -20,6 +25,9 @@ export default StyleSheet.create({
     height: UNIT * 4.4,
     borderRadius: BORDER_RADIUS,
     backgroundColor: COLOR.BASE,
-    marginBottom: UNIT * 0.1,
+  },
+
+  imageContainer: {
+    marginBottom: SPACE.REGULAR,
   },
 });

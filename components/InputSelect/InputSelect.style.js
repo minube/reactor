@@ -58,8 +58,8 @@ export default StyleSheet.create({
     backgroundColor: COLOR.TRANSPARENT,
     borderWidth: 0,
     height: INPUT_HEIGHT,
-    marginLeft: UNIT / 2,
-    marginRight: UNIT,
+    marginLeft: SPACE.XXS,
+    marginRight: SPACE.XS,
     ...Platform.select({
       web: {
         color: COLOR.TEXT,
@@ -89,7 +89,7 @@ export default StyleSheet.create({
 
   template: {
     ...LAYOUT.STYLE.ROW,
-    paddingLeft: UNIT,
+    paddingLeft: SPACE.XS,
     paddingRight: UNIT * 4.4,
     height: TEMPLATE_HEIGHT,
   },

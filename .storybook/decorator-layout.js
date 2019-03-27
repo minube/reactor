@@ -4,7 +4,7 @@ import { View, StyleSheet } from 'react-native';
 import { LAYOUT, THEME } from '../common';
 import { LayoutConsumer, LayoutView, Text } from '../components';
 
-const { COLOR, UNIT, OFFSET } = THEME;
+const { COLOR, SPACE } = THEME;
 
 const styles = StyleSheet.create({
   container: {
@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: '100%',
     height: '100%',
-    padding: OFFSET,
+    padding: SPACE.MEDIUM,
     backgroundImage: "linear-gradient(45deg, #ddd 25%, transparent 25%), linear-gradient(-45deg, #ddd 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #ddd 75%), linear-gradient(-45deg, transparent 75%, #ddd 75%)",
     backgroundSize: '32px 32px',
     backgroundPosition: '0 0, 0 16px, 16px -16px, -16px 0px',
@@ -22,10 +22,10 @@ const styles = StyleSheet.create({
 
   info: {
     backgroundColor: 'rgba(0,0,0,0.25)',
-    padding: UNIT,
+    padding: SPACE.XS,
     position: 'absolute',
-    left: OFFSET,
-    top: OFFSET,
+    left: SPACE.MEDIUM,
+    top: SPACE.MEDIUM,
   },
 })
 

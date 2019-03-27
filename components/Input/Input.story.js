@@ -35,6 +35,9 @@ storiesOf('✅ Input', module)
   .add('required', () => (
     <Input required />
   ))
+  .add('required & requiredIcon', () => (
+    <Input required requiredIcon />
+  ))
   .add('value', () => (
     <Input value="soyjavi.com" />
   ))

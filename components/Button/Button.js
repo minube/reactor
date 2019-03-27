@@ -48,9 +48,8 @@ const Button = ({
           !isSolid && disabled && styles.disabledOpacity,
         ]}
       >
-        { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} type="small" /> }
         { icon && !activity && <Icon value={icon} size={inherit.iconSize} /> }
-        <View style={[styles.row, (activity || icon) && (title || children) && styles.textMarginLeft]}>
+        <View style={[styles.row, icon && (title || children) && styles.textMarginLeft]}>
           { title
             && (
             <Text
@@ -59,7 +58,6 @@ const Button = ({
                 styles.text,
                 small && styles.textSmall,
                 responsive && !small && styles.textSmall,
-                (activity || icon) && styles.textMarginLeft,
               ]}
             >
               {title}
@@ -67,6 +65,7 @@ const Button = ({
             ) }
           { children }
         </View>
+        { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} style={styles.activity} /> }
       </View>
     </Touchable>
   </View>

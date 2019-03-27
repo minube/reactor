@@ -13,6 +13,11 @@ export { REGULAR_SIZE, SMALL_SIZE };
 
 export default StyleSheet.create({
   // -- Layout
+  activity: {
+    marginLeft: SPACE.XXS,
+    marginTop: SPACE.XXS,
+  },
+
   container: {
     ...LAYOUT.STYLE.CENTERED,
     borderRadius: BORDER_RADIUS,
@@ -76,6 +81,6 @@ export default StyleSheet.create({
   },
 
   textMarginLeft: {
-    marginLeft: UNIT / 2,
+    marginLeft: SPACE.XXS,
   },
 });

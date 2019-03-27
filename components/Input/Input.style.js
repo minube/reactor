@@ -18,7 +18,7 @@ export default StyleSheet.create({
 
   content: {
     ...LAYOUT.STYLE.ROW,
-    paddingHorizontal: UNIT / 2,
+    paddingHorizontal: SPACE.XXS,
     borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
@@ -37,7 +37,7 @@ export default StyleSheet.create({
   },
 
   icon: {
-    marginHorizontal: UNIT / 2,
+    marginHorizontal: SPACE.XXS,
     height: ICON_SIZE,
     width: ICON_SIZE,
   },
@@ -47,9 +47,9 @@ export default StyleSheet.create({
     borderWidth: 0,
     color: COLOR.TEXT,
     flex: 1,
-    fontSize: UNIT * 1.6,
+    fontSize: SPACE.MEDIUM,
     minHeight: INPUT_HEIGHT,
-    paddingHorizontal: UNIT / 2,
+    paddingHorizontal: SPACE.XXS,
     paddingVertical: UNIT * 0.75,
     width: '100%',
     ...Platform.select({
@@ -65,6 +65,6 @@ export default StyleSheet.create({
   },
 
   multiline: {
-    paddingVertical: UNIT * 0.5,
+    paddingVertical: SPACE.XXS,
   },
 });

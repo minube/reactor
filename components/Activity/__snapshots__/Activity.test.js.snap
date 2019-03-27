@@ -1,46 +1,211 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Activity> renders 1`] = `
-<ActivityIndicator
-  animating={true}
-  color="#cdd2d4"
-  hidesWhenStopped={true}
-  size="small"
+<View
   style={
     Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
       undefined,
-      false,
     ]
   }
-/>
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+</View>
 `;
 
 exports[`<Activity> when {color} 1`] = `
-<ActivityIndicator
-  animating={true}
-  color="#f00"
-  hidesWhenStopped={true}
-  size="small"
+<View
   style={
     Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
       undefined,
-      false,
     ]
   }
-/>
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f00",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f00",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#f00",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+</View>
 `;
 
 exports[`<Activity> when {size} 1`] = `
-<ActivityIndicator
-  animating={true}
-  color="#cdd2d4"
-  hidesWhenStopped={true}
-  size="large"
+<View
   style={
     Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
       undefined,
-      false,
     ]
   }
-/>
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 6,
+        "height": 10,
+        "marginHorizontal": 5.454545454545454,
+        "opacity": 0,
+        "width": 10,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 6,
+        "height": 10,
+        "marginHorizontal": 5.454545454545454,
+        "opacity": 0,
+        "width": 10,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 6,
+        "height": 10,
+        "marginHorizontal": 5.454545454545454,
+        "opacity": 0,
+        "width": 10,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Activity> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "row",
+      },
+      Object {
+        "backgroundColor": "rgba(0,255,0,0.25)",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "borderRadius": 3,
+        "height": 6,
+        "marginHorizontal": 3,
+        "opacity": 0,
+        "width": 6,
+      }
+    }
+  />
+</View>
 `;

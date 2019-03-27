@@ -2,11 +2,11 @@ import { StyleSheet } from 'react-native';
 
 import { THEME } from '../../common';
 
-const { COLOR, UNIT } = THEME;
+const { COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginBottom: UNIT * 0.8,
+    marginBottom: SPACE.XS,
     color: COLOR.TEXT,
   },
 });

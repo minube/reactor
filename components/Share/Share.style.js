@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, OFFSET, UNIT } = THEME;
+const { COLOR, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
   dialog: {
@@ -13,17 +13,17 @@ export default StyleSheet.create({
   options: {
     borderTopColor: COLOR.BACKGROUND,
     borderTopWidth: 1,
-    marginVertical: OFFSET,
+    marginVertical: SPACE.MEDIUM,
   },
 
   option: {
     ...LAYOUT.STYLE.ROW,
-    paddingVertical: OFFSET,
+    paddingVertical: SPACE.MEDIUM,
     borderBottomColor: COLOR.BACKGROUND,
     borderBottomWidth: 1,
   },
 
   icon: {
-    marginRight: UNIT,
+    marginRight: SPACE.XS,
   },
 });
