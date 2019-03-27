@@ -7034,22 +7034,59 @@ exports[`<Calendar> when {busy} 1`] = `
     ]
   }
 >
-  <ActivityIndicator
-    animating={true}
-    color="#cdd2d4"
-    hidesWhenStopped={true}
-    size="large"
+  <View
     style={
       Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+        },
         Object {
           "alignSelf": "center",
           "position": "absolute",
           "zIndex": 1,
         },
-        false,
       ]
     }
-  />
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "borderRadius": 6,
+          "height": 10,
+          "marginHorizontal": 5.454545454545454,
+          "opacity": 0,
+          "width": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "borderRadius": 6,
+          "height": 10,
+          "marginHorizontal": 5.454545454545454,
+          "opacity": 0,
+          "width": 10,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "borderRadius": 6,
+          "height": 10,
+          "marginHorizontal": 5.454545454545454,
+          "opacity": 0,
+          "width": 10,
+        }
+      }
+    />
+  </View>
   <View
     style={
       Object {
