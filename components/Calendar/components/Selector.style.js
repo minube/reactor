@@ -8,7 +8,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'center',
-    marginBottom: SPACE.XXS,
+    marginBottom: SPACE.MEDIUM,
   },
 
   touchable: {
@@ -23,5 +23,6 @@ export default StyleSheet.create({
   value: {
     flex: 1,
     textAlign: 'center',
+    textTransform: 'capitalize',
   },
 });
