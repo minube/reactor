@@ -2,12 +2,12 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { UNIT } = THEME;
+const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: LAYOUT.STYLE.ROW,
 
   rate: {
-    marginRight: UNIT * 0.25,
+    marginRight: SPACE.XS,
   },
 });

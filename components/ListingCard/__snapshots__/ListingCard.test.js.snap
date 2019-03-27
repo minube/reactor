@@ -170,7 +170,7 @@ exports[`<ListingCard> renders 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -212,7 +212,7 @@ exports[`<ListingCard> renders 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     />
@@ -390,7 +390,7 @@ exports[`<ListingCard> when {category} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -432,7 +432,7 @@ exports[`<ListingCard> when {category} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     >
@@ -636,7 +636,7 @@ exports[`<ListingCard> when {children} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -678,7 +678,7 @@ exports[`<ListingCard> when {children} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     >
@@ -1003,7 +1003,7 @@ exports[`<ListingCard> when {description} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -1045,7 +1045,7 @@ exports[`<ListingCard> when {description} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     >
@@ -1250,7 +1250,7 @@ exports[`<ListingCard> when {image} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -1292,7 +1292,7 @@ exports[`<ListingCard> when {image} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     />
@@ -1470,7 +1470,7 @@ exports[`<ListingCard> when {rating} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -1512,7 +1512,7 @@ exports[`<ListingCard> when {rating} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     >
@@ -1543,8 +1543,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 5,
-                "marginRight": 2.5,
+                "marginBottom": 4,
+                "marginRight": 8,
               },
             ]
           }
@@ -1569,8 +1569,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 5,
-                "marginRight": 2.5,
+                "marginBottom": 4,
+                "marginRight": 8,
               },
             ]
           }
@@ -1595,8 +1595,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 5,
-                "marginRight": 2.5,
+                "marginBottom": 4,
+                "marginRight": 8,
               },
             ]
           }
@@ -1621,8 +1621,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 5,
-                "marginRight": 2.5,
+                "marginBottom": 4,
+                "marginRight": 8,
               },
             ]
           }
@@ -1647,8 +1647,8 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 5,
-                "marginRight": 2.5,
+                "marginBottom": 4,
+                "marginRight": 8,
               },
             ]
           }
@@ -1673,7 +1673,7 @@ exports[`<ListingCard> when {rating} 1`] = `
               },
               false,
               Object {
-                "marginBottom": 5,
+                "marginBottom": 4,
               },
             ]
           }
@@ -1691,7 +1691,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
   style={
     Object {
       "backgroundColor": "#10c0bc",
-      "paddingTop": 10,
+      "paddingTop": 8,
     }
   }
 >
@@ -1863,7 +1863,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -1905,7 +1905,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     />
@@ -2083,7 +2083,7 @@ exports[`<ListingCard> when {title} 1`] = `
               "height": "100%",
               "justifyContent": "center",
               "left": 0,
-              "padding": 10,
+              "padding": 8,
               "position": "absolute",
               "width": "100%",
             }
@@ -2125,7 +2125,7 @@ exports[`<ListingCard> when {title} 1`] = `
     <View
       style={
         Object {
-          "paddingVertical": 10,
+          "paddingVertical": 8,
         }
       }
     >
@@ -2150,7 +2150,7 @@ exports[`<ListingCard> when {title} 1`] = `
             },
             false,
             Object {
-              "marginVertical": 5,
+              "marginVertical": 4,
             },
           ]
         }

@@ -21,7 +21,7 @@ class InputImage extends PureComponent {
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { isValidUrl && <Image source={{ uri: value }} style={styles.image} /> }
+        { isValidUrl && <Image source={{ uri: value }} style={styles.image} styleContainer={styles.imageContainer} /> }
         <Input
           {...inherit}
           style={[styles.input, isValidUrl && styles.inputMargin]}

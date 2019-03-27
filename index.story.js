@@ -9,6 +9,8 @@ import {
   Button, Dialog, Text, Image,
 } from './components';
 
+const { COLOR, UNIT, SPACE } = THEME;
+
 const styles = StyleSheet.create({
   dialog: {
     width: '100%',
@@ -21,17 +23,17 @@ const styles = StyleSheet.create({
 
   content: {
     ...LAYOUT.STYLE.ROW,
-    marginTop: THEME.OFFSET,
+    marginTop: SPACE.MEDIUM,
   },
 
   texts: {
     flex: 1,
-    marginHorizontal: THEME.UNIT,
+    marginHorizontal: SPACE.S,
   },
 
   icon: {
-    height: THEME.UNIT * 4,
-    width: THEME.UNIT * 4,
+    height: UNIT * 4,
+    width: UNIT * 4,
   },
 });
 
@@ -56,7 +58,7 @@ storiesOf('🏀 Playground', module)
         </View>
         <Button
           small
-          color={color('color', THEME.COLOR.TEXT)}
+          color={color('color', COLOR.TEXT)}
           onPress={action('Button.onPress()')}
           outlined
           title={text('button', 'Descargar')}

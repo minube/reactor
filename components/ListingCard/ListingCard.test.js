@@ -5,6 +5,7 @@ import { THEME } from '../../common';
 import Button from '../Button';
 import ListingCard from './ListingCard';
 
+const { COLOR, SPACE } = THEME;
 const LIPSUM_IMAGE = 'https://picsum.photos/320/200/?random';
 const RATING = { showValue: false, count: 12, value: 4.5 };
 
@@ -49,7 +50,7 @@ describe('<ListingCard>', () => {
   });
 
   it('when {styleContainer}', () => {
-    const tree = renderer.create(<ListingCard styleContainer={{ backgroundColor: THEME.COLOR.PRIMARY, paddingTop: THEME.UNIT }} />).toJSON();
+    const tree = renderer.create(<ListingCard styleContainer={{ backgroundColor: COLOR.PRIMARY, paddingTop: SPACE.XS }} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

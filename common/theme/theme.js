@@ -101,11 +101,11 @@ export default {
   MOTION: {
     DURATION: 225,
     EASE: 'cubic-bezier(0.4, 0.0, 0.2, 1)',
-    EASE_IOS: '',
     EASE_ANDROID: '',
+    EASE_IOS: '',
   },
 
-  OFFSET: UNIT * 1.6,
+  OFFSET: UNIT * 1.6, // @TODO: We should remove this property
 
   UNIT,
 

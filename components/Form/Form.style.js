@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 
-const { COLOR, UNIT, SPACE } = THEME;
+const { BORDER_RADIUS, COLOR, SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
@@ -15,10 +15,10 @@ export default StyleSheet.create({
   },
 
   fieldset: {
-    paddingTop: UNIT,
-    paddingHorizontal: UNIT,
+    paddingTop: SPACE.REGULAR,
+    paddingHorizontal: SPACE.REGULAR,
     borderColor: COLOR.BASE,
-    borderRadius: UNIT / 4,
+    borderRadius: BORDER_RADIUS,
     borderWidth: 1,
     marginBottom: SPACE.REGULAR,
   },
@@ -49,6 +49,6 @@ export default StyleSheet.create({
   },
 
   title: {
-    marginBottom: UNIT,
+    marginBottom: SPACE.XS,
   },
 });

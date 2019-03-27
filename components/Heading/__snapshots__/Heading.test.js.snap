@@ -42,7 +42,7 @@ exports[`<Heading> renders 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -105,7 +105,7 @@ exports[`<Heading> when {breadcrumbs} 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -304,7 +304,7 @@ exports[`<Heading> when {color} 1`] = `
           false,
           Object {
             "color": "#a66ecc",
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -360,7 +360,7 @@ exports[`<Heading> when {column} 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -394,7 +394,7 @@ exports[`<Heading> when {column} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -419,7 +419,7 @@ exports[`<Heading> when {column} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -444,7 +444,7 @@ exports[`<Heading> when {column} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -469,7 +469,7 @@ exports[`<Heading> when {column} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -494,7 +494,7 @@ exports[`<Heading> when {column} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -641,7 +641,7 @@ exports[`<Heading> when {column} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ],
             ]
@@ -669,7 +669,7 @@ exports[`<Heading> when {column} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ]
             }
@@ -748,7 +748,7 @@ exports[`<Heading> when {column} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ],
             ]
@@ -776,7 +776,7 @@ exports[`<Heading> when {column} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ]
             }
@@ -855,7 +855,7 @@ exports[`<Heading> when {column} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ],
             ]
@@ -883,7 +883,7 @@ exports[`<Heading> when {column} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ]
             }
@@ -988,7 +988,7 @@ exports[`<Heading> when {contributors} 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -1096,7 +1096,7 @@ exports[`<Heading> when {contributors} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ],
             ]
@@ -1124,7 +1124,7 @@ exports[`<Heading> when {contributors} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ]
             }
@@ -1203,7 +1203,7 @@ exports[`<Heading> when {contributors} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ],
             ]
@@ -1231,7 +1231,7 @@ exports[`<Heading> when {contributors} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ]
             }
@@ -1310,7 +1310,7 @@ exports[`<Heading> when {contributors} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ],
             ]
@@ -1338,7 +1338,7 @@ exports[`<Heading> when {contributors} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "marginLeft": 5,
+                  "marginLeft": 4,
                 },
               ]
             }
@@ -1443,7 +1443,7 @@ exports[`<Heading> when {rating} 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -1477,7 +1477,7 @@ exports[`<Heading> when {rating} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -1502,7 +1502,7 @@ exports[`<Heading> when {rating} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -1527,7 +1527,7 @@ exports[`<Heading> when {rating} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -1552,7 +1552,7 @@ exports[`<Heading> when {rating} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -1577,7 +1577,7 @@ exports[`<Heading> when {rating} 1`] = `
             },
             false,
             Object {
-              "marginRight": 2.5,
+              "marginRight": 8,
             },
           ]
         }
@@ -1690,7 +1690,7 @@ exports[`<Heading> when {style} 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }
@@ -1753,7 +1753,7 @@ exports[`<Heading> when {title} 1`] = `
           },
           false,
           Object {
-            "marginRight": 10,
+            "marginRight": 8,
           },
         ]
       }

@@ -5,6 +5,8 @@ import { boolean, color, number } from '@storybook/addon-knobs/react';
 import { THEME } from '../../common';
 import ProgressBar from './ProgressBar';
 
+const { SPACE } = THEME;
+
 storiesOf('✅ ProgressBar', module)
   .add('default', () => (
     <ProgressBar />
@@ -19,7 +21,7 @@ storiesOf('✅ ProgressBar', module)
     <ProgressBar progress={0.5} trackColor={THEME.COLOR.ERROR} />
   ))
   .add('style', () => (
-    <ProgressBar progress={0.5} style={{ borderRadius: THEME.OFFSET / 2, height: THEME.OFFSET }} />
+    <ProgressBar progress={0.5} style={{ borderRadius: SPACE.XS, height: SPACE.MEDIUM }} />
   ))
   .add('🏀 Playground', () => (
     <ProgressBar

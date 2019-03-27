@@ -19,7 +19,7 @@ export default StyleSheet.create({
 
   label: {
     marginBottom: 0,
-    marginLeft: UNIT,
+    marginLeft: SPACE.XS,
   },
 
   option: {
