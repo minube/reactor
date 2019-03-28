@@ -4,7 +4,7 @@ import {
 import React from 'react';
 import { View } from 'react-native';
 
-import { back, forward } from '../../../assets';
+import { back, forward } from '../../Icon/assets';
 import Text from '../../Text';
 import Icon from '../../Icon';
 import Touchable from '../../Touchable';
