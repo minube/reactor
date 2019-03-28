@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { color, number, select } from '@storybook/addon-knobs/react';
+import { number, object } from '@storybook/addon-knobs/react';
 
 import Skeleton from './Skeleton';
 
