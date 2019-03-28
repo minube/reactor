@@ -24,7 +24,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -51,29 +51,27 @@ exports[`<Calendar> renders 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -153,29 +151,27 @@ exports[`<Calendar> renders 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -214,6 +210,7 @@ exports[`<Calendar> renders 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -231,12 +228,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -259,12 +256,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -287,12 +284,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -315,12 +312,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -343,12 +340,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -371,12 +368,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -399,12 +396,12 @@ exports[`<Calendar> renders 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4155,7 +4152,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -4182,29 +4179,27 @@ exports[`<Calendar> when {availableDates} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -4284,29 +4279,27 @@ exports[`<Calendar> when {availableDates} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -4345,6 +4338,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -4362,12 +4356,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4390,12 +4384,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4418,12 +4412,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4446,12 +4440,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4474,12 +4468,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4502,12 +4496,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -4530,12 +4524,12 @@ exports[`<Calendar> when {availableDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7059,7 +7053,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -7086,29 +7080,27 @@ exports[`<Calendar> when {busy} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -7188,29 +7180,27 @@ exports[`<Calendar> when {busy} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -7249,6 +7239,7 @@ exports[`<Calendar> when {busy} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -7266,12 +7257,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7294,12 +7285,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7322,12 +7313,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7350,12 +7341,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7378,12 +7369,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7406,12 +7397,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -7434,12 +7425,12 @@ exports[`<Calendar> when {busy} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11190,7 +11181,7 @@ exports[`<Calendar> when {captions} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -11217,29 +11208,27 @@ exports[`<Calendar> when {captions} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -11319,29 +11308,27 @@ exports[`<Calendar> when {captions} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -11380,6 +11367,7 @@ exports[`<Calendar> when {captions} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -11397,12 +11385,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11425,12 +11413,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11453,12 +11441,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11481,12 +11469,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11509,12 +11497,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11537,12 +11525,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -11565,12 +11553,12 @@ exports[`<Calendar> when {captions} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15321,7 +15309,7 @@ exports[`<Calendar> when {date} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -15348,29 +15336,27 @@ exports[`<Calendar> when {date} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -15450,29 +15436,27 @@ exports[`<Calendar> when {date} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -15511,6 +15495,7 @@ exports[`<Calendar> when {date} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -15528,12 +15513,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15556,12 +15541,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15584,12 +15569,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15612,12 +15597,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15640,12 +15625,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15668,12 +15653,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -15696,12 +15681,12 @@ exports[`<Calendar> when {date} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19446,7 +19431,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -19473,29 +19458,27 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -19575,29 +19558,27 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -19636,6 +19617,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -19653,12 +19635,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19681,12 +19663,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19709,12 +19691,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19737,12 +19719,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19765,12 +19747,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19793,12 +19775,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -19821,12 +19803,12 @@ exports[`<Calendar> when {disabledDates} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23577,7 +23559,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -23604,29 +23586,27 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -23706,29 +23686,27 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -23767,6 +23745,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -23784,12 +23763,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23812,12 +23791,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23840,12 +23819,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23868,12 +23847,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23896,12 +23875,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23924,12 +23903,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -23952,12 +23931,12 @@ exports[`<Calendar> when {disabledPast} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27182,7 +27161,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -27209,29 +27188,27 @@ exports[`<Calendar> when {edges=false} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -27311,29 +27288,27 @@ exports[`<Calendar> when {edges=false} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -27372,6 +27347,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -27389,12 +27365,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27417,12 +27393,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27445,12 +27421,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27473,12 +27449,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27501,12 +27477,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27529,12 +27505,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -27557,12 +27533,12 @@ exports[`<Calendar> when {edges=false} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31289,7 +31265,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -31316,29 +31292,27 @@ exports[`<Calendar> when {locale} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -31418,29 +31392,27 @@ exports[`<Calendar> when {locale} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -31479,6 +31451,7 @@ exports[`<Calendar> when {locale} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -31496,12 +31469,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31524,12 +31497,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31552,12 +31525,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31580,12 +31553,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31608,12 +31581,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31636,12 +31609,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -31664,12 +31637,12 @@ exports[`<Calendar> when {locale} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35423,7 +35396,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -35450,29 +35423,27 @@ exports[`<Calendar> when {style} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -35552,29 +35523,27 @@ exports[`<Calendar> when {style} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -35613,6 +35582,7 @@ exports[`<Calendar> when {style} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -35630,12 +35600,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35658,12 +35628,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35686,12 +35656,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35714,12 +35684,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35742,12 +35712,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35770,12 +35740,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -35798,12 +35768,12 @@ exports[`<Calendar> when {style} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -39554,7 +39524,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -39581,29 +39551,27 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -39683,29 +39651,27 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -39744,6 +39710,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -39761,12 +39728,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -39790,12 +39757,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -39819,12 +39786,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -39848,12 +39815,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -39877,12 +39844,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -39906,12 +39873,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -39935,12 +39902,12 @@ exports[`<Calendar> when {value} & {range} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "flex": 1,
               "minWidth": 40,
@@ -43793,7 +43760,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "center",
-          "marginBottom": 4,
+          "marginBottom": 16,
         }
       }
     >
@@ -43820,29 +43787,27 @@ exports[`<Calendar> when {value} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/back.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ◀
-        </Text>
+        />
         <View
           style={
             Array [
@@ -43922,29 +43887,27 @@ exports[`<Calendar> when {value} 1`] = `
           ]
         }
       >
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail"
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "uri": Object {
+                "testUri": "../../../components/Icon/assets/forward.png",
+              },
+            }
+          }
           style={
             Array [
               Object {
-                "color": "#4a4a4a",
-                "fontFamily": undefined,
-                "fontWeight": "400",
-                "textAlignVertical": "center",
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
               },
-              Object {
-                "fontSize": 16,
-                "lineHeight": 30,
-              },
-              false,
-              Object {},
+              undefined,
+              undefined,
             ]
           }
-        >
-          ▶
-        </Text>
+        />
         <View
           style={
             Array [
@@ -43983,6 +43946,7 @@ exports[`<Calendar> when {value} 1`] = `
           "display": "flex",
           "flexDirection": "row",
           "justifyContent": "space-between",
+          "marginBottom": 12,
           "marginVertical": 4,
         }
       }
@@ -44000,12 +43964,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -44028,12 +43992,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -44056,12 +44020,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -44084,12 +44048,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -44112,12 +44076,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -44140,12 +44104,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",
@@ -44168,12 +44132,12 @@ exports[`<Calendar> when {value} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
-              "fontSize": 12,
-              "lineHeight": 16,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
-            Object {
-              "color": "#707070",
-            },
+            false,
             Object {
               "minWidth": 40,
               "textAlign": "center",

@@ -8,7 +8,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'center',
-    marginBottom: SPACE.XXS,
+    marginBottom: SPACE.MEDIUM,
   },
 
   touchable: {
