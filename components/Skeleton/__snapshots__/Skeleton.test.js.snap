@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Skeleton> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "minHeight": 10,
+        "minWidth": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "height": "100%",
+        "opacity": 0,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Skeleton> when {opacity} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "minHeight": 10,
+        "minWidth": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "height": "100%",
+        "opacity": 0,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<Skeleton> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#cdd2d4",
+        "minHeight": 10,
+        "minWidth": 10,
+      },
+      Object {
+        "height": 128,
+        "width": 128,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#ffffff",
+        "height": "100%",
+        "opacity": 0,
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

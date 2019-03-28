@@ -24,6 +24,7 @@ import Price from './Price';
 import ProgressBar from './ProgressBar';
 import Rating from './Rating';
 import Share from './Share';
+import Skeleton from './Skeleton';
 import Slider from './Slider';
 import Snackbar from './Snackbar';
 import Switch from './Switch';
@@ -61,6 +62,7 @@ export {
   ProgressBar,
   Rating,
   Share,
+  Skeleton,
   Slider,
   Snackbar,
   Switch,
