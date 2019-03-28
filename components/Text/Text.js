@@ -62,7 +62,7 @@ Text.propTypes = {
   body: bool,
   caption: bool,
   color: string,
-  form: string,
+  form: bool,
   headline: bool,
   subtitle: bool,
   lighten: bool,
