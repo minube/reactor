@@ -56,7 +56,7 @@ exports[`<Calendar> renders 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -156,7 +156,7 @@ exports[`<Calendar> renders 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -4184,7 +4184,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -4284,7 +4284,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -7085,7 +7085,7 @@ exports[`<Calendar> when {busy} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -7185,7 +7185,7 @@ exports[`<Calendar> when {busy} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -11213,7 +11213,7 @@ exports[`<Calendar> when {captions} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -11313,7 +11313,7 @@ exports[`<Calendar> when {captions} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -15341,7 +15341,7 @@ exports[`<Calendar> when {date} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -15441,7 +15441,7 @@ exports[`<Calendar> when {date} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -19463,7 +19463,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -19563,7 +19563,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -23591,7 +23591,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -23691,7 +23691,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -27193,7 +27193,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -27293,7 +27293,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -31297,7 +31297,7 @@ exports[`<Calendar> when {locale} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -31397,7 +31397,7 @@ exports[`<Calendar> when {locale} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -35428,7 +35428,7 @@ exports[`<Calendar> when {style} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -35528,7 +35528,7 @@ exports[`<Calendar> when {style} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -39556,7 +39556,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -39656,7 +39656,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
@@ -43792,7 +43792,7 @@ exports[`<Calendar> when {value} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/back.png",
+                "testUri": "../../../components/Icon/assets/back.png",
               },
             }
           }
@@ -43892,7 +43892,7 @@ exports[`<Calendar> when {value} 1`] = `
           source={
             Object {
               "uri": Object {
-                "testUri": "../../../assets/forward.png",
+                "testUri": "../../../components/Icon/assets/forward.png",
               },
             }
           }
