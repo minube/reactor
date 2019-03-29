@@ -2,6 +2,7 @@ import ENV from '../../../common/environment';
 import deviceEntropy, { connection } from './entropy';
 import AsyncStore from './AsyncStore';
 import UUID from './UUID';
+require ('es7-object-polyfill');
 
 const { PKG } = ENV;
 const STORE_FINGERPRINT = `${PKG.name}:fingerprint`;

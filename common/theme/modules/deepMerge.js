@@ -1,3 +1,5 @@
+require('es6-object-assign/auto');
+
 const isObject = item => item && typeof item === 'object' && !Array.isArray(item);
 
 const deepMerge = (target, source) => {

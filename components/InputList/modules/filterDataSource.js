@@ -1,3 +1,5 @@
+require ('es7-object-polyfill');
+
 export default (base = [], value = '', selected = [], fieldId = 'id') => {
   if (value.length < 1) return base;
   const isString = typeof base[0] === 'string';
