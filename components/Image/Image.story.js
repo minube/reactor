@@ -22,9 +22,6 @@ storiesOf('✅ Image', module)
   .add('without source', () => (
     <Image style={DEFAULT_STYLE} />
   ))
-  .add('small activity', () => (
-    <Image size="small" style={DEFAULT_STYLE} />
-  ))
   .add('resizeMode', () => (
     <Image resizeMode="cover" source={SOURCE} style={DEFAULT_STYLE} />
   ))
