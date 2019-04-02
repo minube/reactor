@@ -18,59 +18,51 @@ export default class Activity extends PureComponent {
     size: undefined,
   };
 
-  constructor(props) {
-    super(props);
+  mounted = true;
 
-    this.state = {
-      dotsOpacities: [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)],
-      duration: DURATION,
-    };
+  targetOpacity = 1;
 
-    this.animationState = {
-      targetOpacity: 1,
-      animated: true,
-    };
-  }
+  state = {
+    opacities: [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)],
+  };
 
-  componentDidMount() {
-    const { animate } = this;
-    animate(0);
+  componentWillMount() {
+    this.animate(0);
   }
 
   componentWillUnmount() {
-    this.animationState.animated = false;
+    this.mounted = false;
   }
 
   animate = (initialDot) => {
-    const { animate, animationState, state: { dotsOpacities, duration } } = this;
-
-    if (!animationState.animated) return;
+    if (!this.mounted) return;
+    const { animate, state: { opacities } } = this;
     const min = 0;
     const max = 1;
+    let { targetOpacity } = this;
     let dot = initialDot;
 
-    if (dot >= dotsOpacities.length) {
+    if (dot >= opacities.length) {
       dot = 0;
-      animationState.targetOpacity = animationState.targetOpacity === min ? max : min;
+      targetOpacity = targetOpacity === min ? max : min;
     }
 
     const nextDot = dot + 1;
-
-    Animated.timing(dotsOpacities[dot], {
-      toValue: animationState.targetOpacity,
-      duration,
+    Animated.timing(opacities[dot], {
+      toValue: targetOpacity,
+      duration: DURATION,
     }).start(() => animate(nextDot));
   }
 
   render() {
-    const { props: { color, size, ...inherit }, state: { dotsOpacities } } = this;
+    const { props: { color, size, ...inherit }, state: { opacities } } = this;
 
     return (
       <View style={[styles.container, inherit.style]}>
-        { dotsOpacities.map((dotOpacity, i) => (
+        { opacities.map((opacity, index) => (
           <Animated.View
-            key={i.toString()}
-            style={[styles.dot, styles[size], { backgroundColor: color, opacity: dotOpacity }]}
+            key={index.toString()}
+            style={[styles.dot, styles[size], { backgroundColor: color, opacity }]}
           />
         ))}
       </View>

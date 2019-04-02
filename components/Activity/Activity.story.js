@@ -1,33 +1,27 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import {
-  color, object, select,
-} from '@storybook/addon-knobs/react';
+import { color, object, select } from '@storybook/addon-knobs/react';
 
 import Activity from './Activity';
-
-const STYLE = {
-  padding: 10,
-  backgroundColor: 'rgba(0,255,0,0.25)',
-};
+import MOCKS from './Activity.mocks';
 
 storiesOf('✅ Activity', module)
   .add('default', () => (
     <Activity />
   ))
   .add('color', () => (
-    <Activity color="green" />
+    <Activity color={MOCKS.COLOR} />
   ))
   .add('size', () => (
-    <Activity size="large" />
+    <Activity size={MOCKS.SIZE} />
   ))
   .add('style', () => (
-    <Activity style={STYLE} />
+    <Activity style={MOCKS.STYLE} />
   ))
   .add('🏀 Playground', () => (
     <Activity
-      color={color('color', 'green')}
-      size={select('size', ['small', 'large'], 'small')}
-      style={object('style', STYLE)}
+      color={color('color', MOCKS.COLOR)}
+      size={select('size', ['small', 'large'], MOCKS.SIZE)}
+      style={object('style', MOCKS.STYLE)}
     />
   ));
