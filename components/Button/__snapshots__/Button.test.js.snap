@@ -10,6 +10,7 @@ exports[`<Button> renders 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -114,6 +115,7 @@ exports[`<Button> when {activity} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -298,6 +300,7 @@ exports[`<Button> when {children} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -468,6 +471,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -600,6 +604,7 @@ exports[`<Button> when {color} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -732,6 +737,7 @@ exports[`<Button> when {contained=false} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -861,6 +867,7 @@ exports[`<Button> when {disabled} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -995,6 +1002,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1148,6 +1156,7 @@ exports[`<Button> when {icon} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1271,6 +1280,7 @@ exports[`<Button> when {outlined} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1404,6 +1414,7 @@ exports[`<Button> when {responsive} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1536,6 +1547,7 @@ exports[`<Button> when {rounded} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1674,6 +1686,7 @@ exports[`<Button> when {shadow} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1814,6 +1827,7 @@ exports[`<Button> when {small} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -1956,6 +1970,7 @@ exports[`<Button> when {style} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,
@@ -2088,6 +2103,7 @@ exports[`<Button> when {title} 1`] = `
     onResponderTerminate={[Function]}
     onResponderTerminationRequest={[Function]}
     onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
     style={
       Array [
         undefined,

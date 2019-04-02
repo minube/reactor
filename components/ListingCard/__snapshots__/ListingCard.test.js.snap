@@ -29,6 +29,7 @@ exports[`<ListingCard> renders 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -245,6 +246,7 @@ exports[`<ListingCard> when {category} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -487,6 +489,7 @@ exports[`<ListingCard> when {children} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -686,6 +689,7 @@ exports[`<ListingCard> when {children} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -850,6 +854,7 @@ exports[`<ListingCard> when {description} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -1093,6 +1098,7 @@ exports[`<ListingCard> when {image} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -1309,6 +1315,7 @@ exports[`<ListingCard> when {rating} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -1698,6 +1705,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,
@@ -1914,6 +1922,7 @@ exports[`<ListingCard> when {title} 1`] = `
       onResponderTerminate={[Function]}
       onResponderTerminationRequest={[Function]}
       onStartShouldSetResponder={[Function]}
+      pointerEvents="none"
       style={
         Array [
           undefined,

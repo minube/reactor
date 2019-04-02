@@ -16,7 +16,7 @@ class InputList extends PureComponent {
     dataSource: arrayOf(oneOfType([string, shape({})])),
     dataSourceField: string,
     disabled: bool,
-    error: string,
+    error: oneOfType([bool, string]),
     hint: string,
     itemTemplate: func,
     label: string,

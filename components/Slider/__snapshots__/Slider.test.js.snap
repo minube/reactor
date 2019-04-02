@@ -103,6 +103,7 @@ exports[`<Slider> when {children} 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="none"
         style={
           Array [
             undefined,
@@ -317,6 +318,7 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -539,6 +541,7 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -784,6 +787,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -1006,6 +1010,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -1553,6 +1558,7 @@ exports[`<Slider> when {snap=false} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -1775,6 +1781,7 @@ exports[`<Slider> when {snap=false} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2020,6 +2027,7 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2242,6 +2250,7 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2493,6 +2502,7 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2715,6 +2725,7 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,

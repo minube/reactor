@@ -21,7 +21,7 @@ class InputSelect extends PureComponent {
   static propTypes = {
     dataSource: arrayOf(oneOfType([string, shape({})])),
     disabled: bool,
-    error: string,
+    error: oneOfType([bool, string]),
     hint: string,
     label: string,
     onChange: func,

@@ -45,7 +45,8 @@ class ProviderTracking extends PureComponent {
     if (signup === true && signup !== props.signup) _signup(session);
   }
 
-  _signup = async ({ authorization, ...session } = {}) => {
+  _signup = async (props = {}) => {
+    const { authorization, ...session } = props;
     const { _syncEvents } = this;
     let cookie;
     let fingerprint;

@@ -3,12 +3,7 @@ import renderer from 'react-test-renderer';
 import { View } from 'react-native';
 
 import Motion from './Motion';
-
-const TIMELINE = [
-  { property: 'opacity', value: 0.75 },
-  { property: 'scale', value: 0.5 },
-  { property: 'left', value: 128 },
-];
+import MOCKS from './Motion.mocks';
 
 describe('<Motion>', () => {
   it('renders', () => {
@@ -22,22 +17,22 @@ describe('<Motion>', () => {
   });
 
   it('when {timeline}', () => {
-    const tree = renderer.create(<Motion timeline={TIMELINE} />).toJSON();
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {delay}', () => {
-    const tree = renderer.create(<Motion timeline={TIMELINE} delay={1000} />).toJSON();
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} delay={1000} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {disabled}', () => {
-    const tree = renderer.create(<Motion timeline={TIMELINE} disabled />).toJSON();
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} disabled />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {duration}', () => {
-    const tree = renderer.create(<Motion timeline={TIMELINE} duration={1000} />).toJSON();
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} duration={1000} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -47,12 +42,17 @@ describe('<Motion>', () => {
   });
 
   it('when {type}', () => {
-    const tree = renderer.create(<Motion timeline={TIMELINE} type="timing" />).toJSON();
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} type="timing" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {style}', () => {
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} style={MOCKS.STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {useNativeDriver}', () => {
-    const tree = renderer.create(<Motion timeline={TIMELINE} useNativeDriver />).toJSON();
+    const tree = renderer.create(<Motion timeline={MOCKS.TIMELINE} useNativeDriver />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
