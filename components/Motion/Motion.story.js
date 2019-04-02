@@ -6,34 +6,22 @@ import {
 } from '@storybook/addon-knobs/react';
 
 import Motion from './Motion';
-
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', padding: 32 };
-const STYLE_VIEW = {
-  width: 128,
-  height: 128,
-  backgroundColor: 'pink',
-};
-
-const TIMELINE = [
-  { property: 'opacity', value: 0.75 },
-  { property: 'scale', value: 0.5 },
-  { property: 'left', value: 128 },
-];
+import MOCKS from './Motion.mocks';
 
 storiesOf('✅ Motion', module)
   .add('default', () => (
-    <Motion timeline={TIMELINE}>
-      <View style={STYLE_VIEW} />
+    <Motion timeline={MOCKS.TIMELINE}>
+      <View style={MOCKS.STYLE_VIEW} />
     </Motion>
   ))
   .add('preset', () => (
     <Motion preset="fade" visible={boolean('visible', false)}>
-      <View style={STYLE_VIEW} />
+      <View style={MOCKS.STYLE_VIEW} />
     </Motion>
   ))
   .add('style', () => (
-    <Motion timeline={timeline} style={STYLE}>
-      <View style={STYLE_VIEW} />
+    <Motion timeline={MOCKS.TIMELINE} style={MOCKS.STYLE}>
+      <View style={MOCKS.STYLE_VIEW} />
     </Motion>
   ))
   .add('🏀 Playground', () => (
@@ -41,13 +29,13 @@ storiesOf('✅ Motion', module)
       delay={number('delay', 0)}
       disabled={boolean('disabled', false)}
       duration={number('duration', 225)}
-      style={object('style', STYLE)}
+      style={object('style', MOCKS.STYLE)}
       preset={select('preset', [undefined, 'fade', 'fadeleft', 'pop'], undefined)}
-      timeline={object('timeline', TIMELINE)}
+      timeline={object('timeline', MOCKS.TIMELINE)}
       type={select('type', ['spring', 'timing'], 'spring')}
       useNativeDriver={boolean('useNativeDriver', true)}
       visible={boolean('visible', true)}
     >
-      <View style={STYLE_VIEW} />
+      <View style={MOCKS.STYLE_VIEW} />
     </Motion>
   ));
