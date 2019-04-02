@@ -1,5 +1,5 @@
 import {
-  bool, func, number, string,
+  bool, func, oneOfType, number, string,
 } from 'prop-types';
 import React, { Component } from 'react';
 import { TextInput, View } from 'react-native';
@@ -16,7 +16,7 @@ class Input extends Component {
   static propTypes = {
     color: string,
     disabled: bool,
-    error: string,
+    error: oneOfType([bool, string]),
     hint: string,
     icon: string,
     keyboard: string,
