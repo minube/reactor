@@ -5,7 +5,7 @@ exports[`<Icon> renders 1`] = `
   resizeMode="contain"
   source={
     Object {
-      "testUri": "../../../components/Icon/assets/close.png",
+      "testUri": "../../../components/Icon/assets/error_outline.png",
     }
   }
   style={
@@ -39,7 +39,7 @@ exports[`<Icon> when {color} (only Native) 1`] = `
       },
       undefined,
       Object {
-        "tintColor": "#d33c44",
+        "tintColor": "#10c0bc",
       },
     ]
   }
@@ -109,7 +109,7 @@ exports[`<Icon> when {style} 1`] = `
         "width": 20,
       },
       Object {
-        "backgroundColor": "#a66ecc",
+        "backgroundColor": "#10c0bc",
       },
       undefined,
     ]
@@ -117,12 +117,34 @@ exports[`<Icon> when {style} 1`] = `
 />
 `;
 
-exports[`<Icon> when {value} as uri 1`] = `
+exports[`<Icon> when {value} (as uri) 1`] = `
 <Image
   resizeMode="contain"
   source={
     Object {
       "uri": "https://api.adorable.io/avatars/48/8",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Icon> when {value} 1`] = `
+<Image
+  resizeMode="contain"
+  source={
+    Object {
+      "testUri": "../../../components/Icon/assets/close.png",
     }
   }
   style={
