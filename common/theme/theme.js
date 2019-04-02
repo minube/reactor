@@ -118,12 +118,10 @@ export default {
     XS: UNIT * 0.8,
     S: UNIT * 1.2,
     MEDIUM: UNIT * 1.6,
-
     REGULAR: UNIT * 2,
-
     L: UNIT * 2.8,
     XL: UNIT * 3.2,
-    XXL: UNIT * 60,
+    XXL: UNIT * 6,
   },
 
   STRIKETHROUGH: {

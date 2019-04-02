@@ -21,49 +21,30 @@ exports[`<Image> renders 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
@@ -93,49 +74,30 @@ exports[`<Image> when {color} (only Native) 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
@@ -165,49 +127,30 @@ exports[`<Image> when {invert} (only Web) 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
@@ -241,49 +184,30 @@ exports[`<Image> when {ratio} 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
@@ -317,49 +241,30 @@ exports[`<Image> when {responsive} 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
@@ -389,49 +294,30 @@ exports[`<Image> when {size} 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 3,
-          "height": 6,
-          "marginHorizontal": 3,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 6,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 3,
-          "height": 6,
-          "marginHorizontal": 3,
-          "opacity": 0,
-          "width": 6,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 3,
-          "height": 6,
-          "marginHorizontal": 3,
-          "opacity": 0,
-          "width": 6,
+          "width": "100%",
         }
       }
     />
@@ -465,49 +351,30 @@ exports[`<Image> when {source} 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          undefined,
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
@@ -543,49 +410,32 @@ exports[`<Image> when {style} 1`] = `
     style={
       Array [
         Object {
-          "alignItems": "center",
-          "display": "flex",
-          "flexDirection": "row",
+          "backgroundColor": "#cdd2d4",
+          "minHeight": 10,
+          "minWidth": 10,
         },
-        Object {
-          "position": "absolute",
-        },
+        Array [
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
+          Object {
+            "backgroundColor": "#a66ecc",
+          },
+        ],
       ]
     }
   >
     <View
       style={
         Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
+          "backgroundColor": "#ffffff",
+          "height": "100%",
           "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
-        }
-      }
-    />
-    <View
-      style={
-        Object {
-          "backgroundColor": "white",
-          "borderRadius": 6,
-          "height": 10,
-          "marginHorizontal": 5.454545454545454,
-          "opacity": 0,
-          "width": 10,
+          "width": "100%",
         }
       }
     />
