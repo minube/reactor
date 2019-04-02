@@ -8,12 +8,16 @@ import errorOutline from './error_outline.png';
 import facebook from './facebook.png';
 import google from './google.png';
 import left from './left.png';
+import leftOutline from './left_outline.png';
 import linkedin from './linkedin.png';
 import right from './right.png';
+import rightOutline from './right_outline.png';
 import shareContrast from './share_contrast.png';
 import twitter from './twitter.png';
 
 export default {
+  leftOutline,
+  rightOutline,
   close,
   closeContrast,
   doneContrast,

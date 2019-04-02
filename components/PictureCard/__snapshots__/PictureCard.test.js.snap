@@ -9,6 +9,7 @@ exports[`<PictureCard> renders 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -92,49 +93,45 @@ exports[`<PictureCard> renders 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -200,6 +197,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -285,49 +283,45 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -393,6 +387,7 @@ exports[`<PictureCard> when {caption} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -476,49 +471,45 @@ exports[`<PictureCard> when {caption} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -611,6 +602,7 @@ exports[`<PictureCard> when {image} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -694,49 +686,45 @@ exports[`<PictureCard> when {image} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -802,6 +790,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -885,49 +874,45 @@ exports[`<PictureCard> when {portrait} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 220,
+                },
+                false,
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -993,6 +978,7 @@ exports[`<PictureCard> when {small} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -1080,49 +1066,47 @@ exports[`<PictureCard> when {small} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                Object {
+                  "height": 100,
+                },
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -1188,6 +1172,7 @@ exports[`<PictureCard> when {style} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -1277,49 +1262,48 @@ exports[`<PictureCard> when {style} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                Object {
+                  "backgroundColor": "orange",
+                  "opacity": 0.75,
+                },
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />
@@ -1385,6 +1369,7 @@ exports[`<PictureCard> when {title} 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -1468,49 +1453,45 @@ exports[`<PictureCard> when {title} 1`] = `
         style={
           Array [
             Object {
-              "alignItems": "center",
-              "display": "flex",
-              "flexDirection": "row",
+              "backgroundColor": "#cdd2d4",
+              "minHeight": 10,
+              "minWidth": 10,
             },
-            Object {
-              "position": "absolute",
-            },
+            Array [
+              Object {
+                "height": "100%",
+                "left": 0,
+                "position": "absolute",
+                "top": 0,
+                "width": "100%",
+              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                },
+                Object {
+                  "opacity": 0.8,
+                },
+                Object {
+                  "width": 168,
+                },
+                Object {
+                  "height": 190,
+                },
+                false,
+                undefined,
+              ],
+            ],
           ]
         }
       >
         <View
           style={
             Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
+              "backgroundColor": "#ffffff",
+              "height": "100%",
               "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
-            }
-          }
-        />
-        <View
-          style={
-            Object {
-              "backgroundColor": "white",
-              "borderRadius": 6,
-              "height": 10,
-              "marginHorizontal": 5.454545454545454,
-              "opacity": 0,
-              "width": 10,
+              "width": "100%",
             }
           }
         />

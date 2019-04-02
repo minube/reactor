@@ -1,4 +1,4 @@
-import { bool, string } from 'prop-types';
+import { bool, oneOfType, string } from 'prop-types';
 import React from 'react';
 
 import { THEME } from '../../common';
@@ -31,7 +31,7 @@ const InputLabel = ({
 InputLabel.propTypes = {
   color: string,
   focus: bool,
-  error: bool,
+  error: oneOfType([bool, string]),
 };
 
 InputLabel.defaultProps = {

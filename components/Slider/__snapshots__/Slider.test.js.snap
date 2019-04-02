@@ -103,6 +103,7 @@ exports[`<Slider> when {children} 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="none"
         style={
           Array [
             undefined,
@@ -186,49 +187,45 @@ exports[`<Slider> when {children} 1`] = `
               style={
                 Array [
                   Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
+                    "backgroundColor": "#cdd2d4",
+                    "minHeight": 10,
+                    "minWidth": 10,
                   },
-                  Object {
-                    "position": "absolute",
-                  },
+                  Array [
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
+                    Array [
+                      Object {
+                        "borderRadius": 3,
+                      },
+                      Object {
+                        "opacity": 0.8,
+                      },
+                      Object {
+                        "width": 168,
+                      },
+                      Object {
+                        "height": 190,
+                      },
+                      false,
+                      undefined,
+                    ],
+                  ],
                 ]
               }
             >
               <View
                 style={
                   Object {
-                    "backgroundColor": "white",
-                    "borderRadius": 6,
-                    "height": 10,
-                    "marginHorizontal": 5.454545454545454,
+                    "backgroundColor": "#ffffff",
+                    "height": "100%",
                     "opacity": 0,
-                    "width": 10,
-                  }
-                }
-              />
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "white",
-                    "borderRadius": 6,
-                    "height": 10,
-                    "marginHorizontal": 5.454545454545454,
-                    "opacity": 0,
-                    "width": 10,
-                  }
-                }
-              />
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "white",
-                    "borderRadius": 6,
-                    "height": 10,
-                    "marginHorizontal": 5.454545454545454,
-                    "opacity": 0,
-                    "width": 10,
+                    "width": "100%",
                   }
                 }
               />
@@ -321,6 +318,7 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -404,49 +402,45 @@ exports[`<Slider> when {dataSource} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -547,6 +541,7 @@ exports[`<Slider> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -630,49 +625,45 @@ exports[`<Slider> when {dataSource} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -796,6 +787,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -879,49 +871,45 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -1022,6 +1010,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -1105,49 +1094,45 @@ exports[`<Slider> when {itemMargin} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -1573,6 +1558,7 @@ exports[`<Slider> when {snap=false} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -1656,49 +1642,45 @@ exports[`<Slider> when {snap=false} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -1799,6 +1781,7 @@ exports[`<Slider> when {snap=false} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -1882,49 +1865,45 @@ exports[`<Slider> when {snap=false} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -2048,6 +2027,7 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2131,49 +2111,45 @@ exports[`<Slider> when {steps} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -2274,6 +2250,7 @@ exports[`<Slider> when {steps} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2357,49 +2334,45 @@ exports[`<Slider> when {steps} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -2529,6 +2502,7 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2612,49 +2586,45 @@ exports[`<Slider> when {style} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />
@@ -2755,6 +2725,7 @@ exports[`<Slider> when {style} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -2838,49 +2809,45 @@ exports[`<Slider> when {style} 1`] = `
                 style={
                   Array [
                     Object {
-                      "alignItems": "center",
-                      "display": "flex",
-                      "flexDirection": "row",
+                      "backgroundColor": "#cdd2d4",
+                      "minHeight": 10,
+                      "minWidth": 10,
                     },
-                    Object {
-                      "position": "absolute",
-                    },
+                    Array [
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "width": "100%",
+                      },
+                      Array [
+                        Object {
+                          "borderRadius": 3,
+                        },
+                        Object {
+                          "opacity": 0.8,
+                        },
+                        Object {
+                          "width": 168,
+                        },
+                        Object {
+                          "height": 190,
+                        },
+                        false,
+                        undefined,
+                      ],
+                    ],
                   ]
                 }
               >
                 <View
                   style={
                     Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
+                      "backgroundColor": "#ffffff",
+                      "height": "100%",
                       "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
-                    }
-                  }
-                />
-                <View
-                  style={
-                    Object {
-                      "backgroundColor": "white",
-                      "borderRadius": 6,
-                      "height": 10,
-                      "marginHorizontal": 5.454545454545454,
-                      "opacity": 0,
-                      "width": 10,
+                      "width": "100%",
                     }
                   }
                 />

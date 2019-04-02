@@ -5,12 +5,16 @@ import { LAYOUT, THEME } from '../../common';
 const { COLOR } = THEME;
 
 export default StyleSheet.create({
-  activity: {
-    position: 'absolute',
-  },
-
   container: {
     ...LAYOUT.STYLE.CENTERED,
     backgroundColor: COLOR.BACKGROUND,
+  },
+
+  skeleton: {
+    position: 'absolute',
+    left: 0,
+    top: 0,
+    width: '100%',
+    height: '100%',
   },
 });

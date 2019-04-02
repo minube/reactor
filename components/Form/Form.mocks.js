@@ -29,14 +29,14 @@ const ATTRIBUTES = {
   role: {
     required: true,
     type: 'select',
-    defaultValue: 'backend',
+    defaultValue: DATASOURCE_STRING[2],
     dataSource: DATASOURCE_STRING,
     inline: 2,
   },
   roleAdvanced: {
     required: true,
     type: 'select',
-    defaultValue: 1,
+    defaultValue: 2,
     dataSource: DATASOURCE,
     inline: 2,
   },

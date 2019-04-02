@@ -10,6 +10,7 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     marginVertical: SPACE.XXS,
+    marginBottom: SPACE.S,
   },
 
   box: {

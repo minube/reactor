@@ -136,7 +136,6 @@ exports[`<Form> when {attributes} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            defaultValue="soyjavi"
             editable={false}
             keyboardType="default"
             multiline={false}
@@ -261,7 +260,6 @@ exports[`<Form> when {attributes} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            defaultValue="soyjavi"
             editable={true}
             keyboardType="default"
             multiline={false}
@@ -614,7 +612,6 @@ exports[`<Form> when {attributes} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            countryCode={true}
             editable={true}
             keyboardType="phone-pad"
             multiline={false}
@@ -910,7 +907,7 @@ exports[`<Form> when {attributes} 1`] = `
               onChange={[Function]}
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
-              selectedIndex={0}
+              selectedIndex={2}
               style={
                 Array [
                   Object {
@@ -1159,6 +1156,7 @@ exports[`<Form> when {attributes} 1`] = `
                 onResponderTerminate={[Function]}
                 onResponderTerminationRequest={[Function]}
                 onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
                     undefined,
@@ -1290,7 +1288,7 @@ exports[`<Form> when {attributes} 1`] = `
                     ]
                   }
                 >
-                  two
+                  three
                 </Text>
                 <Text
                   accessible={true}
@@ -1421,6 +1419,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -1645,6 +1644,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -1679,20 +1679,17 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "borderRadius": 10,
                         },
-                        Object {
-                          "backgroundColor": "#10c0bc",
-                          "borderColor": "#10c0bc",
-                        },
+                        false,
                       ]
                     }
                   >
                     <View
                       style={
                         Object {
-                          "opacity": 1,
+                          "opacity": 0,
                           "transform": Array [
                             Object {
-                              "scale": 1,
+                              "scale": 0,
                             },
                           ],
                         }
@@ -1872,6 +1869,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -1906,17 +1904,20 @@ exports[`<Form> when {attributes} 1`] = `
                         Object {
                           "borderRadius": 10,
                         },
-                        false,
+                        Object {
+                          "backgroundColor": "#10c0bc",
+                          "borderColor": "#10c0bc",
+                        },
                       ]
                     }
                   >
                     <View
                       style={
                         Object {
-                          "opacity": 0,
+                          "opacity": 1,
                           "transform": Array [
                             Object {
-                              "scale": 0,
+                              "scale": 1,
                             },
                           ],
                         }
@@ -2096,6 +2097,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2320,6 +2322,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2544,6 +2547,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2768,6 +2772,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2992,6 +2997,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -3216,6 +3222,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -3440,6 +3447,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -3687,49 +3695,35 @@ exports[`<Form> when {attributes} 1`] = `
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
+                  "backgroundColor": "#cdd2d4",
+                  "minHeight": 10,
+                  "minWidth": 10,
                 },
-                Object {
-                  "position": "absolute",
-                },
+                Array [
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  },
+                  Object {
+                    "backgroundColor": "#cdd2d4",
+                    "borderRadius": 3,
+                    "height": 44,
+                    "width": 44,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
                 Object {
-                  "backgroundColor": "white",
-                  "borderRadius": 6,
-                  "height": 10,
-                  "marginHorizontal": 5.454545454545454,
+                  "backgroundColor": "#ffffff",
+                  "height": "100%",
                   "opacity": 0,
-                  "width": 10,
-                }
-              }
-            />
-            <View
-              style={
-                Object {
-                  "backgroundColor": "white",
-                  "borderRadius": 6,
-                  "height": 10,
-                  "marginHorizontal": 5.454545454545454,
-                  "opacity": 0,
-                  "width": 10,
-                }
-              }
-            />
-            <View
-              style={
-                Object {
-                  "backgroundColor": "white",
-                  "borderRadius": 6,
-                  "height": 10,
-                  "marginHorizontal": 5.454545454545454,
-                  "opacity": 0,
-                  "width": 10,
+                  "width": "100%",
                 }
               }
             />
@@ -3806,7 +3800,6 @@ exports[`<Form> when {attributes} 1`] = `
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
-              defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
               editable={true}
               keyboardType="default"
               multiline={false}
@@ -5633,7 +5626,6 @@ exports[`<Form> when {value} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            defaultValue="soyjavi"
             editable={false}
             keyboardType="default"
             multiline={false}
@@ -5758,7 +5750,6 @@ exports[`<Form> when {value} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            defaultValue="soyjavi"
             editable={true}
             keyboardType="default"
             multiline={false}
@@ -6111,7 +6102,6 @@ exports[`<Form> when {value} 1`] = `
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
-            countryCode={true}
             editable={true}
             keyboardType="phone-pad"
             multiline={false}
@@ -6407,7 +6397,7 @@ exports[`<Form> when {value} 1`] = `
               onChange={[Function]}
               onResponderTerminationRequest={[Function]}
               onStartShouldSetResponder={[Function]}
-              selectedIndex={0}
+              selectedIndex={2}
               style={
                 Array [
                   Object {
@@ -6656,6 +6646,7 @@ exports[`<Form> when {value} 1`] = `
                 onResponderTerminate={[Function]}
                 onResponderTerminationRequest={[Function]}
                 onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
                     undefined,
@@ -6787,7 +6778,7 @@ exports[`<Form> when {value} 1`] = `
                     ]
                   }
                 >
-                  two
+                  three
                 </Text>
                 <Text
                   accessible={true}
@@ -6918,6 +6909,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7142,6 +7134,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7176,20 +7169,17 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "borderRadius": 10,
                         },
-                        Object {
-                          "backgroundColor": "#10c0bc",
-                          "borderColor": "#10c0bc",
-                        },
+                        false,
                       ]
                     }
                   >
                     <View
                       style={
                         Object {
-                          "opacity": 1,
+                          "opacity": 0,
                           "transform": Array [
                             Object {
-                              "scale": 1,
+                              "scale": 0,
                             },
                           ],
                         }
@@ -7369,6 +7359,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7403,17 +7394,20 @@ exports[`<Form> when {value} 1`] = `
                         Object {
                           "borderRadius": 10,
                         },
-                        false,
+                        Object {
+                          "backgroundColor": "#10c0bc",
+                          "borderColor": "#10c0bc",
+                        },
                       ]
                     }
                   >
                     <View
                       style={
                         Object {
-                          "opacity": 0,
+                          "opacity": 1,
                           "transform": Array [
                             Object {
-                              "scale": 0,
+                              "scale": 1,
                             },
                           ],
                         }
@@ -7593,6 +7587,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7817,6 +7812,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8041,6 +8037,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8265,6 +8262,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8489,6 +8487,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8713,6 +8712,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8937,6 +8937,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -9184,49 +9185,35 @@ exports[`<Form> when {value} 1`] = `
             style={
               Array [
                 Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
+                  "backgroundColor": "#cdd2d4",
+                  "minHeight": 10,
+                  "minWidth": 10,
                 },
-                Object {
-                  "position": "absolute",
-                },
+                Array [
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  },
+                  Object {
+                    "backgroundColor": "#cdd2d4",
+                    "borderRadius": 3,
+                    "height": 44,
+                    "width": 44,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
                 Object {
-                  "backgroundColor": "white",
-                  "borderRadius": 6,
-                  "height": 10,
-                  "marginHorizontal": 5.454545454545454,
+                  "backgroundColor": "#ffffff",
+                  "height": "100%",
                   "opacity": 0,
-                  "width": 10,
-                }
-              }
-            />
-            <View
-              style={
-                Object {
-                  "backgroundColor": "white",
-                  "borderRadius": 6,
-                  "height": 10,
-                  "marginHorizontal": 5.454545454545454,
-                  "opacity": 0,
-                  "width": 10,
-                }
-              }
-            />
-            <View
-              style={
-                Object {
-                  "backgroundColor": "white",
-                  "borderRadius": 6,
-                  "height": 10,
-                  "marginHorizontal": 5.454545454545454,
-                  "opacity": 0,
-                  "width": 10,
+                  "width": "100%",
                 }
               }
             />
@@ -9303,7 +9290,6 @@ exports[`<Form> when {value} 1`] = `
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
-              defaultValue="http://soyjavi.com/assets/images/soyjavi.jpg"
               editable={true}
               keyboardType="default"
               multiline={false}

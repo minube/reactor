@@ -5,6 +5,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import Text from '../../Text';
+import Icon from '../../Icon';
 import Touchable from '../../Touchable';
 import styles from './Selector.style';
 
@@ -13,17 +14,13 @@ const Selector = ({
 }) => (
   <View style={styles.container}>
     <Touchable onPress={onPrevious} style={[styles.touchable, !onPrevious && styles.touchableDisabled]}>
-      <Text>
-        {'◀'}
-      </Text>
+      <Icon value="leftOutline" />
     </Touchable>
     <Text headline level={6} style={styles.value}>
       {`${locale[state.month]} ${state.year}`}
     </Text>
     <Touchable onPress={onNext} style={styles.touchable}>
-      <Text>
-        {'▶'}
-      </Text>
+      <Icon value="rightOutline" />
     </Touchable>
   </View>
 );

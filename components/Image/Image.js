@@ -2,7 +2,7 @@ import { bool, number } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { Image as ImageNative, View } from 'react-native';
 
-import Activity from '../Activity';
+import Skeleton from '../Skeleton';
 import styles from './Image.style';
 import resizeWithAkamai from './modules/resizeWithAkamai';
 
@@ -45,7 +45,7 @@ class Image extends PureComponent {
           source={uri ? { uri } : undefined}
           onLoad={_onLoad}
         />
-        { !ready && <Activity color="white" size={inherit.size || 'large'} style={styles.activity} /> }
+        { !ready && <Skeleton style={[styles.skeleton, inherit.style]} /> }
       </View>
     );
   }

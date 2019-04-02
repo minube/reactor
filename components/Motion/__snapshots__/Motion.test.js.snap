@@ -67,6 +67,24 @@ exports[`<Motion> when {preset} 1`] = `
 />
 `;
 
+exports[`<Motion> when {style} 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#10c0bc",
+      "left": 128,
+      "opacity": 0.75,
+      "padding": 32,
+      "transform": Array [
+        Object {
+          "scale": 0.5,
+        },
+      ],
+    }
+  }
+/>
+`;
+
 exports[`<Motion> when {timeline} 1`] = `
 <View
   style={
