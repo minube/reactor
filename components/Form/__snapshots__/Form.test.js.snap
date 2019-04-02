@@ -1159,6 +1159,7 @@ exports[`<Form> when {attributes} 1`] = `
                 onResponderTerminate={[Function]}
                 onResponderTerminationRequest={[Function]}
                 onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
                     undefined,
@@ -1421,6 +1422,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -1645,6 +1647,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -1872,6 +1875,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2096,6 +2100,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2320,6 +2325,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2544,6 +2550,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2768,6 +2775,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -2992,6 +3000,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -3216,6 +3225,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -3440,6 +3450,7 @@ exports[`<Form> when {attributes} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -6642,6 +6653,7 @@ exports[`<Form> when {value} 1`] = `
                 onResponderTerminate={[Function]}
                 onResponderTerminationRequest={[Function]}
                 onStartShouldSetResponder={[Function]}
+                pointerEvents="none"
                 style={
                   Array [
                     undefined,
@@ -6904,6 +6916,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7128,6 +7141,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7355,6 +7369,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7579,6 +7594,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -7803,6 +7819,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8027,6 +8044,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8251,6 +8269,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8475,6 +8494,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8699,6 +8719,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,
@@ -8923,6 +8944,7 @@ exports[`<Form> when {value} 1`] = `
                   onResponderTerminate={[Function]}
                   onResponderTerminationRequest={[Function]}
                   onStartShouldSetResponder={[Function]}
+                  pointerEvents="none"
                   style={
                     Array [
                       undefined,

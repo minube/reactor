@@ -23547,6 +23547,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="none"
         style={
           Array [
             undefined,

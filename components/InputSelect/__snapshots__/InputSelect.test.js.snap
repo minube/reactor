@@ -467,6 +467,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -727,6 +728,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -954,6 +956,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -1178,6 +1181,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -1402,6 +1406,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -1626,6 +1631,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -1850,6 +1856,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -2074,6 +2081,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -2298,6 +2306,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -2522,6 +2531,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -2746,6 +2756,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -3513,6 +3524,7 @@ exports[`<InputSelect> when {value} 1`] = `
           onResponderTerminate={[Function]}
           onResponderTerminationRequest={[Function]}
           onStartShouldSetResponder={[Function]}
+          pointerEvents="none"
           style={
             Array [
               undefined,
@@ -3773,6 +3785,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -3997,6 +4010,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -4221,6 +4235,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -4445,6 +4460,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -4672,6 +4688,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -4896,6 +4913,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -5120,6 +5138,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -5344,6 +5363,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -5568,6 +5588,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -5792,6 +5813,7 @@ exports[`<InputSelect> when {value} 1`] = `
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
                 undefined,
