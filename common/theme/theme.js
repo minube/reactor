@@ -95,10 +95,6 @@ export default {
       fontFamily: FAMILY,
       fontWeight: WEIGHT.REGULAR,
     },
-    FORM: {
-      fontFamily: FAMILY,
-      fontWeight: WEIGHT.REGULAR,
-    },
     WEIGHT,
   },
 

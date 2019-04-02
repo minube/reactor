@@ -6,7 +6,7 @@ import { ConsumerTheme } from '../../context';
 import styles from './Text.style';
 
 const determineStyle = ({
-  body, caption, form, headline, subtitle, level,
+  body, caption, input, headline, subtitle, level,
 }) => {
   if (headline && level === 0) return styles.headline0;
   if (headline && level === 1) return styles.headline1;
@@ -26,14 +26,14 @@ const determineStyle = ({
   if (body && level === 2) return styles.body2;
   if (body && level === 3) return styles.body3;
 
-  if (form) return styles.form;
+  if (input) return styles.input;
 
   return styles.body1;
 };
 
 const Text = ({
   lighten, color,
-  body, caption, form, headline, subtitle, level,
+  body, caption, input, headline, subtitle, level,
   ...inherit
 }) => (
   <ConsumerTheme>
@@ -43,7 +43,7 @@ const Text = ({
         style={[
           styles.container,
           determineStyle({
-            body, caption, form, headline, subtitle, level,
+            body, caption, input, headline, subtitle, level,
           }),
           lighten && styles.lighten,
           // -- flatten
@@ -62,7 +62,7 @@ Text.propTypes = {
   body: bool,
   caption: bool,
   color: string,
-  form: bool,
+  input: bool,
   headline: bool,
   subtitle: bool,
   lighten: bool,
@@ -73,7 +73,7 @@ Text.defaultProps = {
   body: true,
   caption: false,
   color: undefined,
-  form: false,
+  input: false,
   headline: false,
   subtitle: false,
   lighten: false,

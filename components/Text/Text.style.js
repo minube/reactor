@@ -5,7 +5,7 @@ import { THEME } from '../../common';
 const {
   COLOR, UNIT,
   FONT: {
-    HEADLINE, SUBTITLE, DEFAULT, CAPTION, FORM,
+    HEADLINE, SUBTITLE, DEFAULT, CAPTION, INPUT,
   },
 } = THEME;
 
@@ -52,7 +52,7 @@ export default StyleSheet.create({
   caption1: { ...CAPTION, fontSize: UNIT * 1.4, lineHeight: UNIT * 1.8 },
   caption2: { ...CAPTION, fontSize: UNIT * 1.2, lineHeight: UNIT * 1.6 },
 
-  form: { ...FORM, fontSize: UNIT * 1.6, lineHeight: UNIT * 2 },
+  input: { ...INPUT, fontSize: UNIT * 1.6, lineHeight: UNIT * 2 },
 
   lighten: { color: COLOR.TEXT_LIGHTEN },
 });
