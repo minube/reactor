@@ -2,11 +2,9 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import Dialog from './Dialog';
-import Text from '../Text';
+import MOCKS from './Dialog.mocks';
 
 const EVENT = () => {};
-
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
 
 describe('<Dialog>', () => {
   it('renders', () => {
@@ -25,12 +23,12 @@ describe('<Dialog>', () => {
   });
 
   it('when {title}', () => {
-    const tree = renderer.create(<Dialog title="Hello world" />).toJSON();
+    const tree = renderer.create(<Dialog title={MOCKS.TITLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {children}', () => {
-    const tree = renderer.create(<Dialog><Text>Hello World</Text></Dialog>).toJSON();
+    const tree = renderer.create(<Dialog>{MOCKS.CHILDREN}</Dialog>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -40,12 +38,12 @@ describe('<Dialog>', () => {
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Dialog style={STYLE} />).toJSON();
+    const tree = renderer.create(<Dialog style={MOCKS.STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {styleContainer}', () => {
-    const tree = renderer.create(<Dialog styleContainer={STYLE} />).toJSON();
+    const tree = renderer.create(<Dialog styleContainer={MOCKS.STYLE_CONTAINER} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -56,7 +54,7 @@ describe('<Dialog>', () => {
   });
 
   it('when {highlight}', () => {
-    const tree = renderer.create(<Dialog title="Hello world" onClose={EVENT} highlight />).toJSON();
+    const tree = renderer.create(<Dialog title={MOCKS.TITLE} onClose={EVENT} highlight />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

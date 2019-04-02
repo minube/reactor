@@ -68,7 +68,7 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#f00",
+        "backgroundColor": "#a66ecc",
         "borderRadius": 3,
         "height": 6,
         "marginHorizontal": 3,
@@ -80,7 +80,7 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#f00",
+        "backgroundColor": "#a66ecc",
         "borderRadius": 3,
         "height": 6,
         "marginHorizontal": 3,
@@ -92,7 +92,7 @@ exports[`<Activity> when {color} 1`] = `
   <View
     style={
       Object {
-        "backgroundColor": "#f00",
+        "backgroundColor": "#a66ecc",
         "borderRadius": 3,
         "height": 6,
         "marginHorizontal": 3,
@@ -166,7 +166,8 @@ exports[`<Activity> when {style} 1`] = `
         "flexDirection": "row",
       },
       Object {
-        "backgroundColor": "rgba(0,255,0,0.25)",
+        "backgroundColor": "#10c0bc",
+        "padding": 20,
       },
     ]
   }

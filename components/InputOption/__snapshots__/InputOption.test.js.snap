@@ -9,6 +9,7 @@ exports[`<InputOption> inherity:style 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -124,6 +125,7 @@ exports[`<InputOption> label 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -268,6 +270,7 @@ exports[`<InputOption> renders 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -380,6 +383,7 @@ exports[`<InputOption> rounded (false) 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,
@@ -490,6 +494,7 @@ exports[`<InputOption> value 1`] = `
   onResponderTerminate={[Function]}
   onResponderTerminationRequest={[Function]}
   onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
   style={
     Array [
       undefined,

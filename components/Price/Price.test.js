@@ -3,9 +3,7 @@ import renderer from 'react-test-renderer';
 
 import { THEME } from '../../common';
 import Price from './Price';
-
-const STYLE = { fontWeight: '800', fontSize: 32, color: 'green' };
-const PROPS = { value: 6995.123456 };
+import MOCKS from './Price.mocks';
 
 describe('<Price>', () => {
   it('renders', () => {
@@ -14,47 +12,47 @@ describe('<Price>', () => {
   });
 
   it('when {value}', () => {
-    const tree = renderer.create(<Price {...PROPS} />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {locale} (es-ES)', () => {
-    const tree = renderer.create(<Price {...PROPS} locale="es-ES" />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} locale={MOCKS.LOCALE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {fixed} (4)', () => {
-    const tree = renderer.create(<Price {...PROPS} fixed={4} />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} fixed={MOCKS.FIXED} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {fixed} (0)', () => {
-    const tree = renderer.create(<Price {...PROPS} fixed={0} />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} fixed={MOCKS.FIXED_NULL} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {symbol} (left)', () => {
-    const tree = renderer.create(<Price {...PROPS} symbol="$" />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} symbol={MOCKS.SYMBOL_$} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {symbol} (right)', () => {
-    const tree = renderer.create(<Price {...PROPS} symbol="eur" />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} symbol={MOCKS.SYMBOL_EUR} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {title}', () => {
-    const tree = renderer.create(<Price {...PROPS} title="from" />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} title={MOCKS.TITLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('inject <Text> properties', () => {
-    const tree = renderer.create(<Price {...PROPS} headline={false} subtitle level={2} symbol="eur" />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} {...MOCKS.TEXT_PROPS} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {style}', () => {
-    const tree = renderer.create(<Price {...PROPS} style={STYLE} />).toJSON();
+    const tree = renderer.create(<Price value={MOCKS.VALUE} style={MOCKS.STYLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

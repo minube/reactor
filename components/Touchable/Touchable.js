@@ -139,7 +139,10 @@ class Touchable extends PureComponent {
 
     return (
       <TouchableWithoutFeedback {...events}>
-        <View style={[styles.container, inherit.style]} pointerEvents={onPress ? 'box-only' : undefined}>
+        <View
+          pointerEvents={onPress ? 'box-only' : 'none'}
+          style={[styles.container, inherit.style]}
+        >
           {children}
           <View style={[styles.ripples, containerBorderRadius && { borderRadius: containerBorderRadius }]}>
             { ripples.map(props => <Ripple color={rippleColor} {...props} />)}

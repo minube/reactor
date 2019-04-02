@@ -373,7 +373,7 @@ exports[`<Dialog> when {children} 1`] = `
                     ]
                   }
                 >
-                  Hello World
+                  lorem ipsum...
                 </Text>
               </View>
             </RCTScrollView>
@@ -514,7 +514,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                   ]
                 }
               >
-                Hello world
+                Lorem ipsum...
               </Text>
               <View>
                 <View
@@ -1121,7 +1121,7 @@ exports[`<Dialog> when {style} 1`] = `
                   "shadowRadius": 24,
                 },
                 Object {
-                  "backgroundColor": "rgba(0,255,0,0.25)",
+                  "backgroundColor": "#10c0bc",
                 },
               ]
             }
@@ -1186,7 +1186,8 @@ exports[`<Dialog> when {styleContainer} 1`] = `
           "backgroundColor": "rgba(0,0,0,0.5)",
         },
         Object {
-          "backgroundColor": "rgba(0,255,0,0.25)",
+          "backgroundColor": "#a66ecc",
+          "height": "50%",
         },
       ]
     }
@@ -1408,7 +1409,7 @@ exports[`<Dialog> when {title} 1`] = `
                   ]
                 }
               >
-                Hello world
+                Lorem ipsum...
               </Text>
             </View>
             <RCTScrollView

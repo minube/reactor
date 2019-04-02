@@ -55,9 +55,7 @@ exports[`<Calendar> renders 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -155,9 +153,7 @@ exports[`<Calendar> renders 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -4183,9 +4179,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -4283,9 +4277,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -7084,9 +7076,7 @@ exports[`<Calendar> when {busy} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -7184,9 +7174,7 @@ exports[`<Calendar> when {busy} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -11212,9 +11200,7 @@ exports[`<Calendar> when {captions} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -11312,9 +11298,7 @@ exports[`<Calendar> when {captions} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -15340,9 +15324,7 @@ exports[`<Calendar> when {date} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -15440,9 +15422,7 @@ exports[`<Calendar> when {date} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -19462,9 +19442,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -19562,9 +19540,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -23571,6 +23547,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         onResponderTerminate={[Function]}
         onResponderTerminationRequest={[Function]}
         onStartShouldSetResponder={[Function]}
+        pointerEvents="none"
         style={
           Array [
             undefined,
@@ -23590,9 +23567,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -23690,9 +23665,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -27192,9 +27165,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -27292,9 +27263,7 @@ exports[`<Calendar> when {edges=false} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -31296,9 +31265,7 @@ exports[`<Calendar> when {locale} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -31396,9 +31363,7 @@ exports[`<Calendar> when {locale} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -35427,9 +35392,7 @@ exports[`<Calendar> when {style} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -35527,9 +35490,7 @@ exports[`<Calendar> when {style} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -39555,9 +39516,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -39655,9 +39614,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
@@ -43791,9 +43748,7 @@ exports[`<Calendar> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/back.png",
-              },
+              "testUri": "../../../components/Icon/assets/left_outline.png",
             }
           }
           style={
@@ -43891,9 +43846,7 @@ exports[`<Calendar> when {value} 1`] = `
           resizeMode="contain"
           source={
             Object {
-              "uri": Object {
-                "testUri": "../../../components/Icon/assets/forward.png",
-              },
+              "testUri": "../../../components/Icon/assets/right_outline.png",
             }
           }
           style={
