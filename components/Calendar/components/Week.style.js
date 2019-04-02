@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../../common';
 
-const { COLOR, STRIKETHROUGH, UNIT } = THEME;
+const { COLOR, UNIT } = THEME;
 const BOX_SIZE = UNIT * 4;
 
 export { BOX_SIZE };
@@ -20,24 +20,12 @@ export default StyleSheet.create({
   },
 
   boxSelected: {
-    borderRadius: 0,
     backgroundColor: COLOR.PRIMARY,
   },
 
   boxSelectedToday: {
-    borderColor: COLOR.TEXT_LIGHT_GREY,
-    borderRadius: BOX_SIZE / 2,
+    borderColor: COLOR.TEXT,
     borderWidth: 1,
-  },
-
-  boxSelectedStart: {
-    borderTopLeftRadius: BOX_SIZE / 2,
-    borderBottomLeftRadius: BOX_SIZE / 2,
-  },
-
-  boxSelectedEnd: {
-    borderTopRightRadius: BOX_SIZE / 2,
-    borderBottomRightRadius: BOX_SIZE / 2,
   },
 
   caption: {
@@ -54,22 +42,27 @@ export default StyleSheet.create({
     marginVertical: UNIT / 10, // @TODO: Design System doesn't have this SPACE
   },
 
+  text: {
+    position: 'absolute',
+  },
+
   textDisabled: {
-    color: COLOR.TEXT_LIGHTEN,
+    color: COLOR.TEXT_LIGHT_GREY,
   },
 
   textHighlight: {
     color: COLOR.WHITE,
   },
 
-  textOutOfMonth: {
-    color: COLOR.TEXT_LIGHTEN,
+  viel: {
+    backgroundColor: COLOR.PRIMARY,
+    height: UNIT * 4,
+    width: UNIT * 4,
+    opacity: 0.2,
+    position: 'absolute',
   },
 
-  textStrikethrough: {
-    ...STRIKETHROUGH,
-    borderBottomColor: COLOR.TEXT_LIGHT_GREY,
-    width: UNIT * 2.4,
-    opacity: 0.6,
+  vielDisabled: {
+    backgroundColor: COLOR.TEXT_LIGHT_GREY,
   },
 });
