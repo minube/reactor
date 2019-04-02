@@ -4,10 +4,7 @@ import { action } from '@storybook/addon-actions';
 import { text, boolean, object } from '@storybook/addon-knobs/react';
 
 import Dialog from './Dialog';
-import Text from '../Text';
-
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)' };
-const STYLE_CONTAINER = { backgroundColor: 'rgba(0,255,0,0.25)', height: '50%' };
+import MOCKS from './Dialog.mocks';
 
 storiesOf('✅ Dialog', module)
   .add('default', () => (
@@ -20,30 +17,28 @@ storiesOf('✅ Dialog', module)
     <Dialog background={false} visible />
   ))
   .add('title', () => (
-    <Dialog title="Hello world" visible />
+    <Dialog title={MOCKS.TITLE} visible />
   ))
   .add('highlight', () => (
-    <Dialog highlight title="Hello world" visible style={STYLE} />
+    <Dialog highlight title={MOCKS.TITLE} visible style={MOCKS.STYLE} />
   ))
   .add('children', () => (
-    <Dialog title="Hello world" visible>
-      <Text>lorem ipsum...</Text>
-    </Dialog>
+    <Dialog title={MOCKS.TITLE} visible>{MOCKS.CHILDREN}</Dialog>
   ))
   .add('reverse', () => (
     <Dialog reverse visible />
   ))
   .add('⚡ onClose', () => (
-    <Dialog title="Hello world" onClose={action('Dialog.onClose()')} visible />
+    <Dialog title={MOCKS.TITLE} onClose={action('Dialog.onClose()')} visible />
   ))
   .add('⚡ onClose + highlight', () => (
-    <Dialog title="Hello world" highlight onClose={action('Dialog.onClose()')} visible style={STYLE} />
+    <Dialog title={MOCKS.TITLE} highlight onClose={action('Dialog.onClose()')} visible style={MOCKS.STYLE} />
   ))
   .add('style', () => (
-    <Dialog title="Hello world" style={STYLE} visible />
+    <Dialog title={MOCKS.TITLE} style={MOCKS.STYLE} visible />
   ))
   .add('styleContainer', () => (
-    <Dialog title="Hello world" styleContainer={STYLE_CONTAINER} visible />
+    <Dialog title={MOCKS.TITLE} styleContainer={MOCKS.STYLE_CONTAINER} visible />
   ))
   .add('🏀 Playground', () => (
     <Dialog
@@ -52,10 +47,10 @@ storiesOf('✅ Dialog', module)
       reverse={boolean('reverse', false)}
       onClose={action('Dialog.onClose()')}
       onSubmit={action('Dialog.onSubmit()')}
-      title={text('title', 'Title')}
+      title={text('title', MOCKS.TITLE)}
       visible={boolean('visible', true)}
-      style={object('style', STYLE)}
-      styleContainer={object('styleContainer', STYLE_CONTAINER)}
+      style={object('style', MOCKS.STYLE)}
+      styleContainer={object('styleContainer', MOCKS.STYLE_CONTAINER)}
     >
       <Text>Example of children</Text>
     </Dialog>
