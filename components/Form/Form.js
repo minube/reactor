@@ -109,9 +109,12 @@ class Form extends PureComponent {
   }
 
   renderField = ({
-    field, props: {
-      inline, required, style, type, ...props
-    } = {}, value = props.defaultValue, keyMap,
+    field,
+    props: {
+      countryCode, defaultValue, inline, required, style, type, ...props
+    } = {},
+    value = defaultValue,
+    keyMap,
   }) => {
     const { _onChange, props: { color } } = this;
     let error;
@@ -119,7 +122,7 @@ class Form extends PureComponent {
       && ((!type && value && value.trim().length === 0) || !value);
 
     if (Object.keys(KEYBOARDS).includes(props.keyboard)) {
-      if (!KEYBOARDS[props.keyboard](value, props)) {
+      if (!KEYBOARDS[props.keyboard](value, { countryCode })) {
         error = 'error';
         invalid = true;
       }
