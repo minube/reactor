@@ -20,7 +20,9 @@ export default class Activity extends PureComponent {
 
   mounted = true;
 
-  targetOpacity = 1;
+  target = {
+    opacity: 1,
+  };
 
   state = {
     opacities: [new Animated.Value(0), new Animated.Value(0), new Animated.Value(0)],
@@ -36,20 +38,17 @@ export default class Activity extends PureComponent {
 
   animate = (initialDot) => {
     if (!this.mounted) return;
-    const { animate, state: { opacities } } = this;
-    const min = 0;
-    const max = 1;
-    let { targetOpacity } = this;
+    const { animate, target, state: { opacities } } = this;
     let dot = initialDot;
 
     if (dot >= opacities.length) {
       dot = 0;
-      targetOpacity = targetOpacity === min ? max : min;
+      target.opacity = target.opacity === 0 ? 1 : 0;
     }
 
     const nextDot = dot + 1;
     Animated.timing(opacities[dot], {
-      toValue: targetOpacity,
+      toValue: target.opacity,
       duration: DURATION,
     }).start(() => animate(nextDot));
   }
