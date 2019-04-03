@@ -17,6 +17,8 @@ export default StyleSheet.create({
 
   container: {
     backgroundColor: COLOR.BACKGROUND,
+    borderBottomWidth: 4,
+    borderColor: COLOR.PRIMARY,
     paddingHorizontal: SPACE.MEDIUM,
     paddingVertical: SPACE.XS,
     justifyContent: 'center',
