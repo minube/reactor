@@ -26,5 +26,6 @@ export default StyleSheet.create({
 
   days: {
     paddingHorizontal: SPACE.MEDIUM,
+    paddingVertical: SPACE.S,
   },
 });
