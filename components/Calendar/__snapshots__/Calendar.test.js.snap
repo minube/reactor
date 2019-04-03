@@ -6,8 +6,6 @@ exports[`<Calendar> renders 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -205,7 +203,6 @@ exports[`<Calendar> renders 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -4704,8 +4701,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -4903,7 +4898,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -7722,8 +7716,6 @@ exports[`<Calendar> when {busy} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -7978,7 +7970,6 @@ exports[`<Calendar> when {busy} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -12477,8 +12468,6 @@ exports[`<Calendar> when {captions} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -12676,7 +12665,6 @@ exports[`<Calendar> when {captions} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -17175,8 +17163,6 @@ exports[`<Calendar> when {date} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -17374,7 +17360,6 @@ exports[`<Calendar> when {date} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -21870,8 +21855,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -22069,7 +22052,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -26568,8 +26550,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -26768,7 +26748,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -30587,8 +30566,6 @@ exports[`<Calendar> when {edges=false} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -30786,7 +30763,6 @@ exports[`<Calendar> when {edges=false} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -35285,8 +35261,6 @@ exports[`<Calendar> when {locale} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -35484,7 +35458,6 @@ exports[`<Calendar> when {locale} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -39983,8 +39956,6 @@ exports[`<Calendar> when {style} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -40185,7 +40156,6 @@ exports[`<Calendar> when {style} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -44684,8 +44654,6 @@ exports[`<Calendar> when {value} & {range} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -44883,7 +44851,6 @@ exports[`<Calendar> when {value} & {range} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >
@@ -49479,8 +49446,6 @@ exports[`<Calendar> when {value} 1`] = `
     Array [
       Object {
         "backgroundColor": "#F5F5F6",
-        "borderBottomWidth": 4,
-        "borderColor": "#10c0bc",
         "justifyContent": "center",
         "paddingHorizontal": 16,
         "paddingVertical": 8,
@@ -49678,7 +49643,6 @@ exports[`<Calendar> when {value} 1`] = `
       style={
         Object {
           "paddingHorizontal": 16,
-          "paddingVertical": 12,
         }
       }
     >

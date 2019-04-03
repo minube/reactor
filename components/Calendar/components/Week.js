@@ -18,7 +18,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, captions, disabledDates, disabledPast, edges, month, range, today, value,
+    availableDates, captions, disabledDates, disabledPast, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
