@@ -39,7 +39,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginVertical: UNIT / 10, // @TODO: Design System doesn't have this SPACE
+    marginVertical: UNIT / 5, // @TODO: Design System doesn't have this SPACE
   },
 
   text: {
@@ -64,5 +64,6 @@ export default StyleSheet.create({
 
   vielDisabled: {
     backgroundColor: COLOR.TEXT_LIGHT_GREY,
+    opacity: 0.1,
   },
 });
