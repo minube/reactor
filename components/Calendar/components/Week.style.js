@@ -2,7 +2,7 @@ import { StyleSheet } from 'react-native';
 
 import { LAYOUT, THEME } from '../../../common';
 
-const { COLOR, UNIT } = THEME;
+const { COLOR, SPACE, UNIT } = THEME;
 const BOX_SIZE = UNIT * 4;
 
 export { BOX_SIZE };
@@ -39,7 +39,7 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginVertical: UNIT / 5, // @TODO: Design System doesn't have this SPACE
+    marginTop: SPACE.XXS,
   },
 
   text: {
