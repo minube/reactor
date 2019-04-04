@@ -17,6 +17,7 @@ export default {
     // Theme
     BACKGROUND: '#F5F5F6',
     BASE: '#cdd2d4',
+    LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
     SECONDARY: '#a66ecc',
 

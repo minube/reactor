@@ -47,7 +47,7 @@ export default StyleSheet.create({
   },
 
   textDisabled: {
-    color: COLOR.TEXT_LIGHT_GREY,
+    color: COLOR.LIGHT_GREY,
   },
 
   textHighlight: {
@@ -63,7 +63,7 @@ export default StyleSheet.create({
   },
 
   vielDisabled: {
-    backgroundColor: COLOR.TEXT_LIGHT_GREY,
+    backgroundColor: COLOR.LIGHT_GREY,
     opacity: 0.1,
   },
 });
