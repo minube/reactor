@@ -18,7 +18,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, captions, disabledDates, disabledPast, edges, month, range, today, value,
+    availableDates, captions, disabledDates, disabledPast, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -65,7 +65,6 @@ const Week = ({ firstDate, ...inherit }) => {
         }
 
         const isHighlight = !isDisabled && isSelected;
-        const isOutOfMonth = day.getMonth() !== month;
         const Container = !isDisabled ? Touchable : View;
 
         return (
@@ -82,18 +81,16 @@ const Week = ({ firstDate, ...inherit }) => {
               styles.box,
               range && styles.boxExpand,
               isHighlight && styles.boxSelected,
-              isHighlight && tsDay === tsStart && styles.boxSelectedStart,
-              isHighlight && tsDay === tsEnd && styles.boxSelectedEnd,
               isToday && !isHighlight && styles.boxSelectedToday,
             ]}
           >
-            { isDisabled && <View style={styles.textStrikethrough} /> }
+            <View style={[styles.boxBackground, isDisabled && styles.boxBackgroundDisabled]} />
             <Text
               subtitle={!isDisabled}
               level={!isDisabled ? 2 : 1}
               style={[
+                styles.text,
                 isHighlight && styles.textHighlight,
-                isOutOfMonth && edges && !isDisabled && !isSelected && styles.textOutOfMonth,
                 isDisabled && styles.textDisabled,
               ]}
             >

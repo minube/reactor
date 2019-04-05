@@ -21,4 +21,8 @@ export default StyleSheet.create({
     paddingVertical: SPACE.XS,
     justifyContent: 'center',
   },
+
+  days: {
+    paddingHorizontal: SPACE.MEDIUM,
+  },
 });

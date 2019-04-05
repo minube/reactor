@@ -20,7 +20,6 @@ class Calendar extends PureComponent {
     date: shape(),
     disabledDates: arrayOf(shape()),
     disabledPast: bool,
-    edges: bool,
     locale: shape(),
     onChange: func,
     onSelect: func,
@@ -35,7 +34,6 @@ class Calendar extends PureComponent {
     captions: undefined,
     disabledDates: undefined,
     disabledPast: false,
-    edges: true,
     locale: LOCALE,
     onChange() {},
     onSelect() {},
@@ -118,16 +116,18 @@ class Calendar extends PureComponent {
             onNext={_onNext}
             onPrevious={!disabledPrevious ? _onPrevious : undefined}
           />
-          <DayNames {...props} locale={DAY_NAMES} />
-          { VISIBLE_WEEKS.map(weekIndex => (
-            <Week
-              {...props}
-              {...state}
-              key={weekNumber + weekIndex}
-              firstDate={firstDateOfWeek(weekNumber + weekIndex, state.year)}
-              onSelect={!busy ? onSelect : undefined}
-            />
-          ))}
+          <View style={styles.days}>
+            <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
+            { VISIBLE_WEEKS.map(weekIndex => (
+              <Week
+                {...props}
+                {...state}
+                key={weekNumber + weekIndex}
+                firstDate={firstDateOfWeek(weekNumber + weekIndex, state.year)}
+                onSelect={!busy ? onSelect : undefined}
+              />
+            ))}
+          </View>
         </View>
       </View>
     );
