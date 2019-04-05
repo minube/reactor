@@ -82,9 +82,6 @@ storiesOf('✅ Calendar', module)
   .add('disabledPast', () => (
     <Calendar disabledPast />
   ))
-  .add('edges={false}', () => (
-    <Calendar edges={false} />
-  ))
   .add('captions', () => (
     <Calendar captions={CAPTIONS} />
   ))
