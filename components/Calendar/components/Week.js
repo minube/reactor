@@ -84,11 +84,7 @@ const Week = ({ firstDate, ...inherit }) => {
               isToday && !isHighlight && styles.boxSelectedToday,
             ]}
           >
-            <View style={[
-              styles.viel,
-              isDisabled && styles.vielDisabled,
-            ]}
-            />
+            <View style={[styles.boxBackground, isDisabled && styles.boxBackgroundDisabled]} />
             <Text
               subtitle={!isDisabled}
               level={!isDisabled ? 2 : 1}

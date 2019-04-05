@@ -15,6 +15,19 @@ export default StyleSheet.create({
     minWidth: BOX_SIZE,
   },
 
+  boxBackground: {
+    backgroundColor: COLOR.PRIMARY,
+    height: UNIT * 4,
+    width: UNIT * 4,
+    opacity: 0.2,
+    position: 'absolute',
+  },
+
+  boxBackgroundDisabled: {
+    backgroundColor: COLOR.LIGHT_GREY,
+    opacity: 0.1,
+  },
+
   boxExpand: {
     flex: 1,
   },
@@ -52,18 +65,5 @@ export default StyleSheet.create({
 
   textHighlight: {
     color: COLOR.WHITE,
-  },
-
-  viel: {
-    backgroundColor: COLOR.PRIMARY,
-    height: UNIT * 4,
-    width: UNIT * 4,
-    opacity: 0.2,
-    position: 'absolute',
-  },
-
-  vielDisabled: {
-    backgroundColor: COLOR.LIGHT_GREY,
-    opacity: 0.1,
   },
 });
