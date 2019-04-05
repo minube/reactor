@@ -29,7 +29,7 @@ export default async ({
       .then(async (response) => {
         const json = await response.json();
 
-        if (response.status >= 400) reject({ code: response.status, message: json.message }); // eslint-disable-line
+        if (response.status >= 400) reject({ code: json.code || response.status, message: json.message }); // eslint-disable-line
         else resolve(json);
       }).catch(({ message = 'ERROR_CONNECTION', response } = {}) => {
         reject({ // eslint-disable-line
