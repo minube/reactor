@@ -8,33 +8,11 @@ import {
 
 import { LayoutView, Price } from '..';
 import Calendar from './Calendar';
+import {
+  CAPTIONS, DATES, LOCALE, NEXT_MONTH, STYLE, STYLE_DAYNAMES, TOMORROW, YESTERDAY,
+} from './Calendar.mocks';
 
-const STYLE = {
-  borderWidth: 1,
-  borderColor: 'lightgrey',
-  minWidth: 500,
-};
-const TODAY = new Date();
-const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
-const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
-const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
-const DATES = [
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 3),
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 4),
-  new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 5),
-];
-const CAPTIONS = [
-  { date: DATES[1], value: '$10' },
-  { date: DATES[2], value: '$19' },
-];
-
-const LOCALE = {
-  DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
-  MONTHS: [
-    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
-  ],
-};
+console.log('>>>', STYLE_DAYNAMES)
 
 class CalendarHOC extends PureComponent {
   constructor(props) {
@@ -96,6 +74,9 @@ storiesOf('✅ Calendar', module)
   ))
   .add('style', () => (
     <Calendar style={STYLE} />
+  ))
+  .add('style:dayNames', () => (
+    <Calendar styleDayNames={STYLE_DAYNAMES} />
   ))
   .add('🏀 Playground', () => (
     <CalendarHOC
