@@ -200,11 +200,7 @@ exports[`<Calendar> renders 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -4895,11 +4891,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -7967,11 +7959,7 @@ exports[`<Calendar> when {busy} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -12662,11 +12650,7 @@ exports[`<Calendar> when {captions} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -17357,11 +17341,7 @@ exports[`<Calendar> when {date} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -22049,11 +22029,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -26745,11 +26721,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -30760,11 +30732,7 @@ exports[`<Calendar> when {locale} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -35458,11 +35426,7 @@ exports[`<Calendar> when {style} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -40153,11 +40117,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
@@ -44945,11 +44905,7 @@ exports[`<Calendar> when {value} 1`] = `
       </View>
     </View>
     <View
-      style={
-        Object {
-          "paddingHorizontal": 16,
-        }
-      }
+      style={false}
     >
       <View
         style={
