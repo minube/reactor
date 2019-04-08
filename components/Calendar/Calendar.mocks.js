@@ -1,11 +1,6 @@
-const STYLE = {
-  borderWidth: 1,
-  borderColor: 'lightgrey',
-  minWidth: 500,
-};
-const STYLE_DAYNAMES = {
-  subtitle: false, lighten: true,
-};
+const STYLE = { borderWidth: 1, borderColor: 'lightgrey', minWidth: 500 };
+const STYLE_DAYNAMES = { subtitle: false, lighten: true };
+const STYLE_EDGES = { color: 'grey' };
 
 const TODAY = new Date();
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
@@ -36,6 +31,7 @@ export {
   NEXT_MONTH,
   STYLE,
   STYLE_DAYNAMES,
+  STYLE_EDGES,
   TOMORROW,
   YESTERDAY,
 };

@@ -9,10 +9,8 @@ import {
 import { LayoutView, Price } from '..';
 import Calendar from './Calendar';
 import {
-  CAPTIONS, DATES, LOCALE, NEXT_MONTH, STYLE, STYLE_DAYNAMES, TOMORROW, YESTERDAY,
+  CAPTIONS, DATES, LOCALE, NEXT_MONTH, STYLE, STYLE_DAYNAMES, STYLE_EDGES, TOMORROW, YESTERDAY,
 } from './Calendar.mocks';
-
-console.log('>>>', STYLE_DAYNAMES)
 
 class CalendarHOC extends PureComponent {
   constructor(props) {
@@ -77,6 +75,9 @@ storiesOf('✅ Calendar', module)
   ))
   .add('style:dayNames', () => (
     <Calendar styleDayNames={STYLE_DAYNAMES} />
+  ))
+  .add('style:edges', () => (
+    <Calendar styleEdges={STYLE_EDGES} />
   ))
   .add('🏀 Playground', () => (
     <CalendarHOC

@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import Calendar from './Calendar';
 import {
-  CAPTIONS, LOCALE, STYLE, STYLE_DAYNAMES,
+  CAPTIONS, LOCALE, STYLE, STYLE_DAYNAMES, STYLE_EDGES,
 } from './Calendar.Mocks';
 
 const TODAY = new Date(1980, 10, 4);
@@ -71,6 +71,11 @@ describe('<Calendar>', () => {
 
   it('when {style:dayNames}', () => {
     const tree = renderer.create(<Calendar styleDayNames={STYLE_DAYNAMES} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {style:styleEdges}', () => {
+    const tree = renderer.create(<Calendar styleEdges={STYLE_EDGES} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
