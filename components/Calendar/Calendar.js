@@ -4,7 +4,7 @@ import {
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
-import { ENV } from '../../common';
+import { ENV, LAYOUT } from '../../common';
 import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
 import { decomposeDate, firstDateOfWeek, LOCALE } from './modules';
@@ -116,7 +116,7 @@ class Calendar extends PureComponent {
             onNext={_onNext}
             onPrevious={!disabledPrevious ? _onPrevious : undefined}
           />
-          <View style={styles.days}>
+          <View style={LAYOUT.VIEWPORT.LARGE && styles.days}>
             <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
             { VISIBLE_WEEKS.map(weekIndex => (
               <Week
