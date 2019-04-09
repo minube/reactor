@@ -8,11 +8,17 @@ const ICON_SIZE = UNIT * 2;
 
 export default StyleSheet.create({
   container: {
-    backgroundColor: COLOR.PRIMARY,
+    borderColor: COLOR.TEXT_LIGHTEN,
     borderRadius: ICON_SIZE,
+    borderWidth: 2,
     height: ICON_SIZE,
     width: ICON_SIZE,
+  },
+
+  active: {
     alignItems: 'center',
+    backgroundColor: COLOR.PRIMARY,
+    borderColor: COLOR.PRIMARY,
     justifyContent: 'center',
   },
 
