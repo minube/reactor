@@ -44,6 +44,9 @@ storiesOf('☑️ Form', module)
   .add('title', () => (
     <FormHOC attributes={ATTRIBUTES} title="Your contact" style={STORY_STYLE} />
   ))
+  .add('validate', () => (
+    <FormHOC attributes={ATTRIBUTES} validate style={STORY_STYLE} />
+  ))
   .add('⚡ onChange', () => (
     <FormHOC attributes={ATTRIBUTES} onChange={action('Form.onChange()')} style={STORY_STYLE} />
   ))
