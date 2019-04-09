@@ -8,9 +8,8 @@ const TEMPLATE_HEIGHT = UNIT * 5.6;
 export { TEMPLATE_HEIGHT };
 
 export default StyleSheet.create({
-  inputOption: {
-    marginRight: SPACE.XS,
-    marginBottom: 0,
+  texts: {
+    marginLeft: SPACE.XS,
   },
 
   title: {
