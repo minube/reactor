@@ -25,6 +25,7 @@ exports[`<Input> renders 1`] = `
         },
         false,
         false,
+        false,
         undefined,
       ]
     }
@@ -88,6 +89,7 @@ exports[`<Input> when {color} 1`] = `
           "flexDirection": "row",
           "paddingHorizontal": 4,
         },
+        false,
         false,
         false,
         undefined,
@@ -158,6 +160,7 @@ exports[`<Input> when {disabled} 1`] = `
         },
         false,
         false,
+        false,
       ]
     }
   >
@@ -224,6 +227,7 @@ exports[`<Input> when {error} 1`] = `
         },
         false,
         false,
+        false,
         Object {
           "borderColor": "#d33c44",
         },
@@ -277,8 +281,10 @@ exports[`<Input> when {error} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 20,
             "marginHorizontal": 4,
+            "marginTop": 11,
             "width": 20,
           },
           undefined,
@@ -312,6 +318,7 @@ exports[`<Input> when {hint} 1`] = `
           "flexDirection": "row",
           "paddingHorizontal": 4,
         },
+        false,
         false,
         false,
         undefined,
@@ -409,6 +416,7 @@ exports[`<Input> when {icon} 1`] = `
         },
         false,
         false,
+        false,
         undefined,
       ]
     }
@@ -428,8 +436,10 @@ exports[`<Input> when {icon} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 20,
             "marginHorizontal": 4,
+            "marginTop": 11,
             "width": 20,
           },
           undefined,
@@ -495,6 +505,7 @@ exports[`<Input> when {keyboard} 1`] = `
           "flexDirection": "row",
           "paddingHorizontal": 4,
         },
+        false,
         false,
         false,
         undefined,
@@ -593,6 +604,7 @@ exports[`<Input> when {label} 1`] = `
         },
         false,
         false,
+        false,
         undefined,
       ]
     }
@@ -656,6 +668,7 @@ exports[`<Input> when {lines} 1`] = `
           "flexDirection": "row",
           "paddingHorizontal": 4,
         },
+        false,
         false,
         false,
         undefined,
@@ -724,6 +737,7 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
         },
         false,
         false,
+        false,
         undefined,
       ]
     }
@@ -775,8 +789,10 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 20,
             "marginHorizontal": 4,
+            "marginTop": 11,
             "width": 20,
           },
           undefined,
@@ -810,6 +826,7 @@ exports[`<Input> when {required} 1`] = `
           "flexDirection": "row",
           "paddingHorizontal": 4,
         },
+        false,
         false,
         false,
         undefined,
@@ -881,6 +898,7 @@ exports[`<Input> when {style} 1`] = `
         },
         false,
         false,
+        false,
         undefined,
       ]
     }
@@ -921,6 +939,123 @@ exports[`<Input> when {style} 1`] = `
 </View>
 `;
 
+exports[`<Input> when {valid} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "borderColor": "#cdd2d4",
+          "borderRadius": 2.5,
+          "borderWidth": 1,
+          "display": "flex",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        },
+        false,
+        Object {
+          "borderColor": "#10c0bc",
+        },
+        false,
+        undefined,
+      ]
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCorrect={false}
+      blurOnSubmit={true}
+      editable={true}
+      keyboardType="default"
+      multiline={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#707070"
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+            "color": "#4a4a4a",
+            "flex": 1,
+            "fontFamily": undefined,
+            "fontSize": 16,
+            "fontWeight": "400",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "paddingVertical": 7.5,
+            "width": "100%",
+          },
+          false,
+        ]
+      }
+      underlineColorAndroid="transparent"
+      value="soyjavi"
+    />
+    <View
+      style={
+        Array [
+          Object {
+            "borderColor": "#707070",
+            "borderRadius": 20,
+            "borderWidth": 2,
+            "height": 20,
+            "width": 20,
+          },
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#10c0bc",
+            "borderColor": "#10c0bc",
+            "justifyContent": "center",
+          },
+          Object {
+            "alignSelf": "flex-start",
+            "height": 20,
+            "marginHorizontal": 4,
+            "marginTop": 11,
+            "width": 20,
+          },
+        ]
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/done_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 14,
+              "width": 14,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
 exports[`<Input> when {value} 1`] = `
 <View
   style={
@@ -944,6 +1079,7 @@ exports[`<Input> when {value} 1`] = `
           "flexDirection": "row",
           "paddingHorizontal": 4,
         },
+        false,
         false,
         false,
         undefined,
