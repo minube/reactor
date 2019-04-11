@@ -47,6 +47,9 @@ storiesOf('✅ Input', module)
   .add('error', () => (
     <Input error="Required field" value="soyjavi.com" />
   ))
+  .add('valid', () => (
+    <Input valid value="soyjavi.com" />
+  ))
   .add('⚡ onBlur', () => (
     <Input onBlur={action('Input.onBlur()')} title="Press me" />
   ))

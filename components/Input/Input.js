@@ -5,8 +5,10 @@ import React, { Component } from 'react';
 import { TextInput, View } from 'react-native';
 
 import { THEME } from '../../common';
+
 import InputHint from './InputHint';
 import InputLabel from './InputLabel';
+import InputIcon from './InputIcon';
 import Icon from '../Icon';
 import styles from './Input.style';
 
@@ -27,6 +29,7 @@ class Input extends Component {
     onFocus: func,
     required: bool,
     requiredIcon: bool,
+    valid: bool,
   };
 
   static defaultProps = {
@@ -43,6 +46,7 @@ class Input extends Component {
     onFocus: undefined,
     required: false,
     requiredIcon: false,
+    valid: false,
   };
 
   state = {
@@ -52,7 +56,8 @@ class Input extends Component {
   render() {
     const {
       props: {
-        color, disabled, error, hint, icon, keyboard, label, lines, onBlur, onChange, onFocus, required, requiredIcon,
+        color, disabled, error, hint, icon, keyboard, label, lines, required, requiredIcon, valid,
+        onBlur, onChange, onFocus,
         ...inherit
       },
       state: { focus },
@@ -69,6 +74,7 @@ class Input extends Component {
           style={[
             styles.content,
             disabled && styles.disabled,
+            !disabled && valid && styles.valid,
             !disabled && focus && (color ? { borderColor: color } : styles.focus),
             !disabled && error && styles.error,
           ]}
@@ -94,6 +100,7 @@ class Input extends Component {
           { (error || (required && requiredIcon)) && (
             <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} />
           )}
+          { valid && <InputIcon style={styles.icon} /> }
         </View>
         { hint && (
           <InputHint>
@@ -105,5 +112,5 @@ class Input extends Component {
   }
 }
 
-export { InputHint, InputLabel };
+export { InputHint, InputIcon, InputLabel };
 export default Input;

@@ -42,6 +42,7 @@ exports[`<InputImage> renders 1`] = `
           },
           false,
           false,
+          false,
           undefined,
         ]
       }
@@ -128,6 +129,7 @@ exports[`<InputImage> when {disabled} 1`] = `
           },
           false,
           false,
+          false,
         ]
       }
     >
@@ -212,6 +214,7 @@ exports[`<InputImage> when {error} 1`] = `
           },
           false,
           false,
+          false,
           Object {
             "borderColor": "#d33c44",
           },
@@ -265,8 +268,10 @@ exports[`<InputImage> when {error} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 20,
               "marginHorizontal": 4,
+              "marginTop": 11,
               "width": 20,
             },
             undefined,
@@ -318,6 +323,7 @@ exports[`<InputImage> when {hint} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
@@ -464,6 +470,7 @@ exports[`<InputImage> when {label} 1`] = `
           },
           false,
           false,
+          false,
           undefined,
         ]
       }
@@ -545,6 +552,7 @@ exports[`<InputImage> when {required} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
@@ -631,6 +639,7 @@ exports[`<InputImage> when {style} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
@@ -790,6 +799,7 @@ exports[`<InputImage> when {value} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,

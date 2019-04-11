@@ -38,6 +38,7 @@ exports[`<InputList> renders 1`] = `
           },
           false,
           false,
+          false,
           undefined,
         ]
       }
@@ -117,6 +118,7 @@ exports[`<InputList> when {dataSource} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
@@ -203,6 +205,7 @@ exports[`<InputList> when {disabled} 1`] = `
           },
           false,
           false,
+          false,
         ]
       }
     >
@@ -285,6 +288,7 @@ exports[`<InputList> when {error} 1`] = `
           },
           false,
           false,
+          false,
           Object {
             "borderColor": "#d33c44",
           },
@@ -340,8 +344,10 @@ exports[`<InputList> when {error} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 20,
               "marginHorizontal": 4,
+              "marginTop": 11,
               "width": 20,
             },
             undefined,
@@ -389,6 +395,7 @@ exports[`<InputList> when {hint} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
@@ -500,6 +507,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
@@ -1731,6 +1739,7 @@ exports[`<InputList> when {label} 1`] = `
           },
           false,
           false,
+          false,
           undefined,
         ]
       }
@@ -1815,6 +1824,7 @@ exports[`<InputList> when {style} 1`] = `
           },
           false,
           false,
+          false,
           undefined,
         ]
       }
@@ -1894,6 +1904,7 @@ exports[`<InputList> when {value} 1`] = `
             "flexDirection": "row",
             "paddingHorizontal": 4,
           },
+          false,
           false,
           false,
           undefined,
