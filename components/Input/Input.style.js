@@ -37,8 +37,10 @@ export default StyleSheet.create({
   },
 
   icon: {
-    marginHorizontal: SPACE.XXS,
+    alignSelf: 'flex-start',
     height: ICON_SIZE,
+    marginHorizontal: SPACE.XXS,
+    marginTop: UNIT * 1.1,
     width: ICON_SIZE,
   },
 
@@ -66,5 +68,9 @@ export default StyleSheet.create({
 
   multiline: {
     paddingVertical: SPACE.XXS,
+  },
+
+  valid: {
+    borderColor: COLOR.PRIMARY,
   },
 });

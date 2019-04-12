@@ -460,122 +460,55 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="none"
           style={
             Array [
+              Object {
+                "borderColor": "#707070",
+                "borderRadius": 20,
+                "borderWidth": 2,
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#10c0bc",
+                "borderColor": "#10c0bc",
+                "justifyContent": "center",
+              },
               undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 20,
-                },
-                Object {
-                  "marginBottom": 0,
-                  "marginRight": 8,
-                },
-              ],
             ]
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/done_contrast.png",
               }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
+            }
             style={
               Array [
                 Object {
                   "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "height": 14,
+                  "width": 14,
                 },
                 undefined,
               ]
             }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
+          />
         </View>
-        <View>
+        <View
+          style={
+            Object {
+              "marginLeft": 8,
+            }
+          }
+        >
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -721,122 +654,55 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#10c0bc",
+                  "borderColor": "#10c0bc",
+                  "justifyContent": "center",
+                },
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  Object {
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                  },
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 1,
-                    "transform": Array [
-                      Object {
-                        "scale": 1,
-                      },
-                    ],
-                  }
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/done_contrast.png",
                 }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
+              }
               style={
                 Array [
                   Object {
                     "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 14,
+                    "width": 14,
                   },
                   undefined,
                 ]
               }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
+            />
           </View>
-          <View>
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -949,119 +815,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1174,119 +948,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1399,119 +1081,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1624,119 +1214,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -1849,119 +1347,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2074,119 +1480,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2299,119 +1613,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2524,119 +1746,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -2749,119 +1879,27 @@ exports[`<InputSelect> when {dataSource} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -3517,122 +2555,55 @@ exports[`<InputSelect> when {value} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="none"
           style={
             Array [
+              Object {
+                "borderColor": "#707070",
+                "borderRadius": 20,
+                "borderWidth": 2,
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#10c0bc",
+                "borderColor": "#10c0bc",
+                "justifyContent": "center",
+              },
               undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "display": "flex",
-                  "flexDirection": "row",
-                  "marginBottom": 20,
-                },
-                Object {
-                  "marginBottom": 0,
-                  "marginRight": 8,
-                },
-              ],
             ]
           }
         >
-          <View
-            style={
-              Array [
-                Object {
-                  "alignContent": "center",
-                  "alignItems": "center",
-                  "borderColor": "#707070",
-                  "borderRadius": 2,
-                  "borderWidth": 2,
-                  "height": 20,
-                  "justifyContent": "center",
-                  "width": 20,
-                },
-                Object {
-                  "borderRadius": 10,
-                },
-                Object {
-                  "backgroundColor": "#10c0bc",
-                  "borderColor": "#10c0bc",
-                },
-              ]
-            }
-          >
-            <View
-              style={
-                Object {
-                  "opacity": 1,
-                  "transform": Array [
-                    Object {
-                      "scale": 1,
-                    },
-                  ],
-                }
+          <Image
+            resizeMode="contain"
+            source={
+              Object {
+                "testUri": "../../../components/Icon/assets/done_contrast.png",
               }
-            >
-              <Image
-                resizeMode="contain"
-                source={
-                  Object {
-                    "testUri": "../../../components/Icon/assets/done_contrast.png",
-                  }
-                }
-                style={
-                  Array [
-                    Object {
-                      "backgroundColor": "transparent",
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "height": 14,
-                      "width": 14,
-                    },
-                    undefined,
-                  ]
-                }
-              />
-            </View>
-          </View>
-          <View
+            }
             style={
               Array [
                 Object {
                   "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "height": 14,
+                  "width": 14,
                 },
                 undefined,
               ]
             }
-          >
-            <View
-              style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
-              }
-            />
-          </View>
+          />
         </View>
-        <View>
+        <View
+          style={
+            Object {
+              "marginLeft": 8,
+            }
+          }
+        >
           <Text
             accessible={true}
             allowFontScaling={true}
@@ -3778,119 +2749,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4003,119 +2882,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4228,119 +3015,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4453,122 +3148,55 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#10c0bc",
+                  "borderColor": "#10c0bc",
+                  "justifyContent": "center",
+                },
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  Object {
-                    "backgroundColor": "#10c0bc",
-                    "borderColor": "#10c0bc",
-                  },
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 1,
-                    "transform": Array [
-                      Object {
-                        "scale": 1,
-                      },
-                    ],
-                  }
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/done_contrast.png",
                 }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
+              }
               style={
                 Array [
                   Object {
                     "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 14,
+                    "width": 14,
                   },
                   undefined,
                 ]
               }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
+            />
           </View>
-          <View>
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
+          >
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4681,119 +3309,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -4906,119 +3442,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5131,119 +3575,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5356,119 +3708,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5581,119 +3841,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}
@@ -5806,119 +3974,27 @@ exports[`<InputSelect> when {value} 1`] = `
           }
         >
           <View
-            accessible={true}
-            onResponderGrant={[Function]}
-            onResponderMove={[Function]}
-            onResponderRelease={[Function]}
-            onResponderTerminate={[Function]}
-            onResponderTerminationRequest={[Function]}
-            onStartShouldSetResponder={[Function]}
-            pointerEvents="none"
             style={
               Array [
+                Object {
+                  "borderColor": "#707070",
+                  "borderRadius": 20,
+                  "borderWidth": 2,
+                  "height": 20,
+                  "width": 20,
+                },
+                false,
                 undefined,
-                Array [
-                  Object {
-                    "alignItems": "center",
-                    "display": "flex",
-                    "flexDirection": "row",
-                    "marginBottom": 20,
-                  },
-                  Object {
-                    "marginBottom": 0,
-                    "marginRight": 8,
-                  },
-                ],
               ]
             }
+          />
+          <View
+            style={
+              Object {
+                "marginLeft": 8,
+              }
+            }
           >
-            <View
-              style={
-                Array [
-                  Object {
-                    "alignContent": "center",
-                    "alignItems": "center",
-                    "borderColor": "#707070",
-                    "borderRadius": 2,
-                    "borderWidth": 2,
-                    "height": 20,
-                    "justifyContent": "center",
-                    "width": 20,
-                  },
-                  Object {
-                    "borderRadius": 10,
-                  },
-                  false,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "opacity": 0,
-                    "transform": Array [
-                      Object {
-                        "scale": 0,
-                      },
-                    ],
-                  }
-                }
-              >
-                <Image
-                  resizeMode="contain"
-                  source={
-                    Object {
-                      "testUri": "../../../components/Icon/assets/done_contrast.png",
-                    }
-                  }
-                  style={
-                    Array [
-                      Object {
-                        "backgroundColor": "transparent",
-                        "height": 20,
-                        "width": 20,
-                      },
-                      Object {
-                        "height": 14,
-                        "width": 14,
-                      },
-                      undefined,
-                    ]
-                  }
-                />
-              </View>
-            </View>
-            <View
-              style={
-                Array [
-                  Object {
-                    "backgroundColor": "transparent",
-                    "borderRadius": 3,
-                    "bottom": 0,
-                    "left": 0,
-                    "overflow": "hidden",
-                    "position": "absolute",
-                    "right": 0,
-                    "top": 0,
-                  },
-                  undefined,
-                ]
-              }
-            >
-              <View
-                style={
-                  Object {
-                    "backgroundColor": "#cdd2d4",
-                    "height": 0,
-                    "opacity": 0,
-                    "width": 0,
-                    "zIndex": 0,
-                  }
-                }
-              />
-            </View>
-          </View>
-          <View>
             <Text
               accessible={true}
               allowFontScaling={true}

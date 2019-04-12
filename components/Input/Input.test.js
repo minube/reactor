@@ -9,6 +9,11 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {color}', () => {
+    const tree = renderer.create(<Input color="green" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {disabled}', () => {
     const tree = renderer.create(<Input disabled />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -54,13 +59,13 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {value}', () => {
-    const tree = renderer.create(<Input value="soyjavi" />).toJSON();
+  it('when {valid}', () => {
+    const tree = renderer.create(<Input valid value="soyjavi" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {color}', () => {
-    const tree = renderer.create(<Input color="green" />).toJSON();
+  it('when {value}', () => {
+    const tree = renderer.create(<Input value="soyjavi" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

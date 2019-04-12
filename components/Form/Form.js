@@ -1,4 +1,6 @@
-import { func, shape, string } from 'prop-types';
+import {
+  bool, func, shape, string,
+} from 'prop-types';
 import React, { createElement, PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
@@ -19,6 +21,8 @@ const KEYBOARDS = {
   'phone-pad': isValidPhone,
 };
 
+const KEYBOARDS_KEYS = Object.keys(KEYBOARDS);
+
 const Inputs = {
   bool: Switch,
   image: InputImage,
@@ -35,6 +39,7 @@ class Form extends PureComponent {
     onChange: func,
     onValid: func,
     title: string,
+    validate: bool,
   };
 
   static defaultProps = {
@@ -44,6 +49,7 @@ class Form extends PureComponent {
     title: undefined,
     onChange: undefined,
     onValid() {},
+    validate: false,
   };
 
   state = {
@@ -116,26 +122,27 @@ class Form extends PureComponent {
     value = defaultValue,
     keyMap,
   }) => {
-    const { _onChange, props: { color } } = this;
-    let error;
-    let invalid = (required && !props.disabled)
-      && ((!type && value && value.trim().length === 0) || !value);
+    const { _onChange, props: { color, validate } } = this;
+    let { error } = props;
+    let invalid = required && !props.disabled && ((!type && value && value.trim().length === 0) || !value);
+    let valid = false;
 
-    if (Object.keys(KEYBOARDS).includes(props.keyboard)) {
-      if (!KEYBOARDS[props.keyboard](value, { countryCode })) {
-        error = 'error';
-        invalid = true;
-      }
+    if (KEYBOARDS_KEYS.includes(props.keyboard) && (!KEYBOARDS[props.keyboard](value, { countryCode }))) {
+      error = 'error';
+      invalid = true;
     }
+
     if (invalid) this.state.valid = false;
+    else if (!error && !props.disabled && validate && value) valid = true;
 
     return createElement(Inputs[type] || Input, {
       key: keyMap,
       label: props.label || field,
       color,
       ...props,
-      error: error || props.error,
+      error,
       required: required && (value === undefined || (!type && value.trim().length === 0)),
+      valid,
       value,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
       style: buildStyle({ inline, style }, styles),
