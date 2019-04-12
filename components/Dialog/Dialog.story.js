@@ -52,6 +52,6 @@ storiesOf('✅ Dialog', module)
       style={object('style', MOCKS.STYLE)}
       styleContainer={object('styleContainer', MOCKS.STYLE_CONTAINER)}
     >
-      <Text>Example of children</Text>
+      {MOCKS.CHILDREN}
     </Dialog>
   ));
