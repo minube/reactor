@@ -3,7 +3,7 @@ export default (date) => {
   const year = date.getFullYear();
 
   return {
-    month: month === 0 ? 12 : month - 1,
+    month: month === 0 ? 11 : month - 1,
     year: month === 0 ? year - 1 : year,
   };
 };
