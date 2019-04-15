@@ -39,6 +39,11 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {expanded}', () => {
+    const tree = renderer.create(<Calendar expanded />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {locale}', () => {
     const tree = renderer.create(<Calendar locale={LOCALE} />).toJSON();
     expect(tree).toMatchSnapshot();

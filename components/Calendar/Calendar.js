@@ -7,7 +7,9 @@ import { View } from 'react-native';
 import { ENV } from '../../common';
 import Activity from '../Activity';
 import { DayNames, Selector, Week } from './components';
-import { decomposeDate, firstDateOfWeek, LOCALE } from './modules';
+import {
+  decomposeDate, firstDateOfWeek, LOCALE, nextMonth, previousMonth,
+} from './modules';
 import styles from './Calendar.style';
 
 const VISIBLE_WEEKS = Array.from(Array(6).keys());
@@ -22,6 +24,7 @@ class Calendar extends PureComponent {
     disabledDates: arrayOf(shape()),
     disabledPast: bool,
     edges: bool,
+    expanded: bool,
     locale: shape(),
     onChange: func,
     onSelect: func,
@@ -38,6 +41,7 @@ class Calendar extends PureComponent {
     disabledDates: undefined,
     disabledPast: false,
     edges: false,
+    expanded: false,
     locale: LOCALE,
     onChange() {},
     onSelect() {},
@@ -65,73 +69,63 @@ class Calendar extends PureComponent {
     }
   }
 
-  _onPrevious = () => {
-    const { _onChange } = this;
-    let { state: { month, year } } = this;
-
-    if (month === 0) {
-      month = 12;
-      year -= 1;
-    }
-    month -= 1;
-    _onChange(month, year);
-  }
-
-  _onNext = () => {
-    const { _onChange } = this;
-    let { state: { month, year } } = this;
-
-    if (month === 11) {
-      month = -1;
-      year += 1;
-    }
-    month += 1;
-    _onChange(month, year);
-  }
-
-  _onChange = (month, year) => {
+  _onChange = ({ month, year }) => {
     const { props: { onChange } } = this;
 
     onChange(month, year);
     this.setState({ month, year });
   }
 
-  render() {
+  Instance = ({ next, onNext, onPrevious }) => {
     const {
-      _onNext, _onPrevious,
+      _onChange,
       props: {
-        busy, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
+        busy, expanded, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
       },
       state,
     } = this;
-    const startDate = new Date(state.year, state.month);
-    const weekNumber = Math.ceil((((startDate - new Date(state.year, 0, 1)) / 8.64e7)) / 7);
-    const disabledPrevious = props.disabledPast
-      && state.today.getFullYear() === state.year
-      && state.today.getMonth() === state.month;
+    const date = new Date(state.year, state.month + (next ? 1 : 0));
+    const week = Math.ceil((((date - new Date(date.getFullYear(), 0, 1)) / 8.64e7)) / 7);
 
     return (
-      <View style={[styles.container, props.style]}>
+      <View style={styles.instance}>
+        <Selector
+          onNext={onNext ? () => _onChange(nextMonth(date)) : undefined}
+          onPrevious={onPrevious ? () => _onChange(previousMonth(date)) : undefined}
+          title={`${MONTHS[date.getMonth()]} ${date.getFullYear()}`}
+        />
+        <View style={styles.days}>
+          <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
+          { VISIBLE_WEEKS.map(weekIndex => (
+            <Week
+              {...props}
+              {...state}
+              key={week + weekIndex}
+              firstDate={firstDateOfWeek(week + weekIndex, state.year)}
+              onSelect={!busy ? onSelect : undefined}
+            />
+          ))}
+        </View>
+      </View>
+    );
+  }
+
+  render() {
+    const {
+      Instance,
+      props: {
+        busy, disabledPast, expanded, ...inherit
+      },
+      state: { month, year, today },
+    } = this;
+    const disabledPrevious = disabledPast && today.getFullYear() === year && today.getMonth() === month;
+
+    return (
+      <View style={[styles.container, inherit.style, busy && styles.busy]}>
         { busy && <Activity size="large" style={styles.activity} /> }
-        <View style={busy && styles.busy}>
-          <Selector
-            {...state}
-            locale={MONTHS}
-            onNext={_onNext}
-            onPrevious={!disabledPrevious ? _onPrevious : undefined}
-          />
-          <View style={styles.days}>
-            <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
-            { VISIBLE_WEEKS.map(weekIndex => (
-              <Week
-                {...props}
-                {...state}
-                key={weekNumber + weekIndex}
-                firstDate={firstDateOfWeek(weekNumber + weekIndex, state.year)}
-                onSelect={!busy ? onSelect : undefined}
-              />
-            ))}
-          </View>
+        <View style={styles.content}>
+          <Instance onNext={!expanded} onPrevious={!disabledPrevious} />
+          { expanded && <Instance next onNext /> }
         </View>
       </View>
     );

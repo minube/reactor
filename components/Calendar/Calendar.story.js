@@ -49,6 +49,9 @@ storiesOf('✅ Calendar', module)
   .add('edges', () => (
     <Calendar edges={true} />
   ))
+  .add('expanded', () => (
+    <Calendar expanded />
+  ))
   .add('locale', () => (
     <Calendar locale={LOCALE} />
   ))
@@ -92,6 +95,7 @@ storiesOf('✅ Calendar', module)
       captions={CAPTIONS}
       disabledPast={boolean('disabledPast', false)}
       edges={boolean('edges', false)}
+      expanded={boolean('expanded', false)}
       locale={object('locale', LOCALE)}
       // value={date('value', TOMORROW)}
       onChange={action('Calendar.onChange()')}
