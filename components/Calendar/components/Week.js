@@ -1,4 +1,3 @@
-
 import { func, shape } from 'prop-types';
 import React from 'react';
 import { View } from 'react-native';
@@ -18,7 +17,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, captions, disabledDates, disabledPast, month, range, today, value,
+    availableDates, box, captions, disabledDates, disabledPast, edges, month, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -79,22 +78,18 @@ const Week = ({ firstDate, ...inherit }) => {
               : undefined
             }
             style={[
-              styles.box,
-              range && styles.boxExpand,
-              isHighlight && styles.boxSelected,
-              isToday && !isHighlight && styles.boxSelectedToday,
+              styles.cell,
+              range && styles.cellExpand,
+              isHighlight && styles.cellSelected,
+              isToday && !isHighlight && styles.cellSelectedToday,
             ]}
           >
-            <View style={[styles.boxBackground, isDisabled && styles.boxBackgroundDisabled]} />
+            { box && <View style={[styles.box, isDisabled && styles.boxDisabled]} /> }
             <Text
               subtitle={!isDisabled}
               level={!isDisabled ? 2 : 1}
-              style={[
-                styles.text,
-                isHighlight && styles.textHighlight,
-                isDisabled && styles.textDisabled,
-                isOutOfMonth && !isDisabled && !isSelected && inherit.styleEdges,
-              ]}
+              lighten={isDisabled || (isOutOfMonth && edges)}
+              style={[styles.text, isHighlight && styles.textHighlight]}
             >
               {day.getDate()}
             </Text>
