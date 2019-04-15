@@ -34,6 +34,9 @@ storiesOf('✅ Calendar', module)
   .add('default', () => (
     <Calendar />
   ))
+  .add('box {false}', () => (
+    <Calendar box={false} />
+  ))
   .add('busy', () => (
     <Calendar busy />
   ))
@@ -42,6 +45,12 @@ storiesOf('✅ Calendar', module)
   ))
   .add('date', () => (
     <Calendar date={NEXT_MONTH} />
+  ))
+  .add('edges', () => (
+    <Calendar edges={true} />
+  ))
+  .add('locale', () => (
+    <Calendar locale={LOCALE} />
   ))
   .add('value', () => (
     <Calendar value={TOMORROW} />
@@ -68,7 +77,7 @@ storiesOf('✅ Calendar', module)
     <CalendarHOC disabledDates={DATES} range onSelect={action('Calendar.onSelect()')} />
   ))
   .add('⚡ onChange', () => (
-    <Calendar onChange={action('Calendar.onChange()')} />
+    <CalendarHOC onChange={action('Calendar.onChange()')} />
   ))
   .add('style', () => (
     <Calendar style={STYLE} />
@@ -76,19 +85,19 @@ storiesOf('✅ Calendar', module)
   .add('style:dayNames', () => (
     <Calendar styleDayNames={STYLE_DAYNAMES} />
   ))
-  .add('style:edges', () => (
-    <Calendar styleEdges={STYLE_EDGES} />
-  ))
   .add('🏀 Playground', () => (
     <CalendarHOC
+      box={boolean('box', true)}
       busy={boolean('busy', false)}
       captions={CAPTIONS}
       disabledPast={boolean('disabledPast', false)}
+      edges={boolean('edges', false)}
       locale={object('locale', LOCALE)}
       // value={date('value', TOMORROW)}
       onChange={action('Calendar.onChange()')}
       onSelect={action('Calendar.onSelect()')}
       range={boolean('range', false)}
       style={object('style', STYLE)}
+      styleDayNames={object('styleDayNames', STYLE_DAYNAMES)}
     />
   ));

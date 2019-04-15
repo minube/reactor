@@ -8,7 +8,6 @@ export default StyleSheet.create({
   activity: {
     alignSelf: 'center',
     position: 'absolute',
-    zIndex: 1,
   },
 
   busy: {

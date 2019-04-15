@@ -15,11 +15,13 @@ const VISIBLE_WEEKS = Array.from(Array(6).keys());
 class Calendar extends PureComponent {
   static propTypes = {
     availableDates: arrayOf(shape()),
+    box: bool,
     busy: bool,
     captions: arrayOf(shape()),
     date: shape(),
     disabledDates: arrayOf(shape()),
     disabledPast: bool,
+    edges: bool,
     locale: shape(),
     onChange: func,
     onSelect: func,
@@ -29,11 +31,13 @@ class Calendar extends PureComponent {
 
   static defaultProps = {
     availableDates: undefined,
+    box: true,
     busy: false,
     date: undefined,
     captions: undefined,
     disabledDates: undefined,
     disabledPast: false,
+    edges: false,
     locale: LOCALE,
     onChange() {},
     onSelect() {},

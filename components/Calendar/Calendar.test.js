@@ -19,6 +19,11 @@ describe('<Calendar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {box:false}', () => {
+    const tree = renderer.create(<Calendar box={false} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {busy}', () => {
     const tree = renderer.create(<Calendar busy />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -26,6 +31,11 @@ describe('<Calendar>', () => {
 
   it('when {date}', () => {
     const tree = renderer.create(<Calendar date={NEXT_MONTH} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {edges}', () => {
+    const tree = renderer.create(<Calendar edges />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -71,11 +81,6 @@ describe('<Calendar>', () => {
 
   it('when {style:dayNames}', () => {
     const tree = renderer.create(<Calendar styleDayNames={STYLE_DAYNAMES} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {style:styleEdges}', () => {
-    const tree = renderer.create(<Calendar styleEdges={STYLE_EDGES} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });
