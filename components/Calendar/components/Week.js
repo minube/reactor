@@ -17,7 +17,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, box, captions, disabledDates, disabledPast, edges, month, range, today, value,
+    availableDates, box, captions, disabledDates, disabledPast, edges, expanded, month, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -49,6 +49,7 @@ const Week = ({ firstDate, ...inherit }) => {
         const isToday = tsDay === tsToday;
         const isSelected = tsDay >= tsStart && tsDay <= tsEnd;
         let isDisabled = false;
+        let isVisible = true;
         let caption;
 
         if (disabledPast) isDisabled = tsDay < tsToday;
@@ -67,6 +68,11 @@ const Week = ({ firstDate, ...inherit }) => {
         const isOutOfMonth = day.getMonth() !== month;
         const Container = !isDisabled ? Touchable : View;
 
+        if (isOutOfMonth && expanded) {
+          isDisabled = true;
+          isVisible = false;
+        }
+
         return (
           <Container
             containerBorderRadius={BOX_SIZE}
@@ -80,19 +86,21 @@ const Week = ({ firstDate, ...inherit }) => {
             style={[
               styles.cell,
               range && styles.cellExpand,
-              isHighlight && styles.cellSelected,
+              isHighlight && isVisible && styles.cellSelected,
               isToday && !isHighlight && styles.cellSelectedToday,
             ]}
           >
             { box && <View style={[styles.box, isDisabled && styles.boxDisabled]} /> }
-            <Text
-              subtitle={!isDisabled}
-              level={!isDisabled ? 2 : 1}
-              lighten={isDisabled || (isOutOfMonth && edges)}
-              style={[styles.text, isHighlight && styles.textHighlight]}
-            >
-              {day.getDate()}
-            </Text>
+            { isVisible && (
+              <Text
+                subtitle={!isDisabled}
+                level={!isDisabled ? 2 : 1}
+                lighten={isDisabled || (isOutOfMonth && edges)}
+                style={[styles.text, isHighlight && styles.textHighlight]}
+              >
+                {day.getDate()}
+              </Text>
+            )}
             { caption && !isDisabled && (
               <Text caption style={[styles.caption, isHighlight && styles.textHighlight]}>
                 {caption}

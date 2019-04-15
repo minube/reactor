@@ -80,7 +80,7 @@ class Calendar extends PureComponent {
     const {
       _onChange,
       props: {
-        busy, expanded, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
+        busy, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
       },
       state,
     } = this;
@@ -98,10 +98,11 @@ class Calendar extends PureComponent {
           <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
           { VISIBLE_WEEKS.map(weekIndex => (
             <Week
+              key={week + weekIndex}
               {...props}
               {...state}
-              key={week + weekIndex}
-              firstDate={firstDateOfWeek(week + weekIndex, state.year)}
+              month={date.getMonth()}
+              firstDate={firstDateOfWeek(week + weekIndex, date.getFullYear())}
               onSelect={!busy ? onSelect : undefined}
             />
           ))}
