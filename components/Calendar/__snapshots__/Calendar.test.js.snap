@@ -40050,14 +40050,13 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40085,37 +40084,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              24
-            </Text>
             <View
               style={
                 Array [
@@ -40150,14 +40125,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40185,37 +40159,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              25
-            </Text>
             <View
               style={
                 Array [
@@ -40250,14 +40200,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40285,37 +40234,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              26
-            </Text>
             <View
               style={
                 Array [
@@ -40350,14 +40275,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40385,37 +40309,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              27
-            </Text>
             <View
               style={
                 Array [
@@ -40450,14 +40350,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40485,37 +40384,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              28
-            </Text>
             <View
               style={
                 Array [
@@ -40550,14 +40425,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40585,37 +40459,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              29
-            </Text>
             <View
               style={
                 Array [
@@ -40650,14 +40500,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40685,37 +40534,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              30
-            </Text>
             <View
               style={
                 Array [
@@ -40762,14 +40587,13 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -40797,37 +40621,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              31
-            </Text>
             <View
               style={
                 Array [
@@ -43913,14 +43713,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -43948,37 +43747,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              1
-            </Text>
             <View
               style={
                 Array [
@@ -44013,14 +43788,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -44048,37 +43822,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              2
-            </Text>
             <View
               style={
                 Array [
@@ -44113,14 +43863,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -44148,37 +43897,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              3
-            </Text>
             <View
               style={
                 Array [
@@ -44213,14 +43938,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -44248,37 +43972,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              4
-            </Text>
             <View
               style={
                 Array [
@@ -44736,14 +44436,13 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -44771,37 +44470,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              28
-            </Text>
             <View
               style={
                 Array [
@@ -44836,14 +44511,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -44871,37 +44545,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              29
-            </Text>
             <View
               style={
                 Array [
@@ -44936,14 +44586,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -44971,37 +44620,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              30
-            </Text>
             <View
               style={
                 Array [
@@ -48184,14 +47809,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48219,37 +47843,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              1
-            </Text>
             <View
               style={
                 Array [
@@ -48296,14 +47896,13 @@ exports[`<Calendar> when {expanded} 1`] = `
         >
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48331,37 +47930,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              2
-            </Text>
             <View
               style={
                 Array [
@@ -48396,14 +47971,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48431,37 +48005,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              3
-            </Text>
             <View
               style={
                 Array [
@@ -48496,14 +48046,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48531,37 +48080,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              4
-            </Text>
             <View
               style={
                 Array [
@@ -48596,14 +48121,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48631,37 +48155,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              5
-            </Text>
             <View
               style={
                 Array [
@@ -48696,14 +48196,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48731,37 +48230,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              6
-            </Text>
             <View
               style={
                 Array [
@@ -48796,14 +48271,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48831,37 +48305,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              7
-            </Text>
             <View
               style={
                 Array [
@@ -48896,14 +48346,13 @@ exports[`<Calendar> when {expanded} 1`] = `
           </View>
           <View
             accessible={true}
-            onLayout={[Function]}
             onResponderGrant={[Function]}
             onResponderMove={[Function]}
             onResponderRelease={[Function]}
             onResponderTerminate={[Function]}
             onResponderTerminationRequest={[Function]}
             onStartShouldSetResponder={[Function]}
-            pointerEvents="box-only"
+            pointerEvents="none"
             style={
               Array [
                 undefined,
@@ -48931,37 +48380,13 @@ exports[`<Calendar> when {expanded} 1`] = `
                     "position": "absolute",
                     "width": 40,
                   },
-                  false,
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "opacity": 0.1,
+                  },
                 ]
               }
             />
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail"
-              style={
-                Array [
-                  Object {
-                    "color": "#4a4a4a",
-                    "fontFamily": undefined,
-                    "fontWeight": "400",
-                    "textAlignVertical": "center",
-                  },
-                  Object {
-                    "fontFamily": undefined,
-                    "fontSize": 16,
-                    "fontWeight": "600",
-                    "lineHeight": 18,
-                  },
-                  false,
-                  Object {
-                    "position": "absolute",
-                  },
-                ]
-              }
-            >
-              8
-            </Text>
             <View
               style={
                 Array [
