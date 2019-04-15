@@ -79,6 +79,7 @@ class InputSelect extends PureComponent {
       },
       state: { active, regular, schema },
     } = this;
+    const { valid, ...pickerProps } = inherit;
     const { VIEWPORT: { H } } = LAYOUT;
     const hasDataSource = dataSource.length > 1;
     const event = !disabled && hasDataSource ? _onToggleDataSource : undefined;
@@ -110,7 +111,7 @@ class InputSelect extends PureComponent {
             : (
               <Picker
                 mode="dropdown"
-                {...inherit}
+                {...pickerProps}
                 enabled={!disabled}
                 onValueChange={onChange}
                 selectedValue={value}

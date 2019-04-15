@@ -55,7 +55,7 @@ const ATTRIBUTES = {
     attributes: {
       twitter: { icon: 'twitter', inline: 3 },
       facebook: { icon: 'facebook', inline: 3 },
-      github: { inline: 3, required: true },
+      github: { inline: 3, required: true, requiredIcon: true },
     },
   },
   languages: { type: 'list' },

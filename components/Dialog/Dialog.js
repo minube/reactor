@@ -69,7 +69,7 @@ export default class Dialog extends PureComponent {
       >
         <SafeAreaView style={[styles.safeArea, background && styles.background, styleContainer]}>
           <KeyboardAvoidingView
-            behavior={IS_NATIVE ? 'position' : undefined}
+            behavior={IS_NATIVE ? 'padding' : undefined}
             style={[
               {
                 maxHeight: PORTRAIT ? '100%' : '90%',

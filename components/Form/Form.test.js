@@ -18,7 +18,7 @@ describe('<Form>', () => {
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<Form color="green" />).toJSON();
+    const tree = renderer.create(<Form attributes={ATTRIBUTES} color="green" />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -29,6 +29,11 @@ describe('<Form>', () => {
 
   it('when {title}', () => {
     const tree = renderer.create(<Form title="Hello World" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {validate}', () => {
+    const tree = renderer.create(<Form attributes={ATTRIBUTES} value={VALUE} validate />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

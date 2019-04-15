@@ -3,7 +3,7 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import Text from '../Text';
-import InputOption from '../InputOption';
+import { InputIcon } from '../Input';
 import styles from './InputSelectTemplate.style';
 
 class InputSelectTemplate extends PureComponent {
@@ -29,7 +29,7 @@ class InputSelectTemplate extends PureComponent {
 
     return (
       <View style={inherit.style}>
-        <InputOption value={active || selected} style={styles.inputOption} />
+        <InputIcon active={active || selected} />
         <View style={styles.texts}>
           <Text lighten={disabled} style={styles.title}>
             {title}
