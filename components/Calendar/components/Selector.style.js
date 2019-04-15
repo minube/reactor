@@ -17,7 +17,7 @@ export default StyleSheet.create({
   },
 
   touchableDisabled: {
-    opacity: 0.1,
+    opacity: 0,
   },
 
   value: {
