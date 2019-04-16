@@ -10,6 +10,9 @@ import google from './google.png';
 import left from './left.png';
 import leftOutline from './left_outline.png';
 import linkedin from './linkedin.png';
+import navExpand from './nav-expand.png';
+import navLeft from './nav-left.png';
+import navRight from './nav-right.png';
 import right from './right.png';
 import rightOutline from './right_outline.png';
 import shareContrast from './share_contrast.png';
@@ -29,6 +32,9 @@ export default {
   google,
   left,
   linkedin,
+  navExpand,
+  navLeft,
+  navRight,
   right,
   shareContrast,
   twitter,

@@ -43,75 +43,139 @@ exports[`<Calendar> renders 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -144,75 +208,139 @@ exports[`<Calendar> renders 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -4756,75 +4884,139 @@ exports[`<Calendar> when {availableDates} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -4857,75 +5049,139 @@ exports[`<Calendar> when {availableDates} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -7831,75 +8087,139 @@ exports[`<Calendar> when {box:false} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -7932,75 +8252,139 @@ exports[`<Calendar> when {box:false} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -12010,75 +12394,139 @@ exports[`<Calendar> when {busy} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -12111,75 +12559,139 @@ exports[`<Calendar> when {busy} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -16723,75 +17235,139 @@ exports[`<Calendar> when {captions} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -16824,75 +17400,139 @@ exports[`<Calendar> when {captions} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -21436,75 +22076,139 @@ exports[`<Calendar> when {date} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -21537,75 +22241,139 @@ exports[`<Calendar> when {date} 1`] = `
           december 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -26146,75 +26914,139 @@ exports[`<Calendar> when {disabledDates} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -26247,75 +27079,139 @@ exports[`<Calendar> when {disabledDates} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -30859,76 +31755,144 @@ exports[`<Calendar> when {disabledPast} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="none"
           style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Object {
-                  "opacity": 0,
-                },
-              ],
-            ]
+            Object {
+              "opacity": 0,
+            }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  Object {
+                    "opacity": 0.5,
+                  },
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -30961,75 +31925,139 @@ exports[`<Calendar> when {disabledPast} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -34910,75 +35938,139 @@ exports[`<Calendar> when {edges} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -35011,75 +36103,139 @@ exports[`<Calendar> when {edges} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -39647,75 +40803,139 @@ exports[`<Calendar> when {expanded} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -39748,76 +40968,144 @@ exports[`<Calendar> when {expanded} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="none"
           style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Object {
-                  "opacity": 0,
-                },
-              ],
-            ]
+            Object {
+              "opacity": 0,
+            }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  Object {
+                    "opacity": 0.5,
+                  },
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -44033,76 +45321,144 @@ exports[`<Calendar> when {expanded} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="none"
           style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                Object {
-                  "opacity": 0,
-                },
-              ],
-            ]
+            Object {
+              "opacity": 0,
+            }
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="none"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  Object {
+                    "opacity": 0.5,
+                  },
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -44135,75 +45491,139 @@ exports[`<Calendar> when {expanded} 1`] = `
           may 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -48469,75 +49889,139 @@ exports[`<Calendar> when {locale} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -48570,75 +50054,139 @@ exports[`<Calendar> when {locale} 1`] = `
           abril 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -53182,75 +54730,139 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -53283,75 +54895,139 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -57899,75 +59575,139 @@ exports[`<Calendar> when {style} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -58000,75 +59740,139 @@ exports[`<Calendar> when {style} 1`] = `
           april 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -62612,75 +64416,139 @@ exports[`<Calendar> when {value} & {range} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -62713,75 +64581,139 @@ exports[`<Calendar> when {value} & {range} 1`] = `
           november 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>
@@ -67422,75 +69354,139 @@ exports[`<Calendar> when {value} 1`] = `
         }
       >
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/left_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-left.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
         <Text
@@ -67523,75 +69519,139 @@ exports[`<Calendar> when {value} 1`] = `
           november 1980
         </Text>
         <View
-          accessible={true}
-          onLayout={[Function]}
-          onResponderGrant={[Function]}
-          onResponderMove={[Function]}
-          onResponderRelease={[Function]}
-          onResponderTerminate={[Function]}
-          onResponderTerminationRequest={[Function]}
-          onStartShouldSetResponder={[Function]}
-          pointerEvents="box-only"
-          style={
-            Array [
-              undefined,
-              Array [
-                Object {
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                },
-                false,
-              ],
-            ]
-          }
+          style={false}
         >
-          <Image
-            resizeMode="contain"
-            source={
-              Object {
-                "testUri": "../../../components/Icon/assets/right_outline.png",
-              }
-            }
-            style={
-              Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                undefined,
-                undefined,
-              ]
-            }
-          />
           <View
+            accessible={true}
+            onLayout={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            pointerEvents="box-only"
             style={
               Array [
-                Object {
-                  "backgroundColor": "transparent",
-                  "borderRadius": 3,
-                  "bottom": 0,
-                  "left": 0,
-                  "overflow": "hidden",
-                  "position": "absolute",
-                  "right": 0,
-                  "top": 0,
-                },
                 undefined,
+                Array [
+                  Object {
+                    "borderRadius": 3,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ],
               ]
             }
           >
             <View
               style={
-                Object {
-                  "backgroundColor": "#cdd2d4",
-                  "height": 0,
-                  "opacity": 0,
-                  "width": 0,
-                  "zIndex": 0,
-                }
+                Array [
+                  Object {
+                    "alignContent": "center",
+                    "alignItems": "center",
+                    "borderRadius": 3,
+                    "justifyContent": "center",
+                  },
+                  Object {
+                    "height": 44,
+                    "minWidth": 44,
+                    "paddingHorizontal": 28,
+                  },
+                  Object {
+                    "alignItems": "center",
+                    "display": "flex",
+                    "flexDirection": "row",
+                  },
+                  Object {
+                    "height": 28,
+                    "minWidth": 28,
+                    "paddingHorizontal": 12,
+                  },
+                  false,
+                  Object {
+                    "borderRadius": 22,
+                  },
+                  Object {
+                    "paddingHorizontal": 0,
+                  },
+                  false,
+                  false,
+                  false,
+                  Object {
+                    "borderWidth": 1,
+                  },
+                  Object {
+                    "borderColor": "#9B9B9B",
+                  },
+                  false,
+                ]
               }
-            />
+            >
+              <Image
+                resizeMode="contain"
+                source={
+                  Object {
+                    "testUri": "../../../components/Icon/assets/nav-right.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    undefined,
+                    undefined,
+                  ]
+                }
+              />
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "display": "flex",
+                      "flexDirection": "row",
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "borderRadius": 3,
+                    "bottom": 0,
+                    "left": 0,
+                    "overflow": "hidden",
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  },
+                  Object {
+                    "borderRadius": 22,
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "backgroundColor": "#9B9B9B",
+                    "height": 0,
+                    "opacity": 0,
+                    "width": 0,
+                    "zIndex": 0,
+                  }
+                }
+              />
+            </View>
           </View>
         </View>
       </View>

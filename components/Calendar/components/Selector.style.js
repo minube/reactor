@@ -5,19 +5,14 @@ import { LAYOUT, THEME } from '../../../common';
 const { SPACE } = THEME;
 
 export default StyleSheet.create({
+  buttonDisabled: {
+    opacity: 0,
+  },
+
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'center',
     marginBottom: SPACE.MEDIUM,
-  },
-
-  touchable: {
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-
-  touchableDisabled: {
-    opacity: 0,
   },
 
   value: {
