@@ -1057,7 +1057,7 @@ exports[`<Form> when {attributes} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-expand.png",
                     }
                   }
                   style={
@@ -5484,7 +5484,7 @@ exports[`<Form> when {color} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-expand.png",
                     }
                   }
                   style={
@@ -10091,7 +10091,7 @@ exports[`<Form> when {validate} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-expand.png",
                     }
                   }
                   style={
@@ -15080,7 +15080,7 @@ exports[`<Form> when {value} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-expand.png",
                     }
                   }
                   style={
