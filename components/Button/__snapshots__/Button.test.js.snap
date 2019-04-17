@@ -19,6 +19,7 @@ exports[`<Button> renders 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -51,7 +52,6 @@ exports[`<Button> renders 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -124,6 +124,7 @@ exports[`<Button> when {activity} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -154,7 +155,6 @@ exports[`<Button> when {activity} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -309,6 +309,7 @@ exports[`<Button> when {children} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -339,7 +340,6 @@ exports[`<Button> when {children} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -480,6 +480,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -510,7 +511,6 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
           Object {
             "backgroundColor": "#ffffff",
           },
-          false,
           false,
           false,
           false,
@@ -613,6 +613,7 @@ exports[`<Button> when {color} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -643,7 +644,6 @@ exports[`<Button> when {color} 1`] = `
           Object {
             "backgroundColor": "red",
           },
-          false,
           false,
           false,
           false,
@@ -746,6 +746,7 @@ exports[`<Button> when {contained=false} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -769,7 +770,6 @@ exports[`<Button> when {contained=false} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
-          false,
           false,
           false,
           false,
@@ -876,6 +876,7 @@ exports[`<Button> when {disabled} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -906,7 +907,6 @@ exports[`<Button> when {disabled} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           Object {
             "backgroundColor": "#cdd2d4",
           },
@@ -1011,6 +1011,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -1041,7 +1042,6 @@ exports[`<Button> when {icon} & {title} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -1165,6 +1165,7 @@ exports[`<Button> when {icon} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -1197,7 +1198,6 @@ exports[`<Button> when {icon} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -1289,6 +1289,7 @@ exports[`<Button> when {outlined} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -1312,7 +1313,6 @@ exports[`<Button> when {outlined} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
-          false,
           false,
           false,
           false,
@@ -1423,6 +1423,7 @@ exports[`<Button> when {responsive} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -1453,7 +1454,6 @@ exports[`<Button> when {responsive} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -1558,6 +1558,7 @@ exports[`<Button> when {rounded} 1`] = `
           Object {
             "borderRadius": 22,
           },
+          false,
         ],
       ]
     }
@@ -1590,7 +1591,6 @@ exports[`<Button> when {rounded} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -1695,6 +1695,15 @@ exports[`<Button> when {shadow} 1`] = `
             "borderRadius": 3,
           },
           false,
+          Object {
+            "shadowColor": "#000000",
+            "shadowOffset": Object {
+              "height": 1,
+              "width": 0,
+            },
+            "shadowOpacity": 0.2,
+            "shadowRadius": 2,
+          },
         ],
       ]
     }
@@ -1724,15 +1733,6 @@ exports[`<Button> when {shadow} 1`] = `
           false,
           Object {
             "backgroundColor": "#707070",
-          },
-          Object {
-            "shadowColor": "#000000",
-            "shadowOffset": Object {
-              "height": 1,
-              "width": 0,
-            },
-            "shadowOpacity": 0.2,
-            "shadowRadius": 2,
           },
           false,
           false,
@@ -1836,6 +1836,7 @@ exports[`<Button> when {small} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -1870,7 +1871,6 @@ exports[`<Button> when {small} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -1979,6 +1979,7 @@ exports[`<Button> when {style} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -2009,7 +2010,6 @@ exports[`<Button> when {style} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,
@@ -2112,6 +2112,7 @@ exports[`<Button> when {title} 1`] = `
             "borderRadius": 3,
           },
           false,
+          false,
         ],
       ]
     }
@@ -2142,7 +2143,6 @@ exports[`<Button> when {title} 1`] = `
           Object {
             "backgroundColor": "#707070",
           },
-          false,
           false,
           false,
           false,

@@ -25,7 +25,11 @@ const Button = ({
       containerBorderRadius={rounded ? REGULAR_SIZE / 2 : undefined}
       onPress={disabled ? undefined : onPress}
       rippleColor={isSolid && color === WHITE ? BASE : rippleColor || WHITE}
-      style={[styles.touchable, rounded && styles.rounded]}
+      style={[
+        styles.touchable,
+        rounded && styles.rounded,
+        isSolid && shadow && !disabled && styles.shadow,
+      ]}
     >
       <View
         style={[
@@ -37,11 +41,8 @@ const Button = ({
           responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
           rounded && styles.rounded,
           (!title && !children) && styles.noPadding,
-
           // -- Color
           isSolid && { backgroundColor: color || TEXT_LIGHTEN },
-          isSolid && shadow && !disabled && styles.shadow,
-          // isSolid && shadow && !disabled && color && { shadowColor: color },
           isSolid && disabled && styles.disabled,
           outlined && styles.outlined,
           outlined && { borderColor: color || TEXT_LIGHTEN },
