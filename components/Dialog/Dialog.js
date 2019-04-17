@@ -72,12 +72,12 @@ export default class Dialog extends PureComponent {
             behavior={IS_NATIVE ? 'padding' : undefined}
             style={[
               {
+                backgroundColor: COLOR.TRANSPARENT,
                 maxHeight: PORTRAIT ? '100%' : '90%',
                 minWidth: PORTRAIT ? 320 : '33%',
                 maxWidth: PORTRAIT ? '100%' : '66%',
                 position: 'absolute',
               },
-              { backgroundColor: COLOR.TRANSPARENT },
             ]}
           >
             <Motion

@@ -7,9 +7,12 @@ const LOCALES = {
 };
 
 const { IS_WEB, IS_SERVER } = ENV;
+const LEFT_SYMBOLS = ['$'];
 
-export default (amount = 0, fixed = 2, locale) => {
+export default (amount = 0, fixed = 2, locale, symbol = '') => {
   let value;
+  const leftSymbol = LEFT_SYMBOLS.includes(symbol) ? symbol : '';
+  const rightSymbol = !LEFT_SYMBOLS.includes(symbol) ? symbol : '';
 
   if (IS_WEB && !IS_SERVER && Number.prototype.toLocaleString) {
     value = parseFloat(amount.toFixed(fixed)).toLocaleString(locale, {
@@ -33,5 +36,5 @@ export default (amount = 0, fixed = 2, locale) => {
     value = `${amount < 0 ? '-' : ''}${strInt}${strFloat}`;
   }
 
-  return value;
+  return `${leftSymbol}${value}${rightSymbol}`;
 };

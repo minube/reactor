@@ -1,12 +1,11 @@
 import { number, string } from 'prop-types';
-import React, { Fragment } from 'react';
+import React from 'react';
 import { View } from 'react-native';
 
 import Text from '../Text';
 import { format } from './modules';
 import styles from './Price.style';
 
-const LEFT_SYMBOLS = ['$'];
 const LOCALE = 'es-ES';
 
 const Price = ({
@@ -18,23 +17,9 @@ const Price = ({
         {title}
       </Text>
     )}
-
-    <Fragment>
-      { symbol && LEFT_SYMBOLS.includes(symbol) && (
-        <Text {...inherit} style={[styles.symbol, inherit.style]}>
-          {symbol}
-        </Text>
-      )}
-      <Text {...inherit} style={inherit.style}>
-        {format(value, fixed, locale)}
-      </Text>
-      { symbol && !LEFT_SYMBOLS.includes(symbol) && (
-        <Text {...inherit} style={[styles.symbol, inherit.style]}>
-          {symbol}
-        </Text>
-      )}
-    </Fragment>
-
+    <Text {...inherit} style={inherit.style}>
+      {format(value, fixed, locale, symbol)}
+    </Text>
   </View>
 );
 

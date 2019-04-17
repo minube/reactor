@@ -314,6 +314,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 "borderRadius": 3,
               },
               false,
+              false,
             ],
           ]
         }
@@ -343,7 +344,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               Object {
                 "paddingHorizontal": 0,
               },
-              false,
               false,
               false,
               false,
@@ -2409,6 +2409,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 "borderRadius": 3,
               },
               false,
+              false,
             ],
           ]
         }
@@ -2438,7 +2439,6 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "paddingHorizontal": 0,
               },
-              false,
               false,
               false,
               false,

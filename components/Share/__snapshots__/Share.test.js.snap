@@ -23,6 +23,7 @@ exports[`<Share> renders 1`] = `
               "borderRadius": 3,
             },
             false,
+            false,
           ],
         ]
       }
@@ -53,7 +54,6 @@ exports[`<Share> renders 1`] = `
             Object {
               "backgroundColor": "#707070",
             },
-            false,
             false,
             false,
             false,
