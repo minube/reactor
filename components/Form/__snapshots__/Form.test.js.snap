@@ -1015,6 +1015,7 @@ exports[`<Form> when {attributes} 1`] = `
                       "borderRadius": 3,
                     },
                     false,
+                    false,
                   ],
                 ]
               }
@@ -1044,7 +1045,6 @@ exports[`<Form> when {attributes} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
-                    false,
                     false,
                     false,
                     false,
@@ -5442,6 +5442,7 @@ exports[`<Form> when {color} 1`] = `
                       "borderRadius": 3,
                     },
                     false,
+                    false,
                   ],
                 ]
               }
@@ -5471,7 +5472,6 @@ exports[`<Form> when {color} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
-                    false,
                     false,
                     false,
                     false,
@@ -10049,6 +10049,7 @@ exports[`<Form> when {validate} 1`] = `
                       "borderRadius": 3,
                     },
                     false,
+                    false,
                   ],
                 ]
               }
@@ -10078,7 +10079,6 @@ exports[`<Form> when {validate} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
-                    false,
                     false,
                     false,
                     false,
@@ -15038,6 +15038,7 @@ exports[`<Form> when {value} 1`] = `
                       "borderRadius": 3,
                     },
                     false,
+                    false,
                   ],
                 ]
               }
@@ -15067,7 +15068,6 @@ exports[`<Form> when {value} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
-                    false,
                     false,
                     false,
                     false,

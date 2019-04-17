@@ -65,6 +65,7 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -100,7 +101,6 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -230,6 +230,7 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -265,7 +266,6 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -4906,6 +4906,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -4941,7 +4942,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -5071,6 +5071,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -5106,7 +5107,6 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -8109,6 +8109,7 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -8144,7 +8145,6 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -8274,6 +8274,7 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -8309,7 +8310,6 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -12416,6 +12416,7 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -12451,7 +12452,6 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -12581,6 +12581,7 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -12616,7 +12617,6 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -17257,6 +17257,7 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -17292,7 +17293,6 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -17422,6 +17422,7 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -17457,7 +17458,6 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -22098,6 +22098,7 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -22133,7 +22134,6 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -22263,6 +22263,7 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -22298,7 +22299,6 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -26936,6 +26936,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -26971,7 +26972,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -27101,6 +27101,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -27136,7 +27137,6 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -31780,6 +31780,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -31815,7 +31816,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -31947,6 +31947,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -31982,7 +31983,6 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -35960,6 +35960,7 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -35995,7 +35996,6 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -36125,6 +36125,7 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -36160,7 +36161,6 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -40825,6 +40825,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -40860,7 +40861,6 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -40993,6 +40993,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -41028,7 +41029,6 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -45346,6 +45346,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -45381,7 +45382,6 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -45513,6 +45513,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -45548,7 +45549,6 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -49911,6 +49911,7 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -49946,7 +49947,6 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -50076,6 +50076,7 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -50111,7 +50112,6 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -54752,6 +54752,7 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -54787,7 +54788,6 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -54917,6 +54917,7 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -54952,7 +54953,6 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -59597,6 +59597,7 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -59632,7 +59633,6 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -59762,6 +59762,7 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -59797,7 +59798,6 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -64438,6 +64438,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -64473,7 +64474,6 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -64603,6 +64603,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -64638,7 +64639,6 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -69376,6 +69376,7 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -69411,7 +69412,6 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
@@ -69541,6 +69541,7 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "borderRadius": 22,
                   },
+                  false,
                 ],
               ]
             }
@@ -69576,7 +69577,6 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
-                  false,
                   false,
                   false,
                   Object {
