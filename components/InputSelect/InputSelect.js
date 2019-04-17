@@ -97,7 +97,7 @@ class InputSelect extends PureComponent {
             style={[styles.button, label && styles.withLabel]}
             timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
           >
-            <Button contained={false} icon="navExpand" onPress={event} />
+            <Button contained={false} icon="navDown" onPress={event} />
           </Motion>
         )}
 

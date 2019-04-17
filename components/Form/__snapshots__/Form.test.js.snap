@@ -1057,7 +1057,7 @@ exports[`<Form> when {attributes} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/nav-expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
                     }
                   }
                   style={
@@ -1068,7 +1068,13 @@ exports[`<Form> when {attributes} 1`] = `
                         "width": 20,
                       },
                       undefined,
-                      undefined,
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "90deg",
+                          },
+                        ],
+                      },
                     ]
                   }
                 />
@@ -5484,7 +5490,7 @@ exports[`<Form> when {color} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/nav-expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
                     }
                   }
                   style={
@@ -5495,7 +5501,13 @@ exports[`<Form> when {color} 1`] = `
                         "width": 20,
                       },
                       undefined,
-                      undefined,
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "90deg",
+                          },
+                        ],
+                      },
                     ]
                   }
                 />
@@ -10091,7 +10103,7 @@ exports[`<Form> when {validate} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/nav-expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
                     }
                   }
                   style={
@@ -10102,7 +10114,13 @@ exports[`<Form> when {validate} 1`] = `
                         "width": 20,
                       },
                       undefined,
-                      undefined,
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "90deg",
+                          },
+                        ],
+                      },
                     ]
                   }
                 />
@@ -15080,7 +15098,7 @@ exports[`<Form> when {value} 1`] = `
                   resizeMode="contain"
                   source={
                     Object {
-                      "testUri": "../../../components/Icon/assets/nav-expand.png",
+                      "testUri": "../../../components/Icon/assets/nav-arrow.png",
                     }
                   }
                   style={
@@ -15091,7 +15109,13 @@ exports[`<Form> when {value} 1`] = `
                         "width": 20,
                       },
                       undefined,
-                      undefined,
+                      Object {
+                        "transform": Array [
+                          Object {
+                            "rotate": "90deg",
+                          },
+                        ],
+                      },
                     ]
                   }
                 />

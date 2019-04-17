@@ -1324,7 +1324,10 @@ exports[`<Slider> when {navigation} 1`] = `
                   "width": 20,
                 },
                 undefined,
-                undefined,
+                Object {
+                  "height": 16,
+                  "width": 16,
+                },
               ]
             }
           />
@@ -1466,7 +1469,10 @@ exports[`<Slider> when {navigation} 1`] = `
                   "width": 20,
                 },
                 undefined,
-                undefined,
+                Object {
+                  "height": 16,
+                  "width": 16,
+                },
               ]
             }
           />
