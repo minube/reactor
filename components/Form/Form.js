@@ -138,6 +138,7 @@ class Form extends PureComponent {
     return createElement(Inputs[type] || Input, {
       key: keyMap,
       label: props.label || field,
+      hint: props.caption,
       color,
       ...props,
       error,
