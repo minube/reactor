@@ -9,14 +9,15 @@ const ICONS = [
   'email',
   'error',
   'errorOutline',
-  'expand',
   'facebook',
   'google',
   'left',
-  'leftOutline',
   'linkedin',
+  'navRight',
+  'navDown',
+  'navLeft',
+  'navUp',
   'right',
-  'rightOutline',
   'shareContrast',
   'twitter',
 ];
@@ -26,8 +27,9 @@ const STYLE = {
 };
 
 const VALUE = ICONS[0];
+const VALUE_NAV = 'navDown';
 const VALUE_URI = 'http://soyjavi.com/assets/images/soyjavi.jpg';
 
 export default {
-  COLOR, ICONS, STYLE, VALUE, VALUE_URI,
+  COLOR, ICONS, STYLE, VALUE, VALUE_NAV, VALUE_URI,
 };
