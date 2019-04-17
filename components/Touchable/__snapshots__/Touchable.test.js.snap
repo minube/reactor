@@ -206,55 +206,6 @@ exports[`<Touchable> when {rippleColor} 1`] = `
 </View>
 `;
 
-exports[`<Touchable> when {rippleDelay} 1`] = `
-<View
-  accessible={true}
-  onResponderGrant={[Function]}
-  onResponderMove={[Function]}
-  onResponderRelease={[Function]}
-  onResponderTerminate={[Function]}
-  onResponderTerminationRequest={[Function]}
-  onStartShouldSetResponder={[Function]}
-  pointerEvents="none"
-  style={
-    Array [
-      undefined,
-      undefined,
-    ]
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "transparent",
-          "borderRadius": 3,
-          "bottom": 0,
-          "left": 0,
-          "overflow": "hidden",
-          "position": "absolute",
-          "right": 0,
-          "top": 0,
-        },
-        undefined,
-      ]
-    }
-  >
-    <View
-      style={
-        Object {
-          "backgroundColor": "#cdd2d4",
-          "height": 0,
-          "opacity": 0,
-          "width": 0,
-          "zIndex": 0,
-        }
-      }
-    />
-  </View>
-</View>
-`;
-
 exports[`<Touchable> when {style} 1`] = `
 <View
   accessible={true}
