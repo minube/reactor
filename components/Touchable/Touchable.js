@@ -6,21 +6,18 @@ import {
   Animated, Easing, TouchableWithoutFeedback, View,
 } from 'react-native';
 
-import { ENV, THEME } from '../../common';
+import { THEME } from '../../common';
 
 import Ripple from './components/Ripple';
 import styles from './Touchable.style';
 
 const { COLOR } = THEME;
-const { IS_NATIVE } = ENV;
 const ANIMATION = {
   toValue: 1,
   easing: Easing.out(Easing.ease),
   duration: 400,
-  useNativeDriver: IS_NATIVE,
+  useNativeDriver: true,
 };
-let timeoutId;
-let epicenter;
 
 class Touchable extends PureComponent {
   mounted = false;
@@ -30,7 +27,6 @@ class Touchable extends PureComponent {
     containerBorderRadius: number,
     onPress: func,
     rippleColor: string,
-    rippleDelay: number,
   };
 
   static defaultProps = {
@@ -38,7 +34,6 @@ class Touchable extends PureComponent {
     containerBorderRadius: undefined,
     onPress: undefined,
     rippleColor: COLOR.BASE,
-    rippleDelay: 0,
   };
 
   state = {
@@ -57,9 +52,7 @@ class Touchable extends PureComponent {
   }
 
   onAnimationEnd = () => {
-    if (this.mounted) {
-      this.setState(({ ripples }) => ({ ripples: ripples.slice(1) }));
-    }
+    if (this.mounted) this.setState(({ ripples }) => ({ ripples: ripples.slice(1) }));
   }
 
   _onLayout = (event) => {
@@ -70,55 +63,46 @@ class Touchable extends PureComponent {
   _onPressIn = (event) => {
     const {
       onAnimationEnd,
-      props: { rippleDelay },
       state: {
         mask, ripples, width, height,
       },
     } = this;
     const { locationX: x, locationY: y } = event.nativeEvent;
-    epicenter = { x, y };
 
     Animated.timing(mask, { ...ANIMATION, delay: ANIMATION.duration / 4, toValue: 0.25 }).start();
-    clearTimeout(timeoutId);
-    timeoutId = setTimeout(() => {
-      const w = 0.5 * width;
-      const h = 0.5 * height;
-      const offsetX = Math.abs(w - x);
-      const offsetY = Math.abs(h - y);
 
-      const ripple = {
-        key: (new Date()).getTime(),
-        progress: new Animated.Value(0),
-        range: Math.sqrt(((w + offsetX) ** 2) + ((h + offsetY) ** 2)),
-        x,
-        y,
-      };
-      Animated.timing(ripple.progress, ANIMATION).start(onAnimationEnd);
-      this.setState({ ripples: [...ripples, ripple] });
-    }, rippleDelay);
+    const w = 0.5 * width;
+    const h = 0.5 * height;
+    const offsetX = Math.abs(w - x);
+    const offsetY = Math.abs(h - y);
+    const ripple = {
+      key: (new Date()).getTime(),
+      progress: new Animated.Value(0),
+      range: Math.sqrt(((w + offsetX) ** 2) + ((h + offsetY) ** 2)),
+      x,
+      y,
+    };
+
+    Animated.timing(ripple.progress, ANIMATION).start(onAnimationEnd);
+    this.setState({ ripples: [...ripples, ripple] });
   }
 
-  _onPressOut = (event) => {
-    const { props: { rippleDelay }, state: { mask } } = this;
-    const { locationX: x, locationY: y } = event.nativeEvent;
+  _onPressOut = () => {
+    const { state: { mask } } = this;
 
-    if (rippleDelay > 0) {
-      const gapX = (epicenter.x / x);
-      const gapY = epicenter.y / y;
-      if (gapX < 0.9 || gapX > 1.1 || gapY < 0.9 || gapY > 1.1) clearTimeout(timeoutId);
-    }
     Animated.timing(mask, { ...ANIMATION, toValue: 0 }).start();
   }
 
   _onPress = (event) => {
     const { props: { onPress } } = this;
+
     event.preventDefault();
     onPress(event);
   }
 
   render() {
     const {
-      _onPress, _onPressIn, _onPressOut, _onLayout,
+      _onPressIn, _onPress, _onPressOut, _onLayout,
       props: {
         children, containerBorderRadius, onPress, rippleColor, ...inherit
       },
@@ -126,16 +110,11 @@ class Touchable extends PureComponent {
         mask, width, height, ripples = [],
       },
     } = this;
-    let events = {};
-
-    if (onPress) {
-      events = {
-        onLayout: _onLayout,
-        onPressIn: _onPressIn,
-        onPressOut: _onPressOut,
-        onPress: _onPress,
-      };
-    }
+    const events = onPress
+      ? {
+        onLayout: _onLayout, onPressIn: _onPressIn, onPress: _onPress, onPressOut: _onPressOut,
+      }
+      : {};
 
     return (
       <TouchableWithoutFeedback {...events}>

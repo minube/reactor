@@ -2,32 +2,25 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import Calendar from './Calendar';
-// import {
-//   STYLE, TODAY, TOMORROW, IN_7_DAYS, IN_10_DAYS, LOCALE,
-// } from './Calendar.story';
-const STYLE = { backgroundColor: 'rgba(0,255,0,0.25)', width: '100%' };
+import {
+  CAPTIONS, LOCALE, STYLE, STYLE_DAYNAMES, STYLE_EDGES,
+} from './Calendar.Mocks';
+
 const TODAY = new Date(1980, 10, 4);
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
 const TOMORROW = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 1);
 const IN_7_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 7);
 const IN_10_DAYS = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() + 10);
 const NEXT_MONTH = new Date(TODAY.getFullYear(), TODAY.getMonth() + 1);
-const LOCALE = {
-  DAY_NAMES: ['lu', 'ma', 'mi', 'ju', 'vi', 'sá', 'do'],
-  MONTHS: [
-    'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
-    'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre',
-  ],
-};
-
-const CAPTIONS = [
-  { date: TOMORROW, value: '$10' },
-  { date: IN_7_DAYS, value: '$19' },
-];
 
 describe('<Calendar>', () => {
   it('renders', () => {
     const tree = renderer.create(<Calendar />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {box:false}', () => {
+    const tree = renderer.create(<Calendar box={false} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -38,6 +31,16 @@ describe('<Calendar>', () => {
 
   it('when {date}', () => {
     const tree = renderer.create(<Calendar date={NEXT_MONTH} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {edges}', () => {
+    const tree = renderer.create(<Calendar edges />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {expanded}', () => {
+    const tree = renderer.create(<Calendar expanded />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
@@ -78,6 +81,11 @@ describe('<Calendar>', () => {
 
   it('when {style}', () => {
     const tree = renderer.create(<Calendar style={STYLE} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {style:dayNames}', () => {
+    const tree = renderer.create(<Calendar styleDayNames={STYLE_DAYNAMES} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

@@ -40,13 +40,11 @@ exports[`<Dialog> renders 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -153,13 +151,11 @@ exports[`<Dialog> when {background} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -268,13 +264,11 @@ exports[`<Dialog> when {children} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -407,13 +401,11 @@ exports[`<Dialog> when {highlight} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -514,6 +506,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                       Object {
                         "borderRadius": 22,
                       },
+                      false,
                     ],
                   ]
                 }
@@ -545,7 +538,6 @@ exports[`<Dialog> when {highlight} 1`] = `
                       Object {
                         "paddingHorizontal": 0,
                       },
-                      false,
                       false,
                       false,
                       false,
@@ -681,13 +673,11 @@ exports[`<Dialog> when {onClose} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -757,6 +747,7 @@ exports[`<Dialog> when {onClose} 1`] = `
                       Object {
                         "borderRadius": 22,
                       },
+                      false,
                     ],
                   ]
                 }
@@ -788,7 +779,6 @@ exports[`<Dialog> when {onClose} 1`] = `
                       Object {
                         "paddingHorizontal": 0,
                       },
-                      false,
                       false,
                       false,
                       false,
@@ -923,13 +913,11 @@ exports[`<Dialog> when {reverse} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -1038,13 +1026,11 @@ exports[`<Dialog> when {style} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -1158,13 +1144,11 @@ exports[`<Dialog> when {styleContainer} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -1273,13 +1257,11 @@ exports[`<Dialog> when {title} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {
@@ -1420,13 +1402,11 @@ exports[`<Dialog> when {visible} 1`] = `
         Array [
           Array [
             Object {
+              "backgroundColor": "transparent",
               "maxHeight": "100%",
               "maxWidth": "100%",
               "minWidth": 320,
               "position": "absolute",
-            },
-            Object {
-              "backgroundColor": "transparent",
             },
           ],
           Object {

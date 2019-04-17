@@ -10,7 +10,7 @@ export default {
     color: THEME.COLOR.PRIMARY,
   },
   SYMBOL_$: '$',
-  SYMBOL_EUR: 'eur',
+  SYMBOL_EUR: '€',
   TEXT_PROPS: {
     headline: true,
     level: 3,

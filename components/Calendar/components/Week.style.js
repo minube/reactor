@@ -8,14 +8,14 @@ const BOX_SIZE = UNIT * 4;
 export { BOX_SIZE };
 
 export default StyleSheet.create({
-  box: {
+  cell: {
     alignItems: 'center',
     height: BOX_SIZE,
     justifyContent: 'center',
     minWidth: BOX_SIZE,
   },
 
-  boxBackground: {
+  box: {
     backgroundColor: COLOR.PRIMARY,
     height: UNIT * 4,
     width: UNIT * 4,
@@ -23,20 +23,20 @@ export default StyleSheet.create({
     position: 'absolute',
   },
 
-  boxBackgroundDisabled: {
+  boxDisabled: {
     backgroundColor: COLOR.LIGHT_GREY,
     opacity: 0.1,
   },
 
-  boxExpand: {
+  cellExpand: {
     flex: 1,
   },
 
-  boxSelected: {
+  cellSelected: {
     backgroundColor: COLOR.PRIMARY,
   },
 
-  boxSelectedToday: {
+  cellSelectedToday: {
     borderColor: COLOR.TEXT,
     borderWidth: 1,
   },
@@ -57,10 +57,6 @@ export default StyleSheet.create({
 
   text: {
     position: 'absolute',
-  },
-
-  textDisabled: {
-    color: COLOR.LIGHT_GREY,
   },
 
   textHighlight: {

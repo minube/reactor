@@ -314,6 +314,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 "borderRadius": 3,
               },
               false,
+              false,
             ],
           ]
         }
@@ -348,7 +349,6 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -356,7 +356,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/expand.png",
+                "testUri": "../../../components/Icon/assets/nav-expand.png",
               }
             }
             style={
@@ -2409,6 +2409,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 "borderRadius": 3,
               },
               false,
+              false,
             ],
           ]
         }
@@ -2443,7 +2444,6 @@ exports[`<InputSelect> when {value} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -2451,7 +2451,7 @@ exports[`<InputSelect> when {value} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/expand.png",
+                "testUri": "../../../components/Icon/assets/nav-expand.png",
               }
             }
             style={

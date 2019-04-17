@@ -9,16 +9,16 @@ export default StyleSheet.create({
   container: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
-    marginVertical: SPACE.XXS,
+    marginTop: SPACE.XXS,
     marginBottom: SPACE.S,
   },
 
-  box: {
+  cell: {
     textAlign: 'center',
     minWidth: BOX_SIZE,
   },
 
-  boxExpand: {
+  cellExpand: {
     flex: 1,
   },
 });
