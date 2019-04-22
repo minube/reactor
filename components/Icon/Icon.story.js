@@ -17,17 +17,17 @@ storiesOf('✅ Icon', module)
   .add('value (as uri)', () => (
     <Icon value={MOCKS.VALUE_URI} />
   ))
-  .add('value:navLeft', () => (
-    <Icon value="navLeft" />
+  .add('value:navRight', () => (
+    <Icon value={MOCKS.VALUE_NAV.RIGHT} />
   ))
   .add('value:navDown', () => (
-    <Icon value="navDown" />
+    <Icon value={MOCKS.VALUE_NAV.DOWN} />
   ))
-  .add('value:navRight', () => (
-    <Icon value="navRight" />
+  .add('value:navLeft', () => (
+    <Icon value={MOCKS.VALUE_NAV.LEFT} />
   ))
   .add('value:navUp', () => (
-    <Icon value="navUp" />
+    <Icon value={MOCKS.VALUE_NAV.UP} />
   ))
   .add('color (only Native)', () => (
     <Icon color={MOCKS.COLOR} value={MOCKS.VALUE} />

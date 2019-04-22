@@ -27,7 +27,13 @@ const STYLE = {
 };
 
 const VALUE = ICONS[0];
-const VALUE_NAV = 'navDown';
+const VALUE_NAV = {
+  RIGHT: 'navRight',
+  DOWN: 'navDown',
+  LEFT: 'navLeft',
+  UP: 'navUp',
+};
+
 const VALUE_URI = 'http://soyjavi.com/assets/images/soyjavi.jpg';
 
 export default {
