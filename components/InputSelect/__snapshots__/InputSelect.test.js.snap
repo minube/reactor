@@ -368,11 +368,13 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                 },
                 undefined,
                 Object {
+                  "height": 14,
                   "transform": Array [
                     Object {
                       "rotate": "90deg",
                     },
                   ],
+                  "width": 14,
                 },
               ]
             }
@@ -2469,11 +2471,13 @@ exports[`<InputSelect> when {value} 1`] = `
                 },
                 undefined,
                 Object {
+                  "height": 14,
                   "transform": Array [
                     Object {
                       "rotate": "90deg",
                     },
                   ],
+                  "width": 14,
                 },
               ]
             }
