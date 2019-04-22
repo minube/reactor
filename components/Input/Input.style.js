@@ -37,11 +37,14 @@ export default StyleSheet.create({
   },
 
   icon: {
-    alignSelf: 'flex-start',
     height: ICON_SIZE,
-    marginHorizontal: SPACE.XXS,
-    marginTop: UNIT * 1.1,
+    marginRight: SPACE.XXS,
     width: ICON_SIZE,
+  },
+
+  inlineHint: {
+    ...LAYOUT.STYLE.ROW,
+    paddingHorizontal: SPACE.XXS,
   },
 
   input: {
@@ -49,21 +52,20 @@ export default StyleSheet.create({
     borderWidth: 0,
     color: COLOR.TEXT,
     flex: 1,
-    fontSize: SPACE.MEDIUM,
+    fontSize: UNIT * 1.6,
     minHeight: INPUT_HEIGHT,
     paddingHorizontal: SPACE.XXS,
     paddingVertical: UNIT * 0.75,
     width: '100%',
-    ...Platform.select({
-      web: {
-        outline: 'none',
-      },
-    }),
     ...FONT.INPUT,
   },
 
   inputDisabled: {
     color: COLOR.TEXT_LIGHTEN,
+  },
+
+  inputCurrency: {
+    textAlign: 'right',
   },
 
   multiline: {
