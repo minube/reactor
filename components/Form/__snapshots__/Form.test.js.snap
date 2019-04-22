@@ -1069,11 +1069,13 @@ exports[`<Form> when {attributes} 1`] = `
                       },
                       undefined,
                       Object {
+                        "height": 14,
                         "transform": Array [
                           Object {
                             "rotate": "90deg",
                           },
                         ],
+                        "width": 14,
                       },
                     ]
                   }
@@ -5502,11 +5504,13 @@ exports[`<Form> when {color} 1`] = `
                       },
                       undefined,
                       Object {
+                        "height": 14,
                         "transform": Array [
                           Object {
                             "rotate": "90deg",
                           },
                         ],
+                        "width": 14,
                       },
                     ]
                   }
@@ -10115,11 +10119,13 @@ exports[`<Form> when {validate} 1`] = `
                       },
                       undefined,
                       Object {
+                        "height": 14,
                         "transform": Array [
                           Object {
                             "rotate": "90deg",
                           },
                         ],
+                        "width": 14,
                       },
                     ]
                   }
@@ -15110,11 +15116,13 @@ exports[`<Form> when {value} 1`] = `
                       },
                       undefined,
                       Object {
+                        "height": 14,
                         "transform": Array [
                           Object {
                             "rotate": "90deg",
                           },
                         ],
+                        "width": 14,
                       },
                     ]
                   }
