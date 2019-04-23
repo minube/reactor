@@ -16,7 +16,9 @@ storiesOf('✅ Input', module)
   .add('color', () => (
     <Input color="green" />
   ))
-
+  .add('currency', () => (
+    <Input currency="$" />
+  ))
   .add('hint', () => (
     <Input hint="Optional fieldOptional fieldOptional fieldOptional fieldOptional fieldOptional field" />
   ))
@@ -68,6 +70,7 @@ storiesOf('✅ Input', module)
   .add('🏀 Playground', () => (
     <Input
       color={color('color', undefined)}
+      currency={text('currency', undefined)}
       disabled={boolean('disabled', false)}
       error={text('error', null)}
       hint={text('hint', null)}

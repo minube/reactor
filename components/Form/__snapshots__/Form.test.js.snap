@@ -109,37 +109,48 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={false}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -164,6 +175,8 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {
                   "color": "#707070",
                 },
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -236,37 +249,48 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -289,6 +313,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -367,6 +393,7 @@ exports[`<Form> when {attributes} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="email-address"
             keyboardType="email-address"
             multiline={false}
             onBlur={[Function]}
@@ -390,6 +417,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -410,10 +439,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "alignSelf": "flex-start",
                   "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
+                  "marginRight": 4,
                   "width": 20,
                 },
                 undefined,
@@ -523,6 +550,7 @@ exports[`<Form> when {attributes} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -546,6 +574,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -624,6 +654,7 @@ exports[`<Form> when {attributes} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -647,6 +678,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -755,6 +788,7 @@ exports[`<Form> when {attributes} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={true}
             numberOfLines={4}
@@ -778,6 +812,160 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          currency
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Text
+              _style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
+                }
+              }
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "color": "#707070",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              $
+            </Text>
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="numeric"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                Object {
+                  "textAlign": "right",
+                },
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -796,7 +984,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -943,7 +1131,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -2860,6 +3048,7 @@ exports[`<Form> when {attributes} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -2882,6 +3071,8 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -2955,37 +3146,48 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -3008,6 +3210,8 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -3881,37 +4085,48 @@ exports[`<Form> when {attributes} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/twitter.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -3934,6 +4149,8 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4006,37 +4223,48 @@ exports[`<Form> when {attributes} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/facebook.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/facebook.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -4059,6 +4287,8 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4137,6 +4367,7 @@ exports[`<Form> when {attributes} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -4159,6 +4390,8 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4179,10 +4412,8 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                   undefined,
@@ -4276,6 +4507,7 @@ exports[`<Form> when {attributes} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -4299,6 +4531,8 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4544,37 +4778,48 @@ exports[`<Form> when {color} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={false}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -4599,6 +4844,8 @@ exports[`<Form> when {color} 1`] = `
                 Object {
                   "color": "#707070",
                 },
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -4671,37 +4918,48 @@ exports[`<Form> when {color} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -4724,6 +4982,8 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -4802,6 +5062,7 @@ exports[`<Form> when {color} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="email-address"
             keyboardType="email-address"
             multiline={false}
             onBlur={[Function]}
@@ -4825,6 +5086,8 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -4845,10 +5108,8 @@ exports[`<Form> when {color} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "alignSelf": "flex-start",
                   "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
+                  "marginRight": 4,
                   "width": 20,
                 },
                 undefined,
@@ -4958,6 +5219,7 @@ exports[`<Form> when {color} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -4981,6 +5243,8 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -5059,6 +5323,7 @@ exports[`<Form> when {color} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -5082,6 +5347,8 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -5190,6 +5457,7 @@ exports[`<Form> when {color} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={true}
             numberOfLines={4}
@@ -5213,6 +5481,160 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          currency
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Text
+              _style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
+                }
+              }
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "color": "#707070",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              $
+            </Text>
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="numeric"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                Object {
+                  "textAlign": "right",
+                },
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -5231,7 +5653,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -5378,7 +5800,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -7295,6 +7717,7 @@ exports[`<Form> when {color} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -7317,6 +7740,8 @@ exports[`<Form> when {color} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -7390,37 +7815,48 @@ exports[`<Form> when {color} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -7443,6 +7879,8 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -8316,37 +8754,48 @@ exports[`<Form> when {color} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/twitter.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -8369,6 +8818,8 @@ exports[`<Form> when {color} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -8441,37 +8892,48 @@ exports[`<Form> when {color} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/facebook.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/facebook.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -8494,6 +8956,8 @@ exports[`<Form> when {color} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -8572,6 +9036,7 @@ exports[`<Form> when {color} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -8594,6 +9059,8 @@ exports[`<Form> when {color} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -8614,10 +9081,8 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                   undefined,
@@ -8711,6 +9176,7 @@ exports[`<Form> when {color} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -8734,6 +9200,8 @@ exports[`<Form> when {color} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -9108,37 +9576,48 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={false}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -9163,6 +9642,8 @@ exports[`<Form> when {validate} 1`] = `
                 Object {
                   "color": "#707070",
                 },
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -9237,37 +9718,48 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -9290,6 +9782,8 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -9312,10 +9806,8 @@ exports[`<Form> when {validate} 1`] = `
                   "justifyContent": "center",
                 },
                 Object {
-                  "alignSelf": "flex-start",
                   "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
+                  "marginRight": 4,
                   "width": 20,
                 },
               ]
@@ -9417,6 +9909,7 @@ exports[`<Form> when {validate} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="email-address"
             keyboardType="email-address"
             multiline={false}
             onBlur={[Function]}
@@ -9440,6 +9933,8 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -9460,10 +9955,8 @@ exports[`<Form> when {validate} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "alignSelf": "flex-start",
                   "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
+                  "marginRight": 4,
                   "width": 20,
                 },
                 undefined,
@@ -9573,6 +10066,7 @@ exports[`<Form> when {validate} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -9596,6 +10090,8 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -9674,6 +10170,7 @@ exports[`<Form> when {validate} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -9697,6 +10194,8 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -9805,6 +10304,7 @@ exports[`<Form> when {validate} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={true}
             numberOfLines={4}
@@ -9828,6 +10328,160 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          currency
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Text
+              _style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
+                }
+              }
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "color": "#707070",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              $
+            </Text>
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="numeric"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                Object {
+                  "textAlign": "right",
+                },
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -9846,7 +10500,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -9993,7 +10647,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -11912,6 +12566,7 @@ exports[`<Form> when {validate} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -11934,6 +12589,8 @@ exports[`<Form> when {validate} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -11956,10 +12613,8 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                 ]
@@ -12056,37 +12711,48 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -12109,6 +12775,8 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -12984,37 +13652,48 @@ exports[`<Form> when {validate} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/twitter.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -13037,6 +13716,8 @@ exports[`<Form> when {validate} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -13059,10 +13740,8 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                 ]
@@ -13160,37 +13839,48 @@ exports[`<Form> when {validate} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/facebook.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/facebook.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -13213,6 +13903,8 @@ exports[`<Form> when {validate} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -13235,10 +13927,8 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                 ]
@@ -13340,6 +14030,7 @@ exports[`<Form> when {validate} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -13362,6 +14053,8 @@ exports[`<Form> when {validate} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -13382,10 +14075,8 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                   undefined,
@@ -13481,6 +14172,7 @@ exports[`<Form> when {validate} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -13504,6 +14196,8 @@ exports[`<Form> when {validate} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -13526,10 +14220,8 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                 ]
@@ -14156,37 +14848,48 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={false}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -14211,6 +14914,8 @@ exports[`<Form> when {value} 1`] = `
                 Object {
                   "color": "#707070",
                 },
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -14283,37 +14988,48 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -14336,6 +15052,8 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -14414,6 +15132,7 @@ exports[`<Form> when {value} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="email-address"
             keyboardType="email-address"
             multiline={false}
             onBlur={[Function]}
@@ -14437,6 +15156,8 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -14457,10 +15178,8 @@ exports[`<Form> when {value} 1`] = `
                   "width": 20,
                 },
                 Object {
-                  "alignSelf": "flex-start",
                   "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
+                  "marginRight": 4,
                   "width": 20,
                 },
                 undefined,
@@ -14570,6 +15289,7 @@ exports[`<Form> when {value} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -14593,6 +15313,8 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -14671,6 +15393,7 @@ exports[`<Form> when {value} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="phone-pad"
             keyboardType="phone-pad"
             multiline={false}
             onBlur={[Function]}
@@ -14694,6 +15417,8 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -14802,6 +15527,7 @@ exports[`<Form> when {value} 1`] = `
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={true}
             numberOfLines={4}
@@ -14825,6 +15551,160 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              undefined,
+              Object {
+                "width": "32%",
+              },
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          currency
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Text
+              _style={
+                Object {
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
+                }
+              }
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#4a4a4a",
+                    "fontFamily": undefined,
+                    "fontWeight": "400",
+                    "textAlignVertical": "center",
+                  },
+                  Object {
+                    "fontFamily": undefined,
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 20,
+                  },
+                  Object {
+                    "color": "#707070",
+                  },
+                  Object {},
+                ]
+              }
+            >
+              $
+            </Text>
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="numeric"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                Object {
+                  "textAlign": "right",
+                },
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -14843,7 +15723,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -14990,7 +15870,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               undefined,
               Object {
-                "width": "49%",
+                "width": "32%",
               },
             ],
           ]
@@ -16907,6 +17787,7 @@ exports[`<Form> when {value} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -16929,6 +17810,8 @@ exports[`<Form> when {value} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -17002,37 +17885,48 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          <Image
-            resizeMode="contain"
-            source={
+          <View
+            pointerEvents="none"
+            style={
               Object {
-                "testUri": "../../../components/Icon/assets/twitter.png",
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 4,
               }
             }
-            style={
-              Array [
+          >
+            <Image
+              resizeMode="contain"
+              source={
                 Object {
-                  "backgroundColor": "transparent",
-                  "height": 20,
-                  "width": 20,
-                },
-                Object {
-                  "alignSelf": "flex-start",
-                  "height": 20,
-                  "marginHorizontal": 4,
-                  "marginTop": 11,
-                  "width": 20,
-                },
-                undefined,
-              ]
-            }
-          />
+                  "testUri": "../../../components/Icon/assets/twitter.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "height": 20,
+                    "marginRight": 4,
+                    "width": 20,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
           <TextInput
             allowFontScaling={true}
             autoCapitalize="none"
             autoCorrect={false}
             blurOnSubmit={true}
             editable={true}
+            keyboard="default"
             keyboardType="default"
             multiline={false}
             onBlur={[Function]}
@@ -17055,6 +17949,8 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -17928,37 +18824,48 @@ exports[`<Form> when {value} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/twitter.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/twitter.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -17981,6 +18888,8 @@ exports[`<Form> when {value} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -18053,37 +18962,48 @@ exports[`<Form> when {value} 1`] = `
               ]
             }
           >
-            <Image
-              resizeMode="contain"
-              source={
+            <View
+              pointerEvents="none"
+              style={
                 Object {
-                  "testUri": "../../../components/Icon/assets/facebook.png",
+                  "alignItems": "center",
+                  "display": "flex",
+                  "flexDirection": "row",
+                  "paddingHorizontal": 4,
                 }
               }
-              style={
-                Array [
+            >
+              <Image
+                resizeMode="contain"
+                source={
                   Object {
-                    "backgroundColor": "transparent",
-                    "height": 20,
-                    "width": 20,
-                  },
-                  Object {
-                    "alignSelf": "flex-start",
-                    "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
-                    "width": 20,
-                  },
-                  undefined,
-                ]
-              }
-            />
+                    "testUri": "../../../components/Icon/assets/facebook.png",
+                  }
+                }
+                style={
+                  Array [
+                    Object {
+                      "backgroundColor": "transparent",
+                      "height": 20,
+                      "width": 20,
+                    },
+                    Object {
+                      "height": 20,
+                      "marginRight": 4,
+                      "width": 20,
+                    },
+                    undefined,
+                  ]
+                }
+              />
+            </View>
             <TextInput
               allowFontScaling={true}
               autoCapitalize="none"
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -18106,6 +19026,8 @@ exports[`<Form> when {value} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -18184,6 +19106,7 @@ exports[`<Form> when {value} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -18206,6 +19129,8 @@ exports[`<Form> when {value} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -18226,10 +19151,8 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
-                    "alignSelf": "flex-start",
                     "height": 20,
-                    "marginHorizontal": 4,
-                    "marginTop": 11,
+                    "marginRight": 4,
                     "width": 20,
                   },
                   undefined,
@@ -18323,6 +19246,7 @@ exports[`<Form> when {value} 1`] = `
               autoCorrect={false}
               blurOnSubmit={true}
               editable={true}
+              keyboard="default"
               keyboardType="default"
               multiline={false}
               onBlur={[Function]}
@@ -18346,6 +19270,8 @@ exports[`<Form> when {value} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"

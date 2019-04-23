@@ -53,6 +53,7 @@ exports[`<InputImage> renders 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -74,6 +75,8 @@ exports[`<InputImage> renders 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -139,6 +142,7 @@ exports[`<InputImage> when {disabled} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={false}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -162,6 +166,8 @@ exports[`<InputImage> when {disabled} 1`] = `
             Object {
               "color": "#707070",
             },
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -227,6 +233,7 @@ exports[`<InputImage> when {error} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -248,6 +255,8 @@ exports[`<InputImage> when {error} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -268,10 +277,8 @@ exports[`<InputImage> when {error} 1`] = `
               "width": 20,
             },
             Object {
-              "alignSelf": "flex-start",
               "height": 20,
-              "marginHorizontal": 4,
-              "marginTop": 11,
+              "marginRight": 4,
               "width": 20,
             },
             undefined,
@@ -336,6 +343,7 @@ exports[`<InputImage> when {hint} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -357,6 +365,8 @@ exports[`<InputImage> when {hint} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -481,6 +491,7 @@ exports[`<InputImage> when {label} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -502,6 +513,8 @@ exports[`<InputImage> when {label} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -565,6 +578,7 @@ exports[`<InputImage> when {required} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -586,6 +600,8 @@ exports[`<InputImage> when {required} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -652,6 +668,7 @@ exports[`<InputImage> when {style} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -673,6 +690,8 @@ exports[`<InputImage> when {style} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -812,6 +831,7 @@ exports[`<InputImage> when {value} 1`] = `
         autoCorrect={false}
         blurOnSubmit={true}
         editable={true}
+        keyboard="default"
         keyboardType="default"
         multiline={false}
         onBlur={[Function]}
@@ -833,6 +853,8 @@ exports[`<InputImage> when {value} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
