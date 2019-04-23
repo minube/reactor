@@ -50,7 +50,7 @@ export default StyleSheet.create({
   small: {
     minWidth: SMALL_SIZE,
     height: SMALL_SIZE,
-    paddingHorizontal: SPACE.S,
+    paddingHorizontal: SPACE.S / 2,
   },
 
   noPadding: {

@@ -49,7 +49,7 @@ const Button = ({
           !isSolid && disabled && styles.disabledOpacity,
         ]}
       >
-        { icon && !activity && <Icon value={icon} size={inherit.iconSize} /> }
+        { icon && !activity && <Icon value={icon} size={small ? 16 : inherit.iconSize} /> }
         <View style={[styles.row, icon && (title || children) && styles.textMarginLeft]}>
           { title
             && (

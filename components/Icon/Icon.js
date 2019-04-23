@@ -11,24 +11,39 @@ const isWeb = Platform.OS === 'web';
 
 const Icon = ({
   color, invert, size, value, ...inherit
-}) => (
-  <Image
-    resizeMode="contain"
-    source={ASSETS[value] // eslint-disable-line
-      ? ASSETS[value]
-      : isNaN(value) ? { uri: value } : value} // eslint-disable-line
-    style={[
-      styles.container,
-      inherit.style,
+}) => {
+  const [, navigation] = value.split('nav');
+  let asset;
+  let rotate;
 
-      (color || invert || size) && StyleSheet.flatten([
-        color && !isWeb && { tintColor: color },
-        invert && isWeb && { filter: 'invert(100%)' },
-        size && { width: size, height: size },
-      ]),
-    ]}
-  />
-);
+  if (navigation) {
+    asset = ASSETS.navArrow;
+    if (navigation === 'Down') rotate = 90;
+    else if (navigation === 'Left') rotate = -180;
+    else if (navigation === 'Up') rotate = 270;
+  } else {
+    asset = ASSETS[value];
+    if (!asset) asset = typeof value === 'string' ? { uri: value } : value;
+  }
+
+  return (
+    <Image
+      resizeMode="contain"
+      source={asset}
+      style={[
+        styles.container,
+        inherit.style,
+
+        (color || invert || rotate || size) && StyleSheet.flatten([
+          color && !isWeb && { tintColor: color },
+          invert && isWeb && { filter: 'invert(100%)' },
+          rotate && { transform: [{ rotate: `${rotate}deg` }] },
+          size && { width: size, height: size },
+        ]),
+      ]}
+    />
+  );
+};
 
 Icon.propTypes = {
   color: string,

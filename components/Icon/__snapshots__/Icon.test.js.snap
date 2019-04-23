@@ -139,6 +139,112 @@ exports[`<Icon> when {value} (as uri) 1`] = `
 />
 `;
 
+exports[`<Icon> when {value} (navDown) 1`] = `
+<Image
+  resizeMode="contain"
+  source={
+    Object {
+      "testUri": "../../../components/Icon/assets/nav-arrow.png",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "90deg",
+          },
+        ],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<Icon> when {value} (navLeft) 1`] = `
+<Image
+  resizeMode="contain"
+  source={
+    Object {
+      "testUri": "../../../components/Icon/assets/nav-arrow.png",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "-180deg",
+          },
+        ],
+      },
+    ]
+  }
+/>
+`;
+
+exports[`<Icon> when {value} (navRight) 1`] = `
+<Image
+  resizeMode="contain"
+  source={
+    Object {
+      "testUri": "../../../components/Icon/assets/nav-arrow.png",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      undefined,
+    ]
+  }
+/>
+`;
+
+exports[`<Icon> when {value} (navUp) 1`] = `
+<Image
+  resizeMode="contain"
+  source={
+    Object {
+      "testUri": "../../../components/Icon/assets/nav-arrow.png",
+    }
+  }
+  style={
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+        "height": 20,
+        "width": 20,
+      },
+      undefined,
+      Object {
+        "transform": Array [
+          Object {
+            "rotate": "270deg",
+          },
+        ],
+      },
+    ]
+  }
+/>
+`;
+
 exports[`<Icon> when {value} 1`] = `
 <Image
   resizeMode="contain"
