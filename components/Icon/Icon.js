@@ -12,7 +12,7 @@ const isWeb = Platform.OS === 'web';
 const Icon = ({
   color, invert, size, value, ...inherit
 }) => {
-  const [, navigation] = value.split('nav');
+  const [, navigation] = typeof value === 'string' ? value.split('nav') : [];
   let asset;
   let rotate;
 
