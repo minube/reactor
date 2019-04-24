@@ -17,7 +17,7 @@ const onPress = ({
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, box, captions, disabledDates, disabledPast, edges, expanded, month, range, today, value,
+    availableDates, box, busy, captions, disabledDates, disabledPast, edges, expanded, month, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -48,7 +48,7 @@ const Week = ({ firstDate, ...inherit }) => {
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
         const isSelected = tsDay >= tsStart && tsDay <= tsEnd;
-        let isDisabled = false;
+        let isDisabled = busy;
         let isVisible = true;
         let caption;
 
@@ -90,7 +90,7 @@ const Week = ({ firstDate, ...inherit }) => {
               isToday && !isHighlight && styles.cellSelectedToday,
             ]}
           >
-            { box && <View style={[styles.box, isDisabled && styles.boxDisabled]} /> }
+            { box && !busy && <View style={[styles.box, isDisabled && styles.boxDisabled]} /> }
             { isVisible && (
               <Text
                 subtitle={!isDisabled}

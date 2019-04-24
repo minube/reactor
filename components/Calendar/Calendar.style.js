@@ -11,7 +11,7 @@ export default StyleSheet.create({
   },
 
   busy: {
-    opacity: 0.5,
+    opacity: 0.2,
   },
 
   container: {

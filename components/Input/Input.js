@@ -10,6 +10,7 @@ import InputHint from './InputHint';
 import InputLabel from './InputLabel';
 import InputIcon from './InputIcon';
 import Icon from '../Icon';
+import Text from '../Text';
 import styles from './Input.style';
 
 const { COLOR } = THEME;
@@ -17,6 +18,7 @@ const { COLOR } = THEME;
 class Input extends Component {
   static propTypes = {
     color: string,
+    currency: string,
     disabled: bool,
     error: oneOfType([bool, string]),
     hint: string,
@@ -34,6 +36,7 @@ class Input extends Component {
 
   static defaultProps = {
     color: undefined,
+    currency: undefined,
     disabled: false,
     error: undefined,
     hint: undefined,
@@ -56,12 +59,14 @@ class Input extends Component {
   render() {
     const {
       props: {
-        color, disabled, error, hint, icon, keyboard, label, lines, required, requiredIcon, valid,
+        color, currency, disabled, error, hint, icon, label, lines, required, requiredIcon, valid,
         onBlur, onChange, onFocus,
         ...inherit
       },
       state: { focus },
     } = this;
+    let { props: { keyboard } } = this;
+    if (currency) keyboard = 'numeric';
 
     return (
       <View style={[styles.container, inherit.style]}>
@@ -79,7 +84,14 @@ class Input extends Component {
             !disabled && error && styles.error,
           ]}
         >
-          { icon && <Icon value={icon} style={styles.icon} />}
+          { (icon || currency) && (
+            <View style={styles.inlineHint} pointerEvents="none">
+              { icon && <Icon value={icon} style={styles.icon} />}
+              { currency && <Text input lighten _style={styles.inlineHint}>{currency}</Text> }
+            </View>
+          )}
+
+
           <TextInput
             {...inherit}
             value={inherit.value || ''}
@@ -95,7 +107,12 @@ class Input extends Component {
             onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
             placeholderTextColor={COLOR.TEXT_LIGHTEN}
             underlineColorAndroid="transparent"
-            style={[styles.input, disabled && styles.inputDisabled]}
+            style={[
+              styles.input,
+              disabled && styles.inputDisabled,
+              currency && styles.inputCurrency,
+              inherit.fontSize && { fontSize: inherit.fontSize },
+            ]}
           />
           { (error || (required && requiredIcon)) && (
             <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} />

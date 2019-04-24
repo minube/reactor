@@ -356,7 +356,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/nav-expand.png",
+                "testUri": "../../../components/Icon/assets/nav-arrow.png",
               }
             }
             style={
@@ -367,7 +367,15 @@ exports[`<InputSelect> when {dataSource} 1`] = `
                   "width": 20,
                 },
                 undefined,
-                undefined,
+                Object {
+                  "height": 14,
+                  "transform": Array [
+                    Object {
+                      "rotate": "90deg",
+                    },
+                  ],
+                  "width": 14,
+                },
               ]
             }
           />
@@ -2451,7 +2459,7 @@ exports[`<InputSelect> when {value} 1`] = `
             resizeMode="contain"
             source={
               Object {
-                "testUri": "../../../components/Icon/assets/nav-expand.png",
+                "testUri": "../../../components/Icon/assets/nav-arrow.png",
               }
             }
             style={
@@ -2462,7 +2470,15 @@ exports[`<InputSelect> when {value} 1`] = `
                   "width": 20,
                 },
                 undefined,
-                undefined,
+                Object {
+                  "height": 14,
+                  "transform": Array [
+                    Object {
+                      "rotate": "90deg",
+                    },
+                  ],
+                  "width": 14,
+                },
               ]
             }
           />

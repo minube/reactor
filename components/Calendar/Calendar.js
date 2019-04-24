@@ -94,13 +94,14 @@ class Calendar extends PureComponent {
           onPrevious={onPrevious ? () => _onChange(previousMonth(date)) : undefined}
           title={`${MONTHS[date.getMonth()]} ${date.getFullYear()}`}
         />
-        <View style={styles.days}>
+        <View style={[styles.days, busy && styles.busy]}>
           <DayNames {...props} locale={DAY_NAMES} style={styles.days} />
           { VISIBLE_WEEKS.map(weekIndex => (
             <Week
               key={week + weekIndex}
               {...props}
               {...state}
+              busy={busy}
               month={date.getMonth()}
               firstDate={firstDateOfWeek(week + weekIndex, date.getFullYear())}
               onSelect={!busy ? onSelect : undefined}
@@ -122,7 +123,7 @@ class Calendar extends PureComponent {
     const disabledPrevious = disabledPast && today.getFullYear() === year && today.getMonth() === month;
 
     return (
-      <View style={[styles.container, inherit.style, busy && styles.busy]}>
+      <View style={[styles.container, inherit.style]}>
         { busy && <Activity size="large" style={styles.activity} /> }
         <View style={styles.content}>
           <Instance onNext={!expanded} onPrevious={!disabledPrevious} />

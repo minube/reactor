@@ -1834,7 +1834,7 @@ exports[`<Button> when {small} 1`] = `
           Object {
             "height": 28,
             "minWidth": 28,
-            "paddingHorizontal": 12,
+            "paddingHorizontal": 6,
           },
           false,
           false,

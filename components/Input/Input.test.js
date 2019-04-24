@@ -14,6 +14,11 @@ describe('<Input>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {currency}', () => {
+    const tree = renderer.create(<Input currency="$" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {disabled}', () => {
     const tree = renderer.create(<Input disabled />).toJSON();
     expect(tree).toMatchSnapshot();
