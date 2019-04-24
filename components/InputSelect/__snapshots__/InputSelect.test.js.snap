@@ -626,7 +626,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         false,
         undefined,
         Object {
-          "maxHeight": 616,
+          "maxHeight": 560,
         },
       ]
     }
@@ -2729,7 +2729,7 @@ exports[`<InputSelect> when {value} 1`] = `
         false,
         undefined,
         Object {
-          "maxHeight": 616,
+          "maxHeight": 560,
         },
       ]
     }

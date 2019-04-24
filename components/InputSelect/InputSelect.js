@@ -2,7 +2,6 @@ import {
   arrayOf, bool, func, number, oneOfType, shape, string,
 } from 'prop-types';
 import React, { createRef, PureComponent } from 'react';
-import { findDOMNode } from 'react-dom';
 import { Picker, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
@@ -13,6 +12,7 @@ import Touchable from '../Touchable';
 import { INPUT_HEIGHT } from '../Input/Input.style';
 import Template from './InputSelectTemplate';
 import { TEMPLATE_HEIGHT } from './InputSelectTemplate.style';
+import measure from './modules/measure';
 import styles from './InputSelect.style';
 
 const { COLOR } = THEME;
@@ -49,12 +49,12 @@ class InputSelect extends PureComponent {
     this.state = { active: false, regular: true, schema: typeof firstValue === 'object' };
   }
 
-  _onToggleDataSource = () => {
+  _onToggleDataSource = async () => {
     const {
       component, scrollview, props: { dataSource, value = 0 }, state: { active },
     } = this;
     const { VIEWPORT: { H } } = LAYOUT;
-    const { y } = findDOMNode(component.current).getBoundingClientRect(); // eslint-disable-line
+    const { y } = await measure(component.current);
 
     this.setState({ active: !active, regular: y < (H / 2) }, () => {
       if (!active) {
@@ -138,7 +138,7 @@ class InputSelect extends PureComponent {
               !active && styles.dataSourceHidden,
               !regular && styles.dataSourceBottom,
               label && styles.withLabel,
-              { maxHeight: Math.floor((H / 2) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
+              { maxHeight: Math.floor((H / 2.2) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
             ]}
           >
             { dataSource.map((item, index) => (
