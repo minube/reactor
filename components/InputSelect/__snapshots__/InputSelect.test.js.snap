@@ -288,7 +288,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         "top": 7,
         "transform": Array [
           Object {
-            "rotate": "0deg0",
+            "rotate": "0deg",
           },
         ],
         "zIndex": 1,
@@ -2391,7 +2391,7 @@ exports[`<InputSelect> when {value} 1`] = `
         "top": 7,
         "transform": Array [
           Object {
-            "rotate": "0deg0",
+            "rotate": "0deg",
           },
         ],
         "zIndex": 1,

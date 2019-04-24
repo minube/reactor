@@ -1177,7 +1177,7 @@ exports[`<Form> when {attributes} 1`] = `
               "top": 7,
               "transform": Array [
                 Object {
-                  "rotate": "0deg0",
+                  "rotate": "0deg",
                 },
               ],
               "zIndex": 1,
@@ -1517,7 +1517,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 560,
               },
             ]
           }
@@ -5846,7 +5846,7 @@ exports[`<Form> when {color} 1`] = `
               "top": 7,
               "transform": Array [
                 Object {
-                  "rotate": "0deg0",
+                  "rotate": "0deg",
                 },
               ],
               "zIndex": 1,
@@ -6186,7 +6186,7 @@ exports[`<Form> when {color} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 560,
               },
             ]
           }
@@ -10693,7 +10693,7 @@ exports[`<Form> when {validate} 1`] = `
               "top": 7,
               "transform": Array [
                 Object {
-                  "rotate": "0deg0",
+                  "rotate": "0deg",
                 },
               ],
               "zIndex": 1,
@@ -11033,7 +11033,7 @@ exports[`<Form> when {validate} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 560,
               },
             ]
           }
@@ -15916,7 +15916,7 @@ exports[`<Form> when {value} 1`] = `
               "top": 7,
               "transform": Array [
                 Object {
-                  "rotate": "0deg0",
+                  "rotate": "0deg",
                 },
               ],
               "zIndex": 1,
@@ -16256,7 +16256,7 @@ exports[`<Form> when {value} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 560,
               },
             ]
           }
