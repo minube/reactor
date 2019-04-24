@@ -15,7 +15,10 @@ export default ({
   let style = {};
 
   timeline.forEach(({ value, property }) => {
-    const newValue = useNativeDriver ? value : state[property];
+    // @TODO: We should research why we have to do this hack.
+    const newValue = useNativeDriver || (!IS_WEB && property === 'rotate')
+      ? value
+      : state[property];
 
     style = {
       ...style,
