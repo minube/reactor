@@ -1,27 +1,28 @@
 import React, { Component, Fragment } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { View } from 'react-native';
 
-import { LAYOUT, THEME } from './common';
 import {
   Button,
   Calendar,
+  InputSelect,
   ListingCard,
+  Motion,
   Text,
-  Video,
   Viewport,
   Slider,
   Share,
 } from './components';
+
+import {
+  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE,
+} from './components/InputSelect/InputSelect.mocks';
+
+import { THEME } from './common';
 import { Consumer, Provider } from './context';
-import PKG from './package.json';
 
 if (typeof global.self === 'undefined') global.self = global;
 
-const { SPACE } = THEME;
 const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
-const video = 'https://coverr.co/s3/mp4/Cloud_Surf.mp4';
-const youtube = 'https://www.youtube.com/cx4MxQcD8Fk'; // eslint-disable-line
-const vimeo = 'https://player.vimeo.com/video/225434434'; // eslint-disable-line
 const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." // eslint-disable-line
 
 const DICTIONARY = {
@@ -33,15 +34,6 @@ const DICTIONARY = {
     GREETINGS: 'Hello World...',
   },
 };
-
-const styles = StyleSheet.create({
-  container: {
-    ...LAYOUT.STYLE.CENTERED,
-    flex: 1,
-    padding: SPACE.XS,
-    backgroundColor: 'rgba(0,255,0,0.25)',
-  },
-});
 
 export default class App extends Component {
   state = {
@@ -60,64 +52,48 @@ export default class App extends Component {
 
     return (
       <Provider dictionary={DICTIONARY} language="en-EN">
-        <View style={styles.container}>
-          <Viewport visible scroll style={LAYOUT.STYLE.CENTERED}>
+        <Fragment>
+          <Viewport scroll style={{ padding: THEME.SPACE.REGULAR }} visible>
             <Consumer>
               { ({ l10n }) => (
-                <Fragment>
-                  <Text headline level={5}>
-                    {PKG.name}
-                  </Text>
-                  <Text>
-                    {PKG.version}
-                  </Text>
-                  <Text>
-                    {`l10n: ${l10n.GREETINGS}`}
-                  </Text>
-                </Fragment>
+                <Text>
+                  {`l10n: ${l10n.GREETINGS}`}
+                </Text>
               )}
             </Consumer>
-            <Share
-              uri="http://soyjavi.com"
-              title="Share"
-            />
             <Button title="Second viewport" onPress={() => this.setState({ viewport: true })} />
-            <Slider dataSource={dataSource} item={ItemListingCard} navigation steps={2} />
-
             <Calendar />
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
+            <InputSelect dataSource={DATASOURCE} />
             <Text>
               {LIPSUM}
             </Text>
           </Viewport>
 
           <Viewport
-            visible={viewport}
             onBack={() => this.setState({ viewport: false })}
-            style={{ backgroundColor: 'red' }}
+            style={{ padding: THEME.SPACE.REGULAR }}
+            visible={viewport}
           >
-            <Video
-              autoPlay
-              loop
-              height={200}
-              width={320}
-              source={video}
-              onLoad={() => console.log('onload')}
-            />
             <Button title="Back" onPress={() => this.setState({ viewport: false })} />
+            <Share uri="http://soyjavi.com" title="Share" />
+            <Slider dataSource={dataSource} item={ItemListingCard} navigation={false} steps={2} />
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
+            <Text>
+              {LIPSUM}
+            </Text>
           </Viewport>
-        </View>
+        </Fragment>
       </Provider>
     );
   }
