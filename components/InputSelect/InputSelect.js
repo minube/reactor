@@ -2,7 +2,9 @@ import {
   arrayOf, bool, func, number, oneOfType, shape, string,
 } from 'prop-types';
 import React, { createRef, PureComponent } from 'react';
-import { Picker, ScrollView, View } from 'react-native';
+import {
+  Picker, Platform, ScrollView, View,
+} from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
 import Button from '../Button';
@@ -49,15 +51,17 @@ class InputSelect extends PureComponent {
     this.state = { active: false, regular: true, schema: typeof firstValue === 'object' };
   }
 
-  _onToggleDataSource = async () => {
+  _onToggleDataSource = () => {
     const {
       component, scrollview, props: { dataSource, value = 0 }, state: { active },
     } = this;
     const { VIEWPORT: { H } } = LAYOUT;
-    const { y } = await measure(component.current);
 
-    this.setState({ active: !active, regular: y < (H / 2) }, () => {
+    this.setState({ active: !active }, async () => {
       if (!active) {
+        const { y = 0 } = await measure(component.current);
+        this.setState({ regular: y < (H / 2) });
+
         const height = dataSource[0].caption ? TEMPLATE_HEIGHT : INPUT_HEIGHT;
         scrollview.current.scrollTo({ y: (value - 2) * height, animated: false });
       }
@@ -95,7 +99,11 @@ class InputSelect extends PureComponent {
         { schema && hasDataSource && !disabled && (
           <Motion
             style={[styles.button, label && styles.withLabel]}
-            timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
+            timeline={
+              Platform.OS !== 'android' // @TODO: We should understand why in android doesn't work
+                ? [{ property: 'rotate', value: active ? '180deg' : '0deg' }]
+                : undefined
+            }
           >
             <Button contained={false} icon="navDown" iconSize={14} onPress={event} />
           </Motion>
@@ -135,10 +143,10 @@ class InputSelect extends PureComponent {
             style={[
               styles.border,
               styles.dataSource,
-              !active && styles.dataSourceHidden,
-              !regular && styles.dataSourceBottom,
-              label && styles.withLabel,
-              { maxHeight: Math.floor((H / 2.2) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
+              active ? styles.dataSourceActive : styles.dataSourceHidden,
+              active && !regular && styles.dataSourceBottom,
+              active && label && styles.withLabel,
+              active && { height: Math.floor((H / 2.5) / TEMPLATE_HEIGHT) * TEMPLATE_HEIGHT },
             ]}
           >
             { dataSource.map((item, index) => (

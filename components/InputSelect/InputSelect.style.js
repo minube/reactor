@@ -11,12 +11,18 @@ const {
 export default StyleSheet.create({
   active: {
     zIndex: 1,
+    ...Platform.select({
+      android: {
+        zIndex: undefined,
+      },
+    }),
   },
 
   border: {
     borderColor: COLOR.BASE,
     borderRadius: BORDER_RADIUS,
     borderWidth: 1,
+    overflow: 'hidden',
     width: '100%',
   },
 
@@ -33,17 +39,27 @@ export default StyleSheet.create({
   },
 
   dataSource: {
-    ...ELEVATION.REGULAR,
-    position: 'absolute',
     backgroundColor: COLOR.WHITE,
+    position: 'absolute',
   },
 
   dataSourceBottom: {
     bottom: 0,
   },
 
+  dataSourceActive: {
+    ...ELEVATION.REGULAR,
+    ...Platform.select({
+      android: {
+        zIndex: 2,
+      },
+    }),
+  },
+
   dataSourceHidden: {
     display: 'none',
+    maxHeight: 0,
+    opacity: 0,
   },
 
   disabled: {
