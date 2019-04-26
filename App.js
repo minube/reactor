@@ -1,29 +1,14 @@
 import React, { Component, Fragment } from 'react';
 import { View } from 'react-native';
 
-import {
-  Button,
-  Calendar,
-  InputSelect,
-  ListingCard,
-  Motion,
-  Text,
-  Viewport,
-  Slider,
-  Share,
-} from './components';
+import { Button, Text } from './components';
+import { Provider } from './context';
 
-import {
-  DATASOURCE, DATASOURCE_STRING, ERROR, HINT, LABEL, STYLE, TEMPLATE,
-} from './components/InputSelect/InputSelect.mocks';
-
-import { THEME } from './common';
-import { Consumer, Provider } from './context';
+import PKG from './package.json';
+import { ViewportEmpty, ViewportForm, ViewportKitchensink } from './native';
+import styles from './App.style';
 
 if (typeof global.self === 'undefined') global.self = global;
-
-const ItemListingCard = ({ data }) => <ListingCard {...data} />; // eslint-disable-line
-const LIPSUM = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." // eslint-disable-line
 
 const DICTIONARY = {
   'es-ES': {
@@ -37,62 +22,34 @@ const DICTIONARY = {
 
 export default class App extends Component {
   state = {
-    dataSource: [...Array(16).keys()]
-      .map(index => ({
-        category: `Category ${index}`,
-        title: `Title ${index}`,
-        rating: { value: index + 1 },
-        image: `https://picsum.photos/320/200?image=1${index + 1}`,
-      })),
-    viewport: false,
+    form: false,
+    kitchensink: false,
   }
 
+  onViewport = (key, value) => this.setState({ [key]: value })
+
   render() {
-    const { state: { dataSource, viewport } } = this;
+    const { onViewport, state } = this;
+    console.log(Object.values(state));
 
     return (
       <Provider dictionary={DICTIONARY} language="en-EN">
         <Fragment>
-          <Viewport scroll style={{ padding: THEME.SPACE.REGULAR }} visible>
-            <Consumer>
-              { ({ l10n }) => (
-                <Text>
-                  {`l10n: ${l10n.GREETINGS}`}
-                </Text>
-              )}
-            </Consumer>
-            <Button title="Second viewport" onPress={() => this.setState({ viewport: true })} />
-            <Calendar />
-            <InputSelect dataSource={DATASOURCE} />
-            <Text>
-              {LIPSUM}
-            </Text>
-          </Viewport>
-
-          <Viewport
-            onBack={() => this.setState({ viewport: false })}
-            style={{ padding: THEME.SPACE.REGULAR }}
-            visible={viewport}
+          <ViewportEmpty
+            backward={false}
+            visible
+            title={`${PKG.name} v${PKG.version}`}
           >
-            <Button title="Back" onPress={() => this.setState({ viewport: false })} />
-            <Share uri="http://soyjavi.com" title="Share" />
-            <Slider dataSource={dataSource} item={ItemListingCard} navigation={false} steps={2} />
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-            <Text>
-              {LIPSUM}
-            </Text>
-          </Viewport>
+            <Text headline level={5}>Examples</Text>
+            <Text caption lighten>Here you have some basic components examples.</Text>
+            <View style={styles.buttons}>
+              <Button outlined title="<Form>" onPress={() => onViewport('form', true)} />
+              <Button outlined title="<Kitchensink>" onPress={() => onViewport('kitchensink', true)} />
+            </View>
+          </ViewportEmpty>
+
+          <ViewportForm onBack={() => onViewport('form', false)} visible={state.form} />
+          <ViewportKitchensink onBack={() => onViewport('kitchensink', false)} visible={state.kitchensink} />
         </Fragment>
       </Provider>
     );
