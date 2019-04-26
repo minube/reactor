@@ -1028,6 +1028,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -1320,6 +1321,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -1496,29 +1498,21 @@ exports[`<Form> when {attributes} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               Object {
                 "backgroundColor": "#ffffff",
                 "position": "absolute",
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 2,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.2,
-                "shadowRadius": 8,
               },
               Object {
                 "display": "none",
+                "maxHeight": 0,
+                "opacity": 0,
               },
               false,
-              Object {
-                "marginTop": 20,
-              },
-              Object {
-                "maxHeight": 560,
-              },
+              false,
+              false,
             ]
           }
         >
@@ -5697,6 +5691,7 @@ exports[`<Form> when {color} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -5989,6 +5984,7 @@ exports[`<Form> when {color} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -6165,29 +6161,21 @@ exports[`<Form> when {color} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               Object {
                 "backgroundColor": "#ffffff",
                 "position": "absolute",
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 2,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.2,
-                "shadowRadius": 8,
               },
               Object {
                 "display": "none",
+                "maxHeight": 0,
+                "opacity": 0,
               },
               false,
-              Object {
-                "marginTop": 20,
-              },
-              Object {
-                "maxHeight": 560,
-              },
+              false,
+              false,
             ]
           }
         >
@@ -10544,6 +10532,7 @@ exports[`<Form> when {validate} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -10836,6 +10825,7 @@ exports[`<Form> when {validate} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -11012,29 +11002,21 @@ exports[`<Form> when {validate} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               Object {
                 "backgroundColor": "#ffffff",
                 "position": "absolute",
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 2,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.2,
-                "shadowRadius": 8,
               },
               Object {
                 "display": "none",
+                "maxHeight": 0,
+                "opacity": 0,
               },
               false,
-              Object {
-                "marginTop": 20,
-              },
-              Object {
-                "maxHeight": 560,
-              },
+              false,
+              false,
             ]
           }
         >
@@ -15767,6 +15749,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -16059,6 +16042,7 @@ exports[`<Form> when {value} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               undefined,
@@ -16235,29 +16219,21 @@ exports[`<Form> when {value} 1`] = `
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
+                "overflow": "hidden",
                 "width": "100%",
               },
               Object {
                 "backgroundColor": "#ffffff",
                 "position": "absolute",
-                "shadowColor": "#000000",
-                "shadowOffset": Object {
-                  "height": 2,
-                  "width": 0,
-                },
-                "shadowOpacity": 0.2,
-                "shadowRadius": 8,
               },
               Object {
                 "display": "none",
+                "maxHeight": 0,
+                "opacity": 0,
               },
               false,
-              Object {
-                "marginTop": 20,
-              },
-              Object {
-                "maxHeight": 560,
-              },
+              false,
+              false,
             ]
           }
         >
