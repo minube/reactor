@@ -7,12 +7,19 @@ const LOCALES = {
 };
 
 const { IS_WEB, IS_SERVER } = ENV;
-const LEFT_SYMBOLS = ['$'];
+const LEFT_SYMBOLS = ['$', '£'];
 
-export default (amount = 0, fixed = 2, locale, symbol = '') => {
+export default ({
+  currency, amount = 0, fixed = 2, locale, symbol,
+} = {}) => {
   let value;
-  const leftSymbol = LEFT_SYMBOLS.includes(symbol) ? symbol : '';
-  const rightSymbol = !LEFT_SYMBOLS.includes(symbol) ? symbol : '';
+  let leftSide = '';
+  let rightSide = '';
+  if (symbol && symbol.length > 0) {
+    leftSide = LEFT_SYMBOLS.includes(symbol) ? symbol : '';
+    rightSide = !LEFT_SYMBOLS.includes(symbol) ? symbol : '';
+  } else if (currency && currency.length > 0) leftSide = `${currency} `;
+
 
   if (IS_WEB && !IS_SERVER && Number.prototype.toLocaleString) {
     value = parseFloat(amount.toFixed(fixed)).toLocaleString(locale, {
@@ -36,5 +43,5 @@ export default (amount = 0, fixed = 2, locale, symbol = '') => {
     value = `${amount < 0 ? '-' : ''}${strInt}${strFloat}`;
   }
 
-  return `${leftSymbol}${value}${rightSymbol}`;
+  return `${leftSide}${value}${rightSide}`;
 };

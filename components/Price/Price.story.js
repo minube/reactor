@@ -13,6 +13,9 @@ storiesOf('✅ Price', module)
   .add('value', () => (
     <Price value={MOCKS.VALUE} />
   ))
+  .add('currency', () => (
+    <Price value={MOCKS.VALUE} currency={MOCKS.CURRENCY} />
+  ))
   .add('locale (es-ES)', () => (
     <Price value={MOCKS.VALUE} locale={MOCKS.LOCALE} />
   ))
@@ -28,11 +31,8 @@ storiesOf('✅ Price', module)
   .add('symbol (right)', () => (
     <Price value={MOCKS.VALUE} symbol={MOCKS.SYMBOL_EUR} />
   ))
-  .add('title', () => (
-    <Price value={MOCKS.VALUE} title={MOCKS.TITLE} />
-  ))
   .add('inject <Text> properties', () => (
-    <Price value={MOCKS.VALUE} {...MOCKS.TEXT_PROPS} />
+    <Price value={MOCKS.VALUE} {...MOCKS.TEXT_PROPS} symbol={MOCKS.SYMBOL_EUR} />
   ))
   .add('style', () => (
     <Price value={MOCKS.VALUE} style={MOCKS.STYLE} />
@@ -40,7 +40,7 @@ storiesOf('✅ Price', module)
   .add('🏀 Playground', () => (
     <Price
       locale={text('locale', MOCKS.LOCALE)}
-      title={text('title', MOCKS.TITLE)}
+      currency={text('currency', MOCKS.CURRENCY)}
       fixed={number('fixed', MOCKS.FIXED)}
       value={number('value', MOCKS.VALUE)}
       symbol={text('symbol', MOCKS.SYMBOL_EUR)}
