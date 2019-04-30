@@ -85,11 +85,6 @@ exports[`<ListingCard> renders 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
@@ -302,11 +297,6 @@ exports[`<ListingCard> when {category} 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
@@ -545,11 +535,6 @@ exports[`<ListingCard> when {children} 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
@@ -910,11 +895,6 @@ exports[`<ListingCard> when {description} 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
@@ -1371,11 +1351,6 @@ exports[`<ListingCard> when {rating} 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
@@ -1761,11 +1736,6 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
@@ -1978,11 +1948,6 @@ exports[`<ListingCard> when {title} 1`] = `
           <Image
             onLoad={[Function]}
             resizeMode="center"
-            source={
-              Object {
-                "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-              }
-            }
             style={
               Array [
                 Object {
