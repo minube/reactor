@@ -159,11 +159,6 @@ exports[`<Slider> when {children} 1`] = `
             <Image
               onLoad={[Function]}
               resizeMode="center"
-              source={
-                Object {
-                  "uri": "https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg",
-                }
-              }
               style={
                 Array [
                   Object {

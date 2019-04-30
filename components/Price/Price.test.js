@@ -16,6 +16,11 @@ describe('<Price>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {currency}', () => {
+    const tree = renderer.create(<Price value={MOCKS.VALUE} currency={MOCKS.CURRENCY} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {locale} (es-ES)', () => {
     const tree = renderer.create(<Price value={MOCKS.VALUE} locale={MOCKS.LOCALE} />).toJSON();
     expect(tree).toMatchSnapshot();
@@ -38,11 +43,6 @@ describe('<Price>', () => {
 
   it('when {symbol} (right)', () => {
     const tree = renderer.create(<Price value={MOCKS.VALUE} symbol={MOCKS.SYMBOL_EUR} />).toJSON();
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('when {title}', () => {
-    const tree = renderer.create(<Price value={MOCKS.VALUE} title={MOCKS.TITLE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

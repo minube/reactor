@@ -2,7 +2,7 @@ import Fingerprint from './Fingerprint';
 
 describe('Fingerprint()', () => {
   it('default', async () => {
-    const fingerprint = await new Fingerprint();
+    const fingerprint = await Fingerprint();
     expect(fingerprint).toBeDefined();
     expect(Object.keys(fingerprint)).toEqual(['uuid', 'device_id']);
     expect(fingerprint.uuid.length).toEqual(36);

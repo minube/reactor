@@ -52,7 +52,7 @@ class ProviderTracking extends PureComponent {
     let fingerprint;
 
     if (!IS_SERVER) {
-      fingerprint = await new Fingerprint();
+      fingerprint = await Fingerprint();
       if (IS_WEB) {
         cookie = getCookie('reactor:request');
         const { deviceId, sessionId } = await AsyncStore.getItem(AMPLITUDE_DATA) || {};
