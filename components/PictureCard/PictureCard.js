@@ -10,7 +10,6 @@ import Text from '../Text';
 import Touchable from '../Touchable';
 import styles from './PictureCard.style';
 
-const IMAGE_PLACEHOLDER = 'https://cdn.mnstatic.com/1/svg/placeholder/eiffel_tower.svg';
 const SHORT_TITLE = 10;
 
 const PictureCard = ({
@@ -29,7 +28,7 @@ const PictureCard = ({
       <Image
         onLoad={onLoad}
         resizeMode={image ? 'cover' : 'center'}
-        source={{ uri: image || IMAGE_PLACEHOLDER }}
+        source={{ uri: image }}
         style={[
           styles.borderRadius,
           styles.image,
