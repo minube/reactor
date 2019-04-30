@@ -11,7 +11,7 @@ const Price = ({
 }) => (
   <Text {...inherit} style={inherit.style}>
     { format({
-      currency, value, fixed, locale, symbol,
+      currency, amount: value, fixed, locale, symbol,
     })}
   </Text>
 );
