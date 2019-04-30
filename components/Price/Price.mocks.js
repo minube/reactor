@@ -9,6 +9,7 @@ export default {
     fontSize: THEME.UNIT * 2,
     color: THEME.COLOR.PRIMARY,
   },
+  CURRENCY: 'Eur',
   SYMBOL_$: '$',
   SYMBOL_EUR: '€',
   TEXT_PROPS: {
