@@ -36,6 +36,11 @@ describe('<Price>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {operator}', () => {
+    const tree = renderer.create(<Price value={MOCKS.VALUE} operator={MOCKS.OPERATOR} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {symbol} (left)', () => {
     const tree = renderer.create(<Price value={MOCKS.VALUE} symbol={MOCKS.SYMBOL_$} />).toJSON();
     expect(tree).toMatchSnapshot();

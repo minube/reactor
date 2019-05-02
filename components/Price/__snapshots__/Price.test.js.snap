@@ -25,7 +25,7 @@ exports[`<Price> inject <Text> properties 1`] = `
     ]
   }
 >
-  0
+  6.995,12
 </Text>
 `;
 
@@ -77,7 +77,7 @@ exports[`<Price> when {currency} 1`] = `
     ]
   }
 >
-  Eur 0
+  Eur 6.995,12
 </Text>
 `;
 
@@ -103,7 +103,7 @@ exports[`<Price> when {fixed} (0) 1`] = `
     ]
   }
 >
-  0
+  6.995
 </Text>
 `;
 
@@ -129,7 +129,7 @@ exports[`<Price> when {fixed} (4) 1`] = `
     ]
   }
 >
-  0
+  6.995,1235
 </Text>
 `;
 
@@ -155,7 +155,33 @@ exports[`<Price> when {locale} (es-ES) 1`] = `
     ]
   }
 >
-  0
+  6.995,12
+</Text>
+`;
+
+exports[`<Price> when {operator} 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "color": "#4a4a4a",
+        "fontFamily": undefined,
+        "fontWeight": "400",
+        "textAlignVertical": "center",
+      },
+      Object {
+        "fontSize": 16,
+        "lineHeight": 30,
+      },
+      false,
+      Object {},
+    ]
+  }
+>
+  +6.995,12
 </Text>
 `;
 
@@ -185,7 +211,7 @@ exports[`<Price> when {style} 1`] = `
     ]
   }
 >
-  0
+  6.995,12
 </Text>
 `;
 
@@ -211,7 +237,7 @@ exports[`<Price> when {symbol} (left) 1`] = `
     ]
   }
 >
-  $0
+  $6.995,12
 </Text>
 `;
 
@@ -237,7 +263,7 @@ exports[`<Price> when {symbol} (right) 1`] = `
     ]
   }
 >
-  0€
+  6.995,12€
 </Text>
 `;
 
@@ -263,6 +289,6 @@ exports[`<Price> when {value} 1`] = `
     ]
   }
 >
-  0
+  6.995,12
 </Text>
 `;

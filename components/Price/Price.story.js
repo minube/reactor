@@ -25,6 +25,9 @@ storiesOf('✅ Price', module)
   .add('fixed (0)', () => (
     <Price fixed={MOCKS.FIXED_NULL} value={MOCKS.VALUE} />
   ))
+  .add('operator', () => (
+    <Price value={MOCKS.VALUE} operator={MOCKS.OPERATOR} />
+  ))
   .add('symbol (left)', () => (
     <Price value={MOCKS.VALUE} symbol={MOCKS.SYMBOL_$} />
   ))
@@ -43,6 +46,7 @@ storiesOf('✅ Price', module)
       currency={text('currency', MOCKS.CURRENCY)}
       fixed={number('fixed', MOCKS.FIXED)}
       value={number('value', MOCKS.VALUE)}
+      operator={text('operator', MOCKS.OPERATOR)}
       symbol={text('symbol', MOCKS.SYMBOL_EUR)}
       style={object('style', MOCKS.STYLE)}
     />

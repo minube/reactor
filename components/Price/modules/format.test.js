@@ -9,33 +9,33 @@ describe('format()', () => {
     expect(value).toEqual('0');
   });
 
-  it('including amount', () => {
-    const value = format({ amount });
+  it('including value', () => {
+    const value = format({ value: amount });
     expect(value).toEqual('10,95');
   });
 
   it('including currency', () => {
-    const value = format({ amount, currency });
+    const value = format({ value: amount, currency });
     expect(value).toEqual('Eur 10,95');
   });
 
   it('including fixed(4)', () => {
-    const value = format({ amount, fixed: 4 });
+    const value = format({ value: amount, fixed: 4 });
     expect(value).toEqual('10,9500');
   });
 
   it('including symbol (left)', () => {
-    const value = format({ amount, symbol: '$' });
+    const value = format({ value: amount, symbol: '$' });
     expect(value).toEqual('$10,95');
   });
 
   it('including symbol (right)', () => {
-    const value = format({ amount, symbol: '€' });
+    const value = format({ value: amount, symbol: '€' });
     expect(value).toEqual('10,95€');
   });
 
   it('including symbol over currency', () => {
-    const value = format({ amount, currency, symbol: '€' });
+    const value = format({ value: amount, currency, symbol: '€' });
     expect(value).toEqual('10,95€');
   });
 });
