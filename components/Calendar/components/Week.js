@@ -87,7 +87,7 @@ const Week = ({ firstDate, ...inherit }) => {
               styles.cell,
               range && styles.cellExpand,
               isHighlight && isVisible && styles.cellSelected,
-              isToday && !isHighlight && styles.cellSelectedToday,
+              isToday && isVisible && !isHighlight && styles.cellSelectedToday,
             ]}
           >
             { box && !busy && <View style={[styles.box, isDisabled && styles.boxDisabled]} /> }
