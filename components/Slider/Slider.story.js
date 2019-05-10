@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import {
   text, boolean, number, object,
 } from '@storybook/addon-knobs/react';
@@ -46,6 +47,9 @@ storiesOf('✅ Slider', module)
       title="Explora nuevos destinos"
       item={ItemListingCard}
     />
+  ))
+  .add('⚡ onChange', () => (
+    <Slider dataSource={dataSource} item={ItemListingCard} onChange={action('Slider.onChange()')} />
   ))
   .add('children', () => (
     <Slider>
