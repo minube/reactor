@@ -53,6 +53,10 @@ describe('<Slider>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {onChange}', () => {
+    // @TODO: Test <Slider /> {onChange}
+  });
+
   it('when {children}', () => {
     const tree = renderer.create(<Slider><PictureCard /></Slider>).toJSON();
     expect(tree).toMatchSnapshot();
