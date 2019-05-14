@@ -11,8 +11,10 @@ exports[`<Slider> renders 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
@@ -66,8 +68,10 @@ exports[`<Slider> when {caption} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
@@ -88,8 +92,10 @@ exports[`<Slider> when {children} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
@@ -273,8 +279,10 @@ exports[`<Slider> when {dataSource} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
@@ -706,8 +714,10 @@ exports[`<Slider> when {itemMargin} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={184}
@@ -1429,8 +1439,10 @@ exports[`<Slider> when {navigation} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
@@ -1450,7 +1462,9 @@ exports[`<Slider> when {snap=false} 1`] = `
 >
   <RCTScrollView
     horizontal={true}
+    onScroll={[Function]}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
   >
     <View>
@@ -1880,8 +1894,10 @@ exports[`<Slider> when {steps} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={360}
@@ -2319,8 +2335,10 @@ exports[`<Slider> when {style} 1`] = `
     }
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
@@ -2786,8 +2804,10 @@ exports[`<Slider> when {title} 1`] = `
   <RCTScrollView
     decelerationRate="fast"
     horizontal={true}
+    onScroll={[Function]}
     pagingEnabled={false}
     removeClippedSubviews={true}
+    scrollEventThrottle={1000}
     showsHorizontalScrollIndicator={false}
     snapToAlignment="start"
     snapToInterval={180}
