@@ -186,31 +186,13 @@ exports[`<Slider> when {children} 1`] = `
                     "minHeight": 10,
                     "minWidth": 10,
                   },
-                  Array [
-                    Object {
-                      "height": "100%",
-                      "left": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "width": "100%",
-                    },
-                    Array [
-                      Object {
-                        "borderRadius": 3,
-                      },
-                      Object {
-                        "opacity": 0.8,
-                      },
-                      Object {
-                        "width": 168,
-                      },
-                      Object {
-                        "height": 190,
-                      },
-                      false,
-                      undefined,
-                    ],
-                  ],
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "width": "100%",
+                  },
                 ]
               }
             >
@@ -401,31 +383,13 @@ exports[`<Slider> when {dataSource} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -624,31 +588,13 @@ exports[`<Slider> when {dataSource} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -870,31 +816,13 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -1093,31 +1021,13 @@ exports[`<Slider> when {itemMargin} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -1647,31 +1557,13 @@ exports[`<Slider> when {snap=false} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -1870,31 +1762,13 @@ exports[`<Slider> when {snap=false} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -2116,31 +1990,13 @@ exports[`<Slider> when {steps} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -2339,31 +2195,13 @@ exports[`<Slider> when {steps} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -2591,31 +2429,13 @@ exports[`<Slider> when {style} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >
@@ -2814,31 +2634,13 @@ exports[`<Slider> when {style} 1`] = `
                       "minHeight": 10,
                       "minWidth": 10,
                     },
-                    Array [
-                      Object {
-                        "height": "100%",
-                        "left": 0,
-                        "position": "absolute",
-                        "top": 0,
-                        "width": "100%",
-                      },
-                      Array [
-                        Object {
-                          "borderRadius": 3,
-                        },
-                        Object {
-                          "opacity": 0.8,
-                        },
-                        Object {
-                          "width": 168,
-                        },
-                        Object {
-                          "height": 190,
-                        },
-                        false,
-                        undefined,
-                      ],
-                    ],
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "width": "100%",
+                    },
                   ]
                 }
               >

@@ -92,31 +92,13 @@ exports[`<PictureCard> renders 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -277,31 +259,13 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -460,31 +424,13 @@ exports[`<PictureCard> when {caption} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -675,31 +621,13 @@ exports[`<PictureCard> when {image} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -858,31 +786,13 @@ exports[`<PictureCard> when {portrait} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 220,
-                },
-                false,
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -1045,33 +955,13 @@ exports[`<PictureCard> when {small} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                Object {
-                  "height": 100,
-                },
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -1236,34 +1126,13 @@ exports[`<PictureCard> when {style} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                Object {
-                  "backgroundColor": "orange",
-                  "opacity": 0.75,
-                },
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
@@ -1422,31 +1291,13 @@ exports[`<PictureCard> when {title} 1`] = `
               "minHeight": 10,
               "minWidth": 10,
             },
-            Array [
-              Object {
-                "height": "100%",
-                "left": 0,
-                "position": "absolute",
-                "top": 0,
-                "width": "100%",
-              },
-              Array [
-                Object {
-                  "borderRadius": 3,
-                },
-                Object {
-                  "opacity": 0.8,
-                },
-                Object {
-                  "width": 168,
-                },
-                Object {
-                  "height": 190,
-                },
-                false,
-                undefined,
-              ],
-            ],
+            Object {
+              "height": "100%",
+              "left": 0,
+              "position": "absolute",
+              "top": 0,
+              "width": "100%",
+            },
           ]
         }
       >
