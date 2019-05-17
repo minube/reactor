@@ -2,11 +2,8 @@ import { bool, node, shape } from 'prop-types';
 import React, { createContext, PureComponent } from 'react';
 import { NetInfo } from 'react-native';
 
-import ENV from '../../common/environment';
-import SHAPE from '../../common/shape';
-import {
-  AsyncStore, fetch, Fingerprint, getCookie,
-} from './modules';
+import { ENV, SHAPE, Storage } from '../../common';
+import { fetch, Fingerprint, getCookie } from './modules';
 
 const { IS_WEB, IS_SERVER, PKG } = ENV;
 const { Provider, Consumer: ConsumerTracking } = createContext('reactor:tracking');
@@ -55,8 +52,8 @@ class ProviderTracking extends PureComponent {
       fingerprint = await Fingerprint();
       if (IS_WEB) {
         cookie = getCookie('reactor:request');
-        const { deviceId, sessionId } = await AsyncStore.getItem(AMPLITUDE_DATA) || {};
-        const userId = await AsyncStore.getItem(MINUBE_USER_ID);
+        const { deviceId, sessionId } = await Storage.get(AMPLITUDE_DATA) || {};
+        const userId = await Storage.get(MINUBE_USER_ID);
 
         if (deviceId) session.device_id = deviceId;
         if (sessionId) session.session_id = sessionId;
@@ -86,20 +83,20 @@ class ProviderTracking extends PureComponent {
 
   _syncEvents = async () => {
     const { state } = this;
-    const events = await AsyncStore.getItem(STORE_EVENTS) || [];
+    const events = await Storage.get(STORE_EVENTS) || [];
     const isConnected = await NetInfo.isConnected.fetch();
 
     if (isConnected && events.length > 0) {
       await fetch(events); // @TODO: We should refactor this area
-      await AsyncStore.setItem(STORE_EVENTS, []);
+      await Storage.set(STORE_EVENTS, []);
     }
 
     if (isConnected !== state.isConnected) this.setState({ isConnected });
   }
 
   _storeEvent = async (event) => {
-    const events = await AsyncStore.getItem(STORE_EVENTS) || [];
-    await AsyncStore.setItem(STORE_EVENTS, [...events, event]);
+    const events = await Storage.get(STORE_EVENTS) || [];
+    await Storage.set(STORE_EVENTS, [...events, event]);
   }
 
   logEvent = ({ type, ...props } = {}) => {
