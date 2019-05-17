@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "Reusable presentational components",
-  "version": "0.11.48",
+  "version": "0.11.49",
   "license": "LGPL-3.0",
   "devDependencies": {
     "@babel/cli": "7.0.0",
@@ -20,28 +20,28 @@
     "@storybook/storybook-deployer": "latest",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
-    "babel-plugin-react-native-web": "0.10.0",
+    "babel-plugin-react-native-web": "0.11.2",
     "eslint": "5.14.1",
     "eslint-config-airbnb": "latest",
-    "eslint-plugin-import": "2.16.0",
+    "eslint-plugin-import": "2.17.2",
     "eslint-plugin-jsx-a11y": "6.2.1",
-    "eslint-plugin-react": "7.12.4",
+    "eslint-plugin-react": "7.13.0",
     "jest": "23.6.0",
-    "jest-fetch-mock": "2.1.1",
-    "metro-react-native-babel-preset": "0.52.0",
+    "jest-fetch-mock": "2.1.2",
+    "metro-react-native-babel-preset": "0.54.1",
     "react-native-scripts": "latest",
-    "react-test-renderer": "16.8.3",
+    "react-test-renderer": "16.8.6",
     "release-it": "10.1.0",
     "storybook-addon-jsx": "latest"
   },
   "dependencies": {
     "expo": "30.0.1",
     "prop-types": "15.7.2",
-    "react": "16.8.3",
-    "react-art": "16.8.3",
-    "react-dom": "16.8.3",
+    "react": "16.8.6",
+    "react-art": "16.8.6",
+    "react-dom": "16.8.6",
     "react-native": "0.55.4",
-    "react-native-web": "0.10.0"
+    "react-native-web": "0.11.2"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
