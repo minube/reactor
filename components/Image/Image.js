@@ -45,7 +45,7 @@ class Image extends PureComponent {
           source={uri ? { uri } : undefined}
           onLoad={_onLoad}
         />
-        { !ready && <Skeleton style={[styles.skeleton, inherit.style]} /> }
+        { !ready && <Skeleton style={styles.skeleton} /> }
       </View>
     );
   }

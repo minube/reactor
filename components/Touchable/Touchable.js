@@ -7,7 +7,6 @@ import {
 } from 'react-native';
 
 import { THEME } from '../../common';
-
 import Ripple from './components/Ripple';
 import styles from './Touchable.style';
 
@@ -16,7 +15,6 @@ const ANIMATION = {
   toValue: 1,
   easing: Easing.out(Easing.ease),
   duration: 400,
-  useNativeDriver: true,
 };
 
 class Touchable extends PureComponent {

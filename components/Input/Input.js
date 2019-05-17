@@ -22,7 +22,7 @@ class Input extends Component {
     disabled: bool,
     error: oneOfType([bool, string]),
     hint: string,
-    icon: string,
+    icon: oneOfType([number, string]),
     keyboard: string,
     label: string,
     lines: number,

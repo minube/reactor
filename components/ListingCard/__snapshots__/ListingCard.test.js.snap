@@ -112,31 +112,13 @@ exports[`<ListingCard> renders 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -324,31 +306,13 @@ exports[`<ListingCard> when {category} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -562,31 +526,13 @@ exports[`<ListingCard> when {children} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -922,31 +868,13 @@ exports[`<ListingCard> when {description} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1166,31 +1094,13 @@ exports[`<ListingCard> when {image} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1378,31 +1288,13 @@ exports[`<ListingCard> when {rating} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1763,31 +1655,13 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1975,31 +1849,13 @@ exports[`<ListingCard> when {title} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 3,
-                    },
-                    Object {
-                      "opacity": 0.8,
-                    },
-                    Object {
-                      "width": 168,
-                    },
-                    Object {
-                      "height": 190,
-                    },
-                    false,
-                    undefined,
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
