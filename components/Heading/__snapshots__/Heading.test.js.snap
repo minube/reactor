@@ -682,31 +682,13 @@ exports[`<Heading> when {column} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "height": 40,
-                      "width": 40,
-                    },
-                    false,
-                    Object {
-                      "borderRadius": 10,
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "marginLeft": 4,
-                    },
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -785,31 +767,13 @@ exports[`<Heading> when {column} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "height": 40,
-                      "width": 40,
-                    },
-                    false,
-                    Object {
-                      "borderRadius": 10,
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "marginLeft": 4,
-                    },
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -888,31 +852,13 @@ exports[`<Heading> when {column} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "height": 40,
-                      "width": 40,
-                    },
-                    false,
-                    Object {
-                      "borderRadius": 10,
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "marginLeft": 4,
-                    },
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1125,31 +1071,13 @@ exports[`<Heading> when {contributors} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "height": 40,
-                      "width": 40,
-                    },
-                    false,
-                    Object {
-                      "borderRadius": 10,
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "marginLeft": 4,
-                    },
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1228,31 +1156,13 @@ exports[`<Heading> when {contributors} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "height": 40,
-                      "width": 40,
-                    },
-                    false,
-                    Object {
-                      "borderRadius": 10,
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "marginLeft": 4,
-                    },
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >
@@ -1331,31 +1241,13 @@ exports[`<Heading> when {contributors} 1`] = `
                   "minHeight": 10,
                   "minWidth": 10,
                 },
-                Array [
-                  Object {
-                    "height": "100%",
-                    "left": 0,
-                    "position": "absolute",
-                    "top": 0,
-                    "width": "100%",
-                  },
-                  Array [
-                    Object {
-                      "borderRadius": 20,
-                      "height": 40,
-                      "width": 40,
-                    },
-                    false,
-                    Object {
-                      "borderRadius": 10,
-                      "height": 20,
-                      "width": 20,
-                    },
-                    Object {
-                      "marginLeft": 4,
-                    },
-                  ],
-                ],
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "width": "100%",
+                },
               ]
             }
           >

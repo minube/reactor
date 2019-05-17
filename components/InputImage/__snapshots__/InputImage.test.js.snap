@@ -759,21 +759,13 @@ exports[`<InputImage> when {value} 1`] = `
             "minHeight": 10,
             "minWidth": 10,
           },
-          Array [
-            Object {
-              "height": "100%",
-              "left": 0,
-              "position": "absolute",
-              "top": 0,
-              "width": "100%",
-            },
-            Object {
-              "backgroundColor": "#cdd2d4",
-              "borderRadius": 3,
-              "height": 44,
-              "width": 44,
-            },
-          ],
+          Object {
+            "height": "100%",
+            "left": 0,
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+          },
         ]
       }
     >

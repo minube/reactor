@@ -1,7 +1,7 @@
 import {
   arrayOf, bool, func, node, number, shape, string,
 } from 'prop-types';
-import React, { Component, createRef } from 'react';
+import React, { PureComponent, createRef } from 'react';
 import { Platform, ScrollView, View } from 'react-native';
 
 import { LAYOUT, THEME } from '../../common';
@@ -17,7 +17,7 @@ const DEFAULT_PROPS = {
 };
 const NEXT = 'next';
 
-class Slider extends Component {
+class Slider extends PureComponent {
   static propTypes = {
     caption: string,
     children: node,
@@ -56,11 +56,6 @@ class Slider extends Component {
     this.setState({ x: 0 });
   }
 
-  // shouldComponentUpdate({ dataSource = [] }) {
-  //   const { props } = this;
-  //   return JSON.stringify(dataSource) !== JSON.stringify(props.dataSource); // @TODO: We should compare all the datasource
-  // }
-
   _onPressButton = (type) => {
     const { props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps } } = this;
     const width = (itemWidth + itemMargin) * steps;
@@ -72,11 +67,18 @@ class Slider extends Component {
     this.setState({ x });
   }
 
+  _onScroll = ({ nativeEvent: { contentOffset } }) => {
+    const { props: { onChange }, state: { x } } = this;
+
+    if (x !== contentOffset.x) this.setState({ x: contentOffset.x });
+    if (onChange) onChange(contentOffset);
+  }
+
   render() {
     const {
-      _onPressButton,
+      _onPressButton, _onScroll,
       props: {
-        caption, dataSource, navigation, onChange, snap, steps, title,
+        caption, dataSource, navigation, snap, steps, title,
         item: Item, itemMargin, itemWidth = LAYOUT.CARD.SLIDER,
         ...inherit
       },
@@ -87,12 +89,6 @@ class Slider extends Component {
         pagingEnabled: Platform.OS !== 'ios',
         snapToInterval: (itemWidth + itemMargin) * steps,
         snapToAlignment: 'start',
-      }
-      : undefined;
-    const onChangeProps = onChange
-      ? {
-        onScroll: ({ nativeEvent: { contentOffset } }) => onChange(contentOffset),
-        scrollEventThrottle: 1000,
       }
       : undefined;
 
@@ -128,9 +124,10 @@ class Slider extends Component {
         <ScrollView
           {...DEFAULT_PROPS}
           {...snapProps}
-          {...onChangeProps}
           contentContainerStyle={inherit.style}
+          onScroll={_onScroll}
           ref={this.scrollview}
+          scrollEventThrottle={1000}
         >
           { dataSource.map((data, index) =>
             <View key={index} style={{ marginRight: itemMargin }}><Item data={data} /></View>) // eslint-disable-line
