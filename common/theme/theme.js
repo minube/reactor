@@ -20,6 +20,7 @@ export default {
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
     SECONDARY: '#a66ecc',
+    DARK_PRIMARY: '#0E908D',
 
     // -- Text
     TEXT: '#4a4a4a',
@@ -27,7 +28,8 @@ export default {
 
     // -- Notifications
     ALERT: '#FBB049',
-    ERROR: '#d33c44',
+    ERROR: '#ef5160',
+    LIGHT_ERROR: '#fdeeef',
     SUCCESS: '#84BD4B',
     WARNING: '#FDCD48',
     // -- Helpers
