@@ -29,7 +29,6 @@ export default {
     // -- Notifications
     ALERT: '#FBB049',
     ERROR: '#ef5160',
-    LIGHT_ERROR: '#fdeeef',
     SUCCESS: '#84BD4B',
     WARNING: '#FDCD48',
     // -- Helpers
