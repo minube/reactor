@@ -33,7 +33,7 @@ export default StyleSheet.create({
   },
 
   focus: {
-    borderColor: COLOR.DARK_PRIMARY,
+    borderColor: COLOR.SECONDARY,
   },
 
   icon: {

@@ -20,7 +20,7 @@ export default {
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
     ALTERNATIVE: '#a66ecc',
-    DARK_PRIMARY: '#0E908D',
+    SECONDARY: '#0E908D',
 
     // -- Text
     TEXT: '#4a4a4a',
