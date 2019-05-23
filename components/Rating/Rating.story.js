@@ -22,10 +22,10 @@ storiesOf('✅ Rating', module)
     <Rating value={4} count={32} caption="valoraciones" />
   ))
   .add('color', () => (
-    <Rating value={4} color={THEME.COLOR.SECONDARY} />
+    <Rating value={4} color={THEME.COLOR.ALTERNATIVE} />
   ))
   .add('textColor', () => (
-    <Rating count={32} value={4} color={THEME.COLOR.SECONDARY} textColor={THEME.COLOR.PRIMARY} />
+    <Rating count={32} value={4} color={THEME.COLOR.ALTERNATIVE} textColor={THEME.COLOR.PRIMARY} />
   ))
   .add('style', () => (
     <Rating count={32} style={{ fontSize: 20, lineHeight: 20, color: 'orange' }} />

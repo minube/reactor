@@ -19,7 +19,7 @@ export default {
     BASE: '#cdd2d4',
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
-    SECONDARY: '#a66ecc',
+    ALTERNATIVE: '#a66ecc',
     DARK_PRIMARY: '#0E908D',
 
     // -- Text

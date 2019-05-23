@@ -31,12 +31,12 @@ describe('<Rating>', () => {
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<Rating value={3.5} color={THEME.COLOR.SECONDARY} />).toJSON();
+    const tree = renderer.create(<Rating value={3.5} color={THEME.COLOR.ALTERNATIVE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
   it('when {textColor}', () => {
-    const tree = renderer.create(<Rating value={3.5} textColor={THEME.COLOR.SECONDARY} />).toJSON();
+    const tree = renderer.create(<Rating value={3.5} textColor={THEME.COLOR.ALTERNATIVE} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 
