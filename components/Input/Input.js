@@ -71,7 +71,7 @@ class Input extends Component {
     return (
       <View style={[styles.container, inherit.style]}>
         { label && (
-          <InputLabel color={color} error={error}>
+          <InputLabel color={color}>
             {label}
           </InputLabel>
         )}
