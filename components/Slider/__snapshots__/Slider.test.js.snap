@@ -1207,7 +1207,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "height": 28,
                 "minWidth": 28,
-                "paddingHorizontal": 6,
+                "paddingHorizontal": 12,
               },
               false,
               false,
@@ -1352,7 +1352,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "height": 28,
                 "minWidth": 28,
-                "paddingHorizontal": 6,
+                "paddingHorizontal": 12,
               },
               false,
               false,
