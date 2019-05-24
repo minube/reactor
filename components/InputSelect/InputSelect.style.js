@@ -14,6 +14,7 @@ export default StyleSheet.create({
   },
 
   border: {
+    backgroundColor: COLOR.BACKGROUND_INPUT,
     borderColor: COLOR.BASE,
     borderRadius: BORDER_RADIUS,
     borderWidth: 1,
@@ -35,7 +36,7 @@ export default StyleSheet.create({
   dataSource: {
     ...ELEVATION.REGULAR,
     position: 'absolute',
-    backgroundColor: COLOR.WHITE,
+    backgroundColor: COLOR.BACKGROUND_INPUT,
   },
 
   dataSourceBottom: {

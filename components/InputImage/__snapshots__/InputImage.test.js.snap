@@ -33,6 +33,7 @@ exports[`<InputImage> renders 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -120,6 +121,7 @@ exports[`<InputImage> when {disabled} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -211,6 +213,7 @@ exports[`<InputImage> when {error} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -323,6 +326,7 @@ exports[`<InputImage> when {hint} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -471,6 +475,7 @@ exports[`<InputImage> when {label} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -558,6 +563,7 @@ exports[`<InputImage> when {required} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -648,6 +654,7 @@ exports[`<InputImage> when {style} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,
@@ -803,6 +810,7 @@ exports[`<InputImage> when {value} 1`] = `
         Array [
           Object {
             "alignItems": "center",
+            "backgroundColor": "#ffffff",
             "borderColor": "#cdd2d4",
             "borderRadius": 2.5,
             "borderWidth": 1,

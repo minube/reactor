@@ -20,6 +20,6 @@ describe('Storage', () => {
   it('method get', async () => {
     expect.assertions(1);
     const value = await Storage.get(STORE_KEY)
-    expect(value).toEqual(null); // JEST don't have access to storage
+    expect(value).toEqual(undefined); // JEST don't have access to storage
   });
 });

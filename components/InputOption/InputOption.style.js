@@ -27,6 +27,7 @@ export default StyleSheet.create({
     height: SIZE,
     width: SIZE,
 
+    backgroundColor: COLOR.BACKGROUND_INPUT,
     borderWidth: 2,
     borderColor: COLOR.TEXT_LIGHTEN,
     borderRadius: SIZE / 10,

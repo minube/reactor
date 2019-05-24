@@ -18,6 +18,7 @@ export default StyleSheet.create({
 
   content: {
     ...LAYOUT.STYLE.ROW,
+    backgroundColor: COLOR.BACKGROUND_INPUT,
     paddingHorizontal: SPACE.XXS,
     borderColor: COLOR.BASE,
     borderWidth: 1,
