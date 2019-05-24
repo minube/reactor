@@ -1,5 +1,6 @@
 import { Platform } from 'react-native';
 
+const WHITE = '#ffffff';
 const BLACK = '#000000';
 const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
 const FAMILY_SECONDARY = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
@@ -16,6 +17,7 @@ export default {
   COLOR: {
     // Theme
     BACKGROUND: '#F5F5F6',
+    BACKGROUND_INPUT: WHITE,
     BASE: '#cdd2d4',
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
@@ -34,7 +36,7 @@ export default {
     DISABLED: '#f4f4f4',
     TRANSPARENT: 'transparent',
     BLACK,
-    WHITE: '#ffffff',
+    WHITE,
   },
 
   ELEVATION: {

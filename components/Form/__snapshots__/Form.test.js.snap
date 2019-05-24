@@ -93,6 +93,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -235,6 +236,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -373,6 +375,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -530,6 +533,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -634,6 +638,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -768,6 +773,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -872,6 +878,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -1025,6 +1032,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -1317,6 +1325,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -1493,6 +1502,7 @@ exports[`<Form> when {attributes} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -3020,6 +3030,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -3124,6 +3135,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -3401,6 +3413,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -3549,6 +3562,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -3697,6 +3711,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -3845,6 +3860,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -4063,6 +4079,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -4201,6 +4218,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -4339,6 +4357,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -4479,6 +4498,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -4569,6 +4589,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -4754,6 +4775,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -4896,6 +4918,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -5034,6 +5057,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -5191,6 +5215,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -5295,6 +5320,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -5429,6 +5455,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -5533,6 +5560,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -5686,6 +5714,7 @@ exports[`<Form> when {color} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -5978,6 +6007,7 @@ exports[`<Form> when {color} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -6154,6 +6184,7 @@ exports[`<Form> when {color} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -7681,6 +7712,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -7785,6 +7817,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -8062,6 +8095,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -8210,6 +8244,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -8358,6 +8393,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -8506,6 +8542,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -8724,6 +8761,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -8862,6 +8900,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -9000,6 +9039,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -9140,6 +9180,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -9230,6 +9271,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -9544,6 +9586,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -9686,6 +9729,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -9873,6 +9917,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -10030,6 +10075,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -10134,6 +10180,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -10268,6 +10315,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -10372,6 +10420,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -10525,6 +10574,7 @@ exports[`<Form> when {validate} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -10817,6 +10867,7 @@ exports[`<Form> when {validate} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -10993,6 +11044,7 @@ exports[`<Form> when {validate} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -12520,6 +12572,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -12673,6 +12726,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -12950,6 +13004,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -13098,6 +13153,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -13246,6 +13302,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -13394,6 +13451,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -13612,6 +13670,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -13799,6 +13858,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -13986,6 +14046,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -14126,6 +14187,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -14232,7 +14294,7 @@ exports[`<Form> when {validate} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderTopWidth": 0,
@@ -14623,6 +14685,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -14808,6 +14871,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -14950,6 +15014,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -15088,6 +15153,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -15245,6 +15311,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -15349,6 +15416,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -15483,6 +15551,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -15587,6 +15656,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -15740,6 +15810,7 @@ exports[`<Form> when {value} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -16032,6 +16103,7 @@ exports[`<Form> when {value} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -16208,6 +16280,7 @@ exports[`<Form> when {value} 1`] = `
           style={
             Array [
               Object {
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 3,
                 "borderWidth": 1,
@@ -17735,6 +17808,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -17839,6 +17913,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderWidth": 1,
@@ -18116,6 +18191,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -18264,6 +18340,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -18412,6 +18489,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -18560,6 +18638,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,
@@ -18778,6 +18857,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -18916,6 +18996,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -19054,6 +19135,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -19194,6 +19276,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "alignItems": "center",
+                  "backgroundColor": "#ffffff",
                   "borderColor": "#cdd2d4",
                   "borderRadius": 2.5,
                   "borderWidth": 1,
@@ -19251,7 +19334,7 @@ exports[`<Form> when {value} 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "transparent",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#cdd2d4",
                 "borderRadius": 2.5,
                 "borderTopWidth": 0,
@@ -19642,6 +19725,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
+                "backgroundColor": "#ffffff",
                 "borderColor": "#707070",
                 "borderRadius": 2,
                 "borderWidth": 2,

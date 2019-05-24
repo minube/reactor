@@ -11,7 +11,7 @@ export default StyleSheet.create({
   },
 
   content: {
-    backgroundColor: COLOR.TRANSPARENT,
+    backgroundColor: COLOR.BACKGROUND_INPUT,
     borderColor: COLOR.BASE,
     borderWidth: 1,
     borderTopWidth: 0,
@@ -28,7 +28,7 @@ export default StyleSheet.create({
   },
 
   disabled: {
-    backgroundColor: COLOR.BACKGROUND,
+    backgroundColor: COLOR.DISABLED,
   },
 
   values: {
