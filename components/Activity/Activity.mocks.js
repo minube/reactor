@@ -1,6 +1,6 @@
 import { THEME } from '../../common';
 
-const COLOR = THEME.COLOR.SECONDARY;
+const COLOR = THEME.COLOR.ERROR;
 const SIZE = 'large';
 const STYLE = {
   padding: THEME.SPACE.REGULAR,

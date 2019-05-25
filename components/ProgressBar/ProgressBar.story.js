@@ -15,7 +15,7 @@ storiesOf('✅ ProgressBar', module)
     <ProgressBar progress={0.33} />
   ))
   .add('color', () => (
-    <ProgressBar progress={0.5} color={THEME.COLOR.SECONDARY} />
+    <ProgressBar progress={0.5} color={THEME.COLOR.ERROR} />
   ))
   .add('trackColor', () => (
     <ProgressBar progress={0.5} trackColor={THEME.COLOR.ERROR} />
@@ -27,7 +27,7 @@ storiesOf('✅ ProgressBar', module)
     <ProgressBar
       progress={number('progress', 0.5)}
       indeterminate={boolean('indeterminate', false)}
-      color={color('color', THEME.COLOR.SECONDARY)}
+      color={color('color', THEME.COLOR.ERROR)}
       trackColor={color('trackColor', THEME.COLOR.BACKGROUND)}
     />
   ));

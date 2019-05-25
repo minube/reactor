@@ -60,7 +60,7 @@ exports[`<ListingCard> renders 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -254,7 +254,7 @@ exports[`<ListingCard> when {category} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -474,7 +474,7 @@ exports[`<ListingCard> when {children} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -816,7 +816,7 @@ exports[`<ListingCard> when {description} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1037,7 +1037,7 @@ exports[`<ListingCard> when {image} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1236,7 +1236,7 @@ exports[`<ListingCard> when {rating} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1603,7 +1603,7 @@ exports[`<ListingCard> when {styleContainer} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1797,7 +1797,7 @@ exports[`<ListingCard> when {title} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [

@@ -225,7 +225,7 @@ exports[`<InputImage> when {error} 1`] = `
           false,
           false,
           Object {
-            "borderColor": "#d33c44",
+            "borderColor": "#ef5160",
           },
         ]
       }
@@ -728,7 +728,7 @@ exports[`<InputImage> when {value} 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
-          "backgroundColor": "#F5F5F6",
+          "backgroundColor": "#ffffff",
           "justifyContent": "center",
         },
         Object {

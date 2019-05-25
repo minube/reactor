@@ -7,7 +7,7 @@ exports[`<Avatar> renders 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       Array [
@@ -83,7 +83,7 @@ exports[`<Avatar> when {large} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       Array [
@@ -167,7 +167,7 @@ exports[`<Avatar> when {small} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       Array [
@@ -251,7 +251,7 @@ exports[`<Avatar> when {style} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       Array [

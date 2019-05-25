@@ -303,7 +303,7 @@ exports[`<InputList> when {error} 1`] = `
           false,
           false,
           Object {
-            "borderColor": "#d33c44",
+            "borderColor": "#ef5160",
           },
         ]
       }
@@ -624,7 +624,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -827,7 +827,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1030,7 +1030,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1233,7 +1233,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
@@ -1436,7 +1436,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               Object {
                 "alignContent": "center",
                 "alignItems": "center",
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "justifyContent": "center",
               },
               Array [
