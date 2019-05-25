@@ -34,6 +34,7 @@ exports[`<InputOption> inherity:style 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
@@ -147,6 +148,7 @@ exports[`<InputOption> label 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
@@ -292,6 +294,7 @@ exports[`<InputOption> renders 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
@@ -405,6 +408,7 @@ exports[`<InputOption> rounded (false) 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,
@@ -516,6 +520,7 @@ exports[`<InputOption> value 1`] = `
         Object {
           "alignContent": "center",
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#707070",
           "borderRadius": 2,
           "borderWidth": 2,

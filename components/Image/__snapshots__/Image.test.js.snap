@@ -7,7 +7,7 @@ exports[`<Image> renders 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -56,7 +56,7 @@ exports[`<Image> when {color} (only Native) 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -64,7 +64,7 @@ exports[`<Image> when {color} (only Native) 1`] = `
   }
 >
   <Image
-    color="#d33c44"
+    color="#ef5160"
     onLoad={[Function]}
   />
   <View
@@ -106,7 +106,7 @@ exports[`<Image> when {invert} (only Web) 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -156,7 +156,7 @@ exports[`<Image> when {ratio} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -210,7 +210,7 @@ exports[`<Image> when {responsive} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -264,7 +264,7 @@ exports[`<Image> when {size} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -314,7 +314,7 @@ exports[`<Image> when {source} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       undefined,
@@ -368,11 +368,11 @@ exports[`<Image> when {style} 1`] = `
       Object {
         "alignContent": "center",
         "alignItems": "center",
-        "backgroundColor": "#F5F5F6",
+        "backgroundColor": "#ffffff",
         "justifyContent": "center",
       },
       Object {
-        "backgroundColor": "#a66ecc",
+        "backgroundColor": "#ef5160",
       },
     ]
   }
@@ -381,7 +381,7 @@ exports[`<Image> when {style} 1`] = `
     onLoad={[Function]}
     style={
       Object {
-        "backgroundColor": "#a66ecc",
+        "backgroundColor": "#ef5160",
       }
     }
   />

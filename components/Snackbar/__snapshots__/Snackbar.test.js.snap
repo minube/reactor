@@ -70,7 +70,7 @@ exports[`<Snackbar> renders 1`] = `
           style={
             Array [
               Object {
-                "backgroundColor": "#F5F5F6",
+                "backgroundColor": "#ffffff",
                 "borderRadius": 3,
                 "shadowColor": "#000000",
                 "shadowOffset": Object {

@@ -1,5 +1,6 @@
 import { Platform } from 'react-native';
 
+const WHITE = '#ffffff';
 const BLACK = '#000000';
 const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
 const FAMILY_SECONDARY = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
@@ -14,27 +15,19 @@ export default {
   BORDER_RADIUS: UNIT * 0.3,
 
   COLOR: {
-    // Theme
-    BACKGROUND: '#F5F5F6',
-    BASE: '#cdd2d4',
+    BACKGROUND: WHITE,
+    BACKGROUND_INPUT: WHITE,
+    BASE: '#cdd2d4', // disabled
+    BLACK,
+    DISABLED: '#f4f4f4', // light
+    ERROR: '#ef5160',
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
     SECONDARY: '#a66ecc',
-
-    // -- Text
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#707070',
-
-    // -- Notifications
-    ALERT: '#FBB049',
-    ERROR: '#d33c44',
-    SUCCESS: '#84BD4B',
-    WARNING: '#FDCD48',
-    // -- Helpers
-    DISABLED: '#f4f4f4',
     TRANSPARENT: 'transparent',
-    BLACK,
-    WHITE: '#ffffff',
+    WHITE,
   },
 
   ELEVATION: {
@@ -119,12 +112,5 @@ export default {
     L: UNIT * 2.8,
     XL: UNIT * 3.2,
     XXL: UNIT * 6,
-  },
-
-  STRIKETHROUGH: {
-    alignSelf: 'center',
-    borderBottomWidth: 1,
-    position: 'absolute',
-    width: '100%',
   },
 };

@@ -86,11 +86,7 @@ class InputSelect extends PureComponent {
 
     return (
       <View ref={this.component} style={[styles.container, active && styles.active, inherit.style]}>
-        { label && (
-          <InputLabel error={error}>
-            {label}
-          </InputLabel>
-        )}
+        { label && <InputLabel>{label}</InputLabel> }
 
         { schema && hasDataSource && !disabled && (
           <Motion

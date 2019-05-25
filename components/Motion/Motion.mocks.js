@@ -4,7 +4,7 @@ const STYLE = { backgroundColor: THEME.COLOR.PRIMARY, padding: 32 };
 const STYLE_VIEW = {
   width: 128,
   height: 128,
-  backgroundColor: THEME.COLOR.SECONDARY,
+  backgroundColor: THEME.COLOR.ERROR,
 };
 
 const TIMELINE = [

@@ -16,6 +16,7 @@ exports[`<Input> renders 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -85,6 +86,7 @@ exports[`<Input> when {color} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -154,6 +156,7 @@ exports[`<Input> when {currency} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -272,6 +275,7 @@ exports[`<Input> when {disabled} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -345,6 +349,7 @@ exports[`<Input> when {error} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -356,7 +361,7 @@ exports[`<Input> when {error} 1`] = `
         false,
         false,
         Object {
-          "borderColor": "#d33c44",
+          "borderColor": "#ef5160",
         },
       ]
     }
@@ -439,6 +444,7 @@ exports[`<Input> when {hint} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -538,6 +544,7 @@ exports[`<Input> when {icon} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -642,6 +649,7 @@ exports[`<Input> when {keyboard} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -742,6 +750,7 @@ exports[`<Input> when {label} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -811,6 +820,7 @@ exports[`<Input> when {lines} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -881,6 +891,7 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -973,6 +984,7 @@ exports[`<Input> when {required} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -1046,6 +1058,7 @@ exports[`<Input> when {style} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -1115,6 +1128,7 @@ exports[`<Input> when {valid} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
@@ -1233,6 +1247,7 @@ exports[`<Input> when {value} 1`] = `
       Array [
         Object {
           "alignItems": "center",
+          "backgroundColor": "#ffffff",
           "borderColor": "#cdd2d4",
           "borderRadius": 2.5,
           "borderWidth": 1,
