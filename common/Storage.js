@@ -15,5 +15,7 @@ export default {
     value
       ? await AsyncStorage.setItem(key, JSON.stringify(value))
       : await AsyncStorage.removeItem(key);
+
+    return value;
   },
 };
