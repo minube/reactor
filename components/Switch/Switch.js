@@ -22,11 +22,7 @@ const Switch = ({
       thumbColor={COLOR.WHITE}
       value={inherit.value || false}
     />
-    { label && (
-      <InputLabel style={styles.label}>
-        {label}
-      </InputLabel>
-    )}
+    { label && <InputLabel style={styles.label}>{label}</InputLabel> }
   </View>
 );
 
