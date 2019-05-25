@@ -10,6 +10,7 @@ import Icon from '../Icon';
 import Text from '../Text';
 import Touchable from '../Touchable';
 import styles, { REGULAR_SIZE } from './Button.style';
+import calcColor from './modules/calcColor';
 
 const { COLOR: { BASE, TEXT_LIGHTEN, WHITE } } = THEME;
 
@@ -54,7 +55,7 @@ const Button = ({
           { title
             && (
             <Text
-              color={isSolid && color === WHITE ? TEXT_LIGHTEN : (isSolid ? WHITE : color)} // eslint-disable-line
+              color={calcColor({ isSolid, color })} // eslint-disable-line
               style={[
                 styles.text,
                 small && styles.textSmall,
@@ -66,7 +67,7 @@ const Button = ({
             ) }
           { children }
         </View>
-        { activity && <Activity color={isSolid ? WHITE : color || TEXT_LIGHTEN} style={styles.activity} /> }
+        { activity && <Activity color={calcColor({ isSolid, color })} style={styles.activity} /> }
       </View>
     </Touchable>
   </View>

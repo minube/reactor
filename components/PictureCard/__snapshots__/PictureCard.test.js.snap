@@ -40,7 +40,7 @@ exports[`<PictureCard> renders 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -207,7 +207,7 @@ exports[`<PictureCard> when {backgroundColor} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -372,7 +372,7 @@ exports[`<PictureCard> when {caption} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -564,7 +564,7 @@ exports[`<PictureCard> when {image} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -734,7 +734,7 @@ exports[`<PictureCard> when {portrait} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -899,7 +899,7 @@ exports[`<PictureCard> when {small} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -1068,7 +1068,7 @@ exports[`<PictureCard> when {style} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [
@@ -1239,7 +1239,7 @@ exports[`<PictureCard> when {title} 1`] = `
           Object {
             "alignContent": "center",
             "alignItems": "center",
-            "backgroundColor": "#F5F5F6",
+            "backgroundColor": "#ffffff",
             "justifyContent": "center",
           },
           Array [

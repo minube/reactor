@@ -52,7 +52,7 @@ describe('<Heading>', () => {
   });
 
   it('when {color}', () => {
-    const tree = renderer.create(<Heading title={LOREM_TITLE} color={COLOR.SECONDARY} />).toJSON();
+    const tree = renderer.create(<Heading title={LOREM_TITLE} color={COLOR.ERROR} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

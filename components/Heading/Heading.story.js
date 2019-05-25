@@ -43,7 +43,7 @@ storiesOf('☑️ Heading', module)
   .add('color', () => (
     <Heading
       breadcrumbs={BREADCRUMBS}
-      color={COLOR.SECONDARY}
+      color={COLOR.ERROR}
       contributors={CONTRIBUTORS}
       title="Actividades en España"
       rating={RATING}

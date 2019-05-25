@@ -140,7 +140,7 @@ exports[`<Slider> when {children} 1`] = `
                 Object {
                   "alignContent": "center",
                   "alignItems": "center",
-                  "backgroundColor": "#F5F5F6",
+                  "backgroundColor": "#ffffff",
                   "justifyContent": "center",
                 },
                 Array [
@@ -334,7 +334,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -539,7 +539,7 @@ exports[`<Slider> when {dataSource} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -769,7 +769,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -974,7 +974,7 @@ exports[`<Slider> when {itemMargin} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -1514,7 +1514,7 @@ exports[`<Slider> when {snap=false} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -1719,7 +1719,7 @@ exports[`<Slider> when {snap=false} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -1949,7 +1949,7 @@ exports[`<Slider> when {steps} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -2154,7 +2154,7 @@ exports[`<Slider> when {steps} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -2390,7 +2390,7 @@ exports[`<Slider> when {style} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [
@@ -2595,7 +2595,7 @@ exports[`<Slider> when {style} 1`] = `
                   Object {
                     "alignContent": "center",
                     "alignItems": "center",
-                    "backgroundColor": "#F5F5F6",
+                    "backgroundColor": "#ffffff",
                     "justifyContent": "center",
                   },
                   Array [

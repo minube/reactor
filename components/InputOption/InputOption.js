@@ -18,11 +18,7 @@ const InputOption = ({
           <Icon value="doneContrast" reverse style={styles.icon} />
         </Motion>
       </View>
-      { label && (
-        <InputLabel style={styles.label}>
-          {label}
-        </InputLabel>
-      )}
+      { label && <InputLabel style={styles.label}>{label}</InputLabel> }
     </Fragment>
   </Touchable>
 );
