@@ -39,12 +39,13 @@ exports[`<InputImage> renders 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -127,11 +128,12 @@ exports[`<InputImage> when {disabled} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           Object {
             "backgroundColor": "#f4f4f4",
           },
+          false,
           false,
           false,
           false,
@@ -219,7 +221,7 @@ exports[`<InputImage> when {error} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
@@ -227,6 +229,7 @@ exports[`<InputImage> when {error} 1`] = `
           Object {
             "borderColor": "#ef5160",
           },
+          false,
         ]
       }
     >
@@ -332,12 +335,13 @@ exports[`<InputImage> when {hint} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -481,12 +485,13 @@ exports[`<InputImage> when {label} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -569,12 +574,13 @@ exports[`<InputImage> when {required} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -660,12 +666,13 @@ exports[`<InputImage> when {style} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -816,12 +823,13 @@ exports[`<InputImage> when {value} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >

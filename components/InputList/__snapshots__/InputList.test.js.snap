@@ -35,12 +35,13 @@ exports[`<InputList> renders 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -121,12 +122,13 @@ exports[`<InputList> when {dataSource} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -207,11 +209,12 @@ exports[`<InputList> when {disabled} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           Object {
             "backgroundColor": "#f4f4f4",
           },
+          false,
           false,
           false,
           false,
@@ -297,7 +300,7 @@ exports[`<InputList> when {error} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
@@ -305,6 +308,7 @@ exports[`<InputList> when {error} 1`] = `
           Object {
             "borderColor": "#ef5160",
           },
+          false,
         ]
       }
     >
@@ -408,12 +412,13 @@ exports[`<InputList> when {hint} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -524,12 +529,13 @@ exports[`<InputList> when {itemTemplate} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -1678,12 +1684,13 @@ exports[`<InputList> when {label} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -1767,12 +1774,13 @@ exports[`<InputList> when {style} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
@@ -1853,12 +1861,13 @@ exports[`<InputList> when {value} 1`] = `
             "borderWidth": 1,
             "display": "flex",
             "flexDirection": "row",
-            "paddingHorizontal": 4,
+            "paddingHorizontal": 8,
           },
           false,
           false,
           false,
           undefined,
+          false,
         ]
       }
     >
