@@ -19,7 +19,7 @@ export default StyleSheet.create({
   content: {
     ...LAYOUT.STYLE.ROW,
     backgroundColor: COLOR.BACKGROUND_INPUT,
-    paddingHorizontal: SPACE.XXS,
+    paddingHorizontal: SPACE.XS,
     borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
@@ -71,6 +71,7 @@ export default StyleSheet.create({
 
   multiline: {
     paddingVertical: SPACE.XXS,
+    alignItems: 'baseline',
   },
 
   valid: {

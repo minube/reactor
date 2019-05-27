@@ -78,6 +78,7 @@ class Input extends Component {
             !disabled && valid && styles.valid,
             !disabled && focus && (color ? { borderColor: color } : styles.focus),
             !disabled && error && styles.error,
+            lines > 1 && styles.multiline,
           ]}
         >
           { (icon || currency) && (
