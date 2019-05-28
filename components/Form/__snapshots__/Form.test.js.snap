@@ -51,6 +51,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -195,6 +196,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -736,6 +738,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -2915,6 +2918,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -3412,6 +3416,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -3561,6 +3566,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -3710,6 +3716,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -3859,6 +3866,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -3997,6 +4005,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -4034,6 +4043,7 @@ exports[`<Form> when {attributes} 1`] = `
               Object {
                 "marginBottom": 8,
                 "minWidth": "100%",
+                "width": "100%",
               },
             ]
           }
@@ -4459,6 +4469,7 @@ exports[`<Form> when {attributes} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -4592,6 +4603,7 @@ exports[`<Form> when {attributes} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -4749,6 +4761,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -4893,6 +4906,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -5434,6 +5448,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -7613,6 +7628,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -8110,6 +8126,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -8259,6 +8276,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -8408,6 +8426,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -8557,6 +8576,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -8695,6 +8715,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -8732,6 +8753,7 @@ exports[`<Form> when {color} 1`] = `
               Object {
                 "marginBottom": 8,
                 "minWidth": "100%",
+                "width": "100%",
               },
             ]
           }
@@ -9157,6 +9179,7 @@ exports[`<Form> when {color} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -9290,6 +9313,7 @@ exports[`<Form> when {color} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -9537,6 +9561,7 @@ exports[`<Form> when {title} 1`] = `
             Object {
               "marginBottom": 8,
               "minWidth": "100%",
+              "width": "100%",
             },
           ]
         }
@@ -9576,6 +9601,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -9720,6 +9746,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -10313,6 +10340,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -12492,6 +12520,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -13041,6 +13070,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -13190,6 +13220,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -13339,6 +13370,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -13488,6 +13520,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -13626,6 +13659,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -13663,6 +13697,7 @@ exports[`<Form> when {validate} 1`] = `
               Object {
                 "marginBottom": 8,
                 "minWidth": "100%",
+                "width": "100%",
               },
             ]
           }
@@ -14192,6 +14227,7 @@ exports[`<Form> when {validate} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -14735,6 +14771,7 @@ exports[`<Form> when {validate} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -14892,6 +14929,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -15036,6 +15074,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -15577,6 +15616,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -17756,6 +17796,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -18253,6 +18294,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -18402,6 +18444,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -18551,6 +18594,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -18700,6 +18744,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
@@ -18838,6 +18883,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -18875,6 +18921,7 @@ exports[`<Form> when {value} 1`] = `
               Object {
                 "marginBottom": 8,
                 "minWidth": "100%",
+                "width": "100%",
               },
             ]
           }
@@ -19300,6 +19347,7 @@ exports[`<Form> when {value} 1`] = `
             Array [
               Object {
                 "minWidth": "100%",
+                "width": "100%",
               },
               undefined,
             ],
@@ -19791,6 +19839,7 @@ exports[`<Form> when {value} 1`] = `
               Array [
                 Object {
                   "minWidth": "100%",
+                  "width": "100%",
                 },
                 undefined,
               ],
