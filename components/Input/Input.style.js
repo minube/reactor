@@ -6,7 +6,7 @@ const {
   COLOR, FONT, UNIT, SPACE,
 } = THEME;
 
-const ICON_SIZE = UNIT * 2;
+const ICON_SIZE = UNIT * 1.8;
 const INPUT_HEIGHT = UNIT * 4.2;
 
 export { INPUT_HEIGHT };

@@ -114,7 +114,7 @@ class Input extends Component {
           { (error || (required && requiredIcon)) && (
             <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} />
           )}
-          { valid && <InputIcon style={styles.icon} /> }
+          { valid && <InputIcon style={[styles.icon, lines > 1 && styles.iconMultiline]} /> }
         </View>
         { hint && (
           <InputHint>
