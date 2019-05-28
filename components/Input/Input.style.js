@@ -40,8 +40,11 @@ export default StyleSheet.create({
   icon: {
     height: ICON_SIZE,
     marginRight: SPACE.XXS,
-    marginTop: SPACE.XXS,
     width: ICON_SIZE,
+  },
+
+  iconMultiline: {
+    marginTop: SPACE.XS,
     alignSelf: 'flex-start',
   },
 

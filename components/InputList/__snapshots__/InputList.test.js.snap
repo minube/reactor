@@ -364,10 +364,8 @@ exports[`<InputList> when {error} 1`] = `
               "width": 20,
             },
             Object {
-              "alignSelf": "flex-start",
               "height": 18,
               "marginRight": 4,
-              "marginTop": 4,
               "width": 18,
             },
             undefined,
