@@ -40,7 +40,9 @@ export default StyleSheet.create({
   icon: {
     height: ICON_SIZE,
     marginRight: SPACE.XXS,
+    marginTop: SPACE.XXS,
     width: ICON_SIZE,
+    alignSelf: 'flex-start',
   },
 
   inlineHint: {
@@ -71,7 +73,7 @@ export default StyleSheet.create({
 
   multiline: {
     paddingVertical: SPACE.XXS,
-    alignItems: 'baseline',
+    alignItems: 'flex-start',
   },
 
   valid: {

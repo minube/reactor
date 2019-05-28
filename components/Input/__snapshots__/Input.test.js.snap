@@ -421,8 +421,10 @@ exports[`<Input> when {error} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 20,
             "marginRight": 4,
+            "marginTop": 4,
             "width": 20,
           },
           undefined,
@@ -592,8 +594,10 @@ exports[`<Input> when {icon} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 20,
               "marginRight": 4,
+              "marginTop": 4,
               "width": 20,
             },
             undefined,
@@ -842,7 +846,7 @@ exports[`<Input> when {lines} 1`] = `
         false,
         undefined,
         Object {
-          "alignItems": "baseline",
+          "alignItems": "flex-start",
           "paddingVertical": 4,
         },
       ]
@@ -970,8 +974,10 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 20,
             "marginRight": 4,
+            "marginTop": 4,
             "width": 20,
           },
           undefined,
@@ -1214,8 +1220,10 @@ exports[`<Input> when {valid} 1`] = `
             "justifyContent": "center",
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 20,
             "marginRight": 4,
+            "marginTop": 4,
             "width": 20,
           },
         ]

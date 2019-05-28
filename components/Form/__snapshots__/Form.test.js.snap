@@ -137,8 +137,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -279,8 +281,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -445,8 +449,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 20,
                   "marginRight": 4,
+                  "marginTop": 4,
                   "width": 20,
                 },
                 undefined,
@@ -791,7 +797,7 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               undefined,
               Object {
-                "alignItems": "baseline",
+                "alignItems": "flex-start",
                 "paddingVertical": 4,
               },
             ]
@@ -3188,8 +3194,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -4133,8 +4141,10 @@ exports[`<Form> when {attributes} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -4273,8 +4283,10 @@ exports[`<Form> when {attributes} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -4438,8 +4450,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -4835,8 +4849,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -4977,8 +4993,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -5143,8 +5161,10 @@ exports[`<Form> when {color} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 20,
                   "marginRight": 4,
+                  "marginTop": 4,
                   "width": 20,
                 },
                 undefined,
@@ -5489,7 +5509,7 @@ exports[`<Form> when {color} 1`] = `
               false,
               undefined,
               Object {
-                "alignItems": "baseline",
+                "alignItems": "flex-start",
                 "paddingVertical": 4,
               },
             ]
@@ -7886,8 +7906,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -8831,8 +8853,10 @@ exports[`<Form> when {color} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -8971,8 +8995,10 @@ exports[`<Form> when {color} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -9136,8 +9162,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -9662,8 +9690,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -9806,8 +9836,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -9868,8 +9900,10 @@ exports[`<Form> when {validate} 1`] = `
                   "justifyContent": "center",
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 20,
                   "marginRight": 4,
+                  "marginTop": 4,
                   "width": 20,
                 },
               ]
@@ -10019,8 +10053,10 @@ exports[`<Form> when {validate} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 20,
                   "marginRight": 4,
+                  "marginTop": 4,
                   "width": 20,
                 },
                 undefined,
@@ -10365,7 +10401,7 @@ exports[`<Form> when {validate} 1`] = `
               false,
               undefined,
               Object {
-                "alignItems": "baseline",
+                "alignItems": "flex-start",
                 "paddingVertical": 4,
               },
             ]
@@ -12685,8 +12721,10 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                 ]
@@ -12811,8 +12849,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -13758,8 +13798,10 @@ exports[`<Form> when {validate} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -13820,8 +13862,10 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                 ]
@@ -13947,8 +13991,10 @@ exports[`<Form> when {validate} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -14009,8 +14055,10 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                 ]
@@ -14159,8 +14207,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -14306,8 +14356,10 @@ exports[`<Form> when {validate} 1`] = `
                     "justifyContent": "center",
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                 ]
@@ -14963,8 +15015,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -15105,8 +15159,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -15271,8 +15327,10 @@ exports[`<Form> when {value} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 20,
                   "marginRight": 4,
+                  "marginTop": 4,
                   "width": 20,
                 },
                 undefined,
@@ -15617,7 +15675,7 @@ exports[`<Form> when {value} 1`] = `
               false,
               undefined,
               Object {
-                "alignItems": "baseline",
+                "alignItems": "flex-start",
                 "paddingVertical": 4,
               },
             ]
@@ -18014,8 +18072,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,
@@ -18959,8 +19019,10 @@ exports[`<Form> when {value} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -19099,8 +19161,10 @@ exports[`<Form> when {value} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 20,
                       "marginRight": 4,
+                      "marginTop": 4,
                       "width": 20,
                     },
                     undefined,
@@ -19264,8 +19328,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 20,
                     "marginRight": 4,
+                    "marginTop": 4,
                     "width": 20,
                   },
                   undefined,

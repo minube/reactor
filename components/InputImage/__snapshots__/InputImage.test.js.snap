@@ -283,8 +283,10 @@ exports[`<InputImage> when {error} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 20,
               "marginRight": 4,
+              "marginTop": 4,
               "width": 20,
             },
             undefined,
