@@ -28,7 +28,6 @@ exports[`<Input> renders 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -99,7 +98,6 @@ exports[`<Input> when {color} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -170,7 +168,6 @@ exports[`<Input> when {currency} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -292,7 +289,6 @@ exports[`<Input> when {disabled} 1`] = `
         false,
         false,
         false,
-        false,
       ]
     }
   >
@@ -367,7 +363,6 @@ exports[`<Input> when {error} 1`] = `
         Object {
           "borderColor": "#ef5160",
         },
-        false,
       ]
     }
   >
@@ -421,8 +416,10 @@ exports[`<Input> when {error} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 18,
             "marginRight": 4,
+            "marginTop": 12,
             "width": 18,
           },
           undefined,
@@ -461,7 +458,6 @@ exports[`<Input> when {hint} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -562,7 +558,6 @@ exports[`<Input> when {icon} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -592,8 +587,10 @@ exports[`<Input> when {icon} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 18,
               "marginRight": 4,
+              "marginTop": 12,
               "width": 18,
             },
             undefined,
@@ -668,7 +665,6 @@ exports[`<Input> when {keyboard} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -770,7 +766,6 @@ exports[`<Input> when {label} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -841,10 +836,6 @@ exports[`<Input> when {lines} 1`] = `
         false,
         false,
         undefined,
-        Object {
-          "alignItems": "flex-start",
-          "paddingVertical": 4,
-        },
       ]
     }
   >
@@ -916,7 +907,6 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -970,8 +960,10 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
             "width": 20,
           },
           Object {
+            "alignSelf": "flex-start",
             "height": 18,
             "marginRight": 4,
+            "marginTop": 12,
             "width": 18,
           },
           undefined,
@@ -1010,7 +1002,6 @@ exports[`<Input> when {required} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -1085,7 +1076,6 @@ exports[`<Input> when {style} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -1158,7 +1148,6 @@ exports[`<Input> when {valid} 1`] = `
         },
         false,
         undefined,
-        false,
       ]
     }
   >
@@ -1213,14 +1202,13 @@ exports[`<Input> when {valid} 1`] = `
             "borderColor": "#10c0bc",
             "justifyContent": "center",
           },
-          Array [
-            Object {
-              "height": 18,
-              "marginRight": 4,
-              "width": 18,
-            },
-            false,
-          ],
+          Object {
+            "alignSelf": "flex-start",
+            "height": 18,
+            "marginRight": 4,
+            "marginTop": 12,
+            "width": 18,
+          },
         ]
       }
     >
@@ -1279,7 +1267,6 @@ exports[`<Input> when {value} 1`] = `
         false,
         false,
         undefined,
-        false,
       ]
     }
   >

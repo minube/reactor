@@ -41,7 +41,6 @@ exports[`<InputList> renders 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -128,7 +127,6 @@ exports[`<InputList> when {dataSource} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -214,7 +212,6 @@ exports[`<InputList> when {disabled} 1`] = `
           Object {
             "backgroundColor": "#f4f4f4",
           },
-          false,
           false,
           false,
           false,
@@ -308,7 +305,6 @@ exports[`<InputList> when {error} 1`] = `
           Object {
             "borderColor": "#ef5160",
           },
-          false,
         ]
       }
     >
@@ -364,8 +360,10 @@ exports[`<InputList> when {error} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 18,
               "marginRight": 4,
+              "marginTop": 12,
               "width": 18,
             },
             undefined,
@@ -418,7 +416,6 @@ exports[`<InputList> when {hint} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -535,7 +532,6 @@ exports[`<InputList> when {itemTemplate} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -1690,7 +1686,6 @@ exports[`<InputList> when {label} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -1780,7 +1775,6 @@ exports[`<InputList> when {style} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -1867,7 +1861,6 @@ exports[`<InputList> when {value} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >

@@ -108,7 +108,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -138,8 +137,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -251,7 +252,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -281,8 +281,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -391,7 +393,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -447,8 +448,10 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 18,
                   "marginRight": 4,
+                  "marginTop": 12,
                   "width": 18,
                 },
                 undefined,
@@ -550,7 +553,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -656,7 +658,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -793,10 +794,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              Object {
-                "alignItems": "flex-start",
-                "paddingVertical": 4,
-              },
             ]
           }
         >
@@ -902,7 +899,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -3056,7 +3052,6 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -3162,7 +3157,6 @@ exports[`<Form> when {attributes} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -3192,8 +3186,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -4113,7 +4109,6 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -4143,8 +4138,10 @@ exports[`<Form> when {attributes} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -4253,7 +4250,6 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -4283,8 +4279,10 @@ exports[`<Form> when {attributes} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -4393,7 +4391,6 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -4448,8 +4445,10 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -4536,7 +4535,6 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -4818,7 +4816,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -4848,8 +4845,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -4961,7 +4960,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -4991,8 +4989,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -5101,7 +5101,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -5157,8 +5156,10 @@ exports[`<Form> when {color} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 18,
                   "marginRight": 4,
+                  "marginTop": 12,
                   "width": 18,
                 },
                 undefined,
@@ -5260,7 +5261,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -5366,7 +5366,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -5503,10 +5502,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              Object {
-                "alignItems": "flex-start",
-                "paddingVertical": 4,
-              },
             ]
           }
         >
@@ -5612,7 +5607,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -7766,7 +7760,6 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -7872,7 +7865,6 @@ exports[`<Form> when {color} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -7902,8 +7894,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -8823,7 +8817,6 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -8853,8 +8846,10 @@ exports[`<Form> when {color} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -8963,7 +8958,6 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -8993,8 +8987,10 @@ exports[`<Form> when {color} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -9103,7 +9099,6 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -9158,8 +9153,10 @@ exports[`<Form> when {color} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -9246,7 +9243,6 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -9658,7 +9654,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -9688,8 +9683,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -9803,7 +9800,6 @@ exports[`<Form> when {validate} 1`] = `
               },
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -9833,8 +9829,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -9894,14 +9892,13 @@ exports[`<Form> when {validate} 1`] = `
                   "borderColor": "#10c0bc",
                   "justifyContent": "center",
                 },
-                Array [
-                  Object {
-                    "height": 18,
-                    "marginRight": 4,
-                    "width": 18,
-                  },
-                  false,
-                ],
+                Object {
+                  "alignSelf": "flex-start",
+                  "height": 18,
+                  "marginRight": 4,
+                  "marginTop": 12,
+                  "width": 18,
+                },
               ]
             }
           >
@@ -9993,7 +9990,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -10049,8 +10045,10 @@ exports[`<Form> when {validate} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 18,
                   "marginRight": 4,
+                  "marginTop": 12,
                   "width": 18,
                 },
                 undefined,
@@ -10152,7 +10150,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -10258,7 +10255,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -10395,10 +10391,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               undefined,
-              Object {
-                "alignItems": "flex-start",
-                "paddingVertical": 4,
-              },
             ]
           }
         >
@@ -10504,7 +10496,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -12660,7 +12651,6 @@ exports[`<Form> when {validate} 1`] = `
                 },
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -12716,14 +12706,13 @@ exports[`<Form> when {validate} 1`] = `
                     "borderColor": "#10c0bc",
                     "justifyContent": "center",
                   },
-                  Array [
-                    Object {
-                      "height": 18,
-                      "marginRight": 4,
-                      "width": 18,
-                    },
-                    false,
-                  ],
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "marginTop": 12,
+                    "width": 18,
+                  },
                 ]
               }
             >
@@ -12816,7 +12805,6 @@ exports[`<Form> when {validate} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -12846,8 +12834,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -13769,7 +13759,6 @@ exports[`<Form> when {validate} 1`] = `
                 },
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -13799,8 +13788,10 @@ exports[`<Form> when {validate} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -13860,14 +13851,13 @@ exports[`<Form> when {validate} 1`] = `
                     "borderColor": "#10c0bc",
                     "justifyContent": "center",
                   },
-                  Array [
-                    Object {
-                      "height": 18,
-                      "marginRight": 4,
-                      "width": 18,
-                    },
-                    false,
-                  ],
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "marginTop": 12,
+                    "width": 18,
+                  },
                 ]
               }
             >
@@ -13961,7 +13951,6 @@ exports[`<Form> when {validate} 1`] = `
                 },
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -13991,8 +13980,10 @@ exports[`<Form> when {validate} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -14052,14 +14043,13 @@ exports[`<Form> when {validate} 1`] = `
                     "borderColor": "#10c0bc",
                     "justifyContent": "center",
                   },
-                  Array [
-                    Object {
-                      "height": 18,
-                      "marginRight": 4,
-                      "width": 18,
-                    },
-                    false,
-                  ],
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "marginTop": 12,
+                    "width": 18,
+                  },
                 ]
               }
             >
@@ -14151,7 +14141,6 @@ exports[`<Form> when {validate} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -14206,8 +14195,10 @@ exports[`<Form> when {validate} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -14296,7 +14287,6 @@ exports[`<Form> when {validate} 1`] = `
                 },
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -14353,14 +14343,13 @@ exports[`<Form> when {validate} 1`] = `
                     "borderColor": "#10c0bc",
                     "justifyContent": "center",
                   },
-                  Array [
-                    Object {
-                      "height": 18,
-                      "marginRight": 4,
-                      "width": 18,
-                    },
-                    false,
-                  ],
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "marginTop": 12,
+                    "width": 18,
+                  },
                 ]
               }
             >
@@ -14986,7 +14975,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               false,
-              false,
             ]
           }
         >
@@ -15016,8 +15004,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -15129,7 +15119,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -15159,8 +15148,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -15269,7 +15260,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -15325,8 +15315,10 @@ exports[`<Form> when {value} 1`] = `
                   "width": 20,
                 },
                 Object {
+                  "alignSelf": "flex-start",
                   "height": 18,
                   "marginRight": 4,
+                  "marginTop": 12,
                   "width": 18,
                 },
                 undefined,
@@ -15428,7 +15420,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -15534,7 +15525,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -15671,10 +15661,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              Object {
-                "alignItems": "flex-start",
-                "paddingVertical": 4,
-              },
             ]
           }
         >
@@ -15780,7 +15766,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -17934,7 +17919,6 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -18040,7 +18024,6 @@ exports[`<Form> when {value} 1`] = `
               false,
               false,
               undefined,
-              false,
             ]
           }
         >
@@ -18070,8 +18053,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -18991,7 +18976,6 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -19021,8 +19005,10 @@ exports[`<Form> when {value} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -19131,7 +19117,6 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -19161,8 +19146,10 @@ exports[`<Form> when {value} 1`] = `
                       "width": 20,
                     },
                     Object {
+                      "alignSelf": "flex-start",
                       "height": 18,
                       "marginRight": 4,
+                      "marginTop": 12,
                       "width": 18,
                     },
                     undefined,
@@ -19271,7 +19258,6 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >
@@ -19326,8 +19312,10 @@ exports[`<Form> when {value} 1`] = `
                     "width": 20,
                   },
                   Object {
+                    "alignSelf": "flex-start",
                     "height": 18,
                     "marginRight": 4,
+                    "marginTop": 12,
                     "width": 18,
                   },
                   undefined,
@@ -19414,7 +19402,6 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 false,
                 undefined,
-                false,
               ]
             }
           >

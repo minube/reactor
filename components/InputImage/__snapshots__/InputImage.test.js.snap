@@ -45,7 +45,6 @@ exports[`<InputImage> renders 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -133,7 +132,6 @@ exports[`<InputImage> when {disabled} 1`] = `
           Object {
             "backgroundColor": "#f4f4f4",
           },
-          false,
           false,
           false,
           false,
@@ -229,7 +227,6 @@ exports[`<InputImage> when {error} 1`] = `
           Object {
             "borderColor": "#ef5160",
           },
-          false,
         ]
       }
     >
@@ -283,8 +280,10 @@ exports[`<InputImage> when {error} 1`] = `
               "width": 20,
             },
             Object {
+              "alignSelf": "flex-start",
               "height": 18,
               "marginRight": 4,
+              "marginTop": 12,
               "width": 18,
             },
             undefined,
@@ -341,7 +340,6 @@ exports[`<InputImage> when {hint} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -491,7 +489,6 @@ exports[`<InputImage> when {label} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -580,7 +577,6 @@ exports[`<InputImage> when {required} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -672,7 +668,6 @@ exports[`<InputImage> when {style} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
@@ -829,7 +824,6 @@ exports[`<InputImage> when {value} 1`] = `
           false,
           false,
           undefined,
-          false,
         ]
       }
     >
