@@ -38,14 +38,11 @@ export default StyleSheet.create({
   },
 
   icon: {
-    height: ICON_SIZE,
-    marginRight: SPACE.XXS,
-    width: ICON_SIZE,
-  },
-
-  iconMultiline: {
-    marginTop: SPACE.XS,
     alignSelf: 'flex-start',
+    marginRight: SPACE.XXS,
+    marginTop: SPACE.S,
+    height: ICON_SIZE,
+    width: ICON_SIZE,
   },
 
   inlineHint: {
@@ -72,11 +69,6 @@ export default StyleSheet.create({
 
   inputCurrency: {
     textAlign: 'right',
-  },
-
-  multiline: {
-    paddingVertical: SPACE.XXS,
-    alignItems: 'flex-start',
   },
 
   valid: {

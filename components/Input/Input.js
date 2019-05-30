@@ -78,7 +78,6 @@ class Input extends Component {
             !disabled && valid && styles.valid,
             !disabled && focus && (color ? { borderColor: color } : styles.focus),
             !disabled && error && styles.error,
-            lines > 1 && styles.multiline,
           ]}
         >
           { (icon || currency) && (
@@ -114,7 +113,7 @@ class Input extends Component {
           { (error || (required && requiredIcon)) && (
             <Icon value={error ? 'error' : 'errorOutline'} style={styles.icon} />
           )}
-          { valid && <InputIcon style={[styles.icon, lines > 1 && styles.iconMultiline]} /> }
+          { valid && <InputIcon style={styles.icon} /> }
         </View>
         { hint && (
           <InputHint>
