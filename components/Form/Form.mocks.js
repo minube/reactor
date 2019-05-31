@@ -2,9 +2,9 @@ import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks'
 
 const ATTRIBUTES = {
   username: {
-    disabled: true, required: true, defaultValue: 'soyjavi', icon: 'twitter',
+    disabled: true, required: true, defaultValue: 'soyjavi',
   },
-  password: { required: true, defaultValue: 'soyjavi', icon: 'twitter' },
+  password: { required: true, defaultValue: 'soyjavi' },
   mail: {
     keyboard: 'email-address',
     placeholder: 'Your email...',

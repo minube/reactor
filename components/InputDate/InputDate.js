@@ -94,10 +94,7 @@ class InputDate extends PureComponent {
             </Text>
 
             { !disabled && !error && (
-              <Motion
-                style={[styles.button, label && styles.withLabel]}
-                timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}
-              >
+              <Motion timeline={[{ property: 'rotate', value: active ? '180deg' : '0deg' }]}>
                 <Icon value="navDown" style={[styles.icon, styles.iconNav]} />
               </Motion>
             )}

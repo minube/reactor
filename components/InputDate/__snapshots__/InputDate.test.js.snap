@@ -73,7 +73,7 @@ exports[`<InputDate> renders 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -232,7 +232,7 @@ exports[`<InputDate> when {disabled} 1`] = `
             },
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -346,7 +346,7 @@ exports[`<InputDate> when {error} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -479,7 +479,7 @@ exports[`<InputDate> when {hint} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -696,7 +696,7 @@ exports[`<InputDate> when {label} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -704,7 +704,6 @@ exports[`<InputDate> when {label} 1`] = `
       <View
         style={
           Object {
-            "marginTop": 24,
             "transform": Array [
               Object {
                 "rotate": "0deg0",
@@ -858,7 +857,7 @@ exports[`<InputDate> when {style} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -1014,7 +1013,7 @@ exports[`<InputDate> when {value} & {range} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }
@@ -1172,7 +1171,7 @@ exports[`<InputDate> when {value} 1`] = `
             false,
             Object {
               "flex": 1,
-              "paddingHorizontal": 4,
+              "paddingHorizontal": 8,
             },
           ]
         }

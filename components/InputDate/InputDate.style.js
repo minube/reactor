@@ -58,7 +58,7 @@ export default StyleSheet.create({
 
   value: {
     flex: 1,
-    paddingHorizontal: SPACE.XXS,
+    paddingHorizontal: SPACE.XS,
   },
 
   withLabel: {
