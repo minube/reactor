@@ -2,9 +2,9 @@ import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks'
 
 const ATTRIBUTES = {
   username: {
-    disabled: true, required: true, defaultValue: 'soyjavi', icon: 'twitter',
+    disabled: true, required: true, defaultValue: 'soyjavi',
   },
-  password: { required: true, defaultValue: 'soyjavi', icon: 'twitter' },
+  password: { required: true, defaultValue: 'soyjavi' },
   mail: {
     keyboard: 'email-address',
     placeholder: 'Your email...',
@@ -44,6 +44,16 @@ const ATTRIBUTES = {
     defaultValue: 2,
     dataSource: DATASOURCE,
     inline: 3,
+  },
+
+  date: {
+    type: 'date',
+    inline: 2,
+  },
+  dateRange: {
+    range: true,
+    type: 'date',
+    inline: 2,
   },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   twitter: { icon: 'twitter', inline: 3 },

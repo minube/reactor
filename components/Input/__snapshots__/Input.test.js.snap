@@ -22,7 +22,7 @@ exports[`<Input> renders 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -92,7 +92,7 @@ exports[`<Input> when {color} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -162,7 +162,7 @@ exports[`<Input> when {currency} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -178,6 +178,7 @@ exports[`<Input> when {currency} 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
+          "justifyContent": "center",
           "paddingHorizontal": 4,
         }
       }
@@ -188,6 +189,7 @@ exports[`<Input> when {currency} 1`] = `
             "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+            "justifyContent": "center",
             "paddingHorizontal": 4,
           }
         }
@@ -281,7 +283,7 @@ exports[`<Input> when {disabled} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         Object {
           "backgroundColor": "#f4f4f4",
@@ -355,7 +357,7 @@ exports[`<Input> when {error} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -415,11 +417,17 @@ exports[`<Input> when {error} 1`] = `
             "height": 20,
             "width": 20,
           },
-          Object {
-            "height": 20,
-            "marginRight": 4,
-            "width": 20,
-          },
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "height": 18,
+              "marginRight": 4,
+              "width": 18,
+            },
+            Object {
+              "marginTop": 12,
+            },
+          ],
           undefined,
         ]
       }
@@ -450,7 +458,7 @@ exports[`<Input> when {hint} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -550,7 +558,7 @@ exports[`<Input> when {icon} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -566,6 +574,7 @@ exports[`<Input> when {icon} 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
+          "justifyContent": "center",
           "paddingHorizontal": 4,
         }
       }
@@ -585,9 +594,10 @@ exports[`<Input> when {icon} 1`] = `
               "width": 20,
             },
             Object {
-              "height": 20,
+              "alignSelf": "flex-start",
+              "height": 18,
               "marginRight": 4,
-              "width": 20,
+              "width": 18,
             },
             undefined,
           ]
@@ -655,7 +665,7 @@ exports[`<Input> when {keyboard} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -756,7 +766,7 @@ exports[`<Input> when {label} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -826,7 +836,7 @@ exports[`<Input> when {lines} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -897,7 +907,7 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -955,11 +965,17 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
             "height": 20,
             "width": 20,
           },
-          Object {
-            "height": 20,
-            "marginRight": 4,
-            "width": 20,
-          },
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "height": 18,
+              "marginRight": 4,
+              "width": 18,
+            },
+            Object {
+              "marginTop": 12,
+            },
+          ],
           undefined,
         ]
       }
@@ -990,7 +1006,7 @@ exports[`<Input> when {required} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -1064,7 +1080,7 @@ exports[`<Input> when {style} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,
@@ -1134,7 +1150,7 @@ exports[`<Input> when {valid} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         Object {
@@ -1196,11 +1212,17 @@ exports[`<Input> when {valid} 1`] = `
             "borderColor": "#10c0bc",
             "justifyContent": "center",
           },
-          Object {
-            "height": 20,
-            "marginRight": 4,
-            "width": 20,
-          },
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "height": 18,
+              "marginRight": 4,
+              "width": 18,
+            },
+            Object {
+              "marginTop": 12,
+            },
+          ],
         ]
       }
     >
@@ -1253,7 +1275,7 @@ exports[`<Input> when {value} 1`] = `
           "borderWidth": 1,
           "display": "flex",
           "flexDirection": "row",
-          "paddingHorizontal": 4,
+          "paddingHorizontal": 8,
         },
         false,
         false,

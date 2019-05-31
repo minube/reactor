@@ -46,6 +46,7 @@ export default StyleSheet.create({
 
   anchor: {
     minWidth: '100%',
+    width: '100%',
   },
 
   title: {
