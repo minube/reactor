@@ -10,6 +10,7 @@ import Heading from './Heading';
 import Icon from './Icon';
 import Image from './Image';
 import Input from './Input';
+import InputDate from './InputDate';
 import InputImage from './InputImage';
 import InputList from './InputList';
 import InputOption from './InputOption';
