@@ -12,7 +12,7 @@ export default {
   },
 
   async set(key, value) {
-    value
+    value // eslint-disable-line
       ? await AsyncStorage.setItem(key, JSON.stringify(value))
       : await AsyncStorage.removeItem(key);
 
