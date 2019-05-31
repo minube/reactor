@@ -1,7 +1,7 @@
 import { LOCALE } from '../../Calendar/modules';
 
 const format = (date, { MONTHS = [] }) => (
-  `${date.getDate()} ${MONTHS[date.getMonth()].substring(0, 3)} ${date.getFullYear()}`
+  `${date.getDate()} ${MONTHS[date.getMonth()].substring(0, 3)}. ${date.getFullYear()}`
 );
 
 export default (date, locale = LOCALE) => {

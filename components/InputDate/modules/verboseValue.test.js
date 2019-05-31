@@ -16,11 +16,11 @@ describe('verboseValue()', () => {
 
   it('pass a date', () => {
     let value = verboseValue(DATE);
-    expect(value).toBe('10 apr 1980');
+    expect(value).toBe('10 apr. 1980');
   });
 
   it('pass a locale', () => {
     let value = verboseValue(DATE, LOCALE);
-    expect(value).toBe('10 abr 1980');
+    expect(value).toBe('10 abr. 1980');
   });
 });

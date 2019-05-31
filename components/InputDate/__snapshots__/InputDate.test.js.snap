@@ -1019,7 +1019,7 @@ exports[`<InputDate> when {value} & {range} 1`] = `
           ]
         }
       >
-        1 jun 2019 - 1 jun 2019
+        1 jun. 2019 - 1 jun. 2019
       </Text>
       <View
         style={
@@ -1177,7 +1177,7 @@ exports[`<InputDate> when {value} 1`] = `
           ]
         }
       >
-        1 jun 2019
+        1 jun. 2019
       </Text>
       <View
         style={

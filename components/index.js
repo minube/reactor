@@ -48,6 +48,7 @@ export {
   Icon,
   Image,
   Input,
+  InputDate,
   InputImage,
   InputList,
   InputOption,
