@@ -178,6 +178,7 @@ exports[`<Input> when {currency} 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
+          "justifyContent": "center",
           "paddingHorizontal": 4,
         }
       }
@@ -188,6 +189,7 @@ exports[`<Input> when {currency} 1`] = `
             "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
+            "justifyContent": "center",
             "paddingHorizontal": 4,
           }
         }
@@ -415,13 +417,17 @@ exports[`<Input> when {error} 1`] = `
             "height": 20,
             "width": 20,
           },
-          Object {
-            "alignSelf": "flex-start",
-            "height": 18,
-            "marginRight": 4,
-            "marginTop": 12,
-            "width": 18,
-          },
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "height": 18,
+              "marginRight": 4,
+              "width": 18,
+            },
+            Object {
+              "marginTop": 12,
+            },
+          ],
           undefined,
         ]
       }
@@ -568,6 +574,7 @@ exports[`<Input> when {icon} 1`] = `
           "alignItems": "center",
           "display": "flex",
           "flexDirection": "row",
+          "justifyContent": "center",
           "paddingHorizontal": 4,
         }
       }
@@ -590,7 +597,6 @@ exports[`<Input> when {icon} 1`] = `
               "alignSelf": "flex-start",
               "height": 18,
               "marginRight": 4,
-              "marginTop": 12,
               "width": 18,
             },
             undefined,
@@ -959,13 +965,17 @@ exports[`<Input> when {required} & {requiredIcon} 1`] = `
             "height": 20,
             "width": 20,
           },
-          Object {
-            "alignSelf": "flex-start",
-            "height": 18,
-            "marginRight": 4,
-            "marginTop": 12,
-            "width": 18,
-          },
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "height": 18,
+              "marginRight": 4,
+              "width": 18,
+            },
+            Object {
+              "marginTop": 12,
+            },
+          ],
           undefined,
         ]
       }
@@ -1202,13 +1212,17 @@ exports[`<Input> when {valid} 1`] = `
             "borderColor": "#10c0bc",
             "justifyContent": "center",
           },
-          Object {
-            "alignSelf": "flex-start",
-            "height": 18,
-            "marginRight": 4,
-            "marginTop": 12,
-            "width": 18,
-          },
+          Array [
+            Object {
+              "alignSelf": "flex-start",
+              "height": 18,
+              "marginRight": 4,
+              "width": 18,
+            },
+            Object {
+              "marginTop": 12,
+            },
+          ],
         ]
       }
     >

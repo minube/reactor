@@ -359,13 +359,17 @@ exports[`<InputList> when {error} 1`] = `
               "height": 20,
               "width": 20,
             },
-            Object {
-              "alignSelf": "flex-start",
-              "height": 18,
-              "marginRight": 4,
-              "marginTop": 12,
-              "width": 18,
-            },
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "height": 18,
+                "marginRight": 4,
+                "width": 18,
+              },
+              Object {
+                "marginTop": 12,
+              },
+            ],
             undefined,
           ]
         }

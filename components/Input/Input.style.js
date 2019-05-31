@@ -40,13 +40,17 @@ export default StyleSheet.create({
   icon: {
     alignSelf: 'flex-start',
     marginRight: SPACE.XXS,
-    marginTop: SPACE.S,
     height: ICON_SIZE,
     width: ICON_SIZE,
   },
 
+  iconRight: {
+    marginTop: SPACE.S,
+  },
+
   inlineHint: {
     ...LAYOUT.STYLE.ROW,
+    justifyContent: 'center',
     paddingHorizontal: SPACE.XXS,
   },
 

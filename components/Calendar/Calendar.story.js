@@ -12,7 +12,7 @@ import {
   CAPTIONS, DATES, LOCALE, NEXT_MONTH, STYLE, STYLE_DAYNAMES, STYLE_EDGES, TOMORROW, YESTERDAY,
 } from './Calendar.mocks';
 
-class CalendarHOC extends PureComponent {
+class HOC extends PureComponent {
   constructor(props) {
     super(props);
     this.state = { value: props.value };
@@ -74,13 +74,13 @@ storiesOf('✅ Calendar', module)
     <Calendar captions={CAPTIONS} />
   ))
   .add('⚡ onSelect', () => (
-    <CalendarHOC disabledDates={DATES} onSelect={action('Calendar.onSelect()')} />
+    <HOC disabledDates={DATES} onSelect={action('Calendar.onSelect()')} />
   ))
   .add('⚡ onSelect (range)', () => (
-    <CalendarHOC disabledDates={DATES} range onSelect={action('Calendar.onSelect()')} />
+    <HOC disabledDates={DATES} range onSelect={action('Calendar.onSelect()')} />
   ))
   .add('⚡ onChange', () => (
-    <CalendarHOC onChange={action('Calendar.onChange()')} />
+    <HOC onChange={action('Calendar.onChange()')} />
   ))
   .add('style', () => (
     <Calendar style={STYLE} />
@@ -89,7 +89,7 @@ storiesOf('✅ Calendar', module)
     <Calendar styleDayNames={STYLE_DAYNAMES} />
   ))
   .add('🏀 Playground', () => (
-    <CalendarHOC
+    <HOC
       box={boolean('box', true)}
       busy={boolean('busy', false)}
       captions={CAPTIONS}

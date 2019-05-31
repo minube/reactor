@@ -5,6 +5,7 @@ import React, { createElement, PureComponent } from 'react';
 import { ScrollView, View } from 'react-native';
 
 import Input from '../Input';
+import InputDate from '../InputDate';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
 import InputOption from '../InputOption';
@@ -25,6 +26,7 @@ const KEYBOARDS_KEYS = Object.keys(KEYBOARDS);
 
 const Inputs = {
   bool: Switch,
+  date: InputDate,
   image: InputImage,
   option: InputOption,
   select: InputSelect,

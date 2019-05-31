@@ -1,0 +1,1257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputDate> renders 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          undefined,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotate": "0deg0",
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/nav-arrow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Array [
+                Object {
+                  "marginHorizontal": 4,
+                },
+                Object {
+                  "height": 16,
+                },
+              ],
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputDate> when {disabled} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          Object {
+            "backgroundColor": "#f4f4f4",
+          },
+          false,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            Object {
+              "color": "#707070",
+            },
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputDate> when {error} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          Object {
+            "borderColor": "#ef5160",
+          },
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/error.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "marginHorizontal": 4,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputDate> when {hint} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          undefined,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotate": "0deg0",
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/nav-arrow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Array [
+                Object {
+                  "marginHorizontal": 4,
+                },
+                Object {
+                  "height": 16,
+                },
+              ],
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={2}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontSize": 12,
+          "lineHeight": 16,
+        },
+        Object {
+          "color": "#707070",
+        },
+        Object {
+          "marginTop": 4,
+          "maxWidth": "100%",
+          "paddingLeft": 0,
+        },
+      ]
+    }
+  >
+    Optional field
+  </Text>
+</View>
+`;
+
+exports[`<InputDate> when {label} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 16,
+        },
+        Object {
+          "color": "#707070",
+        },
+        Object {
+          "color": "#4a4a4a",
+          "marginBottom": 8,
+        },
+      ]
+    }
+  >
+    Date
+  </Text>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          undefined,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotate": "0deg0",
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/nav-arrow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Array [
+                Object {
+                  "marginHorizontal": 4,
+                },
+                Object {
+                  "height": 16,
+                },
+              ],
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputDate> when {style} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      Object {
+        "backgroundColor": "rgba(0,255,0,0.25)",
+        "marginRight": 16,
+        "paddingBottom": 32,
+        "width": 256,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          undefined,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotate": "0deg0",
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/nav-arrow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Array [
+                Object {
+                  "marginHorizontal": 4,
+                },
+                Object {
+                  "height": 16,
+                },
+              ],
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputDate> when {value} & {range} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          undefined,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      >
+        1 jun. 2019 - 1 jun. 2019
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotate": "0deg0",
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/nav-arrow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Array [
+                Object {
+                  "marginHorizontal": 4,
+                },
+                Object {
+                  "height": 16,
+                },
+              ],
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputDate> when {value} 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 20,
+        "maxWidth": "100%",
+      },
+      false,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessible={true}
+    onLayout={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="box-only"
+    style={
+      Array [
+        undefined,
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 3,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "minHeight": 42,
+            "paddingHorizontal": 4,
+            "width": "100%",
+          },
+          false,
+          undefined,
+          false,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "lineHeight": 20,
+            },
+            false,
+            Object {
+              "flex": 1,
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      >
+        1 jun. 2019
+      </Text>
+      <View
+        style={
+          Object {
+            "transform": Array [
+              Object {
+                "rotate": "0deg0",
+              },
+            ],
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/nav-arrow.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Array [
+                Object {
+                  "marginHorizontal": 4,
+                },
+                Object {
+                  "height": 16,
+                },
+              ],
+              Object {
+                "transform": Array [
+                  Object {
+                    "rotate": "90deg",
+                  },
+                ],
+              },
+            ]
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#cdd2d4",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
