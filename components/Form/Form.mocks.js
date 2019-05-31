@@ -45,6 +45,16 @@ const ATTRIBUTES = {
     dataSource: DATASOURCE,
     inline: 3,
   },
+
+  date: {
+    type: 'date',
+    inline: 2,
+  },
+  dateRange: {
+    range: true,
+    type: 'date',
+    inline: 2,
+  },
   avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
   twitter: { icon: 'twitter', inline: 3 },
   isPublic: { type: 'bool', inline: 3 },
