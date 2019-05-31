@@ -6,7 +6,7 @@ const {
   COLOR, FONT, UNIT, SPACE,
 } = THEME;
 
-const ICON_SIZE = UNIT * 2;
+const ICON_SIZE = UNIT * 1.8;
 const INPUT_HEIGHT = UNIT * 4.2;
 
 export { INPUT_HEIGHT };
@@ -19,7 +19,7 @@ export default StyleSheet.create({
   content: {
     ...LAYOUT.STYLE.ROW,
     backgroundColor: COLOR.BACKGROUND_INPUT,
-    paddingHorizontal: SPACE.XXS,
+    paddingHorizontal: SPACE.XS,
     borderColor: COLOR.BASE,
     borderWidth: 1,
     borderRadius: UNIT / 4,
@@ -38,8 +38,10 @@ export default StyleSheet.create({
   },
 
   icon: {
-    height: ICON_SIZE,
+    alignSelf: 'flex-start',
     marginRight: SPACE.XXS,
+    marginTop: SPACE.S,
+    height: ICON_SIZE,
     width: ICON_SIZE,
   },
 
@@ -67,10 +69,6 @@ export default StyleSheet.create({
 
   inputCurrency: {
     textAlign: 'right',
-  },
-
-  multiline: {
-    paddingVertical: SPACE.XXS,
   },
 
   valid: {
