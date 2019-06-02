@@ -344,6 +344,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               false,
               false,
               false,
+              false,
               Object {
                 "paddingHorizontal": 0,
               },
@@ -2451,6 +2452,7 @@ exports[`<InputSelect> when {value} 1`] = `
                 "display": "flex",
                 "flexDirection": "row",
               },
+              false,
               false,
               false,
               false,

@@ -63,6 +63,9 @@ storiesOf('✅ Button', module)
   .add('small', () => (
     <Button small title="Press me" onPress={_onPress} />
   ))
+  .add('large', () => (
+    <Button large title="Press me" onPress={_onPress} />
+  ))
   .add('shadow', () => (
     <Button shadow title="Press me" onPress={_onPress} />
   ))
@@ -84,6 +87,7 @@ storiesOf('✅ Button', module)
       responsive={boolean('responsive', false)}
       rounded={boolean('rounded', false)}
       small={boolean('small', false)}
+      large={boolean('large', false)}
       shadow={boolean('shadow', false)}
       title={text('title', undefined)}
       style={object('style', styles.button)}

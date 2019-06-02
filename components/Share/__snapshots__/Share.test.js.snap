@@ -51,6 +51,7 @@ exports[`<Share> renders 1`] = `
             false,
             false,
             false,
+            false,
             Object {
               "backgroundColor": "#707070",
             },
