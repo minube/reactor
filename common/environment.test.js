@@ -1,4 +1,5 @@
 import environment from './environment';
+import PKG from '../package.json';
 
 const KEYS =  [
   'IS_NATIVE',
@@ -25,7 +26,7 @@ describe('environment', () => {
     expect(env.IS_DEVELOPMENT).toEqual(true);
     expect(env.IS_TEST).toEqual(true);
     expect(env.NODE_ENV).toEqual('test');
-    expect(env.PKG).toEqual({ name: 'reactor', version: '0.11' });
+    expect(env.PKG).toEqual({ name: PKG.name, version: PKG.version });
     expect(env.REACT_APP_ENV).toEqual('development');
   });
 });

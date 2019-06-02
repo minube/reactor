@@ -6,6 +6,7 @@ const {
   BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
 } = THEME;
 
+const LARGE_SIZE = UNIT * 4.8;
 const REGULAR_SIZE = UNIT * 4.4;
 const SMALL_SIZE = UNIT * 2.8;
 
@@ -31,6 +32,15 @@ export default StyleSheet.create({
     opacity: 0.5,
   },
 
+  large: {
+    minWidth: LARGE_SIZE,
+    height: LARGE_SIZE,
+  },
+
+  noPadding: {
+    paddingHorizontal: 0,
+  },
+
   outlined: {
     borderWidth: UNIT * 0.1,
   },
@@ -42,7 +52,7 @@ export default StyleSheet.create({
   },
 
   rounded: {
-    borderRadius: REGULAR_SIZE / 2,
+    borderRadius: LARGE_SIZE / 2,
   },
 
   row: LAYOUT.STYLE.ROW,
@@ -50,11 +60,7 @@ export default StyleSheet.create({
   small: {
     minWidth: SMALL_SIZE,
     height: SMALL_SIZE,
-    paddingHorizontal: SPACE.S,
-  },
-
-  noPadding: {
-    paddingHorizontal: 0,
+    paddingHorizontal: SPACE.XS,
   },
 
   shadow: ELEVATION.SMALL,

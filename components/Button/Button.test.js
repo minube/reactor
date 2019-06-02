@@ -80,6 +80,11 @@ describe('<Button>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {large}', () => {
+    const tree = renderer.create(<Button large title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {shadow}', () => {
     const tree = renderer.create(<Button shadow title="Press me" />).toJSON();
     expect(tree).toMatchSnapshot();
