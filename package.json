@@ -1,7 +1,7 @@
 {
   "name": "reactor",
   "description": "Reusable presentational components",
-  "version": "0.11.54",
+  "version": "0.11.55",
   "license": "LGPL-3.0",
   "devDependencies": {
     "@babel/cli": "7.0.0",
@@ -11,7 +11,6 @@
     "@storybook/addon-actions": "latest",
     "@storybook/addon-console": "latest",
     "@storybook/addon-knobs": "latest",
-    "@storybook/addon-notes": "latest",
     "@storybook/addon-options": "latest",
     "@storybook/addon-viewport": "latest",
     "@storybook/addons": "latest",
@@ -20,7 +19,7 @@
     "@storybook/storybook-deployer": "latest",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "10.0.1",
-    "babel-plugin-react-native-web": "0.11.2",
+    "babel-plugin-react-native-web": "0.11.4",
     "eslint": "5.14.1",
     "eslint-config-airbnb": "latest",
     "eslint-plugin-import": "2.17.2",
@@ -35,13 +34,13 @@
     "storybook-addon-jsx": "latest"
   },
   "dependencies": {
-    "expo": "30.0.1",
+    "expo": "^32.0.0",
     "prop-types": "15.7.2",
     "react": "16.8.6",
     "react-art": "16.8.6",
     "react-dom": "16.8.6",
     "react-native": "0.55.4",
-    "react-native-web": "0.11.2"
+    "react-native-web": "0.11.4"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
