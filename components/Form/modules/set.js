@@ -1,5 +1,17 @@
+const clone = (base) => {
+  const copy = {};
+
+  Object.keys(base).forEach((key) => {
+    if (base[key] !== null && typeof base[key] === 'object') copy[key] = clone(base[key]);
+    else if (Object.prototype.hasOwnProperty.call(base, key)) copy[key] = base[key];
+  });
+
+  return copy;
+};
+
 export default (base = {}, path = '', value) => {
-  const schema = JSON.parse(JSON.stringify(base));
+  // const schema = JSON.parse(JSON.stringify(base));
+  const schema = clone(base);
   const keyMap = path.split('.');
   let level = 0;
 
