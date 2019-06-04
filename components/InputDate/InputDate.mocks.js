@@ -4,6 +4,8 @@ const HINT = 'Optional field';
 
 const LABEL = 'Date';
 
+const PLACEHOLDER = 'Select date...';
+
 const STYLE = {
   backgroundColor: 'rgba(0,255,0,0.25)', paddingBottom: 32, marginRight: 16, width: 256,
 };
@@ -15,6 +17,7 @@ export {
   ERROR,
   HINT,
   LABEL,
+  PLACEHOLDER,
   STYLE,
   VALUE,
   VALUE_RANGE,

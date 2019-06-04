@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer';
 
 import InputDate from './InputDate';
 import {
-  ERROR, HINT, LABEL, STYLE, TEMPLATE, VALUE, VALUE_RANGE
+  ERROR, HINT, LABEL, PLACEHOLDER, STYLE, TEMPLATE, VALUE, VALUE_RANGE
 } from './InputDate.mocks';
 
 describe('<InputDate>', () => {
@@ -29,6 +29,11 @@ describe('<InputDate>', () => {
 
   it('when {label}', () => {
     const tree = renderer.create(<InputDate label={LABEL} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {placeholder}', () => {
+    const tree = renderer.create(<InputDate placeholder={PLACEHOLDER} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

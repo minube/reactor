@@ -18,7 +18,7 @@ export default StyleSheet.create({
     borderColor: COLOR.BASE,
     borderRadius: BORDER_RADIUS,
     borderWidth: 1,
-    minHeight: INPUT_HEIGHT,
+    minHeight: INPUT_HEIGHT + 2,
     paddingHorizontal: SPACE.XXS,
     width: '100%',
   },
@@ -62,6 +62,6 @@ export default StyleSheet.create({
   },
 
   withLabel: {
-    marginTop: SPACE.REGULAR + SPACE.XXS,
+    marginTop: SPACE.REGULAR + SPACE.XS,
   },
 });

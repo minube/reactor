@@ -7,7 +7,7 @@ import {
 
 import InputDate from './InputDate';
 import {
-  ERROR, HINT, LABEL, STYLE, TEMPLATE, VALUE, VALUE_RANGE
+  ERROR, HINT, LABEL, PLACEHOLDER, STYLE, TEMPLATE, VALUE, VALUE_RANGE
 } from './InputDate.mocks';
 
 class HOC extends Component {
@@ -50,6 +50,9 @@ storiesOf('✅ InputDate', module)
   .add('label', () => (
     <HOC label={LABEL} />
   ))
+  .add('placeholder', () => (
+    <HOC placeholder={PLACEHOLDER} />
+  ))
   .add('value', () => (
     <HOC value={VALUE} />
   ))
@@ -68,6 +71,7 @@ storiesOf('✅ InputDate', module)
       error={text('error', null)}
       hint={text('hint', HINT)}
       label={text('label', LABEL)}
+      placeholder={text('placeholder', PLACEHOLDER)}
       value={object('value', VALUE_RANGE)}
       range={boolean('range', true)}
       style={object('style', STYLE)}
