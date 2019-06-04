@@ -2,8 +2,9 @@ const clone = (base) => {
   const copy = {};
 
   Object.keys(base).forEach((key) => {
-    if (base[key] !== null && typeof base[key] === 'object') copy[key] = clone(base[key]);
-    else if (Object.prototype.hasOwnProperty.call(base, key)) copy[key] = base[key];
+    const value = base[key];
+    if (value !== null && typeof value === 'object' && !Array.isArray(value)) copy[key] = clone(value);
+    else if (Object.prototype.hasOwnProperty.call(base, key)) copy[key] = value;
   });
 
   return copy;
