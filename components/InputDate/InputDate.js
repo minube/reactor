@@ -23,6 +23,7 @@ class InputDate extends PureComponent {
     label: string,
     locale: shape(),
     onChange: func,
+    placeholder: string,
     range: bool,
     value: oneOfType([shape(), arrayOf(shape())]),
   };
@@ -34,6 +35,7 @@ class InputDate extends PureComponent {
     label: undefined,
     locale: LOCALE,
     onChange() {},
+    placeholder: undefined,
     range: false,
     value: undefined,
   };
@@ -70,7 +72,7 @@ class InputDate extends PureComponent {
     const {
       _onSelect, _onToggle,
       props: {
-        disabled, error, hint, label, locale, onChange, range, value, ...inherit
+        disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit
       },
       state: { active, calendar },
     } = this;
@@ -89,8 +91,8 @@ class InputDate extends PureComponent {
               active && styles.focus,
             ]}
           >
-            <Text input lighten={disabled} numberOfLines={1} style={styles.value}>
-              {verboseValue(value, locale)}
+            <Text input lighten={disabled || !value} numberOfLines={1} style={styles.value}>
+              {verboseValue(value, locale) || placeholder}
             </Text>
 
             { !disabled && !error && (
@@ -108,7 +110,8 @@ class InputDate extends PureComponent {
         { active && (
           <Calendar
             box={false}
-            disabledPast
+            disabledPast={inherit.disabledPast}
+            edges={inherit.edges}
             expanded={REGULAR || LARGE}
             locale={locale}
             range={range}
