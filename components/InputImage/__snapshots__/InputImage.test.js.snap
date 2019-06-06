@@ -78,6 +78,7 @@ exports[`<InputImage> renders 1`] = `
             false,
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -170,6 +171,7 @@ exports[`<InputImage> when {disabled} 1`] = `
             },
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -258,6 +260,7 @@ exports[`<InputImage> when {error} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -375,6 +378,7 @@ exports[`<InputImage> when {hint} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -526,6 +530,7 @@ exports[`<InputImage> when {label} 1`] = `
             false,
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -612,6 +617,7 @@ exports[`<InputImage> when {required} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -703,6 +709,7 @@ exports[`<InputImage> when {style} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -859,6 +866,7 @@ exports[`<InputImage> when {value} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
