@@ -56,8 +56,18 @@ class Input extends Component {
     focus: false,
   };
 
+  _onFocus = (focus) => {
+    const { props: { disabled, onBlur, onFocus } } = this;
+
+    if (!disabled) this.setState({ focus });
+
+    if (focus && onFocus) onFocus();
+    else if (!focus && onBlur) onBlur();
+  }
+
   render() {
     const {
+      _onFocus,
       props: {
         color, currency, disabled, error, hint, icon, label, lines, required, requiredIcon, valid,
         onBlur, onChange, onFocus,
@@ -87,7 +97,6 @@ class Input extends Component {
             </View>
           )}
 
-
           <TextInput
             {...inherit}
             value={inherit.value || ''}
@@ -99,14 +108,15 @@ class Input extends Component {
             numberOfLines={lines}
             multiline={lines > 1}
             onChangeText={onChange}
-            onBlur={onBlur || (() => !disabled && this.setState({ focus: false }))}
-            onFocus={onFocus || (() => !disabled && this.setState({ focus: true }))}
+            onBlur={() => _onFocus(false)}
+            onFocus={() => _onFocus(true)}
             placeholderTextColor={COLOR.TEXT_LIGHTEN}
             underlineColorAndroid="transparent"
             style={[
               styles.input,
               disabled && styles.inputDisabled,
               currency && styles.inputCurrency,
+              inherit.fontFamily && { fontFamily: inherit.fontFamily },
               inherit.fontSize && { fontSize: inherit.fontSize },
             ]}
           />

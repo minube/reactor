@@ -6,8 +6,8 @@ exports[`<InputList> renders 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -74,6 +74,7 @@ exports[`<InputList> renders 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -92,8 +93,8 @@ exports[`<InputList> when {dataSource} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -162,6 +163,7 @@ exports[`<InputList> when {dataSource} 1`] = `
             false,
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -178,8 +180,8 @@ exports[`<InputList> when {disabled} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -252,6 +254,7 @@ exports[`<InputList> when {disabled} 1`] = `
             },
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -268,8 +271,8 @@ exports[`<InputList> when {error} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -340,6 +343,7 @@ exports[`<InputList> when {error} 1`] = `
             false,
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -385,8 +389,8 @@ exports[`<InputList> when {hint} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -453,6 +457,7 @@ exports[`<InputList> when {hint} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -501,8 +506,8 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -569,6 +574,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]
@@ -1624,8 +1630,8 @@ exports[`<InputList> when {label} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -1725,6 +1731,7 @@ exports[`<InputList> when {label} 1`] = `
             false,
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -1741,8 +1748,8 @@ exports[`<InputList> when {style} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       Object {
         "backgroundColor": "rgba(0,255,0,0.25)",
         "padding": 10,
@@ -1814,6 +1821,7 @@ exports[`<InputList> when {style} 1`] = `
             false,
             undefined,
             undefined,
+            undefined,
           ]
         }
         underlineColorAndroid="transparent"
@@ -1830,8 +1838,8 @@ exports[`<InputList> when {value} 1`] = `
     Array [
       Object {
         "marginBottom": 20,
-        "zIndex": 1,
       },
+      false,
       undefined,
     ]
   }
@@ -1898,6 +1906,7 @@ exports[`<InputList> when {value} 1`] = `
               "width": "100%",
             },
             false,
+            undefined,
             undefined,
             undefined,
           ]

@@ -37,6 +37,7 @@ class InputList extends PureComponent {
   };
 
   state = {
+    active: false,
     inputValue: undefined,
     suggestions: [],
   };
@@ -91,16 +92,18 @@ class InputList extends PureComponent {
       props: {
         dataSource, dataSourceField, itemTemplate, onChange, value = [], ...inherit
       },
-      state: { inputValue, suggestions = [] },
+      state: { active, inputValue, suggestions = [] },
     } = this;
     const { disabled, error } = inherit;
     const objDataSource = dataSource && typeof dataSource[0] === 'object';
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, active && styles.active, inherit.style]}>
         <Input
           {...inherit}
           onChange={_onInputChange}
+          onBlur={() => this.setState({ active: false })}
+          onFocus={() => this.setState({ active: true })}
           onSubmitEditing={_onInputSubmit}
           style={styles.input}
           value={inputValue}
