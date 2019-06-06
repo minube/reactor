@@ -5,9 +5,12 @@ import { LAYOUT, THEME } from '../../common';
 const { COLOR, UNIT, SPACE } = THEME;
 
 export default StyleSheet.create({
+  active: {
+    zIndex: 1,
+  },
+
   container: {
     marginBottom: SPACE.REGULAR,
-    zIndex: 1,
   },
 
   content: {

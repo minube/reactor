@@ -144,6 +144,7 @@ exports[`<Form> when {attributes} 1`] = `
                 },
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -249,6 +250,7 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -352,6 +354,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -518,6 +521,7 @@ exports[`<Form> when {attributes} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -621,6 +625,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -757,6 +762,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -913,6 +919,7 @@ exports[`<Form> when {attributes} 1`] = `
                 Object {
                   "textAlign": "right",
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -3401,6 +3408,7 @@ exports[`<Form> when {attributes} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -3541,6 +3549,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -4495,6 +4504,7 @@ exports[`<Form> when {attributes} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4636,6 +4646,7 @@ exports[`<Form> when {attributes} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4740,6 +4751,7 @@ exports[`<Form> when {attributes} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -4782,8 +4794,8 @@ exports[`<Form> when {attributes} 1`] = `
           Array [
             Object {
               "marginBottom": 20,
-              "zIndex": 1,
             },
+            false,
             Array [
               Object {
                 "minWidth": "100%",
@@ -4887,6 +4899,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -5171,6 +5184,7 @@ exports[`<Form> when {color} 1`] = `
                 },
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -5276,6 +5290,7 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -5379,6 +5394,7 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -5545,6 +5561,7 @@ exports[`<Form> when {color} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -5648,6 +5665,7 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -5784,6 +5802,7 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -5940,6 +5959,7 @@ exports[`<Form> when {color} 1`] = `
                 Object {
                   "textAlign": "right",
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -8428,6 +8448,7 @@ exports[`<Form> when {color} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -8568,6 +8589,7 @@ exports[`<Form> when {color} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -9522,6 +9544,7 @@ exports[`<Form> when {color} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -9663,6 +9686,7 @@ exports[`<Form> when {color} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -9767,6 +9791,7 @@ exports[`<Form> when {color} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -9809,8 +9834,8 @@ exports[`<Form> when {color} 1`] = `
           Array [
             Object {
               "marginBottom": 20,
-              "zIndex": 1,
             },
+            false,
             Array [
               Object {
                 "minWidth": "100%",
@@ -9914,6 +9939,7 @@ exports[`<Form> when {color} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -10328,6 +10354,7 @@ exports[`<Form> when {validate} 1`] = `
                 },
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -10433,6 +10460,7 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -10591,6 +10619,7 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -10757,6 +10786,7 @@ exports[`<Form> when {validate} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -10860,6 +10890,7 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -10996,6 +11027,7 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -11152,6 +11184,7 @@ exports[`<Form> when {validate} 1`] = `
                 Object {
                   "textAlign": "right",
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -13642,6 +13675,7 @@ exports[`<Form> when {validate} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -13835,6 +13869,7 @@ exports[`<Form> when {validate} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -14791,6 +14826,7 @@ exports[`<Form> when {validate} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -14987,6 +15023,7 @@ exports[`<Form> when {validate} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -15144,6 +15181,7 @@ exports[`<Form> when {validate} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -15186,8 +15224,8 @@ exports[`<Form> when {validate} 1`] = `
           Array [
             Object {
               "marginBottom": 20,
-              "zIndex": 1,
             },
+            false,
             Array [
               Object {
                 "minWidth": "100%",
@@ -15293,6 +15331,7 @@ exports[`<Form> when {validate} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
@@ -15988,6 +16027,7 @@ exports[`<Form> when {value} 1`] = `
                 },
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -16093,6 +16133,7 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -16196,6 +16237,7 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -16362,6 +16404,7 @@ exports[`<Form> when {value} 1`] = `
                 false,
                 undefined,
                 undefined,
+                undefined,
               ]
             }
             underlineColorAndroid="transparent"
@@ -16465,6 +16508,7 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -16601,6 +16645,7 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -16757,6 +16802,7 @@ exports[`<Form> when {value} 1`] = `
                 Object {
                   "textAlign": "right",
                 },
+                undefined,
                 undefined,
               ]
             }
@@ -19245,6 +19291,7 @@ exports[`<Form> when {value} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -19385,6 +19432,7 @@ exports[`<Form> when {value} 1`] = `
                   "width": "100%",
                 },
                 false,
+                undefined,
                 undefined,
                 undefined,
               ]
@@ -20339,6 +20387,7 @@ exports[`<Form> when {value} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -20480,6 +20529,7 @@ exports[`<Form> when {value} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -20584,6 +20634,7 @@ exports[`<Form> when {value} 1`] = `
                   false,
                   undefined,
                   undefined,
+                  undefined,
                 ]
               }
               underlineColorAndroid="transparent"
@@ -20626,8 +20677,8 @@ exports[`<Form> when {value} 1`] = `
           Array [
             Object {
               "marginBottom": 20,
-              "zIndex": 1,
             },
+            false,
             Array [
               Object {
                 "minWidth": "100%",
@@ -20731,6 +20782,7 @@ exports[`<Form> when {value} 1`] = `
                     "width": "100%",
                   },
                   false,
+                  undefined,
                   undefined,
                   undefined,
                 ]
