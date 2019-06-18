@@ -11,23 +11,17 @@ import styles from './Snackbar.style';
 const { COLOR } = THEME;
 
 const Snackbar = ({
-  button, caption, onPress, ...inherit
+  button, caption, color, onPress, ...inherit
 }) => (
-  <Dialog visible={inherit.visible} background={false} style={styles.frame} styleContainer={styles.dialog}>
+  <Dialog
+    background={false}
+    style={[styles.frame, { backgroundColor: color }]}
+    styleContainer={styles.dialog}
+    visible={inherit.visible}
+  >
     <View style={styles.container}>
-      <Text level={2} style={styles.caption}>
-        {caption}
-      </Text>
-      { button && (
-        <Button
-          color={COLOR.PRIMARY}
-          {...inherit}
-          contained={false}
-          small
-          onPress={onPress}
-          title={button.toUpperCase()}
-        />
-      )}
+      <Text color={COLOR.WHITE} level={2} style={styles.caption}>{caption}</Text>
+      { button && <Button color={COLOR.WHITE} contained={false} onPress={onPress} small title={button} /> }
     </View>
   </Dialog>
 );
@@ -35,12 +29,14 @@ const Snackbar = ({
 Snackbar.propTypes = {
   button: string,
   caption: string,
+  color: string,
   onPress: func,
 };
 
 Snackbar.defaultProps = {
   button: undefined,
   caption: undefined,
+  color: COLOR.BLACK,
   onPress: undefined,
 };
 
