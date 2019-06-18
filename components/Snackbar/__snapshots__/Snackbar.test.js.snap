@@ -80,12 +80,16 @@ exports[`<Snackbar> renders 1`] = `
                 "shadowOpacity": 0.3,
                 "shadowRadius": 24,
               },
-              Object {
-                "backgroundColor": "#000000",
-                "borderRadius": 3,
-                "maxWidth": 512,
-                "minWidth": 300,
-              },
+              Array [
+                Object {
+                  "borderRadius": 3,
+                  "maxWidth": 512,
+                  "minWidth": 300,
+                },
+                Object {
+                  "backgroundColor": "#000000",
+                },
+              ],
             ]
           }
         >
@@ -141,6 +145,7 @@ exports[`<Snackbar> renders 1`] = `
                       Object {
                         "color": "#ffffff",
                         "flex": 1,
+                        "marginRight": 12,
                       },
                     ]
                   }
@@ -157,7 +162,7 @@ exports[`<Snackbar> renders 1`] = `
 
 exports[`<Snackbar> when {button} 1`] = `
 <share
-  button="Close"
+  button="CLOSE"
   caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s."
   visible={true}
 />
@@ -170,18 +175,17 @@ exports[`<Snackbar> when {caption} 1`] = `
 />
 `;
 
+exports[`<Snackbar> when {color} 1`] = `
+<share
+  button="CLOSE"
+  caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s."
+  visible={true}
+/>
+`;
+
 exports[`<Snackbar> when {visible} (false) 1`] = `
 <share
   caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s."
   visible={false}
-/>
-`;
-
-exports[`<Snackbar> when inherit {button} color 1`] = `
-<share
-  button="Close"
-  caption="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s."
-  color="red"
-  visible={true}
 />
 `;
