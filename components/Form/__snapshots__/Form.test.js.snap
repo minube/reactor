@@ -62,7 +62,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -172,7 +172,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -277,7 +277,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -442,7 +442,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -548,7 +548,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -685,7 +685,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -791,7 +791,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -949,7 +949,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -1097,7 +1097,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -2864,7 +2864,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -3055,7 +3055,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -3330,7 +3330,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -3436,7 +3436,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -3607,7 +3607,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -3684,7 +3684,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -3805,7 +3805,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -3955,7 +3955,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -4105,7 +4105,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -4253,7 +4253,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -4389,7 +4389,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -4531,7 +4531,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -4673,7 +4673,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -4822,7 +4822,7 @@ exports[`<Form> when {attributes} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -5000,7 +5000,7 @@ exports[`<Form> when {attributes} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5102,7 +5102,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5212,7 +5212,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5317,7 +5317,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5482,7 +5482,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5588,7 +5588,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5725,7 +5725,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5831,7 +5831,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -5989,7 +5989,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -6137,7 +6137,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -7904,7 +7904,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -8095,7 +8095,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -8370,7 +8370,7 @@ exports[`<Form> when {color} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -8476,7 +8476,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -8647,7 +8647,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -8724,7 +8724,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -8845,7 +8845,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -8995,7 +8995,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -9145,7 +9145,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -9293,7 +9293,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -9429,7 +9429,7 @@ exports[`<Form> when {color} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -9571,7 +9571,7 @@ exports[`<Form> when {color} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -9713,7 +9713,7 @@ exports[`<Form> when {color} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -9862,7 +9862,7 @@ exports[`<Form> when {color} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -10040,7 +10040,7 @@ exports[`<Form> when {color} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -10272,7 +10272,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -10382,7 +10382,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -10542,7 +10542,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -10707,7 +10707,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -10813,7 +10813,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -10950,7 +10950,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -11056,7 +11056,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -11214,7 +11214,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -11362,7 +11362,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -13129,7 +13129,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -13320,7 +13320,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -13595,7 +13595,7 @@ exports[`<Form> when {validate} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -13756,7 +13756,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -13927,7 +13927,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -14004,7 +14004,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -14125,7 +14125,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -14275,7 +14275,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -14425,7 +14425,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -14573,7 +14573,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -14709,7 +14709,7 @@ exports[`<Form> when {validate} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -14906,7 +14906,7 @@ exports[`<Form> when {validate} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -15103,7 +15103,7 @@ exports[`<Form> when {validate} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -15252,7 +15252,7 @@ exports[`<Form> when {validate} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -15843,7 +15843,7 @@ exports[`<Form> when {validate} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -15945,7 +15945,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16055,7 +16055,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16160,7 +16160,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16325,7 +16325,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16431,7 +16431,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16568,7 +16568,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16674,7 +16674,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16832,7 +16832,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -16980,7 +16980,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -18747,7 +18747,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -18938,7 +18938,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -19213,7 +19213,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -19319,7 +19319,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -19490,7 +19490,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -19567,7 +19567,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -19688,7 +19688,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -19838,7 +19838,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -19988,7 +19988,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -20136,7 +20136,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
@@ -20272,7 +20272,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -20414,7 +20414,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -20556,7 +20556,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -20705,7 +20705,7 @@ exports[`<Form> when {value} 1`] = `
             accessible={true}
             allowFontScaling={true}
             ellipsizeMode="tail"
-            numberOfLines={1}
+            numberOfLines={2}
             style={
               Array [
                 Object {
@@ -21241,7 +21241,7 @@ exports[`<Form> when {value} 1`] = `
           accessible={true}
           allowFontScaling={true}
           ellipsizeMode="tail"
-          numberOfLines={1}
+          numberOfLines={2}
           style={
             Array [
               Object {
