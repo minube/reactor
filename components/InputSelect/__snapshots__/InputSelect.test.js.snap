@@ -79,7 +79,7 @@ exports[`<InputSelect> when {ItemTemplate} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={1}
+    numberOfLines={2}
     style={
       Array [
         Object {
@@ -2238,7 +2238,7 @@ exports[`<InputSelect> when {label} 1`] = `
     accessible={true}
     allowFontScaling={true}
     ellipsizeMode="tail"
-    numberOfLines={1}
+    numberOfLines={2}
     style={
       Array [
         Object {
