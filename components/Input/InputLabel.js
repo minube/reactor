@@ -11,7 +11,7 @@ const InputLabel = ({ color, ...inherit }) => (
   <Text
     {...inherit}
     color={color}
-    numberOfLines={1}
+    numberOfLines={2}
     subtitle
     level={3}
     lighten
