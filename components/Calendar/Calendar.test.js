@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer';
 import Calendar from './Calendar';
 import {
   CAPTIONS, LOCALE, STYLE, STYLE_DAYNAMES, STYLE_EDGES,
-} from './Calendar.Mocks';
+} from './Calendar.mocks';
 
 const TODAY = new Date(1980, 10, 4);
 const YESTERDAY = new Date(TODAY.getFullYear(), TODAY.getMonth(), TODAY.getDate() - 1);
