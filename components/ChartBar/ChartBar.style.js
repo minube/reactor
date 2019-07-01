@@ -3,32 +3,28 @@ import { StyleSheet } from 'react-native';
 import { LAYOUT, THEME } from '../../common';
 
 const {
-  COLOR, FONT, UNIT, SPACE,
+  BORDER_RADIUS, COLOR, FONT, UNIT, SPACE,
 } = THEME;
-
-const COLUMN_HEIGHT = UNIT * 6.4;
-const COLUMN_WIDTH = UNIT * 1;
-const SCALE_WIDTH = SPACE.XL;
 
 export default StyleSheet.create({
   bar: {
     backgroundColor: COLOR.BASE,
-    borderTopLeftRadius: COLUMN_WIDTH / 2,
-    borderTopRightRadius: COLUMN_WIDTH / 2,
+    borderTopLeftRadius: BORDER_RADIUS,
+    borderTopRightRadius: BORDER_RADIUS,
     maxHeight: '100%',
-    minHeight: COLUMN_WIDTH,
-    width: COLUMN_WIDTH,
+    minHeight: UNIT,
+    width: '90%',
   },
 
   barEmpty: {
-    opacity: 0.8,
+    opacity: 0.66,
   },
 
   barInverted: {
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0,
-    borderBottomLeftRadius: COLUMN_WIDTH / 2,
-    borderBottomRightRadius: COLUMN_WIDTH / 2,
+    borderBottomLeftRadius: BORDER_RADIUS,
+    borderBottomRightRadius: BORDER_RADIUS,
   },
 
   captions: {
@@ -40,7 +36,7 @@ export default StyleSheet.create({
     flex: 1,
     height: '100%',
     justifyContent: 'flex-end',
-    overflow: 'hidden',
+    // overflow: 'hidden',
   },
 
   columnInverted: {
@@ -48,6 +44,8 @@ export default StyleSheet.create({
   },
 
   container: {
+    width: '100%',
+    height: '100%',
   },
 
   containerInverted: {
@@ -58,9 +56,8 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     alignItems: 'flex-end',
     flex: 1,
-    height: COLUMN_HEIGHT,
+    height: '100%',
   },
-
 
   legend: {
     fontSize: UNIT,
@@ -79,7 +76,7 @@ export default StyleSheet.create({
   },
 
   rowScale: {
-    marginLeft: SCALE_WIDTH,
+    marginLeft: SPACE.XL,
   },
 
   scales: {
@@ -97,28 +94,28 @@ export default StyleSheet.create({
   scaleLines: {
     flex: 1,
     justifyContent: 'space-between',
-    height: '100%',
   },
 
   scaleLine: {
+    minHeight: 1,
     height: 1,
     width: '100%',
     backgroundColor: COLOR.BASE,
   },
 
-  scaleLineAVG: {
-    opacity: 0.5,
-  },
+  // scaleLineAVG: {
+  //   opacity: 0.5,
+  // },
 
-  scaleLineEmpty: {
-    height: 0,
-  },
+  // scaleLineEmpty: {
+  //   height: 0,
+  // },
 
   scaleValues: {
     position: 'absolute',
-    bottom: 0,
-    top: 0,
-    left: SPACE.XXS,
+    bottom: -(UNIT + UNIT / 2),
+    top: UNIT / 2,
+    left: UNIT / 2,
     justifyContent: 'space-between',
     zIndex: 1,
   },
@@ -127,11 +124,11 @@ export default StyleSheet.create({
     flexDirection: 'column-reverse',
   },
 
-  tag: {
-    alignSelf: 'flex-start',
-    borderRadius: SPACE.S,
-    height: UNIT + (SPACE.XXS * 2),
-    paddingVertical: SPACE.XXS,
-    paddingHorizontal: SPACE.XS,
-  },
+  // tag: {
+  //   alignSelf: 'flex-start',
+  //   borderRadius: SPACE.S,
+  //   height: UNIT + (SPACE.XXS * 2),
+  //   paddingVertical: SPACE.XXS,
+  //   paddingHorizontal: SPACE.XS,
+  // },
 });
