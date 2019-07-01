@@ -1,7 +1,7 @@
 import {
   bool, arrayOf, number, shape, string,
 } from 'prop-types';
-import { Animated, View } from 'react-native';
+import { View } from 'react-native';
 import React, { Component } from 'react';
 import styles from './ChartBar.style';
 
@@ -10,7 +10,7 @@ import Motion from '../Motion';
 import Text from '../Text';
 import { calcHeight, calcRange } from './modules';
 
-const { COLOR, MOTION: { DURATION } } = THEME;
+const { COLOR } = THEME;
 
 export default class ChartBar extends Component {
   static propTypes = {
@@ -18,7 +18,7 @@ export default class ChartBar extends Component {
     color: string,
     highlight: number,
     inverted: bool,
-    line: shape,
+    lines: arrayOf(shape),
     scales: arrayOf(string),
     values: arrayOf(number),
   };
@@ -28,7 +28,7 @@ export default class ChartBar extends Component {
     color: COLOR.PRIMARY,
     highlight: undefined,
     inverted: false,
-    line: undefined,
+    lines: undefined,
     scales: undefined,
     values: [],
   };
@@ -39,7 +39,7 @@ export default class ChartBar extends Component {
 
   render() {
     const {
-      captions, color, highlight, inverted, line, scales, values, ...inherit
+      captions, color, highlight, inverted, lines, scales, values, ...inherit
     } = this.props;
     const { max, min, avg } = calcRange(values);
     let firstValueIndex = values.findIndex(value => value !== 0);
@@ -61,8 +61,8 @@ export default class ChartBar extends Component {
             </View>
           )}
 
-          { line && (
-            <View style={[styles.line, captions && styles.scaleCaptions]}>
+          { lines && lines.map((line, index) => (
+            <View key={`line-${index.toString()}`} style={[styles.line, captions && styles.scaleCaptions]}>
               <Motion timeline={[{ property: 'height', value: line.height }]}>
                 <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
                 <Text
@@ -77,7 +77,7 @@ export default class ChartBar extends Component {
                 </Text>
               </Motion>
             </View>
-          )}
+          ))}
 
           <View style={[styles.content, styles.row, scales && styles.rowScale]}>
             { values.map((value, index) => (

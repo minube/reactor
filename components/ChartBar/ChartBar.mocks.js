@@ -31,15 +31,20 @@ const VALUES = [
   0, 0, 2, 8, 0, 0, 16, 8, 32, 24, 8, 10,
 ];
 
-const LINE = {
-  caption: 'Avg. 16', height: '55%', _color: 'red',
-};
+const LINES = [
+  {
+    caption: 'AVG. $16', height: '55%', color: COLOR.PRIMARY,
+  },
+  {
+    caption: 'PRO. $12', height: '30%', color: COLOR.SECONDARY,
+  },
+];
 
 export default {
   CAPTIONS,
   COLOR: COLOR.ERROR,
   HIGHLIGHT,
-  LINE,
+  LINES,
   SCALES,
   STYLE_BAR,
   STYLE_CONTAINER,

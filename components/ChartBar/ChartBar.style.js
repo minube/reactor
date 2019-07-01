@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 import { LAYOUT, THEME } from '../../common';
 
 const {
-  BORDER_RADIUS, COLOR, FONT, UNIT, SPACE,
+  BORDER_RADIUS, COLOR, ELEVATION, FONT, UNIT, SPACE,
 } = THEME;
 
 export default StyleSheet.create({
@@ -77,9 +77,11 @@ export default StyleSheet.create({
     bottom: 0,
     top: 0,
     width: '100%',
+    zIndex: 1,
   },
 
   lineCaption: {
+    ...ELEVATION.SMALL,
     alignSelf: 'flex-start',
     borderRadius: SPACE.S,
     height: UNIT + (SPACE.XXS * 2),

@@ -7,8 +7,6 @@ import MOCKS from './ChartBar.mocks';
 
 const DEFAULT = { captions: MOCKS.CAPTIONS, values: MOCKS.VALUES };
 
-console.log('>>>', MOCKS.SCALES)
-
 storiesOf('✅ ChartBar', module)
   .add('default', () => (
     <ChartBar />
@@ -31,8 +29,8 @@ storiesOf('✅ ChartBar', module)
   .add('highlight', () => (
     <ChartBar highlight={MOCKS.HIGHLIGHT} {...DEFAULT} />
   ))
-  .add('line', () => (
-    <ChartBar scales={MOCKS.LINE} {...DEFAULT} />
+  .add('lines', () => (
+    <ChartBar lines={MOCKS.LINES} {...DEFAULT} />
   ))
   .add('styleContainer', () => (
     <ChartBar styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
@@ -48,7 +46,7 @@ storiesOf('✅ ChartBar', module)
       scales={object('scales', MOCKS.SCALES)}
       highlight={number('highlight', MOCKS.HIGHLIGHT)}
       inverted={boolean('inverted', MOCKS.INVERTED)}
-      line={object('line', MOCKS.LINE)}
+      lines={object('lines', MOCKS.LINES)}
       styleBar={object('styleBar', MOCKS.STYLE_BAR)}
       styleContainer={object('styleContainer', MOCKS.STYLE_CONTAINER)}
     />
