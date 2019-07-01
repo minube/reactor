@@ -36,7 +36,7 @@ export default StyleSheet.create({
     flex: 1,
     height: '100%',
     justifyContent: 'flex-end',
-    // overflow: 'hidden',
+    overflow: 'hidden',
   },
 
   columnInverted: {
@@ -46,6 +46,7 @@ export default StyleSheet.create({
   container: {
     width: '100%',
     height: '100%',
+    overflow: 'hidden',
   },
 
   containerInverted: {
@@ -76,14 +77,13 @@ export default StyleSheet.create({
     bottom: 0,
     top: 0,
     width: '100%',
-    zIndex: 1,
   },
 
   lineCaption: {
     alignSelf: 'flex-start',
     borderRadius: SPACE.S,
     height: UNIT + (SPACE.XXS * 2),
-    marginTop: -UNIT,
+    marginTop: -(UNIT + (SPACE.XXS * 2)) / 2,
     marginLeft: UNIT / 2,
     paddingVertical: SPACE.XXS,
     paddingHorizontal: SPACE.XS,

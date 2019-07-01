@@ -25,20 +25,17 @@ storiesOf('✅ ChartBar', module)
   .add('scales', () => (
     <ChartBar scales={MOCKS.SCALES} {...DEFAULT} />
   ))
-  .add('line', () => (
-    <ChartBar scales={MOCKS.SCALES} {...DEFAULT} />
-  ))
   .add('inverted', () => (
     <ChartBar inverted {...DEFAULT} />
   ))
   .add('highlight', () => (
     <ChartBar highlight={MOCKS.HIGHLIGHT} {...DEFAULT} />
   ))
-  .add('style', () => (
-    <ChartBar style={MOCKS.STYLE} {...DEFAULT} />
+  .add('line', () => (
+    <ChartBar scales={MOCKS.LINE} {...DEFAULT} />
   ))
   .add('styleContainer', () => (
-    <ChartBar line={MOCKS.LINE} styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
+    <ChartBar styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
   ))
   .add('styleBar', () => (
     <ChartBar styleBar={MOCKS.STYLE_BAR} styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
@@ -51,7 +48,7 @@ storiesOf('✅ ChartBar', module)
       scales={object('scales', MOCKS.SCALES)}
       highlight={number('highlight', MOCKS.HIGHLIGHT)}
       inverted={boolean('inverted', MOCKS.INVERTED)}
-
+      line={object('line', MOCKS.LINE)}
       styleBar={object('styleBar', MOCKS.STYLE_BAR)}
       styleContainer={object('styleContainer', MOCKS.STYLE_CONTAINER)}
     />

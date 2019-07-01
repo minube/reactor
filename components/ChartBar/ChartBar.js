@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 import styles from './ChartBar.style';
 
 import { THEME } from '../../common';
+import Motion from '../Motion';
 import Text from '../Text';
 import { calcHeight, calcRange } from './modules';
 
@@ -62,35 +63,39 @@ export default class ChartBar extends Component {
 
           { line && (
             <View style={[styles.line, captions && styles.scaleCaptions]}>
-              <View style={{ height: line.height }}>
+              <Motion timeline={[{ property: 'height', value: line.height }]}>
                 <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
-                <Text style={[styles.legend, styles.legendHighlight, styles.lineCaption, { backgroundColor: line.color || color }]}>
+                <Text
+                  style={[
+                    styles.legend,
+                    styles.legendHighlight,
+                    styles.lineCaption,
+                    { backgroundColor: line.color || color },
+                  ]}
+                >
                   {line.caption}
                 </Text>
-              </View>
+              </Motion>
             </View>
           )}
 
           <View style={[styles.content, styles.row, scales && styles.rowScale]}>
             { values.map((value, index) => (
-              <View
+              <Motion
                 key={`${value}-${index.toString()}`}
                 style={[styles.column, inverted && styles.columnInverted]}
               >
-                <View
+                <Motion
+                  disabled={value === 0}
+                  timeline={[{ property: 'height', value: `${calcHeight(value, { min, max, avg })}%` }]}
                   style={[
                     styles.bar,
                     inverted && styles.barInverted,
-                    value !== 0
-                      ? {
-                        backgroundColor: color,
-                        height: `${calcHeight(value, { min, max, avg })}%`,
-                      }
-                      : styles.barEmpty,
+                    value !== 0 ? { backgroundColor: color } : styles.barEmpty,
                     inherit.styleBar,
                   ]}
                 />
-              </View>
+              </Motion>
             ))}
           </View>
 

@@ -32,7 +32,7 @@ const VALUES = [
 ];
 
 const LINE = {
-  caption: 'Avg. 16', height: '50%', _color: 'red',
+  caption: 'Avg. 16', height: '55%', _color: 'red',
 };
 
 export default {
