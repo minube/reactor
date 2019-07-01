@@ -70,6 +70,26 @@ export default StyleSheet.create({
     fontWeight: FONT.WEIGHT.BOLD,
   },
 
+  line: {
+    justifyContent: 'flex-end',
+    position: 'absolute',
+    bottom: 0,
+    top: 0,
+    width: '100%',
+    zIndex: 1,
+  },
+
+  lineCaption: {
+    alignSelf: 'flex-start',
+    borderRadius: SPACE.S,
+    height: UNIT + (SPACE.XXS * 2),
+    marginTop: -UNIT,
+    marginLeft: UNIT / 2,
+    paddingVertical: SPACE.XXS,
+    paddingHorizontal: SPACE.XS,
+    zIndex: 1,
+  },
+
   row: {
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
@@ -103,14 +123,6 @@ export default StyleSheet.create({
     backgroundColor: COLOR.BASE,
   },
 
-  // scaleLineAVG: {
-  //   opacity: 0.5,
-  // },
-
-  // scaleLineEmpty: {
-  //   height: 0,
-  // },
-
   scaleValues: {
     position: 'absolute',
     bottom: -(UNIT + UNIT / 2),
@@ -123,12 +135,4 @@ export default StyleSheet.create({
   scaleValuesInverted: {
     flexDirection: 'column-reverse',
   },
-
-  // tag: {
-  //   alignSelf: 'flex-start',
-  //   borderRadius: SPACE.S,
-  //   height: UNIT + (SPACE.XXS * 2),
-  //   paddingVertical: SPACE.XXS,
-  //   paddingHorizontal: SPACE.XS,
-  // },
 });

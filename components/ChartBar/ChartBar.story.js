@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { boolean, color, object, select } from '@storybook/addon-knobs/react';
+import { boolean, color, number, object, select } from '@storybook/addon-knobs/react';
 
 import ChartBar from './ChartBar';
 import MOCKS from './ChartBar.mocks';
@@ -25,6 +25,9 @@ storiesOf('✅ ChartBar', module)
   .add('scales', () => (
     <ChartBar scales={MOCKS.SCALES} {...DEFAULT} />
   ))
+  .add('line', () => (
+    <ChartBar scales={MOCKS.SCALES} {...DEFAULT} />
+  ))
   .add('inverted', () => (
     <ChartBar inverted {...DEFAULT} />
   ))
@@ -35,7 +38,7 @@ storiesOf('✅ ChartBar', module)
     <ChartBar style={MOCKS.STYLE} {...DEFAULT} />
   ))
   .add('styleContainer', () => (
-    <ChartBar styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
+    <ChartBar line={MOCKS.LINE} styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
   ))
   .add('styleBar', () => (
     <ChartBar styleBar={MOCKS.STYLE_BAR} styleContainer={MOCKS.STYLE_CONTAINER} scales={MOCKS.SCALES} {...DEFAULT} />
@@ -46,6 +49,7 @@ storiesOf('✅ ChartBar', module)
       values={object('values', MOCKS.VALUES)}
       captions={object('captions', MOCKS.CAPTIONS)}
       scales={object('scales', MOCKS.SCALES)}
+      highlight={number('highlight', MOCKS.HIGHLIGHT)}
       inverted={boolean('inverted', MOCKS.INVERTED)}
 
       styleBar={object('styleBar', MOCKS.STYLE_BAR)}

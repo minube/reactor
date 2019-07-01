@@ -1,5 +1,5 @@
 import {
-  bool, arrayOf, number, string,
+  bool, arrayOf, number, shape, string,
 } from 'prop-types';
 import { Animated, View } from 'react-native';
 import React, { Component } from 'react';
@@ -17,6 +17,7 @@ export default class ChartBar extends Component {
     color: string,
     highlight: number,
     inverted: bool,
+    line: shape,
     scales: arrayOf(string),
     values: arrayOf(number),
   };
@@ -26,6 +27,7 @@ export default class ChartBar extends Component {
     color: COLOR.PRIMARY,
     highlight: undefined,
     inverted: false,
+    line: undefined,
     scales: undefined,
     values: [],
   };
@@ -36,7 +38,7 @@ export default class ChartBar extends Component {
 
   render() {
     const {
-      captions, color, highlight, inverted, scales, values, ...inherit
+      captions, color, highlight, inverted, line, scales, values, ...inherit
     } = this.props;
     const { max, min, avg } = calcRange(values);
     let firstValueIndex = values.findIndex(value => value !== 0);
@@ -54,6 +56,17 @@ export default class ChartBar extends Component {
               </View>
               <View style={styles.scaleLines}>
                 { scales.map((scale, index) => <View key={`line-${index.toString()}`} style={styles.scaleLine} />)}
+              </View>
+            </View>
+          )}
+
+          { line && (
+            <View style={[styles.line, captions && styles.scaleCaptions]}>
+              <View style={{ height: line.height }}>
+                <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
+                <Text style={[styles.legend, styles.legendHighlight, styles.lineCaption, { backgroundColor: line.color || color }]}>
+                  {line.caption}
+                </Text>
               </View>
             </View>
           )}
