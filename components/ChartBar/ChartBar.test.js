@@ -42,8 +42,8 @@ describe('<ChartBar>', () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it('when {line}', () => {
-    const tree = renderer.create(<ChartBar line={MOCKS.LINE} {...DEFAULT} />).toJSON();
+  it('when {lines}', () => {
+    const tree = renderer.create(<ChartBar lines={MOCKS.LINES} {...DEFAULT} />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 

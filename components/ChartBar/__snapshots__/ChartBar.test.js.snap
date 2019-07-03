@@ -2989,7 +2989,7 @@ exports[`<ChartBar> when {inverted} 1`] = `
 </View>
 `;
 
-exports[`<ChartBar> when {line} 1`] = `
+exports[`<ChartBar> when {lines} 1`] = `
 <View
   style={
     Array [
@@ -3011,6 +3011,178 @@ exports[`<ChartBar> when {line} 1`] = `
       }
     }
   >
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "justifyContent": "flex-end",
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+            "zIndex": 1,
+          },
+          Object {
+            "bottom": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": "85%0",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#cdd2d4",
+                "height": 1,
+                "minHeight": 1,
+                "width": "100%",
+              },
+              Object {
+                "backgroundColor": "#10c0bc",
+                "opacity": 0.5,
+              },
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 16,
+                "lineHeight": 30,
+              },
+              false,
+              Object {
+                "alignSelf": "flex-start",
+                "backgroundColor": "#10c0bc",
+                "borderRadius": 12,
+                "color": "#ffffff",
+                "fontSize": 10,
+                "fontWeight": "700",
+                "height": 18,
+                "lineHeight": 10,
+                "marginLeft": 5,
+                "marginTop": -9,
+                "paddingHorizontal": 8,
+                "paddingVertical": 4,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 2,
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          AVG. $16
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "justifyContent": "flex-end",
+            "position": "absolute",
+            "top": 0,
+            "width": "100%",
+            "zIndex": 1,
+          },
+          Object {
+            "bottom": 20,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "height": "20%0",
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {
+                "backgroundColor": "#cdd2d4",
+                "height": 1,
+                "minHeight": 1,
+                "width": "100%",
+              },
+              Object {
+                "backgroundColor": "#a66ecc",
+                "opacity": 0.5,
+              },
+            ]
+          }
+        />
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 16,
+                "lineHeight": 30,
+              },
+              false,
+              Object {
+                "alignSelf": "flex-start",
+                "backgroundColor": "#a66ecc",
+                "borderRadius": 12,
+                "color": "#ffffff",
+                "fontSize": 10,
+                "fontWeight": "700",
+                "height": 18,
+                "lineHeight": 10,
+                "marginLeft": 5,
+                "marginTop": -9,
+                "paddingHorizontal": 8,
+                "paddingVertical": 4,
+                "shadowColor": "#000000",
+                "shadowOffset": Object {
+                  "height": 1,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.2,
+                "shadowRadius": 2,
+                "zIndex": 1,
+              },
+            ]
+          }
+        >
+          PRO. $3.34
+        </Text>
+      </View>
+    </View>
     <View
       style={
         Array [

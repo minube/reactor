@@ -25,6 +25,8 @@ const CAPTIONS = [
 
 const HIGHLIGHT = 7;
 
+const INVERTED = true;
+
 const SCALES = ['$24', '$10', '$5', ''];
 
 const VALUES = [
@@ -33,10 +35,10 @@ const VALUES = [
 
 const LINES = [
   {
-    caption: 'AVG. $16', height: '55%', color: COLOR.PRIMARY,
+    caption: 'AVG. $16', percent: 85, color: COLOR.PRIMARY,
   },
   {
-    caption: 'PRO. $12', height: '30%', color: COLOR.SECONDARY,
+    caption: 'PRO. $3.34', percent: 20, color: COLOR.SECONDARY,
   },
 ];
 
@@ -44,6 +46,7 @@ export default {
   CAPTIONS,
   COLOR: COLOR.ERROR,
   HIGHLIGHT,
+  INVERTED,
   LINES,
   SCALES,
   STYLE_BAR,

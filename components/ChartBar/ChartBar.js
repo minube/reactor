@@ -63,7 +63,7 @@ export default class ChartBar extends Component {
 
           { lines && lines.map((line, index) => (
             <View key={`line-${index.toString()}`} style={[styles.line, captions && styles.scaleCaptions]}>
-              <Motion timeline={[{ property: 'height', value: line.height }]}>
+              <Motion timeline={[{ property: 'height', value: `${(inverted ? 100 - line.percent : line.percent)}%` }]}>
                 <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
                 <Text
                   style={[
