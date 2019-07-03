@@ -25,7 +25,7 @@ const CAPTIONS = [
 
 const HIGHLIGHT = 7;
 
-const INVERTED = true;
+const INVERTED = false;
 
 const SCALES = ['$24', '$10', '$5', ''];
 

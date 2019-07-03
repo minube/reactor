@@ -65,14 +65,7 @@ export default class ChartBar extends Component {
             <View key={`line-${index.toString()}`} style={[styles.line, captions && styles.scaleCaptions]}>
               <Motion timeline={[{ property: 'height', value: `${(inverted ? 100 - line.percent : line.percent)}%` }]}>
                 <View style={[styles.scaleLine, { backgroundColor: line.color || color, opacity: 0.5 }]} />
-                <Text
-                  style={[
-                    styles.legend,
-                    styles.legendHighlight,
-                    styles.lineCaption,
-                    { backgroundColor: line.color || color },
-                  ]}
-                >
+                <Text style={[styles.legend, styles.lineCaption, { backgroundColor: line.color || color }]}>
                   {line.caption}
                 </Text>
               </Motion>

@@ -67,7 +67,7 @@ export default StyleSheet.create({
   },
 
   legendHighlight: {
-    color: COLOR.WHITE,
+    color: COLOR.TEXT,
     fontWeight: FONT.WEIGHT.BOLD,
   },
 
@@ -84,6 +84,8 @@ export default StyleSheet.create({
     ...ELEVATION.SMALL,
     alignSelf: 'flex-start',
     borderRadius: SPACE.S,
+    color: COLOR.WHITE,
+    fontWeight: FONT.WEIGHT.BOLD,
     height: UNIT + (SPACE.XXS * 2),
     marginTop: -(UNIT + (SPACE.XXS * 2)) / 2,
     marginLeft: UNIT / 2,
