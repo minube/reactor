@@ -7,7 +7,7 @@ const HIGH = { W: 1920, H: 1200 };
 
 export default ({ uri = '', width = null, height = null }) => {
   if (!uri.includes(AKAMAI_DOMAIN)) return uri;
-  let pixelDensity = PixelRatio.get();
+  let pixelDensity = window.devicePixelRatio || 1;
   if (width == null || height == null) {
       const {VIEWPORT: {TINY, PHONE, LARGE}} = LAYOUT;
       let {width, height} = REGULAR;
