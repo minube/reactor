@@ -44,6 +44,7 @@ const Week = ({ firstDate, ...inherit }) => {
 
   return (
     <View style={styles.container}>
+      { console.log('last commit') }
       {days.map((day) => {
         const tsDay = day.getTime();
         const isToday = tsDay === tsToday;
