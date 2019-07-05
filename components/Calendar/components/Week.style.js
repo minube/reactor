@@ -59,10 +59,6 @@ export default StyleSheet.create({
     marginTop: SPACE.XXS,
   },
 
-  text: {
-    position: 'absolute',
-  },
-
   textHighlight: {
     color: COLOR.WHITE,
   },
