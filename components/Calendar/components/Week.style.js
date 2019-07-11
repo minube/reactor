@@ -21,11 +21,15 @@ export default StyleSheet.create({
     width: UNIT * 4,
     opacity: 0.2,
     position: 'absolute',
+    top: 0,
+    left: 0,
   },
 
   boxDisabled: {
     backgroundColor: COLOR.LIGHT_GREY,
     opacity: 0.1,
+    top: 0,
+    left: 0,
   },
 
   cellExpand: {
@@ -53,10 +57,6 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     justifyContent: 'space-between',
     marginTop: SPACE.XXS,
-  },
-
-  text: {
-    position: 'absolute',
   },
 
   textHighlight: {
