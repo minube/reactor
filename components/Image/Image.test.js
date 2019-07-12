@@ -29,6 +29,12 @@ describe('<Image>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {responsive, width, height}', () => {
+      const tree = renderer.create(<Image responsive width={600} height={400} source={{ uri: IMAGE_AKAMAI }} />)
+        .toJSON();
+      expect(tree).toMatchSnapshot();
+  });
+
   it('when {ratio}', () => {
     const tree = renderer.create(<Image ratio={10} responsive source={{ uri: IMAGE_AKAMAI }} />).toJSON();
     expect(tree).toMatchSnapshot();

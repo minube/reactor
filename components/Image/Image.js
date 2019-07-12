@@ -4,17 +4,21 @@ import { Image as ImageNative, View } from 'react-native';
 
 import Skeleton from '../Skeleton';
 import styles from './Image.style';
-import resizeWithAkamai from './modules/resizeWithAkamai';
+import resizeWithFastly from './modules/resizeWithFastly';
 
 class Image extends PureComponent {
   static propTypes = {
     ratio: number,
     responsive: bool,
+    width: number,
+    height: number,
   };
 
   static defaultProps = {
     ratio: 1,
     responsive: false,
+    width: null,
+    height: null,
   };
 
   state = {
@@ -31,12 +35,12 @@ class Image extends PureComponent {
   render() {
     const {
       _onLoad,
-      props: { ratio, responsive, ...inherit },
+      props: { ratio, responsive, width, height, ...inherit },
       state: { ready },
     } = this;
     let { source: { uri } = {} } = inherit;
 
-    if (responsive && uri) uri = resizeWithAkamai({ uri, ratio });
+    if (responsive && uri) uri = resizeWithFastly({ uri, ratio, width, height });
 
     return (
       <View style={[styles.container, inherit.styleContainer || inherit.style]}>
