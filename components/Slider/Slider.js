@@ -57,11 +57,20 @@ class Slider extends PureComponent {
   }
 
   _onPressButton = (type) => {
-    const { props: { itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps } } = this;
-    const width = (itemWidth + itemMargin) * steps;
+    const {
+      scrollview: { current },
+      props: {
+        children, dataSource, itemMargin, itemWidth = LAYOUT.CARD.SLIDER, steps,
+      },
+    } = this;
+    const itemOffset = itemWidth + itemMargin;
+    const length = dataSource.length || children.length;
+    const max = ((length + 1) * itemOffset) - current.getScrollableNode().offsetWidth;
+    const nextX = itemOffset * steps;
     let { state: { x } } = this;
 
-    x = type === NEXT ? x + width : x - width;
+    x = type === NEXT ? x + nextX : x - nextX;
+    if (x < 0 || x > max) x = 0;
 
     this.scrollview.current.scrollTo({ x });
     this.setState({ x });
