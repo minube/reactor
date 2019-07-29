@@ -35,12 +35,18 @@ class Image extends PureComponent {
   render() {
     const {
       _onLoad,
-      props: { responsive, ...inherit },
+      props: {
+        ratio, responsive, width, height, ...inherit
+      },
       state: { ready },
     } = this;
     let { source: { uri } = {} } = inherit;
 
-    if (responsive && uri) uri = resize({ ...inherit, uri });
+    if (responsive && uri) {
+      uri = resize({
+        uri, ratio, width, height,
+      });
+    }
 
     return (
       <View style={[styles.container, inherit.styleContainer || inherit.style]}>

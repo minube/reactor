@@ -1,4 +1,4 @@
-export default (value, { min = 0, max, avg }) => {
+export default (value, { max }) => {
   if (value === 0) return value;
 
   return Math.floor((value * 100) / max);
