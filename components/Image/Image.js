@@ -4,7 +4,7 @@ import { Image as ImageNative, View } from 'react-native';
 
 import Skeleton from '../Skeleton';
 import styles from './Image.style';
-import resizeWithFastly from './modules/resizeWithFastly';
+import resize from './modules/resize';
 
 class Image extends PureComponent {
   static propTypes = {
@@ -35,12 +35,12 @@ class Image extends PureComponent {
   render() {
     const {
       _onLoad,
-      props: { ratio, responsive, width, height, ...inherit },
+      props: { responsive, ...inherit },
       state: { ready },
     } = this;
     let { source: { uri } = {} } = inherit;
 
-    if (responsive && uri) uri = resizeWithFastly({ uri, ratio, width, height });
+    if (responsive && uri) uri = resize({ ...inherit, uri });
 
     return (
       <View style={[styles.container, inherit.styleContainer || inherit.style]}>
