@@ -21,9 +21,15 @@ export default StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.5)',
   },
 
+  button: {
+    marginTop: SPACE.REGULAR,
+    marginRight: 0,
+    marginLeft: 'auto',
+  },
+
   children: {
-    paddingHorizontal: SPACE.MEDIUM,
-    paddingBottom: SPACE.MEDIUM,
+    paddingHorizontal: SPACE.REGULAR,
+    paddingBottom: SPACE.S,
   },
 
   frame: {
@@ -36,6 +42,14 @@ export default StyleSheet.create({
     ...LAYOUT.STYLE.ROW,
     alignItems: 'flex-start',
     justifyContent: 'flex-end',
+  },
+
+  headerIcon: {
+    paddingTop: SPACE.L,
+  },
+
+  icon: {
+    marginHorizontal: SPACE.REGULAR,
   },
 
   safeArea: {
@@ -52,6 +66,6 @@ export default StyleSheet.create({
 
   title: {
     flex: 1,
-    padding: SPACE.MEDIUM,
+    padding: SPACE.REGULAR,
   },
 });

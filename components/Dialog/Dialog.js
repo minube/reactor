@@ -10,6 +10,7 @@ import { ENV, LAYOUT, THEME } from '../../common';
 import Button from '../Button';
 import Motion from '../Motion';
 import Text from '../Text';
+import Icon from '../Icon';
 import styles from './Dialog.style';
 
 const { IS_NATIVE } = ENV;
@@ -20,6 +21,8 @@ export default class Dialog extends PureComponent {
     background: bool,
     children: node,
     highlight: bool,
+    icon: oneOfType([number, string]),
+    onButton: string,
     onClose: func,
     reverse: bool,
     style: oneOfType([array, number, object]),
@@ -32,6 +35,8 @@ export default class Dialog extends PureComponent {
     background: true,
     children: undefined,
     highlight: undefined,
+    icon: undefined,
+    onButton: undefined,
     onClose: undefined,
     reverse: false,
     style: [],
@@ -52,7 +57,7 @@ export default class Dialog extends PureComponent {
     const {
       _onScroll,
       props: {
-        background, children, highlight, reverse, onClose, style, styleContainer, title, visible,
+        background, children, highlight, icon, reverse, onButton, onClose, style, styleContainer, title, visible,
       },
       state: { scroll },
     } = this;
@@ -88,7 +93,8 @@ export default class Dialog extends PureComponent {
               timeline={[{ property: 'translateY', value: translateY }]}
             >
               <View style={[styles.frame, style]}>
-                <View style={styles.header}>
+                <View style={icon ? styles.headerIcon : styles.header}>
+                  { icon && <Icon style={styles.icon} value={icon} size={20} />}
                   { title && (
                     <Text
                       color={highlight ? COLOR.WHITE : undefined}
@@ -100,7 +106,7 @@ export default class Dialog extends PureComponent {
                       {title}
                     </Text>
                   )}
-                  { onClose && (
+                  { !onButton && onClose && (
                     <Button
                       contained={false}
                       color={highlight ? undefined : COLOR.TEXT}
@@ -112,6 +118,14 @@ export default class Dialog extends PureComponent {
                 </View>
                 <ScrollView onScroll={title ? _onScroll : undefined} style={[styles.children, scroll && styles.scroll]}>
                   {children}
+                  { onButton && (
+                    <Button
+                      onPress={onClose}
+                      style={styles.button}
+                      title={onButton}
+                      noFlat
+                    />
+                  )}
                 </ScrollView>
               </View>
             </Motion>

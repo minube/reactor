@@ -15,9 +15,9 @@ import calcColor from './modules/calcColor';
 const { COLOR: { BASE, TEXT_LIGHTEN, WHITE } } = THEME;
 
 const Button = ({
-  activity, children, color, contained, disabled, icon, large, onPress, outlined,
+  activity, children, color, contained, disabled, icon, noFlat, large, onPress, outlined,
   responsive, rounded, shadow, small, title,
-  isSolid = contained && !outlined, // eslint-disable-line
+  isSolid = contained && !outlined && !noFlat, // eslint-disable-line
   rippleColor = isSolid ? undefined : color, // eslint-disable-line
   ...inherit
 }) => (
@@ -81,6 +81,7 @@ Button.propTypes = {
   color: string,
   disabled: bool,
   icon: oneOfType([number, string]),
+  noFlat: bool,
   large: bool,
   onPress: func,
   outlined: bool,
@@ -98,6 +99,7 @@ Button.defaultProps = {
   color: undefined,
   disabled: false,
   icon: undefined,
+  noFlat: undefined,
   large: false,
   onPress: undefined,
   outlined: false,
