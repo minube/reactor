@@ -1377,6 +1377,137 @@ exports[`<Button> when {large} 1`] = `
 </View>
 `;
 
+exports[`<Button> when {noFlat} 1`] = `
+<View>
+  <View
+    accessible={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    pointerEvents="none"
+    style={
+      Array [
+        undefined,
+        Array [
+          Object {
+            "borderRadius": 3,
+          },
+          false,
+          false,
+        ],
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignContent": "center",
+            "alignItems": "center",
+            "borderRadius": 3,
+            "justifyContent": "center",
+          },
+          Object {
+            "height": 44,
+            "minWidth": 44,
+            "paddingHorizontal": 28,
+          },
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "display": "flex",
+              "flexDirection": "row",
+            },
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontSize": 16,
+                "lineHeight": 30,
+              },
+              false,
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 16,
+                "fontWeight": "600",
+                "letterSpacing": -0.2,
+              },
+            ]
+          }
+        >
+          Press me
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 3,
+            "bottom": 0,
+            "left": 0,
+            "overflow": "hidden",
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ffffff",
+            "height": 0,
+            "opacity": 0,
+            "width": 0,
+            "zIndex": 0,
+          }
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
 exports[`<Button> when {outlined} 1`] = `
 <View>
   <View

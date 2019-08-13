@@ -107,8 +107,8 @@ exports[`<Snackbar> renders 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]

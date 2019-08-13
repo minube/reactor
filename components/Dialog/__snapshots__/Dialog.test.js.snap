@@ -97,8 +97,8 @@ exports[`<Dialog> renders 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -208,8 +208,8 @@ exports[`<Dialog> when {background} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -321,8 +321,8 @@ exports[`<Dialog> when {children} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -478,7 +478,7 @@ exports[`<Dialog> when {highlight} 1`] = `
                   Object {
                     "color": "#ffffff",
                     "flex": 1,
-                    "padding": 16,
+                    "padding": 20,
                   },
                 ]
               }
@@ -618,8 +618,8 @@ exports[`<Dialog> when {highlight} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -859,8 +859,8 @@ exports[`<Dialog> when {onClose} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -972,8 +972,8 @@ exports[`<Dialog> when {reverse} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -1087,8 +1087,8 @@ exports[`<Dialog> when {style} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -1203,8 +1203,8 @@ exports[`<Dialog> when {styleContainer} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -1335,7 +1335,7 @@ exports[`<Dialog> when {title} 1`] = `
                   false,
                   Object {
                     "flex": 1,
-                    "padding": 16,
+                    "padding": 20,
                   },
                 ]
               }
@@ -1348,8 +1348,8 @@ exports[`<Dialog> when {title} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]
@@ -1461,8 +1461,8 @@ exports[`<Dialog> when {visible} 1`] = `
             style={
               Array [
                 Object {
-                  "paddingBottom": 16,
-                  "paddingHorizontal": 16,
+                  "paddingBottom": 12,
+                  "paddingHorizontal": 20,
                 },
                 false,
               ]

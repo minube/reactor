@@ -90,6 +90,11 @@ describe('<Button>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {noFlat}', () => {
+    const tree = renderer.create(<Button noFlat title="Press me" />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {onPress}', () => {
     // @TODO: Test <Button /> {onPress}
   });
