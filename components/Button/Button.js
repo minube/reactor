@@ -42,7 +42,7 @@ const Button = ({
           responsive && !small && !LAYOUT.VIEWPORT.REGULAR && !LAYOUT.VIEWPORT.LARGE && styles.small,
           large && styles.large,
           rounded && styles.rounded,
-          (!title && !children && !activity && !noFlat) && styles.noPadding,
+          ((!title && !children && !activity) || noFlat) && styles.noPadding,
           // -- Color
           isSolid && { backgroundColor: color || TEXT_LIGHTEN },
           isSolid && disabled && styles.disabled,

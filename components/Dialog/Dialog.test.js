@@ -27,6 +27,16 @@ describe('<Dialog>', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('when {onButton}', () => {
+    const tree = renderer.create(<Dialog onButton={MOCKS.TITLE} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
+  it('when {icon}', () => {
+    const tree = renderer.create(<Dialog icon={MOCKS.ICON} />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('when {children}', () => {
     const tree = renderer.create(<Dialog>{MOCKS.CHILDREN}</Dialog>).toJSON();
     expect(tree).toMatchSnapshot();
