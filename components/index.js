@@ -14,6 +14,7 @@ import InputDate from './InputDate';
 import InputImage from './InputImage';
 import InputList from './InputList';
 import InputOption from './InputOption';
+import InputSearcher from './InputSearcher';
 import InputSelect from './InputSelect';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
@@ -52,6 +53,7 @@ export {
   InputImage,
   InputList,
   InputOption,
+  InputSearcher,
   InputSelect,
   LayoutView,
   LayoutConsumer,

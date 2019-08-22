@@ -10,6 +10,7 @@ import left from './left.png';
 import linkedin from './linkedin.png';
 import navArrow from './nav-arrow.png';
 import right from './right.png';
+import search from './search.png';
 import shareContrast from './share_contrast.png';
 import twitter from './twitter.png';
 
@@ -26,6 +27,7 @@ export default {
   linkedin,
   navArrow,
   right,
+  search,
   shareContrast,
   twitter,
 };
