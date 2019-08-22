@@ -8,6 +8,7 @@ import Input from '../Input';
 import InputDate from '../InputDate';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
+import InputSearcher from '../InputSearcher';
 import InputOption from '../InputOption';
 import InputSelect from '../InputSelect';
 import Text from '../Text';
@@ -31,6 +32,7 @@ const Inputs = {
   option: InputOption,
   select: InputSelect,
   list: InputList,
+  searcher: InputSearcher,
 };
 
 class Form extends PureComponent {
