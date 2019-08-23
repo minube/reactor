@@ -26,6 +26,9 @@ storiesOf('✅ InputSearcher', module)
   .add('color', () => (
     <InputSearcher color="green" />
   ))
+  .add('dataSource', () => (
+    <InputSearcher dataSource={DATA} />
+  ))
   .add('disabled', () => (
     <InputSearcher disabled />
   ))
@@ -34,6 +37,9 @@ storiesOf('✅ InputSearcher', module)
   ))
   .add('label', () => (
     <InputSearcher label="InputSearcher" />
+  ))
+  .add('placeholder', () => (
+    <InputSearcher placeholder={"Looking for..."} />
   ))
   .add('value', () => (
     <InputSearcher value="Madrid" />

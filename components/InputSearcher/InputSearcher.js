@@ -2,7 +2,7 @@ import {
   bool, func, shape, string,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
-import { View, FlatList } from 'react-native';
+import { View } from 'react-native';
 
 import Text from '../Text';
 import Input from '../Input';
@@ -14,7 +14,7 @@ const TIMEOUT = 500;
 class Searcher extends PureComponent {
   static propTypes = {
     color: string,
-    data: shape({}),
+    dataSource: shape({}),
     disabled: bool,
     hint: string,
     label: string,
@@ -25,7 +25,7 @@ class Searcher extends PureComponent {
 
   static defaultProps = {
     color: undefined,
-    data: undefined,
+    dataSource: [],
     disabled: false,
     hint: undefined,
     label: undefined,
@@ -39,55 +39,54 @@ class Searcher extends PureComponent {
     const { value } = props;
 
     this.searcherTimeout = undefined;
-    this.state = { inputValue: value, data: [] };
+    this.state = { inputValue: value, visible: true };
   }
 
-  _onChange = (value) => {
+  _onChange = async (value) => {
     const { onChange } = this.props;
 
-    this.setState({ inputValue: value });
+    this.setState({ inputValue: value, visible: true });
 
-    if (value.length > 2) {
-      if (this.searcherTimeout) clearTimeout(this.searcherTimeout);
+    if (this.searcherTimeout) clearTimeout(this.searcherTimeout);
 
-      this.searcherTimeout = setTimeout(async () => {
-        const response = await onChange(value);
-        this.setState({ data: response });
-      }, TIMEOUT);
-    } else {
-      this.setState({ data: [] });
-    }
+    this.searcherTimeout = setTimeout(async () => {
+      await onChange(value);
+    }, TIMEOUT);
   }
 
-  _onClickItem = item => this.setState({ data: {}, inputValue: item.name });
+  _onClickItem = (item) => {
+    const { onClickItem } = this.props;
+    onClickItem(item);
+    this.setState({ inputValue: item.name, visible: false });
+  };
 
   render() {
     const {
       _onChange, _onClickItem,
       state: {
-        inputValue, data,
+        inputValue, visible,
       },
-      props: { value, ...inherit },
+      props: { dataSource, ...inherit },
     } = this;
 
     return (
-      <View>
+      <View style={[styles.container, inherit.style]}>
         <Input
           {...inherit}
           icon="search"
           onChange={values => _onChange(values)}
-          placeholder="Look for ..."
           value={inputValue}
+          style={styles.input}
         />
-        <FlatList
-          data={data}
-          style={styles.list}
-          renderItem={({ item }) => (
-            <Touchable onPress={() => _onClickItem(item)}>
-              <Text style={styles.item} numberOfLines={1}>{item.name}</Text>
-            </Touchable>
-          )}
-        />
+        {visible && (
+          <View style={[styles.list, inherit.label ? styles.marginListLabel : styles.marginList]}>
+            {dataSource.map(item => (
+              <Touchable onPress={() => _onClickItem(item)}>
+                <Text style={styles.item} numberOfLines={1}>{item.name}</Text>
+              </Touchable>
+            ))}
+          </View>
+        )}
       </View>
     );
   }
