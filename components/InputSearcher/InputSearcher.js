@@ -1,5 +1,5 @@
 import {
-  bool, func, shape, string,
+  arrayOf, bool, func, shape, string,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
@@ -14,7 +14,7 @@ const TIMEOUT = 500;
 class Searcher extends PureComponent {
   static propTypes = {
     color: string,
-    dataSource: shape({}),
+    dataSource: arrayOf(shape({})),
     disabled: bool,
     hint: string,
     label: string,
@@ -81,8 +81,8 @@ class Searcher extends PureComponent {
         {visible && (
           <View style={[styles.list, inherit.label ? styles.marginListLabel : styles.marginList]}>
             {dataSource.map(item => (
-              <Touchable onPress={() => _onClickItem(item)}>
-                <Text style={styles.item} numberOfLines={1}>{item.name}</Text>
+              <Touchable key={item.id} onPress={() => _onClickItem(item)}>
+                <Text key={item.id} style={styles.item} numberOfLines={1}>{item.name}</Text>
               </Touchable>
             ))}
           </View>

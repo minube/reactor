@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { PureComponent } from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import {
@@ -18,6 +18,25 @@ const DATA = [
 const STYLE = { padding: 10, width: 256 };
 
 _onChange = () => DATA;
+_onClickItem = () => {};
+
+class HOC extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = { data: props.data };
+  }
+
+  _onChange = () => {
+    const { onChange } = this.props;
+    this.setState({ data: onChange() });
+  }
+
+  render() {
+    console.log(this.state)
+    const { _onChange, props, state: { data } } = this;
+    return <InputSearcher {...props} dataSource={data} onChange={_onChange} />;
+  }
+}
 
 storiesOf('✅ InputSearcher', module)
   .add('default', () => (
@@ -45,7 +64,10 @@ storiesOf('✅ InputSearcher', module)
     <InputSearcher value="Madrid" />
   ))
   .add('onChange', () => (
-    <InputSearcher onChange={_onChange} />
+    <HOC onChange={_onChange} dataSource={this.data} />
+  ))
+  .add('onClickItem', () => (
+    <HOC onChange={_onChange} onClickItem={_onClickItem} dataSource={this.data} />
   ))
   .add('🏀 Playground', () => (
     <InputSearcher

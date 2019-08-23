@@ -1,14 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<InputSearcher> renders 1`] = `
-<View>
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
         Object {
           "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "width": "100%",
+        },
       ]
     }
   >
@@ -81,7 +90,6 @@ exports[`<InputSearcher> renders 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -109,54 +117,328 @@ exports[`<InputSearcher> renders 1`] = `
       />
     </View>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
-  >
-    <View />
-  </RCTScrollView>
+  />
 </View>
 `;
 
-exports[`<InputSearcher> when {disabled} 1`] = `
-<View>
+exports[`<InputSearcher> when {dataSource} 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
         Object {
           "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 8,
+          },
+          false,
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingHorizontal": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/search.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "alignSelf": "flex-start",
+                "height": 18,
+                "marginRight": 4,
+                "width": 18,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboard="default"
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+              "color": "#4a4a4a",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 42,
+              "paddingHorizontal": 4,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
+    }
+  >
+    <View
+      accessible={true}
+      onLayout={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      pointerEvents="box-only"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 30,
+            },
+            false,
+            Object {
+              "paddingVertical": 4,
+            },
+          ]
+        }
+      >
+        Madrid
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#cdd2d4",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      accessible={true}
+      onLayout={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      pointerEvents="box-only"
+      style={
+        Array [
+          undefined,
+          undefined,
+        ]
+      }
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#4a4a4a",
+              "fontFamily": undefined,
+              "fontWeight": "400",
+              "textAlignVertical": "center",
+            },
+            Object {
+              "fontSize": 16,
+              "lineHeight": 30,
+            },
+            false,
+            Object {
+              "paddingVertical": 4,
+            },
+          ]
+        }
+      >
+        Madrid Snowzone
+      </Text>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderRadius": 3,
+              "bottom": 0,
+              "left": 0,
+              "overflow": "hidden",
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            undefined,
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#cdd2d4",
+              "height": 0,
+              "opacity": 0,
+              "width": 0,
+              "zIndex": 0,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`<InputSearcher> when {disabled} 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+        },
+        Object {
+          "width": "100%",
+        },
       ]
     }
   >
@@ -231,7 +513,6 @@ exports[`<InputSearcher> when {disabled} 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -261,54 +542,44 @@ exports[`<InputSearcher> when {disabled} 1`] = `
       />
     </View>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
-  >
-    <View />
-  </RCTScrollView>
+  />
 </View>
 `;
 
 exports[`<InputSearcher> when {hint} 1`] = `
-<View>
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
         Object {
           "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "width": "100%",
+        },
       ]
     }
   >
@@ -381,7 +652,6 @@ exports[`<InputSearcher> when {hint} 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -439,54 +709,44 @@ exports[`<InputSearcher> when {hint} 1`] = `
       Hello World
     </Text>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
-  >
-    <View />
-  </RCTScrollView>
+  />
 </View>
 `;
 
 exports[`<InputSearcher> when {label} 1`] = `
-<View>
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
         Object {
           "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "width": "100%",
+        },
       ]
     }
   >
@@ -590,7 +850,6 @@ exports[`<InputSearcher> when {label} 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -618,54 +877,44 @@ exports[`<InputSearcher> when {label} 1`] = `
       />
     </View>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 68,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
-  >
-    <View />
-  </RCTScrollView>
+  />
 </View>
 `;
 
 exports[`<InputSearcher> when {onChange} 1`] = `
-<View>
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
         Object {
           "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "width": "100%",
+        },
       ]
     }
   >
@@ -738,7 +987,6 @@ exports[`<InputSearcher> when {onChange} 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -766,47 +1014,314 @@ exports[`<InputSearcher> when {onChange} 1`] = `
       />
     </View>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
+  />
+</View>
+`;
+
+exports[`<InputSearcher> when {onClickItem} 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+        },
+        Object {
+          "width": "100%",
+        },
+      ]
+    }
   >
-    <View />
-  </RCTScrollView>
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 8,
+          },
+          false,
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingHorizontal": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/search.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "alignSelf": "flex-start",
+                "height": 18,
+                "marginRight": 4,
+                "width": 18,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboard="default"
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onClickItem={[Function]}
+        onFocus={[Function]}
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+              "color": "#4a4a4a",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 42,
+              "paddingHorizontal": 4,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`<InputSearcher> when {placeholder} 1`] = `
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+        },
+        Object {
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#ffffff",
+            "borderColor": "#cdd2d4",
+            "borderRadius": 2.5,
+            "borderWidth": 1,
+            "display": "flex",
+            "flexDirection": "row",
+            "paddingHorizontal": 8,
+          },
+          false,
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
+      <View
+        pointerEvents="none"
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "row",
+            "justifyContent": "center",
+            "paddingHorizontal": 4,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            Object {
+              "testUri": "../../../components/Icon/assets/search.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "height": 20,
+                "width": 20,
+              },
+              Object {
+                "alignSelf": "flex-start",
+                "height": 18,
+                "marginRight": 4,
+                "width": 18,
+              },
+              undefined,
+            ]
+          }
+        />
+      </View>
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        blurOnSubmit={true}
+        editable={true}
+        keyboard="default"
+        keyboardType="default"
+        multiline={false}
+        onBlur={[Function]}
+        onChangeText={[Function]}
+        onFocus={[Function]}
+        placeholder="Hello World"
+        placeholderTextColor="#707070"
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "borderWidth": 0,
+              "color": "#4a4a4a",
+              "flex": 1,
+              "fontFamily": undefined,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "minHeight": 42,
+              "paddingHorizontal": 4,
+              "paddingVertical": 7.5,
+              "width": "100%",
+            },
+            false,
+            undefined,
+            undefined,
+            undefined,
+          ]
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
+    }
+  />
 </View>
 `;
 
 exports[`<InputSearcher> when {style} 1`] = `
-<View>
+<View
+  style={
+    Array [
+      undefined,
+      Object {
+        "backgroundColor": "rgba(0,255,0,0.25)",
+        "padding": 10,
+      },
+    ]
+  }
+>
   <View
     style={
       Array [
@@ -814,8 +1329,7 @@ exports[`<InputSearcher> when {style} 1`] = `
           "marginBottom": 20,
         },
         Object {
-          "backgroundColor": "rgba(0,255,0,0.25)",
-          "padding": 10,
+          "width": "100%",
         },
       ]
     }
@@ -889,7 +1403,6 @@ exports[`<InputSearcher> when {style} 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -917,54 +1430,44 @@ exports[`<InputSearcher> when {style} 1`] = `
       />
     </View>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
-  >
-    <View />
-  </RCTScrollView>
+  />
 </View>
 `;
 
 exports[`<InputSearcher> when {value} 1`] = `
-<View>
+<View
+  style={
+    Array [
+      undefined,
+      undefined,
+    ]
+  }
+>
   <View
     style={
       Array [
         Object {
           "marginBottom": 20,
         },
-        undefined,
+        Object {
+          "width": "100%",
+        },
       ]
     }
   >
@@ -1037,7 +1540,6 @@ exports[`<InputSearcher> when {value} 1`] = `
         onBlur={[Function]}
         onChangeText={[Function]}
         onFocus={[Function]}
-        placeholder="Look for ..."
         placeholderTextColor="#707070"
         style={
           Array [
@@ -1065,41 +1567,22 @@ exports[`<InputSearcher> when {value} 1`] = `
       />
     </View>
   </View>
-  <RCTScrollView
-    data={Array []}
-    disableVirtualization={false}
-    getItem={[Function]}
-    getItemCount={[Function]}
-    horizontal={false}
-    initialNumToRender={10}
-    keyExtractor={[Function]}
-    maxToRenderPerBatch={10}
-    numColumns={1}
-    onContentSizeChange={[Function]}
-    onEndReachedThreshold={2}
-    onLayout={[Function]}
-    onMomentumScrollEnd={[Function]}
-    onScroll={[Function]}
-    onScrollBeginDrag={[Function]}
-    onScrollEndDrag={[Function]}
-    renderItem={[Function]}
-    scrollEventThrottle={50}
-    stickyHeaderIndices={Array []}
+  <View
     style={
-      Object {
-        "backgroundColor": "#ffffff",
-        "borderRadius": 3,
-        "paddingHorizontal": 12,
-        "position": "absolute",
-        "top": 44,
-        "width": "100%",
-      }
+      Array [
+        Object {
+          "backgroundColor": "#ffffff",
+          "borderRadius": 3,
+          "paddingHorizontal": 12,
+          "position": "absolute",
+          "width": "100%",
+          "zIndex": 2,
+        },
+        Object {
+          "top": 44,
+        },
+      ]
     }
-    updateCellsBatchingPeriod={50}
-    viewabilityConfigCallbackPairs={Array []}
-    windowSize={21}
-  >
-    <View />
-  </RCTScrollView>
+  />
 </View>
 `;
