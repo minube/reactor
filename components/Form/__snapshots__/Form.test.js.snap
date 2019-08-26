@@ -5103,7 +5103,7 @@ exports[`<Form> when {attributes} 1`] = `
             ]
           }
         >
-          searcher
+          search
         </Text>
         <View
           style={
@@ -5174,7 +5174,7 @@ exports[`<Form> when {attributes} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholder="Searcher..."
+            placeholder="Search for..."
             placeholderTextColor="#707070"
             style={
               Array [
@@ -10287,7 +10287,7 @@ exports[`<Form> when {color} 1`] = `
             ]
           }
         >
-          searcher
+          search
         </Text>
         <View
           style={
@@ -10358,7 +10358,7 @@ exports[`<Form> when {color} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholder="Searcher..."
+            placeholder="Search for..."
             placeholderTextColor="#707070"
             style={
               Array [
@@ -16234,7 +16234,7 @@ exports[`<Form> when {validate} 1`] = `
             ]
           }
         >
-          searcher
+          search
         </Text>
         <View
           style={
@@ -16305,7 +16305,7 @@ exports[`<Form> when {validate} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholder="Searcher..."
+            placeholder="Search for..."
             placeholderTextColor="#707070"
             style={
               Array [
@@ -21776,7 +21776,7 @@ exports[`<Form> when {value} 1`] = `
             ]
           }
         >
-          searcher
+          search
         </Text>
         <View
           style={
@@ -21847,7 +21847,7 @@ exports[`<Form> when {value} 1`] = `
             onBlur={[Function]}
             onChangeText={[Function]}
             onFocus={[Function]}
-            placeholder="Searcher..."
+            placeholder="Search for..."
             placeholderTextColor="#707070"
             style={
               Array [

@@ -75,10 +75,10 @@ const ATTRIBUTES = {
   },
   languages: { type: 'list' },
   terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
-  destionation: {
-    label: 'searcher',
+  destination: {
+    label: 'search',
     icon: 'search',
-    placeholder: 'Searcher...',
+    placeholder: 'Search for...',
   },
 };
 
