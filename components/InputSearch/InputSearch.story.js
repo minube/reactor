@@ -7,12 +7,12 @@ import {
 import InputSearch from './InputSearch';
 
 const DATA = [
-  {name: 'Madrid', id: 23},
-  {name: 'Madrid Snowzone', id: 12},
-  {name: 'Comunidad Madrid', id: 65},
-  {name: 'San Lorenzo del escorial', id: 76},
-  {name: 'Alcalá de Henares', id: 132},
-  {name: 'Aranjuez', id: 73},
+  {name: 'Madrid', id: 23, subtitle: 'Comunidad de Madrid, España'},
+  {name: 'Madrid Snowzone', id: 12, subtitle: 'Comunidad de Madrid, España'},
+  {name: 'Comunidad Madrid', id: 65, subtitle: 'Comunidad de Madrid, España'},
+  {name: 'San Lorenzo del escorial', id: 76, subtitle: 'Comunidad de Madrid, España'},
+  {name: 'Alcalá de Henares', id: 132, subtitle: 'Comunidad de Madrid, España'},
+  {name: 'Aranjuez', id: 73, subtitle: 'Comunidad de Madrid, España'},
 ];
 
 const STYLE = { padding: 10, width: 256 };

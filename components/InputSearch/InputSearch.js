@@ -80,9 +80,14 @@ class Searcher extends PureComponent {
         />
         {visible && (
           <View style={[styles.list, inherit.label ? styles.marginListLabel : styles.marginList]}>
-            {dataSource.map(item => (
-              <Touchable key={item.id} onPress={() => _onClickItem(item)}>
-                <Text key={item.id} style={styles.item} numberOfLines={1}>{item.name}</Text>
+            {dataSource.map((item, index) => (
+              <Touchable
+                style={[styles.item, index !== dataSource.length - 1 && styles.border]}
+                key={item.id}
+                onPress={() => _onClickItem(item)}
+              >
+                <Text subtitle level={2} key={item.id} numberOfLines={1}>{item.name}</Text>
+                {item.subtitle && <Text body level={2} numberOfLines={1}>{item.subtitle}</Text>}
               </Touchable>
             ))}
           </View>

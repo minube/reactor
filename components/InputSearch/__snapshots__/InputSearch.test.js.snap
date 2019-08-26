@@ -123,7 +123,7 @@ exports[`<InputSearch> renders 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -260,7 +260,7 @@ exports[`<InputSearch> when {dataSource} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -284,7 +284,15 @@ exports[`<InputSearch> when {dataSource} 1`] = `
       style={
         Array [
           undefined,
-          undefined,
+          Array [
+            Object {
+              "paddingVertical": 16,
+            },
+            Object {
+              "borderBottomWidth": 1,
+              "borderColor": "#cdd2d4",
+            },
+          ],
         ]
       }
     >
@@ -302,13 +310,13 @@ exports[`<InputSearch> when {dataSource} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
-              "lineHeight": 30,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
             false,
-            Object {
-              "paddingVertical": 4,
-            },
+            Object {},
           ]
         }
       >
@@ -357,7 +365,12 @@ exports[`<InputSearch> when {dataSource} 1`] = `
       style={
         Array [
           undefined,
-          undefined,
+          Array [
+            Object {
+              "paddingVertical": 16,
+            },
+            false,
+          ],
         ]
       }
     >
@@ -375,13 +388,13 @@ exports[`<InputSearch> when {dataSource} 1`] = `
               "textAlignVertical": "center",
             },
             Object {
+              "fontFamily": undefined,
               "fontSize": 16,
-              "lineHeight": 30,
+              "fontWeight": "600",
+              "lineHeight": 18,
             },
             false,
-            Object {
-              "paddingVertical": 4,
-            },
+            Object {},
           ]
         }
       >
@@ -548,7 +561,7 @@ exports[`<InputSearch> when {disabled} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -715,7 +728,7 @@ exports[`<InputSearch> when {hint} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -883,7 +896,7 @@ exports[`<InputSearch> when {label} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -1020,7 +1033,7 @@ exports[`<InputSearch> when {onChange} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -1158,7 +1171,7 @@ exports[`<InputSearch> when {onClickItem} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -1296,7 +1309,7 @@ exports[`<InputSearch> when {placeholder} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -1436,7 +1449,7 @@ exports[`<InputSearch> when {style} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,
@@ -1573,7 +1586,7 @@ exports[`<InputSearch> when {value} 1`] = `
         Object {
           "backgroundColor": "#ffffff",
           "borderRadius": 3,
-          "paddingHorizontal": 12,
+          "paddingHorizontal": 16,
           "position": "absolute",
           "width": "100%",
           "zIndex": 2,

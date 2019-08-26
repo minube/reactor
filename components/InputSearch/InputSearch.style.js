@@ -15,13 +15,18 @@ export default StyleSheet.create({
   },
 
   item: {
-    paddingVertical: SPACE.XXS,
+    paddingVertical: SPACE.MEDIUM,
+  },
+
+  border: {
+    borderBottomWidth: 1,
+    borderColor: COLOR.BASE,
   },
 
   list: {
     backgroundColor: COLOR.WHITE,
     borderRadius: BORDER_RADIUS,
-    paddingHorizontal: SPACE.S,
+    paddingHorizontal: SPACE.MEDIUM,
     position: 'absolute',
     zIndex: 2,
     width: '100%',
