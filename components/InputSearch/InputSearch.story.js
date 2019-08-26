@@ -4,7 +4,7 @@ import { action } from '@storybook/addon-actions';
 import {
   text, boolean, color, object,
 } from '@storybook/addon-knobs/react';
-import InputSearcher from './InputSearcher';
+import InputSearch from './InputSearch';
 
 const DATA = [
   {name: 'Madrid', id: 23},
@@ -32,36 +32,35 @@ class HOC extends PureComponent {
   }
 
   render() {
-    console.log(this.state)
     const { _onChange, props, state: { data } } = this;
-    return <InputSearcher {...props} dataSource={data} onChange={_onChange} />;
+    return <InputSearch {...props} dataSource={data} onChange={_onChange} />;
   }
 }
 
-storiesOf('✅ InputSearcher', module)
+storiesOf('✅ InputSearch', module)
   .add('default', () => (
-    <InputSearcher />
+    <InputSearch />
   ))
   .add('color', () => (
-    <InputSearcher color="green" />
+    <InputSearch color="green" />
   ))
   .add('dataSource', () => (
-    <InputSearcher dataSource={DATA} />
+    <InputSearch dataSource={DATA} />
   ))
   .add('disabled', () => (
-    <InputSearcher disabled />
+    <InputSearch disabled />
   ))
   .add('hint', () => (
-    <InputSearcher hint="Optional field" />
+    <InputSearch hint="Optional field" />
   ))
   .add('label', () => (
-    <InputSearcher label="InputSearcher" />
+    <InputSearch label="InputSearch" />
   ))
   .add('placeholder', () => (
-    <InputSearcher placeholder={"Looking for..."} />
+    <InputSearch placeholder={"Looking for..."} />
   ))
   .add('value', () => (
-    <InputSearcher value="Madrid" />
+    <InputSearch value="Madrid" />
   ))
   .add('onChange', () => (
     <HOC onChange={_onChange} dataSource={this.data} />
@@ -70,13 +69,13 @@ storiesOf('✅ InputSearcher', module)
     <HOC onChange={_onChange} onClickItem={_onClickItem} dataSource={this.data} />
   ))
   .add('🏀 Playground', () => (
-    <InputSearcher
+    <InputSearch
       color={color('color', undefined)}
       hint={text('hint', 'This is a hint')}
       disabled={boolean('disabled', false)}
       label={text('label', 'This is a label')}
       value={text('value', 'Madrid')}
-      onChange={action('InputSearcher.onChange()')}
+      onChange={action('InputSearch.onChange()')}
       style={object('style', STYLE)}
     />
   ));

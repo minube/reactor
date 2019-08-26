@@ -7,7 +7,7 @@ import { View } from 'react-native';
 import Text from '../Text';
 import Input from '../Input';
 import Touchable from '../Touchable';
-import styles from './InputSearcher.style';
+import styles from './InputSearch.style';
 
 const TIMEOUT = 500;
 

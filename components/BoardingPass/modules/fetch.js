@@ -19,9 +19,7 @@ export default async ({
 }) => (
   new Promise((resolve, reject) => {
     fetch(`${secure ? 'https' : 'http'}://${endpoint}/${service}`, {
-      headers: props.forceHeaders ? {
-        ...headers,
-      } : {
+      headers: {
         ...(FORM_METHODS.includes(method) ? HEADER_FORM : HEADER_JSON),
         ...headers,
       },

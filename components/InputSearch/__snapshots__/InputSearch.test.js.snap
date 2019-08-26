@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<InputSearcher> renders 1`] = `
+exports[`<InputSearch> renders 1`] = `
 <View
   style={
     Array [
@@ -137,7 +137,7 @@ exports[`<InputSearcher> renders 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {dataSource} 1`] = `
+exports[`<InputSearch> when {dataSource} 1`] = `
 <View
   style={
     Array [
@@ -421,7 +421,7 @@ exports[`<InputSearcher> when {dataSource} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {disabled} 1`] = `
+exports[`<InputSearch> when {disabled} 1`] = `
 <View
   style={
     Array [
@@ -562,7 +562,7 @@ exports[`<InputSearcher> when {disabled} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {hint} 1`] = `
+exports[`<InputSearch> when {hint} 1`] = `
 <View
   style={
     Array [
@@ -729,7 +729,7 @@ exports[`<InputSearcher> when {hint} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {label} 1`] = `
+exports[`<InputSearch> when {label} 1`] = `
 <View
   style={
     Array [
@@ -897,7 +897,7 @@ exports[`<InputSearcher> when {label} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {onChange} 1`] = `
+exports[`<InputSearch> when {onChange} 1`] = `
 <View
   style={
     Array [
@@ -1034,7 +1034,7 @@ exports[`<InputSearcher> when {onChange} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {onClickItem} 1`] = `
+exports[`<InputSearch> when {onClickItem} 1`] = `
 <View
   style={
     Array [
@@ -1172,7 +1172,7 @@ exports[`<InputSearcher> when {onClickItem} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {placeholder} 1`] = `
+exports[`<InputSearch> when {placeholder} 1`] = `
 <View
   style={
     Array [
@@ -1310,7 +1310,7 @@ exports[`<InputSearcher> when {placeholder} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {style} 1`] = `
+exports[`<InputSearch> when {style} 1`] = `
 <View
   style={
     Array [
@@ -1450,7 +1450,7 @@ exports[`<InputSearcher> when {style} 1`] = `
 </View>
 `;
 
-exports[`<InputSearcher> when {value} 1`] = `
+exports[`<InputSearch> when {value} 1`] = `
 <View
   style={
     Array [
