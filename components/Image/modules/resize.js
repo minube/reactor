@@ -28,6 +28,8 @@ export default ({
       w = REGULAR.W;
       h = REGULAR.H;
     }
+
+    return `${uri}?fit=around|${parseInt(w / ratio, 10)}:${parseInt(h / ratio, 10)}`;
   }
 
   if (ratio !== 1) return `${uri}?fit=around|${parseInt(w / ratio, 10)}:${parseInt(h / ratio, 10)}`;
