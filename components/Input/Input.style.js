@@ -13,7 +13,7 @@ export { INPUT_HEIGHT };
 
 export default StyleSheet.create({
   container: {
-    marginBottom: SPACE.REGULAR,
+    marginBottom: UNIT * 2.4,
   },
 
   content: {

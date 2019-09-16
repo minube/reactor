@@ -16,7 +16,7 @@ exports[`<InputList> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -103,7 +103,7 @@ exports[`<InputList> when {dataSource} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -190,7 +190,7 @@ exports[`<InputList> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -281,7 +281,7 @@ exports[`<InputList> when {error} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -399,7 +399,7 @@ exports[`<InputList> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -516,7 +516,7 @@ exports[`<InputList> when {itemTemplate} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -1640,7 +1640,7 @@ exports[`<InputList> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -1761,7 +1761,7 @@ exports[`<InputList> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,
@@ -1848,7 +1848,7 @@ exports[`<InputList> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "marginBottom": 0,

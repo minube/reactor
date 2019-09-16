@@ -13,7 +13,7 @@ exports[`<InputSearch> renders 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -150,7 +150,7 @@ exports[`<InputSearch> when {dataSource} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -447,7 +447,7 @@ exports[`<InputSearch> when {disabled} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -588,7 +588,7 @@ exports[`<InputSearch> when {hint} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -755,7 +755,7 @@ exports[`<InputSearch> when {label} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -923,7 +923,7 @@ exports[`<InputSearch> when {onChange} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -1060,7 +1060,7 @@ exports[`<InputSearch> when {onClickItem} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -1198,7 +1198,7 @@ exports[`<InputSearch> when {placeholder} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -1339,7 +1339,7 @@ exports[`<InputSearch> when {style} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
@@ -1476,7 +1476,7 @@ exports[`<InputSearch> when {value} 1`] = `
     style={
       Array [
         Object {
-          "marginBottom": 20,
+          "marginBottom": 24,
         },
         Object {
           "width": "100%",
