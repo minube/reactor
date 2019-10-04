@@ -20,7 +20,7 @@ export default StyleSheet.create({
   },
 
   container: {
-    ...LAYOUT.STYLE.ROW,
+    marginBottom: SPACE.S,
   },
 
   content: {
@@ -33,6 +33,7 @@ export default StyleSheet.create({
     backgroundColor: ERROR_COLOR,
     minWidth: UNIT * 6,
     minHeight: UNIT * 4.4,
+    width: '100%',
   },
 
   icon: {

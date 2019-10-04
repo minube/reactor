@@ -4,8 +4,8 @@ import { View } from 'react-native';
 import { Icon, Text } from '..';
 import styles from './FormError.style';
 
-const ErrorsPreview = ({ icon, title }) => (
-  <View style={[styles.container]}>
+const FormError = ({ icon, title, ...inherit }) => (
+  <View style={[styles.container, inherit.style]}>
     <View style={[styles.content]}>
       <Text body level={2} style={styles.text}>{title}</Text>
       {icon && <Icon style={styles.icon} value={icon} />}
@@ -14,13 +14,13 @@ const ErrorsPreview = ({ icon, title }) => (
   </View>
 );
 
-ErrorsPreview.propTypes = {
+FormError.propTypes = {
   icon: oneOfType([number, string]),
   title: string.isRequired,
 };
 
-ErrorsPreview.defaultProps = {
+FormError.defaultProps = {
   icon: undefined,
 };
 
-export default ErrorsPreview;
+export default FormError;

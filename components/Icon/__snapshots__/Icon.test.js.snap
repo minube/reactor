@@ -27,7 +27,7 @@ exports[`<Icon> when {color} (only Native) 1`] = `
   resizeMode="contain"
   source={
     Object {
-      "testUri": "../../../components/Icon/assets/close.png",
+      "testUri": "../../../components/Icon/assets/alert_color.png",
     }
   }
   style={
@@ -51,7 +51,7 @@ exports[`<Icon> when {invert} (only Web) 1`] = `
   resizeMode="contain"
   source={
     Object {
-      "testUri": "../../../components/Icon/assets/close.png",
+      "testUri": "../../../components/Icon/assets/alert_color.png",
     }
   }
   style={
@@ -73,7 +73,7 @@ exports[`<Icon> when {size} 1`] = `
   resizeMode="contain"
   source={
     Object {
-      "testUri": "../../../components/Icon/assets/close.png",
+      "testUri": "../../../components/Icon/assets/alert_color.png",
     }
   }
   style={
@@ -98,7 +98,7 @@ exports[`<Icon> when {style} 1`] = `
   resizeMode="contain"
   source={
     Object {
-      "testUri": "../../../components/Icon/assets/close.png",
+      "testUri": "../../../components/Icon/assets/alert_color.png",
     }
   }
   style={
@@ -250,7 +250,7 @@ exports[`<Icon> when {value} 1`] = `
   resizeMode="contain"
   source={
     Object {
-      "testUri": "../../../components/Icon/assets/close.png",
+      "testUri": "../../../components/Icon/assets/alert_color.png",
     }
   }
   style={

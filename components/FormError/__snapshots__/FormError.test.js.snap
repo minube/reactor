@@ -1,88 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<FormError> renders 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      },
-    ]
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "flex-start",
-          "backgroundColor": "rgba(239, 81, 96, 0.2)",
-          "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "minHeight": 44,
-          "minWidth": 60,
-          "paddingHorizontal": 12,
-          "paddingVertical": 10,
-        },
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
-            "textAlignVertical": "center",
-          },
-          Object {
-            "fontSize": 14,
-            "lineHeight": 24,
-          },
-          false,
-          Object {
-            "color": "#ef5160",
-          },
-        ]
-      }
-    />
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "borderLeftColor": "transparent",
-          "borderLeftWidth": 8,
-          "borderRightColor": "transparent",
-          "borderRightWidth": 8,
-          "borderTopColor": "rgba(239, 81, 96, 0.2)",
-          "borderTopWidth": 8,
-          "left": 20,
-          "position": "absolute",
-          "top": 44,
-        },
-      ]
-    }
-  />
-</View>
-`;
-
 exports[`<FormError> renders when {text} 1`] = `
 <View
   style={
     Array [
       Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
+        "marginBottom": 12,
       },
+      undefined,
     ]
   }
 >
@@ -100,6 +25,7 @@ exports[`<FormError> renders when {text} 1`] = `
           "minWidth": 60,
           "paddingHorizontal": 12,
           "paddingVertical": 10,
+          "width": "100%",
         },
       ]
     }
@@ -155,10 +81,9 @@ exports[`<FormError> when {icon} 1`] = `
   style={
     Array [
       Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
+        "marginBottom": 12,
       },
+      undefined,
     ]
   }
 >
@@ -176,6 +101,7 @@ exports[`<FormError> when {icon} 1`] = `
           "minWidth": 60,
           "paddingHorizontal": 12,
           "paddingVertical": 10,
+          "width": "100%",
         },
       ]
     }
@@ -226,82 +152,6 @@ exports[`<FormError> when {icon} 1`] = `
         ]
       }
     />
-  </View>
-  <View
-    style={
-      Array [
-        Object {
-          "borderLeftColor": "transparent",
-          "borderLeftWidth": 8,
-          "borderRightColor": "transparent",
-          "borderRightWidth": 8,
-          "borderTopColor": "rgba(239, 81, 96, 0.2)",
-          "borderTopWidth": 8,
-          "left": 20,
-          "position": "absolute",
-          "top": 44,
-        },
-      ]
-    }
-  />
-</View>
-`;
-
-exports[`<FormError> when {text} 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignItems": "center",
-        "display": "flex",
-        "flexDirection": "row",
-      },
-    ]
-  }
->
-  <View
-    style={
-      Array [
-        Object {
-          "alignItems": "flex-start",
-          "backgroundColor": "rgba(239, 81, 96, 0.2)",
-          "borderRadius": 3,
-          "display": "flex",
-          "flexDirection": "row",
-          "justifyContent": "space-between",
-          "minHeight": 44,
-          "minWidth": 60,
-          "paddingHorizontal": 12,
-          "paddingVertical": 10,
-        },
-      ]
-    }
-  >
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Array [
-          Object {
-            "color": "#4a4a4a",
-            "fontFamily": undefined,
-            "fontWeight": "400",
-            "textAlignVertical": "center",
-          },
-          Object {
-            "fontSize": 14,
-            "lineHeight": 24,
-          },
-          false,
-          Object {
-            "color": "#ef5160",
-          },
-        ]
-      }
-    >
-      You must complete all fields
-    </Text>
   </View>
   <View
     style={
