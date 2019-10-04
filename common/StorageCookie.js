@@ -5,7 +5,7 @@ export default {
     if (store === undefined || store === null) return undefined;
 
     try {
-      return JSON.parse(store[2]);
+      return JSON.parse(decodeURIComponent(store[2]));
     } catch (error) {
       return store[2];
     }
