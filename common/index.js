@@ -6,6 +6,7 @@ import THEME from './theme';
 import queryString from './queryString';
 import serverSideStyle from './serverSideStyle';
 import Storage from './Storage';
+import StorageCookie from './StorageCookie';
 
 export {
   ENV,
@@ -15,4 +16,5 @@ export {
   queryString,
   serverSideStyle,
   Storage,
+  StorageCookie,
 };
