@@ -4,13 +4,12 @@ import { LAYOUT, THEME } from '../../common';
 const {
   BORDER_RADIUS, COLOR, SPACE, UNIT,
 } = THEME;
-const ERROR_COLOR = 'rgba(239, 81, 96, 0.2)';
 
 export default StyleSheet.create({
   arrow: {
     borderLeftColor: COLOR.TRANSPARENT,
     borderLeftWidth: SPACE.XS,
-    borderTopColor: ERROR_COLOR,
+    borderTopColor: COLOR.LIGHT_ERROR,
     borderTopWidth: SPACE.XS,
     borderRightColor: COLOR.TRANSPARENT,
     borderRightWidth: SPACE.XS,
@@ -30,7 +29,7 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.S,
     paddingVertical: SPACE.REGULAR / 2,
     borderRadius: BORDER_RADIUS,
-    backgroundColor: ERROR_COLOR,
+    backgroundColor: COLOR.LIGHT_ERROR,
     minWidth: UNIT * 6,
     minHeight: UNIT * 4.4,
     width: '100%',

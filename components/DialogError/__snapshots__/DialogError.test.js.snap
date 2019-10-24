@@ -16,7 +16,7 @@ exports[`<DialogError> renders when {text} 1`] = `
       Array [
         Object {
           "alignItems": "flex-start",
-          "backgroundColor": "rgba(239, 81, 96, 0.2)",
+          "backgroundColor": "#fdeeef",
           "borderRadius": 3,
           "display": "flex",
           "flexDirection": "row",
@@ -64,7 +64,7 @@ exports[`<DialogError> renders when {text} 1`] = `
           "borderLeftWidth": 8,
           "borderRightColor": "transparent",
           "borderRightWidth": 8,
-          "borderTopColor": "rgba(239, 81, 96, 0.2)",
+          "borderTopColor": "#fdeeef",
           "borderTopWidth": 8,
           "left": 20,
           "position": "absolute",
@@ -92,7 +92,7 @@ exports[`<DialogError> when {icon} 1`] = `
       Array [
         Object {
           "alignItems": "flex-start",
-          "backgroundColor": "rgba(239, 81, 96, 0.2)",
+          "backgroundColor": "#fdeeef",
           "borderRadius": 3,
           "display": "flex",
           "flexDirection": "row",
@@ -161,7 +161,7 @@ exports[`<DialogError> when {icon} 1`] = `
           "borderLeftWidth": 8,
           "borderRightColor": "transparent",
           "borderRightWidth": 8,
-          "borderTopColor": "rgba(239, 81, 96, 0.2)",
+          "borderTopColor": "#fdeeef",
           "borderTopWidth": 8,
           "left": 20,
           "position": "absolute",
