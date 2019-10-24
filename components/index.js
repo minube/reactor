@@ -6,6 +6,7 @@ import Button from './Button';
 import Calendar from './Calendar';
 import Dialog from './Dialog';
 import Form from './Form';
+import DialogError from './DialogError';
 import Heading from './Heading';
 import Icon from './Icon';
 import Image from './Image';
@@ -45,6 +46,7 @@ export {
   Calendar,
   Dialog,
   Form,
+  DialogError,
   Heading,
   Icon,
   Image,

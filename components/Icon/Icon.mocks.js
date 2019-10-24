@@ -3,6 +3,7 @@ import { THEME } from '../../common';
 const COLOR = THEME.COLOR.PRIMARY;
 
 const ICONS = [
+  'alertColor',
   'close',
   'closeContrast',
   'doneContrast',
