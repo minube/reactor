@@ -6,6 +6,7 @@ import Button from './Button';
 import Calendar from './Calendar';
 import Dialog from './Dialog';
 import Form from './Form';
+import DialogError from './DialogError';
 import Heading from './Heading';
 import Icon from './Icon';
 import Image from './Image';
@@ -14,6 +15,7 @@ import InputDate from './InputDate';
 import InputImage from './InputImage';
 import InputList from './InputList';
 import InputOption from './InputOption';
+import InputSearch from './InputSearch';
 import InputSelect from './InputSelect';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
@@ -44,6 +46,7 @@ export {
   Calendar,
   Dialog,
   Form,
+  DialogError,
   Heading,
   Icon,
   Image,
@@ -52,6 +55,7 @@ export {
   InputImage,
   InputList,
   InputOption,
+  InputSearch,
   InputSelect,
   LayoutView,
   LayoutConsumer,

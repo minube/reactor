@@ -1,3 +1,4 @@
+import alertColor from './alert_color.png';
 import close from './close.png';
 import closeContrast from './close_contrast.png';
 import doneContrast from './done_contrast.png';
@@ -10,10 +11,12 @@ import left from './left.png';
 import linkedin from './linkedin.png';
 import navArrow from './nav-arrow.png';
 import right from './right.png';
+import search from './search.png';
 import shareContrast from './share_contrast.png';
 import twitter from './twitter.png';
 
 export default {
+  alertColor,
   close,
   closeContrast,
   doneContrast,
@@ -26,6 +29,7 @@ export default {
   linkedin,
   navArrow,
   right,
+  search,
   shareContrast,
   twitter,
 };

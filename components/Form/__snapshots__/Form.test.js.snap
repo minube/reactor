@@ -1130,7 +1130,7 @@ exports[`<Form> when {attributes} 1`] = `
               "marginTop": 20,
               "position": "absolute",
               "right": 0,
-              "top": 7,
+              "top": 1,
               "transform": Array [
                 Object {
                   "rotate": "0deg0",
@@ -1308,7 +1308,7 @@ exports[`<Form> when {attributes} 1`] = `
                   "alignItems": "center",
                   "display": "flex",
                   "flexDirection": "row",
-                  "height": 56,
+                  "height": 44,
                   "paddingLeft": 8,
                   "paddingRight": 44,
                 }
@@ -1476,7 +1476,7 @@ exports[`<Form> when {attributes} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 660,
               },
             ]
           }
@@ -1505,7 +1505,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -1638,7 +1638,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -1771,7 +1771,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -1932,7 +1932,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -2065,7 +2065,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -2198,7 +2198,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -2331,7 +2331,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -2464,7 +2464,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -2597,7 +2597,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -2730,7 +2730,7 @@ exports[`<Form> when {attributes} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -5055,6 +5055,150 @@ exports[`<Form> when {attributes} 1`] = `
                 "zIndex": 0,
               }
             }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              Object {
+                "minWidth": "100%",
+                "width": "100%",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          search
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 8,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/search.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "width": 18,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Search for..."
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
           />
         </View>
       </View>
@@ -6170,7 +6314,7 @@ exports[`<Form> when {color} 1`] = `
               "marginTop": 20,
               "position": "absolute",
               "right": 0,
-              "top": 7,
+              "top": 1,
               "transform": Array [
                 Object {
                   "rotate": "0deg0",
@@ -6348,7 +6492,7 @@ exports[`<Form> when {color} 1`] = `
                   "alignItems": "center",
                   "display": "flex",
                   "flexDirection": "row",
-                  "height": 56,
+                  "height": 44,
                   "paddingLeft": 8,
                   "paddingRight": 44,
                 }
@@ -6516,7 +6660,7 @@ exports[`<Form> when {color} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 660,
               },
             ]
           }
@@ -6545,7 +6689,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -6678,7 +6822,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -6811,7 +6955,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -6972,7 +7116,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -7105,7 +7249,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -7238,7 +7382,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -7371,7 +7515,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -7504,7 +7648,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -7637,7 +7781,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -7770,7 +7914,7 @@ exports[`<Form> when {color} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -10095,6 +10239,150 @@ exports[`<Form> when {color} 1`] = `
                 "zIndex": 0,
               }
             }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              Object {
+                "minWidth": "100%",
+                "width": "100%",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          search
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 8,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/search.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "width": 18,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Search for..."
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
           />
         </View>
       </View>
@@ -11395,7 +11683,7 @@ exports[`<Form> when {validate} 1`] = `
               "marginTop": 20,
               "position": "absolute",
               "right": 0,
-              "top": 7,
+              "top": 1,
               "transform": Array [
                 Object {
                   "rotate": "0deg0",
@@ -11573,7 +11861,7 @@ exports[`<Form> when {validate} 1`] = `
                   "alignItems": "center",
                   "display": "flex",
                   "flexDirection": "row",
-                  "height": 56,
+                  "height": 44,
                   "paddingLeft": 8,
                   "paddingRight": 44,
                 }
@@ -11741,7 +12029,7 @@ exports[`<Form> when {validate} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 660,
               },
             ]
           }
@@ -11770,7 +12058,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -11903,7 +12191,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12036,7 +12324,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12197,7 +12485,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12330,7 +12618,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12463,7 +12751,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12596,7 +12884,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12729,7 +13017,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12862,7 +13150,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -12995,7 +13283,7 @@ exports[`<Form> when {validate} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -15901,6 +16189,150 @@ exports[`<Form> when {validate} 1`] = `
           />
         </View>
       </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              Object {
+                "minWidth": "100%",
+                "width": "100%",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          search
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 8,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/search.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "width": 18,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Search for..."
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
+          />
+        </View>
+      </View>
     </View>
   </View>
 </RCTScrollView>
@@ -17013,7 +17445,7 @@ exports[`<Form> when {value} 1`] = `
               "marginTop": 20,
               "position": "absolute",
               "right": 0,
-              "top": 7,
+              "top": 1,
               "transform": Array [
                 Object {
                   "rotate": "0deg0",
@@ -17191,7 +17623,7 @@ exports[`<Form> when {value} 1`] = `
                   "alignItems": "center",
                   "display": "flex",
                   "flexDirection": "row",
-                  "height": 56,
+                  "height": 44,
                   "paddingLeft": 8,
                   "paddingRight": 44,
                 }
@@ -17359,7 +17791,7 @@ exports[`<Form> when {value} 1`] = `
                 "marginTop": 20,
               },
               Object {
-                "maxHeight": 616,
+                "maxHeight": 660,
               },
             ]
           }
@@ -17388,7 +17820,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -17521,7 +17953,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -17654,7 +18086,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -17815,7 +18247,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -17948,7 +18380,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -18081,7 +18513,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -18214,7 +18646,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -18347,7 +18779,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -18480,7 +18912,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -18613,7 +19045,7 @@ exports[`<Form> when {value} 1`] = `
                     "alignItems": "center",
                     "display": "flex",
                     "flexDirection": "row",
-                    "height": 56,
+                    "height": 44,
                     "paddingLeft": 8,
                     "paddingRight": 44,
                   }
@@ -21296,6 +21728,150 @@ exports[`<Form> when {value} 1`] = `
                 "zIndex": 0,
               }
             }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "marginBottom": 20,
+            },
+            Array [
+              Object {
+                "minWidth": "100%",
+                "width": "100%",
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          numberOfLines={2}
+          style={
+            Array [
+              Object {
+                "color": "#4a4a4a",
+                "fontFamily": undefined,
+                "fontWeight": "400",
+                "textAlignVertical": "center",
+              },
+              Object {
+                "fontFamily": undefined,
+                "fontSize": 14,
+                "fontWeight": "600",
+                "lineHeight": 16,
+              },
+              Object {
+                "color": "#707070",
+              },
+              Object {
+                "color": "#4a4a4a",
+                "marginBottom": 8,
+              },
+            ]
+          }
+        >
+          search
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#ffffff",
+                "borderColor": "#cdd2d4",
+                "borderRadius": 2.5,
+                "borderWidth": 1,
+                "display": "flex",
+                "flexDirection": "row",
+                "paddingHorizontal": 8,
+              },
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          <View
+            pointerEvents="none"
+            style={
+              Object {
+                "alignItems": "center",
+                "display": "flex",
+                "flexDirection": "row",
+                "justifyContent": "center",
+                "paddingHorizontal": 4,
+              }
+            }
+          >
+            <Image
+              resizeMode="contain"
+              source={
+                Object {
+                  "testUri": "../../../components/Icon/assets/search.png",
+                }
+              }
+              style={
+                Array [
+                  Object {
+                    "backgroundColor": "transparent",
+                    "height": 20,
+                    "width": 20,
+                  },
+                  Object {
+                    "alignSelf": "flex-start",
+                    "height": 18,
+                    "marginRight": 4,
+                    "width": 18,
+                  },
+                  undefined,
+                ]
+              }
+            />
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCapitalize="none"
+            autoCorrect={false}
+            blurOnSubmit={true}
+            editable={true}
+            keyboard="default"
+            keyboardType="default"
+            multiline={false}
+            onBlur={[Function]}
+            onChangeText={[Function]}
+            onFocus={[Function]}
+            placeholder="Search for..."
+            placeholderTextColor="#707070"
+            style={
+              Array [
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderWidth": 0,
+                  "color": "#4a4a4a",
+                  "flex": 1,
+                  "fontFamily": undefined,
+                  "fontSize": 16,
+                  "fontWeight": "400",
+                  "minHeight": 42,
+                  "paddingHorizontal": 4,
+                  "paddingVertical": 7.5,
+                  "width": "100%",
+                },
+                false,
+                undefined,
+                undefined,
+                undefined,
+              ]
+            }
+            underlineColorAndroid="transparent"
+            value=""
           />
         </View>
       </View>

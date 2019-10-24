@@ -8,6 +8,7 @@ import Input from '../Input';
 import InputDate from '../InputDate';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
+import InputSearch from '../InputSearch';
 import InputOption from '../InputOption';
 import InputSelect from '../InputSelect';
 import Text from '../Text';
@@ -31,6 +32,7 @@ const Inputs = {
   option: InputOption,
   select: InputSelect,
   list: InputList,
+  searcher: InputSearch,
 };
 
 class Form extends PureComponent {
@@ -39,6 +41,7 @@ class Form extends PureComponent {
     color: string,
     value: shape({}),
     onChange: func,
+    onClickItem: func,
     onValid: func,
     title: string,
     validate: bool,
@@ -50,6 +53,7 @@ class Form extends PureComponent {
     value: undefined,
     title: undefined,
     onChange: undefined,
+    onClickItem: undefined,
     onValid() {},
     validate: false,
   };
@@ -124,7 +128,7 @@ class Form extends PureComponent {
     value = defaultValue,
     keyMap,
   }) => {
-    const { _onChange, props: { color, validate } } = this;
+    const { _onChange, props: { color, validate, onClickItem } } = this;
     let { error } = props;
     let invalid = required && !props.disabled && ((!type && value && value.trim().length === 0) || !value);
     let valid = false;
@@ -147,6 +151,7 @@ class Form extends PureComponent {
       valid,
       value,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
+      onClickItem,
       style: buildStyle({ inline, style }, styles),
     });
   }
