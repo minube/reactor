@@ -33,7 +33,7 @@ class BoardingPass extends PureComponent {
     onResponse() {},
     parameters: {},
     reload: false,
-    secure: false,
+    secure: true,
     service: undefined,
   };
 
