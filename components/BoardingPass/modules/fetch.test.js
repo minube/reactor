@@ -2,7 +2,7 @@ import fetchMethod from './fetch';
 
 global.fetch = require('jest-fetch-mock');
 const SERVICE = 'auth';
-const ENDPOINT = `http://staging.mapi.minube.com/${SERVICE}`;
+const ENDPOINT = `https://staging.mapi.minube.com/${SERVICE}`;
 const ENDPOINT_SECURE = `https://staging.mapi.minube.com/${SERVICE}`;
 
 describe('fetch()', () => {

@@ -75,6 +75,11 @@ const ATTRIBUTES = {
   },
   languages: { type: 'list' },
   terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
+  destination: {
+    label: 'search',
+    icon: 'search',
+    placeholder: 'Search for...',
+  },
 };
 
 const VALUE = {

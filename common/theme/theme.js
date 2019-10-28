@@ -21,6 +21,7 @@ export default {
     BLACK,
     DISABLED: '#f4f4f4', // light
     ERROR: '#ef5160',
+    LIGHT_ERROR: '#fdeeef',
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
     SECONDARY: '#a66ecc',

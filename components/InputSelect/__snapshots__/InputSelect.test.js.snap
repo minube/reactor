@@ -288,7 +288,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
       Object {
         "position": "absolute",
         "right": 0,
-        "top": 7,
+        "top": 1,
         "transform": Array [
           Object {
             "rotate": "0deg0",
@@ -466,7 +466,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
             "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "height": 56,
+            "height": 44,
             "paddingLeft": 8,
             "paddingRight": 44,
           }
@@ -632,7 +632,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
         false,
         undefined,
         Object {
-          "maxHeight": 616,
+          "maxHeight": 660,
         },
       ]
     }
@@ -661,7 +661,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -822,7 +822,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -955,7 +955,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1088,7 +1088,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1221,7 +1221,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1354,7 +1354,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1487,7 +1487,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1620,7 +1620,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1753,7 +1753,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -1886,7 +1886,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -2399,7 +2399,7 @@ exports[`<InputSelect> when {value} 1`] = `
       Object {
         "position": "absolute",
         "right": 0,
-        "top": 7,
+        "top": 1,
         "transform": Array [
           Object {
             "rotate": "0deg0",
@@ -2577,7 +2577,7 @@ exports[`<InputSelect> when {value} 1`] = `
             "alignItems": "center",
             "display": "flex",
             "flexDirection": "row",
-            "height": 56,
+            "height": 44,
             "paddingLeft": 8,
             "paddingRight": 44,
           }
@@ -2743,7 +2743,7 @@ exports[`<InputSelect> when {value} 1`] = `
         false,
         undefined,
         Object {
-          "maxHeight": 616,
+          "maxHeight": 660,
         },
       ]
     }
@@ -2772,7 +2772,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -2905,7 +2905,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3038,7 +3038,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3171,7 +3171,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3332,7 +3332,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3465,7 +3465,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3598,7 +3598,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3731,7 +3731,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3864,7 +3864,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }
@@ -3997,7 +3997,7 @@ exports[`<InputSelect> when {value} 1`] = `
               "alignItems": "center",
               "display": "flex",
               "flexDirection": "row",
-              "height": 56,
+              "height": 44,
               "paddingLeft": 8,
               "paddingRight": 44,
             }

@@ -15,7 +15,7 @@ const HEADER_FORM = {
 if (typeof global.self === 'undefined') global.self = global;
 
 export default async ({
-  endpoint = ENDPOINT, headers, method = DEFAULT_METHOD, secure = false, service, ...props
+  endpoint = ENDPOINT, headers, method = DEFAULT_METHOD, secure = true, service, ...props
 }) => (
   new Promise((resolve, reject) => {
     fetch(`${secure ? 'https' : 'http'}://${endpoint}/${service}`, {
