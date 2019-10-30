@@ -13,7 +13,7 @@ export default {
 
   async set(key, value, domain, expires) {
     if (value) {
-      document.cookie = `${key}=${JSON.stringify(value)}${domain
+      document.cookie = `${key}=${encodeURIComponent(JSON.stringify(value))}${domain
         ? `;domain=${domain};path=/;expires=${expires};`
         : ''}`;
     }
