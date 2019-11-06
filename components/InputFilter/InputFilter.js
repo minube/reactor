@@ -38,7 +38,7 @@ class InputFilter extends PureComponent {
     const { value, dataSource } = props;
 
     this.searcherTimeout = undefined;
-    this.state = { inputValue: value, visible: true, dataFiltered: dataSource };
+    this.state = { inputValue: value, visible: false, dataFiltered: dataSource };
   }
 
   _onChange = async (value) => {

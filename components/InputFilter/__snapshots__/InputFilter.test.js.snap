@@ -81,25 +81,6 @@ exports[`<InputFilter> renders 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -195,185 +176,6 @@ exports[`<InputFilter> when {dataSource} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  >
-    <View
-      accessible={true}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
-      style={
-        Array [
-          undefined,
-          Array [
-            Object {
-              "paddingVertical": 16,
-            },
-            Object {
-              "borderBottomWidth": 1,
-              "borderColor": "#cdd2d4",
-            },
-          ],
-        ]
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 18,
-            },
-            false,
-            Object {},
-          ]
-        }
-      >
-        Madrid
-      </Text>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#cdd2d4",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
-    </View>
-    <View
-      accessible={true}
-      onLayout={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      pointerEvents="box-only"
-      style={
-        Array [
-          undefined,
-          Array [
-            Object {
-              "paddingVertical": 16,
-            },
-            false,
-          ],
-        ]
-      }
-    >
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        numberOfLines={1}
-        style={
-          Array [
-            Object {
-              "color": "#4a4a4a",
-              "fontFamily": undefined,
-              "fontWeight": "400",
-              "textAlignVertical": "center",
-            },
-            Object {
-              "fontFamily": undefined,
-              "fontSize": 16,
-              "fontWeight": "600",
-              "lineHeight": 18,
-            },
-            false,
-            Object {},
-          ]
-        }
-      >
-        Madrid Snowzone
-      </Text>
-      <View
-        style={
-          Array [
-            Object {
-              "backgroundColor": "transparent",
-              "borderRadius": 3,
-              "bottom": 0,
-              "left": 0,
-              "overflow": "hidden",
-              "position": "absolute",
-              "right": 0,
-              "top": 0,
-            },
-            undefined,
-          ]
-        }
-      >
-        <View
-          style={
-            Object {
-              "backgroundColor": "#cdd2d4",
-              "height": 0,
-              "opacity": 0,
-              "width": 0,
-              "zIndex": 0,
-            }
-          }
-        />
-      </View>
-    </View>
-  </View>
 </View>
 `;
 
@@ -462,25 +264,6 @@ exports[`<InputFilter> when {disabled} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -595,25 +378,6 @@ exports[`<InputFilter> when {hint} 1`] = `
       Hello World
     </Text>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -729,25 +493,6 @@ exports[`<InputFilter> when {label} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 68,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -832,25 +577,6 @@ exports[`<InputFilter> when {onChange} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -936,25 +662,6 @@ exports[`<InputFilter> when {onClickItem} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -1040,25 +747,6 @@ exports[`<InputFilter> when {placeholder} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -1146,25 +834,6 @@ exports[`<InputFilter> when {style} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;
 
@@ -1249,24 +918,5 @@ exports[`<InputFilter> when {value} 1`] = `
       />
     </View>
   </View>
-  <View
-    style={
-      Array [
-        Object {
-          "backgroundColor": "#ffffff",
-          "borderRadius": 3,
-          "maxHeight": 500,
-          "overflow": "scroll",
-          "paddingHorizontal": 16,
-          "position": "absolute",
-          "width": "100%",
-          "zIndex": 2,
-        },
-        Object {
-          "top": 44,
-        },
-      ]
-    }
-  />
 </View>
 `;

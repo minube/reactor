@@ -61,7 +61,7 @@ storiesOf('✅ InputFilter', module)
     <InputFilter value="Madrid" />
   ))
   .add('onChange', () => (
-    <HOC onChange={_onChange} />
+    <HOC onChange={_onChange} data={DATA} />
   ))
   .add('onClickItem', () => (
     <HOC onChange={_onChange} onClickItem={_onClickItem} data={DATA} />
