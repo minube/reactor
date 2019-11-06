@@ -26,10 +26,12 @@ export default StyleSheet.create({
   list: {
     backgroundColor: COLOR.WHITE,
     borderRadius: BORDER_RADIUS,
+    maxHeight: UNIT * 50,
+    overflow: 'scroll',
     paddingHorizontal: SPACE.MEDIUM,
     position: 'absolute',
-    zIndex: 2,
     width: '100%',
+    zIndex: 2,
   },
 
   marginList: {

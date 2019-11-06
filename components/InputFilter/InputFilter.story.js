@@ -7,10 +7,10 @@ import {
 import InputFilter from './InputFilter';
 
 const DATA = [
-  {name: 'Aba Travel', id: 1, subtitle: 'Comunidad de Madrid, España'},
-  {name: 'Abc4events', id: 2, subtitle: 'Comunidad de Madrid, España'},
-  {name: 'Abrera Madrid', id: 3, subtitle: 'Comunidad de Madrid, España'},
-  {name: 'Abrera', id: 4, subtitle: 'Comunidad de Madrid, España'},
+  {name: 'Aba Travel', id: 1},
+  {name: 'Abc4events', id: 2},
+  {name: 'Abrera Madrid', id: 3},
+  {name: 'Abrera', id: 4},
 ];
 
 const STYLE = { padding: 10, width: 256 };
@@ -61,10 +61,10 @@ storiesOf('✅ InputFilter', module)
     <InputFilter value="Madrid" />
   ))
   .add('onChange', () => (
-    <HOC onChange={_onChange} data={DATA} />
+    <HOC onChange={_onChange} />
   ))
   .add('onClickItem', () => (
-    <HOC onChange={_onChange} onClickItem={_onClickItem} dataSource={this.data} />
+    <HOC onChange={_onChange} onClickItem={_onClickItem} data={DATA} />
   ))
   .add('🏀 Playground', () => (
     <InputFilter

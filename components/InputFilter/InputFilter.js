@@ -18,6 +18,7 @@ class InputFilter extends PureComponent {
     hint: string,
     label: string,
     onClickItem: func,
+    onChange: func,
     value: string,
   };
 
@@ -28,6 +29,7 @@ class InputFilter extends PureComponent {
     hint: undefined,
     label: undefined,
     onClickItem: undefined,
+    onChange: undefined,
     value: undefined,
   };
 
@@ -40,12 +42,14 @@ class InputFilter extends PureComponent {
   }
 
   _onChange = async (value) => {
-    const { dataSource } = this.props;
+    const { dataSource, onChange } = this.props;
     this.setState({ inputValue: value, visible: true });
 
     const dataFiltered = dataSource.filter(item => (
       JSON.stringify(Object.values(item)).toLowerCase().search(value) > -1
     ));
+
+    if (onChange) onChange();
 
     this.setState({ dataFiltered });
   }

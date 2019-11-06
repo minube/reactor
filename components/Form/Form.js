@@ -6,6 +6,7 @@ import { ScrollView, View } from 'react-native';
 
 import Input from '../Input';
 import InputDate from '../InputDate';
+import InputFilter from '../InputFilter';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
 import InputSearch from '../InputSearch';
@@ -29,10 +30,11 @@ const KEYBOARDS_KEYS = Object.keys(KEYBOARDS);
 const Inputs = {
   bool: Switch,
   date: InputDate,
+  filter: InputFilter,
   image: InputImage,
+  list: InputList,
   option: InputOption,
   select: InputSelect,
-  list: InputList,
   searcher: InputSearch,
 };
 
