@@ -1195,6 +1195,7 @@ exports[`<Form> when {attributes} 1`] = `
                     false,
                     false,
                     false,
+                    false,
                   ]
                 }
               >
@@ -6374,6 +6375,7 @@ exports[`<Form> when {color} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
+                    false,
                     false,
                     false,
                     false,
@@ -11743,6 +11745,7 @@ exports[`<Form> when {validate} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
+                    false,
                     false,
                     false,
                     false,
@@ -17505,6 +17508,7 @@ exports[`<Form> when {value} 1`] = `
                     Object {
                       "paddingHorizontal": 0,
                     },
+                    false,
                     false,
                     false,
                     false,

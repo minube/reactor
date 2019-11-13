@@ -353,6 +353,7 @@ exports[`<InputSelect> when {dataSource} 1`] = `
               false,
               false,
               false,
+              false,
             ]
           }
         >
@@ -2459,6 +2460,7 @@ exports[`<InputSelect> when {value} 1`] = `
               Object {
                 "paddingHorizontal": 0,
               },
+              false,
               false,
               false,
               false,

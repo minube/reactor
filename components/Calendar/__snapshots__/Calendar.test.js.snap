@@ -103,6 +103,7 @@ exports[`<Calendar> renders 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -275,6 +276,7 @@ exports[`<Calendar> renders 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -4959,6 +4961,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -5131,6 +5134,7 @@ exports[`<Calendar> when {availableDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -8261,6 +8265,7 @@ exports[`<Calendar> when {box:false} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -8433,6 +8438,7 @@ exports[`<Calendar> when {box:false} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -12497,6 +12503,7 @@ exports[`<Calendar> when {busy} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -12669,6 +12676,7 @@ exports[`<Calendar> when {busy} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -14919,6 +14927,7 @@ exports[`<Calendar> when {captions} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -15091,6 +15100,7 @@ exports[`<Calendar> when {captions} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -19775,6 +19785,7 @@ exports[`<Calendar> when {date} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -19947,6 +19958,7 @@ exports[`<Calendar> when {date} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -24628,6 +24640,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -24800,6 +24813,7 @@ exports[`<Calendar> when {disabledDates} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -29487,6 +29501,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -29661,6 +29676,7 @@ exports[`<Calendar> when {disabledPast} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -33716,6 +33732,7 @@ exports[`<Calendar> when {edges} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -33888,6 +33905,7 @@ exports[`<Calendar> when {edges} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -38596,6 +38614,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -38771,6 +38790,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -43181,6 +43201,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -43355,6 +43376,7 @@ exports[`<Calendar> when {expanded} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -47805,6 +47827,7 @@ exports[`<Calendar> when {locale} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -47977,6 +48000,7 @@ exports[`<Calendar> when {locale} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -52661,6 +52685,7 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -52833,6 +52858,7 @@ exports[`<Calendar> when {style:dayNames} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -57521,6 +57547,7 @@ exports[`<Calendar> when {style} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -57693,6 +57720,7 @@ exports[`<Calendar> when {style} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -62377,6 +62405,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -62549,6 +62578,7 @@ exports[`<Calendar> when {value} & {range} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
@@ -67333,6 +67363,7 @@ exports[`<Calendar> when {value} 1`] = `
                   },
                   false,
                   false,
+                  false,
                   Object {
                     "borderWidth": 1,
                   },
@@ -67505,6 +67536,7 @@ exports[`<Calendar> when {value} 1`] = `
                   Object {
                     "paddingHorizontal": 0,
                   },
+                  false,
                   false,
                   false,
                   Object {
