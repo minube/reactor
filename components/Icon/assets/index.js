@@ -1,4 +1,5 @@
 import alertColor from './alert_color.png';
+import back from './back.png';
 import close from './close.png';
 import closeContrast from './close_contrast.png';
 import doneContrast from './done_contrast.png';
@@ -17,6 +18,7 @@ import twitter from './twitter.png';
 
 export default {
   alertColor,
+  back,
   close,
   closeContrast,
   doneContrast,
