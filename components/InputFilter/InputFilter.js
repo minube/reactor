@@ -42,8 +42,10 @@ class InputFilter extends PureComponent {
   }
 
   _onChange = async (value) => {
-    const { dataSource } = this.props;
+    const { dataSource, onClickItem } = this.props;
     this.setState({ inputValue: value, visible: value.length > 2 });
+
+    if (value.length === 0) onClickItem({ id: undefined });
 
     const dataFiltered = dataSource.filter(item => (
       JSON.stringify(Object.values(item)).toLowerCase().search(value) > -1
