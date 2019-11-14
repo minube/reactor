@@ -126,7 +126,7 @@ class Form extends PureComponent {
   renderField = ({
     field,
     props: {
-      countryCode, defaultValue, inline, minChar, required, style, type, ...props
+      countryCode, defaultValue, inline, minChar, native, required, style, type, ...props
     } = {},
     value = defaultValue,
     keyMap,
@@ -156,6 +156,7 @@ class Form extends PureComponent {
       onChange: keyValue => _onChange({ keyValue, keyMap }),
       onClickItem,
       style: buildStyle({ inline, style }, styles),
+      native,
     });
   }
 
