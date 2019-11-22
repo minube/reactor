@@ -150,7 +150,7 @@ class Form extends PureComponent {
       color,
       ...props,
       error,
-      required: required && (value === undefined || (!type && value.trim().length === 0)),
+      required: required && ((value === undefined || value === null) || (!type && value.trim().length === 0)),
       valid,
       value,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
