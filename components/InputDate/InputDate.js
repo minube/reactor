@@ -68,6 +68,22 @@ class InputDate extends PureComponent {
     this.setState({ active: !active });
   }
 
+  _onToggle = (event) => {
+    const { state: { active }, _onToggleOutside } = this;
+    if (event) this.touchable = event.currentTarget.parentElement;
+
+    if (!active) document.addEventListener('click', _onToggleOutside, false)
+    else document.removeEventListener('click', _onToggleOutside, false);
+
+    this.setState({ active: !active });
+  }
+
+  _onToggleOutside = (e) => {
+    const { _onToggle } = this;
+    if (this.touchable.contains(e.target)) return;
+    _onToggle();
+  }
+
   render() {
     const {
       _onSelect, _onToggle,
@@ -82,7 +98,7 @@ class InputDate extends PureComponent {
       <View style={[styles.container, active && styles.active, inherit.style]}>
         { label && <InputLabel>{label}</InputLabel> }
 
-        <Touchable onPress={!disabled ? _onToggle : undefined}>
+        <Touchable onPress={!disabled ? event => _onToggle(event) : undefined}>
           <View
             style={[
               styles.border,
