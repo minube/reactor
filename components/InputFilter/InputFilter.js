@@ -60,9 +60,13 @@ class InputFilter extends PureComponent {
     this.setState({ inputValue: item.name, visible: false });
   };
 
+  _onBlur = () => {
+    this.setState({ inputValue: '', visible: false });
+  }
+
   render() {
     const {
-      _onChange, _onClickItem,
+      _onBlur, _onChange, _onClickItem,
       state: {
         inputValue, visible, dataFiltered,
       },
@@ -70,7 +74,7 @@ class InputFilter extends PureComponent {
     } = this;
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, inherit.style]} onBlur={() => _onBlur()}>
         <Input
           {...inherit}
           onChange={values => _onChange(values)}

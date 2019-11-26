@@ -72,7 +72,7 @@ class InputDate extends PureComponent {
     const { state: { active }, _onToggleOutside } = this;
     if (event) this.touchable = event.currentTarget.parentElement;
 
-    if (!active) document.addEventListener('click', _onToggleOutside, false)
+    if (!active) document.addEventListener('click', _onToggleOutside, false);
     else document.removeEventListener('click', _onToggleOutside, false);
 
     this.setState({ active: !active });

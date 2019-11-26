@@ -31,7 +31,10 @@ export default StyleSheet.create({
     paddingHorizontal: SPACE.MEDIUM,
     position: 'absolute',
     width: '100%',
-    zIndex: 2,
+    zIndex: 3,
+    borderColor: COLOR.BASE,
+    borderWidth: UNIT * 0.1,
+    transform: [{ translateY: -UNIT * 0.1 }],
   },
 
   marginList: {
