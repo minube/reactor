@@ -86,7 +86,7 @@ class InputFilter extends PureComponent {
     } = this;
 
     return (
-      <View style={[styles.container, inherit.style]} onBlur={event => _onToggle(event)}>
+      <View style={[styles.container, inherit.style]} onClick={event => _onToggle(event)}>
         <Input
           {...inherit}
           onChange={values => _onChange(values)}

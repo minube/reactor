@@ -2,6 +2,7 @@
 
 exports[`<InputFilter> renders 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -86,6 +87,7 @@ exports[`<InputFilter> renders 1`] = `
 
 exports[`<InputFilter> when {dataSource} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -181,6 +183,7 @@ exports[`<InputFilter> when {dataSource} 1`] = `
 
 exports[`<InputFilter> when {disabled} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -269,6 +272,7 @@ exports[`<InputFilter> when {disabled} 1`] = `
 
 exports[`<InputFilter> when {hint} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -383,6 +387,7 @@ exports[`<InputFilter> when {hint} 1`] = `
 
 exports[`<InputFilter> when {label} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -498,6 +503,7 @@ exports[`<InputFilter> when {label} 1`] = `
 
 exports[`<InputFilter> when {onChange} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -582,6 +588,7 @@ exports[`<InputFilter> when {onChange} 1`] = `
 
 exports[`<InputFilter> when {onClickItem} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -667,6 +674,7 @@ exports[`<InputFilter> when {onClickItem} 1`] = `
 
 exports[`<InputFilter> when {placeholder} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -752,6 +760,7 @@ exports[`<InputFilter> when {placeholder} 1`] = `
 
 exports[`<InputFilter> when {style} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
@@ -839,6 +848,7 @@ exports[`<InputFilter> when {style} 1`] = `
 
 exports[`<InputFilter> when {value} 1`] = `
 <View
+  onClick={[Function]}
   style={
     Array [
       undefined,
