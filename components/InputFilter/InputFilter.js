@@ -60,13 +60,25 @@ class InputFilter extends PureComponent {
     this.setState({ inputValue: item.name, visible: false });
   };
 
-  _onBlur = () => {
+  _onToggle = (event) => {
+    const { state: { visible }, _onToggleOutside } = this;
+    if (event) this.touchable = event.currentTarget;
+
+    if (!visible) document.addEventListener('click', _onToggleOutside, false);
+    else document.removeEventListener('click', _onToggleOutside, false);
+
     this.setState({ inputValue: '', visible: false });
+  }
+
+  _onToggleOutside = (event) => {
+    const { _onToggle } = this;
+    if (this.touchable.contains(event.target)) return;
+    _onToggle();
   }
 
   render() {
     const {
-      _onBlur, _onChange, _onClickItem,
+      _onToggle, _onChange, _onClickItem,
       state: {
         inputValue, visible, dataFiltered,
       },
@@ -74,7 +86,7 @@ class InputFilter extends PureComponent {
     } = this;
 
     return (
-      <View style={[styles.container, inherit.style]} onBlur={() => _onBlur()}>
+      <View style={[styles.container, inherit.style]} onBlur={event => _onToggle(event)}>
         <Input
           {...inherit}
           onChange={values => _onChange(values)}
