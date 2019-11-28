@@ -48,7 +48,7 @@ class InputFilter extends PureComponent {
     if (value.length === 0) onClickItem({ id: undefined });
 
     const dataFiltered = dataSource.filter(item => (
-      JSON.stringify(Object.values(item)).toLowerCase().search(value) > -1
+      item.name.toLowerCase().search(value) > -1
     ));
 
     this.setState({ dataFiltered });
@@ -62,7 +62,12 @@ class InputFilter extends PureComponent {
 
   _onToggle = (event) => {
     const { state: { visible }, _onToggleOutside } = this;
-    if (event) this.touchable = event.currentTarget;
+    const { onClickItem } = this.props;
+
+    if (event) {
+      this.touchable = event.currentTarget;
+      if (event.target.value && event.target.value.length > 0) onClickItem({ id: undefined })
+    }
 
     if (!visible) document.addEventListener('click', _onToggleOutside, false);
     else document.removeEventListener('click', _onToggleOutside, false);
