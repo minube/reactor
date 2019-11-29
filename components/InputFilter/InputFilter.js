@@ -19,6 +19,7 @@ class InputFilter extends PureComponent {
     label: string,
     onClickItem: func,
     onChange: func,
+    subtitle: string,
     value: string,
   };
 
@@ -30,6 +31,7 @@ class InputFilter extends PureComponent {
     label: undefined,
     onClickItem: undefined,
     onChange: undefined,
+    subtitle: undefined,
     value: undefined,
   };
 
@@ -87,7 +89,7 @@ class InputFilter extends PureComponent {
       state: {
         inputValue, visible, dataFiltered,
       },
-      props: { ...inherit },
+      props: { subtitle, ...inherit },
     } = this;
 
     return (
@@ -106,7 +108,11 @@ class InputFilter extends PureComponent {
                 key={item.id}
                 onPress={() => _onClickItem(item)}
               >
-                <Text subtitle level={2} key={item.id} numberOfLines={1}>{item.name}</Text>
+                <View>
+                  <Text subtitle level={2} key={item.id} numberOfLines={1}>
+                    {`${item.name}${subtitle && ` - ${item[subtitle]}`}`}
+                  </Text>
+                </View>
               </Touchable>
             ))}
           </View>
