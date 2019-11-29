@@ -45,6 +45,7 @@ class InputDate extends PureComponent {
     this.state = {
       active: false,
       calendar: props.value,
+      clicks: 0,
     };
   }
 
@@ -53,9 +54,9 @@ class InputDate extends PureComponent {
   }
 
   _onSelect = (value) => {
-    const { _onToggle, props: { onChange, range } } = this;
+    const { _onToggle, props: { onChange, range }, state: { clicks } } = this;
 
-    this.setState({ calendar: value });
+    this.setState({ calendar: value, clicks: clicks + 1 });
     if (!range || (value[0] && value[1])) {
       if (!range) _onToggle();
       onChange(value);
@@ -90,7 +91,7 @@ class InputDate extends PureComponent {
       props: {
         disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit
       },
-      state: { active, calendar },
+      state: { active, calendar, clicks },
     } = this;
     const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
 
@@ -134,6 +135,7 @@ class InputDate extends PureComponent {
             onSelect={_onSelect}
             style={[styles.calendar, label && styles.withLabel]}
             value={calendar}
+            clicks={clicks}
           />
         )}
       </View>
