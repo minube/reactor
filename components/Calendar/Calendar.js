@@ -1,5 +1,5 @@
 import {
-  arrayOf, bool, func, oneOfType, shape,
+  arrayOf, bool, func, number, oneOfType, shape,
 } from 'prop-types';
 import React, { PureComponent } from 'react';
 import { View } from 'react-native';
@@ -20,6 +20,7 @@ class Calendar extends PureComponent {
     box: bool,
     busy: bool,
     captions: arrayOf(shape()),
+    clicks: number,
     date: shape(),
     disabledDates: arrayOf(shape()),
     disabledPast: bool,
@@ -36,6 +37,7 @@ class Calendar extends PureComponent {
     availableDates: undefined,
     box: true,
     busy: false,
+    clicks: 0,
     date: undefined,
     captions: undefined,
     disabledDates: undefined,
@@ -80,7 +82,7 @@ class Calendar extends PureComponent {
     const {
       _onChange,
       props: {
-        busy, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
+        busy, clicks, locale: { DAY_NAMES, MONTHS }, onSelect, ...props
       },
       state,
     } = this;
@@ -105,6 +107,7 @@ class Calendar extends PureComponent {
               month={date.getMonth()}
               firstDate={firstDateOfWeek(week + weekIndex, date.getFullYear())}
               onSelect={!busy ? onSelect : undefined}
+              clicks={clicks}
             />
           ))}
         </View>

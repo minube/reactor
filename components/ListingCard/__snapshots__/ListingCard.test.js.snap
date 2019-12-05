@@ -666,6 +666,7 @@ exports[`<ListingCard> when {children} 1`] = `
                   "borderRadius": 24,
                 },
                 false,
+                false,
                 Object {
                   "backgroundColor": "#707070",
                 },

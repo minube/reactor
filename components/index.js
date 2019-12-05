@@ -12,6 +12,7 @@ import Icon from './Icon';
 import Image from './Image';
 import Input from './Input';
 import InputDate from './InputDate';
+import InputFilter from './InputFilter';
 import InputImage from './InputImage';
 import InputList from './InputList';
 import InputOption from './InputOption';
@@ -52,6 +53,7 @@ export {
   Image,
   Input,
   InputDate,
+  InputFilter,
   InputImage,
   InputList,
   InputOption,

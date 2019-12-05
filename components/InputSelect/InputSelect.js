@@ -27,6 +27,7 @@ class InputSelect extends PureComponent {
     onChange: func,
     ItemTemplate: func,
     value: oneOfType([string, number]),
+    native: bool,
   };
 
   static defaultProps = {
@@ -38,15 +39,16 @@ class InputSelect extends PureComponent {
     onChange: undefined,
     ItemTemplate: Template,
     value: 0,
+    native: false,
   };
 
   constructor(props) {
     super(props);
-    const { dataSource: [firstValue] = [] } = props;
+    const { dataSource: [firstValue] = [], native } = props;
 
     this.component = createRef();
     this.scrollview = createRef();
-    this.state = { active: false, regular: true, schema: typeof firstValue === 'object' };
+    this.state = { active: false, regular: true, schema: !native && typeof firstValue === 'object' };
   }
 
   _onToggleDataSource = () => {
@@ -114,7 +116,10 @@ class InputSelect extends PureComponent {
                 style={[styles.picker, disabled && styles.pickerDisabled]}
               >
                 { dataSource.map(item => (
-                  <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />))}
+                  typeof item === 'object'
+                    ? <Picker.Item key={item.key} label={item.value} value={item.key} style={styles.pickerItem} />
+                    : <Picker.Item key={item} label={item} value={item} style={styles.pickerItem} />
+                ))}
               </Picker>
             )}
         </View>

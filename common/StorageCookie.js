@@ -11,11 +11,14 @@ export default {
     }
   },
 
-  async set(key, value, domain) {
-    value // eslint-disable-line
-      ? document.cookie = `${key}=${JSON.stringify(value)}${domain ? ';domain=.minube.com:path=/' : ''}`
-      : document.cookie = `${key}=${value};expires=${-1}`;
-
+  async set(key, value, domain, expires) {
+    if (value) {
+      document.cookie = `${key}=${encodeURIComponent(JSON.stringify(value))}${domain
+        ? `;domain=${domain};path=/;expires=${expires};`
+        : ''}`;
+    } else {
+      document.cookie = `${key}=;${domain ? `domain=${domain};` : ''}path=/;expires=Thu, 01 Jan 1970 00:00:01 GMT;'`;
+    }
     return value;
   },
 };

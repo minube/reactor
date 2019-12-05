@@ -6,6 +6,7 @@ import { ScrollView, View } from 'react-native';
 
 import Input from '../Input';
 import InputDate from '../InputDate';
+import InputFilter from '../InputFilter';
 import InputImage from '../InputImage';
 import InputList from '../InputList';
 import InputSearch from '../InputSearch';
@@ -29,10 +30,11 @@ const KEYBOARDS_KEYS = Object.keys(KEYBOARDS);
 const Inputs = {
   bool: Switch,
   date: InputDate,
+  filter: InputFilter,
   image: InputImage,
+  list: InputList,
   option: InputOption,
   select: InputSelect,
-  list: InputList,
   searcher: InputSearch,
 };
 
@@ -124,7 +126,7 @@ class Form extends PureComponent {
   renderField = ({
     field,
     props: {
-      countryCode, defaultValue, inline, minChar, required, style, type, ...props
+      countryCode, defaultValue, inline, minChar, native, required, style, type, ...props
     } = {},
     value = defaultValue,
     keyMap,
@@ -148,12 +150,13 @@ class Form extends PureComponent {
       color,
       ...props,
       error,
-      required: required && (value === undefined || (!type && value.trim().length === 0)),
+      required: required && ((value === undefined || value === null) || (!type && value.trim().length === 0)),
       valid,
       value,
       onChange: keyValue => _onChange({ keyValue, keyMap }),
       onClickItem,
       style: buildStyle({ inline, style }, styles),
+      native,
     });
   }
 

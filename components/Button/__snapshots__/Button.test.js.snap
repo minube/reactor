@@ -50,6 +50,7 @@ exports[`<Button> renders 1`] = `
           Object {
             "paddingHorizontal": 0,
           },
+          false,
           Object {
             "backgroundColor": "#707070",
           },
@@ -149,6 +150,7 @@ exports[`<Button> when {activity} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
@@ -340,6 +342,7 @@ exports[`<Button> when {children} 1`] = `
           false,
           false,
           false,
+          false,
           Object {
             "backgroundColor": "#707070",
           },
@@ -468,6 +471,7 @@ exports[`<Button> when {color} (COLOR.WHITE) 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
@@ -602,6 +606,7 @@ exports[`<Button> when {color} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
@@ -746,6 +751,7 @@ exports[`<Button> when {contained=false} 1`] = `
           false,
           false,
           false,
+          false,
         ]
       }
     >
@@ -867,6 +873,7 @@ exports[`<Button> when {disabled} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
@@ -1003,6 +1010,7 @@ exports[`<Button> when {icon} & {title} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
@@ -1165,6 +1173,7 @@ exports[`<Button> when {icon} 1`] = `
           Object {
             "paddingHorizontal": 0,
           },
+          false,
           Object {
             "backgroundColor": "#707070",
           },
@@ -1289,6 +1298,7 @@ exports[`<Button> when {large} 1`] = `
             "height": 48,
             "minWidth": 48,
           },
+          false,
           false,
           false,
           Object {
@@ -1427,6 +1437,7 @@ exports[`<Button> when {outlined} 1`] = `
           false,
           false,
           false,
+          false,
           Object {
             "borderWidth": 1,
           },
@@ -1555,6 +1566,7 @@ exports[`<Button> when {responsive} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
@@ -1697,6 +1709,7 @@ exports[`<Button> when {rounded} 1`] = `
           Object {
             "borderRadius": 24,
           },
+          false,
           false,
           Object {
             "backgroundColor": "#707070",
@@ -1842,6 +1855,7 @@ exports[`<Button> when {shadow} 1`] = `
           false,
           false,
           false,
+          false,
           Object {
             "backgroundColor": "#707070",
           },
@@ -1976,6 +1990,7 @@ exports[`<Button> when {small} 1`] = `
             "minWidth": 28,
             "paddingHorizontal": 8,
           },
+          false,
           false,
           false,
           false,
@@ -2120,6 +2135,7 @@ exports[`<Button> when {style} 1`] = `
           false,
           false,
           false,
+          false,
           Object {
             "backgroundColor": "#707070",
           },
@@ -2249,6 +2265,7 @@ exports[`<Button> when {title} 1`] = `
             "display": "flex",
             "flexDirection": "row",
           },
+          false,
           false,
           false,
           false,
