@@ -45,6 +45,7 @@ class InputDate extends PureComponent {
     this.state = {
       active: false,
       calendar: props.value,
+      clicks: 0,
     };
   }
 
@@ -53,9 +54,9 @@ class InputDate extends PureComponent {
   }
 
   _onSelect = (value) => {
-    const { _onToggle, props: { onChange, range } } = this;
+    const { _onToggle, props: { onChange, range }, state: { clicks } } = this;
 
-    this.setState({ calendar: value });
+    this.setState({ calendar: value, clicks: clicks + 1 });
     if (!range || (value[0] && value[1])) {
       if (!range) _onToggle();
       onChange(value);
@@ -68,13 +69,29 @@ class InputDate extends PureComponent {
     this.setState({ active: !active });
   }
 
+  _onToggle = (event) => {
+    const { state: { active }, _onToggleOutside } = this;
+    if (event) this.touchable = event.currentTarget.parentElement;
+
+    if (!active) document.addEventListener('click', _onToggleOutside, false);
+    else document.removeEventListener('click', _onToggleOutside, false);
+
+    this.setState({ active: !active });
+  }
+
+  _onToggleOutside = (e) => {
+    const { _onToggle } = this;
+    if (this.touchable.contains(e.target)) return;
+    _onToggle();
+  }
+
   render() {
     const {
       _onSelect, _onToggle,
       props: {
         disabled, error, hint, label, locale, onChange, placeholder, range, value, ...inherit
       },
-      state: { active, calendar },
+      state: { active, calendar, clicks },
     } = this;
     const { VIEWPORT: { REGULAR, LARGE } } = LAYOUT;
 
@@ -82,7 +99,7 @@ class InputDate extends PureComponent {
       <View style={[styles.container, active && styles.active, inherit.style]}>
         { label && <InputLabel>{label}</InputLabel> }
 
-        <Touchable onPress={!disabled ? _onToggle : undefined}>
+        <Touchable onPress={!disabled ? event => _onToggle(event) : undefined}>
           <View
             style={[
               styles.border,
@@ -118,6 +135,7 @@ class InputDate extends PureComponent {
             onSelect={_onSelect}
             style={[styles.calendar, label && styles.withLabel]}
             value={calendar}
+            clicks={clicks}
           />
         )}
       </View>

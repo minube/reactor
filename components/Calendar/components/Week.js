@@ -7,17 +7,19 @@ import Touchable from '../../Touchable';
 import styles, { BOX_SIZE } from './Week.style';
 
 const onPress = ({
-  day, tsDay, tsStart, tsEnd, onSelect, range, value,
+  day, onSelect, range, value, clicks,
 }) => {
+  const values = day.getTime() < value[0].getTime() ? [day, value[0]] : [value[0], day];
+
   if (!range) onSelect(day);
-  else if (tsDay < tsStart) onSelect([day, value[0]]);
-  else if (!tsStart || tsEnd > tsStart) onSelect([day]);
-  else if (tsDay > tsStart) onSelect([value[0], day]);
+  else if (clicks % 2 === 0) onSelect([day]);
+  else if (clicks % 2 !== 0) onSelect(values);
 };
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
-    availableDates, box, busy, captions, disabledDates, disabledPast, edges, expanded, month, range, today, value,
+    availableDates, box, busy, captions, clicks, disabledDates, disabledPast, edges,
+    expanded, month, range, today, value,
   } = inherit;
   const tsToday = today.getTime();
 
@@ -79,7 +81,7 @@ const Week = ({ firstDate, ...inherit }) => {
             key={day.toString()}
             onPress={!isDisabled
               ? () => onPress({
-                day, tsDay, tsStart, tsEnd, ...inherit,
+                day, clicks, ...inherit,
               })
               : undefined
             }

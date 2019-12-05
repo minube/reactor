@@ -1215,6 +1215,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "paddingHorizontal": 0,
               },
+              false,
               Object {
                 "backgroundColor": "#707070",
               },
@@ -1361,6 +1362,7 @@ exports[`<Slider> when {navigation} 1`] = `
               Object {
                 "paddingHorizontal": 0,
               },
+              false,
               Object {
                 "backgroundColor": "#707070",
               },

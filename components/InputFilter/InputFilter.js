@@ -19,6 +19,7 @@ class InputFilter extends PureComponent {
     label: string,
     onClickItem: func,
     onChange: func,
+    subtitle: string,
     value: string,
   };
 
@@ -30,6 +31,7 @@ class InputFilter extends PureComponent {
     label: undefined,
     onClickItem: undefined,
     onChange: undefined,
+    subtitle: undefined,
     value: undefined,
   };
 
@@ -42,11 +44,13 @@ class InputFilter extends PureComponent {
   }
 
   _onChange = async (value) => {
-    const { dataSource } = this.props;
+    const { dataSource, onClickItem } = this.props;
     this.setState({ inputValue: value, visible: value.length > 2 });
 
+    if (value.length === 0) onClickItem({ id: undefined });
+
     const dataFiltered = dataSource.filter(item => (
-      JSON.stringify(Object.values(item)).toLowerCase().search(value) > -1
+      item.name.toLowerCase().search(value) > -1
     ));
 
     this.setState({ dataFiltered });
@@ -58,17 +62,38 @@ class InputFilter extends PureComponent {
     this.setState({ inputValue: item.name, visible: false });
   };
 
+  _onToggle = (event) => {
+    const { state: { visible }, _onToggleOutside } = this;
+    const { onClickItem } = this.props;
+
+    if (event) {
+      this.touchable = event.currentTarget;
+      if (event.target.value && event.target.value.length > 0) onClickItem({ id: undefined })
+    }
+
+    if (!visible) document.addEventListener('click', _onToggleOutside, false);
+    else document.removeEventListener('click', _onToggleOutside, false);
+
+    this.setState({ inputValue: '', visible: false });
+  }
+
+  _onToggleOutside = (event) => {
+    const { _onToggle } = this;
+    if (this.touchable.contains(event.target)) return;
+    _onToggle();
+  }
+
   render() {
     const {
-      _onChange, _onClickItem,
+      _onToggle, _onChange, _onClickItem,
       state: {
         inputValue, visible, dataFiltered,
       },
-      props: { ...inherit },
+      props: { subtitle, ...inherit },
     } = this;
 
     return (
-      <View style={[styles.container, inherit.style]}>
+      <View style={[styles.container, inherit.style]} onClick={event => _onToggle(event)}>
         <Input
           {...inherit}
           onChange={values => _onChange(values)}
@@ -83,7 +108,11 @@ class InputFilter extends PureComponent {
                 key={item.id}
                 onPress={() => _onClickItem(item)}
               >
-                <Text subtitle level={2} key={item.id} numberOfLines={1}>{item.name}</Text>
+                <View>
+                  <Text subtitle level={2} key={item.id} numberOfLines={1}>
+                    {`${item.name}${subtitle && ` - ${item[subtitle]}`}`}
+                  </Text>
+                </View>
               </Touchable>
             ))}
           </View>
