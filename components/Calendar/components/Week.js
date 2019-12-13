@@ -9,12 +9,16 @@ import styles, { BOX_SIZE } from './Week.style';
 const onPress = ({
   day, onSelect, range, value, clicks,
 }) => {
-  const values = day.getTime() < value[0].getTime() ? [day, value[0]] : [value[0], day];
+  let values;
+  if (range) {
+    values = day.getTime() < value[0].getTime() ? [day, value[0]] : [value[0], day];
+  }
 
   if (!range) onSelect(day);
   else if (clicks % 2 === 0) onSelect([day]);
   else if (clicks % 2 !== 0) onSelect(values);
 };
+
 
 const Week = ({ firstDate, ...inherit }) => {
   const {
