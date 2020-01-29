@@ -15,7 +15,7 @@ import InputSelect from '../InputSelect';
 import Text from '../Text';
 import Switch from '../Switch';
 import {
-  buildStyle, consolidate, isValidEmail, isValidNumber, isValidPhone, set,
+  buildStyle, consolidate, isValidEmail, isValidNumber, isValidPhone, isValidCustom, set,
 } from './modules';
 import styles from './Form.style';
 
@@ -23,6 +23,7 @@ const KEYBOARDS = {
   'email-address': isValidEmail,
   'phone-pad': isValidPhone,
   numeric: isValidNumber,
+  custom: isValidCustom,
 };
 
 const KEYBOARDS_KEYS = Object.keys(KEYBOARDS);
@@ -126,7 +127,7 @@ class Form extends PureComponent {
   renderField = ({
     field,
     props: {
-      countryCode, defaultValue, inline, minChar, native, required, style, type, ...props
+      countryCode, defaultValue, inline, minChar, maxChar, validator, native, required, style, type, ...props
     } = {},
     value = defaultValue,
     keyMap,
@@ -135,8 +136,7 @@ class Form extends PureComponent {
     let { error } = props;
     let invalid = required && !props.disabled && ((!type && value && value.trim().length === 0) || !value);
     let valid = false;
-
-    if (KEYBOARDS_KEYS.includes(props.keyboard) && (!KEYBOARDS[props.keyboard](value, { countryCode, minChar }))) {
+    if (KEYBOARDS_KEYS.includes(props.keyboard) && (!KEYBOARDS[props.keyboard](value, { countryCode, minChar, maxChar, validator }))) {
       error = 'error';
       invalid = true;
     }
