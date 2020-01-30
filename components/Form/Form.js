@@ -133,10 +133,17 @@ class Form extends PureComponent {
     keyMap,
   }) => {
     const { _onChange, props: { color, validate, onClickItem } } = this;
+    // eslint-disable-next-line react/prop-types
     let { error } = props;
     let invalid = required && !props.disabled && ((!type && value && value.trim().length === 0) || !value);
     let valid = false;
-    if (KEYBOARDS_KEYS.includes(props.keyboard) && (!KEYBOARDS[props.keyboard](value, { countryCode, minChar, maxChar, validator }))) {
+    if (KEYBOARDS_KEYS.includes(props.keyboard) && (!KEYBOARDS[props.keyboard](value,
+      {
+        countryCode,
+        minChar,
+        maxChar,
+        validator,
+      }))) {
       error = 'error';
       invalid = true;
     }
