@@ -2,7 +2,7 @@ import isValidNumber from './isValidNumber';
 
 describe('Components:Form:modules:isValidNumber', () => {
   it('default', () => {
-    const value = isValidNumber('', {});
+    const value = isValidNumber('', {}, {});
     expect(value).toEqual(true);
   });
 
@@ -18,7 +18,7 @@ describe('Components:Form:modules:isValidNumber', () => {
   });
 
   it('using a correct value', () => {
-    let value = isValidNumber('111222333', { minChar: 8 });
+    let value = isValidNumber('111222333', { minChar: 2 });
     expect(value).toEqual(true);
 
     value = isValidNumber('1122233', { minChar: 6, maxChar: 10 });
