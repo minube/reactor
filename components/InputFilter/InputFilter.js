@@ -68,7 +68,7 @@ class InputFilter extends PureComponent {
 
     if (event) {
       this.touchable = event.currentTarget;
-      if (event.target.value && event.target.value.length > 0) onClickItem({ id: undefined })
+      if (event.target.value && event.target.value.length > 0) onClickItem({ id: undefined });
     }
 
     if (!visible) document.addEventListener('click', _onToggleOutside, false);
