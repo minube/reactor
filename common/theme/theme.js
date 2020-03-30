@@ -2,6 +2,7 @@ import { Platform } from 'react-native';
 
 const WHITE = '#ffffff';
 const BLACK = '#000000';
+const RED = '#ef5160';
 const FAMILY = Platform.OS === 'web' ? '"Open Sans", sans-serif' : undefined;
 const FAMILY_SECONDARY = Platform.OS === 'web' ? 'Montserrat, sans-serif' : undefined;
 const UNIT = 10;
@@ -15,6 +16,7 @@ export default {
   BORDER_RADIUS: UNIT * 0.3,
 
   COLOR: {
+    ALERT_BACKGROUND: `${RED}26`,
     BACKGROUND: WHITE,
     BACKGROUND_INPUT: WHITE,
     BASE: '#cdd2d4', // disabled
