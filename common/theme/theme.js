@@ -25,6 +25,7 @@ export default {
     ERROR: '#ef5160',
     LIGHT_ERROR: '#fdeeef',
     LIGHT_GREY: '#9B9B9B',
+    BOOKING_PAYMENT_INCIDENCE_LABEL: '#f69a37',
     PRIMARY: '#10c0bc',
     RED,
     DISCOUNT_LABEL: '#fa4472',
