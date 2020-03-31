@@ -27,6 +27,7 @@ export default {
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
     RED,
+    DISCOUNT_LABEL: '#fa4472',
     SECONDARY: '#a66ecc',
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#707070',
