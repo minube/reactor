@@ -26,6 +26,7 @@ export default {
     LIGHT_ERROR: '#fdeeef',
     LIGHT_GREY: '#9B9B9B',
     PRIMARY: '#10c0bc',
+    RED,
     SECONDARY: '#a66ecc',
     TEXT: '#4a4a4a',
     TEXT_LIGHTEN: '#707070',
