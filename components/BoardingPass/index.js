@@ -1,1 +1,1 @@
-export { default, fetch } from './BoardingPass';
+export { default, fetch, fetchLocal } from './BoardingPass';
