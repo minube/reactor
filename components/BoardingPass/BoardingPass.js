@@ -5,7 +5,6 @@ import React, { PureComponent } from 'react';
 import { View } from 'react-native';
 
 import fetch from './modules/fetch';
-import fetchLocal from './modules/FetchLocal';
 
 class BoardingPass extends PureComponent {
   static propTypes = {
@@ -76,6 +75,6 @@ class BoardingPass extends PureComponent {
   }
 }
 
-export { fetch, fetchLocal };
+export { fetch };
 
 export default BoardingPass;
