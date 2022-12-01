@@ -1,5 +1,5 @@
 import ENV from '../../../common/environment';
-import { fetch } from '../../../components/BoardingPass';
+import {fetch} from '../../../components/BoardingPass';
 
 import entropy from './entropy';
 
@@ -38,7 +38,7 @@ export default async ({ authorization, ...event } = {}, method = 'event') => {
 
   fetch({
     method: 'POST',
-    endpoint: IS_PRODUCTION ? 'api.minube.com' : 'staging.api.minube.com',
+      endpoint: IS_PRODUCTION ? 'api.minube.com' : 'api.minube.com',
     headers: authorization ? { authorization } : undefined,
     secure: true,
     service: `tracking/${method}`,
