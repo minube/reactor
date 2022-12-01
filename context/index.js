@@ -1,6 +1,5 @@
 import { func, node, shape } from 'prop-types';
 import React from 'react';
-
 import SHAPE from '../common/shape';
 import { ConsumerTracking, ProviderTracking } from './Tracking';
 import { ConsumerL10N, ProviderL10N } from './L10N';

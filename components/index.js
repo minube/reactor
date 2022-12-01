@@ -1,6 +1,6 @@
 import Activity from './Activity';
 import Avatar from './Avatar';
-import BoardingPass, { fetch, fetchLocal } from './BoardingPass';
+import BoardingPass, { fetch } from './BoardingPass';
 import Breadcrumbs from './Breadcrumbs';
 import Button from './Button';
 import Calendar from './Calendar';
@@ -43,7 +43,6 @@ export {
   Avatar,
   BoardingPass,
   fetch,
-  fetchLocal,
   Breadcrumbs,
   Button,
   Calendar,
