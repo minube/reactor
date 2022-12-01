@@ -2,7 +2,7 @@ import { ENV } from '../../../common';
 
 const { IS_PRODUCTION } = ENV;
 const DEFAULT_METHOD = 'GET';
-const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'staging.mapi.minube.com';
+const ENDPOINT = IS_PRODUCTION ? 'mapi.minube.com' : 'mapi.minube.com';
 const FORM_METHODS = ['POST'];
 const HEADER_JSON = {
   'Content-Type': 'application/json; charset=UTF-8',
