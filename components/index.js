@@ -20,6 +20,7 @@ import InputSearch from './InputSearch';
 import InputSelect from './InputSelect';
 import LayoutView, { LayoutConsumer } from './Layout';
 import Link from './Link';
+import Loading from './Loading';
 import ListingCard from './ListingCard';
 import Markdown from './Markdown';
 import Motion from './Motion';
@@ -62,6 +63,7 @@ export {
   LayoutView,
   LayoutConsumer,
   Link,
+  Loading,
   ListingCard,
   Markdown,
   Motion,
