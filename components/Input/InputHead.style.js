@@ -16,10 +16,11 @@ export default StyleSheet.create({
   },
 
   text:{
-    flex: 1
+    flex: 1,
+    marginTop: '1px'
   },
 
   iconLeft:{
-
+    marginRight: SPACE.S
   }
 });
