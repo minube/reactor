@@ -6,8 +6,8 @@ const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
-    marginTop: SPACE.XXS,
-    marginBottom: SPACE.XS,
+    marginTop: SPACE.XS,
+    marginBottom: SPACE.L,
     paddingLeft: 0,
     maxWidth: '100%',
   },

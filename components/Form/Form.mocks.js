@@ -1,7 +1,7 @@
 import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks';
 
 const ATTRIBUTES = {
-  title: { type: 'heading', title: 'heading text' },
+  title: { type: 'heading', label: 'heading text' },
   terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
   username: {
     disabled: true, required: true, defaultValue: 'soyjavi',
