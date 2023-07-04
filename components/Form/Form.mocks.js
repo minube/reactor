@@ -1,6 +1,7 @@
 import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks';
 
 const ATTRIBUTES = {
+  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
   username: {
     disabled: true, required: true, defaultValue: 'soyjavi',
   },
@@ -74,7 +75,6 @@ const ATTRIBUTES = {
     },
   },
   languages: { type: 'list' },
-  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
   destination: {
     label: 'search',
     icon: 'search',

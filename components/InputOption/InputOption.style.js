@@ -18,6 +18,7 @@ export default StyleSheet.create({
   },
 
   label: {
+    fontWeight:400,
     marginBottom: 0,
     marginLeft: SPACE.XS,
   },

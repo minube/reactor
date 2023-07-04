@@ -11,16 +11,18 @@ import styles from './InputOption.style';
 const InputOption = ({
   label, onChange, rounded, value, ...inherit
 }) => (
-  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, inherit.style]}>
-    <Fragment>
-      <View style={[styles.option, rounded && styles.rounded, value && styles.selected]}>
-        <Motion preset="pop" visible={value}>
-          <Icon value="doneContrast" reverse style={styles.icon} />
-        </Motion>
-      </View>
-      { label && <InputLabel style={styles.label}>{label}</InputLabel> }
-    </Fragment>
-  </Touchable>
+    <View style={[styles.container, inherit.style]}>
+      <Touchable onPress={onChange ? () => onChange(!value) : undefined} >
+        <Fragment>
+          <View style={[styles.option, rounded && styles.rounded, value && styles.selected]}>
+            <Motion preset="pop" visible={value}>
+              <Icon value="doneContrast" reverse style={styles.icon} />
+            </Motion>
+          </View>
+        </Fragment>
+      </Touchable>
+        { label && <InputLabel style={styles.label}>{label}</InputLabel> }
+    </View>
 );
 
 InputOption.propTypes = {
