@@ -1,14 +1,25 @@
 import { StyleSheet } from 'react-native';
 
-import { THEME } from '../../common';
+import { LAYOUT, THEME } from '../../common';
 
 const { SPACE } = THEME;
 
 export default StyleSheet.create({
   container: {
+    ...LAYOUT.STYLE.ROW,
     marginTop: SPACE.XS,
     marginBottom: SPACE.L,
     paddingLeft: 0,
-    maxWidth: '100%',
+    alignItems: 'flex-start',
+    minWidth: '100%',
+    float: 'left'
   },
+
+  text:{
+    flex: 1
+  },
+
+  iconLeft:{
+
+  }
 });
