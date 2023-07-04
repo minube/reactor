@@ -30,8 +30,6 @@ const InputOption = ({
             href={link}
             target={target}
             color={THEME.COLOR.PRIMARY}
-            onMouseEnter={() => this.setState({ hover: true })}
-            onMouseLeave={() => this.setState({ hover: false })}
             style={[styles.label]}
         >{label}</Text> }
     </View>

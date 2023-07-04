@@ -21,7 +21,6 @@ export default StyleSheet.create({
     fontWeight:400,
     marginBottom: 0,
     marginLeft: SPACE.XS,
-    textDecoration: 'underline'
   },
 
   option: {
