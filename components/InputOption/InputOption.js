@@ -7,9 +7,12 @@ import InputLabel from '../Input/InputLabel';
 import Motion from '../Motion';
 import Touchable from '../Touchable';
 import styles from './InputOption.style';
+import Link from '../Link/Link';
+import { THEME } from '../../common';
+import Text from '../Text';
 
 const InputOption = ({
-  label, onChange, rounded, value, ...inherit
+  label, onChange, rounded,link,target='_blank', value, ...inherit
 }) => (
     <View style={[styles.container, inherit.style]}>
       <Touchable onPress={onChange ? () => onChange(!value) : undefined} >
@@ -21,7 +24,16 @@ const InputOption = ({
           </View>
         </Fragment>
       </Touchable>
-        { label && <InputLabel style={styles.label}>{label}</InputLabel> }
+        { label && <Text
+            {...inherit}
+            accessibilityRole="link"
+            href={link}
+            target={target}
+            color={THEME.COLOR.PRIMARY}
+            onMouseEnter={() => this.setState({ hover: true })}
+            onMouseLeave={() => this.setState({ hover: false })}
+            style={[styles.label]}
+        >{label}</Text> }
     </View>
 );
 

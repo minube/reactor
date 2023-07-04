@@ -2,7 +2,7 @@ import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks'
 
 const ATTRIBUTES = {
   title: { type: 'heading', label: 'heading text', icon:'twitter' },
-  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
+  terms: { type: 'option', label: 'Términos y condiciones', rounded: false, link:'https://www.minube.com' },
   username: {
     disabled: true, required: true, defaultValue: 'soyjavi',
   },
