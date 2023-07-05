@@ -29,7 +29,7 @@ const InputOption = ({
             target={target}
             color={THEME.COLOR.PRIMARY}
             style={[styles.label]}
-        > <div dangerouslySetInnerHTML={{ __html: 'soy un texto <a href="https://www.enlace1.com">Enlace1</a> que tiene dos <a href="https://www.enlace2.com">enlace2</a>' }} /> </Text> }
+        > <span dangerouslySetInnerHTML={{ __html: 'soy un texto <a href="https://www.enlace1.com">Enlace1</a> que tiene dos <a href="https://www.enlace2.com">enlace2</a>' }} /> </Text> }
     </View>
 );
 
