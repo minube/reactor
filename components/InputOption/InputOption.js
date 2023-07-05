@@ -27,7 +27,7 @@ const InputOption = ({
         { label && <Text
             {...inherit}
             accessibilityRole="link"
-            href={inherit.link}
+            href={link}
             target={target}
             color={THEME.COLOR.PRIMARY}
             style={[styles.label]}
