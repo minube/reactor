@@ -3,16 +3,15 @@ import React, { Fragment } from 'react';
 import { View } from 'react-native';
 
 import Icon from '../Icon';
-import InputLabel from '../Input/InputLabel';
 import Motion from '../Motion';
 import Touchable from '../Touchable';
-import styles from './InputOption.style';
-import Link from '../Link/Link';
+import styles from './PrivacyTerms.style';
+
 import { THEME } from '../../common';
 import Text from '../Text';
 
-const InputOption = ({
-  label, onChange, rounded,link,target='_blank', value, ...inherit
+const PrivacyTerms = ({
+  label, onChange, rounded, replaces, value, ...inherit
 }) => (
     <View style={[styles.container, inherit.style]}>
       <Touchable onPress={onChange ? () => onChange(!value) : undefined} >
@@ -26,25 +25,27 @@ const InputOption = ({
       </Touchable>
         { label && <Text
             {...inherit}
-            target={target}
-            color={THEME.COLOR.TEXT}
+            color={THEME.COLOR.Text}
             style={[styles.label]}
-        > {label} </Text> }
+        > <span dangerouslySetInnerHTML={{ __html: label
+          .replace('_POLICY_TERMS_','<a href="'+replaces.POLICY_TERMS_URL.toString()+'" target="_blank" style="color:'+THEME.COLOR.PRIMARY+'">'+replaces.POLICY_TERMS.toString()+'</a>')
+          .replace('_POLICY_PRIVACY_','<a href="'+replaces.POLICY_PRIVACY_URL.toString()+'" target="_blank" style="color:'+THEME.COLOR.PRIMARY+'">'+replaces.POLICY_PRIVACY.toString()+'</a>') }} />
+        </Text> }
     </View>
 );
 
-InputOption.propTypes = {
+PrivacyTerms.propTypes = {
   label: string,
   onChange: func,
   rounded: bool,
   value: bool,
 };
 
-InputOption.defaultProps = {
+PrivacyTerms.defaultProps = {
   label: undefined,
   onChange: undefined,
   rounded: true,
   value: false,
 };
 
-export default InputOption;
+export default PrivacyTerms;

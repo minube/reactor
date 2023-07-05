@@ -19,6 +19,7 @@ import {
 } from './modules';
 import styles from './Form.style';
 import InputHead from '../Input/InputHead';
+import PrivacyTerms from '../PrivacyTerms';
 
 const KEYBOARDS = {
   'email-address': isValidEmail,
@@ -37,6 +38,7 @@ const Inputs = {
   list: InputList,
   option: InputOption,
   heading: InputHead,
+  privacyTerms: PrivacyTerms,
   select: InputSelect,
   searcher: InputSearch,
 };

@@ -1,0 +1,607 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputOption> inherity:style 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        Object {
+          "backgroundColor": "rgba(0,255,0,0.25)",
+          "padding": 10,
+        },
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#707070",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "height": 20,
+          "justifyContent": "center",
+          "width": 20,
+        },
+        Object {
+          "borderRadius": 10,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "opacity": 0,
+          "transform": Array [
+            Object {
+              "scale": 0,
+            },
+          ],
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/done_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 14,
+              "width": 14,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<InputOption> label 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#707070",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "height": 20,
+          "justifyContent": "center",
+          "width": 20,
+        },
+        Object {
+          "borderRadius": 10,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "opacity": 0,
+          "transform": Array [
+            Object {
+              "scale": 0,
+            },
+          ],
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/done_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 14,
+              "width": 14,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    numberOfLines={2}
+    style={
+      Array [
+        Object {
+          "color": "#4a4a4a",
+          "fontFamily": undefined,
+          "fontWeight": "400",
+          "textAlignVertical": "center",
+        },
+        Object {
+          "fontFamily": undefined,
+          "fontSize": 14,
+          "fontWeight": "600",
+          "lineHeight": 16,
+        },
+        Object {
+          "color": "#707070",
+        },
+        Object {
+          "color": "#4a4a4a",
+          "marginBottom": 0,
+          "marginLeft": 8,
+        },
+      ]
+    }
+  >
+    Lorem Ipsum...
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<InputOption> renders 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#707070",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "height": 20,
+          "justifyContent": "center",
+          "width": 20,
+        },
+        Object {
+          "borderRadius": 10,
+        },
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "opacity": 0,
+          "transform": Array [
+            Object {
+              "scale": 0,
+            },
+          ],
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/done_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 14,
+              "width": 14,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<InputOption> rounded (false) 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#707070",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "height": 20,
+          "justifyContent": "center",
+          "width": 20,
+        },
+        false,
+        false,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "opacity": 0,
+          "transform": Array [
+            Object {
+              "scale": 0,
+            },
+          ],
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/done_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 14,
+              "width": 14,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<InputOption> value 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  pointerEvents="none"
+  style={
+    Array [
+      undefined,
+      Array [
+        Object {
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "row",
+          "marginBottom": 20,
+        },
+        undefined,
+      ],
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ffffff",
+          "borderColor": "#707070",
+          "borderRadius": 2,
+          "borderWidth": 2,
+          "height": 20,
+          "justifyContent": "center",
+          "width": 20,
+        },
+        Object {
+          "borderRadius": 10,
+        },
+        Object {
+          "backgroundColor": "#10c0bc",
+          "borderColor": "#10c0bc",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "opacity": 1,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <Image
+        resizeMode="contain"
+        source={
+          Object {
+            "testUri": "../../../components/Icon/assets/done_contrast.png",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "backgroundColor": "transparent",
+              "height": 20,
+              "width": 20,
+            },
+            Object {
+              "height": 14,
+              "width": 14,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "borderRadius": 3,
+          "bottom": 0,
+          "left": 0,
+          "overflow": "hidden",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "backgroundColor": "#cdd2d4",
+          "height": 0,
+          "opacity": 0,
+          "width": 0,
+          "zIndex": 0,
+        }
+      }
+    />
+  </View>
+</View>
+`;

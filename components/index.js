@@ -15,6 +15,7 @@ import InputDate from './InputDate';
 import InputFilter from './InputFilter';
 import InputImage from './InputImage';
 import InputList from './InputList';
+import PrivacyTerms from './PrivacyTerms';
 import InputOption from './InputOption';
 import InputSearch from './InputSearch';
 import InputSelect from './InputSelect';
@@ -66,6 +67,7 @@ export {
   Loading,
   ListingCard,
   Markdown,
+  PrivacyTerms,
   Motion,
   PictureCard,
   Price,
