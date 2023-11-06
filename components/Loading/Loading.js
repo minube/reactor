@@ -9,7 +9,7 @@ class Loading extends PureComponent {
   render() {
     return (
         <Animated.View style={[
-            styles.default
+            styles.EmailConfirmation
         ]}/>
     );
   }
