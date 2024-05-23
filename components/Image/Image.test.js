@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import { THEME } from '../../common';
+import {THEME} from '../../common';
 import Image from './Image';
 
 const dataSource = [
@@ -11,7 +11,7 @@ const dataSource = [
 ];
 
 const IMAGE_PLACEHOLDER = 'https://picsum.photos/320/200/?random';
-const IMAGE_AKAMAI = 'https://imgs-akamai.mnstatic.com//tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg';
+const IMAGE_AKAMAI = 'https://images.mnstatic.com//Tools//genericimages//fc5b42a5baceed399c3bb913406693fd3d4d64ef8bb69457697c90cb71b2c4dd.jpg';
 
 describe('<Image>', () => {
   it('renders', () => {

@@ -1,10 +1,23 @@
 import { DATASOURCE, DATASOURCE_STRING } from '../InputSelect/InputSelect.mocks';
 
 const ATTRIBUTES = {
-  username: {
-    disabled: true, required: true, defaultValue: 'soyjavi',
+  title: { type: 'heading', label: 'heading text', icon:'twitter' },
+  checkbox: { type: 'option', label: 'Quiero recibir las comunicaciones', rounded: false, link:'https://www.minube.com' },
+  terms: {
+    label: 'Acepto los _POLICY_TERMS_ y la _POLICY_PRIVACY_',
+    replaces: {
+      POLICY_TERMS: 'términos y condiciones',
+      POLICY_TERMS_URL: 'https://www.minube.com/terminos',
+      POLICY_PRIVACY: 'política de privacidad',
+      POLICY_PRIVACY_URL: 'https://www.minube.com/privacidad',
+    },
+    type: 'privacyTerms',
+    rounded: true,
   },
-  password: { required: true, defaultValue: 'soyjavi' },
+  username: {
+    disabled: true, required: true, defaultValue: 'munix',
+  },
+  password: { required: true, defaultValue: 'munix' },
   mail: {
     keyboard: 'email-address',
     placeholder: 'Your email...',
@@ -55,7 +68,7 @@ const ATTRIBUTES = {
     type: 'date',
     inline: 2,
   },
-  avatar: { type: 'image', defaultValue: 'http://soyjavi.com/assets/images/soyjavi.jpg' },
+  avatar: { type: 'image', defaultValue: 'https://avatars.mnstatic.com/7_80x80_8.jpg' },
   twitter: { icon: 'twitter', inline: 3 },
   isPublic: { type: 'bool', inline: 3 },
   isPrivate: { type: 'bool', inline: 3 },
@@ -74,7 +87,6 @@ const ATTRIBUTES = {
     },
   },
   languages: { type: 'list' },
-  terms: { type: 'option', label: 'ACCEPT, terms & conditions', rounded: false },
   destination: {
     label: 'search',
     icon: 'search',
@@ -83,11 +95,12 @@ const ATTRIBUTES = {
 };
 
 const VALUE = {
-  username: 'soyjavi',
+  username: 'munix',
   isPublic: true,
   social: {
-    twitter: 'soyjavi',
+    twitter: 'munix',
     facebook: '😅',
+    github: 'https://github.com/pablonube',
   },
   languages: ['JavaScript', 'CoffeeScript', 'C++'],
 };

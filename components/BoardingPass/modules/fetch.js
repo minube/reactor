@@ -1,4 +1,4 @@
-import { ENV } from '../../../common';
+import {ENV} from '../../../common';
 
 const { IS_PRODUCTION } = ENV;
 const DEFAULT_METHOD = 'GET';

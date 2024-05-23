@@ -7,20 +7,30 @@ import InputLabel from '../Input/InputLabel';
 import Motion from '../Motion';
 import Touchable from '../Touchable';
 import styles from './InputOption.style';
+import Link from '../Link/Link';
+import { THEME } from '../../common';
+import Text from '../Text';
 
 const InputOption = ({
-  label, onChange, rounded, value, ...inherit
+  label, onChange, rounded,link,target='_blank', value, ...inherit
 }) => (
-  <Touchable onPress={onChange ? () => onChange(!value) : undefined} style={[styles.container, inherit.style]}>
-    <Fragment>
-      <View style={[styles.option, rounded && styles.rounded, value && styles.selected]}>
-        <Motion preset="pop" visible={value}>
-          <Icon value="doneContrast" reverse style={styles.icon} />
-        </Motion>
-      </View>
-      { label && <InputLabel style={styles.label}>{label}</InputLabel> }
-    </Fragment>
-  </Touchable>
+    <View style={[styles.container, inherit.style]}>
+      <Touchable onPress={onChange ? () => onChange(!value) : undefined} >
+        <Fragment>
+          <View style={[styles.option, rounded && styles.rounded, value && styles.selected]}>
+            <Motion preset="pop" visible={value}>
+              <Icon value="doneContrast" reverse style={styles.icon} />
+            </Motion>
+          </View>
+        </Fragment>
+      </Touchable>
+        { label && <Text
+            {...inherit}
+            target={target}
+            color={THEME.COLOR.TEXT}
+            style={[styles.label]}
+        > {label} </Text> }
+    </View>
 );
 
 InputOption.propTypes = {
